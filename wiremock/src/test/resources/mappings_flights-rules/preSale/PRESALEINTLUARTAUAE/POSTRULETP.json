@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "UA-UA-83-DEL-EWR-2020-08-19 23:35-2020-08-20 04:55"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTLUARTAUAE/GETRULETP.json"
+  }
+}
+

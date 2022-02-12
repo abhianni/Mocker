@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-mp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "UK-UK-979-DEL-AMD-2020-09-26 08:30-2020-09-26 09:50"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEDOMUKOWAC/GETRULEMP.json"
+  }
+}
+

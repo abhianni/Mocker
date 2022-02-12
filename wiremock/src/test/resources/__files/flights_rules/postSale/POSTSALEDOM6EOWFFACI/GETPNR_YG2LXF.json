@@ -1,0 +1,315 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "1957",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.5",
+    "serviceName": "Pnr-Service",
+    "supplierName": "NAV42",
+    "credentialId": "6EUNI3",
+    "supplierLatency": "799",
+    "corporateCode": "",
+    "promoCode": ""
+  },
+  "flightLookUpList": {
+    "IXJ$DEL$2019-11-01 16:10:00$6E- 535": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": " 535",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "arpCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-11-01 16:10:00",
+      "arrTime": "2019-11-01 17:35:00",
+      "durInMins": "85"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "IXJ$DEL$2019-11-01 16:10:00$6E- 535",
+      "depDate": "2019-11-01 16:10:00",
+      "arrDate": "2019-11-01 17:35:00",
+      "durInMins": "85",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "IXJ$DEL$2019-11-01 16:10:00$6E- 535",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "ADULT": {
+              "bs": 4675.0,
+              "tx": 764.0,
+              "noOfPax": 2,
+              "tot": 5439.0,
+              "taxBreakups": [{
+                "amnt": 91.0,
+                "code": "PSF",
+                "msg": ""
+              }, {
+                "amnt": 177.0,
+                "code": "ASF",
+                "msg": ""
+              }, {
+                "amnt": 123.0,
+                "code": "01SGST",
+                "msg": ""
+              }, {
+                "amnt": 200.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 123.0,
+                "code": "01CGST",
+                "msg": ""
+              }, {
+                "amnt": 50.0,
+                "code": "PHF",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "IXJ$DEL$2019-11-01 16:10:00$6E- 535": {
+                  "fareClass": "M",
+                  "fareBasis": "M0IP",
+                  "productClass": "R",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 15,
+                      "weightUnit": "Kilograms"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 4675.0,
+                    "tx": 764.0,
+                    "tot": 5439.0,
+                    "taxBreakups": [{
+                      "amnt": 50.0,
+                      "code": "PHF",
+                      "msg": ""
+                    }, {
+                      "amnt": 200.0,
+                      "code": "YQ",
+                      "msg": ""
+                    }, {
+                      "amnt": 177.0,
+                      "code": "ASF",
+                      "msg": ""
+                    }, {
+                      "amnt": 91.0,
+                      "code": "PSF",
+                      "msg": ""
+                    }, {
+                      "amnt": 123.0,
+                      "code": "01CGST",
+                      "msg": ""
+                    }, {
+                      "amnt": 123.0,
+                      "code": "01SGST",
+                      "msg": ""
+                    }]
+                  }
+                }
+              }
+            },
+            "CHILD": {
+              "bs": 4675.0,
+              "tx": 764.0,
+              "noOfPax": 1,
+              "tot": 5439.0,
+              "taxBreakups": [{
+                "amnt": 91.0,
+                "code": "PSF",
+                "msg": ""
+              }, {
+                "amnt": 177.0,
+                "code": "ASF",
+                "msg": ""
+              }, {
+                "amnt": 123.0,
+                "code": "01SGST",
+                "msg": ""
+              }, {
+                "amnt": 200.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 123.0,
+                "code": "01CGST",
+                "msg": ""
+              }, {
+                "amnt": 50.0,
+                "code": "PHF",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "IXJ$DEL$2019-11-01 16:10:00$6E- 535": {
+                  "fareClass": "M",
+                  "fareBasis": "M0IP",
+                  "productClass": "R",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 15,
+                      "weightUnit": "Kilograms"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 4675.0,
+                    "tx": 764.0,
+                    "tot": 5439.0,
+                    "taxBreakups": [{
+                      "amnt": 50.0,
+                      "code": "PHF",
+                      "msg": ""
+                    }, {
+                      "amnt": 200.0,
+                      "code": "YQ",
+                      "msg": ""
+                    }, {
+                      "amnt": 177.0,
+                      "code": "ASF",
+                      "msg": ""
+                    }, {
+                      "amnt": 91.0,
+                      "code": "PSF",
+                      "msg": ""
+                    }, {
+                      "amnt": 123.0,
+                      "code": "01CGST",
+                      "msg": ""
+                    }, {
+                      "amnt": 123.0,
+                      "code": "01SGST",
+                      "msg": ""
+                    }]
+                  }
+                }
+              }
+            },
+            "INFANT": {
+              "bs": 1250.0,
+              "tx": 60.0,
+              "noOfPax": 1,
+              "tot": 1310.0,
+              "taxBreakups": [{
+                "amnt": 30.0,
+                "code": "01CGST",
+                "msg": ""
+              }, {
+                "amnt": 30.0,
+                "code": "01SGST",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "IXJ$DEL$2019-11-01 16:10:00$6E- 535": {
+                  "fareClass": "M",
+                  "fareBasis": "M0IP",
+                  "productClass": "R",
+                  "cabin": "ECONOMY"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 15275.0,
+            "tx": 2352.0,
+            "tot": 17627.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "YG2LXF",
+          "aPnr": "",
+          "travelerAddons": {},
+          "travelerInfos": [{
+            "id": "0",
+            "title": "MR",
+            "paxId": "0",
+            "firstName": "Nupur Singh",
+            "middleName": "",
+            "lastName": "Jamwal",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "abhimanyu.jamwal@icloud.com",
+            "mobileNumber": "919419115959",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "",
+            "paxId": "0",
+            "firstName": "baby of nupur",
+            "middleName": "",
+            "lastName": "baby of nupur",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "",
+            "mobileNumber": "",
+            "mobileNumberCountryCode": "",
+            "paxType": "INFANT",
+            "dateOfBirth": "2019-08-28 00:00:00",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "CHD",
+            "paxId": "1",
+            "firstName": "Myrah",
+            "middleName": "",
+            "lastName": "Jamwal",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "abhimanyu.jamwal@icloud.com",
+            "mobileNumber": "919419115959",
+            "mobileNumberCountryCode": "",
+            "paxType": "CHILD",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "3",
+            "title": "MS",
+            "paxId": "2",
+            "firstName": "pinki",
+            "middleName": "",
+            "lastName": "devi",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "abhimanyu.jamwal@icloud.com",
+            "mobileNumber": "919419115959",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [],
+          "validatingCarrier": "6E",
+          "creationDate": "2019-10-27 00:01:00",
+          "fareFamily": "",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

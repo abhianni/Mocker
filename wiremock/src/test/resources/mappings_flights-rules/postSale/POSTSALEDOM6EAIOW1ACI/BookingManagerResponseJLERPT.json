@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/bookingmanager.svc",
+       "bodyPatterns":[
+{ 	"contains" : "JLERPT"
+
+}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights_rules/postSale/POSTSALEDOM6EAIOW1ACI/BookingManagerResponseJLERPT.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

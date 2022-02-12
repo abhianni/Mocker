@@ -1,0 +1,251 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "1716",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.5",
+    "serviceName": "Pnr-Service",
+    "supplierName": "NAV42",
+    "credentialId": "6EUNI_23June",
+    "supplierLatency": "574",
+    "corporateCode": "",
+    "promoCode": "MMTTBF"
+  },
+  "flightLookUpList": {
+    "HYD$VNS$2020-03-08 11:00:00$6E-6644": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "6644",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "HYD",
+        "arpNm": "Rajiv Gandhi International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "arpCd": "VNS",
+        "arpNm": "Varanasi Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-03-08 11:00:00",
+      "arrTime": "2020-03-08 12:55:00",
+      "durInMins": "115"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "HYD$VNS$2020-03-08 11:00:00$6E-6644",
+      "depDate": "2020-03-08 11:00:00",
+      "arrDate": "2020-03-08 12:55:00",
+      "durInMins": "115",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "HYD$VNS$2020-03-08 11:00:00$6E-6644",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "ADULT": {
+              "bs": 3050.0,
+              "tx": 1393.0,
+              "noOfPax": 3,
+              "tot": 4443.0,
+              "taxBreakups": [{
+                "amnt": 83.0,
+                "code": "PSF",
+                "msg": ""
+              }, {
+                "amnt": 50.0,
+                "code": "RCF",
+                "msg": ""
+              }, {
+                "amnt": 177.0,
+                "code": "ASF",
+                "msg": ""
+              }, {
+                "amnt": 507.0,
+                "code": "UDF",
+                "msg": ""
+              }, {
+                "amnt": 88.0,
+                "code": "36CGST",
+                "msg": ""
+              }, {
+                "amnt": 400.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 88.0,
+                "code": "36SGST",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "HYD$VNS$2020-03-08 11:00:00$6E-6644": {
+                  "fareClass": "Q",
+                  "fareBasis": "Q015AP",
+                  "productClass": "R",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 15,
+                      "weightUnit": "Kilograms"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 3050.0,
+                    "tx": 1393.0,
+                    "tot": 4443.0,
+                    "taxBreakups": [{
+                      "amnt": 50.0,
+                      "code": "RCF",
+                      "msg": ""
+                    }, {
+                      "amnt": 400.0,
+                      "code": "YQ",
+                      "msg": ""
+                    }, {
+                      "amnt": 177.0,
+                      "code": "ASF",
+                      "msg": ""
+                    }, {
+                      "amnt": 83.0,
+                      "code": "PSF",
+                      "msg": ""
+                    }, {
+                      "amnt": 507.0,
+                      "code": "UDF",
+                      "msg": ""
+                    }, {
+                      "amnt": 88.0,
+                      "code": "36CGST",
+                      "msg": ""
+                    }, {
+                      "amnt": 88.0,
+                      "code": "36SGST",
+                      "msg": ""
+                    }]
+                  }
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 9150.0,
+            "tx": 4179.0,
+            "tot": 13329.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "TKQJHG",
+          "aPnr": "",
+          "travelerAddons": {
+            "0": {
+              "ptcType": "ADULT",
+              "flightLevelAddons": {
+                "HYD$VNS$2020-03-08 11:00:00$6E-6644": {
+                  "addons": {
+                    "SEATS": {
+                      "addonsType": "SEATS",
+                      "amount": 0.0,
+                      "code": "14B"
+                    }
+                  }
+                }
+              }
+            },
+            "1": {
+              "ptcType": "ADULT",
+              "flightLevelAddons": {
+                "HYD$VNS$2020-03-08 11:00:00$6E-6644": {
+                  "addons": {
+                    "SEATS": {
+                      "addonsType": "SEATS",
+                      "amount": 125.0,
+                      "code": "14A"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "ptcType": "ADULT",
+              "flightLevelAddons": {
+                "HYD$VNS$2020-03-08 11:00:00$6E-6644": {
+                  "addons": {
+                    "SEATS": {
+                      "addonsType": "SEATS",
+                      "amount": 125.0,
+                      "code": "14C"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "travelerInfos": [{
+            "id": "0",
+            "title": "MS",
+            "paxId": "0",
+            "firstName": "Nikita",
+            "middleName": "",
+            "lastName": "Sinha",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "ravimude20@gmail.com",
+            "mobileNumber": "919703080066",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "MR",
+            "paxId": "1",
+            "firstName": "Ravi Ganpat",
+            "middleName": "",
+            "lastName": "Mude",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "ravimude20@gmail.com",
+            "mobileNumber": "919703080066",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "MS",
+            "paxId": "2",
+            "firstName": "Chandrakala",
+            "middleName": "",
+            "lastName": "Mude",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "ravimude20@gmail.com",
+            "mobileNumber": "919703080066",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [],
+          "validatingCarrier": "6E",
+          "creationDate": "2020-01-28 21:32:39",
+          "fareFamily": "",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

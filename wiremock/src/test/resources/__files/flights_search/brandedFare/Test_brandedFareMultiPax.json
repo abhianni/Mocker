@@ -1,0 +1,1204 @@
+{
+  "reviewKey": "flT_TEST_DOM_MultiPax_Branded",
+  "journeys": {
+    "FromCity1_ToCity1_Depart1": {
+      "segments": {
+        "FromCity1_ToCity1_Depart1": {
+          "fltLst": [
+            {
+              "amenitySegmentKey": null,
+              "depInf": {
+                "trml": "3",
+                "ctCd": "FromCity1",
+                "airp": "Indira Gandhi International Airport",
+                "ctNm": "New Delhi",
+                "arpCd": "FromCity1",
+                "cntr": "India",
+                "tmZn": "Asia/Kolkata",
+                "lat": 28.5665,
+                "long": 77.103088,
+                "cont": "India",
+                "cur": "INR"
+              },
+              "arrInf": {
+                "trml": "2",
+                "ctCd": "ToCity1",
+                "airp": "Chhatrapati Shivaji International Airport",
+                "ctNm": "Mumbai",
+                "arpCd": "ToCity1",
+                "cntr": "India",
+                "tmZn": "Asia/Kolkata",
+                "lat": 19.088686,
+                "long": 72.867919,
+                "cont": "India",
+                "cur": "INR"
+              },
+              "depDt": "DepartDate1",
+              "arrDt": "ArrivalDate1",
+              "techStpOvrLst": [
+
+              ],
+              "totDur": 130,
+              "segSlKey": null,
+              "fareSlKey": null,
+              "mrktArln": "UK",
+              "oprArln": "UK",
+              "equipTyp": "320",
+              "equipCd": null,
+              "equipNm": "Airbus A320 ",
+              "fltNum": "993",
+              "carierCode": "UK",
+              "bagDtls": [
+                {
+                  "bag": {
+                    "qty": "1",
+                    "utyp": "N",
+                    "unt": null
+                  },
+                  "pxTyp": "ADT",
+                  "pxRf": "1"
+                }
+              ],
+              "avlCntxtLst": [
+
+              ],
+              "availCount": null,
+              "cbcls": "M",
+              "pnRf": {
+
+              },
+              "splitPnr": false,
+              "availSrc": null,
+              "suplrNm": null,
+              "ao": [
+                {
+                  "at": "MEAL",
+                  "isPaid": true
+                }
+              ]
+            }
+          ],
+          "fr": [
+            {
+              "pxTypFrMap": {
+                "CHILD": [
+                  {
+                    "frId": 0,
+                    "frBrkup": {
+                      "frBrkupMap": {
+                        "TAXCOMPONENT-YR": 50,
+                        "TAXCOMPONENT-K3": 120,
+                        "TAXCOMPONENT-WO": 245,
+                        "TOT": 2751,
+                        "TAX": 551
+                      }
+                    },
+                    "segPrdctInf": [
+                      {
+                        "lgPrnfo": [
+                          {
+                            "frId": null,
+                            "rb": "O",
+                            "cbn": "M",
+                            "avl": "3",
+                            "fbc": "OL15PYL",
+                            "frAmt": null,
+                            "txAmt": null,
+                            "frtyp": [
+                              "RP"
+                            ],
+                            "brkPnt": "Y",
+                            "arrcd": "",
+                            "deptcd": "",
+                            "prdcls": null
+                          }
+                        ]
+                      }
+                    ],
+                    "paxRef": 3
+                  }
+                ],
+                "ADULT": [
+                  {
+                    "frId": 0,
+                    "frBrkup": {
+                      "frBrkupMap": {
+                        "TAXCOMPONENT-YR": 50,
+                        "TAXCOMPONENT-K3": 120,
+                        "TAXCOMPONENT-WO": 245,
+                        "TOT": 2751,
+                        "TAX": 551
+                      }
+                    },
+                    "segPrdctInf": [
+                      {
+                        "lgPrnfo": [
+                          {
+                            "frId": null,
+                            "rb": "O",
+                            "cbn": "M",
+                            "avl": "3",
+                            "fbc": "OL15PYL",
+                            "frAmt": null,
+                            "txAmt": null,
+                            "frtyp": [
+                              "RP"
+                            ],
+                            "brkPnt": "Y",
+                            "arrcd": "",
+                            "deptcd": "",
+                            "prdcls": null
+                          }
+                        ]
+                      }
+                    ],
+                    "paxRef": 1
+                  },
+                  {
+                    "frId": 0,
+                    "frBrkup": {
+                      "frBrkupMap": {
+                        "TAXCOMPONENT-YR": 50,
+                        "TAXCOMPONENT-K3": 120,
+                        "TAXCOMPONENT-WO": 245,
+                        "TOT": 2751,
+                        "TAX": 551
+                      }
+                    },
+                    "segPrdctInf": [
+                      {
+                        "lgPrnfo": [
+                          {
+                            "frId": null,
+                            "rb": "O",
+                            "cbn": "M",
+                            "avl": "3",
+                            "fbc": "OL15PYL",
+                            "frAmt": null,
+                            "txAmt": null,
+                            "frtyp": [
+                              "RP"
+                            ],
+                            "brkPnt": "Y",
+                            "arrcd": "",
+                            "deptcd": "",
+                            "prdcls": null
+                          }
+                        ]
+                      }
+                    ],
+                    "paxRef": 2
+                  }
+                ]
+              },
+              "frInfoMap": {
+
+              },
+              "subFares": [
+
+              ]
+            }
+          ],
+          "minFrRl": null,
+          "lfid": null,
+          "aggFltNum": "FromCity1$ToCity1$Depart1$UK-993",
+          "cur": null,
+          "totDur": 130,
+          "rfndbl": false,
+          "sPNR": false,
+          "hldbl": true,
+          "cbn": null,
+          "cbnCls": [
+            "M"
+          ],
+          "refAir": "UK",
+          "dep": null,
+          "arr": null,
+          "offId": null,
+          "credId": "MPDFFLT3",
+          "jrnySlKey": null,
+          "srvc": "MP",
+          "vc": "UK",
+          "currInfo": {
+            "costCurrency": "INR",
+            "sellCurrency": null,
+            "conversionFactor": null
+          },
+          "signature": null,
+          "rtngId": null
+        }
+      }
+    }
+  },
+  "combinedInfo": {
+    "COMBINED_DATA": {
+      "data": {
+        "splitPNR": false,
+        "REFUNDABLE": false,
+        "officeIds": [
+          "DELWI2202"
+        ],
+        "CABIN_CLASS": [
+          "M"
+        ],
+        "IS_PURE": true,
+        "LAST_TKT_DATE": "21DEC18",
+        "MAX_STOP": 0,
+        "HOLDABLE": true,
+        "MAX_LAYOFF_TIME": 0,
+        "refferenceAirline": "UK",
+        "IS_PURE_LCC": false,
+        "VC": "UK"
+      }
+    },
+    "FARE_CHANGE": {
+      "fareStatus": 0,
+      "oldFare": 0,
+      "newFare": 2751,
+      "totalFareChangeAmount": 8253
+    },
+    "COMBINED_REVIEW_FARE": {
+      "paxTypeFareBreakUp": {
+        "CHILD": {
+          "totalBaseFare": 2200,
+          "totalTax": 551,
+          "totalDiscount": 0,
+          "totalMarkup": 0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-YR": 50,
+            "TAXCOMPONENT-K3": 120,
+            "TAXCOMPONENT-WO": 245,
+            "TOT": 2751,
+            "TAX": 551
+          },
+          "totalFare": 2751,
+          "paxRef": 3
+        },
+        "ADULT": {
+          "totalBaseFare": 2200,
+          "totalTax": 551,
+          "totalDiscount": 0,
+          "totalMarkup": 0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-YR": 50,
+            "TAXCOMPONENT-K3": 120,
+            "TAXCOMPONENT-WO": 245,
+            "TOT": 2751,
+            "TAX": 551
+          },
+          "totalFare": 2751,
+          "paxRef": 1
+        }
+      },
+      "combinedFareBreakUp": {
+        "totalBaseFare": 6600,
+        "totalTax": 1653,
+        "totalDiscount": 0,
+        "totalMarkup": 0,
+        "fareBreakupMap": {
+          "TAXCOMPONENT-YR": 150,
+          "TAXCOMPONENT-K3": 360,
+          "TAXCOMPONENT-WO": 735,
+          "TOT": 8253,
+          "TAX": 1653
+        },
+        "totalFare": 8253,
+        "paxRef": null
+      }
+    }
+  },
+  "travellerInfo": {
+    "prtPymtEnbld": false,
+    "prtPymtSeltd": false,
+    "prtPymtAmt": null,
+    "searchKey": null,
+    "email": null,
+    "userDetails": null
+  },
+  "trvlrReqdInfo": {
+    "dobReqdForAllPax": false,
+    "dobReqdForInf": true,
+    "dobReqdForChild": false,
+    "ppMandatory": false,
+    "nationalityMandatory": false
+  },
+  "frFamilyDetails": {
+    "fareFamilyAvailable": true,
+    "fareFamilyResponse": [
+      {
+        "error": null,
+        "sector": "FromCity1-ToCity1",
+        "warning": null,
+        "cheapestFamily": "ECOYL",
+        "itineraryList": [
+          {
+            "rbd": null,
+            "boardPoint": "FromCity1",
+            "offPoint": "ToCity1",
+            "airlineName": "Vistara",
+            "mrktArln": "UK",
+            "oprArln": "UK",
+            "fltNum": "UK-993",
+            "depDt": "DepartDate1",
+            "arrDt": "ArrivalDate1"
+          }
+        ],
+        "serviceDisplayOrder": [
+          "MEAL",
+          "RFD_BF_DEPART",
+          "DATE_CHANGE",
+          "RFD_AFT_DEPART",
+          "SEAT_ASSIGN",
+          "HAND_BAGGAGE",
+          "PRI_BAGGAGE",
+          "LOUNGE"
+        ],
+        "fareFamilies": [
+          {
+            "selected": true,
+            "name": "ECOYL",
+            "description": "ECO LITE",
+            "carrier": "UK",
+            "packageSummary": {
+              "titleColor": "#ffd3d4",
+              "packageTitle": "Meals chargeable | Cancellation not offered | Date change not offered",
+              "packageDesc": "To enjoy added benefits like Free meals, Free Cancellation, Free Date change upgrade your booking",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 2751,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "0B3",
+                "status": "CHA",
+                "serviceName": "MEAL",
+                "serviceType": "ML",
+                "description": "Chargeable For Mocking 2A 1C"
+              },
+              {
+                "type": "06K",
+                "status": "NOF",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "Non Refundable"
+              },
+              {
+                "type": "068",
+                "status": "NOF",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Not Allowed For Mocking date change 2A 1C"
+              },
+              {
+                "type": "06L",
+                "status": "NOF",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "Non Refundable"
+              },
+              {
+                "type": "0B5",
+                "status": "INC",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Included"
+              },
+              {
+                "type": "0C0",
+                "status": "INC",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "0LF",
+                "status": "NOF",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Not Offered"
+              },
+              {
+                "type": "0BX",
+                "status": "NOF",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Not Offered"
+              }
+            ]
+          },
+          {
+            "selected": false,
+            "name": "ECOYS",
+            "description": "ECO STANDARD",
+            "carrier": "UK",
+            "packageSummary": {
+              "titleColor": "#cdf6e8",
+              "packageTitle": "Great choice! Your fare includes the following services:",
+              "packageDesc": "Free meals, Free Seat selection, Hand baggage",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 3013,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "0B3",
+                "status": "INC",
+                "serviceName": "MEAL",
+                "serviceType": "ML",
+                "description": "Free"
+              },
+              {
+                "type": "06K",
+                "status": "CHA",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "Chargeable"
+              },
+              {
+                "type": "068",
+                "status": "CHA",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Chargeable for mocking date change kr li 2A 1C ki"
+              },
+              {
+                "type": "06L",
+                "status": "CHA",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "Chargeable"
+              },
+              {
+                "type": "0B5",
+                "status": "INC",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Included"
+              },
+              {
+                "type": "0C0",
+                "status": "INC",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "0LF",
+                "status": "CHA",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Chargeable"
+              },
+              {
+                "type": "0BX",
+                "status": "CHA",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Chargeable"
+              }
+            ]
+          },
+          {
+            "selected": false,
+            "name": "ECOYF",
+            "description": "ECO FLEXI",
+            "carrier": "UK",
+            "packageSummary": {
+              "titleColor": "#cdf6e8",
+              "packageTitle": "Great choice! Your fare includes the following services:",
+              "packageDesc": "Free meals, Free Cancellation, Free Date change",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 3747,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "0B3",
+                "status": "INC",
+                "serviceName": "MEAL",
+                "serviceType": "ML",
+                "description": "Free"
+              },
+              {
+                "type": "06K",
+                "status": "INC",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "Free"
+              },
+              {
+                "type": "068",
+                "status": "INC",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Limited Free changes"
+              },
+              {
+                "type": "06L",
+                "status": "CHA",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "Chargeable"
+              },
+              {
+                "type": "0B5",
+                "status": "INC",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Included"
+              },
+              {
+                "type": "0C0",
+                "status": "INC",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "0LF",
+                "status": "INC",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Free"
+              },
+              {
+                "type": "0BX",
+                "status": "CHA",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Chargeable"
+              }
+            ]
+          }
+        ],
+        "fareList": [
+          {
+            "name": "ECOYL",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 2,
+                "paxType": "ADULT",
+                "paxFare": 2751,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186,
+                    "TAXCOMPONENT-K3": 120,
+                    "TAXCOMPONENT-WO": 245,
+                    "TOT": 2751,
+                    "TAX": 551
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "ECOYL",
+                    "boardPoint": "FromCity1",
+                    "offPoint": "ToCity1",
+                    "carrier": "UK",
+                    "segmentInfos": [
+                      {
+                        "rbd": "O",
+                        "fareBasis": "OL15PYL",
+                        "baggage": {
+                          "qty": "1",
+                          "utyp": "N",
+                          "unt": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "CHILD": {
+                "numOfPax": 1,
+                "paxType": "CHILD",
+                "paxFare": 2751,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186,
+                    "TAXCOMPONENT-K3": 120,
+                    "TAXCOMPONENT-WO": 245,
+                    "TOT": 2751,
+                    "TAX": 551
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "ECOYL",
+                    "boardPoint": "FromCity1",
+                    "offPoint": "ToCity1",
+                    "carrier": "UK",
+                    "segmentInfos": [
+                      {
+                        "rbd": "O",
+                        "fareBasis": "OL15PYL",
+                        "baggage": {
+                          "qty": "1",
+                          "utyp": "N",
+                          "unt": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          },
+          {
+            "name": "ECOYS",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 2,
+                "paxType": "ADULT",
+                "paxFare": 3013,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186,
+                    "TAXCOMPONENT-K3": 132,
+                    "TAXCOMPONENT-WO": 245,
+                    "TOT": 3013,
+                    "TAX": 563
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "ECOYS",
+                    "boardPoint": "FromCity1",
+                    "offPoint": "ToCity1",
+                    "carrier": "UK",
+                    "segmentInfos": [
+                      {
+                        "rbd": "E",
+                        "fareBasis": "EL15PYS",
+                        "baggage": {
+                          "qty": "15",
+                          "utyp": "W",
+                          "unt": "K"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "CHILD": {
+                "numOfPax": 1,
+                "paxType": "CHILD",
+                "paxFare": 3013,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186,
+                    "TAXCOMPONENT-K3": 132,
+                    "TAXCOMPONENT-WO": 245,
+                    "TOT": 3013,
+                    "TAX": 563
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "ECOYS",
+                    "boardPoint": "FromCity1",
+                    "offPoint": "ToCity1",
+                    "carrier": "UK",
+                    "segmentInfos": [
+                      {
+                        "rbd": "E",
+                        "fareBasis": "EL15PYS",
+                        "baggage": {
+                          "qty": "15",
+                          "utyp": "W",
+                          "unt": "K"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          },
+          {
+            "name": "ECOYF",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 2,
+                "paxType": "ADULT",
+                "paxFare": 3747,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186,
+                    "TAXCOMPONENT-K3": 167,
+                    "TAXCOMPONENT-WO": 245,
+                    "TOT": 3747,
+                    "TAX": 598
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "ECOYF",
+                    "boardPoint": "FromCity1",
+                    "offPoint": "ToCity1",
+                    "carrier": "UK",
+                    "segmentInfos": [
+                      {
+                        "rbd": "E",
+                        "fareBasis": "EL15PYF",
+                        "baggage": {
+                          "qty": "20",
+                          "utyp": "W",
+                          "unt": "K"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "CHILD": {
+                "numOfPax": 1,
+                "paxType": "CHILD",
+                "paxFare": 3747,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186,
+                    "TAXCOMPONENT-K3": 167,
+                    "TAXCOMPONENT-WO": 245,
+                    "TOT": 3747,
+                    "TAX": 598
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "ECOYF",
+                    "boardPoint": "FromCity1",
+                    "offPoint": "ToCity1",
+                    "carrier": "UK",
+                    "segmentInfos": [
+                      {
+                        "rbd": "E",
+                        "fareBasis": "EL15PYF",
+                        "baggage": {
+                          "qty": "20",
+                          "utyp": "W",
+                          "unt": "K"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          }
+        ]
+      }
+    ],
+    "services": {
+      "DATE_CHANGE": {
+        "serviceName": "Date Change",
+        "displayIconUrl": "https://imgak.mmtcdn.com/air/pwa/assets/img/fare-family/drawable-xxhdpi/ic_date.png"
+      },
+      "RFD_AFT_DEPART": {
+        "serviceName": "No Show",
+        "displayIconUrl": "https://imgak.mmtcdn.com/air/pwa/assets/img/fare-family/drawable-xxhdpi/ic_cancel_aftr.png"
+      },
+      "HAND_BAGGAGE": {
+        "serviceName": "Hand Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/air/pwa/assets/img/fare-family/drawable-xxhdpi/ic_hand_baggage.png"
+      },
+      "MEAL": {
+        "serviceName": "Meals",
+        "displayIconUrl": "https://imgak.mmtcdn.com/air/pwa/assets/img/fare-family/drawable-xxhdpi/ic_meals.png"
+      },
+      "PRI_BOARDING": {
+        "serviceName": "Priority Boarding",
+        "displayIconUrl": "https://imgak.mmtcdn.com/air/pwa/assets/img/fare-family/drawable-xxhdpi/ic_priority_handling.png"
+      },
+      "PRI_BAGGAGE": {
+        "serviceName": "Priority Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/air/pwa/assets/img/fare-family/drawable-xxhdpi/ic_priority_handling.png"
+      },
+      "LOUNGE": {
+        "serviceName": "Lounge Access",
+        "displayIconUrl": "https://imgak.mmtcdn.com/air/pwa/assets/img/fare-family/drawable-xxhdpi/ic_lounge_access.png"
+      },
+      "RFD_BF_DEPART": {
+        "serviceName": "Refund Before Departure",
+        "displayIconUrl": "https://imgak.mmtcdn.com/air/pwa/assets/img/fare-family/drawable-xxhdpi/ic_cancel_bfr.png"
+      },
+      "SEAT_ASSIGN": {
+        "serviceName": "Seats",
+        "displayIconUrl": "https://imgak.mmtcdn.com/air/pwa/assets/img/fare-family/drawable-xxhdpi/ic_seat_selection.png"
+      }
+    },
+    "rtFare": false,
+    "farelookupMap": {
+      "ID2": {
+        "name": null,
+        "paxWiseFareList": {
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 3013,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186,
+                "TAXCOMPONENT-K3": 132,
+                "TAXCOMPONENT-WO": 245,
+                "TOT": 3013,
+                "TAX": 563
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "ECOYS",
+                "boardPoint": "FromCity1",
+                "offPoint": "ToCity1",
+                "carrier": "UK",
+                "segmentInfos": [
+                  {
+                    "rbd": "E",
+                    "fareBasis": "EL15PYS",
+                    "baggage": {
+                      "qty": "15",
+                      "utyp": "W",
+                      "unt": "K"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "ADULT": {
+            "numOfPax": 2,
+            "paxType": "ADULT",
+            "paxFare": 3013,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186,
+                "TAXCOMPONENT-K3": 132,
+                "TAXCOMPONENT-WO": 245,
+                "TOT": 3013,
+                "TAX": 563
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "ECOYS",
+                "boardPoint": "FromCity1",
+                "offPoint": "ToCity1",
+                "carrier": "UK",
+                "segmentInfos": [
+                  {
+                    "rbd": "E",
+                    "fareBasis": "EL15PYS",
+                    "baggage": {
+                      "qty": "15",
+                      "utyp": "W",
+                      "unt": "K"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID1": {
+        "name": null,
+        "paxWiseFareList": {
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 2751,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186,
+                "TAXCOMPONENT-K3": 120,
+                "TAXCOMPONENT-WO": 245,
+                "TOT": 2751,
+                "TAX": 551
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "ECOYL",
+                "boardPoint": "FromCity1",
+                "offPoint": "ToCity1",
+                "carrier": "UK",
+                "segmentInfos": [
+                  {
+                    "rbd": "O",
+                    "fareBasis": "OL15PYL",
+                    "baggage": {
+                      "qty": "1",
+                      "utyp": "N",
+                      "unt": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "ADULT": {
+            "numOfPax": 2,
+            "paxType": "ADULT",
+            "paxFare": 2751,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186,
+                "TAXCOMPONENT-K3": 120,
+                "TAXCOMPONENT-WO": 245,
+                "TOT": 2751,
+                "TAX": 551
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "ECOYL",
+                "boardPoint": "FromCity1",
+                "offPoint": "ToCity1",
+                "carrier": "UK",
+                "segmentInfos": [
+                  {
+                    "rbd": "O",
+                    "fareBasis": "OL15PYL",
+                    "baggage": {
+                      "qty": "1",
+                      "utyp": "N",
+                      "unt": null
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID3": {
+        "name": null,
+        "paxWiseFareList": {
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 3747,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186,
+                "TAXCOMPONENT-K3": 167,
+                "TAXCOMPONENT-WO": 245,
+                "TOT": 3747,
+                "TAX": 598
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "ECOYF",
+                "boardPoint": "FromCity1",
+                "offPoint": "ToCity1",
+                "carrier": "UK",
+                "segmentInfos": [
+                  {
+                    "rbd": "E",
+                    "fareBasis": "EL15PYF",
+                    "baggage": {
+                      "qty": "20",
+                      "utyp": "W",
+                      "unt": "K"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "ADULT": {
+            "numOfPax": 2,
+            "paxType": "ADULT",
+            "paxFare": 3747,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186,
+                "TAXCOMPONENT-K3": 167,
+                "TAXCOMPONENT-WO": 245,
+                "TOT": 3747,
+                "TAX": 598
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "ECOYF",
+                "boardPoint": "FromCity1",
+                "offPoint": "ToCity1",
+                "carrier": "UK",
+                "segmentInfos": [
+                  {
+                    "rbd": "E",
+                    "fareBasis": "EL15PYF",
+                    "baggage": {
+                      "qty": "20",
+                      "utyp": "W",
+                      "unt": "K"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      }
+    },
+    "fareMap": {
+      "FromCity1-ToCity1-ECOYL": {
+        "finalAdultFare": 2751,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$O$OL15PYL$null$null$186.0$null$120.0$0$0$A,null$O$OL15PYL$null$null$186.0$null$120.0$0$0$C~A-2751.0|2200.0_C-2751.0|2200.0_I-0|0~M$2$1$0~~FromCity1-ToCity1_Depart1_UK-993_TVBERkZMVDM=_12:50_200319_15:00_UK_UK_UK~MP_0_0_FromCity1-ToCity1-Depart1",
+        "fares": [
+          {
+            "sector": "FromCity1-ToCity1",
+            "fareListIdentifier": "ID1"
+          }
+        ]
+      },
+      "FromCity1-ToCity1-ECOYS": {
+        "finalAdultFare": 3013,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$E$EL15PYS$null$null$186.0$null$132.0$0$0$A,null$E$EL15PYS$null$null$186.0$null$132.0$0$0$C~A-3013.0|2450.0_C-3013.0|2450.0_I-0|0~M$2$1$0~~FromCity1-ToCity1_Depart1_UK-993_TVBERkZMVDM=_12:50_200319_15:00_UK_UK_UK~MP_0_0_FromCity1-ToCity1-Depart1",
+        "fares": [
+          {
+            "sector": "FromCity1-ToCity1",
+            "fareListIdentifier": "ID2"
+          }
+        ]
+      },
+      "FromCity1-ToCity1-ECOYF": {
+        "finalAdultFare": 3747,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$E$EL15PYF$null$null$186.0$null$167.0$0$0$A,null$E$EL15PYF$null$null$186.0$null$167.0$0$0$C~A-3747.0|3149.0_C-3747.0|3149.0_I-0|0~M$2$1$0~~FromCity1-ToCity1_Depart1_UK-993_TVBERkZMVDM=_12:50_200319_15:00_UK_UK_UK~MP_0_0_FromCity1-ToCity1-Depart1",
+        "fares": [
+          {
+            "sector": "FromCity1-ToCity1",
+            "fareListIdentifier": "ID3"
+          }
+        ]
+      }
+    }
+  },
+  "fareBreakUp": {
+    "fareSummary": [
+      {
+        "paxType": "Child",
+        "noOfPax": 1,
+        "fareDetails": {
+          "discount": 0,
+          "taxDetails": {
+            "flightTax": [
+              {
+                "taxValue": 50,
+                "taxDescription": "TF",
+                "taxDescriptionMessage": "TF_DM"
+              },
+              {
+                "taxValue": 120,
+                "taxDescription": "GOODS_SERVICE_TAX",
+                "taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+              },
+              {
+                "taxValue": 245,
+                "taxDescription": "PSF",
+                "taxDescriptionMessage": "PSF_DM"
+              },
+              {
+                "taxValue": 136,
+                "taxDescription": "YQ",
+                "taxDescriptionMessage": "YQ_DM"
+              }
+            ],
+            "totalTaxAmount": 551
+          },
+          "baseFare": 2200,
+          "totalFare": 2751
+        }
+      },
+      {
+        "paxType": "Adult",
+        "noOfPax": 2,
+        "fareDetails": {
+          "discount": 0,
+          "taxDetails": {
+            "flightTax": [
+              {
+                "taxValue": 100,
+                "taxDescription": "TF",
+                "taxDescriptionMessage": "TF_DM"
+              },
+              {
+                "taxValue": 240,
+                "taxDescription": "GOODS_SERVICE_TAX",
+                "taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+              },
+              {
+                "taxValue": 490,
+                "taxDescription": "PSF",
+                "taxDescriptionMessage": "PSF_DM"
+              },
+              {
+                "taxValue": 272,
+                "taxDescription": "YQ",
+                "taxDescriptionMessage": "YQ_DM"
+              }
+            ],
+            "totalTaxAmount": 1102
+          },
+          "baseFare": 4400,
+          "totalFare": 5502
+        }
+      }
+    ],
+    "taxSummary": {
+      "flightTax": [
+        {
+          "taxValue": 150,
+          "taxDescription": "TF",
+          "taxDescriptionMessage": "TF_DM"
+        },
+        {
+          "taxValue": 360,
+          "taxDescription": "GOODS_SERVICE_TAX",
+          "taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+        },
+        {
+          "taxValue": 735,
+          "taxDescription": "PSF",
+          "taxDescriptionMessage": "PSF_DM"
+        },
+        {
+          "taxValue": 408,
+          "taxDescription": "YQ",
+          "taxDescriptionMessage": "YQ_DM"
+        }
+      ],
+      "totalTaxAmount": 1653
+    },
+    "taxDescMap": {
+      "INF": "Infant Tax",
+      "KKC": "Krishi Kalyan Cess",
+      "AST": "Service Tax",
+      "PSF": "Passenger Service Fee",
+      "DF": "Development Fee",
+      "OTH": "Other",
+      "CF": "Congestion Fee",
+      "GOODS_SERVICE_TAX": "Goods and Services Tax",
+      "TTF": "Travel and Tourism Fee",
+      "GST": "Gvt. Service Fee",
+      "UDFA": "User Development Fee(Arrival)",
+      "TF": "CUTE Fee",
+      "SF": "Service Fee",
+      "RCF": "Regional Connectivity Fund",
+      "SBC": "Swachh Bharat Cess ",
+      "UDF": "User Development Fee",
+      "YQ": "Airline Fuel Charge",
+      "DC": "Discount"
+    }
+  }
+}

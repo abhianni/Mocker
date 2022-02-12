@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/employee.*email=ramanmgr1.*"
+  },
+  "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+    "bodyFileName": "/corporate/corpSearchV1/adminUserTest/corpuserserviceresp.json"
+  }
+}

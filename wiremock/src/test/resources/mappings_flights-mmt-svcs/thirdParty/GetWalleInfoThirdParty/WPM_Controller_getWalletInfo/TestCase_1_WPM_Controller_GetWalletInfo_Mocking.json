@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/mmt_webs_mywallet/mywallet/v2/getaccountdetails",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Accept" : {"matches" : "application/json"},
+		"Authorization" : {"matches" : "Basic QVBJVVNFUjpmNGU5NUBlZjA4"}
+		},
+        "bodyPatterns":[{
+        "contains" : "OnlyWpmResponse"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/GetWalleInfoThirdParty/WPM_Controller_getWalletInfo/TestCase_1_WPM_Controller_GetWalletInfo_Response.json"
+    }
+}

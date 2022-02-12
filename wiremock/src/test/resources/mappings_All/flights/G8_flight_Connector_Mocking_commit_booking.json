@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/bookingmanager.svc",
+       "bodyPatterns":[{
+        "contains" : "BookingCommitRequest"
+        }]
+ 
+
+    
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/G8_Commit_update.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

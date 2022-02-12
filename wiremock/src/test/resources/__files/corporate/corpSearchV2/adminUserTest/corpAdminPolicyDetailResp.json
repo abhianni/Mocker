@@ -1,0 +1,66 @@
+{
+	"status_code": 200,
+	"policy_id": 7,
+	"policy_name": "hello3",
+	"policy_version": 4,
+	"policy_status": "active",
+	"policy_units": {
+		"HOTEL": {
+			"approval": "NO_APPROVAL_REQUIRED",
+			"payment_options": {
+				"WALLET": "NEVER_ALLOWED",
+				"CORPORATE_CREDIT_CARD": "NEVER_ALLOWED"
+			},
+			"attribute_rules": [{
+				"attribute_key": "hotel_price",
+				"desc": "Price",
+				"operation": "RANGE",
+				"is_soft_rule": false,
+				"operation_value": {
+					"type": "RangeOperationValue",
+					"max": 100000.0,
+					"min": 0.0
+				}
+			}]
+		},
+		"DOM_FLIGHT": {
+			"approval": "NO_APPROVAL_REQUIRED",
+			"payment_options": {
+				"WALLET": "NEVER_ALLOWED",
+				"CORPORATE_CREDIT_CARD": "NEVER_ALLOWED"
+			},
+			"attribute_rules": [{
+				"attribute_key": "flight_price",
+				"desc": "Price",
+				"operation": "RANGE",
+				"is_soft_rule": false,
+				"operation_value": {
+					"type": "RangeOperationValue",
+					"max": 500000.0,
+					"min": 0.0
+				}
+			}]
+		},
+		"INTL_FLIGHT": {
+			"approval": "NO_APPROVAL_REQUIRED",
+			"payment_options": {
+				"WALLET": "NEVER_ALLOWED",
+				"CORPORATE_CREDIT_CARD": "NEVER_ALLOWED"
+			},
+			"attribute_rules": [{
+				"attribute_key": "flight_price",
+				"desc": "Price",
+				"operation": "RANGE",
+				"is_soft_rule": false,
+				"operation_value": {
+					"type": "RangeOperationValue",
+					"max": 1000000.0,
+					"min": 0.0
+				}
+			}]
+		}
+	},
+	"advance_policy_version": 0,
+	"block_skip_approval": 0,
+	"block_oop_booking": 0
+}

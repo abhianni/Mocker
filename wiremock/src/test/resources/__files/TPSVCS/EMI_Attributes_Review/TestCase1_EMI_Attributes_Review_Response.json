@@ -1,0 +1,82 @@
+{
+	"banks": [{
+		"name": "HDFC Bank",
+		"bestEmiType": "No Cost Emi",
+		"bankLogo": "https://jsak.mmtcdn.com/payment-ui-service/images/payment/EMI_HDFCBANK.jpg",
+		"emis": [{
+			"bankId": 3,
+			"tenure": "3",
+			"emiAmount": "2280.67",
+			"annualInterest": "0.0",
+			"totalCost": "6842.0",
+			"emi": "No Cost Emi",
+			"payOption": "EMI_HDFC_3",
+			"defaultInterestRate": "15.0",
+			"totalInterest": 0.0
+		}],
+		"bankMessage": "No Cost EMI available for\n3 month plans. The Interest would be charged but returned as cashback within 21 days"
+	}, {
+		"name": "HSBC Bank",
+		"bestEmiType": "No Cost Emi",
+		"bankLogo": "https://jsak.mmtcdn.com/payment-ui-service/images/payment/EMI_HSBCBANK.jpg",
+		"emis": [{
+			"bankId": 36,
+			"tenure": "3",
+			"emiAmount": "2280.67",
+			"annualInterest": "0.0",
+			"totalCost": "6842.0",
+			"emi": "No Cost Emi",
+			"payOption": "EMI_HSBC_3",
+			"defaultInterestRate": "13.0",
+			"totalInterest": 0.0
+		}],
+		"bankMessage": "No Cost EMI available for\n3 month plans. The Interest would be charged but returned as cashback within 21 days"
+	}, {
+		"name": "Bajaj Finserv",
+		"bestEmiType": "No Cost Emi",
+		"bankLogo": "https://jsak.mmtcdn.com/payment-ui-service/images/payment/EMI_BAJAJFINSERV.jpg",
+		"emis": [{
+			"bankId": 128,
+			"tenure": "2",
+			"emiAmount": "3421.0",
+			"annualInterest": "0.0",
+			"totalCost": "6842.0",
+			"emi": "No Cost Emi",
+			"payOption": "EMI_BAJAJFS_2",
+			"defaultInterestRate": "0.0",
+			"totalInterest": 0.0
+		}, {
+			"bankId": 5,
+			"tenure": "3",
+			"emiAmount": "2280.67",
+			"annualInterest": "0.0",
+			"totalCost": "6842.0",
+			"emi": "No Cost Emi",
+			"payOption": "EMI_BAJAJFS_3",
+			"defaultInterestRate": "0.0",
+			"totalInterest": 0.0
+		}],
+		"bankMessage": "No Cost EMI available for\n2 and 3 month plans. The Interest would be charged but returned as cashback within 21 days"
+	}, {
+		"name": "Yes Bank",
+		"bestEmiType": "No Cost Emi",
+		"bankLogo": "https://jsak.mmtcdn.com/payment-ui-service/images/payment/EMI_YESBANK.jpg",
+		"emis": [{
+			"bankId": 40,
+			"tenure": "3",
+			"emiAmount": "2280.67",
+			"annualInterest": "0.0",
+			"totalCost": "6842.0",
+			"emi": "No Cost Emi",
+			"payOption": "EMI_Yes_3",
+			"defaultInterestRate": "13.0",
+			"totalInterest": 0.0
+		}],
+		"bankMessage": "No Cost EMI available for\n3 month plans. The Interest would be charged but returned as cashback within 21 days"
+	}],
+	"bestEmiType": "No Cost Emi",
+	"topLevelMessage": "No Cost EMI Available for Mutiple Banks",
+	"secondaryMessage": "No Cost EMI Starting @ 2280.67/month",
+	"coefficient": "0.166667",
+	"minEmiEligibilityAmount": "2000.0"
+}

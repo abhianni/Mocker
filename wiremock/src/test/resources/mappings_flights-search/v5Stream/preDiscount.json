@@ -1,0 +1,14 @@
+{
+  "request": {
+     "method": "POST",
+    "url": "/flights-mmt-svcs/v1/tp-aggregator/pre-applied-discount?ff=DD,CDF&cur=INR&crId=sssssssss&cmpId=",
+     "bodyPatterns":[
+      {       "contains" : "journeyMap"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "flights_search/v5Stream/preDiscount.json"
+  }
+}

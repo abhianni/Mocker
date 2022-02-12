@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+       "url": "/1ASIWIBEMMT", 
+       "bodyPatterns":[{
+        "contains" : "PNR_AddMultiElements"},
+{"contains": "TVCRBO"}]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Commit/AddMultiElements_TVCRBO.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

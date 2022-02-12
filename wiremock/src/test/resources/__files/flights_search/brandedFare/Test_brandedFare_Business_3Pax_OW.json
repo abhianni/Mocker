@@ -1,0 +1,2086 @@
+{
+  "fareFamilyRecommendations": {
+    "fareFamilyAvailable": true,
+    "fareFamilyResponse": [{
+      "error": null,
+      "sector": "FromCity1-ToCity1",
+      "warning": null,
+      "cheapestFamily": "CCL VALUE",
+      "itineraryList": [{
+        "rbd": null,
+        "boardPoint": "FromCity1",
+        "offPoint": "ToCity1",
+        "airlineName": "Vistara",
+        "mrktArln": "UK",
+        "oprArln": "UK",
+        "fltNum": "UK-933",
+        "depDt": 1577526300000,
+        "arrDt": 1577526300000
+      }],
+      "serviceDisplayOrder": ["DATE_CHANGE", "MEAL", "RFD_BF_DEPART", "RFD_AFT_DEPART", "SEAT_ASSIGN", "PRI_BAGGAGE", "LOUNGE"],
+      "fareFamilies": [{
+        "selected": true,
+        "name": "CCL VALUE",
+        "description": "CCL VALUE",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#ffd3d4",
+          "packageTitle": "Date change chargeable | Cancellation chargeable",
+          "packageDesc": "To enjoy added benefits like Free Date change, Free Cancellation upgrade your booking",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 38533.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "CHA",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "CHA",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "06L",
+          "status": "NOF",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Non Refundable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "INC",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Free"
+        }, {
+          "type": "0BX",
+          "status": "INC",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Free"
+        }]
+      }, {
+        "selected": false,
+        "name": "CCL STANDARD",
+        "description": "CCL STANDARD",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#cdf6e8",
+          "packageTitle": "Great choice! Your fare includes the following services:",
+          "packageDesc": "Free meals, Free Seat selection",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 40324.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "CHA",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "CHA",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "06L",
+          "status": "CHA",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "INC",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Free"
+        }, {
+          "type": "0BX",
+          "status": "INC",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Free"
+        }]
+      }, {
+        "selected": false,
+        "name": "CCL FLEXI",
+        "description": "CCL FLEXI",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#cdf6e8",
+          "packageTitle": "Great choice! Your fare includes the following services:",
+          "packageDesc": "Free Date change, Free meals",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 42339.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "INC",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Limited Free changes"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "INC",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Free"
+        }, {
+          "type": "06L",
+          "status": "CHA",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "INC",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Free"
+        }, {
+          "type": "0BX",
+          "status": "INC",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Free"
+        }]
+      }],
+      "fareList": [{
+        "name": "CCL VALUE",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 38533.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4102.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 38533.0,
+                "TAX": 4533.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 38533.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4102.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 38533.0,
+                "TAX": 4533.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }, {
+        "name": "CCL STANDARD",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 40324.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4294.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 40324.0,
+                "TAX": 4725.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 40324.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4294.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 40324.0,
+                "TAX": 4725.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }, {
+        "name": "CCL FLEXI",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 42339.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4510.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 42339.0,
+                "TAX": 4941.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 42339.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4510.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 42339.0,
+                "TAX": 4941.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }]
+    }],
+    "services": {
+      "DATE_CHANGE": {
+        "serviceName": "Date Change",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_date_change.png"
+      },
+      "RFD_AFT_DEPART": {
+        "serviceName": "No Show",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_no_show.png"
+      },
+      "HAND_BAGGAGE": {
+        "serviceName": "Hand Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_hand_baggage.png"
+      },
+      "MEAL": {
+        "serviceName": "Meals",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_meals.png"
+      },
+      "PRI_BOARDING": {
+        "serviceName": "Priority Boarding",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "PRI_BAGGAGE": {
+        "serviceName": "Priority Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "LOUNGE": {
+        "serviceName": "Lounge Access",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_lounge_access.png"
+      },
+      "RFD_BF_DEPART": {
+        "serviceName": "Refund Before Departure",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_flight_cancellation.png"
+      },
+      "SEAT_ASSIGN": {
+        "serviceName": "Seats",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_seat_selection.png"
+      }
+    },
+    "rtFare": false,
+    "farelookupMap": {
+      "ID2": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 40324.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4294.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 40324.0,
+                "TAX": 4725.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 40324.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4294.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 40324.0,
+                "TAX": 4725.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID1": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 38533.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4102.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 38533.0,
+                "TAX": 4533.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 38533.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4102.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 38533.0,
+                "TAX": 4533.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID3": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 42339.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4510.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 42339.0,
+                "TAX": 4941.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 42339.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4510.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 42339.0,
+                "TAX": 4941.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }
+    },
+    "fareMap": {
+      "FromCity1-ToCity1-CCL STANDARD": {
+        "finalAdultFare": 40324.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$D$D1PCS$null$null$186.0$null$472.0$0$0$I,null$D$D1PCS$null$null$186.0$null$4294.0$0$0$A,null$D$D1PCS$null$null$186.0$null$4294.0$0$0$C~A-40324.0|35599.0_C-40324.0|35599.0_I-4408.0|3750.0~C$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-933_VFBVTklfRE9N_15:15_Depart1_17:25_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_CCL STANDARD",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID2"
+        }]
+      },
+      "FromCity1-ToCity1-CCL FLEXI": {
+        "finalAdultFare": 42339.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$D$D1PCF$null$null$186.0$null$472.0$0$0$I,null$D$D1PCF$null$null$186.0$null$4510.0$0$0$A,null$D$D1PCF$null$null$186.0$null$4510.0$0$0$C~A-42339.0|37398.0_C-42339.0|37398.0_I-4408.0|3750.0~C$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-933_VFBVTklfRE9N_15:15_Depart1_17:25_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_CCL FLEXI",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID3"
+        }]
+      },
+      "FromCity1-ToCity1-CCL VALUE": {
+        "finalAdultFare": 38533.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$D$D1PCV$null$null$186.0$null$472.0$0$0$I,null$D$D1PCV$null$null$186.0$null$4102.0$0$0$A,null$D$D1PCV$null$null$186.0$null$4102.0$0$0$C~A-38533.0|34000.0_C-38533.0|34000.0_I-4408.0|3750.0~C$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-933_VFBVTklfRE9N_15:15_Depart1_17:25_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_CCL VALUE",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID1"
+        }]
+      }
+    }
+  },
+  "reviewKey": "RKEY:6205e973-84b9-4595-8b06-44c21c0d2667:28",
+  "rKey": "v1~~null$D$D1PCV$null$null$186.0$null$4102.0$0$0$A,null$D$D1PCV$null$null$186.0$null$4102.0$0$0$C,null$D$D1PCV$null$null$186.0$null$472.0$0$0$I~A-38533.0|34000.0_C-38533.0|34000.0_I-4408.0|3750.0~C$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-933_VFBVTklfRE9N_15:15_Depart1_17:25_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_null",
+  "journeys": {
+    "FromCity1_ToCity1_Depart1": {
+      "segments": {
+        "FromCity1_ToCity1_Depart1": {
+          "fltLst": [{
+            "amenitySegmentKey": null,
+            "depInf": {
+              "trml": "3",
+              "ctCd": "FromCity1",
+              "airp": "Indira Gandhi International Airport",
+              "ctNm": "New FromCity1hi",
+              "arpCd": "FromCity1",
+              "cntr": "India",
+              "tmZn": "Asia/Kolkata",
+              "lat": 28.5665,
+              "long": 77.103088,
+              "cont": "India",
+              "cur": "INR"
+            },
+            "arrInf": {
+              "trml": "2",
+              "ctCd": "ToCity1",
+              "airp": "Chhatrapati Shivaji International Airport",
+              "ctNm": "Mumbai",
+              "arpCd": "ToCity1",
+              "cntr": "India",
+              "tmZn": "Asia/Kolkata",
+              "lat": 19.088686,
+              "long": 72.867919,
+              "cont": "India",
+              "cur": "INR"
+            },
+            "depDt": 1577526300000,
+            "arrDt": 1577534100000,
+            "techStpOvrLst": [],
+            "totDur": 130,
+            "segSlKey": "+VmFvpBAAA/BSv6q5BAAAA==",
+            "fareSlKey": null,
+            "mrktArln": "UK",
+            "oprArln": "UK",
+            "equipTyp": "320",
+            "equipCd": "320",
+            "equipNm": "Airbus A320 ",
+            "fltNum": "933",
+            "carierCode": "UK",
+            "bagDtls": [{
+              "bag": {
+                "qty": "30",
+                "utyp": "W",
+                "unt": "KILOGRAMS"
+              },
+              "pxTyp": "ADT",
+              "pxRf": "+VmFvpBAAA/BUv6q5BAAAA=="
+            }, {
+              "bag": {
+                "qty": "0",
+                "utyp": "N",
+                "unt": null
+              },
+              "pxTyp": "INF",
+              "pxRf": "+VmFvpBAAA/Bbv6q5BAAAA=="
+            }, {
+              "bag": {
+                "qty": "30",
+                "utyp": "W",
+                "unt": "KILOGRAMS"
+              },
+              "pxTyp": "CHD",
+              "pxRf": "+VmFvpBAAA/Bgv6q5BAAAA=="
+            }],
+            "avlCntxtLst": [],
+            "availCount": null,
+            "cbcls": "C",
+            "pnRf": {},
+            "splitPnr": false,
+            "availSrc": "A",
+            "suplrNm": null,
+            "ao": [{
+              "at": "MEAL",
+              "isPaid": true
+            }],
+            "si": {
+              "tppa": "Polled avail exists"
+            }
+          }],
+          "fr": [{
+            "pxTypFrMap": {
+              "ADULT": [{
+                "frId": 0,
+                "frBrkup": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186.0,
+                    "TAXCOMPONENT-K3": 4102.0,
+                    "TAXCOMPONENT-WO": 245.0,
+                    "TOT": 38533.0,
+                    "TAX": 4533.0
+                  }
+                },
+                "segPrdctInf": [{
+                  "lgPrnfo": [{
+                    "frId": "+VmFvpBAAA/BYv6q5BAAAA==",
+                    "rb": "D",
+                    "cbn": "C",
+                    "avl": "4",
+                    "fbc": "D1PCV",
+                    "frAmt": "INR34000",
+                    "txAmt": null,
+                    "frtyp": [],
+                    "brkPnt": null,
+                    "arrcd": "ToCity1",
+                    "deptcd": "FromCity1",
+                    "prdcls": null,
+                    "si": null
+                  }]
+                }],
+                "paxRef": 0
+              }],
+              "CHILD": [{
+                "frId": 0,
+                "frBrkup": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186.0,
+                    "TAXCOMPONENT-K3": 4102.0,
+                    "TAXCOMPONENT-WO": 245.0,
+                    "TOT": 38533.0,
+                    "TAX": 4533.0
+                  }
+                },
+                "segPrdctInf": [{
+                  "lgPrnfo": [{
+                    "frId": "+VmFvpBAAA/Bkv6q5BAAAA==",
+                    "rb": "D",
+                    "cbn": "C",
+                    "avl": "4",
+                    "fbc": "D1PCV",
+                    "frAmt": "INR34000",
+                    "txAmt": null,
+                    "frtyp": [],
+                    "brkPnt": null,
+                    "arrcd": "ToCity1",
+                    "deptcd": "FromCity1",
+                    "prdcls": null,
+                    "si": null
+                  }]
+                }],
+                "paxRef": 0
+              }],
+              "INFANT": [{
+                "frId": 0,
+                "frBrkup": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186.0,
+                    "TAXCOMPONENT-K3": 472.0,
+                    "TOT": 4408.0,
+                    "TAX": 658.0
+                  }
+                },
+                "segPrdctInf": [{
+                  "lgPrnfo": [{
+                    "frId": "+VmFvpBAAA/Bev6q5BAAAA==",
+                    "rb": "D",
+                    "cbn": "C",
+                    "avl": "4",
+                    "fbc": "D1PCV",
+                    "frAmt": "INR3750",
+                    "txAmt": null,
+                    "frtyp": [],
+                    "brkPnt": null,
+                    "arrcd": "ToCity1",
+                    "deptcd": "FromCity1",
+                    "prdcls": null,
+                    "si": null
+                  }]
+                }],
+                "paxRef": 0
+              }]
+            },
+            "frInfoMap": {},
+            "subFares": []
+          }],
+          "minFrRl": null,
+          "lfid": null,
+          "aggFltNum": "FromCity1$ToCity1$Depart11515$UK-933",
+          "cur": "INR",
+          "totDur": 130,
+          "rfndbl": false,
+          "sPNR": false,
+          "hldbl": true,
+          "cbn": null,
+          "cbnCls": ["C"],
+          "refAir": "UK",
+          "dep": "FromCity1",
+          "arr": "ToCity1",
+          "offId": null,
+          "credId": "TPUNI_DOM",
+          "jrnySlKey": null,
+          "srvc": "TP",
+          "vc": "UK",
+          "currInfo": {
+            "costCurrency": "INR",
+            "sellCurrency": null,
+            "conversionFactor": null
+          },
+          "signature": null,
+          "rtngId": null
+        }
+      }
+    }
+  },
+  "combinedInfo": {
+    "FARE_CHANGE": {
+      "fareStatus": 0,
+      "oldFare": 0.0,
+      "newFare": 38533.0,
+      "totalFareChangeAmount": 81474.0
+    },
+    "COMBINED_DATA": {
+      "data": {
+        "splitPNR": null,
+        "REFUNDABLE": false,
+        "officeIds": null,
+        "CABIN_CLASS": ["C"],
+        "IS_PURE": true,
+        "LAST_TKT_DATE": null,
+        "MAX_STOP": 0,
+        "HOLDABLE": true,
+        "MAX_LAYOFF_TIME": 0,
+        "refferenceAirline": "UK",
+        "IS_PURE_LCC": false,
+        "VC": "UK"
+      }
+    },
+    "COMBINED_REVIEW_FARE": {
+      "paxTypeFareBreakUp": {
+        "ADULT": {
+          "totalBaseFare": 34000.0,
+          "totalTax": 4533.0,
+          "totalMarkup": 0.0,
+          "totalDiscount": 0.0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-YR": 186.0,
+            "TAXCOMPONENT-K3": 4102.0,
+            "TAXCOMPONENT-WO": 245.0,
+            "TOT": 38533.0,
+            "TAX": 4533.0
+          },
+          "totalFare": 38533.0,
+          "paxRef": 0
+        },
+        "CHILD": {
+          "totalBaseFare": 34000.0,
+          "totalTax": 4533.0,
+          "totalMarkup": 0.0,
+          "totalDiscount": 0.0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-YR": 186.0,
+            "TAXCOMPONENT-K3": 4102.0,
+            "TAXCOMPONENT-WO": 245.0,
+            "TOT": 38533.0,
+            "TAX": 4533.0
+          },
+          "totalFare": 38533.0,
+          "paxRef": 0
+        },
+        "INFANT": {
+          "totalBaseFare": 3750.0,
+          "totalTax": 658.0,
+          "totalMarkup": 0.0,
+          "totalDiscount": 0.0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-YR": 186.0,
+            "TAXCOMPONENT-K3": 472.0,
+            "TOT": 4408.0,
+            "TAX": 658.0
+          },
+          "totalFare": 4408.0,
+          "paxRef": 0
+        }
+      },
+      "combinedFareBreakUp": {
+        "totalBaseFare": 71750.0,
+        "totalTax": 9724.0,
+        "totalMarkup": 0.0,
+        "totalDiscount": 0.0,
+        "fareBreakupMap": {
+          "TAXCOMPONENT-YR": 558.0,
+          "TAXCOMPONENT-K3": 8676.0,
+          "TAXCOMPONENT-WO": 490.0,
+          "TOT": 81474.0,
+          "TAX": 9724.0
+        },
+        "totalFare": 81474.0,
+        "paxRef": null
+      }
+    }
+  },
+  "travellerInfo": {
+    "prtPymtEnbld": false,
+    "prtPymtSeltd": false,
+    "prtPymtAmt": null,
+    "searchKey": null,
+    "email": null,
+    "userDetails": null
+  },
+  "trvlrReqdInfo": {
+    "dobReqdForAllPax": false,
+    "dobReqdForInf": true,
+    "dobReqdForChild": false,
+    "ppMandatory": false,
+    "nationalityMandatory": false
+  },
+  "frFamilyDetails": {
+    "fareFamilyAvailable": true,
+    "fareFamilyResponse": [{
+      "error": null,
+      "sector": "FromCity1-ToCity1",
+      "warning": null,
+      "cheapestFamily": "CCL VALUE",
+      "itineraryList": [{
+        "rbd": null,
+        "boardPoint": "FromCity1",
+        "offPoint": "ToCity1",
+        "airlineName": "Vistara",
+        "mrktArln": "UK",
+        "oprArln": "UK",
+        "fltNum": "UK-933",
+        "depDt": 1577526300000,
+        "arrDt": 1577526300000
+      }],
+      "serviceDisplayOrder": ["DATE_CHANGE", "MEAL", "RFD_BF_DEPART", "RFD_AFT_DEPART", "SEAT_ASSIGN", "PRI_BAGGAGE", "LOUNGE"],
+      "fareFamilies": [{
+        "selected": true,
+        "name": "CCL VALUE",
+        "description": "CCL VALUE",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#ffd3d4",
+          "packageTitle": "Date change chargeable | Cancellation chargeable",
+          "packageDesc": "To enjoy added benefits like Free Date change, Free Cancellation upgrade your booking",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 38533.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "CHA",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "CHA",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "06L",
+          "status": "NOF",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Non Refundable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "INC",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Free"
+        }, {
+          "type": "0BX",
+          "status": "INC",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Free"
+        }]
+      }, {
+        "selected": false,
+        "name": "CCL STANDARD",
+        "description": "CCL STANDARD",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#cdf6e8",
+          "packageTitle": "Great choice! Your fare includes the following services:",
+          "packageDesc": "Free meals, Free Seat selection",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 40324.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "CHA",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "CHA",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "06L",
+          "status": "CHA",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "INC",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Free"
+        }, {
+          "type": "0BX",
+          "status": "INC",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Free"
+        }]
+      }, {
+        "selected": false,
+        "name": "CCL FLEXI",
+        "description": "CCL FLEXI",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#cdf6e8",
+          "packageTitle": "Great choice! Your fare includes the following services:",
+          "packageDesc": "Free Date change, Free meals",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 42339.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "INC",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Limited Free changes"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "INC",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Free"
+        }, {
+          "type": "06L",
+          "status": "CHA",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "INC",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Free"
+        }, {
+          "type": "0BX",
+          "status": "INC",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Free"
+        }]
+      }],
+      "fareList": [{
+        "name": "CCL VALUE",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 38533.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4102.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 38533.0,
+                "TAX": 4533.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 38533.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4102.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 38533.0,
+                "TAX": 4533.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }, {
+        "name": "CCL STANDARD",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 40324.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4294.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 40324.0,
+                "TAX": 4725.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 40324.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4294.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 40324.0,
+                "TAX": 4725.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }, {
+        "name": "CCL FLEXI",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 42339.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4510.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 42339.0,
+                "TAX": 4941.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 42339.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4510.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 42339.0,
+                "TAX": 4941.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }]
+    }],
+    "services": {
+      "DATE_CHANGE": {
+        "serviceName": "Date Change",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_date_change.png"
+      },
+      "RFD_AFT_DEPART": {
+        "serviceName": "No Show",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_no_show.png"
+      },
+      "HAND_BAGGAGE": {
+        "serviceName": "Hand Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_hand_baggage.png"
+      },
+      "MEAL": {
+        "serviceName": "Meals",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_meals.png"
+      },
+      "PRI_BOARDING": {
+        "serviceName": "Priority Boarding",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "PRI_BAGGAGE": {
+        "serviceName": "Priority Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "LOUNGE": {
+        "serviceName": "Lounge Access",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_lounge_access.png"
+      },
+      "RFD_BF_DEPART": {
+        "serviceName": "Refund Before Departure",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_flight_cancellation.png"
+      },
+      "SEAT_ASSIGN": {
+        "serviceName": "Seats",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_seat_selection.png"
+      }
+    },
+    "rtFare": false,
+    "farelookupMap": {
+      "ID2": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 40324.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4294.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 40324.0,
+                "TAX": 4725.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 40324.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4294.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 40324.0,
+                "TAX": 4725.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCS",
+                "supplierInfo": {
+                  "brandID": "211426",
+                  "brandTier": "0008"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID1": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 38533.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4102.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 38533.0,
+                "TAX": 4533.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 38533.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4102.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 38533.0,
+                "TAX": 4533.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL VALUE",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCV",
+                "supplierInfo": {
+                  "brandID": "211427",
+                  "brandTier": "0007"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID3": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 42339.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4510.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 42339.0,
+                "TAX": 4941.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 42339.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 4510.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 42339.0,
+                "TAX": 4941.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 4408.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 472.0,
+                "TOT": 4408.0,
+                "TAX": 658.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "CCL FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "D",
+                "fareBasis": "D1PCF",
+                "supplierInfo": {
+                  "brandID": "211425",
+                  "brandTier": "0009"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }
+    },
+    "fareMap": {
+      "FromCity1-ToCity1-CCL STANDARD": {
+        "finalAdultFare": 40324.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$D$D1PCS$null$null$186.0$null$472.0$0$0$I,null$D$D1PCS$null$null$186.0$null$4294.0$0$0$A,null$D$D1PCS$null$null$186.0$null$4294.0$0$0$C~A-40324.0|35599.0_C-40324.0|35599.0_I-4408.0|3750.0~C$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-933_VFBVTklfRE9N_15:15_Depart1_17:25_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_CCL STANDARD",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID2"
+        }]
+      },
+      "FromCity1-ToCity1-CCL FLEXI": {
+        "finalAdultFare": 42339.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$D$D1PCF$null$null$186.0$null$472.0$0$0$I,null$D$D1PCF$null$null$186.0$null$4510.0$0$0$A,null$D$D1PCF$null$null$186.0$null$4510.0$0$0$C~A-42339.0|37398.0_C-42339.0|37398.0_I-4408.0|3750.0~C$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-933_VFBVTklfRE9N_15:15_Depart1_17:25_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_CCL FLEXI",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID3"
+        }]
+      },
+      "FromCity1-ToCity1-CCL VALUE": {
+        "finalAdultFare": 38533.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$D$D1PCV$null$null$186.0$null$472.0$0$0$I,null$D$D1PCV$null$null$186.0$null$4102.0$0$0$A,null$D$D1PCV$null$null$186.0$null$4102.0$0$0$C~A-38533.0|34000.0_C-38533.0|34000.0_I-4408.0|3750.0~C$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-933_VFBVTklfRE9N_15:15_Depart1_17:25_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_CCL VALUE",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID1"
+        }]
+      }
+    }
+  },
+  "fareBreakUp": {
+    "fareSummary": [{
+      "paxType": "Adult",
+      "noOfPax": 1,
+      "fareDetails": {
+        "discount": 0.0,
+        "taxDetails": {
+          "flightTax": [{
+            "taxValue": 4533.0,
+            "taxDescription": "YQ",
+            "taxDescriptionMessage": "YQ_DM"
+          }],
+          "totalTaxAmount": 4533.0
+        },
+        "baseFare": 34000.0,
+        "totalFare": 38533.0
+      }
+    }, {
+      "paxType": "Child",
+      "noOfPax": 1,
+      "fareDetails": {
+        "discount": 0.0,
+        "taxDetails": {
+          "flightTax": [{
+            "taxValue": 4533.0,
+            "taxDescription": "YQ",
+            "taxDescriptionMessage": "YQ_DM"
+          }],
+          "totalTaxAmount": 4533.0
+        },
+        "baseFare": 34000.0,
+        "totalFare": 38533.0
+      }
+    }, {
+      "paxType": "Infant",
+      "noOfPax": 1,
+      "fareDetails": {
+        "discount": 0.0,
+        "taxDetails": {
+          "flightTax": [{
+            "taxValue": 658.0,
+            "taxDescription": "YQ",
+            "taxDescriptionMessage": "YQ_DM"
+          }],
+          "totalTaxAmount": 658.0
+        },
+        "baseFare": 3750.0,
+        "totalFare": 4408.0
+      }
+    }],
+    "taxSummary": {
+      "flightTax": [{
+        "taxValue": 9724.0,
+        "taxDescription": "YQ",
+        "taxDescriptionMessage": "YQ_DM"
+      }],
+      "totalTaxAmount": 9724.0
+    },
+    "taxDescMap": {
+      "INF": "Infant Tax",
+      "KKC": "Krishi Kalyan Cess",
+      "AST": "Service Tax",
+      "PSF": "Passenger Service Fee",
+      "DF": "Development Fee",
+      "OTH": "Other",
+      "CF": "Congestion Fee",
+      "GOODS_SERVICE_TAX": "Goods and Services Tax",
+      "TTF": "Travel and Tourism Fee",
+      "GST": "Gvt. Service Fee",
+      "UDFA": "User Development Business Mocking Fee(Arrival)",
+      "TF": "CUTE Fee",
+      "SF": "Service Fee",
+      "RCF": "Regional Connectivity Fund",
+      "SBC": "Swachh Bharat Cess ",
+      "UDF": "User Development Fee",
+      "YQ": "Airline Fuel Charge",
+      "DC": "Discount"
+    }
+  }
+}

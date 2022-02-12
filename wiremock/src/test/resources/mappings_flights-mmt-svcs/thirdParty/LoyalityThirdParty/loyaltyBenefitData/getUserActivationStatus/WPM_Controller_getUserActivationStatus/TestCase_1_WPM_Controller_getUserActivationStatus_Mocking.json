@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/loyalty-webservice/getUserActivationStatus?.*OnlyWpmResponse.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/LoyalityThirdParty/getUserActivationStatus/WPM_Controller_getUserActivationStatus/TestCase_1_WPM_Controller_getUserActivationStatus_Response.json"
+    }
+}

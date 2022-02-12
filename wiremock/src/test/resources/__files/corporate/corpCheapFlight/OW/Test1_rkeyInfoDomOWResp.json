@@ -1,0 +1,107 @@
+{
+	"RKEY:eae9672e-0cdd-4b10-bfc8-7ff0fa300d94:35": {
+		"left": 1,
+		"middle": {
+			"fareKeyMap": {
+				"0": [{
+					"productClass": "SA",
+					"fareClass": "U",
+					"fareBasis": "USME",
+					"taxPsf": "91.0",
+					"taxYq": "2000.0",
+					"taxYr": null,
+					"taxYdf": null,
+					"taxK3": null,
+					"journeyIndex": 0,
+					"legIndex": 0,
+					"pax": "A"
+				}, {
+					"productClass": "SA",
+					"fareClass": "U",
+					"fareBasis": "USME",
+					"taxPsf": "91.0",
+					"taxYq": "2000.0",
+					"taxYr": null,
+					"taxYdf": null,
+					"taxK3": null,
+					"journeyIndex": 0,
+					"legIndex": 1,
+					"pax": "A"
+				}]
+			},
+			"paxFareInformation": {
+				"adultPrice": 8193.0,
+				"childPrice": 0,
+				"infantPrice": 0,
+				"adultBasePrice": 5382.0,
+				"childBasePrice": 0,
+				"infantBasePrice": 0,
+				"rtAdultPrice": null,
+				"rtChildPrice": null,
+				"rtInfantPrice": null,
+				"rtAdultBasePrice": null,
+				"rtChildBasePrice": null,
+				"rtInfantBasePrice": null
+			},
+			"flightLevelInformation": {
+				"cabinClass": "M",
+				"adultNumber": 1,
+				"childNumber": 0,
+				"infantNumber": 0,
+				"markup": 0,
+				"lob": "CORPSME_UN",
+				"realRKey": "v1~~SA$U$USME$91.0$2000.0$null$null$null$0$0$A,SA$U$USME$91.0$2000.0$null$null$null$0$1$A~A-8193.0|5382.0_C-0|0_I-0|0~M$1$0$0$CORPSME_UN$0$0~~DEL_CCU_240620_SG-253_U0dDU01FVEVTVA==_18:10_240620_20:25_SG_SG_SG_P,CCU_BLR_250620_SG-516_U0dDU01FVEVTVA==_06:55_250620_09:30_SG_SG_SG_JO~SG_0_0_DEL-BLR-240620_null_null",
+				"discount": 0
+			}
+		},
+		"right": {
+			"0": {
+				"segments": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "CCU",
+					"depDate": "240620",
+					"depTime": "18:10",
+					"depDateTime": "2020-06-24 18:10",
+					"arrDate": "240620",
+					"arrTime": "20:25",
+					"arrDateTime": "2020-06-24 20:25",
+					"flightNumber": "SG-253",
+					"cmsId": "SGCSMETEST",
+					"validatingAirline": "SG",
+					"marketingAirline": "SG",
+					"operatingAirline": "SG",
+					"flightServiceName": null,
+					"pnrGroup": null,
+					"rtFareFlag": null,
+					"stopType": "PLANE_CHANGE"
+				}, {
+					"depCityCode": "CCU",
+					"arrCityCode": "BLR",
+					"depDate": "250620",
+					"depTime": "06:55",
+					"depDateTime": "2020-06-25 06:55",
+					"arrDate": "250620",
+					"arrTime": "09:30",
+					"arrDateTime": "2020-06-25 09:30",
+					"flightNumber": "SG-516",
+					"cmsId": "SGCSMETEST",
+					"validatingAirline": "SG",
+					"marketingAirline": "SG",
+					"operatingAirline": "SG",
+					"flightServiceName": null,
+					"pnrGroup": null,
+					"rtFareFlag": null,
+					"stopType": "JOURNEY_OVER"
+				}],
+				"otherInfo": {
+					"flightServiceName": "SG",
+					"pnrGroup": 0,
+					"fareFamily": null,
+					"rtFareFlag": 0,
+					"intent": "DEL-BLR-240620",
+					"ptc": null
+				}
+			}
+		}
+	}
+}

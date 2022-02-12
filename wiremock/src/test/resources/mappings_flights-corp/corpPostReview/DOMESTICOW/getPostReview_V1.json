@@ -1,0 +1,14 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v1/post-review.*crId=test_postreview_crId.*"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpPostReview/DOMESTIC_OW/getPostReview_V1.json"
+	}
+}

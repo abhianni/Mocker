@@ -1,0 +1,333 @@
+{
+	"status": "SUCCESS",
+	"meta": {
+		"core": {
+			"nmAdt": 2,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "PNQ",
+				"to": "DEL",
+				"depDate": "2020-03-25"
+			}, {
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "PNQ",
+				"depDate": "2020-03-27"
+			}],
+			"cc": "E",
+			"rKey": "v1~~EP$E$E01H00$null$null$null$null$null$0$0$A^EP$K$K01H00$null$null$null$null$null$1$0$A~A-2929.0|2050.0_C-0|0_I-0|0^A-2928.0|2359.0_C-0|0_I-0|0~M$2$0$0$CORPSME_UN$0$null~~PNQ_DEL_250320_I5-736_STVVTkk=_01:30_250320_03:40_I5_I5_I5_JO~I5_0_0_PNQ-DEL-250320_null_null^DEL_PNQ_270320_I5-728_STVVTkk=_02:30_270320_04:40_I5_I5_I5_JO~I5_0_1_DEL-PNQ-270320_null_null"
+		}
+	},
+	  "insurance": {
+        "insurancePlan": [
+            {
+                "itemCode": "INSURANCE-299.0",
+                "price": 299.0,
+                "pricePerPax": 299.0,
+                "priceType": "TOTAL",
+                "tncLink": "https://promos.makemytrip.com/reliance-tnc-dom.html",
+                "tncText": "I agree to the {$tnc} & {$goodHealthTerms}, and confirm all passengers are between 2 to 70 years of age",
+                "goodHealthTermText": "I hereby declare on behalf of myself/all members proposed that I/we are in good health and not under any treatment or follow up for any medical or surgical problem. Neither have I/we ever been diagnosed with, investigated for or under treatment for any chronic health issue nor are any medical or surgical treatment or follow up planned for me/us in the near future",
+                "policyNo": "",
+                "policyName": "MMT INDIA RETURN_RIL",
+                "planBenefits": [
+                    {
+                        "name": "Total loss of checked-in baggage",
+                        "sumInsured": 20000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "MAIN",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Personal Accident",
+                        "sumInsured": 2500000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "MAIN",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Emergency Medical expenses & Evacuation",
+                        "sumInsured": 200000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "MAIN",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "OPD expenses",
+                        "sumInsured": 100000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Transportation Of Mortal Remains",
+                        "sumInsured": 100000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Personal Liability",
+                        "sumInsured": 100000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Emergency Hotel",
+                        "sumInsured": 20000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Emergency Travel",
+                        "sumInsured": 20000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Trip Cancellation",
+                        "sumInsured": 25000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Trip Curtailment",
+                        "sumInsured": 20000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Delay of Checked-in Baggage",
+                        "sumInsured": 5000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Flight Delay (beyond 5 hrs)",
+                        "sumInsured": 2000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Trip Delay",
+                        "sumInsured": 10500.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    },
+                    {
+                        "name": "Missed flight connection",
+                        "sumInsured": 10000.0,
+                        "deductible": "0",
+                        "image": null,
+                        "benefitType": "EXTRA",
+                        "currency": "INR"
+                    }
+                ],
+                "maxStayPeriod": 30,
+                "stayPeriod": 8,
+                "initStayPeriod": 8,
+                "stayPeriodInput": false
+            }
+        ],
+        "noPersuasionText": "Over 40% of our travellers choose to secure their travel every day.",
+        "specialMessage": ""
+    },
+	"review": {
+		"itineraryId": "testuser1_reviewitinerary_RTDom_regular1",
+		"meta": {
+			"cur": "INR",
+			"isDDApld": false,
+			"requestId": "test",
+			"srvrMtrc": {}
+		},
+		"recom": {
+			"itneraryJrnys": [{
+				"jrnyKey": "PNQ$DEL$2503200130$I5-736",
+				"isCstmComb": false,
+				"depDate": "2020-03-25 01:30",
+				"arrDate": "2020-03-25 03:40",
+				"dur": 130,
+				"flightDtlsInfo": [{
+					"flyingDay": 0,
+					"fltLookUpKey": "I5-I5-736-PNQ-DEL-2020-03-25 01:30-2020-03-25 03:40",
+					"pnrGroupNum": 0
+				}]
+			}, {
+				"jrnyKey": "DEL$PNQ$2703200230$I5-728",
+				"isCstmComb": true,
+				"depDate": "2020-03-27 02:30",
+				"arrDate": "2020-03-27 04:40",
+				"dur": 130,
+				"flightDtlsInfo": [{
+					"flyingDay": 0,
+					"fltLookUpKey": "I5-I5-728-DEL-PNQ-2020-03-27 02:30-2020-03-27 04:40",
+					"pnrGroupNum": 1
+				}]
+			}],
+			"frInfo": {
+				"showMoreFaresOnListing": false,
+				"bookingFarePnrSelectionInfoMap": {
+					"COMBO": {
+						"paxFr": {
+							"ADULT": {
+								"addonsAmnt": 0.0,
+								"bs": 4409.0,
+								"tx": 1448.0,
+								"sFee": 0.0,
+								"convFee": 0.0,
+								"instDisc": 0.0,
+								"preApDiscntInfo": [],
+								"tot": 5857.0,
+								"txInfo": [{
+									"amnt": 1448.0,
+									"code": "YQ",
+									"msg": "YQ_DM"
+								}],
+								"sFeeInfo": {}
+							}
+						},
+						"totFr": {
+							"addonsAmnt": 0.0,
+							"bs": 8818.0,
+							"tx": 2896.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 11714.0,
+							"txInfo": [{
+								"amnt": 2896.0,
+								"code": "YQ",
+								"msg": "YQ_DM"
+							}],
+							"sFeeInfo": {},
+							"addons": [{
+								"itemType": "COUPON",
+								"itemCode": "",
+								"selected": false,
+								"disabled": false
+							}]
+						},
+						"rKey": "Rkeytestusrb2crkey-0-testusrb2crkey-42"
+					
+					}
+				},
+				"isPnrGrpdFrFmlyAvl": false,
+				"preSlctdFarePnrSelectionInfoKey": "COMBO"
+			}
+		},
+		"fareComponentLookUpMap": {
+			"INF": "Infant Tax",
+			"KKC": "Krishi Kalyan Cess",
+			"AST": "Service Tax",
+			"PSF": "Passenger Service Fee",
+			"DF": "Development Fee",
+			"OTH": "Other",
+			"CF": "Congestion Fee",
+			"GOODS_SERVICE_TAX": "Goods and Services Tax",
+			"TTF": "Travel and Tourism Fee",
+			"GST": "Gvt. Service Fee",
+			"UDFA": "User Development Fee(Arrival)",
+			"TF": "CUTE Fee",
+			"SF": "Service Fee",
+			"RCF": "Regional Connectivity Fund",
+			"SBC": "Swachh Bharat Cess ",
+			"UDF": "User Development Fee",
+			"YQ": "Airline Fuel Charge",
+			"DC": "Discount"
+		},
+		"alCdeMap": {
+			"I5": {
+				"nm": "AirAsia"
+			}
+		},
+		"ctyCdeMap": {
+			"PNQ": {
+				"nm": "Pune",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Pune Airport"
+			},
+			"DEL": {
+				"nm": "New Delhi",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Indira Gandhi International Airport"
+			}
+		},
+		"flightLookUpList": {
+			"I5-I5-736-PNQ-DEL-2020-03-25 01:30-2020-03-25 03:40": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "I5",
+				"oprAl": "I5",
+				"fltNo": "736",
+				"arcrfTyp": "Airbus A320 ",
+				"depInfo": {
+					"trmnl": "",
+					"cityCd": "PNQ",
+					"arpNm": "Pune Airport"
+				},
+				"arrInfo": {
+					"trmnl": "3",
+					"cityCd": "DEL",
+					"arpNm": "Indira Gandhi International Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-03-25 01:30",
+				"arrTime": "2020-03-25 03:40",
+				"dur": 130
+			},
+			"I5-I5-728-DEL-PNQ-2020-03-27 02:30-2020-03-27 04:40": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "I5",
+				"oprAl": "I5",
+				"fltNo": "728",
+				"arcrfTyp": "Airbus A320 ",
+				"depInfo": {
+					"trmnl": "3",
+					"cityCd": "DEL",
+					"arpNm": "Indira Gandhi International Airport"
+				},
+				"arrInfo": {
+					"trmnl": "",
+					"cityCd": "PNQ",
+					"arpNm": "Pune Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-03-27 02:30",
+				"arrTime": "2020-03-27 04:40",
+				"dur": 130
+			}
+		},
+		"services": {}
+	}
+}

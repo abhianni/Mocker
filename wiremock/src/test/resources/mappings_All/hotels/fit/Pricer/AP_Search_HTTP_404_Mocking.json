@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/partner/aps/multiroomsearch*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_AP_HTTP_404"
+        }]
+    },
+    "response": {
+        "status": 404,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

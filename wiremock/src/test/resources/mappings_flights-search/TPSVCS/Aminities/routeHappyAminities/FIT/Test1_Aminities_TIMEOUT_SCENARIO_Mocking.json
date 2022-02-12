@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/flights-tp-svcs/v1/route-happy-amenities?.*TimeoutAMNT.*"
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 15000,
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

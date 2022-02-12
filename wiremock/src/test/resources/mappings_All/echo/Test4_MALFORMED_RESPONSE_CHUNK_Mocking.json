@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/echo/getCal",
+        "bodyPatterns":[{
+        "contains" : "FailureInjectEchoMalformedChunkScenario"
+        }]
+    },
+    "response": {
+        "fault": "MALFORMED_RESPONSE_CHUNK"
+    }
+}

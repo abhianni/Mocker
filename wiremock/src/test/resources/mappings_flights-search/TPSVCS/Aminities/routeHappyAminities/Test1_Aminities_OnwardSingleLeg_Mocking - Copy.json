@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/flights-tp-svcs/v1/route-happy-amenities?.*OWAMNT.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/flights_search/TPSVCS/Aminities/DOM_BOMOWResponse.json"
+    }
+}

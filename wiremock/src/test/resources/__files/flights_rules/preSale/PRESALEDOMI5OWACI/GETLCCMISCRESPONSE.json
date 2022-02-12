@@ -1,0 +1,662 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": " ",
+    "src": " ",
+    "currency": "INR",
+    "correlationId": "v1~~EP$K$K01H15$null$null$null$null$null$0$0$A,EP$K$K01H15$null$null$null$null$null$0$0$C~A-2590.0|2088.0_C-2590.0|2088.0_I-1200.0|1142.0~M$1$1$1$Flight_UN$0$null~~BOM_DEL_100620_I5-330_STVVTkky_00:05_100620_02:15_I5_I5_I5_JO~I5_0_0_BOM-DEL-100620_null",
+    "iteneraryId": "771362678857e1080bb898fa43823979db154ecb",
+    "enableDebugInfo": true
+  },
+  "flightLookUpList": {
+    "I5-I5-330-BOM-DEL-2020-06-10 00:05-2020-06-10 02:15": {
+      "mrkAl": "I5",
+      "oprAl": "I5",
+      "validatingCarrier": "I5",
+      "fltNo": "330",
+      "depInfo": {
+        "arpCd": "BOM"
+      },
+      "arrInfo": {
+        "arpCd": "DEL"
+      },
+      "depTime": 1591727700000,
+      "arrTime": 1591735500000,
+      "dur": 0
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "BOM$DEL$1006200005$I5-330",
+        "depDate": "2020-06-10 00:05",
+        "arrDate": "2020-06-10 02:15",
+        "dur": 0,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "I5-I5-330-BOM-DEL-2020-06-10 00:05-2020-06-10 02:15",
+          "pnrGroupNum": 0,
+          "cabin": "M"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 2088.0,
+                  "singlePaxTx": 502.0,
+                  "singlePaxTot": 2590.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 0.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "psf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yq"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "udf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yr"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "ydf"
+                  }],
+                  "noOfPax": 1,
+                  "segPrdctInfo": {
+                    "I5-I5-330-BOM-DEL-2020-06-10 00:05-2020-06-10 02:15": {
+                      "pclass": "EP",
+                      "fareBasis": "K01H15",
+                      "pClass": "EP",
+                      "rbd": "K"
+                    }
+                  }
+                },
+                "INFANT": {
+                  "singlePaxBaseFare": 1142.0,
+                  "singlePaxTx": 58.0,
+                  "singlePaxTot": 1200.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 0.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "psf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yq"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "udf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yr"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "ydf"
+                  }],
+                  "noOfPax": 1,
+                  "segPrdctInfo": {}
+                },
+                "CHILD": {
+                  "singlePaxBaseFare": 2088.0,
+                  "singlePaxTx": 502.0,
+                  "singlePaxTot": 2590.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 0.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "psf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yq"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "udf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yr"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "ydf"
+                  }],
+                  "noOfPax": 1,
+                  "segPrdctInfo": {
+                    "I5-I5-330-BOM-DEL-2020-06-10 00:05-2020-06-10 02:15": {
+                      "pclass": "EP",
+                      "fareBasis": "K01H15",
+                      "pClass": "EP",
+                      "rbd": "K"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "BOM$DEL$1006200005$I5-330",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [{
+                          "type": "CancellationMarkupWaiver",
+                          "value": 300.0,
+                          "valid": true
+                        }],
+                        "bookingWaiver": [{
+                          "type": "ZC",
+                          "value": 2590.0,
+                          "valid": true
+                        }],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [{
+                          "type": "CancellationMarkupWaiver",
+                          "value": 300.0,
+                          "valid": true
+                        }],
+                        "bookingWaiver": [{
+                          "type": "ZC",
+                          "value": 2590.0,
+                          "valid": true
+                        }],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [{
+                          "type": "CancellationMarkupWaiver",
+                          "value": 300.0,
+                          "valid": true
+                        }],
+                        "bookingWaiver": [{
+                          "type": "ZC",
+                          "value": 2590.0,
+                          "valid": true
+                        }],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [{
+                          "type": "CancellationMarkupWaiver",
+                          "value": 300.0,
+                          "valid": true
+                        }],
+                        "bookingWaiver": [{
+                          "type": "ZC",
+                          "value": 2590.0,
+                          "valid": true
+                        }],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 1200.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [{
+                          "type": "CancellationMarkupWaiver",
+                          "value": 300.0,
+                          "valid": true
+                        }],
+                        "bookingWaiver": [{
+                          "type": "ZC",
+                          "value": 1200.0,
+                          "valid": true
+                        }],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 1200.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [{
+                          "type": "CancellationMarkupWaiver",
+                          "value": 300.0,
+                          "valid": true
+                        }],
+                        "bookingWaiver": [{
+                          "type": "ZC",
+                          "value": 1200.0,
+                          "valid": true
+                        }],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 1200.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 900.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 900.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "BOM$DEL$1006200005$I5-330",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2590.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 1200.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 1200.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 1200.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 900.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 900.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "BOM$DEL$1006200005$I5-330",
+                "flightLookUpKey": "I5-I5-330-BOM-DEL-2020-06-10 00:05-2020-06-10 02:15",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "INFANT": {
+                      "allowance": "0",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "15",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "CHILD": {
+                      "allowance": "15",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "INFANT": {
+                      "allowance": "0",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "CHILD": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": true,
+              "supplierName": "I5",
+              "supplierCredential": "I5UNI2"
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

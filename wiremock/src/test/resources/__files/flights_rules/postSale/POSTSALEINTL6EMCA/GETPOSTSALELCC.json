@@ -1,0 +1,354 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NN7812453730634",
+    "iteneraryId": "29d27c0949f1367d713c0f109932522e0c229329",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "\"NN7812453730634\"",
+      "BookingAggregatorResponse": "{\"mmtId\":\"NN7812453730634\",\"pnrData\":[{\"pnrNo\":\"HE8YUL\",\"supplierId\":\"6EUNI\",\"supplierType\":\"NAV42\",\"airlineCode\":\"6E\"},{\"pnrNo\":\"NHMGFP\",\"supplierId\":\"6EUNI\",\"supplierType\":\"NAV42\",\"airlineCode\":\"6E\"}],\"userData\":{\"uuid\":\"UFMS4ZPIBWH\",\"profileType\":\"PERSONAL\"},\"itineraryId\":\"29d27c0949f1367d713c0f109932522e0c229329\",\"cancellationAssurance\":false,\"fareType\":null,\"cabinClass\":\"E\"}",
+      "PostSaleCPReq": "{\"status\":null,\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN7812453730634\",\"iteneraryId\":\"29d27c0949f1367d713c0f109932522e0c229329\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"5016\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"arrivalInfo\":{\"trmnl\":\"\",\"arpCd\":\"ATQ\"},\"techStops\":null,\"depTime\":1615765500000,\"arrTime\":1615770000000,\"duration\":4500000},\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"22\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"DXB\"},\"arrivalInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"techStops\":null,\"depTime\":1615740600000,\"arrTime\":1615757700000,\"duration\":17100000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"depDate\":\"2021-03-14 22:20\",\"arrDate\":\"2021-03-15 06:30\",\"duration\":29400000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\",\"pnrGroupNum\":0,\"cabin\":\"E\"},{\"fltLookUpKey\":\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":8906.0,\"singlePaxTx\":2494.0,\"singlePaxTot\":11400.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":713.0,\"taxCode\":\"F6\"},{\"nation\":null,\"taxVal\":1527.0,\"taxCode\":\"AE\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"TP\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\":{\"fareClass\":\"J\",\"fareBasis\":\"J015AP\",\"rbd\":\"J\",\"pclass\":\"R\"},\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\":{\"fareClass\":\"R\",\"fareBasis\":\"R0INT\",\"rbd\":\"R\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"DXB-DEL : 6E-22\":{\"singlePaxBaseFare\":6500.0,\"singlePaxTx\":2494.0,\"singlePaxTot\":8994.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1527.0,\"taxCode\":\"AE\"},{\"nation\":null,\"taxVal\":713.0,\"taxCode\":\"F6\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"TP\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"}]},\"DEL-ATQ : 6E-5016\":{\"singlePaxBaseFare\":2406.0,\"singlePaxTx\":0.0,\"singlePaxTot\":2406.0,\"singlePaxTaxBreakups\":[]}}}},\"cancellationPenalty\":null,\"dateChangePenalty\":null,\"baggageList\":null,\"cancellationAssured\":false,\"supplierName\":\"6E\",\"supplierCredential\":\"6EUNI\",\"fareFamily\":\"\"}]}}}}]}}",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-07-30 01:20:47\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NN7812453730634\\\",\\\"iteneraryId\\\":\\\"29d27c0949f1367d713c0f109932522e0c229329\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\\\":{\\\"mrkAl\\\":\\\"6E\\\",\\\"oprAl\\\":\\\"6E\\\",\\\"validatingCarrier\\\":\\\"6E\\\",\\\"fltNo\\\":\\\"5016\\\",\\\"arcrfTyp\\\":\\\"320\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"3\\\",\\\"arpCd\\\":\\\"DEL\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"\\\",\\\"arpCd\\\":\\\"ATQ\\\"},\\\"depTime\\\":1615765500000,\\\"arrTime\\\":1615770000000,\\\"dur\\\":4500000},\\\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\\\":{\\\"mrkAl\\\":\\\"6E\\\",\\\"oprAl\\\":\\\"6E\\\",\\\"validatingCarrier\\\":\\\"6E\\\",\\\"fltNo\\\":\\\"22\\\",\\\"arcrfTyp\\\":\\\"320\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"1\\\",\\\"arpCd\\\":\\\"DXB\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"3\\\",\\\"arpCd\\\":\\\"DEL\\\"},\\\"depTime\\\":1615740600000,\\\"arrTime\\\":1615757700000,\\\"dur\\\":17100000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"DXB-ATQ : 6E-22 | 6E-5016\\\",\\\"depDate\\\":\\\"2021-03-14 22:20\\\",\\\"arrDate\\\":\\\"2021-03-15 06:30\\\",\\\"dur\\\":29400000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"},{\\\"fltLookUpKey\\\":\\\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":8906.0,\\\"singlePaxTx\\\":2494.0,\\\"singlePaxTot\\\":11400.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":713.0,\\\"taxCode\\\":\\\"F6\\\"},{\\\"taxVal\\\":1527.0,\\\"taxCode\\\":\\\"AE\\\"},{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"RCF\\\"},{\\\"taxVal\\\":102.0,\\\"taxCode\\\":\\\"ZR\\\"},{\\\"taxVal\\\":102.0,\\\"taxCode\\\":\\\"TP\\\"}],\\\"noOfPax\\\":2,\\\"journeyWiseFare\\\":{\\\"DXB-DEL : 6E-22\\\":{\\\"singlePaxBaseFare\\\":6500.0,\\\"singlePaxTx\\\":2494.0,\\\"singlePaxTot\\\":8994.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":1527.0,\\\"taxCode\\\":\\\"AE\\\"},{\\\"taxVal\\\":713.0,\\\"taxCode\\\":\\\"F6\\\"},{\\\"taxVal\\\":102.0,\\\"taxCode\\\":\\\"TP\\\"},{\\\"taxVal\\\":102.0,\\\"taxCode\\\":\\\"ZR\\\"},{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"RCF\\\"}]},\\\"DEL-ATQ : 6E-5016\\\":{\\\"singlePaxBaseFare\\\":2406.0,\\\"singlePaxTx\\\":0.0,\\\"singlePaxTot\\\":2406.0,\\\"singlePaxTaxBreakups\\\":[]}},\\\"segPrdctInfo\\\":{\\\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\\\":{\\\"pclass\\\":\\\"R\\\",\\\"fareClass\\\":\\\"J\\\",\\\"fareBasis\\\":\\\"J015AP\\\",\\\"pClass\\\":\\\"R\\\",\\\"rbd\\\":\\\"J\\\"},\\\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\\\":{\\\"pclass\\\":\\\"R\\\",\\\"fareClass\\\":\\\"R\\\",\\\"fareBasis\\\":\\\"R0INT\\\",\\\"pClass\\\":\\\"R\\\",\\\"rbd\\\":\\\"R\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"6E\\\",\\\"supplierCredential\\\":\\\"6EUNI\\\",\\\"fareFamily\\\":\\\"\\\"}]}}}}]}}\",\"ticketData\":\"null\",\"mmtId\":\"NN7812453730634\"}",
+      "PostSaleDroolsBaggage0": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"INTL\",\"fromCityLeg\":\"DXB\",\"toCityLeg\":\"DEL\",\"fromCountryLeg\":\"United Arab Emirates\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"6E\",\"validatingAirline\":\"6E\",\"cabinClass\":\"E\",\"flightNo\":\"22\",\"fbc\":\"R0INT\",\"rbd\":\"R\",\"productClass\":\"R\",\"bookingDate\":1596052247000,\"ptcCode\":\"\",\"travelDateStart\":1615740600000,\"travelDateEnd\":1615740600000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}},{\"sector\":\"INTL\",\"fromCityLeg\":\"DEL\",\"toCityLeg\":\"ATQ\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"6E\",\"validatingAirline\":\"6E\",\"cabinClass\":\"E\",\"flightNo\":\"5016\",\"fbc\":\"J015AP\",\"rbd\":\"J\",\"productClass\":\"R\",\"bookingDate\":1596052247000,\"ptcCode\":\"\",\"travelDateStart\":1615765500000,\"travelDateEnd\":1615765500000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "PostSaleDroolsBaggage1": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"INTL\",\"fromCityLeg\":\"DXB\",\"toCityLeg\":\"DEL\",\"fromCountryLeg\":\"United Arab Emirates\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"6E\",\"validatingAirline\":\"6E\",\"cabinClass\":\"E\",\"flightNo\":\"22\",\"fbc\":\"R0INT\",\"rbd\":\"R\",\"productClass\":\"R\",\"bookingDate\":1596052247000,\"ptcCode\":\"\",\"travelDateStart\":1615740600000,\"travelDateEnd\":1615740600000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}},{\"sector\":\"INTL\",\"fromCityLeg\":\"DEL\",\"toCityLeg\":\"ATQ\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"6E\",\"validatingAirline\":\"6E\",\"cabinClass\":\"E\",\"flightNo\":\"5016\",\"fbc\":\"J015AP\",\"rbd\":\"J\",\"productClass\":\"R\",\"bookingDate\":1596052247000,\"ptcCode\":\"\",\"travelDateStart\":1615765500000,\"travelDateEnd\":1615765500000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "MiniRuleConfig": "{\"airline\":\"6E\",\"sector\":\"INTL\",\"fbc\":null,\"rbd\":null,\"productClass\":null,\"cabinClass\":\"ECONOMY\",\"departureDate\":null,\"bookingDate\":null,\"noShowCutOff\":24,\"firedRules\":[\"22\"],\"cpadditive\":300.0,\"cpmultiplier\":1.18,\"dcpadditive\":0.0,\"dcpmultiplier\":1.05}",
+      "PostSaleBaggageResponse0": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"flightLookUpKey\":\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}},{\"jrnyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"flightLookUpKey\":\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}]}",
+      "PostSaleBaggageResponse1": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"flightLookUpKey\":\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}},{\"jrnyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"flightLookUpKey\":\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}]}",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"DXB-ATQ : 6E-22 | 6E-5016\":{\"fltGrps\":[{\"fltKeys\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"]},{\"fltKeys\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"]}],\"connectingFltCombinType\":\"MOST_RESTERICTIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"DXB-ATQ : 6E-22 | 6E-5016\":{\"fltGrps\":[{\"fltKeys\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"]},{\"fltKeys\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"]}],\"connectingFltCombinType\":\"MOST_RESTERICTIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":0,\"to\":4,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9797.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":4,\"to\":72,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":0,\"to\":4,\"fareBasis\":\"J015AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9797.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9797.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"J015AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9797.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":4,\"to\":72,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"5000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"J015AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":0,\"to\":4,\"fareBasis\":\"J015AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9797.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":4,\"to\":72,\"fareBasis\":\"J015AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"5000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":4,\"to\":72,\"fareBasis\":\"J015AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":0,\"to\":4,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9797.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9797.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"J015AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"J015AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9797.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"DXB-ATQ : 6E-22 | 6E-5016\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"DXB-ATQ : 6E-22 | 6E-5016\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "{\"status\":\"SUCCCES\",\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN7812453730634\",\"iteneraryId\":\"29d27c0949f1367d713c0f109932522e0c229329\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"5016\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"arrivalInfo\":{\"trmnl\":\"\",\"arpCd\":\"ATQ\"},\"techStops\":null,\"depTime\":1615765500000,\"arrTime\":1615770000000,\"duration\":4500000},\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"22\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"DXB\"},\"arrivalInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"techStops\":null,\"depTime\":1615740600000,\"arrTime\":1615757700000,\"duration\":17100000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"depDate\":\"2021-03-14 22:20\",\"arrDate\":\"2021-03-15 06:30\",\"duration\":29400000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\",\"pnrGroupNum\":0,\"cabin\":\"E\"},{\"fltLookUpKey\":\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":8906.0,\"singlePaxTx\":2494.0,\"singlePaxTot\":11400.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":713.0,\"taxCode\":\"F6\"},{\"nation\":null,\"taxVal\":1527.0,\"taxCode\":\"AE\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"TP\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\":{\"fareClass\":\"J\",\"fareBasis\":\"J015AP\",\"rbd\":\"J\",\"pclass\":\"R\"},\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\":{\"fareClass\":\"R\",\"fareBasis\":\"R0INT\",\"rbd\":\"R\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"DXB-DEL : 6E-22\":{\"singlePaxBaseFare\":6500.0,\"singlePaxTx\":2494.0,\"singlePaxTot\":8994.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1527.0,\"taxCode\":\"AE\"},{\"nation\":null,\"taxVal\":713.0,\"taxCode\":\"F6\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"TP\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"}]},\"DEL-ATQ : 6E-5016\":{\"singlePaxBaseFare\":2406.0,\"singlePaxTx\":0.0,\"singlePaxTot\":2406.0,\"singlePaxTaxBreakups\":[]}}}},\"cancellationPenalty\":[{\"jrnyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":4500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":5000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":5000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":9797.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":9797.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null}}}],\"dateChangePenalty\":[{\"jrnyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":9797.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":9797.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null}]}}}],\"baggageList\":[{\"jrnyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"flightLookUpKey\":\"6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}},{\"jrnyKey\":\"DXB-ATQ : 6E-22 | 6E-5016\",\"flightLookUpKey\":\"6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}],\"cancellationAssured\":false,\"supplierName\":\"6E\",\"supplierCredential\":\"6EUNI\",\"fareFamily\":\"\"}]}}}}]}}",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "validatingCarrier": "6E",
+      "fltNo": "5016",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "arpCd": "ATQ"
+      },
+      "depTime": 1615765500000,
+      "arrTime": 1615770000000,
+      "dur": 4500000
+    },
+    "6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "validatingCarrier": "6E",
+      "fltNo": "22",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "DXB"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL"
+      },
+      "depTime": 1615740600000,
+      "arrTime": 1615757700000,
+      "dur": 17100000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "DXB-ATQ : 6E-22 | 6E-5016",
+        "depDate": "2021-03-14 22:20",
+        "arrDate": "2021-03-15 06:30",
+        "dur": 29400000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }, {
+          "fltLookUpKey": "6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 8906.0,
+                  "singlePaxTx": 2494.0,
+                  "singlePaxTot": 11400.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 713.0,
+                    "taxCode": "F6"
+                  }, {
+                    "taxVal": 1527.0,
+                    "taxCode": "AE"
+                  }, {
+                    "taxVal": 50.0,
+                    "taxCode": "RCF"
+                  }, {
+                    "taxVal": 102.0,
+                    "taxCode": "ZR"
+                  }, {
+                    "taxVal": 102.0,
+                    "taxCode": "TP"
+                  }],
+                  "noOfPax": 2,
+                  "journeyWiseFare": {
+                    "DXB-DEL : 6E-22": {
+                      "singlePaxBaseFare": 6500.0,
+                      "singlePaxTx": 2494.0,
+                      "singlePaxTot": 8994.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 1527.0,
+                        "taxCode": "AE"
+                      }, {
+                        "taxVal": 713.0,
+                        "taxCode": "F6"
+                      }, {
+                        "taxVal": 102.0,
+                        "taxCode": "TP"
+                      }, {
+                        "taxVal": 102.0,
+                        "taxCode": "ZR"
+                      }, {
+                        "taxVal": 50.0,
+                        "taxCode": "RCF"
+                      }]
+                    },
+                    "DEL-ATQ : 6E-5016": {
+                      "singlePaxBaseFare": 2406.0,
+                      "singlePaxTx": 0.0,
+                      "singlePaxTot": 2406.0,
+                      "singlePaxTaxBreakups": []
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30": {
+                      "pclass": "R",
+                      "fareClass": "J",
+                      "fareBasis": "J015AP",
+                      "pClass": "R",
+                      "rbd": "J"
+                    },
+                    "6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05": {
+                      "pclass": "R",
+                      "fareClass": "R",
+                      "fareBasis": "R0INT",
+                      "pClass": "R",
+                      "rbd": "R"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "DXB-ATQ : 6E-22 | 6E-5016",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 5000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 5000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 9797.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 9797.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "DXB-ATQ : 6E-22 | 6E-5016",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 9797.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 9797.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "DXB-ATQ : 6E-22 | 6E-5016",
+                "flightLookUpKey": "6E-22-DXB-DEL-2021-03-14 22:20-2021-03-15 03:05",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }, {
+                "jrnyKey": "DXB-ATQ : 6E-22 | 6E-5016",
+                "flightLookUpKey": "6E-5016-DEL-ATQ-2021-03-15 05:15-2021-03-15 06:30",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "6E",
+              "supplierCredential": "6EUNI",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

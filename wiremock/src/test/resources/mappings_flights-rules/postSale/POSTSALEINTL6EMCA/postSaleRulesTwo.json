@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/postSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/postSale/POSTSALEINTL6EMCA/GETPOSTSALELCCTwo.json"
+  }
+}
+

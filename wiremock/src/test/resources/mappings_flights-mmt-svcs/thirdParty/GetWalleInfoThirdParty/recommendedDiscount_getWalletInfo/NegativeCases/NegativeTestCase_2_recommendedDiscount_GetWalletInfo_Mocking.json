@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/mmt_webs_mywallet/mywallet/v2/getaccountdetails",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Accept" : {"matches" : "application/json"},
+		"Authorization" : {"matches" : "Basic QVBJVVNFUjpmNGU5NUBlZjA4"}
+		},
+        "bodyPatterns":[{
+        "contains" : "UJH1BWIO1XL_Recommende_NegativeWalletAmount"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/GetWalleInfoThirdParty/recommendedDiscount_getWalletInfo/NegativeCases/NegativeTestCase_2_recommendedDiscount_GetWalletInfo_Response.json"
+    }
+}

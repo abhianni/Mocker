@@ -1,0 +1,10 @@
+{
+  "request":{
+    "method": "GET",
+    "urlPattern": "/flights-mmt-svcs/v1/tp-aggregator/loyalty-benefit-data?.*FIT_LBD_EMPTY_RESPONSE.*"
+  },
+  "response": {
+    "status": 200,
+    "fault": "EMPTY_RESPONSE"
+  }
+}

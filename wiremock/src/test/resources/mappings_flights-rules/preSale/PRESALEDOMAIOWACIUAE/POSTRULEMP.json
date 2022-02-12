@@ -1,0 +1,22 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-mp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "AI-AI-531-AMD-BDQ-2021-01-20 19:45-2021-01-20 20:20"
+      },
+      {       "contains" : "2184af29073e22d43cd127d3ce6494e5223c11d1"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEDOMAIOWACIUAE/GETRULEMP.json"
+  }
+}
+

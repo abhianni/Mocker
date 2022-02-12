@@ -1,0 +1,2979 @@
+{
+  "classname": ".AggregatorSearchSimpleResponse",
+  "status": "SUCCESS",
+  "meta": {
+    "cur": "INR",
+    "rhnBnr": {
+      "lbl": "SMART VALUE",
+      "txt": "Flights on top !",
+      "subTxt": "Popularity based on duration and price."
+    },
+    "brdCstCpns": {},
+    "requestId": "FLT_TEST_SP_SingleFlightAug",
+    "lgurl": "https://imgak.mmtcdn.com/air/pwa/dist/assets/img/airline-logos/sm{{airline}}.gif?v=17",
+    "srvrMtrc": {
+      "is.search.buddy.route": "true",
+      "is.search.nearby.route": "false",
+      "is.search.source.cache": "true",
+      "is.search.source.imp.cache": "false",
+      "time.search.total.ms": "1066"
+    }
+  },
+  "alCdeMap": {
+    "9I": {
+      "nm": "New Airline"
+    },
+    "SG": {
+      "nm": "Spicejet"
+    },
+    "MA": {
+      "nm": "Multiple Airline"
+    },
+    "AI": {
+      "nm": "AirIndia"
+    },
+    "9W": {
+      "nm": "Jet Airways"
+    },
+    "6E": {
+      "nm": "IndiGo"
+    },
+    "G8": {
+      "nm": "Go Air"
+    },
+    "OS": {
+      "nm": "Spicejet HBag Only"
+    },
+    "I5": {
+      "nm": "AirAsia"
+    }
+  },
+  "ctyCdeMap": {
+    "IXC": {
+      "nm": "Chandigarh",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata"
+    },
+    "AIP": {
+      "nm": "Adampur",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata"
+    },
+    "BLR": {
+      "nm": "Bengaluru",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata"
+    },
+    "DEL": {
+      "nm": "New Delhi",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata"
+    },
+    "KUU": {
+      "nm": "Kulu",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata"
+    },
+    "BOM": {
+      "nm": "Mumbai",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata"
+    },
+    "PNQ": {
+      "nm": "Pune",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata"
+    },
+    "MAA": {
+      "nm": "Chennai",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata"
+    },
+    "IDR": {
+      "nm": "Indore",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata"
+    }
+  },
+  "flightLookUpList": {
+    "6E-6E-842-IXC-DEL-2019-08-21 12:05-2019-08-21 13:20": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "842",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 12:05",
+      "arrTime": "2019-08-21 13:20",
+      "dur": 75
+    },
+    "G8-G8-275-IXC-PNQ-2019-08-21 19:50-2019-08-21 22:00": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "G8",
+      "oprAl": "G8",
+      "fltNo": "275",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "2",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "PNQ",
+        "arpNm": "Pune Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 19:50",
+      "arrTime": "2019-08-21 22:00",
+      "dur": 130
+    },
+    "G8-G8-336-IXC-BOM-2019-08-21 14:25-2019-08-21 16:35": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "G8",
+      "oprAl": "G8",
+      "fltNo": "336",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "2",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "BOM",
+        "arpNm": "Chhatrapati Shivaji International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 14:25",
+      "arrTime": "2019-08-21 16:35",
+      "dur": 130
+    },
+    "G8-G8-171-IXC-PNQ-2019-08-21 18:20-2019-08-21 20:25": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "G8",
+      "oprAl": "G8",
+      "fltNo": "171",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "2",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "PNQ",
+        "arpNm": "Pune Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 18:20",
+      "arrTime": "2019-08-21 20:25",
+      "dur": 125
+    },
+    "G8-G8-303-BOM-AIP-2019-08-21 18:35-2019-08-21 20:30": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "G8",
+      "oprAl": "G8",
+      "fltNo": "303",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "1",
+        "cityCd": "BOM",
+        "arpNm": "Chhatrapati Shivaji International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 18:35",
+      "arrTime": "2019-08-21 20:30",
+      "dur": 115
+    },
+    "G8-G8-633-PNQ-AIP-2019-08-21 23:05-2019-08-22 00:55": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "G8",
+      "oprAl": "G8",
+      "fltNo": "633",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "PNQ",
+        "arpNm": "Pune Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 23:05",
+      "arrTime": "2019-08-22 00:55",
+      "dur": 110
+    },
+    "G8-G8-338-IXC-BOM-2019-08-21 10:40-2019-08-21 12:50": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "G8",
+      "oprAl": "G8",
+      "fltNo": "338",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "2",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "BOM",
+        "arpNm": "Chhatrapati Shivaji International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 10:40",
+      "arrTime": "2019-08-21 12:50",
+      "dur": 130
+    },
+    "SG-SG-143-IXC-AIP-2019-08-21 20:55-2019-08-21 23:40": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "143",
+      "arcrfTyp": "Boeing 737-700",
+      "depInfo": {
+        "trmnl": "1D",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 20:55",
+      "arrTime": "2019-08-21 23:40",
+      "dur": 165
+    },
+    "AI-AI-636-IXC-AIP-2019-08-21 15:05-2019-08-21 18:25": {
+      "amen": {
+        "frMeal": true
+      },
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "636",
+      "arcrfTyp": "Airbus A319 ",
+      "depInfo": {
+        "trmnl": "3",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "2",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [
+        {
+          "dur": 35,
+          "locInfo": {
+            "cityCd": "IDR",
+            "arpNm": "Devi Ahilyabai Holkar International Airport"
+          },
+          "depTime": "2019-08-21 17:05",
+          "arrTime": "2019-08-21 16:30"
+        }
+      ],
+      "depTime": "2019-08-21 15:05",
+      "arrTime": "2019-08-21 18:25",
+      "dur": 200
+    },
+    "SG-SG-191-IXC-AIP-2019-08-21 06:10-2019-08-21 09:00": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "191",
+      "arcrfTyp": "7M8",
+      "depInfo": {
+        "trmnl": "1D",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 06:10",
+      "arrTime": "2019-08-21 09:00",
+      "dur": 170
+    },
+    "6E-6E-608-IXC-BOM-2019-08-21 09:50-2019-08-21 11:25": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "608",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "BOM",
+        "arpNm": "Chhatrapati Shivaji International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 09:50",
+      "arrTime": "2019-08-21 11:25",
+      "dur": 95
+    },
+    "6E-6E-309-IXC-AIP-2019-08-21 20:00-2019-08-21 21:25": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "309",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 20:00",
+      "arrTime": "2019-08-21 21:25",
+      "dur": 85
+    },
+    "6E-6E-6236-BLR-AIP-2019-08-21 23:10-2019-08-22 00:25": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "6236",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "1",
+        "cityCd": "BLR",
+        "arpNm": "Bengaluru International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 23:10",
+      "arrTime": "2019-08-22 00:25",
+      "dur": 75
+    },
+    "6E-6E-739-IXC-BLR-2019-08-21 15:00-2019-08-21 16:15": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "739",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "BLR",
+        "arpNm": "Bengaluru International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 15:00",
+      "arrTime": "2019-08-21 16:15",
+      "dur": 75
+    },
+    "6E-6E-116-PNQ-AIP-2019-08-22 01:00-2019-08-22 02:05": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "116",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "PNQ",
+        "arpNm": "Pune Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-22 01:00",
+      "arrTime": "2019-08-22 02:05",
+      "dur": 65
+    },
+    "6E-6E-419-BOM-AIP-2019-08-21 15:15-2019-08-21 16:35": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "419",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "1",
+        "cityCd": "BOM",
+        "arpNm": "Chhatrapati Shivaji International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 15:15",
+      "arrTime": "2019-08-21 16:35",
+      "dur": 80
+    },
+    "6E-6E-905-IXC-AIP-2019-08-21 12:50-2019-08-21 14:15": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "905",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 12:50",
+      "arrTime": "2019-08-21 14:15",
+      "dur": 85
+    },
+    "6E-6E-831-BOM-AIP-2019-08-21 12:40-2019-08-21 14:05": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "831",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "1",
+        "cityCd": "BOM",
+        "arpNm": "Chhatrapati Shivaji International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 12:40",
+      "arrTime": "2019-08-21 14:05",
+      "dur": 85
+    },
+    "6E-6E-118-IXC-PNQ-2019-08-21 22:05-2019-08-21 23:15": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "118",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "PNQ",
+        "arpNm": "Pune Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 22:05",
+      "arrTime": "2019-08-21 23:15",
+      "dur": 70
+    },
+    "6E-6E-6505-IXC-BLR-2019-08-21 20:35-2019-08-21 21:50": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "6505",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "BLR",
+        "arpNm": "Bengaluru International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 20:35",
+      "arrTime": "2019-08-21 21:50",
+      "dur": 75
+    },
+    "6E-6E-743-IXC-AIP-2019-08-21 05:35-2019-08-21 07:05": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "743",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 05:35",
+      "arrTime": "2019-08-21 07:05",
+      "dur": 90
+    },
+    "6E-6E-6913-IXC-AIP-2019-08-21 21:20-2019-08-21 22:45": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "6913",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 21:20",
+      "arrTime": "2019-08-21 22:45",
+      "dur": 85
+    },
+    "6E-6E-342-IXC-BOM-2019-08-21 12:10-2019-08-21 13:40": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "342",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "BOM",
+        "arpNm": "Chhatrapati Shivaji International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 12:10",
+      "arrTime": "2019-08-21 13:40",
+      "dur": 90
+    },
+    "6E-6E-279-BLR-AIP-2019-08-21 18:20-2019-08-21 19:40": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "279",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "1",
+        "cityCd": "BLR",
+        "arpNm": "Bengaluru International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 18:20",
+      "arrTime": "2019-08-21 19:40",
+      "dur": 80
+    },
+    "SG-SG-197-IXC-AIP-2019-08-21 17:55-2019-08-21 20:40": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "197",
+      "arcrfTyp": "Boeing 737-700",
+      "depInfo": {
+        "trmnl": "1D",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 17:55",
+      "arrTime": "2019-08-21 20:40",
+      "dur": 165
+    },
+    "SG-SG-107-IXC-MAA-2019-08-21 06:05-2019-08-21 09:00": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "107",
+      "arcrfTyp": "Boeing 737-700",
+      "depInfo": {
+        "trmnl": "1D",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "MAA",
+        "arpNm": "Chennai International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 06:05",
+      "arrTime": "2019-08-21 09:00",
+      "dur": 175
+    },
+    "I5-I5-2879-IXC-AIP-2019-08-21 16:45-2019-08-21 19:25": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "I5",
+      "oprAl": "I5",
+      "fltNo": "2879",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 16:45",
+      "arrTime": "2019-08-21 19:25",
+      "dur": 160
+    },
+    "I5-I5-721-IXC-AIP-2019-08-21 20:45-2019-08-21 23:30": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "I5",
+      "oprAl": "I5",
+      "fltNo": "721",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 20:45",
+      "arrTime": "2019-08-21 23:30",
+      "dur": 165
+    },
+    "SG-SG-3309-MAA-AIP-2019-08-21 16:55-2019-08-21 17:55": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "3309",
+      "arcrfTyp": "DH8",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "MAA",
+        "arpNm": "Chennai International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 16:55",
+      "arrTime": "2019-08-21 17:55",
+      "dur": 60
+    },
+    "9I-AI-9806-KUU-DEL-2019-08-21 10:50-2019-08-21 12:25": {
+      "amen": {
+        "frMeal": true
+      },
+      "mrkAl": "AI",
+      "oprAl": "9I",
+      "fltNo": "9806",
+      "arcrfTyp": "ATR",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "KUU",
+        "arpNm": "Bhuntar Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 10:50",
+      "arrTime": "2019-08-21 12:25",
+      "dur": 95
+    },
+    "9W-9W-656-IXC-DEL-2019-08-21 09:50-2019-08-21 11:20": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "9W",
+      "oprAl": "9W",
+      "fltNo": "656",
+      "arcrfTyp": "AT7",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 09:50",
+      "arrTime": "2019-08-21 11:20",
+      "dur": 90
+    },
+    "SG-SG-8731-DEL-AIP-2019-08-21 15:30-2019-08-21 16:45": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "8731",
+      "arcrfTyp": "DH8",
+      "depInfo": {
+        "trmnl": "2",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "AIP",
+        "arpNm": "Adampur Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 15:30",
+      "arrTime": "2019-08-21 16:45",
+      "dur": 75
+    },
+    "9I-AI-9808-IXC-KUU-2019-08-21 09:40-2019-08-21 10:25": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "AI",
+      "oprAl": "9I",
+      "fltNo": "9808",
+      "arcrfTyp": "ATR",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "KUU",
+        "arpNm": "Bhuntar Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 09:40",
+      "arrTime": "2019-08-21 10:25",
+      "dur": 45
+    },
+    "9I-AI-9832-IXC-DEL-2019-08-21 07:25-2019-08-21 08:25": {
+      "mrkAl": "AI",
+      "oprAl": "9I",
+      "fltNo": "9832",
+      "arcrfTyp": "ATR",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 07:25",
+      "arrTime": "2019-08-21 08:25",
+      "dur": 60
+    },
+    "6E-6E-455-IXC-DEL-2019-08-21 07:55-2019-08-21 09:00": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "455",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 07:55",
+      "arrTime": "2019-08-21 09:00",
+      "dur": 65
+    },
+    "9W-9W-648-IXC-DEL-2019-08-21 07:40-2019-08-21 08:55": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "9W",
+      "oprAl": "9W",
+      "fltNo": "648",
+      "arcrfTyp": "AT7",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 07:40",
+      "arrTime": "2019-08-21 08:55",
+      "dur": 75
+    },
+    "9W-9W-664-IXC-DEL-2019-08-21 11:00-2019-08-21 12:30": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "9W",
+      "oprAl": "9W",
+      "fltNo": "664",
+      "arcrfTyp": "AT7",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXC",
+        "arpNm": "Chandigarh Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-21 11:00",
+      "arrTime": "2019-08-21 12:30",
+      "dur": 90
+    }
+  },
+  "rcomGrps": [
+    {
+      "arlns": [
+        "6E",
+        "SG"
+      ],
+      "sAdltFr": {
+        "bs": 2962,
+        "tx": 858,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [
+          {
+            "cd": "MEGASALE",
+            "disc": 427,
+            "isInstant": true,
+            "dsplyTxt": " Instant Discount",
+            "discSrc": "wallet"
+          }
+        ],
+        "slashTot": 4247,
+        "tot": 3820
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": true,
+          "recomKey": "IXC_DEL_210819_6E-455_6E_0,DEL_AIP_210819_SG-8731_SG_1",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$DEL$2108190755$6E-455|DEL$AIP$2108191530$SG-8731",
+              "isCstmComb": true,
+              "depDate": "2019-08-21 07:55",
+              "arrDate": "2019-08-21 16:45",
+              "dur": 530,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-455-IXC-DEL-2019-08-21 07:55-2019-08-21 09:00",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "SG-SG-8731-DEL-AIP-2019-08-21 15:30-2019-08-21 16:45",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_TERMINAL",
+                  "prvFltCntDur": 390
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 2962,
+                    "tx": 858,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [
+                      {
+                        "cd": "MEGASALE",
+                        "disc": 427,
+                        "isInstant": true,
+                        "dsplyTxt": " Instant Discount",
+                        "discSrc": "wallet"
+                      }
+                    ],
+                    "slashTot": 4247,
+                    "tot": 3820
+                  },
+                  "CHILD": {
+                    "bs": 2962,
+                    "tx": 858,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 3820
+                  },
+                  "INFANT": {
+                    "bs": 2390,
+                    "tx": 120,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2510
+                  }
+                },
+                "totFr": {
+                  "bs": 8314,
+                  "tx": 1836,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 10150
+                },
+                "rKey": "v1~~R$R$R0IP$153.0$200.0$null$295.0$null$0$0$A,R$R$R0IP$153.0$200.0$null$295.0$null$0$0$C,R$R$R0IP$null$null$null$null$null$0$0$I^R$D$DSAVER$153.0$200.0$null$295.0$null$1$0$A,R$D$DSAVER$153.0$200.0$null$295.0$null$1$0$C,R$D$DSAVER$null$null$null$null$null$1$0$I~A-3820.0_C-3820.0_I-2510.0~M~~IXC_DEL_210819_6E-455_NkVVTkkyXzIzSnVuZXxTR01PQklMRU1BSU4=~6E_0_0^DEL_AIP_210819_SG-8731_NkVVTkkyXzIzSnVuZXxTR01PQklMRU1BSU4=~SG_0_1",
+                "rfndStatus": "PARTIALLY_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E",
+        "SG"
+      ],
+      "sAdltFr": {
+        "bs": 2962,
+        "tx": 858,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 3820
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": true,
+          "recomKey": "IXC_DEL_210819_6E-842_6E_0,DEL_AIP_210819_SG-8731_SG_1",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$DEL$2108191205$6E-842|DEL$AIP$2108191530$SG-8731",
+              "isCstmComb": true,
+              "depDate": "2019-08-21 12:05",
+              "arrDate": "2019-08-21 16:45",
+              "dur": 280,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-842-IXC-DEL-2019-08-21 12:05-2019-08-21 13:20",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "SG-SG-8731-DEL-AIP-2019-08-21 15:30-2019-08-21 16:45",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_TERMINAL",
+                  "prvFltCntDur": 130
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 2962,
+                    "tx": 858,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 3820
+                  },
+                  "CHILD": {
+                    "bs": 2962,
+                    "tx": 858,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 3820
+                  },
+                  "INFANT": {
+                    "bs": 2390,
+                    "tx": 120,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2510
+                  }
+                },
+                "totFr": {
+                  "bs": 8314,
+                  "tx": 1836,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 10150
+                },
+                "rKey": "v1~~R$R$R015AP$153.0$200.0$null$295.0$null$0$0$A,R$R$R015AP$153.0$200.0$null$295.0$null$0$0$C,R$R$R015AP$null$null$null$null$null$0$0$I^R$D$DSAVER$153.0$200.0$null$295.0$null$1$0$A,R$D$DSAVER$153.0$200.0$null$295.0$null$1$0$C,R$D$DSAVER$null$null$null$null$null$1$0$I~A-3820.0_C-3820.0_I-2510.0~M~~IXC_DEL_210819_6E-842_NkVVTkkyXzIzSnVuZXxTR01PQklMRU1BSU4=~6E_0_0^DEL_AIP_210819_SG-8731_NkVVTkkyXzIzSnVuZXxTR01PQklMRU1BSU4=~SG_0_1",
+                "rfndStatus": "PARTIALLY_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "AI",
+        "SG"
+      ],
+      "sAdltFr": {
+        "bs": 3311,
+        "tx": 614,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [
+          {
+            "cd": "MEGASALE",
+            "disc": 429,
+            "isInstant": true,
+            "dsplyTxt": " Instant Discount",
+            "discSrc": "CDF"
+          }
+        ],
+        "slashTot": 4354,
+        "tot": 3925
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": true,
+          "recomKey": "IXC_DEL_210819_AI-9832_MP_0,DEL_AIP_210819_SG-8731_SG_1",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$DEL$2108190725$AI-9832|DEL$AIP$2108191530$SG-8731",
+              "isCstmComb": true,
+              "depDate": "2019-08-21 07:25",
+              "arrDate": "2019-08-21 16:45",
+              "dur": 560,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "9I-AI-9832-IXC-DEL-2019-08-21 07:25-2019-08-21 08:25",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "SG-SG-8731-DEL-AIP-2019-08-21 15:30-2019-08-21 16:45",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_TERMINAL",
+                  "prvFltCntDur": 425
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 3311,
+                    "tx": 614,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [
+                      {
+                        "cd": "MEGASALE",
+                        "disc": 429,
+                        "isInstant": true,
+                        "dsplyTxt": " Instant Discount",
+                        "discSrc": "CDF"
+                      }
+                    ],
+                    "slashTot": 4354,
+                    "tot": 3925
+                  },
+                  "CHILD": {
+                    "bs": 3311,
+                    "tx": 614,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 3925
+                  },
+                  "INFANT": {
+                    "bs": 2200,
+                    "tx": 110,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2310
+                  }
+                },
+                "totFr": {
+                  "bs": 8822,
+                  "tx": 1338,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 10160
+                },
+                "rKey": "v1~~null$S$SAP309I$null$null$null$null$65.0$0$0$A,null$S$SAP309I$null$null$null$null$65.0$0$0$C,null$S$SAP309I$null$null$null$null$50.0$0$0$I^null$D$DSAVER$null$null$null$null$65.0$1$0$A,null$D$DSAVER$null$null$null$null$65.0$1$0$C,null$D$DSAVER$null$null$null$null$50.0$1$0$I~A-3925.0_C-3925.0_I-2310.0~M~~IXC_DEL_210819_AI-9832_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~MP_0_0^DEL_AIP_210819_SG-8731_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~SG_0_1",
+                "rfndStatus": "PARTIALLY_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E"
+      ],
+      "sAdltFr": {
+        "bs": 1139,
+        "tx": 1115,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 2254
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_6E-309_6E_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$AIP$2108192000$6E-309",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 20:00",
+              "arrDate": "2019-08-21 21:25",
+              "dur": 85,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-309-IXC-AIP-2019-08-21 20:00-2019-08-21 21:25",
+                  "pnrGroupNum": 0
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 1139,
+                    "tx": 1115,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2254
+                  },
+                  "CHILD": {
+                    "bs": 1139,
+                    "tx": 1115,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2254
+                  },
+                  "INFANT": {
+                    "bs": 1190,
+                    "tx": 60,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1250
+                  }
+                },
+                "totFr": {
+                  "bs": 3468,
+                  "tx": 2290,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 5758
+                },
+                "rKey": "v1~~R$Q$Q0IP$236.0$200.0$null$507.0$null$0$0$A,R$Q$Q0IP$236.0$200.0$null$507.0$null$0$0$C,R$Q$Q0IP$null$null$null$null$null$0$0$I~A-2254.0_C-2254.0_I-1250.0~M~~IXC_AIP_210819_6E-309_NkVVTkkyXzIzSnVuZQ==~6E_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE",
+                "canAssr": {
+                  "sa": true,
+                  "fe": 1347,
+                  "ac": "6E449",
+                  "pt": "Get Full refund on cancellation penalties. Buy ZC @ only Rs. 449",
+                  "pp": "Great choice! Your cancellation is now covered by us. You will get 100% refund on your cancellation penalty if your plan changes",
+                  "fpp": 449
+                }
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E"
+      ],
+      "sAdltFr": {
+        "bs": 1139,
+        "tx": 1115,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 2254
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_6E-6913_6E_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$AIP$2108192120$6E-6913",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 21:20",
+              "arrDate": "2019-08-21 22:45",
+              "dur": 85,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-6913-IXC-AIP-2019-08-21 21:20-2019-08-21 22:45",
+                  "pnrGroupNum": 0
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 1139,
+                    "tx": 1115,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2254
+                  },
+                  "CHILD": {
+                    "bs": 1139,
+                    "tx": 1115,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2254
+                  },
+                  "INFANT": {
+                    "bs": 1190,
+                    "tx": 60,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1250
+                  }
+                },
+                "totFr": {
+                  "bs": 3468,
+                  "tx": 2290,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 5758
+                },
+                "rKey": "v1~~R$Q$Q0IP$236.0$200.0$null$507.0$null$0$0$A,R$Q$Q0IP$236.0$200.0$null$507.0$null$0$0$C,R$Q$Q0IP$null$null$null$null$null$0$0$I~A-2254.0_C-2254.0_I-1250.0~M~~IXC_AIP_210819_6E-6913_NkVVTkkyXzIzSnVuZQ==~6E_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE",
+                "canAssr": {
+                  "sa": true,
+                  "fe": 1347,
+                  "ac": "6E449",
+                  "pt": "Get Full refund on cancellation penalties. Buy ZC @ only Rs. 449",
+                  "pp": "Great choice! Your cancellation is now covered by us. You will get 100% refund on your cancellation penalty if your plan changes",
+                  "fpp": 449
+                }
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E"
+      ],
+      "sAdltFr": {
+        "bs": 1276,
+        "tx": 1121,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 2397
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_6E-743_6E_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$AIP$2108190535$6E-743",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 05:35",
+              "arrDate": "2019-08-21 07:05",
+              "dur": 90,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-743-IXC-AIP-2019-08-21 05:35-2019-08-21 07:05",
+                  "pnrGroupNum": 0
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 1276,
+                    "tx": 1121,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2397
+                  },
+                  "CHILD": {
+                    "bs": 1276,
+                    "tx": 1121,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2397
+                  },
+                  "INFANT": {
+                    "bs": 1190,
+                    "tx": 60,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1250
+                  }
+                },
+                "totFr": {
+                  "bs": 3742,
+                  "tx": 2302,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 6044
+                },
+                "rKey": "v1~~R$R$R0IP$236.0$200.0$null$507.0$null$0$0$A,R$R$R0IP$236.0$200.0$null$507.0$null$0$0$C,R$R$R0IP$null$null$null$null$null$0$0$I~A-2397.0_C-2397.0_I-1250.0~M~~IXC_AIP_210819_6E-743_NkVVTkkyXzIzSnVuZQ==~6E_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE",
+                "canAssr": {
+                  "sa": true,
+                  "fe": 1347,
+                  "ac": "6E449",
+                  "pt": "Get Full refund on cancellation penalties. Buy ZC @ only Rs. 449",
+                  "pp": "Great choice! Your cancellation is now covered by us. You will get 100% refund on your cancellation penalty if your plan changes",
+                  "fpp": 449
+                }
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "AI"
+      ],
+      "sAdltFr": {
+        "bs": 2550,
+        "tx": 367,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 2917
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_AI-636_MP_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$IDR$AIP$2108191505$AI-636",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 15:05",
+              "arrDate": "2019-08-21 18:25",
+              "dur": 200,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "AI-AI-636-IXC-AIP-2019-08-21 15:05-2019-08-21 18:25",
+                  "pnrGroupNum": 0
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 2550,
+                    "tx": 367,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2917
+                  },
+                  "CHILD": {
+                    "bs": 2550,
+                    "tx": 367,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2917
+                  },
+                  "INFANT": {
+                    "bs": 1000,
+                    "tx": 124,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1124
+                  }
+                },
+                "totFr": {
+                  "bs": 6100,
+                  "tx": 858,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 6958
+                },
+                "rKey": "v1~~null$S$SAP8$null$null$70.0$null$131.0$0$0$A,null$S$SAP8$null$null$70.0$null$131.0$0$0$C,null$S$SAP8$null$null$70.0$null$54.0$0$0$I~A-2917.0_C-2917.0_I-1124.0~M~~IXC_AIP_210819_AI-636_TVBERkZMVDI=~MP_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE",
+                "sAdltBaggageInfo": {
+                  "cknBgg": {
+                    "unt": "Kgs",
+                    "qty": 25,
+                    "diTxt": "25 Kgs"
+                  }
+                }
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E"
+      ],
+      "sAdltFr": {
+        "bs": 1276,
+        "tx": 1121,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 2397
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_6E-905_6E_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$AIP$2108191250$6E-905",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 12:50",
+              "arrDate": "2019-08-21 14:15",
+              "dur": 85,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-905-IXC-AIP-2019-08-21 12:50-2019-08-21 14:15",
+                  "pnrGroupNum": 0
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 1276,
+                    "tx": 1121,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2397
+                  },
+                  "CHILD": {
+                    "bs": 1276,
+                    "tx": 1121,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2397
+                  },
+                  "INFANT": {
+                    "bs": 1190,
+                    "tx": 60,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1250
+                  }
+                },
+                "totFr": {
+                  "bs": 3742,
+                  "tx": 2302,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 6044
+                },
+                "rKey": "v1~~R$R$R0IP$236.0$200.0$null$507.0$null$0$0$A,R$R$R0IP$236.0$200.0$null$507.0$null$0$0$C,R$R$R0IP$null$null$null$null$null$0$0$I~A-2397.0_C-2397.0_I-1250.0~M~~IXC_AIP_210819_6E-905_NkVVTkkyXzIzSnVuZQ==~6E_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE",
+                "canAssr": {
+                  "sa": true,
+                  "fe": 1347,
+                  "ac": "6E449",
+                  "pt": "Get Full refund on cancellation penalties. Buy ZC @ only Rs. 449",
+                  "pp": "Great choice! Your cancellation is now covered by us. You will get 100% refund on your cancellation penalty if your plan changes",
+                  "fpp": 449
+                }
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E"
+      ],
+      "sAdltFr": {
+        "bs": 2891,
+        "tx": 1465,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 4356
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_6E-6505|6E-6236_6E_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$BLR$2108192035$6E-6505|BLR$AIP$2108192310$6E-6236",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 20:35",
+              "arrDate": "2019-08-22 00:25",
+              "dur": 230,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-6505-IXC-BLR-2019-08-21 20:35-2019-08-21 21:50",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-6236-BLR-AIP-2019-08-21 23:10-2019-08-22 00:25",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 80
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 2891,
+                    "tx": 1465,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4356
+                  },
+                  "CHILD": {
+                    "bs": 2891,
+                    "tx": 1465,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4356
+                  },
+                  "INFANT": {
+                    "bs": 1190,
+                    "tx": 60,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1250
+                  }
+                },
+                "totFr": {
+                  "bs": 6972,
+                  "tx": 2990,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 9962
+                },
+                "rKey": "v1~~R$Q$QC8AP$236.0$400.0$null$507.0$null$0$0$A,R$Q$QC8AP$236.0$400.0$null$507.0$null$0$1$A,R$Q$QC8AP$236.0$400.0$null$507.0$null$0$0$C,R$Q$QC8AP$236.0$400.0$null$507.0$null$0$1$C,R$Q$QC8AP$null$null$null$null$null$0$0$I,R$Q$QC8AP$null$null$null$null$null$0$1$I~A-4356.0_C-4356.0_I-1250.0~M~~IXC_BLR_210819_6E-6505_NkVVTkkyXzIzSnVuZQ==,BLR_AIP_210819_6E-6236_NkVVTkkyXzIzSnVuZQ==~6E_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E"
+      ],
+      "sAdltFr": {
+        "bs": 3078,
+        "tx": 1475,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 4553
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_6E-739|6E-279_6E_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$BLR$2108191500$6E-739|BLR$AIP$2108191820$6E-279",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 15:00",
+              "arrDate": "2019-08-21 19:40",
+              "dur": 280,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-739-IXC-BLR-2019-08-21 15:00-2019-08-21 16:15",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-279-BLR-AIP-2019-08-21 18:20-2019-08-21 19:40",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 125
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 3078,
+                    "tx": 1475,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4553
+                  },
+                  "CHILD": {
+                    "bs": 3078,
+                    "tx": 1475,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4553
+                  },
+                  "INFANT": {
+                    "bs": 1190,
+                    "tx": 60,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1250
+                  }
+                },
+                "totFr": {
+                  "bs": 7346,
+                  "tx": 3010,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 10356
+                },
+                "rKey": "v1~~R$P$PC8AP$236.0$400.0$null$507.0$null$0$0$A,R$P$PC8AP$236.0$400.0$null$507.0$null$0$1$A,R$P$PC8AP$236.0$400.0$null$507.0$null$0$0$C,R$P$PC8AP$236.0$400.0$null$507.0$null$0$1$C,R$P$PC8AP$null$null$null$null$null$0$0$I,R$P$PC8AP$null$null$null$null$null$0$1$I~A-4553.0_C-4553.0_I-1250.0~M~~IXC_BLR_210819_6E-739_NkVVTkkyXzIzSnVuZQ==,BLR_AIP_210819_6E-279_NkVVTkkyXzIzSnVuZQ==~6E_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E"
+      ],
+      "sAdltFr": {
+        "bs": 3537,
+        "tx": 1497,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 5034
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_6E-118|6E-116_6E_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$PNQ$2108192205$6E-118|PNQ$AIP$2208190100$6E-116",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 22:05",
+              "arrDate": "2019-08-22 02:05",
+              "dur": 240,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-118-IXC-PNQ-2019-08-21 22:05-2019-08-21 23:15",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 1,
+                  "fltLookUpKey": "6E-6E-116-PNQ-AIP-2019-08-22 01:00-2019-08-22 02:05",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 105
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 3537,
+                    "tx": 1497,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 5034
+                  },
+                  "CHILD": {
+                    "bs": 3537,
+                    "tx": 1497,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 5034
+                  },
+                  "INFANT": {
+                    "bs": 1190,
+                    "tx": 60,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1250
+                  }
+                },
+                "totFr": {
+                  "bs": 8264,
+                  "tx": 3054,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 11318
+                },
+                "rKey": "v1~~R$J$JC4AP$236.0$400.0$null$507.0$null$0$0$A,R$J$JC4AP$236.0$400.0$null$507.0$null$0$1$A,R$J$JC4AP$236.0$400.0$null$507.0$null$0$0$C,R$J$JC4AP$236.0$400.0$null$507.0$null$0$1$C,R$J$JC4AP$null$null$null$null$null$0$0$I,R$J$JC4AP$null$null$null$null$null$0$1$I~A-5034.0_C-5034.0_I-1250.0~M~~IXC_PNQ_210819_6E-118_NkVVTkkyXzIzSnVuZQ==,PNQ_AIP_220819_6E-116_NkVVTkkyXzIzSnVuZQ==~6E_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E"
+      ],
+      "sAdltFr": {
+        "bs": 4367,
+        "tx": 1539,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 5906
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_6E-608|6E-831_6E_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$BOM$2108190950$6E-608|BOM$AIP$2108191240$6E-831",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 09:50",
+              "arrDate": "2019-08-21 14:05",
+              "dur": 255,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-608-IXC-BOM-2019-08-21 09:50-2019-08-21 11:25",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-831-BOM-AIP-2019-08-21 12:40-2019-08-21 14:05",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 75
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 4367,
+                    "tx": 1539,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 5906
+                  },
+                  "CHILD": {
+                    "bs": 4367,
+                    "tx": 1539,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 5906
+                  },
+                  "INFANT": {
+                    "bs": 1190,
+                    "tx": 60,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1250
+                  }
+                },
+                "totFr": {
+                  "bs": 9924,
+                  "tx": 3138,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 13062
+                },
+                "rKey": "v1~~R$N$N0IP$236.0$400.0$null$507.0$null$0$0$A,R$R$R015AP$236.0$400.0$null$507.0$null$0$1$A,R$N$N0IP$236.0$400.0$null$507.0$null$0$0$C,R$R$R015AP$236.0$400.0$null$507.0$null$0$1$C,R$N$N0IP$null$null$null$null$null$0$0$I,R$R$R015AP$null$null$null$null$null$0$1$I~A-5906.0_C-5906.0_I-1250.0~M~~IXC_BOM_210819_6E-608_NkVVTkkyXzIzSnVuZQ==,BOM_AIP_210819_6E-831_NkVVTkkyXzIzSnVuZQ==~6E_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "6E"
+      ],
+      "sAdltFr": {
+        "bs": 4367,
+        "tx": 1539,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 5906
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_6E-342|6E-419_6E_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$BOM$2108191210$6E-342|BOM$AIP$2108191515$6E-419",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 12:10",
+              "arrDate": "2019-08-21 16:35",
+              "dur": 265,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-342-IXC-BOM-2019-08-21 12:10-2019-08-21 13:40",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "6E-6E-419-BOM-AIP-2019-08-21 15:15-2019-08-21 16:35",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 95
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 4367,
+                    "tx": 1539,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 5906
+                  },
+                  "CHILD": {
+                    "bs": 4367,
+                    "tx": 1539,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 5906
+                  },
+                  "INFANT": {
+                    "bs": 1190,
+                    "tx": 60,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1250
+                  }
+                },
+                "totFr": {
+                  "bs": 9924,
+                  "tx": 3138,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 13062
+                },
+                "rKey": "v1~~R$N$N0IP$236.0$400.0$null$507.0$null$0$0$A,R$R$R015AP$236.0$400.0$null$507.0$null$0$1$A,R$N$N0IP$236.0$400.0$null$507.0$null$0$0$C,R$R$R015AP$236.0$400.0$null$507.0$null$0$1$C,R$N$N0IP$null$null$null$null$null$0$0$I,R$R$R015AP$null$null$null$null$null$0$1$I~A-5906.0_C-5906.0_I-1250.0~M~~IXC_BOM_210819_6E-342_NkVVTkkyXzIzSnVuZQ==,BOM_AIP_210819_6E-419_NkVVTkkyXzIzSnVuZQ==~6E_0_0",
+                "rfndStatus": "PARTIALLY_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "G8"
+      ],
+      "sAdltFr": {
+        "bs": 3592,
+        "tx": 1224,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 4816
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_G8-171|G8-633_G8_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$PNQ$2108191820$G8-171|PNQ$AIP$2108192305$G8-633",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 18:20",
+              "arrDate": "2019-08-22 00:55",
+              "dur": 395,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "G8-G8-171-IXC-PNQ-2019-08-21 18:20-2019-08-21 20:25",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "G8-G8-633-PNQ-AIP-2019-08-21 23:05-2019-08-22 00:55",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 160
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 3592,
+                    "tx": 1224,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4816
+                  },
+                  "CHILD": {
+                    "bs": 3592,
+                    "tx": 1224,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4816
+                  },
+                  "INFANT": {
+                    "bs": 1142,
+                    "tx": 58,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1200
+                  }
+                },
+                "totFr": {
+                  "bs": 8326,
+                  "tx": 2506,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 10832
+                },
+                "rKey": "v1~~GS$Z$ZO9RBINF$245.0$600.0$null$null$null$0$0$A,GS$Z$ZO9RBINX$245.0$600.0$null$null$null$0$1$A,GS$Z$ZO9RBINF$245.0$600.0$null$null$null$0$0$C,GS$Z$ZO9RBINX$245.0$600.0$null$null$null$0$1$C,GS$Z$ZO9RBINF$null$null$null$null$null$0$0$I,GS$Z$ZO9RBINX$null$null$null$null$null$0$1$I~A-4816.0_C-4816.0_I-1200.0~M~~IXC_PNQ_210819_G8-171_RzhVTklNT0JOU18xOFNlcHQ=,PNQ_AIP_210819_G8-633_RzhVTklNT0JOU18xOFNlcHQ=~G8_0_0",
+                "rfndStatus": "NON_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "G8"
+      ],
+      "sAdltFr": {
+        "bs": 3592,
+        "tx": 1224,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 4816
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_G8-275|G8-633_G8_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$PNQ$2108191950$G8-275|PNQ$AIP$2108192305$G8-633",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 19:50",
+              "arrDate": "2019-08-22 00:55",
+              "dur": 305,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "G8-G8-275-IXC-PNQ-2019-08-21 19:50-2019-08-21 22:00",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "G8-G8-633-PNQ-AIP-2019-08-21 23:05-2019-08-22 00:55",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 65
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 3592,
+                    "tx": 1224,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4816
+                  },
+                  "CHILD": {
+                    "bs": 3592,
+                    "tx": 1224,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4816
+                  },
+                  "INFANT": {
+                    "bs": 1142,
+                    "tx": 58,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1200
+                  }
+                },
+                "totFr": {
+                  "bs": 8326,
+                  "tx": 2506,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 10832
+                },
+                "rKey": "v1~~GS$Z$ZO9RBINF$245.0$600.0$null$null$null$0$0$A,GS$Z$ZO9RBINX$245.0$600.0$null$null$null$0$1$A,GS$Z$ZO9RBINF$245.0$600.0$null$null$null$0$0$C,GS$Z$ZO9RBINX$245.0$600.0$null$null$null$0$1$C,GS$Z$ZO9RBINF$null$null$null$null$null$0$0$I,GS$Z$ZO9RBINX$null$null$null$null$null$0$1$I~A-4816.0_C-4816.0_I-1200.0~M~~IXC_PNQ_210819_G8-275_RzhVTklNT0JOU18xOFNlcHQ=,PNQ_AIP_210819_G8-633_RzhVTklNT0JOU18xOFNlcHQ=~G8_0_0",
+                "rfndStatus": "NON_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "G8"
+      ],
+      "sAdltFr": {
+        "bs": 4084,
+        "tx": 1458,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 5542
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_G8-338|G8-303_G8_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$BOM$2108191040$G8-338|BOM$AIP$2108191835$G8-303",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 10:40",
+              "arrDate": "2019-08-21 20:30",
+              "dur": 590,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "G8-G8-338-IXC-BOM-2019-08-21 10:40-2019-08-21 12:50",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "G8-G8-303-BOM-AIP-2019-08-21 18:35-2019-08-21 20:30",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 345
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 4084,
+                    "tx": 1458,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 5542
+                  },
+                  "CHILD": {
+                    "bs": 4084,
+                    "tx": 1458,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 5542
+                  },
+                  "INFANT": {
+                    "bs": 1142,
+                    "tx": 58,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1200
+                  }
+                },
+                "totFr": {
+                  "bs": 9310,
+                  "tx": 2974,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 12284
+                },
+                "rKey": "v1~~GS$H$HO9RBINF$245.0$800.0$null$null$null$0$0$A,GS$Z$ZO9RBINF$245.0$800.0$null$null$null$0$1$A,GS$H$HO9RBINF$245.0$800.0$null$null$null$0$0$C,GS$Z$ZO9RBINF$245.0$800.0$null$null$null$0$1$C,GS$H$HO9RBINF$null$null$null$null$null$0$0$I,GS$Z$ZO9RBINF$null$null$null$null$null$0$1$I~A-5542.0_C-5542.0_I-1200.0~M~~IXC_BOM_210819_G8-338_RzhVTklNT0JOU18xOFNlcHQ=,BOM_AIP_210819_G8-303_RzhVTklNT0JOU18xOFNlcHQ=~G8_0_0",
+                "rfndStatus": "NON_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "G8"
+      ],
+      "sAdltFr": {
+        "bs": 4084,
+        "tx": 1458,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [
+          {
+            "cd": "cashback",
+            "disc": 431,
+            "isInstant": false,
+            "dsplyTxt": "Cashback Discount",
+            "discSrc": "CDF"
+          }
+        ],
+        "tot": 5542
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": false,
+          "recomKey": "IXC_AIP_210819_G8-336|G8-303_G8_0",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$BOM$2108191425$G8-336|BOM$AIP$2108191835$G8-303",
+              "isCstmComb": false,
+              "depDate": "2019-08-21 14:25",
+              "arrDate": "2019-08-21 20:30",
+              "dur": 365,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "G8-G8-336-IXC-BOM-2019-08-21 14:25-2019-08-21 16:35",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "G8-G8-303-BOM-AIP-2019-08-21 18:35-2019-08-21 20:30",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 120
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 4084,
+                    "tx": 1458,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [
+                      {
+                        "cd": "cashback",
+                        "disc": 431,
+                        "isInstant": false,
+                        "dsplyTxt": "Cashback Discount",
+                        "discSrc": "CDF"
+                      }
+                    ],
+                    "tot": 5542
+                  },
+                  "CHILD": {
+                    "bs": 4084,
+                    "tx": 1458,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 5542
+                  },
+                  "INFANT": {
+                    "bs": 1142,
+                    "tx": 58,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 1200
+                  }
+                },
+                "totFr": {
+                  "bs": 9310,
+                  "tx": 2974,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 12284
+                },
+                "rKey": "v1~~GS$H$HO9RBINF$245.0$800.0$null$null$null$0$0$A,GS$Z$ZO9RBINF$245.0$800.0$null$null$null$0$1$A,GS$H$HO9RBINF$245.0$800.0$null$null$null$0$0$C,GS$Z$ZO9RBINF$245.0$800.0$null$null$null$0$1$C,GS$H$HO9RBINF$null$null$null$null$null$0$0$I,GS$Z$ZO9RBINF$null$null$null$null$null$0$1$I~A-5542.0_C-5542.0_I-1200.0~M~~IXC_BOM_210819_G8-336_RzhVTklNT0JOU18xOFNlcHQ=,BOM_AIP_210819_G8-303_RzhVTklNT0JOU18xOFNlcHQ=~G8_0_0",
+                "rfndStatus": "NON_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "9W",
+        "SG"
+      ],
+      "sAdltFr": {
+        "bs": 2891,
+        "tx": 1355,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 4246
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": true,
+          "recomKey": "IXC_DEL_210819_9W-648_MP_0,DEL_AIP_210819_SG-8731_SG_1",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$DEL$2108190740$9W-648|DEL$AIP$2108191530$SG-8731",
+              "isCstmComb": true,
+              "depDate": "2019-08-21 07:40",
+              "arrDate": "2019-08-21 16:45",
+              "dur": 545,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "9W-9W-648-IXC-DEL-2019-08-21 07:40-2019-08-21 08:55",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "SG-SG-8731-DEL-AIP-2019-08-21 15:30-2019-08-21 16:45",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_TERMINAL",
+                  "prvFltCntDur": 395
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 2891,
+                    "tx": 1355,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4246
+                  },
+                  "CHILD": {
+                    "bs": 2891,
+                    "tx": 1355,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4246
+                  },
+                  "INFANT": {
+                    "bs": 2580,
+                    "tx": 261,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2841
+                  }
+                },
+                "totFr": {
+                  "bs": 8362,
+                  "tx": 2971,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 11333
+                },
+                "rKey": "v1~~null$V$V2IPO$null$600.0$125.0$null$81.0$0$0$A,null$V$V2IPO$null$600.0$125.0$null$81.0$0$0$C,null$V$V2IPO$null$null$125.0$null$76.0$0$0$I^null$D$DSAVER$null$600.0$125.0$null$81.0$1$0$A,null$D$DSAVER$null$600.0$125.0$null$81.0$1$0$C,null$D$DSAVER$null$null$125.0$null$76.0$1$0$I~A-4246.0_C-4246.0_I-2841.0~M~~IXC_DEL_210819_9W-648_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~MP_0_0^DEL_AIP_210819_SG-8731_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~SG_0_1",
+                "rfndStatus": "NON_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "9W",
+        "SG"
+      ],
+      "sAdltFr": {
+        "bs": 3271,
+        "tx": 1374,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 4645
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": true,
+          "recomKey": "IXC_DEL_210819_9W-656_MP_0,DEL_AIP_210819_SG-8731_SG_1",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$DEL$2108190950$9W-656|DEL$AIP$2108191530$SG-8731",
+              "isCstmComb": true,
+              "depDate": "2019-08-21 09:50",
+              "arrDate": "2019-08-21 16:45",
+              "dur": 415,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "9W-9W-656-IXC-DEL-2019-08-21 09:50-2019-08-21 11:20",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "SG-SG-8731-DEL-AIP-2019-08-21 15:30-2019-08-21 16:45",
+                  "pnrGroupNum": 1,
+                  "prvFltCntTyp": "CHANGE_OF_TERMINAL",
+                  "prvFltCntDur": 250
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 3271,
+                    "tx": 1374,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4645
+                  },
+                  "CHILD": {
+                    "bs": 3271,
+                    "tx": 1374,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4645
+                  },
+                  "INFANT": {
+                    "bs": 2580,
+                    "tx": 261,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2841
+                  }
+                },
+                "totFr": {
+                  "bs": 9122,
+                  "tx": 3009,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 12131
+                },
+                "rKey": "v1~~null$H$H2IPO$null$600.0$125.0$null$100.0$0$0$A,null$H$H2IPO$null$600.0$125.0$null$100.0$0$0$C,null$H$H2IPO$null$null$125.0$null$76.0$0$0$I^null$D$DSAVER$null$600.0$125.0$null$100.0$1$0$A,null$D$DSAVER$null$600.0$125.0$null$100.0$1$0$C,null$D$DSAVER$null$null$125.0$null$76.0$1$0$I~A-4645.0_C-4645.0_I-2841.0~M~~IXC_DEL_210819_9W-656_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~MP_0_0^DEL_AIP_210819_SG-8731_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~SG_0_1",
+                "rfndStatus": "NON_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "9W",
+        "SG"
+      ],
+      "sAdltFr": {
+        "bs": 3271,
+        "tx": 1374,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 4645
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": true,
+          "recomKey": "IXC_DEL_210819_9W-664_MP_0,DEL_AIP_210819_SG-8731_SG_1",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$DEL$2108191100$9W-664|DEL$AIP$2108191530$SG-8731",
+              "isCstmComb": true,
+              "depDate": "2019-08-21 11:00",
+              "arrDate": "2019-08-21 16:45",
+              "dur": 345,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "9W-9W-664-IXC-DEL-2019-08-21 11:00-2019-08-21 12:30",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "SG-SG-8731-DEL-AIP-2019-08-21 15:30-2019-08-21 16:45",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_TERMINAL",
+                  "prvFltCntDur": 180
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 3271,
+                    "tx": 1374,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4645
+                  },
+                  "CHILD": {
+                    "bs": 3271,
+                    "tx": 1374,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 4645
+                  },
+                  "INFANT": {
+                    "bs": 2580,
+                    "tx": 261,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 2841
+                  }
+                },
+                "totFr": {
+                  "bs": 9122,
+                  "tx": 3009,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 12131
+                },
+                "rKey": "v1~~null$H$H2IPO$null$600.0$125.0$null$100.0$0$0$A,null$H$H2IPO$null$600.0$125.0$null$100.0$0$0$C,null$H$H2IPO$null$null$125.0$null$76.0$0$0$I^null$D$DSAVER$null$600.0$125.0$null$100.0$1$0$A,null$D$DSAVER$null$600.0$125.0$null$100.0$1$0$C,null$D$DSAVER$null$null$125.0$null$76.0$1$0$I~A-4645.0_C-4645.0_I-2841.0~M~~IXC_DEL_210819_9W-664_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~MP_0_0^DEL_AIP_210819_SG-8731_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~SG_0_1",
+                "rfndStatus": "NON_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    },
+    {
+      "arlns": [
+        "AI",
+        "SG"
+      ],
+      "sAdltFr": {
+        "bs": 23811,
+        "tx": 1639,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [],
+        "tot": 25450
+      },
+      "recoms": [
+        {
+          "isShlst": false,
+          "isTrvisaReq": false,
+          "isCstmComb": true,
+          "recomKey": "IXC_DEL_210819_AI-9808|AI-9806_MP_0,DEL_AIP_210819_SG-8731_SG_1",
+          "itneraryJrnys": [
+            {
+              "nearBy": false,
+              "jrnyKey": "IXC$KUU$2108190940$AI-9808|KUU$DEL$2108191050$AI-9806|DEL$AIP$2108191530$SG-8731",
+              "isCstmComb": true,
+              "depDate": "2019-08-21 09:40",
+              "arrDate": "2019-08-21 16:45",
+              "dur": 425,
+              "flightDtlsInfo": [
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "9I-AI-9808-IXC-KUU-2019-08-21 09:40-2019-08-21 10:25",
+                  "pnrGroupNum": 0
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "9I-AI-9806-KUU-DEL-2019-08-21 10:50-2019-08-21 12:25",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_PLANE",
+                  "prvFltCntDur": 25
+                },
+                {
+                  "flyingDay": 0,
+                  "fltLookUpKey": "SG-SG-8731-DEL-AIP-2019-08-21 15:30-2019-08-21 16:45",
+                  "pnrGroupNum": 0,
+                  "prvFltCntTyp": "CHANGE_OF_TERMINAL",
+                  "prvFltCntDur": 185
+                }
+              ]
+            }
+          ],
+          "sortRnkdata": {
+            "rnk": 0
+          },
+          "frInfo": {
+            "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+            "bookingFarePnrSelectionInfoMap": {
+              "COMBO": {
+                "paxFr": {
+                  "ADULT": {
+                    "bs": 23811,
+                    "tx": 1639,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 25450
+                  },
+                  "CHILD": {
+                    "bs": 23811,
+                    "tx": 1639,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 25450
+                  },
+                  "INFANT": {
+                    "bs": 3200,
+                    "tx": 160,
+                    "sFee": 0,
+                    "instDisc": 0,
+                    "preApDiscntInfo": [],
+                    "tot": 3360
+                  }
+                },
+                "totFr": {
+                  "bs": 50822,
+                  "tx": 3438,
+                  "sFee": 0,
+                  "instDisc": 0,
+                  "preApDiscntInfo": [],
+                  "tot": 54260
+                },
+                "rKey": "v1~~null$L$LIP9I$null$null$null$null$1090.0$0$0$A,null$M$MIP9I$null$null$null$null$1090.0$0$1$A,null$L$LIP9I$null$null$null$null$1090.0$0$0$C,null$M$MIP9I$null$null$null$null$1090.0$0$1$C,null$L$LIP9I$null$null$null$null$100.0$0$0$I,null$M$MIP9I$null$null$null$null$100.0$0$1$I^null$M$MIP9I$null$null$null$null$1090.0$1$0$A,null$M$MIP9I$null$null$null$null$1090.0$1$0$C,null$M$MIP9I$null$null$null$null$100.0$1$0$I~A-25450.0_C-25450.0_I-3360.0~M~~IXC_KUU_210819_AI-9808_TVBERkZMVDJ8U0dNT0JJTEVNQUlO,KUU_DEL_210819_AI-9806_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~MP_0_0^DEL_AIP_210819_SG-8731_TVBERkZMVDJ8U0dNT0JJTEVNQUlO~SG_0_1",
+                "rfndStatus": "PARTIALLY_REFUNDABLE"
+              }
+            },
+            "isPnrGrpdFrFmlyAvl": false,
+            "pnrGrpdFrInfo": {}
+          }
+        }
+      ]
+    }
+  ]
+}

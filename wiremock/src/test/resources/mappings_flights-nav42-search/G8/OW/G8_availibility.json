@@ -1,0 +1,24 @@
+{
+ "request":{
+
+        "method": "POST",
+
+        "url": "/bookingmanager.svc",
+
+       "bodyPatterns":[
+
+{ "contains" : "JAI"
+},
+{ "contains" : "GetAvailabilityRequest"
+}
+
+
+
+]
+  },
+  "response": {
+    
+    "bodyFileName": "/connector/nav42/G8/OW/G8_availibity.xml"
+
+  }
+}

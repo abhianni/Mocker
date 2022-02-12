@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/cdf/rest/services/validateCoupon*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_Avail_TEST_CDF_Validate_HTTP_404"
+        }]
+    },
+    "response": {
+        "status": 404,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

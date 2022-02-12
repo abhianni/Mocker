@@ -1,0 +1,22 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-mp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "8f3d009f00325b49955b7ade619c72216c66242b"
+      },
+      {       "contains" : "MH-MH-191-DEL-KUL-2021-01-06 23:10-2021-01-07 07:00"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTL6EAKMHAIRTACI/GETRULEMP.json"
+  }
+}
+

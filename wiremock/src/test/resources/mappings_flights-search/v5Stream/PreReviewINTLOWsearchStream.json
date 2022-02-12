@@ -1,0 +1,14 @@
+{
+  "request": {
+     "method": "POST",
+    "url": "/flights-grpc/searchstream",
+     "bodyPatterns":[
+      {       "contains" : "flT_TEST_INTL_PreReview_OW"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "flights_search/v5Stream/PreReviewINTLOWsearchStream.json"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+       "bodyPatterns":[
+{       "contains" : "flT_TEST_RTCOMBO_ONEFLT"
+}
+]
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/soa/DOM_RtComboSingleFLTResp.json"
+		
+    }
+}

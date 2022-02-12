@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+	"urlPattern": "/flights-search/v1/post-search?.*"
+       
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+        "bodyFileName": "/flights_search/cb/postSearchHydPeitLoy.json"
+		
+    }
+}

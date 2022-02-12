@@ -1,0 +1,14 @@
+{
+    "request":{
+        "method": "GET",
+		"urlPattern": "/flights-mmt-svcs/v3/zc-plan-mockedResponseAPI.*itid=Zc_Insurance_OW"
+		
+		},
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+         "bodyFileName": "/TPSVCS/ZcInsurance/TestCase_1_ZcInsurance_Response.json"
+    }
+}

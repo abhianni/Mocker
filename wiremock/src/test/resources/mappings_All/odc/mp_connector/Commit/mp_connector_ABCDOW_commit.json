@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-mp-odc/date-change-commit",
+       "bodyPatterns":[
+{		"contains" : "ABCDOW"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Prepayment/mp_connector_commit_response_ABCDOW.json",
+"headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

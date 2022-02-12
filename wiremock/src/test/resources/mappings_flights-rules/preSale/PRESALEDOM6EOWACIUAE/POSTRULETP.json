@@ -1,0 +1,22 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "6E-6E-444-HYD-BDQ-2021-01-08 13:20-2021-01-08 15:00"
+      },
+      {       "contains" : "9df4d71ddb76bc63b703fa5f8509fd1943857cf4"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEDOM6EOWACIUAE/GETRULELCC.json"
+  }
+}
+

@@ -1,0 +1,146 @@
+{
+	"penalty": {
+		"displayTexts": {
+			"nonRefundableText": "Fare is Non-Refundable (Only taxes and government fees will be refunded)",
+			"nonChangebleText": "Non-Changeable"
+		},
+		"penalties": {
+			"0": {
+				"refundableStatus": "PARTIAL_REFUNDABLE",
+				"approxRefund": 449.0,
+				"segmentsLevelTimeWiseRules": [{
+					"from": "DEL",
+					"to": "BLR",
+					"infoNotAvailable": false,
+					"timeWiseRules": [{
+						"start": {
+							"value": "24",
+							"unit": "hours"
+						},
+						"end": {
+							"value": "4",
+							"unit": "days"
+						},
+						"paxWise": {
+							"ADULT": {
+								"cancellationFee": {
+									"zcEnabled": false,
+									"approxRefund": 0,
+									"airlineFee": 3500.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								},
+								"dateChangeFee": {
+									"airlineFee": 3000.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								}
+							}
+						}
+					}, {
+						"start": {
+							"value": "4",
+							"unit": "days"
+						},
+						"end": {
+							"value": "365",
+							"unit": "days"
+						},
+						"paxWise": {
+							"ADULT": {
+								"cancellationFee": {
+									"zcEnabled": false,
+									"approxRefund": 449.0,
+									"airlineFee": 3000.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								},
+								"dateChangeFee": {
+									"airlineFee": 2500.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								}
+							}
+						}
+					}]
+				}]
+			}
+		}
+	},
+	"baggage": {
+		"baggage": {
+			"SG-143": [{
+				"paxType": "A",
+				"checkInBaggage": {
+					"frAllow": "15",
+					"quant": "Kgs"
+				},
+				"cabinBaggage": {
+					"frAllow": "7",
+					"quant": "Kgs"
+				},
+				"fltNum": "143",
+				"from": "DEL",
+				"to": "BLR",
+				"VC": "SG"
+			}]
+		}
+	},
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"totFare": 3449.0,
+			"it": [{
+				"from": "DEL",
+				"to": "BLR",
+				"depDate": "2020-06-12"
+			}],
+			"itBrkup": {
+				"DEL-BLR-120620": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "BLR",
+					"depDate": "120620",
+					"depTime": "21:05",
+					"depDateTime": "2020-06-12 21:05",
+					"arrDate": "120620",
+					"arrTime": "23:50",
+					"arrDateTime": "2020-06-12 23:50",
+					"flightNumber": "SG-143",
+					"cmsId": "SGCSMETEST",
+					"validatingAirline": "SG",
+					"marketingAirline": "SG",
+					"operatingAirline": "SG",
+					"flightServiceName": "SG",
+					"pnrGroup": 0,
+					"rtFareFlag": 0,
+					"stopType": "JOURNEY_OVER"
+				}]
+			},
+			"itBrkupAllStops": {
+				"DEL-BLR-120620": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "BLR",
+					"depDate": "120620",
+					"depTime": "21:05",
+					"depDateTime": "2020-06-12 21:05",
+					"arrDate": "120620",
+					"arrTime": "23:50",
+					"arrDateTime": "2020-06-12 23:50",
+					"flightNumber": "SG-143",
+					"cmsId": "SGCSMETEST",
+					"validatingAirline": "SG",
+					"marketingAirline": "SG",
+					"operatingAirline": "SG",
+					"flightServiceName": "SG",
+					"pnrGroup": 0,
+					"rtFareFlag": 0,
+					"stopType": "JOURNEY_OVER"
+				}]
+			},
+			"cc": "E"
+		}
+	},
+	"errors": []
+}

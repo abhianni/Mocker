@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v2/hydra-segment?.*TimeoutHV2.*"
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 15000,
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-pnr-service/v1/pnr",
+    "bodyPatterns":[
+      {       "contains" : "KK133T"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOM6EOWACIDB/GETPNR_KK133T.json"
+  }
+}
+

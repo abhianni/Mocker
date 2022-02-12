@@ -1,0 +1,23 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v4/search.*crId=testCheaperFlightOW2.*",
+		"headers": {
+			"x-lob": {
+				"equalTo": "CORPSME"
+			}
+		}
+		
+			},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json",
+			"x-profile-type": "BUSINESS",
+			"x-lob": "CORPSME",
+			"x-org-id": "3"
+		},
+		"bodyFileName": "/corporate/corpCheapFlight/OW/Test1_getRecomSearchRespOWB2B.json"
+	}
+}

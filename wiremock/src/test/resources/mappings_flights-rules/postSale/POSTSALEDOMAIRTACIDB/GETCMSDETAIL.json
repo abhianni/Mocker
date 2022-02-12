@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flight-cm.mmt.mmt/cms-service/credentialDetail",
+    "bodyPatterns":[
+      {       "contains" : "TPUNI_DOM"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOMAIRTACIDB/GETCMSCREDENTIALS.json"
+  }
+}
+

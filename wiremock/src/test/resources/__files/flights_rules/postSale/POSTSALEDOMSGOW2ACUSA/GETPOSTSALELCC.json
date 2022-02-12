@@ -1,0 +1,603 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMTUSA",
+    "currency": "USD",
+    "correlationId": "UN20175278369984",
+    "iteneraryId": "e451fed1a491cb36c6a424cf9bcc14f5cd0218af",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "\"UN20175278369984\"",
+      "BookingAggregatorResponse": "{\"mmtId\":\"UN20175278369984\",\"pnrData\":[{\"pnrNo\":\"W9QD6P\",\"supplierId\":\"SGUSD\",\"supplierType\":\"NAV42\",\"airlineCode\":\"SG\"}],\"userData\":{\"uuid\":\"UGHFTONEE1L\",\"profileType\":\"PERSONAL\"},\"itineraryId\":\"e451fed1a491cb36c6a424cf9bcc14f5cd0218af\",\"cancellationAssurance\":false,\"fareType\":null,\"cabinClass\":\"E\"}",
+      "PostSaleCPReq": "{\"status\":null,\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMTUSA\",\"currency\":\"USD\",\"correlationId\":\"UN20175278369984\",\"iteneraryId\":\"e451fed1a491cb36c6a424cf9bcc14f5cd0218af\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"8938\",\"aircraftType\":\"737\",\"departureInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"arrivalInfo\":{\"trmnl\":\"1\",\"arpCd\":\"PNQ\"},\"techStops\":null,\"depTime\":1596020700000,\"arrTime\":1596028800000,\"duration\":8100000},\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"8722\",\"aircraftType\":\"737\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"PAT\"},\"arrivalInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"techStops\":null,\"depTime\":1595992800000,\"arrTime\":1595999400000,\"duration\":6600000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"depDate\":\"2020-07-29 08:50\",\"arrDate\":\"2020-07-29 18:50\",\"duration\":36000000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\",\"pnrGroupNum\":0,\"cabin\":\"E\"},{\"fltLookUpKey\":\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":53.599999999999994,\"singlePaxTx\":9.76,\"singlePaxTot\":63.35999999999999,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1.3800000000000001,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":1.3800000000000001,\"taxCode\":\"SGST10\"},{\"nation\":null,\"taxVal\":3.2,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"TRF\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\":{\"fareClass\":\"U\",\"fareBasis\":\"USAF\",\"rbd\":\"U\",\"pclass\":\"RS\"},\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\":{\"fareClass\":\"U\",\"fareBasis\":\"USAF\",\"rbd\":\"U\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{\"PAT-DEL : SG-8722\":{\"singlePaxBaseFare\":20.799999237060547,\"singlePaxTx\":9.76,\"singlePaxTot\":30.560000000000002,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":3.2,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":0.04,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":1.34,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":0.04,\"taxCode\":\"SGST10\"},{\"nation\":null,\"taxVal\":1.34,\"taxCode\":\"SGST10\"}]},\"DEL-PNQ : SG-8938\":{\"singlePaxBaseFare\":32.79999923706055,\"singlePaxTx\":0.0,\"singlePaxTot\":32.8,\"singlePaxTaxBreakups\":[]}}},\"CHILD\":{\"singlePaxBaseFare\":53.599999999999994,\"singlePaxTx\":9.76,\"singlePaxTot\":63.35999999999999,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1.3800000000000001,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":1.3800000000000001,\"taxCode\":\"SGST10\"},{\"nation\":null,\"taxVal\":3.2,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"TRF\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\":{\"fareClass\":\"U\",\"fareBasis\":\"USAF\",\"rbd\":\"U\",\"pclass\":\"RS\"},\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\":{\"fareClass\":\"U\",\"fareBasis\":\"USAF\",\"rbd\":\"U\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{\"PAT-DEL : SG-8722\":{\"singlePaxBaseFare\":20.799999237060547,\"singlePaxTx\":9.76,\"singlePaxTot\":30.560000000000002,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":3.2,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":0.04,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":1.34,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":0.04,\"taxCode\":\"SGST10\"},{\"nation\":null,\"taxVal\":1.34,\"taxCode\":\"SGST10\"}]},\"DEL-PNQ : SG-8938\":{\"singlePaxBaseFare\":32.79999923706055,\"singlePaxTx\":0.0,\"singlePaxTot\":32.8,\"singlePaxTaxBreakups\":[]}}}},\"cancellationPenalty\":null,\"dateChangePenalty\":null,\"baggageList\":null,\"cancellationAssured\":false,\"supplierName\":\"SG\",\"supplierCredential\":\"SGUSD\",\"fareFamily\":\"\"}]}}}}]}}",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-07-26 20:00:01\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMTUSA\\\",\\\"currency\\\":\\\"USD\\\",\\\"correlationId\\\":\\\"UN20175278369984\\\",\\\"iteneraryId\\\":\\\"e451fed1a491cb36c6a424cf9bcc14f5cd0218af\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\\\":{\\\"mrkAl\\\":\\\"SG\\\",\\\"oprAl\\\":\\\"SG\\\",\\\"validatingCarrier\\\":\\\"SG\\\",\\\"fltNo\\\":\\\"8938\\\",\\\"arcrfTyp\\\":\\\"737\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"3\\\",\\\"arpCd\\\":\\\"DEL\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"1\\\",\\\"arpCd\\\":\\\"PNQ\\\"},\\\"depTime\\\":1596020700000,\\\"arrTime\\\":1596028800000,\\\"dur\\\":8100000},\\\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\\\":{\\\"mrkAl\\\":\\\"SG\\\",\\\"oprAl\\\":\\\"SG\\\",\\\"validatingCarrier\\\":\\\"SG\\\",\\\"fltNo\\\":\\\"8722\\\",\\\"arcrfTyp\\\":\\\"737\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"1\\\",\\\"arpCd\\\":\\\"PAT\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"3\\\",\\\"arpCd\\\":\\\"DEL\\\"},\\\"depTime\\\":1595992800000,\\\"arrTime\\\":1595999400000,\\\"dur\\\":6600000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"PAT-PNQ : SG-8722 | SG-8938\\\",\\\"depDate\\\":\\\"2020-07-29 08:50\\\",\\\"arrDate\\\":\\\"2020-07-29 18:50\\\",\\\"dur\\\":36000000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"},{\\\"fltLookUpKey\\\":\\\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":53.599999999999994,\\\"singlePaxTx\\\":9.76,\\\"singlePaxTot\\\":63.35999999999999,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":1.3800000000000001,\\\"taxCode\\\":\\\"CGST10\\\"},{\\\"taxVal\\\":0.7,\\\"taxCode\\\":\\\"RCS\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":1.3800000000000001,\\\"taxCode\\\":\\\"SGST10\\\"},{\\\"taxVal\\\":3.2,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":0.7,\\\"taxCode\\\":\\\"TRF\\\"}],\\\"noOfPax\\\":2,\\\"journeyWiseFare\\\":{\\\"PAT-DEL : SG-8722\\\":{\\\"singlePaxBaseFare\\\":20.799999237060547,\\\"singlePaxTx\\\":9.76,\\\"singlePaxTot\\\":30.560000000000002,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":0.7,\\\"taxCode\\\":\\\"RCS\\\"},{\\\"taxVal\\\":0.7,\\\"taxCode\\\":\\\"TRF\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":3.2,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":0.04,\\\"taxCode\\\":\\\"CGST10\\\"},{\\\"taxVal\\\":1.34,\\\"taxCode\\\":\\\"CGST10\\\"},{\\\"taxVal\\\":0.04,\\\"taxCode\\\":\\\"SGST10\\\"},{\\\"taxVal\\\":1.34,\\\"taxCode\\\":\\\"SGST10\\\"}]},\\\"DEL-PNQ : SG-8938\\\":{\\\"singlePaxBaseFare\\\":32.79999923706055,\\\"singlePaxTx\\\":0.0,\\\"singlePaxTot\\\":32.8,\\\"singlePaxTaxBreakups\\\":[]}},\\\"segPrdctInfo\\\":{\\\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\\\":{\\\"pclass\\\":\\\"RS\\\",\\\"fareClass\\\":\\\"U\\\",\\\"fareBasis\\\":\\\"USAF\\\",\\\"pClass\\\":\\\"RS\\\",\\\"rbd\\\":\\\"U\\\"},\\\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\\\":{\\\"pclass\\\":\\\"RS\\\",\\\"fareClass\\\":\\\"U\\\",\\\"fareBasis\\\":\\\"USAF\\\",\\\"pClass\\\":\\\"RS\\\",\\\"rbd\\\":\\\"U\\\"}}},\\\"CHILD\\\":{\\\"singlePaxBaseFare\\\":53.599999999999994,\\\"singlePaxTx\\\":9.76,\\\"singlePaxTot\\\":63.35999999999999,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":1.3800000000000001,\\\"taxCode\\\":\\\"CGST10\\\"},{\\\"taxVal\\\":0.7,\\\"taxCode\\\":\\\"RCS\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":1.3800000000000001,\\\"taxCode\\\":\\\"SGST10\\\"},{\\\"taxVal\\\":3.2,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":0.7,\\\"taxCode\\\":\\\"TRF\\\"}],\\\"noOfPax\\\":2,\\\"journeyWiseFare\\\":{\\\"PAT-DEL : SG-8722\\\":{\\\"singlePaxBaseFare\\\":20.799999237060547,\\\"singlePaxTx\\\":9.76,\\\"singlePaxTot\\\":30.560000000000002,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":0.7,\\\"taxCode\\\":\\\"RCS\\\"},{\\\"taxVal\\\":0.7,\\\"taxCode\\\":\\\"TRF\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":3.2,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":0.04,\\\"taxCode\\\":\\\"CGST10\\\"},{\\\"taxVal\\\":1.34,\\\"taxCode\\\":\\\"CGST10\\\"},{\\\"taxVal\\\":0.04,\\\"taxCode\\\":\\\"SGST10\\\"},{\\\"taxVal\\\":1.34,\\\"taxCode\\\":\\\"SGST10\\\"}]},\\\"DEL-PNQ : SG-8938\\\":{\\\"singlePaxBaseFare\\\":32.79999923706055,\\\"singlePaxTx\\\":0.0,\\\"singlePaxTot\\\":32.8,\\\"singlePaxTaxBreakups\\\":[]}},\\\"segPrdctInfo\\\":{\\\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\\\":{\\\"pclass\\\":\\\"RS\\\",\\\"fareClass\\\":\\\"U\\\",\\\"fareBasis\\\":\\\"USAF\\\",\\\"pClass\\\":\\\"RS\\\",\\\"rbd\\\":\\\"U\\\"},\\\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\\\":{\\\"pclass\\\":\\\"RS\\\",\\\"fareClass\\\":\\\"U\\\",\\\"fareBasis\\\":\\\"USAF\\\",\\\"pClass\\\":\\\"RS\\\",\\\"rbd\\\":\\\"U\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"SG\\\",\\\"supplierCredential\\\":\\\"SGUSD\\\",\\\"fareFamily\\\":\\\"\\\"}]}}}}]}}\",\"ticketData\":\"null\",\"mmtId\":\"UN20175278369984\"}",
+      "PostSaleDroolsBaggage0": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"DOM\",\"fromCityLeg\":\"PAT\",\"toCityLeg\":\"DEL\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"SG\",\"validatingAirline\":\"SG\",\"cabinClass\":\"E\",\"flightNo\":\"8722\",\"fbc\":\"USAF\",\"rbd\":\"U\",\"productClass\":\"RS\",\"bookingDate\":1595773801000,\"ptcCode\":\"\",\"travelDateStart\":1595992800000,\"travelDateEnd\":1595992800000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}},{\"sector\":\"DOM\",\"fromCityLeg\":\"DEL\",\"toCityLeg\":\"PNQ\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"SG\",\"validatingAirline\":\"SG\",\"cabinClass\":\"E\",\"flightNo\":\"8938\",\"fbc\":\"USAF\",\"rbd\":\"U\",\"productClass\":\"RS\",\"bookingDate\":1595773801000,\"ptcCode\":\"\",\"travelDateStart\":1596020700000,\"travelDateEnd\":1596020700000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "PostSaleDroolsBaggage1": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"DOM\",\"fromCityLeg\":\"PAT\",\"toCityLeg\":\"DEL\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"SG\",\"validatingAirline\":\"SG\",\"cabinClass\":\"E\",\"flightNo\":\"8722\",\"fbc\":\"USAF\",\"rbd\":\"U\",\"productClass\":\"RS\",\"bookingDate\":1595773801000,\"ptcCode\":\"\",\"travelDateStart\":1595992800000,\"travelDateEnd\":1595992800000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}},{\"sector\":\"DOM\",\"fromCityLeg\":\"DEL\",\"toCityLeg\":\"PNQ\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"SG\",\"validatingAirline\":\"SG\",\"cabinClass\":\"E\",\"flightNo\":\"8938\",\"fbc\":\"USAF\",\"rbd\":\"U\",\"productClass\":\"RS\",\"bookingDate\":1595773801000,\"ptcCode\":\"\",\"travelDateStart\":1596020700000,\"travelDateEnd\":1596020700000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "MiniRuleConfig": "{\"airline\":\"SG\",\"sector\":\"DOM\",\"fbc\":null,\"rbd\":null,\"productClass\":null,\"cabinClass\":\"ECONOMY\",\"departureDate\":null,\"bookingDate\":null,\"noShowCutOff\":24,\"firedRules\":[\"20\"],\"cpadditive\":0.0,\"cpmultiplier\":1.05,\"dcpadditive\":0.0,\"dcpmultiplier\":1.05}",
+      "PostSaleBaggageResponse0": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"flightLookUpKey\":\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}},{\"jrnyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"flightLookUpKey\":\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}]}",
+      "PostSaleBaggageResponse1": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"flightLookUpKey\":\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}},{\"jrnyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"flightLookUpKey\":\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}]}",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"PAT-PNQ : SG-8722 | SG-8938\":{\"fltGrps\":[{\"fltKeys\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"]},{\"fltKeys\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"]}],\"connectingFltCombinType\":\"MOST_RESTERICTIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{\"PAT-PNQ : SG-8722 | SG-8938\":{\"fltGrps\":[{\"fltKeys\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"]},{\"fltKeys\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"]}],\"connectingFltCombinType\":\"MOST_RESTERICTIVE\"}},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"PAT-PNQ : SG-8722 | SG-8938\":{\"fltGrps\":[{\"fltKeys\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"]},{\"fltKeys\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"]}],\"connectingFltCombinType\":\"MOST_RESTERICTIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{\"PAT-PNQ : SG-8722 | SG-8938\":{\"fltGrps\":[{\"fltKeys\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"]},{\"fltKeys\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"]}],\"connectingFltCombinType\":\"MOST_RESTERICTIVE\"}},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"35.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"48.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"35.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"48.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"48.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"48.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"35.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"48.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"35.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"48.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"48.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"48.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"41.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"USAF\",\"feeCurrency\":\"USD\",\"feeAmount\":\"61.0\",\"mmtFee\":5.0,\"supplierType\":\"LCC\",\"nonRefundable\":true}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"PAT-PNQ : SG-8722 | SG-8938\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"PAT-PNQ : SG-8722 | SG-8938\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "{\"status\":\"SUCCCES\",\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMTUSA\",\"currency\":\"USD\",\"correlationId\":\"UN20175278369984\",\"iteneraryId\":\"e451fed1a491cb36c6a424cf9bcc14f5cd0218af\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"8938\",\"aircraftType\":\"737\",\"departureInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"arrivalInfo\":{\"trmnl\":\"1\",\"arpCd\":\"PNQ\"},\"techStops\":null,\"depTime\":1596020700000,\"arrTime\":1596028800000,\"duration\":8100000},\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"8722\",\"aircraftType\":\"737\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"PAT\"},\"arrivalInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"techStops\":null,\"depTime\":1595992800000,\"arrTime\":1595999400000,\"duration\":6600000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"depDate\":\"2020-07-29 08:50\",\"arrDate\":\"2020-07-29 18:50\",\"duration\":36000000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\",\"pnrGroupNum\":0,\"cabin\":\"E\"},{\"fltLookUpKey\":\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":53.599999999999994,\"singlePaxTx\":9.76,\"singlePaxTot\":63.35999999999999,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1.3800000000000001,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":1.3800000000000001,\"taxCode\":\"SGST10\"},{\"nation\":null,\"taxVal\":3.2,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"TRF\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\":{\"fareClass\":\"U\",\"fareBasis\":\"USAF\",\"rbd\":\"U\",\"pclass\":\"RS\"},\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\":{\"fareClass\":\"U\",\"fareBasis\":\"USAF\",\"rbd\":\"U\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{\"PAT-DEL : SG-8722\":{\"singlePaxBaseFare\":20.799999237060547,\"singlePaxTx\":9.76,\"singlePaxTot\":30.560000000000002,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":3.2,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":0.04,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":1.34,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":0.04,\"taxCode\":\"SGST10\"},{\"nation\":null,\"taxVal\":1.34,\"taxCode\":\"SGST10\"}]},\"DEL-PNQ : SG-8938\":{\"singlePaxBaseFare\":32.79999923706055,\"singlePaxTx\":0.0,\"singlePaxTot\":32.8,\"singlePaxTaxBreakups\":[]}}},\"CHILD\":{\"singlePaxBaseFare\":53.599999999999994,\"singlePaxTx\":9.76,\"singlePaxTot\":63.35999999999999,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1.3800000000000001,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":1.3800000000000001,\"taxCode\":\"SGST10\"},{\"nation\":null,\"taxVal\":3.2,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"TRF\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\":{\"fareClass\":\"U\",\"fareBasis\":\"USAF\",\"rbd\":\"U\",\"pclass\":\"RS\"},\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\":{\"fareClass\":\"U\",\"fareBasis\":\"USAF\",\"rbd\":\"U\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{\"PAT-DEL : SG-8722\":{\"singlePaxBaseFare\":20.799999237060547,\"singlePaxTx\":9.76,\"singlePaxTot\":30.560000000000002,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":0.7,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":3.2,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":0.04,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":1.34,\"taxCode\":\"CGST10\"},{\"nation\":null,\"taxVal\":0.04,\"taxCode\":\"SGST10\"},{\"nation\":null,\"taxVal\":1.34,\"taxCode\":\"SGST10\"}]},\"DEL-PNQ : SG-8938\":{\"singlePaxBaseFare\":32.79999923706055,\"singlePaxTx\":0.0,\"singlePaxTot\":32.8,\"singlePaxTaxBreakups\":[]}}}},\"cancellationPenalty\":[{\"jrnyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":41.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":48.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":48.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":61.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":61.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null},\"CHILD\":{\"ptcCode\":null,\"paxType\":\"CHILD\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":41.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":48.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":48.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":61.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":61.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":5.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null}}}],\"dateChangePenalty\":[{\"jrnyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":35.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":41.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":41.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":61.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":61.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null}]},\"CHILD\":{\"ptcCode\":null,\"paxType\":\"CHILD\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":35.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":41.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":41.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":61.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":61.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":5.0},\"waiver\":null}]}}}],\"baggageList\":[{\"jrnyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"flightLookUpKey\":\"SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}},{\"jrnyKey\":\"PAT-PNQ : SG-8722 | SG-8938\",\"flightLookUpKey\":\"SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}],\"cancellationAssured\":false,\"supplierName\":\"SG\",\"supplierCredential\":\"SGUSD\",\"fareFamily\":\"\"}]}}}}]}}",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50": {
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "validatingCarrier": "SG",
+      "fltNo": "8938",
+      "arcrfTyp": "737",
+      "depInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "arpCd": "PNQ"
+      },
+      "depTime": 1596020700000,
+      "arrTime": 1596028800000,
+      "dur": 8100000
+    },
+    "SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40": {
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "validatingCarrier": "SG",
+      "fltNo": "8722",
+      "arcrfTyp": "737",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "PAT"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL"
+      },
+      "depTime": 1595992800000,
+      "arrTime": 1595999400000,
+      "dur": 6600000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "PAT-PNQ : SG-8722 | SG-8938",
+        "depDate": "2020-07-29 08:50",
+        "arrDate": "2020-07-29 18:50",
+        "dur": 36000000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }, {
+          "fltLookUpKey": "SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 53.599999999999994,
+                  "singlePaxTx": 9.76,
+                  "singlePaxTot": 63.35999999999999,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 1.3800000000000001,
+                    "taxCode": "CGST10"
+                  }, {
+                    "taxVal": 0.7,
+                    "taxCode": "RCS"
+                  }, {
+                    "taxVal": 2.4,
+                    "taxCode": "ASF"
+                  }, {
+                    "taxVal": 1.3800000000000001,
+                    "taxCode": "SGST10"
+                  }, {
+                    "taxVal": 3.2,
+                    "taxCode": "UDF"
+                  }, {
+                    "taxVal": 0.7,
+                    "taxCode": "TRF"
+                  }],
+                  "noOfPax": 2,
+                  "journeyWiseFare": {
+                    "PAT-DEL : SG-8722": {
+                      "singlePaxBaseFare": 20.799999237060547,
+                      "singlePaxTx": 9.76,
+                      "singlePaxTot": 30.560000000000002,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 0.7,
+                        "taxCode": "RCS"
+                      }, {
+                        "taxVal": 0.7,
+                        "taxCode": "TRF"
+                      }, {
+                        "taxVal": 2.4,
+                        "taxCode": "ASF"
+                      }, {
+                        "taxVal": 3.2,
+                        "taxCode": "UDF"
+                      }, {
+                        "taxVal": 0.04,
+                        "taxCode": "CGST10"
+                      }, {
+                        "taxVal": 1.34,
+                        "taxCode": "CGST10"
+                      }, {
+                        "taxVal": 0.04,
+                        "taxCode": "SGST10"
+                      }, {
+                        "taxVal": 1.34,
+                        "taxCode": "SGST10"
+                      }]
+                    },
+                    "DEL-PNQ : SG-8938": {
+                      "singlePaxBaseFare": 32.79999923706055,
+                      "singlePaxTx": 0.0,
+                      "singlePaxTot": 32.8,
+                      "singlePaxTaxBreakups": []
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50": {
+                      "pclass": "RS",
+                      "fareClass": "U",
+                      "fareBasis": "USAF",
+                      "pClass": "RS",
+                      "rbd": "U"
+                    },
+                    "SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40": {
+                      "pclass": "RS",
+                      "fareClass": "U",
+                      "fareBasis": "USAF",
+                      "pClass": "RS",
+                      "rbd": "U"
+                    }
+                  }
+                },
+                "CHILD": {
+                  "singlePaxBaseFare": 53.599999999999994,
+                  "singlePaxTx": 9.76,
+                  "singlePaxTot": 63.35999999999999,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 1.3800000000000001,
+                    "taxCode": "CGST10"
+                  }, {
+                    "taxVal": 0.7,
+                    "taxCode": "RCS"
+                  }, {
+                    "taxVal": 2.4,
+                    "taxCode": "ASF"
+                  }, {
+                    "taxVal": 1.3800000000000001,
+                    "taxCode": "SGST10"
+                  }, {
+                    "taxVal": 3.2,
+                    "taxCode": "UDF"
+                  }, {
+                    "taxVal": 0.7,
+                    "taxCode": "TRF"
+                  }],
+                  "noOfPax": 2,
+                  "journeyWiseFare": {
+                    "PAT-DEL : SG-8722": {
+                      "singlePaxBaseFare": 20.799999237060547,
+                      "singlePaxTx": 9.76,
+                      "singlePaxTot": 30.560000000000002,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 0.7,
+                        "taxCode": "RCS"
+                      }, {
+                        "taxVal": 0.7,
+                        "taxCode": "TRF"
+                      }, {
+                        "taxVal": 2.4,
+                        "taxCode": "ASF"
+                      }, {
+                        "taxVal": 3.2,
+                        "taxCode": "UDF"
+                      }, {
+                        "taxVal": 0.04,
+                        "taxCode": "CGST10"
+                      }, {
+                        "taxVal": 1.34,
+                        "taxCode": "CGST10"
+                      }, {
+                        "taxVal": 0.04,
+                        "taxCode": "SGST10"
+                      }, {
+                        "taxVal": 1.34,
+                        "taxCode": "SGST10"
+                      }]
+                    },
+                    "DEL-PNQ : SG-8938": {
+                      "singlePaxBaseFare": 32.79999923706055,
+                      "singlePaxTx": 0.0,
+                      "singlePaxTot": 32.8,
+                      "singlePaxTaxBreakups": []
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50": {
+                      "pclass": "RS",
+                      "fareClass": "U",
+                      "fareBasis": "USAF",
+                      "pClass": "RS",
+                      "rbd": "U"
+                    },
+                    "SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40": {
+                      "pclass": "RS",
+                      "fareClass": "U",
+                      "fareBasis": "USAF",
+                      "pClass": "RS",
+                      "rbd": "U"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "PAT-PNQ : SG-8722 | SG-8938",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 41.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 48.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 48.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 61.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 61.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 41.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 48.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 48.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 61.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 61.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 5.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "PAT-PNQ : SG-8722 | SG-8938",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 35.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 41.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 41.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 61.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 61.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 35.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 41.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 41.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 61.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 61.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 5.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "PAT-PNQ : SG-8722 | SG-8938",
+                "flightLookUpKey": "SG-8722-PAT-DEL-2020-07-29 08:50-2020-07-29 10:40",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "CHILD": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "CHILD": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }, {
+                "jrnyKey": "PAT-PNQ : SG-8722 | SG-8938",
+                "flightLookUpKey": "SG-8938-DEL-PNQ-2020-07-29 16:35-2020-07-29 18:50",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "CHILD": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "CHILD": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "SG",
+              "supplierCredential": "SGUSD",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

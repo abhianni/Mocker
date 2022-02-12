@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/partner/aps/pkgavail*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_Avail_TEST_AP_HTTP_200"
+        }]
+    },
+   "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 30000,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+    }
+}

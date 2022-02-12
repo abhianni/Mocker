@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightBooking/prePayment",
+       "bodyPatterns":[
+{       "contains" : "PREBOOKERRORNOFBD"
+}
+]
+
+    },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_booking/prebook/PREBOOKERRORNOFBD/PREPAYMENT.json"
+  }
+}
+

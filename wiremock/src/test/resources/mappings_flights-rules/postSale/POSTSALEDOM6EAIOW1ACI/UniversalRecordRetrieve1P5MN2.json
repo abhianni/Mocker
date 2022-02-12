@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/B2BGateway/connect/uAPI/UniversalRecordService",
+       "bodyPatterns":[
+{ 	"contains" : "1P5MN2"
+
+}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights_rules/postSale/POSTSALEDOM6EAIOW1ACI/UniversalRecordRetrieve1P5MN2.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

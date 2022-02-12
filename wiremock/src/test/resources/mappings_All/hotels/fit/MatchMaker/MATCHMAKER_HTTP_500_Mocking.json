@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/matchmaker/v1/.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_CONTENT_HTTP_500"
+        }]
+    },
+    "response": {
+        "status": 500,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

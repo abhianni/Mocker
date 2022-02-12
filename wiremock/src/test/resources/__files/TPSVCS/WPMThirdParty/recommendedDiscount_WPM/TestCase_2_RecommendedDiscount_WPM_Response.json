@@ -1,0 +1,39 @@
+{
+	"success": true,
+	"message": "success",
+	"results": {
+		"outputType": "WALLET_SURGE",
+		"recommendedAt": 1547803961267,
+		"recommendation": {
+			"FLT": {
+				"data": {
+					"40f20b8849e06185b00b175b2d98f420342f6bda": ["039d3c5aeed44f9a8fa5778a5c82922a"]
+				},
+				"rulesMeta": {
+					"039d3c5aeed44f9a8fa5778a5c82922a": {
+						"description": "5X",
+						"expireAt": 2831394600000,
+						"outputDetails": {
+							"isSurge": false,
+							"surgeFactor": 8,
+							"minAmount": 7,
+							"persuasionText": "",
+							"maxAmount": 2000
+						}
+					},					
+					"039d3c5aeed44f9a8fa5778a5c82922b": {
+						"description": "1X",
+						"expireAt": 2831394600000,
+						"outputDetails": {
+							"isSurge": true,
+							"surgeFactor": 7,
+							"minAmount": 7,
+							"persuasionText": "",
+							"maxAmount": 200
+						}
+					}
+				}
+			}
+		}
+	}
+}

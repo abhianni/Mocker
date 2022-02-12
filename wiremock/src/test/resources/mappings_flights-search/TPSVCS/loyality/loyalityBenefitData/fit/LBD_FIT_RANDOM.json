@@ -1,0 +1,10 @@
+{
+  "request":{
+    "method": "GET",
+    "urlPattern": "/flights-mmt-svcs/v1/tp-aggregator/loyalty-benefit-data?.*FIT_LBD_RANDOM.*"
+
+  },
+  "response": {
+    "fault": "RANDOM_DATA_THEN_CLOSE"
+  }
+}

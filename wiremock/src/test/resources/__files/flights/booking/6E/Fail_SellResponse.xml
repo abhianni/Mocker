@@ -1,0 +1,11 @@
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <s:Body xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+
+
+<com.navitaire.schemas.webservices.servicecontracts.bookingservice.SellResponse> <BookingUpdateResponseData xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Booking"> <Success xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/> <Warning> <WarningText>sell warning</WarningText> </Warning> <Error xsi:nil="1"/> <OtherServiceInformations> <OtherServiceInformation xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common"> <Text>SSR INFT is not available on flight SG 877 PAT-BOM for passenger .</Text> <OsiSeverity>General</OsiSeverity> <OSITypeCode>SSRIsUnavailable</OSITypeCode> <SubType></SubType> </OtherServiceInformation> </OtherServiceInformations> </BookingUpdateResponseData> </com.navitaire.schemas.webservices.servicecontracts.bookingservice.SellResponse>
+
+
+ </s:Body>
+ </soapenv:Envelope>

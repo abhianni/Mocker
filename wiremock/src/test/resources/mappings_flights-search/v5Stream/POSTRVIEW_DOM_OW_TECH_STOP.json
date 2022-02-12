@@ -1,0 +1,14 @@
+{
+  "request": {
+     "method": "POST",
+    "url": "/flights-grpc/searchstream",
+     "bodyPatterns":[
+      {       "contains" : "POSTRVIEW_DOM_OW_TECH_STOP"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "flights_search/v5Stream/PostReviewDOMTECHsearchStream.json"
+  }
+}

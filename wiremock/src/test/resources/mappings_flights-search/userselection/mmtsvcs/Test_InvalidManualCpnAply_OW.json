@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-mmt-svcs/v1/apply-coupon?crId=46b54553-9e1f-4763-81a9-75d3b6a080cf",
+
+    "bodyPatterns":[
+      {
+        "contains":"c1a8bca532e39262e11ac2e8ae0de9e883a0f75a"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_search/userselection/mmtsvcs/InvalidCpn_DOM_OW.json"
+  }
+}

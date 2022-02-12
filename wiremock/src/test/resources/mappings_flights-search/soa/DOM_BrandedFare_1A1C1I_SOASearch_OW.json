@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightSOA-web/search",
+    "bodyPatterns":[
+      {       "contains" : "BrandeFare_3Pax_OW"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "transformers": ["FlightSOAResponseTransformer"],
+    "bodyFileName": "/flights_search/soa/DOM_1A1C1I_BrandedFare_SOASeach_OW.json"
+
+  }
+}

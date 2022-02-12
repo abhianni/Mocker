@@ -1,0 +1,133 @@
+{
+  "success": true,
+  "burnData": {
+    "success": true,
+    "skuBurnData": {
+      "itid_ApplyCoupon": {
+        "promoVals": {
+          "promoCode": "FLYMON_BANK_CASHBACK",
+          "basePromo": "FLYMON_BANK_CASHBACK",
+          "discount": 0.0,
+          "postBookingDiscount": 0.0,
+          "bankCashback": 500.0,
+          "configId": "Config:44:2021-02-11T23:38:31",
+          "configPriority": "9100",
+          "offerType": "POSTBOOKING_OFFER",
+          "bankCashbackExecutionDate": "20210301",
+          "isManualCashbackProcess": false,
+          "isPostDiscounterOptimizationApplied": false,
+          "isPreApply": false,
+          "externalDiscount": 0.0
+        },
+        "priceVals": {
+          "floorPrice": 0.0,
+          "netMargin": 0.0,
+          "discountPercentage": 8.91583452211127,
+          "gcpAdjustment": 0.0,
+          "isUdcApplied": false,
+          "udc": 50.0,
+          "discounterType": "FLAT_DISCOUNTER",
+          "recurringDiscountAmount": "0",
+          "walletAdjustment": 0.0,
+          "effectiveNetMargin": 0.0,
+          "discountingShareInfo": [{
+            "orgShareDiscount": 250.0,
+            "partnerShareDiscount": 0.0,
+            "bankShareDiscount": 250.0,
+            "discountType": "BANK_CASHBACK"
+          }],
+          "isDoubleDiscountingAllowed": true
+        },
+        "walletVals": {
+          "isWalletEnabled": false,
+          "mmtWalletVals": {
+            "cashback": {
+              "mycash": 0.0,
+              "rewardBonus": 0.0,
+              "walletPlus": 0.0
+            },
+            "applicable": {
+              "mycash": 0.0,
+              "rewardBonus": 0.0,
+              "walletPlus": 0.0
+            },
+            "cashbackExecutionDate": {
+              "mycashExecutionDate": "",
+              "rewardBonusExecutionDate": "",
+              "walletPlusExecutionDate": ""
+            }
+          }
+        },
+        "promoInfo": {
+          "offerMessage": "Get INR 0 Instant Discount",
+          "successMessage": "Congratulations! Promo Discount of Rs. 0 applied successfully. Now pay only using your ICICI Bank Credit and Debit Card to get this discount.",
+          "offerLink": "",
+          "expiresAt": "1617215399",
+          "description": "on your ICICI Bank Credit and Debit Cards",
+          "promoIconLink": "",
+          "paymentSuccessMessage": ""
+        },
+        "paymentParams": {
+          "pbConfigId": "44",
+          "entityId": "domestic-del-blr",
+          "applicablePbParams": [{
+            "postBookingPayMode": ["CARD_PM", "EMI_PM"],
+            "bankName": [],
+            "payType": []
+          }],
+          "blockedPaymentOptions": {
+            "blockedPayModes": ["LOYALTY_CARD_PM", "GIFT_CARD_PM", "MMT_REWARD_BONUS_PM"]
+          }
+        },
+        "failureMessage": "",
+        "extraData": {
+          "debugInfo": {
+            "manthanId": "6",
+            "ruleFailedAt": ""
+          },
+          "configBreakUps": [{
+            "discountType": "BANK_CASHBACK",
+            "configId": "Config:44:2021-02-11T23:38:31",
+            "nmEquivalent": -8.91583452211127,
+            "amount": 500.0,
+            "extraInfo": "",
+            "priceOptParams": ""
+          }],
+          "attribution": ""
+        },
+        "segments": {
+          "userSegmentId": "",
+          "goCashSegmentId": "",
+          "goCashPlusSegmentId": "",
+          "userSegmentIds": []
+        },
+        "extraPromos": {
+          "promos": []
+        }
+      }
+    },
+    "promoCodeExists": true,
+    "failureMessage": ""
+  },
+  "commonData": {
+    "skuCommonData": {
+      "itid_ApplyCoupon": {
+        "verticalResp": {
+          "flightData": {
+            "globalMetadata": "",
+            "skuMetadata": "",
+            "promoMetadata": ""
+          }
+        },
+        "lobResponse": {
+          "flightData": {
+            "globalMetadata": "",
+            "skuMetadata": "",
+            "promoMetadata": ""
+          }
+        }
+      }
+    }
+  },
+  "errorMessage": ""
+}

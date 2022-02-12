@@ -1,0 +1,163 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<air:AirRetrieveDocumentRsp TraceId="fwfwgwg" TransactionId="F283EDCF0A0759BB5F1DAE6C5893D762" ResponseTime="173" UniversalRecordLocatorCode="7WCTOK" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0">
+			<air:ETR Key="yxlNhOBAAA/BzImDwBAAAA==" TotalPrice="INR1365" BasePrice="INR1300" Taxes="INR65" Refundable="false" Exchangeable="false" IssuedDate="2020-08-03T00:00:00.000+05:30" ProviderCode="1G" ProviderLocatorCode="NW3S6K" IATANumber="14339942" PseudoCityCode="WP7" CountryCode="IN" PlatingCarrier="AI">
+				<air:AirReservationLocatorCode>7WCTOL</air:AirReservationLocatorCode>
+				<common_v48_0:AgencyInfo>
+					<common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-08-02T18:30:00.000+00:00"/>
+				</common_v48_0:AgencyInfo>
+				<common_v48_0:BookingTraveler Key="gu2KhOBAAA/BBAcOwBAAAA==" TravelerType="ADT" Gender="M">
+					<common_v48_0:BookingTravelerName Prefix="MR" First="raj" Last="Kumar"/>
+					<common_v48_0:PhoneNumber Key="gu2KhOBAAA/BCAcOwBAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9099000482">
+						<common_v48_0:ProviderReservationInfoRef Key="A/BUhOmB0BKAjMzjvBAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="gu2KhOBAAA/BFAcOwBAAAA==" EmailID="reachraj16@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="A/BUhOmB0BKAjMzjvBAAAA=="/>
+					</common_v48_0:Email>
+					<common_v48_0:SSR Key="yxlNhOBAAA/B3ImDwBAAAA==" SegmentRef="A/BUhOmB0BKAriyjvBAAAA==" Status="HK" Type="TKNE" FreeText="0983761228767C1" Carrier="AI" ProviderReservationInfoRef="A/BUhOmB0BKAjMzjvBAAAA=="/>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:FormOfPayment Key="MF0+VOZYlDKAlS8kFDAAAA==" Type="Credit" Reusable="true" ProfileKey="EHb8cihkTsW0Lg3Eg/eq0Q==">
+					<common_v48_0:CreditCard Type="VI" Number="************2007" ExpDate="2024-01"/>
+				</common_v48_0:FormOfPayment>
+				<common_v48_0:Payment Key="yxlNhOBAAA/B5ImDwBAAAA==" Type="Itinerary" Amount="INR1365" FormOfPaymentRef="MF0+VOZYlDKAlS8kFDAAAA=="/>
+				<common_v48_0:CreditCardAuth PaymentRef="yxlNhOBAAA/B5ImDwBAAAA==" Number="************2007" Amount="INR1365" AuthCode="106979" AuthResultCode="approved" FormOfPaymentRef="MF0+VOZYlDKAlS8kFDAAAA=="/>
+				<common_v48_0:SupplierLocator SupplierCode="AI" SupplierLocatorCode="JGK6K"/>
+				<air:FareCalc>AMD AI IXY 1300 INR1300END</air:FareCalc>
+				<air:Ticket Key="yxlNhOBAAA/B1ImDwBAAAA==" TicketNumber="0983761228767" TicketStatus="N">
+					<air:Coupon Key="yxlNhOBAAA/B2ImDwBAAAA==" CouponNumber="1" MarketingCarrier="AI" MarketingFlightNumber="9873" Origin="AMD" Destination="IXY" DepartureTime="2020-08-17T12:00:00.000+05:30" StopoverCode="true" BookingClass="S" FareBasis="SIPRC" NotValidBefore="2020-08-17" NotValidAfter="2020-08-17" Status="O" SegmentGroup="0" MarriageGroup="0"/>
+					<air:TicketEndorsement Value="NF70102278750300"/>
+				</air:Ticket>
+				<common_v48_0:Commission Key="dWjTpPBAAA/Br1mZ1AAAAA==" Level="Fare" Type="PercentBase" Percentage="1.5"/>
+				<air:AirPricingInfo Key="mvoWhOOc1BKAkVpZvBAAAA==" TotalPrice="INR1365" BasePrice="INR1300" ApproximateTotalPrice="INR1365" ApproximateBasePrice="INR1300" Taxes="INR65" LatestTicketingTime="2020-08-03T23:59:00.000+05:30" TrueLastDateToTicket="2020-08-17T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderReservationInfoRef="A/BUhOmB0BKAjMzjvBAAAA==" AirPricingInfoGroup="1" Ticketed="true" PricingType="StoredFare" FareCalculationInd="G">
+					<air:FareInfo Key="4j6KhOBAAA/B4LLDxBAAAA==" FareBasis="SIPRC" PassengerTypeCode="ADT" Origin="AMD" Destination="IXY" EffectiveDate="2020-08-03T00:00:00.000+05:30" NotValidBefore="2020-08-17" NotValidAfter="2020-08-17">
+						<common_v48_0:Endorsement Value="NON ENDORSEABLE"/>
+						<common_v48_0:Endorsement Value="VALID ON AI"/>
+						<air:BaggageAllowance>
+							<air:MaxWeight Value="15" Unit="Kilograms"/>
+						</air:BaggageAllowance>
+						<air:Brand BrandID="361790" Name="Economy Saver" Carrier="AI" BrandTier="0001">
+							<air:Title Type="External">Economy Saver</air:Title>
+							<air:Title Type="Short">EcoSaver</air:Title>
+							<air:Text Type="MarketingConsumer">Included in your ECONOMY SAVER fare are:
+
+								•  Check in 25kg baggage allowance.
+								•  Carry on one bag max 8kg.
+								•  Choice of continental or Indian cuisine non veg or veg.
+								•  Complimentary liquors and wine.
+								•  Spacious seats with a pitch of 33 inches.
+								•  Rebooking against a fee until 24hrs prior departure.
+								•  Refunds against a fee until 24hrs prior departure.
+								•  Earn miles when you fly.
+
+								Note: Refer to fare rules for specific booking terms and conditions.
+								• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+							<air:Text Type="MarketingAgent">Included in your ECONOMY SAVER fare are:
+
+								•  Check in 25kg baggage allowance.
+								•  Carry on one bag max 8kg.
+								•  Choice of continental or Indian cuisine non veg or veg.
+								•  Complimentary liquors and wine.
+								•  Spacious seats with a pitch of 33 inches.
+								•  Rebooking against a fee until 24hrs prior departure.
+								•  Refunds against a fee until 24hrs prior departure.
+								•  Earn miles when you fly.
+
+								Note: Refer to fare rules for specific booking terms and conditions.
+								• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+							<air:Text Type="Strapline">For our budget minded travellers</air:Text>
+							<air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/airindia/AI_general_large_42653.jpg</air:ImageLocation>
+							<air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/airindia/AI_general_medium_2171.jpg</air:ImageLocation>
+							<air:OptionalServices>
+								<air:OptionalService Type="Baggage" SupplierCode="AI" CreateDate="2020-08-03T04:18:53.107+00:00" Key="dWjTpPBAAA/By1mZ1AAAAA==">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Domestic Checked Baggage</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg"/>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+								<air:OptionalService Type="Baggage" SupplierCode="AI" CreateDate="2020-08-03T04:18:53.107+00:00" Key="dWjTpPBAAA/Bz1mZ1AAAAA==" SecondaryType="Carry On Hand Baggage">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Carry on baggage</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg"/>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+								<air:OptionalService Type="PreReservedSeatAssignment" SupplierCode="AI" CreateDate="2020-08-03T04:18:53.108+00:00" Key="dWjTpPBAAA/B01mZ1AAAAA==">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Advance seat reservation</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg"/>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+								<air:OptionalService Type="MealOrBeverage" SupplierCode="AI" CreateDate="2020-08-03T04:18:53.108+00:00" Key="dWjTpPBAAA/B11mZ1AAAAA==">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Inflight Meals</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg"/>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+								<air:OptionalService Type="FrequentFlyer" SupplierCode="AI" CreateDate="2020-08-03T04:18:53.108+00:00" Key="dWjTpPBAAA/B21mZ1AAAAA==" SecondaryType="Mileage Accrual">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Miles accrual</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg"/>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+								<air:OptionalService Type="Upgrades" SupplierCode="AI" CreateDate="2020-08-03T04:18:53.108+00:00" Key="dWjTpPBAAA/B31mZ1AAAAA==">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Mileage upgrade</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg"/>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+							</air:OptionalServices>
+						</air:Brand>
+					</air:FareInfo>
+					<air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="4j6KhOBAAA/B4LLDxBAAAA=="/>
+					<air:TaxInfo Category="K3" Amount="INR65" Key="dWjTpPBAAA/Bu1mZ1AAAAA=="/>
+					<air:FareCalc>AMD AI IXY 1300SIPRC INR1300END</air:FareCalc>
+					<air:PassengerType Code="ADT" BookingTravelerRef="gu2KhOBAAA/BBAcOwBAAAA==">
+						<air:FareGuaranteeInfo GuaranteeType="Guaranteed"/>
+					</air:PassengerType>
+					<common_v48_0:BookingTravelerRef Key="gu2KhOBAAA/BBAcOwBAAAA=="/>
+				</air:AirPricingInfo>
+				<air:BaggageAllowances>
+					<air:BaggageAllowanceInfo TravelerType="ADT" Origin="AMD" Destination="IXY" Carrier="AI">
+						<air:URLInfo>
+							<air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/AI</air:URL>
+						</air:URLInfo>
+						<air:TextInfo>
+							<air:Text>15K</air:Text>
+							<air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+						</air:TextInfo>
+						<air:BagDetails ApplicableBags="1stChecked">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:BagDetails>
+						<air:BagDetails ApplicableBags="2ndChecked">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:BagDetails>
+					</air:BaggageAllowanceInfo>
+					<air:CarryOnAllowanceInfo Origin="AMD" Destination="IXY" Carrier="9I">
+						<air:TextInfo>
+							<air:Text>BAGGAGE ALLOWANCE DATA NOT AVAILABLE</air:Text>
+						</air:TextInfo>
+					</air:CarryOnAllowanceInfo>
+				</air:BaggageAllowances>
+			</air:ETR>
+		</air:AirRetrieveDocumentRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

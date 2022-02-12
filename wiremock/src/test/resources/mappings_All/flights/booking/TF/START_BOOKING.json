@@ -1,0 +1,24 @@
+
+{
+    "request":{
+        "method": "POST",
+        "url": "/tf",
+	"bodyPatterns":[
+	{ "contains" : "StartBooking"
+
+	}	
+
+
+]
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/booking/TF/START_BOOKING.xml",
+"headers": {
+            "Content-Type": "text/xml",
+	    "Content-Encoding": "gzip"		
+        }
+    }
+}
+

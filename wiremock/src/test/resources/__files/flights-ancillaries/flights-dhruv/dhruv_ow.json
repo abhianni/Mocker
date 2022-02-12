@@ -1,0 +1,189 @@
+{
+  "completed": false,
+  "srchRespMap": {
+    "IBS_APR": {
+      "srcRes": {
+        "signature": null,
+        "jrnyLst": {
+          "HYD_TIR_IBS": [
+            {
+              "lfid": null,
+              "pfid": null,
+              "refKey": "IBS",
+              "minFrRlInd": null,
+              "fltLst": [
+                {
+                  "group": 0,
+                  "depInf": {
+                    "ctCd": "HYD",
+                    "airp": "Rajiv Gandhi International Airport",
+                    "ctNm": "Hyderabad",
+                    "arpCd": "HYD",
+                    "cntr": "India",
+                    "tmZn": "Asia/Kolkata",
+                    "lat": 17.453117,
+                    "long": 78.467586,
+                    "cont": "India",
+                    "cur": "INR"
+                  },
+                  "arrInf": {
+                    "ctCd": "TIR",
+                    "airp": "Tirupati Airport",
+                    "ctNm": "Tirupati",
+                    "arpCd": "TIR",
+                    "cntr": "India",
+                    "tmZn": "Asia/Kolkata",
+                    "lat": 13.632492,
+                    "long": 79.543256,
+                    "cont": "India",
+                    "cur": "INR"
+                  },
+                  "depDt": 1585307400000,
+                  "arrDt": 1585312800000,
+                  "techStpOvrLst": [],
+                  "totDur": 90,
+                  "segSlKey": null,
+                  "fareSlKey": null,
+                  "mrktArln": "2T",
+                  "oprArln": "2T",
+                  "equipTyp": "725",
+                  "equipCd": null,
+                  "fltNum": "107",
+                  "carierCode": null,
+                  "bagDtls": [],
+                  "avlCntxtLst": [],
+                  "availCount": null,
+                  "availSrc": null,
+                  "cbcls": "M",
+                  "guId": null,
+                  "frId": null,
+                  "lgFlId": null,
+                  "suplrNm": null,
+                  "si": null
+                }
+              ],
+              "aggFltNum": "HYD$TIR$2703201640$2T-107",
+              "totFr": null,
+              "totBsFr": null,
+              "totTx": null,
+              "cur": null,
+              "totDur": 90,
+              "rfndbl": null,
+              "frInd": [
+                0
+              ],
+              "sPNR": false,
+              "hldbl": false,
+              "lstTckDt": null,
+              "jrnySlKey": null,
+              "cbn": null,
+              "cbnCls": null,
+              "refAir": "2T",
+              "dep": null,
+              "arr": null,
+              "offId": null,
+              "credId": null
+            }
+          ]
+        },
+        "jrnyDtlsMap": {
+          "IBS": {
+            "frLst": [
+              {
+                "frTyp": "SIMPLE",
+                "frTypFrmSrv": "DEFAULT",
+                "pxTypFrMap": {
+                  "ADULT": [
+                    {
+                      "indOfFrBrkupMap": 0,
+                      "indOfSegPrdctInf": [
+                        0
+                      ],
+                      "paxRef": null,
+                      "paxRefKey": null,
+                      "indOfFrRulesMap": null
+                    }
+                  ]
+                },
+                "pxFr": [],
+                "frInfoMap": {
+                  "ShoppingId": "{\"CLIENT_SESSION_ID\":\"99e99620-051f-4895-a1cc-a760da65b341\",\"FareInfo\":{\"FareDetailsForGuestType\":[{\"FareLevel\":\"DS\",\"DisplayFareAmount\":2299,\"GuestType\":\"ADULT\",\"FareBasisCode\":\"EOW\",\"PricingUnitID\":3,\"SegmentId\":[1],\"FareType\":\"STANDARD\",\"Currency\":\"INR\",\"FareComponentId\":\"119763760\",\"BaseFare\":1409,\"ReturnRestrictionInd\":false,\"FareTransactionID\":1086}]},\"Itinerary\":{\"FlightSegmentDetails\":[{\"CabinClass\":\"ECONOMY\",\"FareClass\":\"E\",\"fltNumber\":\"107\",\"flightDate\":\"2020-03-27\",\"SegmentId\":\"1\",\"FlightSegmentGroupID\":\"119763761\",\"offPoint\":\"TIR\",\"carrierCode\":\"2T\",\"fltSuffix\":\"*\",\"boardPoint\":\"HYD\"}]}}"
+                }
+              }
+            ],
+            "combInf": {
+              "HYD$TIR$2703201640$2T-107": {
+                "data": {
+                  "TT": 890.0,
+                  "REFUNDABLE": false,
+                  "CABIN_CLASS": [
+                    "M"
+                  ],
+                  "T": 2299.0,
+                  "FARE_INDEX": [
+                    0
+                  ],
+                  "refferenceAirline": "2T",
+                  "VC": "2T"
+                }
+              }
+            },
+            "bagLst": [],
+            "minRlLst": [],
+            "frBrkUpLst": [
+              {
+                "frBrkupMap": {
+                  "TAXCOMPONENT-WO": 260.0,
+                  "TAXCOMPONENT-SGST": 36.0,
+                  "TAXCOMPONENT-IN": 508.0,
+                  "TOT": 2299.0,
+                  "TAX": 890.0,
+                  "TAXCOMPONENT-YF": 50.0,
+                  "TAXCOMPONENT-CGST": 36.0
+                }
+              }
+            ],
+            "SegPrdctInf": [
+              {
+                "lgPrnfo": [
+                  {
+                    "frId": null,
+                    "rb": "E",
+                    "cbn": null,
+                    "avl": null,
+                    "fbc": "EOW",
+                    "frAmt": null,
+                    "txAmt": null,
+                    "frtyp": [],
+                    "brkPnt": null,
+                    "arrcd": null,
+                    "deptcd": null,
+                    "prdcls": null,
+                    "si": null
+                  }
+                ]
+              }
+            ],
+            "frRlLs": []
+          }
+        },
+        "jrnyRetMap": {},
+        "srvnm": "IBS",
+        "err": null,
+        "arInfMap": {
+          "CRED_ID": "IBSProd"
+        },
+        "currInfo": {
+          "costCurrency": null,
+          "sellCurrency": null,
+          "conversionFactor": null
+        }
+      },
+      "err": null,
+      "cachedTime": null
+    }
+  },
+  "err": null,
+  "isCompleted": false,
+  "latMeta": null
+}

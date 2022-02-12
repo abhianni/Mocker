@@ -1,0 +1,295 @@
+{
+	"penalty": {
+		"displayTexts": {
+			"nonRefundableText": "Fare is Non-Refundable (Only taxes and government fees will be refunded)",
+			"nonChangebleText": "Non-Changeable"
+		},
+		"penalties": {
+			"0": {
+				"refundableStatus": "PARTIAL_REFUNDABLE",
+				"approxRefund": 2599.0,
+				"segmentsLevelTimeWiseRules": [{
+					"from": "DEL",
+					"to": "BLR",
+					"infoNotAvailable": false,
+					"timeWiseRules": [{
+						"start": {
+							"value": "0",
+							"unit": "hours"
+						},
+						"end": {
+							"value": "24",
+							"unit": "hours"
+						},
+						"paxWise": {
+							"ADULT": {
+								"cancellationFee": {
+									"notAllowed": true
+								},
+								"dateChangeFee": {
+									"notAllowed": true
+								}
+							}
+						}
+					}, {
+						"start": {
+							"value": "24",
+							"unit": "hours"
+						},
+						"end": {
+							"value": "365",
+							"unit": "days"
+						},
+						"paxWise": {
+							"ADULT": {
+								"cancellationFee": {
+									"zcEnabled": false,
+									"approxRefund": 2868.0,
+									"airlineFee": 2625.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								},
+								"dateChangeFee": {
+									"airlineFee": 2625.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								}
+							}
+						}
+					}]
+				}]
+			},
+			"1": {
+				"refundableStatus": "PARTIAL_REFUNDABLE",
+				"approxRefund": 3993.0,
+				"segmentsLevelTimeWiseRules": [{
+					"from": "BLR",
+					"to": "DEL",
+					"infoNotAvailable": false,
+					"timeWiseRules": [{
+						"start": {
+							"value": "-8760",
+							"unit": "hours"
+						},
+						"end": {
+							"value": "0",
+							"unit": "hours"
+						},
+						"paxWise": {
+							"ADULT": {
+								"cancellationFee": {
+									"notAllowed": true
+								},
+								"dateChangeFee": {
+									"notAllowed": true
+								}
+							}
+						}
+					}, {
+						"start": {
+							"value": "0",
+							"unit": "hours"
+						},
+						"end": {
+							"value": "2",
+							"unit": "hours"
+						},
+						"paxWise": {
+							"ADULT": {
+								"cancellationFee": {
+									"notAllowed": true
+								},
+								"dateChangeFee": {
+									"notAllowed": true
+								}
+							}
+						}
+					}, {
+						"start": {
+							"value": "2",
+							"unit": "hours"
+						},
+						"end": {
+							"value": "3",
+							"unit": "days"
+						},
+						"paxWise": {
+							"ADULT": {
+								"cancellationFee": {
+									"zcEnabled": false,
+									"approxRefund": 3743.0,
+									"airlineFee": 1750.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								},
+								"dateChangeFee": {
+									"airlineFee": 0.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								}
+							}
+						}
+					}, {
+						"start": {
+							"value": "3",
+							"unit": "days"
+						},
+						"end": {
+							"value": "365",
+							"unit": "days"
+						},
+						"paxWise": {
+							"ADULT": {
+								"cancellationFee": {
+									"zcEnabled": false,
+									"approxRefund": 3993.0,
+									"airlineFee": 1500.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								},
+								"dateChangeFee": {
+									"airlineFee": 0.0,
+									"mmtFee": 0.0,
+									"notAllowed": false
+								}
+							}
+						}
+					}]
+				}]
+			}
+		}
+	},
+	"baggage": {
+		"baggage": {
+			"AI-504": [{
+				"paxType": "A",
+				"checkInBaggage": {
+					"frAllow": "25",
+					"quant": "Kgs"
+				},
+				"cabinBaggage": {
+					"frAllow": "8",
+					"quant": "Kgs"
+				},
+				"fltNum": "504",
+				"from": "DEL",
+				"to": "BLR",
+				"VC": "AI"
+			}],
+			"6E-5022": [{
+				"paxType": "A",
+				"checkInBaggage": {
+					"frAllow": "15",
+					"quant": "Kgs"
+				},
+				"cabinBaggage": {
+					"frAllow": "7",
+					"quant": "Kgs"
+				},
+				"fltNum": "5022",
+				"from": "BLR",
+				"to": "DEL",
+				"VC": "6E"
+			}]
+		}
+	},
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"totFare": 5224.0,
+			"it": [{
+				"from": "DEL",
+				"to": "BLR",
+				"depDate": "2020-06-12"
+			}, {
+				"from": "BLR",
+				"to": "DEL",
+				"depDate": "2020-06-18"
+			}],
+			"itBrkup": {
+				"DEL-BLR-120620": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "BLR",
+					"depDate": "120620",
+					"depTime": "20:30",
+					"depDateTime": "2020-06-12 20:30",
+					"arrDate": "120620",
+					"arrTime": "23:15",
+					"arrDateTime": "2020-06-12 23:15",
+					"flightNumber": "AI-504",
+					"cmsId": "TPUNI_DOM",
+					"validatingAirline": "AI",
+					"marketingAirline": "AI",
+					"operatingAirline": "AI",
+					"flightServiceName": "TP",
+					"pnrGroup": 0,
+					"rtFareFlag": 0,
+					"stopType": "JOURNEY_OVER"
+				}],
+				"BLR-DEL-180620": [{
+					"depCityCode": "BLR",
+					"arrCityCode": "DEL",
+					"depDate": "180620",
+					"depTime": "10:10",
+					"depDateTime": "2020-06-18 10:10",
+					"arrDate": "180620",
+					"arrTime": "13:00",
+					"arrDateTime": "2020-06-18 13:00",
+					"flightNumber": "6E-5022",
+					"cmsId": "6ECSME",
+					"validatingAirline": "6E",
+					"marketingAirline": "6E",
+					"operatingAirline": "6E",
+					"flightServiceName": "6E",
+					"pnrGroup": 1,
+					"rtFareFlag": 0,
+					"stopType": "JOURNEY_OVER"
+				}]
+			},
+			"itBrkupAllStops": {
+				"DEL-BLR-120620": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "BLR",
+					"depDate": "120620",
+					"depTime": "20:30",
+					"depDateTime": "2020-06-12 20:30",
+					"arrDate": "120620",
+					"arrTime": "23:15",
+					"arrDateTime": "2020-06-12 23:15",
+					"flightNumber": "AI-504",
+					"cmsId": "TPUNI_DOM",
+					"validatingAirline": "AI",
+					"marketingAirline": "AI",
+					"operatingAirline": "AI",
+					"flightServiceName": "TP",
+					"pnrGroup": 0,
+					"rtFareFlag": 0,
+					"stopType": "JOURNEY_OVER"
+				}],
+				"BLR-DEL-180620": [{
+					"depCityCode": "BLR",
+					"arrCityCode": "DEL",
+					"depDate": "180620",
+					"depTime": "10:10",
+					"depDateTime": "2020-06-18 10:10",
+					"arrDate": "180620",
+					"arrTime": "13:00",
+					"arrDateTime": "2020-06-18 13:00",
+					"flightNumber": "6E-5022",
+					"cmsId": "6ECSME",
+					"validatingAirline": "6E",
+					"marketingAirline": "6E",
+					"operatingAirline": "6E",
+					"flightServiceName": "6E",
+					"pnrGroup": 1,
+					"rtFareFlag": 0,
+					"stopType": "JOURNEY_OVER"
+				}]
+			},
+			"cc": "E"
+		}
+	},
+	"errors": []
+}

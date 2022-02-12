@@ -1,0 +1,26 @@
+{
+    "request":{
+        "method": "POST",
+       
+       "bodyPatterns":[{
+        "contains" : "PNR_Retrieve",
+		"contains" : "400PBC"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 400,
+        
+        
+
+"bodyFileName":"/odc/mp_connector/ATC_Search/PNR_retireve_ABCDOW_successful.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+
+
+
+    }
+}

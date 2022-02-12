@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-mp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "TG-TG-330-HYD-BKK-2020-12-31 01:30-2020-12-31 06:30"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTL6EMIMCACI/GETRULEMP.json"
+  }
+}
+

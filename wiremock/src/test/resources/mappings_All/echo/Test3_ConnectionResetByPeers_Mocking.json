@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/echo/getCal",
+        "bodyPatterns":[{
+        "contains" : "FailureInjectEchoConnectionResetScenario"
+        }]
+    },
+    "response": {
+        "fault": "CONNECTION_RESET_BY_PEER"
+    }
+}

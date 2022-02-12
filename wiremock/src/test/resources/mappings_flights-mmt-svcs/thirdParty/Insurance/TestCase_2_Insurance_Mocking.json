@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-mmt-svcs/v1/insurance-plan-mockedResponseAPI",
+       "bodyPatterns":[
+{       "contains" : "DOM_RT_Insurance"
+}
+]
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+        "bodyFileName": "/TPSVCS/Insurance/TestCase_2_Insurance_Response.json"
+		
+    }
+}

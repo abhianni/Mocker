@@ -1,0 +1,18 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightSOA-web/fareCal",
+    "bodyPatterns":[
+      {       "contains" : "LKO"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    }
+  }
+}

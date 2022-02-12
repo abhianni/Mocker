@@ -1,0 +1,166 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<universal:UniversalRecordRetrieveRsp TraceId="TO8ctArKQkS" TransactionId="FAFA7B940A0759D0D473AB4F296D60DC" ResponseTime="261" xmlns:universal="http://www.travelport.com/schema/universal_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:passive="http://www.travelport.com/schema/passive_v48_0">
+			<common_v48_0:ResponseMessage Code="1512" Type="Warning">Unable to process the request.</common_v48_0:ResponseMessage>
+			<universal:UniversalRecord LocatorCode="6H7I5I" Version="28" Status="Active">
+				<common_v48_0:BookingTraveler Key="5em0UIbc1BKAUYACDHAAAA==" TravelerType="ADT" Gender="F">
+					<common_v48_0:BookingTravelerName Prefix="Ms" First="Gifty Thankam" Middle="" Last="Samuel"/>
+					<common_v48_0:PhoneNumber Key="5em0UIbc1BKAVYACDHAAAA==" Type="None" Location="DEL" CountryCode="44" Number="7425694676">
+						<common_v48_0:ProviderReservationInfoRef Key="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="5em0UIbc1BKAeYACDHAAAA==" EmailID="giftysamuel666@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					</common_v48_0:Email>
+					<common_v48_0:SSR Key="5em0UIbc1BKAWYACDHAAAA==" SegmentRef="Z5SrUIBAAA/BvOWREHAAAA==" Status="KK" Type="HNML" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					<common_v48_0:SSR Key="5em0UIbc1BKAZYACDHAAAA==" SegmentRef="Z5SrUIBAAA/BwOWREHAAAA==" Status="KK" Type="HNML" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					<common_v48_0:SSR Key="5em0UIbc1BKAaYACDHAAAA==" SegmentRef="Z5SrUIBAAA/BxOWREHAAAA==" Status="KK" Type="HNML" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					<common_v48_0:SSR Key="5em0UIbc1BKAbYACDHAAAA==" SegmentRef="Z5SrUIBAAA/ByOWREHAAAA==" Status="KK" Type="HNML" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					<common_v48_0:SSR Key="bYj0UIPc1BKA7OYdbHAAAA==" SegmentRef="Z5SrUIBAAA/BvOWREHAAAA==" Status="HK" Type="TKNE" FreeText="1573760758881C1" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					<common_v48_0:SSR Key="bYj0UIPc1BKA8OYdbHAAAA==" SegmentRef="Z5SrUIBAAA/BwOWREHAAAA==" Status="HK" Type="TKNE" FreeText="1573760758881C2" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					<common_v48_0:SSR Key="bYj0UIPc1BKA9OYdbHAAAA==" SegmentRef="Z5SrUIBAAA/BxOWREHAAAA==" Status="HK" Type="TKNE" FreeText="1573760758881C3" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					<common_v48_0:SSR Key="bYj0UIPc1BKA+OYdbHAAAA==" SegmentRef="Z5SrUIBAAA/ByOWREHAAAA==" Status="HK" Type="TKNE" FreeText="1573760758881C4" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:OSI Key="OhTrUIBAAA/BYUP4DHAAAA==" Carrier="YY" Text="CTCM 7425694676" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+				<common_v48_0:ActionStatus Key="5em0UIbc1BKARQcGDHAAAA==" Type="ACTIVE" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" ProviderCode="1G">
+					<common_v48_0:Remark>QSB 30MAY1413Z 16 AG</common_v48_0:Remark>
+				</common_v48_0:ActionStatus>
+				<universal:ProviderReservationInfo Key="Z5SrUIBAAA/BNuWREHAAAA==" ProviderCode="1G" LocatorCode="94D90E" CreateDate="2020-05-29T16:33:37.089+00:00" ModifiedDate="2020-08-17T05:45:59.344+00:00" HostCreateDate="2020-05-29" OwningPCC="34TZ"/>
+				<air:AirReservation LocatorCode="6H7I5O" CreateDate="2020-05-29T16:33:37.917+00:00" ModifiedDate="2020-08-17T05:53:06.621+00:00">
+					<common_v48_0:SupplierLocator SupplierCode="QR" SupplierLocatorCode="UO97WH" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" CreateDateTime="2020-05-29T16:37:00.000+00:00"/>
+					<air:DocumentInfo>
+						<air:TicketInfo Number="1573760758881" TicketIssueDate="2020-05-30T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="0593165" CountryCode="IN" Status="N" BookingTravelerRef="5em0UIbc1BKAUYACDHAAAA==" AirPricingInfoRef="bYj0UIPc1BKAhOYdbHAAAA==">
+							<common_v48_0:Name Prefix="Ms" First="Gifty Thankam" Middle="" Last="Samuel"/>
+						</air:TicketInfo>
+					</air:DocumentInfo>
+					<common_v48_0:BookingTravelerRef Key="5em0UIbc1BKAUYACDHAAAA=="/>
+					<common_v48_0:ProviderReservationInfoRef Key="Z5SrUIBAAA/BNuWREHAAAA=="/>
+					<air:AirSegment Key="Z5SrUIBAAA/BvOWREHAAAA==" Group="0" Carrier="QR" CabinClass="Economy" FlightNumber="330" ProviderCode="1G" Origin="LGW" Destination="DOH" DepartureTime="2020-11-04T08:10:00.000+00:00" ArrivalTime="2020-11-04T17:50:00.000+03:00" TravelTime="400" ClassOfService="T" ETicketability="Yes" Equipment="788" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false">
+						<air:FlightDetails Key="yu6xUIqB0BKADYHbBHAAAA==" Origin="LGW" Destination="DOH" DepartureTime="2020-11-04T08:10:00.000+00:00" ArrivalTime="2020-11-04T17:50:00.000+03:00" FlightTime="400" TravelTime="400" Equipment="788" OriginTerminal="N" AutomatedCheckin="false"/>
+						<air:Connection Duration="90"/>
+						<common_v48_0:SellMessage>DEPARTS LGW TERMINAL N</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>*MANDATORY APIS REQUIRED UNDER DOCS DOCO DOCA*</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>*PLS ENTER SSR CTCM OR CTCE FOR IROP ALERTS*</common_v48_0:SellMessage>
+					</air:AirSegment>
+					<air:AirSegment Key="Z5SrUIBAAA/BwOWREHAAAA==" Group="0" Carrier="QR" CabinClass="Economy" FlightNumber="506" ProviderCode="1G" Origin="DOH" Destination="TRV" DepartureTime="2020-11-04T19:20:00.000+03:00" ArrivalTime="2020-11-05T02:25:00.000+05:30" TravelTime="275" ClassOfService="T" ETicketability="Yes" Equipment="321" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false">
+						<air:FlightDetails Key="yu6xUIqB0BKAEYHbBHAAAA==" Origin="DOH" Destination="TRV" DepartureTime="2020-11-04T19:20:00.000+03:00" ArrivalTime="2020-11-05T02:25:00.000+05:30" FlightTime="275" TravelTime="275" Equipment="321" DestinationTerminal="2" AutomatedCheckin="false"/>
+						<common_v48_0:SellMessage>ARRIVES TRV TERMINAL 2</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>*MANDATORY APIS REQUIRED UNDER DOCS DOCO DOCA*</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>*PLS ENTER SSR CTCM OR CTCE FOR IROP ALERTS*</common_v48_0:SellMessage>
+					</air:AirSegment>
+					<air:AirSegment Key="Z5SrUIBAAA/BxOWREHAAAA==" Group="1" Carrier="QR" CabinClass="Economy" FlightNumber="507" ProviderCode="1G" Origin="TRV" Destination="DOH" DepartureTime="2020-12-02T03:25:00.000+05:30" ArrivalTime="2020-12-02T06:00:00.000+03:00" TravelTime="305" ClassOfService="T" ETicketability="Yes" Equipment="321" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" TravelOrder="3" ProviderSegmentOrder="3" OptionalServicesIndicator="false">
+						<air:FlightDetails Key="yu6xUIqB0BKAFYHbBHAAAA==" Origin="TRV" Destination="DOH" DepartureTime="2020-12-02T03:25:00.000+05:30" ArrivalTime="2020-12-02T06:00:00.000+03:00" FlightTime="305" TravelTime="305" Equipment="321" OriginTerminal="2" AutomatedCheckin="false"/>
+						<air:Connection Duration="105"/>
+						<common_v48_0:SellMessage>DEPARTS TRV TERMINAL 2</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>*MANDATORY APIS REQUIRED UNDER DOCS DOCO DOCA*</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>*PLS ENTER SSR CTCM OR CTCE FOR IROP ALERTS*</common_v48_0:SellMessage>
+					</air:AirSegment>
+					<air:AirSegment Key="Z5SrUIBAAA/ByOWREHAAAA==" Group="1" Carrier="QR" CabinClass="Economy" FlightNumber="3" ProviderCode="1G" Origin="DOH" Destination="LHR" DepartureTime="2020-12-02T07:45:00.000+03:00" ArrivalTime="2020-12-02T12:25:00.000+00:00" TravelTime="460" ClassOfService="T" ETicketability="Yes" Equipment="77W" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" TravelOrder="4" ProviderSegmentOrder="4" OptionalServicesIndicator="false">
+						<air:FlightDetails Key="yu6xUIqB0BKAGYHbBHAAAA==" Origin="DOH" Destination="LHR" DepartureTime="2020-12-02T07:45:00.000+03:00" ArrivalTime="2020-12-02T12:25:00.000+00:00" FlightTime="460" TravelTime="460" Equipment="77W" DestinationTerminal="5" AutomatedCheckin="false"/>
+						<common_v48_0:SellMessage>ARRIVES LHR TERMINAL 2</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>*MANDATORY APIS REQUIRED UNDER DOCS DOCO DOCA*</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>*PLS ENTER SSR CTCM OR CTCE FOR IROP ALERTS*</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v48_0:SellMessage>
+					</air:AirSegment>
+					<air:AirPricingInfo Key="bYj0UIPc1BKAhOYdbHAAAA==" TotalPrice="INR54704" BasePrice="GBP263.00" ApproximateTotalPrice="INR54704" ApproximateBasePrice="INR24380" EquivalentBasePrice="INR24380" Taxes="INR30324" TrueLastDateToTicket="2020-05-31T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" AirPricingInfoGroup="1" Ticketed="true" PricingType="StoredFare" FareCalculationInd="G">
+						<air:FareInfo Key="bYj0UIPc1BKAjOYdbHAAAA==" FareBasis="TLGBP1RX" PassengerTypeCode="ADT" Origin="LGW" Destination="DOH" EffectiveDate="2020-05-30T00:00:00.000+05:30" NotValidBefore="2020-11-04" NotValidAfter="2020-11-04" PseudoCityCode="34UC">
+							<common_v48_0:Endorsement Value="NON END/CHNG PENALTIES"/>
+							<common_v48_0:Endorsement Value="AS PER RULE"/>
+							<air:BaggageAllowance>
+								<air:MaxWeight Value="30" Unit="Kilograms"/>
+							</air:BaggageAllowance>
+						</air:FareInfo>
+						<air:FareInfo Key="bYj0UIPc1BKAnOYdbHAAAA==" FareBasis="TLGBP1RX" PassengerTypeCode="ADT" Origin="DOH" Destination="TRV" EffectiveDate="2020-05-30T00:00:00.000+05:30" NotValidBefore="2020-11-04" NotValidAfter="2020-11-04" PseudoCityCode="34UC">
+							<common_v48_0:Endorsement Value="NON END/CHNG PENALTIES"/>
+							<common_v48_0:Endorsement Value="AS PER RULE"/>
+							<air:BaggageAllowance>
+								<air:MaxWeight Value="30" Unit="Kilograms"/>
+							</air:BaggageAllowance>
+						</air:FareInfo>
+						<air:FareInfo Key="bYj0UIPc1BKArOYdbHAAAA==" FareBasis="TLGBP1RX" PassengerTypeCode="ADT" Origin="TRV" Destination="DOH" EffectiveDate="2020-05-30T00:00:00.000+05:30" NotValidBefore="2020-12-02" NotValidAfter="2020-12-02" PseudoCityCode="34UC">
+							<common_v48_0:Endorsement Value="NON END/CHNG PENALTIES"/>
+							<common_v48_0:Endorsement Value="AS PER RULE"/>
+							<air:BaggageAllowance>
+								<air:MaxWeight Value="30" Unit="Kilograms"/>
+							</air:BaggageAllowance>
+						</air:FareInfo>
+						<air:FareInfo Key="bYj0UIPc1BKAvOYdbHAAAA==" FareBasis="TLGBP1RX" PassengerTypeCode="ADT" Origin="DOH" Destination="LHR" EffectiveDate="2020-05-30T00:00:00.000+05:30" NotValidBefore="2020-12-02" NotValidAfter="2020-12-02" PseudoCityCode="34UC">
+							<common_v48_0:Endorsement Value="NON END/CHNG PENALTIES"/>
+							<common_v48_0:Endorsement Value="AS PER RULE"/>
+							<air:BaggageAllowance>
+								<air:MaxWeight Value="30" Unit="Kilograms"/>
+							</air:BaggageAllowance>
+						</air:FareInfo>
+						<air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="bYj0UIPc1BKAjOYdbHAAAA==" SegmentRef="Z5SrUIBAAA/BvOWREHAAAA=="/>
+						<air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="bYj0UIPc1BKAnOYdbHAAAA==" SegmentRef="Z5SrUIBAAA/BwOWREHAAAA=="/>
+						<air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="bYj0UIPc1BKArOYdbHAAAA==" SegmentRef="Z5SrUIBAAA/BxOWREHAAAA=="/>
+						<air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="bYj0UIPc1BKAvOYdbHAAAA==" SegmentRef="Z5SrUIBAAA/ByOWREHAAAA=="/>
+						<air:TaxInfo Category="IN" Amount="INR1262" Key="bYj0UIPc1BKAzOYdbHAAAA=="/>
+						<air:TaxInfo Category="P2" Amount="INR432" Key="bYj0UIPc1BKA0OYdbHAAAA=="/>
+						<air:TaxInfo Category="GB" Amount="INR7415" Key="bYj0UIPc1BKA1OYdbHAAAA=="/>
+						<air:TaxInfo Category="UB" Amount="INR1407" Key="bYj0UIPc1BKA2OYdbHAAAA=="/>
+						<air:TaxInfo Category="G4" Amount="INR1450" Key="bYj0UIPc1BKA3OYdbHAAAA=="/>
+						<air:TaxInfo Category="PZ" Amount="INR76" Key="bYj0UIPc1BKA4OYdbHAAAA=="/>
+						<air:TaxInfo Category="YQ" Amount="INR17426" Key="bYj0UIPc1BKA5OYdbHAAAA=="/>
+						<air:TaxInfo Category="YR" Amount="INR856" Key="bYj0UIPc1BKA6OYdbHAAAA=="/>
+						<air:FareCalc>LON QR X/DOH QR TRV Q LONTRV5.00 157.11TLGBP1RX QR X/DOH QR LON Q TRVLON5.00 157.12TLGBP1RX NUC324.23END ROE0.811483</air:FareCalc>
+						<air:PassengerType Code="ADT" BookingTravelerRef="5em0UIbc1BKAUYACDHAAAA==">
+							<air:FareGuaranteeInfo GuaranteeType="Guaranteed"/>
+						</air:PassengerType>
+						<common_v48_0:BookingTravelerRef Key="5em0UIbc1BKAUYACDHAAAA=="/>
+						<air:PaymentRef Key="bYj0UIPc1BKAJPYdbHAAAA=="/>
+						<air:TicketingModifiersRef Key="bYj0UIPc1BKAiOYdbHAAAA=="/>
+					</air:AirPricingInfo>
+					<common_v48_0:Payment Key="bYj0UIPc1BKAJPYdbHAAAA==" Type="Itinerary" Amount="INR54704" ApproximateAmount="INR54704" FormOfPaymentRef="Drk0UIMc1BKAaOZsDHAAAA=="/>
+					<air:TicketingModifiers PlatingCarrier="QR" Key="bYj0UIPc1BKAiOYdbHAAAA==">
+						<common_v48_0:Commission Level="Fare" Type="PercentBase" Percentage="0.0"/>
+						<air:DocumentSelect IssueElectronicTicket="true"/>
+					</air:TicketingModifiers>
+				</air:AirReservation>
+				<passive:PassiveReservation LocatorCode="6H99CC" CreateDate="2020-05-29T16:37:38.832+00:00" ModifiedDate="2020-08-13T05:47:12.548+00:00" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==">
+					<common_v48_0:BookingTravelerRef Key="5em0UIbc1BKAUYACDHAAAA=="/>
+					<passive:PassiveSegment NumberOfItems="0" SegmentType="Tour" Status="BK" SupplierCode="ZZ" StartDate="2021-04-25T00:00:00.000+00:00" Key="QiBuUIBAAA/BM8u3DHAAAA==" Group="0" TravelOrder="5" ProviderSegmentOrder="5" PassiveGroup="0"/>
+					<passive:PassiveRemark PassiveSegmentRef="QiBuUIBAAA/BM8u3DHAAAA==">
+						<passive:Text>**RETENTION LINE TO KEEP THE PNR ACTIVE**</passive:Text>
+					</passive:PassiveRemark>
+				</passive:PassiveReservation>
+				<common_v48_0:GeneralRemark Key="lvSrUIBAAA/ByussDHAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" CreateDate="2020-05-29T16:33:00.000+00:00">
+					<common_v48_0:RemarkData>MMTJOURNEY MC XX LGW-TRV YY QR-330 ZZ QR-506 XX TRV-LHR YY QR-507 ZZ QR-3</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="Lfio3IZYlDKA6Sl95DAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" SupplierCode="QR" Direction="Incoming" CreateDate="2020-05-29T17:13:00.000+00:00">
+					<common_v48_0:RemarkData>PLS TICKET BY 2359/30MAY2020 LCLT AT BOARD POINT OR QR WILL CXL</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="Lfio3IZYlDKA7Sl95DAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" SupplierCode="QR" Direction="Incoming" CreateDate="2020-05-29T17:13:00.000+00:00">
+					<common_v48_0:RemarkData>TKNA/TKNM/FA PT/FH TKT ENTRY PROHIBITED FOR BSP/ARC /EDIRECT MRKT</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="Lfio3IZYlDKA8Sl95DAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" SupplierCode="QR" Direction="Incoming" CreateDate="2020-05-29T17:13:00.000+00:00">
+					<common_v48_0:RemarkData>TICKETING DEADLINE IN FARE RULE MUST BE OBSERVED IF MORE RESTRICTIVE</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="Lfio3IZYlDKA9Sl95DAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" SupplierCode="QR" Direction="Incoming" CreateDate="2020-05-29T17:13:00.000+00:00">
+					<common_v48_0:RemarkData>-PLS PROVIDE FULL SECURE FLIGHT DATA /</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="Lfio3IZYlDKA+Sl95DAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" SupplierCode="QR" Direction="Incoming" CreateDate="2020-05-29T17:13:00.000+00:00">
+					<common_v48_0:RemarkData>APIS IN DOCA/DOCO/DOCS AND ACTION URGENTLY.</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="Lfio3IZYlDKA/Sl95DAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" SupplierCode="QR" Direction="Incoming" CreateDate="2020-05-29T17:13:00.000+00:00">
+					<common_v48_0:RemarkData>FOR USA FLTS QR RESERVES THE RIGHT TO CANCEL</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="cH1KhOBAAA/BLbUXeHAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA==" SupplierCode="QR" Direction="Incoming" CreateDate="2020-08-13T02:16:00.000+00:00">
+					<common_v48_0:RemarkData>EFF 27JUL20 QR FLTS OPERATE TO/FRM TERMINAL 05 AT LHR APT PLS INFORM PSNGRS</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:AgencyInfo>
+					<common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084232" AgencyCode="S3083002" EventTime="2020-05-29T16:33:37.089+00:00"/>
+					<common_v48_0:AgentAction ActionType="Modified" AgentCode="uAPI1667027830-ed41e340" BranchCode="CS3083007" AgencyCode="S3083002" EventTime="2020-08-17T05:53:06.628+00:00"/>
+					<common_v48_0:AgentAction ActionType="Ticketed" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-05-30T14:14:45.355+00:00"/>
+				</common_v48_0:AgencyInfo>
+				<common_v48_0:SSR Key="5em0UIbc1BKAfYACDHAAAA==" Status="HK" Type="CTCM" FreeText="/447425694676-1SAMUEL/GIFTYTHANKAMMS" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+				<common_v48_0:SSR Key="5em0UIbc1BKAgYACDHAAAA==" Status="HK" Type="CTCE" FreeText="/GIFTYSAMUEL666//GMAIL.COM-1SAMUEL/GIFTYTHANKAMMS" Carrier="QR" ProviderReservationInfoRef="Z5SrUIBAAA/BNuWREHAAAA=="/>
+				<common_v48_0:FormOfPayment Key="Drk0UIMc1BKAaOZsDHAAAA==" Type="Cash" Reusable="false" ProfileKey="ZmHDeRbIS3u0rSn35Lkzpg==">
+					<common_v48_0:ProviderReservationInfoRef Key="Z5SrUIBAAA/BNuWREHAAAA=="/>
+				</common_v48_0:FormOfPayment>
+			</universal:UniversalRecord>
+		</universal:UniversalRecordRetrieveRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

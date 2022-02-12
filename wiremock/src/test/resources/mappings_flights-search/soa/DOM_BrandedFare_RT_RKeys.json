@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightSOA-web/search",
+    "bodyPatterns":[
+      {       "contains" : "DOM_BrandedFare_RT_SOA"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "transformers": ["FlightSOAResponseTransformer"],
+    "bodyFileName": "/flights_search/soa/DOM_BrandedFare_RT_RKeys.json"
+
+  }
+}

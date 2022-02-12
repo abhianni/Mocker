@@ -1,0 +1,311 @@
+{
+    "pos": {
+        "requestor": {
+            "idContext": "359639",
+            "type": "B2CAgent",
+            "channel": "Native"
+        },
+        "source": {
+            "applicationID": "310",
+            "isocurrency": "INR"
+        },
+        "clientIp": "10.116.108.52, 172.17.0.3",
+        "correlationKey": "7c94d884-5e70-41a1-9e31-edb9881b0c46"
+    },
+    "responseCode": {
+        "success": true
+    },
+    "responseStatus": {
+        "success": true
+    },
+    "responseReferenceKey": "dad387c5-6f05-4dee-a25f-7676c00c708e",
+    "roomCriterionResponse": [
+        {
+            "id": "201511141311078070",
+            "idContext": "MSE",
+            "chainCode": "The Pride Hotels",
+            "name": "Pride Plaza Hotel Aerocity New Delhi",
+            "propertyInfo": {
+                "roomStays": [
+                    {
+                        "roomTypes": [
+                            {
+                                "code": "45000142940",
+                                "description": "Deluxe Room",
+                                "name": "Deluxe Room"
+                            }
+                        ],
+                        "ratePlans": [
+                            {
+                                "code": "990000194358:MSE:1126:MSE:INGO",
+                                "description": "Deluxe Room",
+                                "name": "990000194358:MSE:1126:MSE:INGO",
+                                "type": "ONLINE",
+                                "mealPlan": [
+                                    {
+                                        "code": "CP",
+                                        "startDate": 1561573800000,
+                                        "endDate": 1561660200000,
+                                        "value": "Breakfast"
+                                    }
+                                ],
+                                "inclusion": [
+                                    {
+                                        "code": "FREE Breakfast",
+                                        "startDate": 1561573800000,
+                                        "endDate": 1561660200000,
+                                        "value": "FREE Breakfast"
+                                    },
+                                    {
+                                        "code": "Accommodation",
+                                        "startDate": 1561573800000,
+                                        "endDate": 1561660200000,
+                                        "value": "Accommodation"
+                                    }
+                                ],
+                                "paymentModes": [
+                                    "PAS"
+                                ],
+                                "supplierCode": "INGO",
+                                "rpcc": "990000194358",
+                                "dmcRatePlanCode": "990000194358",
+                                "groupModifiedRatePlanCode": "990000194358:MSE:1126:MSE:INGO",
+                                "tariffCloneable": false
+                            }
+                        ],
+                        "roomRates": [
+                            {
+                                "ratePlanCode": "990000194358:MSE:1126:MSE:INGO",
+                                "roomTypeCode": "45000142940",
+                                "rate": {
+                                    "cancelPenalties": [
+                                        {
+                                            "cancellationType": "FREE_CANCELLATON",
+                                            "penaltyDescription": {
+                                                "description": "From booking date to 2019-06-25 14:00:00,amount of 0 INR penalty will be charged.From 2019-06-25 14:00:00 to 2019-06-27 14:00:00,1 night charge will be charged.From 2019-06-27 14:00:00 to 2019-06-27 14:00:00,100% penalty will be charged.In case of no show : no refund.Booking cannot be cancelled/modified on or after the check in date and time mentioned in the Hotel Confirmation Voucher. All time mentioned above is in destination time."
+                                            },
+                                            "tillDate": "25-Jun-2019 02:00 PM IST",
+                                            "sponsor": "HOTEL",
+                                            "cancelPenalties": [
+                                                {
+                                                    "deadlinetObj": {
+                                                        "offSetDropTime": "BeforeArrival",
+                                                        "value": 0,
+                                                        "offsetTimeUnit": "hour",
+                                                        "offsetUnitMultiplier": 0
+                                                    },
+                                                    "amountPercentObj": {
+                                                        "percent": 100
+                                                    },
+                                                    "cancellationAmount": {
+                                                        "value": 11043,
+                                                        "currencyCode": "INR"
+                                                    }
+                                                },
+                                                {
+                                                    "deadlinetObj": {
+                                                        "offSetDropTime": "BeforeArrival",
+                                                        "value": 0,
+                                                        "offsetTimeUnit": "hour",
+                                                        "offsetUnitMultiplier": 48
+                                                    },
+                                                    "amountPercentObj": {
+                                                        "numOfNights": 1,
+                                                        "basisType": "Nights"
+                                                    },
+                                                    "cancellationAmount": {
+                                                        "value": 11043,
+                                                        "currencyCode": "INR"
+                                                    }
+                                                },
+                                                {
+                                                    "deadlinetObj": {
+                                                        "offSetDropTime": "BeforeArrival",
+                                                        "value": 0,
+                                                        "offsetTimeUnit": "hour",
+                                                        "offsetUnitMultiplier": 745.8528
+                                                    },
+                                                    "amountPercentObj": {
+                                                        "currencyCode": "INR",
+                                                        "amount": 0
+                                                    },
+                                                    "cancellationAmount": {
+                                                        "value": 0,
+                                                        "currencyCode": "INR"
+                                                    }
+                                                },
+                                                {
+                                                    "serviceFee": 0
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "roomTariffs": [
+                                        { },
+                                        {
+                                            "id": "2",
+                                            "tariffs": [
+                                                {
+                                                    "group": "ROOM_RATE",
+                                                    "type": "ROOM_RENT",
+                                                    "amount": "5199",
+                                                    "currencyCode": "INR"
+                                                },
+                                                {
+                                                    "group": "ROOM_RATE",
+                                                    "type": "FIRSTNIGHTROOMRENT",
+                                                    "amount": "5199",
+                                                    "currencyCode": "INR"
+                                                },
+                                                {
+                                                    "group": "TAXES",
+                                                    "type": "TAXES",
+                                                    "amount": "842.24",
+                                                    "currencyCode": "INR"
+                                                },
+                                                {
+                                                    "group": "ROOM_DISCOUNT",
+                                                    "type": "FIRSTNIGHTDISCOUNT",
+                                                    "amount": "519.90",
+                                                    "currencyCode": "INR"
+                                                },
+                                                {
+                                                    "group": "ROOM_DISCOUNT",
+                                                    "type": "DISCOUNT",
+                                                    "amount": "519.90",
+                                                    "currencyCode": "INR"
+                                                },
+                                                {
+                                                    "group": "MISC",
+                                                    "type": "PROFIT",
+                                                    "amount": "701.87",
+                                                    "currencyCode": "INR"
+                                                },
+                                                {
+                                                    "group": "ROOM_RATE",
+                                                    "type": "COMMISSION",
+                                                    "amount": "701.87",
+                                                    "currencyCode": "INR"
+                                                }
+                                            ],
+                                            "adultCount": 2,
+                                            "childCount": 0
+                                        }
+                                    ],
+                                    "promotions": [
+                                        {
+                                            "code": "990000194358_45000142940_1126",
+                                            "description": "discount 10.0 percentage for loggedin segment .",
+                                            "priceSlasher": true,
+                                            "promoLevel": "TARIFF_LEVEL_PROMO"
+                                        }
+                                    ],
+                                    "roomPolicies": [
+                                        {
+                                            "type": "CHECK_IN",
+                                            "description": "Hotel reserves a right to secure incidentals charges of INR 3000 (and room charges in case of Direct Payment bookings) on arrival in cash or guest's credit / debit card. The charges will be settled against Pre-Auth on departureModification in guests name not allowed after booking is made.Any bookings made for more than 2 rooms, individual guests names has be to be mentioned.Hotel reserves a right to secure incidentals charges of INR 3000 (plus room charges in case of Direct Payment bookings) on arrival in cash or by Pre Auth on guest's credit card. The incidentals will be settled against Cash or Pre-Auth on departure, balance will be refunded back to the guest. The standard check-in time is 02:00 PM and the standard check-out time is 12:00 PM.Early check-in or late check-out is strictly subjected to availability and may be chargeable by the hotel.Any early check-in or late check-out request must be directed and reconfirmed with hotel and may be chargeable by the hotel directly"
+                                        }
+                                    ]
+                                },
+                                "availStatus": "B",
+                                "availableCount": 43,
+                                "inclusionAndPolicyAvail": true,
+                                "mtKey": "N$$s9rHC9RN7n9fB7ckleTVihLTIsuzp36dqWb1kICr6LSAHanD6jkMahhddE5zlI1epTY5RMaCFNVroExfNDuYxz8IdOnWswIPGbSkEwGHEOp3uW1TQNqyYc4gusaCpKKaN05sybyOAFmh%2BlPt2vpU4THlBJTFLlop35MvxxNAhl4t%2FJfYAACQjlh%2Bxwxgc3bZIwiAOihcbyUWoCKmkeBKoQA6yTRZJsw4zZzBlA34YI2iEXMD40It%2BpQAmJUeoDV9w99lyYTG6MJ1ZPMibrq8lYaMAobwnEiT",
+                                "ratePlanType": "ONLINE",
+                                "segmentId": "1126",
+                                "taxExcluded": false,
+                                "netRate": {
+                                    "sellingPrice": 11042.68,
+                                    "sellingCurrency": "INR",
+                                    "buyingPrice": 9638.94,
+                                    "buyingCurrency": "INR",
+                                    "tax": 1684.48,
+                                    "hotelierServiceCharge": 0,
+                                    "paymentMode": "PAS",
+                                    "supplierCode": "INGO",
+                                    "rpcc": "990000194358",
+                                    "bookUrl": "http://www.makemytrip.com/pwa/hotel-details?_track_param=&city=DEL&country=IN&checkin=06272019&checkout=06282019&roomStayQualifier=2e0e2e0e&hotelId=201511141311078070&mtkeys=N$$s9rHC9RN7n9fB7ckleTVihLTIsuzp36dqWb1kICr6LSAHanD6jkMahhddE5zlI1epTY5RMaCFNVroExfNDuYxz8IdOnWswIPGbSkEwGHEOp3uW1TQNqyYc4gusaCpKKaN05sybyOAFmh%2BlPt2vpU4THlBJTFLlop35MvxxNAhl4t%2FJfYAACQjlh%2Bxwxgc3bZIwiAOihcbyUWoCKmkeBKoQA6yTRZJsw4zZzBlA34YI2iEXMD40It%2BpQAmJUeoDV9w99lyYTG6MJ1ZPMibrq8lYaMAobwnEiT&_uCurrency=INR&anchor=anchor_1&cmp=MMY_ios_Logged_In_201511141311078070&attrib=click1&TAHotelCode=201511141311078070&TAAuthorName=MakeMyTrip",
+                                    "couponDisc": 0,
+                                    "couponGst": 0,
+                                    "hotlierDisc": 1039.8,
+                                    "apLevelDiscount": 0,
+                                    "mealPlanCode": "CP",
+                                    "netRateMarkup": 0
+                                },
+                                "aajKaBhaoApplied": "NA",
+                                "groupModifiedRatePlanCode": "990000194358:MSE:1126:MSE:INGO",
+                                "cutoff": "2019-06-28 06:00:00",
+                                "netRateApplicable": false,
+                                "pahx": false,
+                                "tariffCloneable": false
+                            }
+                        ],
+                        "startDate": 1561573800000,
+                        "endDate": 1561660200000,
+                        "availStatus": "B"
+                    }
+                ],
+                "promotions": [
+                    {
+                        "code": "990000194358_45000142940_1126",
+                        "description": "discount 10.0 percentage for loggedin segment .",
+                        "priceSlasher": true,
+                        "promoLevel": "TARIFF_LEVEL_PROMO"
+                    }
+                ],
+                "segments": [
+                    {
+                        "id": "1126",
+                        "userSegment": "LOGGEDIN",
+                        "channelSegment": "ALL"
+                    }
+                ]
+            },
+            "totalRate": {
+                "amountBeforeTax": {
+                    "value": 9358.2,
+                    "currencyCode": "INR"
+                },
+                "amountAfterTax": {
+                    "value": 11042.68,
+                    "currencyCode": "INR"
+                },
+                "costPrice": {
+                    "value": 9638.94,
+                    "currencyCode": "INR"
+                }
+            },
+            "chainId": "901545438",
+            "mmtStarRating": "5",
+            "cityCode": "DEL",
+            "countryCode": "IN",
+            "breInfo": {
+                "markupPercent": 0,
+                "discountPercent": 0,
+                "ruleId": "r704",
+                "cheapestDMC": "INGO",
+                "mblMarkupPercent": 0,
+                "mblMarkupPrice": 0,
+                "mblMarkupBucket": "",
+                "taMarkupPercent": 0,
+                "taDiscountPercent": 0
+            },
+            "maxInfantAge": 6,
+            "maxChildAge": 12,
+            "panCardRequired": false,
+            "anyMobius": false,
+            "lowestTarriffreeCancellation": false,
+            "lowestTarrifWithbreakfast": false,
+            "lowestTarrifPAHAvailable": false,
+            "lowestTarrifPAHXAvaibale": false,
+            "lowestRateAajKaBho": false,
+            "anyTarrifFreeCancellation": false,
+            "anyTarrifWithbreakfast": false,
+            "anyTarrifPAHAvailable": false,
+            "anyTarrifPAHXAvailable": false,
+            "allRatesAajKaBhao": false,
+            "skuApplicable": false,
+            "hostel": false
+        }
+    ]
+}

@@ -1,0 +1,183 @@
+{
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "BOM",
+				"depDate": "2020-03-24"
+			}],
+			"cc": "E",
+			"rKey": "v1~~BC$Z$ZO9ZBINF$91.0$400.0$null$null$null$0$0$A~A-3260.0|2289.0_C-0|0_I-0|0~M$1$0$0$CORPSME_UN$0$null~~DEL_BOM_240320_G8-338_RzhVTklOU0NPUlA=_10:30_240320_12:50_G8_G8_G8_JO~G8_0_0_DEL-BOM-240320_null_null"
+		}
+	},
+	"insurance": {
+		"status": "FAILED",
+		"err": [{
+			"statusCode": 500,
+			"ec": "8007",
+			"em": "IllegalStateException: closed",
+			"ed": "Exception type: com.netflix.hystrix.exception.HystrixRuntimeException: get-itinerary failed and fallback failed.Exception Occurred at: ClassName: com.netflix.hystrix.AbstractCommand$22, MethodName: call, LineNumber: 825",
+			"sn": "mmt-svcs-insurance"
+		}]
+	},
+	"review": {
+		"itineraryId": "orgInfoTestsendApproval_itID",
+		"meta": {
+			"cur": "INR",
+			"isDDApld": false,
+			"requestId": "128d39d4-fe08-4c55-a906-407cff4b4224",
+			"srvrMtrc": {}
+		},
+		"recom": {
+			"itneraryJrnys": [{
+				"jrnyKey": "DEL$BOM$2403201030$G8-338",
+				"isCstmComb": false,
+				"depDate": "2020-03-24 10:30",
+				"arrDate": "2020-03-24 12:50",
+				"dur": 140,
+				"flightDtlsInfo": [{
+					"flyingDay": 0,
+					"fltLookUpKey": "G8-G8-338-DEL-BOM-2020-03-24 10:30-2020-03-24 12:50",
+					"pnrGroupNum": 0
+				}]
+			}],
+			"frInfo": {
+				"showMoreFaresOnListing": false,
+				"bookingFarePnrSelectionInfoMap": {
+					"COMBO": {
+						"paxFr": {
+							"ADULT": {
+								"addonsAmnt": 0.0,
+								"bs": 2289.0,
+								"tx": 971.0,
+								"sFee": 0.0,
+								"convFee": 0.0,
+								"instDisc": 0.0,
+								"preApDiscntInfo": [],
+								"tot": 3260.0,
+								"txInfo": [{
+									"amnt": 61.0,
+									"code": "CF",
+									"msg": "CF_DM"
+								}, {
+									"amnt": 142.0,
+									"code": "GOODS_SERVICE_TAX",
+									"msg": "GOODS_SERVICE_TAX_DM"
+								}, {
+									"amnt": 768.0,
+									"code": "YQ",
+									"msg": "YQ_DM"
+								}],
+								"sFeeInfo": {}
+							}
+						},
+						"totFr": {
+							"addonsAmnt": 0.0,
+							"bs": 2289.0,
+							"tx": 971.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3260.0,
+							"txInfo": [{
+								"amnt": 61.0,
+								"code": "CF",
+								"msg": "CF_DM"
+							}, {
+								"amnt": 142.0,
+								"code": "GOODS_SERVICE_TAX",
+								"msg": "GOODS_SERVICE_TAX_DM"
+							}, {
+								"amnt": 768.0,
+								"code": "YQ",
+								"msg": "YQ_DM"
+							}],
+							"sFeeInfo": {},
+							"addons": [{
+								"itemType": "COUPON",
+								"itemCode": "",
+								"selected": false,
+								"disabled": false
+							}]
+						},
+						"rKey": "v1~~BC$Z$ZO9ZBINF$91.0$400.0$null$null$null$0$0$A~A-3260.0|2289.0_C-0|0_I-0|0~M$1$0$0$CORPSME_UN$0$null~~DEL_BOM_240320_G8-338_RzhVTklOU0NPUlA=_10:30_240320_12:50_G8_G8_G8_JO~G8_0_0_DEL-BOM-240320_null_null"
+					}
+				},
+				"isPnrGrpdFrFmlyAvl": false,
+				"preSlctdFarePnrSelectionInfoKey": "COMBO"
+			}
+		},
+		"fareComponentLookUpMap": {
+			"INF": "Infant Tax",
+			"KKC": "Krishi Kalyan Cess",
+			"AST": "Service Tax",
+			"PSF": "Passenger Service Fee",
+			"DF": "Development Fee",
+			"OTH": "Other",
+			"CF": "Congestion Fee",
+			"GOODS_SERVICE_TAX": "Goods and Services Tax",
+			"TTF": "Travel and Tourism Fee",
+			"GST": "Gvt. Service Fee",
+			"UDFA": "User Development Fee(Arrival)",
+			"TF": "CUTE Fee",
+			"SF": "Service Fee",
+			"RCF": "Regional Connectivity Fund",
+			"SBC": "Swachh Bharat Cess ",
+			"UDF": "User Development Fee",
+			"YQ": "Airline Fuel Charge",
+			"DC": "Discount"
+		},
+		"alCdeMap": {
+			"G8": {
+				"nm": "Go Air"
+			}
+		},
+		"ctyCdeMap": {
+			"BOM": {
+				"nm": "Mumbai",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Chhatrapati Shivaji International Airport"
+			},
+			"DEL": {
+				"nm": "New Delhi",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Indira Gandhi International Airport"
+			}
+		},
+		"flightLookUpList": {
+			"G8-G8-338-DEL-BOM-2020-03-24 10:30-2020-03-24 12:50": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "G8",
+				"oprAl": "G8",
+				"fltNo": "338",
+				"arcrfTyp": "32A",
+				"depInfo": {
+					"trmnl": "2",
+					"cityCd": "DEL",
+					"arpNm": "Indira Gandhi International Airport"
+				},
+				"arrInfo": {
+					"trmnl": "1",
+					"cityCd": "BOM",
+					"arpNm": "Chhatrapati Shivaji International Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-03-24 10:30",
+				"arrTime": "2020-03-24 12:50",
+				"dur": 140
+			}
+		},
+		"services": {}
+	}
+}

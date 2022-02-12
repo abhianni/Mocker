@@ -1,0 +1,17 @@
+{
+  "request":{
+	"method": "POST",
+    "url": "/bookingmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "PriceItineraryRequest"
+      },
+	  {       "contains" : "JAI"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/G8/OW/G8_itineraryPrice.xml"
+
+  }
+}

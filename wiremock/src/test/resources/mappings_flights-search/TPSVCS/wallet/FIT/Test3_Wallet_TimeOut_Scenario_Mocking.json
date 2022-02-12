@@ -1,0 +1,13 @@
+{
+  "request":{
+    "method": "GET",
+    "urlPattern": "/flights-mmt-svcs/v1/wallet-info?.*TimeOutWallet.*"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 15000,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

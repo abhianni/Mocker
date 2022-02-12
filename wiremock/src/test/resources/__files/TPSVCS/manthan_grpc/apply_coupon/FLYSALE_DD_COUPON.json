@@ -1,0 +1,124 @@
+{
+  "success": true,
+  "burnData": {
+    "success": true,
+    "skuBurnData": {
+      "itid_ApplyCoupon": {
+        "promoVals": {
+          "promoCode": "FLYSALE_DD_COUPON",
+          "basePromo": "FLYSALE_DD_COUPON",
+          "discount": 224.0,
+          "postBookingDiscount": 0.0,
+          "bankCashback": 0.0,
+          "configId": "DD-RealTime-Config",
+          "configPriority": "10000",
+          "offerType": "PREBOOKING_OFFER",
+          "bankCashbackExecutionDate": "",
+          "isManualCashbackProcess": false,
+          "isPostDiscounterOptimizationApplied": false,
+          "isPreApply": false,
+          "externalDiscount": 0.0
+        },
+        "priceVals": {
+          "floorPrice": 0.0,
+          "netMargin": 0.0,
+          "discountPercentage": 3.9942938659058487,
+          "gcpAdjustment": 0.0,
+          "isUdcApplied": false,
+          "udc": 50.0,
+          "discounterType": "FLAT_DISCOUNTER",
+          "recurringDiscountAmount": "0",
+          "walletAdjustment": 0.0,
+          "effectiveNetMargin": -4.0,
+          "discountingShareInfo": [],
+          "isDoubleDiscountingAllowed": true
+        },
+        "walletVals": {
+          "isWalletEnabled": false,
+          "mmtWalletVals": {
+            "cashback": {
+              "mycash": 0.0,
+              "rewardBonus": 0.0,
+              "walletPlus": 0.0
+            },
+            "applicable": {
+              "mycash": 0.0,
+              "rewardBonus": 0.0,
+              "walletPlus": 0.0
+            },
+            "cashbackExecutionDate": {
+              "mycashExecutionDate": "",
+              "rewardBonusExecutionDate": "",
+              "walletPlusExecutionDate": ""
+            }
+          }
+        },
+        "promoInfo": {
+          "offerMessage": "Use this coupon and get Rs 224 instant discount.",
+          "successMessage": "Congratulations! Instant coupon applied successfully. You have saved Rs 224",
+          "offerLink": "https://www.makemytrip.com/promos/flysale-domflt-15072020.html",
+          "expiresAt": "1648751400",
+          "description": "",
+          "promoIconLink": "",
+          "paymentSuccessMessage": "Congratulations! Instant coupon applied successfully. You have saved Rs 224"
+        },
+        "paymentParams": {
+          "pbConfigId": "",
+          "entityId": "",
+          "applicablePbParams": [],
+          "blockedPaymentOptions": {
+            "blockedPayModes": ["LOYALTY_CARD_PM", "GIFT_CARD_PM", "MMT_REWARD_BONUS_PM"]
+          }
+        },
+        "failureMessage": "",
+        "extraData": {
+          "debugInfo": {
+            "manthanId": "10000",
+            "ruleFailedAt": ""
+          },
+          "configBreakUps": [{
+            "discountType": "INSTANT_DISCOUNT",
+            "configId": "DD-RealTime-Config",
+            "nmEquivalent": -4.0,
+            "amount": 224.32,
+            "extraInfo": "",
+            "priceOptParams": ""
+          }],
+          "attribution": ""
+        },
+        "segments": {
+          "userSegmentId": "",
+          "goCashSegmentId": "",
+          "goCashPlusSegmentId": "",
+          "userSegmentIds": []
+        },
+        "extraPromos": {
+          "promos": []
+        }
+      }
+    },
+    "promoCodeExists": true,
+    "failureMessage": ""
+  },
+  "commonData": {
+    "skuCommonData": {
+      "itid_ApplyCoupon": {
+        "verticalResp": {
+          "flightData": {
+            "globalMetadata": "{\u0027algo\u0027: \u0027mab\u0027, \u0027model_params\u0027: {\u0027profit_margin_percent\u0027: \u00278.5\u0027, \u0027discount_type\u0027: \"[\u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027]\", \u0027successes\u0027: \u0027[10.0, 0.0, 125.0, 50.0, 26.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\u0027, \u0027discount_percent_arms\u0027: \u0027[2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0]\u0027, \u0027competitor_pricing\u0027: \u002736.2_1610812975000\u0027, \u0027failures\u0027: \u0027[51.0, 0.0, 288.0, 94.0, 49.0, 18.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\u0027}}",
+            "skuMetadata": "",
+            "promoMetadata": "{\u0027algo_v\u0027: \u00271.0.0_4.0_def_mab_\u0027, \u0027disc_pcnt\u0027: 4.0, \u0027disc_type\u0027: \u0027def\u0027}"
+          }
+        },
+        "lobResponse": {
+          "flightData": {
+            "globalMetadata": "{\u0027algo\u0027: \u0027mab\u0027, \u0027model_params\u0027: {\u0027profit_margin_percent\u0027: \u00278.5\u0027, \u0027discount_type\u0027: \"[\u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027def\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027, \u0027stratos\u0027]\", \u0027successes\u0027: \u0027[10.0, 0.0, 125.0, 50.0, 26.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\u0027, \u0027discount_percent_arms\u0027: \u0027[2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0]\u0027, \u0027competitor_pricing\u0027: \u002736.2_1610812975000\u0027, \u0027failures\u0027: \u0027[51.0, 0.0, 288.0, 94.0, 49.0, 18.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\u0027}}",
+            "skuMetadata": "",
+            "promoMetadata": "{\u0027algo_v\u0027: \u00271.0.0_4.0_def_mab_\u0027, \u0027disc_pcnt\u0027: 4.0, \u0027disc_type\u0027: \u0027def\u0027}"
+          }
+        }
+      }
+    }
+  },
+  "errorMessage": ""
+}

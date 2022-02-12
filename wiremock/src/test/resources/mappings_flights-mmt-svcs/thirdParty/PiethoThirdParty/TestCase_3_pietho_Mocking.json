@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/peitho/get",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"}
+		},
+        "bodyPatterns":[{
+        "contains" : "onlyCommonPersuations_OneWay"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/PiethoThirdParty/TestCase_3_pietho_Response.json"
+    }
+}

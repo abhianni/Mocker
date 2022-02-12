@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search/dom/aggr",
+        "bodyPatterns":[{
+        "contains" : "\"sequenceId\":\"SOANegativeTest_TIMEOUT_SCENARIO\""
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 30000,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/aggregator/soa/Test18_Ow_TIMEOUT_SCENARIO_V1_response.json"
+    }
+}

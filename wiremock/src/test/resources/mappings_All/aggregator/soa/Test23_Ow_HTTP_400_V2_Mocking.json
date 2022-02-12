@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+        "bodyPatterns":[{	
+        "contains" : "\"sequenceId\":\"SOANegativeTest_HTTP_400_BAD_REQUEST\""
+        }]
+    },
+    "response": {
+        "status": 400
+	}
+}

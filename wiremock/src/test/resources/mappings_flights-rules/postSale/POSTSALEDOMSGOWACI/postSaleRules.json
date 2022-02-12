@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/postSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "SG-704-BOM-VNS-2020-10-18 06:40-2020-10-18 08:55"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOMSGOWACI/GETPOSTSALELCC.json"
+  }
+}
+

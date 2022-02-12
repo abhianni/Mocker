@@ -1,0 +1,1565 @@
+{
+  "fareFamilyRecommendations": {
+    "fareFamilyAvailable": true,
+    "fareFamilyResponse": [{
+      "error": null,
+      "sector": "FromCity1-ToCity1",
+      "warning": null,
+      "cheapestFamily": "ECO STANDARD",
+      "itineraryList": [{
+        "rbd": null,
+        "boardPoint": "FromCity1",
+        "offPoint": "ToCity1",
+        "airlineName": "Vistara",
+        "mrktArln": "UK",
+        "oprArln": "UK",
+        "fltNum": "UK-815",
+        "depDt": 1577499900000,
+        "arrDt": 1577499900000
+      }],
+      "serviceDisplayOrder": ["DATE_CHANGE", "MEAL", "RFD_BF_DEPART", "RFD_AFT_DEPART", "SEAT_ASSIGN", "PRI_BAGGAGE", "LOUNGE"],
+      "fareFamilies": [{
+        "selected": true,
+        "name": "ECO STANDARD",
+        "description": "ECO STANDARD",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#ffd3d4",
+          "packageTitle": "Date change chargeable | Cancellation chargeable",
+          "packageDesc": "To enjoy added benefits like Free Date change, Free Cancellation upgrade your booking",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 5375.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "CHA",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "CHA",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "06L",
+          "status": "CHA",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "CHA",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Chargeable"
+        }, {
+          "type": "0BX",
+          "status": "CHA",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Chargeable"
+        }]
+      }, {
+        "selected": false,
+        "name": "ECO FLEXI",
+        "description": "ECO FLEXI",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#cdf6e8",
+          "packageTitle": "Great choice! Your fare includes the following services:",
+          "packageDesc": "Free Date change, Free meals",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 6634.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "INC",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Limited Free changes"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "INC",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Free"
+        }, {
+          "type": "06L",
+          "status": "CHA",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "INC",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Free"
+        }, {
+          "type": "0BX",
+          "status": "CHA",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Chargeable"
+        }]
+      }],
+      "fareList": [{
+        "name": "ECO STANDARD",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 5375.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 244.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 5375.0,
+                "TAX": 675.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 5375.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 244.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 5375.0,
+                "TAX": 675.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 1508.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 72.0,
+                "TOT": 1508.0,
+                "TAX": 258.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }, {
+        "name": "ECO FLEXI",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 6634.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 304.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 6634.0,
+                "TAX": 735.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 6634.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 304.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 6634.0,
+                "TAX": 735.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 1508.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 72.0,
+                "TOT": 1508.0,
+                "TAX": 258.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }]
+    }],
+    "services": {
+      "DATE_CHANGE": {
+        "serviceName": "Date Change",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_date_change.png"
+      },
+      "RFD_AFT_DEPART": {
+        "serviceName": "No Show",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_no_show.png"
+      },
+      "HAND_BAGGAGE": {
+        "serviceName": "Hand Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_hand_baggage.png"
+      },
+      "MEAL": {
+        "serviceName": "Meals",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_meals.png"
+      },
+      "PRI_BOARDING": {
+        "serviceName": "Priority Boarding",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "PRI_BAGGAGE": {
+        "serviceName": "Priority Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "LOUNGE": {
+        "serviceName": "Lounge Access",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_lounge_access.png"
+      },
+      "RFD_BF_DEPART": {
+        "serviceName": "Refund Before Departure",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_flight_cancellation.png"
+      },
+      "SEAT_ASSIGN": {
+        "serviceName": "Seats",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_seat_selection.png"
+      }
+    },
+    "rtFare": false,
+    "farelookupMap": {
+      "ID2": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 6634.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 304.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 6634.0,
+                "TAX": 735.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 6634.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 304.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 6634.0,
+                "TAX": 735.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 1508.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 72.0,
+                "TOT": 1508.0,
+                "TAX": 258.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID1": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 5375.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 244.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 5375.0,
+                "TAX": 675.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 5375.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 244.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 5375.0,
+                "TAX": 675.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 1508.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 72.0,
+                "TOT": 1508.0,
+                "TAX": 258.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }
+    },
+    "fareMap": {
+      "FromCity1-ToCity1-ECO STANDARD": {
+        "finalAdultFare": 5375.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$E$EH8PYS$null$null$186.0$null$72.0$0$0$I,null$E$EH8PYS$null$null$186.0$null$244.0$0$0$A,null$E$EH8PYS$null$null$186.0$null$244.0$0$0$C~A-5375.0|4700.0_C-5375.0|4700.0_I-1508.0|1250.0~M$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-815_VFBVTklfRE9N_07:55_Depart1_10:45_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_ECO STANDARD",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID1"
+        }]
+      },
+      "FromCity1-ToCity1-ECO FLEXI": {
+        "finalAdultFare": 6634.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$E$EH8PYF$null$null$186.0$null$72.0$0$0$I,null$E$EH8PYF$null$null$186.0$null$304.0$0$0$A,null$E$EH8PYF$null$null$186.0$null$304.0$0$0$C~A-6634.0|5899.0_C-6634.0|5899.0_I-1508.0|1250.0~M$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-815_VFBVTklfRE9N_07:55_Depart1_10:45_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_ECO FLEXI",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID2"
+        }]
+      }
+    }
+  },
+  "reviewKey": "RKEY:bbac0dbb-6269-41f8-bf86-59bc499a5a7d:19",
+  "rKey": "v1~~null$E$EH8PYS$null$null$186.0$null$244.0$0$0$A,null$E$EH8PYS$null$null$186.0$null$244.0$0$0$C,null$E$EH8PYS$null$null$186.0$null$72.0$0$0$I~A-5375.0|4700.0_C-5375.0|4700.0_I-1508.0|1250.0~M$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-815_VFBVTklfRE9N_07:55_Depart1_10:45_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_null",
+  "journeys": {
+    "FromCity1_ToCity1_Depart1": {
+      "segments": {
+        "FromCity1_ToCity1_Depart1": {
+          "fltLst": [{
+            "amenitySegmentKey": null,
+            "depInf": {
+              "trml": "3",
+              "ctCd": "FromCity1",
+              "airp": "Indira Gandhi International Airport",
+              "ctNm": "New FromCity1hi",
+              "arpCd": "FromCity1",
+              "cntr": "India",
+              "tmZn": "Asia/Kolkata",
+              "lat": 28.5665,
+              "long": 77.103088,
+              "cont": "India",
+              "cur": "INR"
+            },
+            "arrInf": {
+              "ctCd": "ToCity1",
+              "airp": "Bengaluru International Airport",
+              "ctNm": "Bengaluru",
+              "arpCd": "ToCity1",
+              "cntr": "India",
+              "tmZn": "Asia/Kolkata",
+              "lat": 12.949986,
+              "long": 77.668206,
+              "cont": "India",
+              "cur": "INR"
+            },
+            "depDt": 1577499900000,
+            "arrDt": 1577510100000,
+            "techStpOvrLst": [],
+            "totDur": 170,
+            "segSlKey": "tOiOvpYc1BKA7rPvdBAAAA==",
+            "fareSlKey": null,
+            "mrktArln": "UK",
+            "oprArln": "UK",
+            "equipTyp": "320",
+            "equipCd": "320",
+            "equipNm": "Airbus A320 ",
+            "fltNum": "815",
+            "carierCode": "UK",
+            "bagDtls": [{
+              "bag": {
+                "qty": "15",
+                "utyp": "W",
+                "unt": "KILOGRAMS"
+              },
+              "pxTyp": "ADT",
+              "pxRf": "tOiOvpYc1BKA2rPvdBAAAA=="
+            }, {
+              "bag": {
+                "qty": "0",
+                "utyp": "N",
+                "unt": null
+              },
+              "pxTyp": "INF",
+              "pxRf": "tOiOvpYc1BKAmsPvdBAAAA=="
+            }, {
+              "bag": {
+                "qty": "15",
+                "utyp": "W",
+                "unt": "KILOGRAMS"
+              },
+              "pxTyp": "CHD",
+              "pxRf": "tOiOvpYc1BKAOsPvdBAAAA=="
+            }],
+            "avlCntxtLst": [],
+            "availCount": null,
+            "cbcls": "M",
+            "pnRf": {},
+            "splitPnr": false,
+            "availSrc": "A",
+            "suplrNm": null,
+            "ao": [{
+              "at": "MEAL",
+              "isPaid": true
+            }],
+            "si": {
+              "tppa": "Polled avail exists"
+            }
+          }],
+          "fr": [{
+            "pxTypFrMap": {
+              "ADULT": [{
+                "frId": 0,
+                "frBrkup": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186.0,
+                    "TAXCOMPONENT-K3": 244.0,
+                    "TAXCOMPONENT-WO": 245.0,
+                    "TOT": 5375.0,
+                    "TAX": 675.0
+                  }
+                },
+                "segPrdctInf": [{
+                  "lgPrnfo": [{
+                    "frId": "tOiOvpYc1BKA1rPvdBAAAA==",
+                    "rb": "E",
+                    "cbn": "M",
+                    "avl": "5",
+                    "fbc": "EH8PYS",
+                    "frAmt": "INR4700",
+                    "txAmt": null,
+                    "frtyp": [],
+                    "brkPnt": null,
+                    "arrcd": "ToCity1",
+                    "deptcd": "FromCity1",
+                    "prdcls": null,
+                    "si": null
+                  }]
+                }],
+                "paxRef": 0
+              }],
+              "CHILD": [{
+                "frId": 0,
+                "frBrkup": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186.0,
+                    "TAXCOMPONENT-K3": 244.0,
+                    "TAXCOMPONENT-WO": 245.0,
+                    "TOT": 5375.0,
+                    "TAX": 675.0
+                  }
+                },
+                "segPrdctInf": [{
+                  "lgPrnfo": [{
+                    "frId": "tOiOvpYc1BKANsPvdBAAAA==",
+                    "rb": "E",
+                    "cbn": "M",
+                    "avl": "5",
+                    "fbc": "EH8PYS",
+                    "frAmt": "INR4700",
+                    "txAmt": null,
+                    "frtyp": [],
+                    "brkPnt": null,
+                    "arrcd": "ToCity1",
+                    "deptcd": "FromCity1",
+                    "prdcls": null,
+                    "si": null
+                  }]
+                }],
+                "paxRef": 0
+              }],
+              "INFANT": [{
+                "frId": 0,
+                "frBrkup": {
+                  "frBrkupMap": {
+                    "TAXCOMPONENT-YR": 186.0,
+                    "TAXCOMPONENT-K3": 72.0,
+                    "TOT": 1508.0,
+                    "TAX": 258.0
+                  }
+                },
+                "segPrdctInf": [{
+                  "lgPrnfo": [{
+                    "frId": "tOiOvpYc1BKABsPvdBAAAA==",
+                    "rb": "E",
+                    "cbn": "M",
+                    "avl": "5",
+                    "fbc": "EH8PYS",
+                    "frAmt": "INR1250",
+                    "txAmt": null,
+                    "frtyp": [],
+                    "brkPnt": null,
+                    "arrcd": "ToCity1",
+                    "deptcd": "FromCity1",
+                    "prdcls": null,
+                    "si": null
+                  }]
+                }],
+                "paxRef": 0
+              }]
+            },
+            "frInfoMap": {},
+            "subFares": []
+          }],
+          "minFrRl": null,
+          "lfid": null,
+          "aggFltNum": "FromCity1$ToCity1$Depart10755$UK-815",
+          "cur": "INR",
+          "totDur": 170,
+          "rfndbl": true,
+          "sPNR": false,
+          "hldbl": true,
+          "cbn": null,
+          "cbnCls": ["M"],
+          "refAir": "UK",
+          "dep": "FromCity1",
+          "arr": "ToCity1",
+          "offId": null,
+          "credId": "TPUNI_DOM",
+          "jrnySlKey": null,
+          "srvc": "TP",
+          "vc": "UK",
+          "currInfo": {
+            "costCurrency": "INR",
+            "sellCurrency": null,
+            "conversionFactor": null
+          },
+          "signature": null,
+          "rtngId": null
+        }
+      }
+    }
+  },
+  "combinedInfo": {
+    "FARE_CHANGE": {
+      "fareStatus": 0,
+      "oldFare": 0.0,
+      "newFare": 5375.0,
+      "totalFareChangeAmount": 12258.0
+    },
+    "COMBINED_DATA": {
+      "data": {
+        "splitPNR": null,
+        "REFUNDABLE": true,
+        "officeIds": null,
+        "CABIN_CLASS": ["M"],
+        "IS_PURE": true,
+        "LAST_TKT_DATE": null,
+        "MAX_STOP": 0,
+        "HOLDABLE": true,
+        "MAX_LAYOFF_TIME": 0,
+        "refferenceAirline": "UK",
+        "IS_PURE_LCC": false,
+        "VC": "UK"
+      }
+    },
+    "COMBINED_REVIEW_FARE": {
+      "paxTypeFareBreakUp": {
+        "ADULT": {
+          "totalBaseFare": 4700.0,
+          "totalTax": 675.0,
+          "totalMarkup": 0.0,
+          "totalDiscount": 0.0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-YR": 186.0,
+            "TAXCOMPONENT-K3": 244.0,
+            "TAXCOMPONENT-WO": 245.0,
+            "TOT": 5375.0,
+            "TAX": 675.0
+          },
+          "totalFare": 5375.0,
+          "paxRef": 0
+        },
+        "CHILD": {
+          "totalBaseFare": 4700.0,
+          "totalTax": 675.0,
+          "totalMarkup": 0.0,
+          "totalDiscount": 0.0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-YR": 186.0,
+            "TAXCOMPONENT-K3": 244.0,
+            "TAXCOMPONENT-WO": 245.0,
+            "TOT": 5375.0,
+            "TAX": 675.0
+          },
+          "totalFare": 5375.0,
+          "paxRef": 0
+        },
+        "INFANT": {
+          "totalBaseFare": 1250.0,
+          "totalTax": 258.0,
+          "totalMarkup": 0.0,
+          "totalDiscount": 0.0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-YR": 186.0,
+            "TAXCOMPONENT-K3": 72.0,
+            "TOT": 1508.0,
+            "TAX": 258.0
+          },
+          "totalFare": 1508.0,
+          "paxRef": 0
+        }
+      },
+      "combinedFareBreakUp": {
+        "totalBaseFare": 10650.0,
+        "totalTax": 1608.0,
+        "totalMarkup": 0.0,
+        "totalDiscount": 0.0,
+        "fareBreakupMap": {
+          "TAXCOMPONENT-YR": 558.0,
+          "TAXCOMPONENT-K3": 560.0,
+          "TAXCOMPONENT-WO": 490.0,
+          "TOT": 12258.0,
+          "TAX": 1608.0
+        },
+        "totalFare": 12258.0,
+        "paxRef": null
+      }
+    }
+  },
+  "travellerInfo": {
+    "prtPymtEnbld": false,
+    "prtPymtSeltd": false,
+    "prtPymtAmt": null,
+    "searchKey": null,
+    "email": null,
+    "userDetails": null
+  },
+  "trvlrReqdInfo": {
+    "dobReqdForAllPax": false,
+    "dobReqdForInf": true,
+    "dobReqdForChild": false,
+    "ppMandatory": false,
+    "nationalityMandatory": false
+  },
+  "frFamilyDetails": {
+    "fareFamilyAvailable": true,
+    "fareFamilyResponse": [{
+      "error": null,
+      "sector": "FromCity1-ToCity1",
+      "warning": null,
+      "cheapestFamily": "ECO STANDARD",
+      "itineraryList": [{
+        "rbd": null,
+        "boardPoint": "FromCity1",
+        "offPoint": "ToCity1",
+        "airlineName": "Vistara",
+        "mrktArln": "UK",
+        "oprArln": "UK",
+        "fltNum": "UK-815",
+        "depDt": 1577499900000,
+        "arrDt": 1577499900000
+      }],
+      "serviceDisplayOrder": ["DATE_CHANGE", "MEAL", "RFD_BF_DEPART", "RFD_AFT_DEPART", "SEAT_ASSIGN", "PRI_BAGGAGE", "LOUNGE"],
+      "fareFamilies": [{
+        "selected": true,
+        "name": "ECO STANDARD",
+        "description": "ECO STANDARD",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#ffd3d4",
+          "packageTitle": "Date change chargeable | Cancellation chargeable",
+          "packageDesc": "To enjoy added benefits like Free Date change, Free Cancellation upgrade your booking",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 5375.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "CHA",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "CHA",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "06L",
+          "status": "CHA",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "CHA",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Chargeable"
+        }, {
+          "type": "0BX",
+          "status": "CHA",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Chargeable"
+        }]
+      }, {
+        "selected": false,
+        "name": "ECO FLEXI",
+        "description": "ECO FLEXI",
+        "carrier": "UK",
+        "packageSummary": {
+          "titleColor": "#cdf6e8",
+          "packageTitle": "Great choice! Your fare includes the following services:",
+          "packageDesc": "Free Date change, Free meals",
+          "operationName": "SEE OTHER FARES"
+        },
+        "finalAdultFare": 6634.0,
+        "initialAdultFare": null,
+        "services": [{
+          "type": "068",
+          "status": "INC",
+          "serviceName": "DATE_CHANGE",
+          "serviceType": "BF",
+          "description": "Limited Free changes"
+        }, {
+          "type": "0B3",
+          "status": "INC",
+          "serviceName": "MEAL",
+          "serviceType": "ML",
+          "description": "Free"
+        }, {
+          "type": "06K",
+          "status": "INC",
+          "serviceName": "RFD_BF_DEPART",
+          "serviceType": "BF",
+          "description": "Free"
+        }, {
+          "type": "06L",
+          "status": "CHA",
+          "serviceName": "RFD_AFT_DEPART",
+          "serviceType": "BF",
+          "description": "Chargeable"
+        }, {
+          "type": "0B5",
+          "status": "INC",
+          "serviceName": "SEAT_ASSIGN",
+          "serviceType": "SA",
+          "description": "Included"
+        }, {
+          "type": "0LF",
+          "status": "INC",
+          "serviceName": "PRI_BAGGAGE",
+          "serviceType": "TS",
+          "description": "Free"
+        }, {
+          "type": "0BX",
+          "status": "CHA",
+          "serviceName": "LOUNGE",
+          "serviceType": "LG",
+          "description": "Chargeable"
+        }]
+      }],
+      "fareList": [{
+        "name": "ECO STANDARD",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 5375.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 244.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 5375.0,
+                "TAX": 675.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 5375.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 244.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 5375.0,
+                "TAX": 675.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 1508.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 72.0,
+                "TOT": 1508.0,
+                "TAX": 258.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }, {
+        "name": "ECO FLEXI",
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 6634.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 304.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 6634.0,
+                "TAX": 735.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 6634.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 304.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 6634.0,
+                "TAX": 735.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 1508.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 72.0,
+                "TOT": 1508.0,
+                "TAX": 258.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }]
+    }],
+    "services": {
+      "DATE_CHANGE": {
+        "serviceName": "Date Change",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_date_change.png"
+      },
+      "RFD_AFT_DEPART": {
+        "serviceName": "No Show",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_no_show.png"
+      },
+      "HAND_BAGGAGE": {
+        "serviceName": "Hand Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_hand_baggage.png"
+      },
+      "MEAL": {
+        "serviceName": "Meals",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_meals.png"
+      },
+      "PRI_BOARDING": {
+        "serviceName": "Priority Boarding",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "PRI_BAGGAGE": {
+        "serviceName": "Priority Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "LOUNGE": {
+        "serviceName": "Lounge Access",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_lounge_access.png"
+      },
+      "RFD_BF_DEPART": {
+        "serviceName": "Refund Before Departure",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_flight_cancellation.png"
+      },
+      "SEAT_ASSIGN": {
+        "serviceName": "Seats",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_seat_selection.png"
+      }
+    },
+    "rtFare": false,
+    "farelookupMap": {
+      "ID2": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 6634.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 304.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 6634.0,
+                "TAX": 735.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 6634.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 304.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 6634.0,
+                "TAX": 735.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 1508.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 72.0,
+                "TOT": 1508.0,
+                "TAX": 258.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO FLEXI",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYF",
+                "supplierInfo": {
+                  "brandID": "211431",
+                  "brandTier": "0003"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID1": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 5375.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 244.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 5375.0,
+                "TAX": 675.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "CHILD": {
+            "numOfPax": 1,
+            "paxType": "CHILD",
+            "paxFare": 5375.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 244.0,
+                "TAXCOMPONENT-WO": 245.0,
+                "TOT": 5375.0,
+                "TAX": 675.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          },
+          "INFANT": {
+            "numOfPax": 1,
+            "paxType": "INFANT",
+            "paxFare": 1508.0,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TAXCOMPONENT-YR": 186.0,
+                "TAXCOMPONENT-K3": 72.0,
+                "TOT": 1508.0,
+                "TAX": 258.0
+              }
+            },
+            "fareComponentDetails": [{
+              "fareFamilyName": "ECO STANDARD",
+              "boardPoint": "FromCity1",
+              "offPoint": "ToCity1",
+              "carrier": "UK",
+              "segmentInfos": [{
+                "rbd": "E",
+                "fareBasis": "EH8PYS",
+                "supplierInfo": {
+                  "brandID": "211432",
+                  "brandTier": "0002"
+                },
+                "baggage": null,
+                "productClass": null,
+                "fareSellKey": null
+              }]
+            }]
+          }
+        },
+        "personalizationMap": null
+      }
+    },
+    "fareMap": {
+      "FromCity1-ToCity1-ECO STANDARD": {
+        "finalAdultFare": 5375.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$E$EH8PYS$null$null$186.0$null$72.0$0$0$I,null$E$EH8PYS$null$null$186.0$null$244.0$0$0$A,null$E$EH8PYS$null$null$186.0$null$244.0$0$0$C~A-5375.0|4700.0_C-5375.0|4700.0_I-1508.0|1250.0~M$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-815_VFBVTklfRE9N_07:55_Depart1_10:45_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_ECO STANDARD",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID1"
+        }]
+      },
+      "FromCity1-ToCity1-ECO FLEXI": {
+        "finalAdultFare": 6634.0,
+        "initialAdultFare": null,
+        "rKey": "v1~~null$E$EH8PYF$null$null$186.0$null$72.0$0$0$I,null$E$EH8PYF$null$null$186.0$null$304.0$0$0$A,null$E$EH8PYF$null$null$186.0$null$304.0$0$0$C~A-6634.0|5899.0_C-6634.0|5899.0_I-1508.0|1250.0~M$1$1$1$Mobile_UN$0~~FromCity1_ToCity1_Depart1_UK-815_VFBVTklfRE9N_07:55_Depart1_10:45_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-Depart1_ECO FLEXI",
+        "fares": [{
+          "sector": "FromCity1-ToCity1",
+          "fareListIdentifier": "ID2"
+        }]
+      }
+    }
+  },
+  "fareBreakUp": {
+    "fareSummary": [{
+      "paxType": "Adult",
+      "noOfPax": 1,
+      "fareDetails": {
+        "discount": 0.0,
+        "taxDetails": {
+          "flightTax": [{
+            "taxValue": 675.0,
+            "taxDescription": "YQ",
+            "taxDescriptionMessage": "YQ_DM"
+          }],
+          "totalTaxAmount": 675.0
+        },
+        "baseFare": 4700.0,
+        "totalFare": 5375.0
+      }
+    }, {
+      "paxType": "Child",
+      "noOfPax": 1,
+      "fareDetails": {
+        "discount": 0.0,
+        "taxDetails": {
+          "flightTax": [{
+            "taxValue": 675.0,
+            "taxDescription": "YQ",
+            "taxDescriptionMessage": "YQ_DM"
+          }],
+          "totalTaxAmount": 675.0
+        },
+        "baseFare": 4700.0,
+        "totalFare": 5375.0
+      }
+    }, {
+      "paxType": "Infant",
+      "noOfPax": 1,
+      "fareDetails": {
+        "discount": 0.0,
+        "taxDetails": {
+          "flightTax": [{
+            "taxValue": 258.0,
+            "taxDescription": "YQ",
+            "taxDescriptionMessage": "YQ_DM"
+          }],
+          "totalTaxAmount": 258.0
+        },
+        "baseFare": 1250.0,
+        "totalFare": 1508.0
+      }
+    }],
+    "taxSummary": {
+      "flightTax": [{
+        "taxValue": 1608.0,
+        "taxDescription": "YQ",
+        "taxDescriptionMessage": "YQ_DM"
+      }],
+      "totalTaxAmount": 1608.0
+    },
+    "taxDescMap": {
+      "INF": "Infant Tax",
+      "KKC": "Krishi Kalyan Cess",
+      "AST": "Service Tax",
+      "PSF": "Passenger Service Fee",
+      "DF": "Development Fee",
+      "OTH": "Other",
+      "CF": "Congestion Fee",
+      "GOODS_SERVICE_TAX": "Goods and Services Tax",
+      "TTF": "Travel and Tourism Fee",
+      "GST": "Gvt. Service Fee",
+      "UDFA": "User Development Fee(Arrival)",
+      "TF": "CUTE Fee",
+      "SF": "Service Fee",
+      "RCF": "Regional Connectivity Fund",
+      "SBC": "Swachh Bharat Cess ",
+      "UDF": "User Development Fee",
+      "YQ": "Airline Fuel Charge",
+      "DC": "Discount"
+    }
+  }
+}

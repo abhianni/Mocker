@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/bookingmanager.svc",
+       "bodyPatterns":[{
+        "contains" : "UpdatePassengersRequest"
+        }]
+ 
+
+    
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/G8_update_passender_response.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

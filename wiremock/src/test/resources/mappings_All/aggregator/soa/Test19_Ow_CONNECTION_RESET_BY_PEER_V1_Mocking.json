@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search/dom/aggr",
+        "bodyPatterns":[{
+        "contains" : "\"sequenceId\":\"SOANegativeTest_CONNECTION_RESET_BY_PEER\""
+        }]
+    },
+    "response": {
+        "fault": "CONNECTION_RESET_BY_PEER"
+    }
+}

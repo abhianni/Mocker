@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/peitho/get",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"}
+		},
+        "bodyPatterns":[{
+        "contains" : "blankCrIdOrBatchId"
+        }]
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/PiethoThirdParty/TestCase_5_pietho_Response.json"
+    }
+}

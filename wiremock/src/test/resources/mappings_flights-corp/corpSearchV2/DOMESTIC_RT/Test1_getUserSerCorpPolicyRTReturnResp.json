@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/internal/policy/flights/evaluate",
+     "bodyPatterns":[
+      {       "contains" : "a91232e4-2164-4631-ad7f-f0eefb534128"
+      }
+      ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+    "bodyFileName": "/corporate/corpSearchV2/DOMESTIC_RT/corpPolicyEvalRespRTReturn.json"
+  }
+}

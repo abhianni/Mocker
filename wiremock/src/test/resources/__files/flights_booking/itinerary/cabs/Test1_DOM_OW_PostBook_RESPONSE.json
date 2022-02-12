@@ -1,0 +1,94 @@
+{
+  "partialPayment": false,
+  "rebookAllowed": false,
+  "zcassured": false,
+  "status": "C",
+  "funnel": "DOM",
+  "deviceType": "MOBILE",
+  "bookingDetails": {
+    "segments": [{
+      "groupOfFlights": [{
+        "departureInfo": {
+          "cityCode": "HYD",
+          "dateTime": 1574828700000
+        },
+        "arrivalInfo": {
+          "cityCode": "BLR",
+          "dateTime": 1574832900000
+        },
+        "marketingAirlineInfo": "AI",
+        "operatingAirlineInfo": "AI",
+        "equipmentType": "319",
+        "flightNumber": "515",
+        "cabin": "E",
+        "techStopOver": [],
+        "duration": 70
+      }],
+      "duration": 70
+    }],
+    "paxFares": [{
+      "ref": ["0"],
+      "paxType": "ADT",
+      "fares": [{
+        "fareType": "TAXCOMPONENT-YR",
+        "fare": 170.0
+      }, {
+        "fareType": "TAXCOMPONENT-K3",
+        "fare": 122.0
+      }, {
+        "fareType": "TAXCOMPONENT-WO",
+        "fare": 260.0
+      }, {
+        "fareType": "TAXCOMPONENT-IN",
+        "fare": 508.0
+      }, {
+        "fareType": "TOT",
+        "fare": 3310.0
+      }, {
+        "fareType": "TAX",
+        "fare": 1060.0
+      }]
+    }],
+    "refAirline": ["AI"],
+    "paymentInfo": {
+      "totalamount": 3844.0,
+      "convenienceFee": 280.0,
+      "baseFare": 2250.0,
+      "taxes": 1060.0,
+      "isPartialPayment": false,
+      "walletKey": "",
+      "amountCharged": 5142.0
+    },
+    "tripType": "O",
+    "adults": 1,
+    "children": 0,
+    "infants": 0,
+    "typeOfCabin": "M",
+    "lob": "Mobile_UN",
+    "jsessionId": "0856C26BEB44CBFAFB77BC74522BE023",
+    "currencySymbol": "INR"
+  },
+  "mmtid": "NF70114227779114",
+  "isPostHoldBooking": false,
+  "voidBooking": false,
+  "helpLineNumber": ["1-800-11 8747", "1-800-102 8747", "(0124) 462 8747", "(0124) 289 8747"],
+  "helpLineEmail": ["service@makemytrip.com"],
+  "isPartialPayment": false,
+  "emailid": "himanshu.sharma2@go-mmt.com",
+  "mobileNumber": "9899745854",
+  "isRebookAllowed": false,
+  "isDuplicateBooking": false,
+  "checkoutId": "364832960169889",
+  "clientIP": "172.16.123.211",
+  "firstName": "Test",
+  "lastName": "Test",
+  "gender": "MALE",
+  "st": "",
+  "pnrInfo": [{
+    "pnrNo": "CTXBVE",
+    "pntStatus": "C"
+  }],
+  "lob": "Mobile_UN",
+  "isZCAssured": false,
+  "zcFee": 0.0
+}

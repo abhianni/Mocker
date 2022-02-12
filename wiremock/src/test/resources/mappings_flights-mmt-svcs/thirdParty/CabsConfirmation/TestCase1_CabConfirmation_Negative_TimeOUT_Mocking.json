@@ -1,0 +1,16 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flight/confirmbooking/",
+    "bodyPatterns":[
+      {       "contains" : "cabConfirmBookingNegative_TimeOUT_itID"
+      }
+    ]
+
+  },
+  "response": {
+  
+	"fault":"CONNECTION_RESET_BY_PEER"
+
+  }
+}

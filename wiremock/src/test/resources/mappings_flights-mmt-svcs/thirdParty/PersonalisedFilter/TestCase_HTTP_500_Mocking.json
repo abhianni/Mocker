@@ -1,0 +1,14 @@
+{
+    "request":{
+        "method": "POST",
+      "url": "/v1/getCustomServices",
+        "bodyPatterns":[
+           {"contains" :"flight-filters"},
+            {"contains" :"U8GHFTJX5WL/DEL/GOI"},
+            { "contains" :"most_used_filters"}
+            ]
+    },
+    "response": {
+        "status": 500
+	}
+}

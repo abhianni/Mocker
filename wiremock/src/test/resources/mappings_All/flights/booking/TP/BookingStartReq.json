@@ -1,0 +1,27 @@
+
+{
+    "request":{
+        "method": "POST",
+	"url": "/B2BGateway/connect/uAPI/AirService",
+       "bodyPatterns":[
+{ "contains" : "BookingStartReq"}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/booking/TP/BookingStartReqResponse.xml",
+"headers": {
+	            "Content-Type": "text/xml",
+		    "SSLTerm": "216.113.156.88%3A443%2C%2FTF-COM_API%2FAPAC_UNIVERSAL-API_443",
+		   "passwordEndDt": "20180209",
+		   "X-Client-IP" : "10.7.208.151",
+                   "X-Global-Transaction-ID" : "3023634573"
+        }
+    }
+}

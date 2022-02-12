@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/pay-nonfinancial-service/internal/emi/fetchAttributes",
+        "bodyPatterns":[{
+        "contains" : "Flight"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/EMI_Attributes_Review/TestCase1_EMI_Attributes_Review_Response.json"
+    }
+}

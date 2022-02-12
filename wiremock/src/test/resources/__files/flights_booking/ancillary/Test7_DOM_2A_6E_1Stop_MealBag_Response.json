@@ -1,0 +1,218 @@
+{
+  "status": true,
+  "segAnclryHldrList": [{
+    "anclryType": "MEALS",
+    "anclryDescr": "Food & Beverages",
+    "displayTitle": null,
+    "displaySubTitle": null,
+    "segAnclryDataMap": {
+      "LKO_DEL": {
+        "segType": "DEP",
+        "originCity": "Lucknow",
+        "destCity": "New Delhi",
+        "selectType": "single",
+        "refundStat": 1,
+        "alCode": "6E",
+        "fltNo": "306",
+        "anclryGrpMap": {
+          "Non Veg": [{
+            "grp": "Non Veg",
+            "name": "Non Veg  MUMB Mock Snack",
+            "price": 300,
+            "code": "NVML",
+            "mmtPrice": 300,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }],
+          "Veg": [{
+            "grp": "Veg",
+            "name": "Veg Snack",
+            "price": 250,
+            "code": "VGML",
+            "mmtPrice": 250,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }]
+        }
+      },
+      "DEL_BOM": {
+        "segType": "DEP",
+        "originCity": "New Delhi",
+        "destCity": "Mumbai",
+        "selectType": "single",
+        "refundStat": 1,
+        "alCode": "6E",
+        "fltNo": "129",
+        "anclryGrpMap": {
+          "Non Veg": [{
+            "grp": "Non Veg",
+            "name": "Non Veg Snack",
+            "price": 300,
+            "code": "NVML",
+            "mmtPrice": 300,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }],
+          "Veg": [{
+            "grp": "Veg",
+            "name": "Veg Snack",
+            "price": 250,
+            "code": "VGML",
+            "mmtPrice": 250,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }]
+        }
+      }
+    }
+  }, {
+    "anclryType": "BAGGAGE",
+    "anclryDescr": "Baggage",
+    "displayTitle": null,
+    "displaySubTitle": null,
+    "segAnclryDataMap": {
+      "LKO_DEL": {
+        "segType": "DEP",
+        "originCity": "Lucknow",
+        "destCity": "New Delhi",
+        "selectType": "single",
+        "refundStat": 1,
+        "alCode": "6E",
+        "fltNo": "306",
+        "anclryGrpMap": {
+          "Pre-purchased Baggage": [{
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 5 KG",
+            "price": 1800,
+            "code": "XBPA",
+            "mmtPrice": 1800,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 10 KG",
+            "price": 3400,
+            "code": "XBPB",
+            "mmtPrice": 3400,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 15 KG",
+            "price": 5100,
+            "code": "XBPC",
+            "mmtPrice": 5100,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 30 KG",
+            "price": 11400,
+            "code": "XBPD",
+            "mmtPrice": 11400,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }]
+        }
+      },
+      "DEL_BOM": {
+        "segType": "DEP",
+        "originCity": "New Delhi",
+        "destCity": "Mumbai",
+        "selectType": "single",
+        "refundStat": 1,
+        "alCode": "6E",
+        "fltNo": "129",
+        "anclryGrpMap": {
+          "Pre-purchased Baggage": [{
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 5 KG",
+            "price": 1800,
+            "code": "XBPA",
+            "mmtPrice": 1800,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 10 KG",
+            "price": 3400,
+            "code": "XBPB",
+            "mmtPrice": 3400,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 15 KG",
+            "price": 5100,
+            "code": "XBPC",
+            "mmtPrice": 5100,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 30 KG",
+            "price": 11400,
+            "code": "XBPD",
+            "mmtPrice": 11400,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }]
+        }
+      }
+    }
+  }],
+  "meta": {
+    "core": {
+      "nmAdt": 2,
+      "nmChd": 0,
+      "nmInf": 0,
+      "totFare": 6046.0,
+      "it": [{
+        "from": "LKO",
+        "to": "BOM",
+        "depDate": "2019-07-01"
+      }],
+      "itBrkup": {
+        "LKO-BOM-010719": [{
+          "depCityCode": "LKO",
+          "arrCityCode": "DEL",
+          "depDate": "010719",
+          "depTime": "15:10",
+          "depDateTime": "2019-07-01 15:10",
+          "arrDate": "010719",
+          "arrTime": "16:30",
+          "arrDateTime": "2019-07-01 16:30",
+          "flightNumber": "6E-306",
+          "cmsId": "6EFAMILY",
+          "validatingAirline": "6E",
+          "marketingAirline": "6E",
+          "operatingAirline": "6E",
+          "flightServiceName": "6E",
+          "pnrGroup": 0,
+          "rtFareFlag": 0,
+          "stopType": "PLANE_CHANGE"
+        }, {
+          "depCityCode": "DEL",
+          "arrCityCode": "BOM",
+          "depDate": "010719",
+          "depTime": "17:30",
+          "depDateTime": "2019-07-01 17:30",
+          "arrDate": "010719",
+          "arrTime": "19:40",
+          "arrDateTime": "2019-07-01 19:40",
+          "flightNumber": "6E-129",
+          "cmsId": "6EFAMILY",
+          "validatingAirline": "6E",
+          "marketingAirline": "6E",
+          "operatingAirline": "6E",
+          "flightServiceName": "6E",
+          "pnrGroup": 0,
+          "rtFareFlag": 0,
+          "stopType": "JOURNEY_OVER"
+        }]
+      },
+      "cc": "E"
+    }
+  },
+  "statusCode": "OK"
+}

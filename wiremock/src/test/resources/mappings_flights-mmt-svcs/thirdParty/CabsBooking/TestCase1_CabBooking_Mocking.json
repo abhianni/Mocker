@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flight/holdbooking/",
+    "bodyPatterns":[
+      {       "contains" : "cabHoldBooking_itID"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/TPSVCS/CabsBooking/TestCase1_CabBooking_Response.json"
+
+  }
+}

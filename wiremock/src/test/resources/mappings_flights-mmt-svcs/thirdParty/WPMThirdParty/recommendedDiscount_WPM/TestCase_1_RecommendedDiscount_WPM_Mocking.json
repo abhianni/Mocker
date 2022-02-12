@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/wpm/hcs/v2/rule/recommend",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Accept" : {"matches" : "application/json"},
+		"Authorization" : {"matches" : "d3BtQXBwbGljYXRpb24="}
+		},
+        "bodyPatterns":[{
+        "contains" : "UJH1BWIO1XL_Recommende_One"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/WPMThirdParty/recommendedDiscount_WPM/TestCase_1_RecommendedDiscount_WPM_Response.json"
+    }
+}

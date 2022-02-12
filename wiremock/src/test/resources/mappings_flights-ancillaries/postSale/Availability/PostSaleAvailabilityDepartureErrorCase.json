@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/flights-ancillary-api/ancillary/postsale/availability",
+    "bodyPatterns":[
+      {       	"contains": "DEPERR"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights-ancillaries/postSale/Availability/PostSaleAvailabilityDepartureDateError.json"
+  }
+}

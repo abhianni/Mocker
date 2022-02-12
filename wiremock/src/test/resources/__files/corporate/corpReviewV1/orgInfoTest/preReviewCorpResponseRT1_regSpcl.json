@@ -1,0 +1,104 @@
+{
+	"itineraryId": "8f58d9996fa083826df8e7784f6bd0fd0521e82f",
+	"status": "SUCCESS",
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "PNQ",
+				"to": "DEL",
+				"depDate": "2020-04-07"
+			}, {
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "PNQ",
+				"depDate": "2020-04-11"
+			}],
+			"cc": "E"
+		},
+		"isDDApld": false,
+		"srvrMtrc": {}
+	},
+	"recom": {
+		"itneraryJrnys": [{
+			"isCstmComb": false,
+			"depDate": "2020-04-07 02:10",
+			"arrDate": "2020-04-07 04:25",
+			"dur": 135,
+			"flightDtlsInfo": [{
+				"flyingDay": 0,
+				"fltLookUpKey": "6E_6E_6698_PNQ_DEL_2020-04-07 02:10_2020-04-07 04:25",
+				"pnrGroupNum": 0
+			}]
+		}, {
+			"isCstmComb": true,
+			"depDate": "2020-04-11 19:15",
+			"arrDate": "2020-04-11 21:25",
+			"dur": 130,
+			"flightDtlsInfo": [{
+				"flyingDay": 0,
+				"fltLookUpKey": "AI_AI_853_DEL_PNQ_2020-04-11 19:15_2020-04-11 21:25",
+				"pnrGroupNum": 1
+			}]
+		}]
+	},
+	"alCdeMap": {
+		"AI": {
+			"nm": "Air India"
+		},
+		"6E": {
+			"nm": "IndiGo"
+		}
+	},
+	"ctyCdeMap": {
+		"PNQ": {
+			"nm": "Pune",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Pune Airport"
+		},
+		"DEL": {
+			"nm": "New Delhi",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Indira Gandhi International Airport"
+		}
+	},
+	"flightLookUpList": {
+		"6E_6E_6698_PNQ_DEL_2020-04-07 02:10_2020-04-07 04:25": {
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "6698",
+			"depInfo": {
+				"cityCd": "PNQ"
+			},
+			"arrInfo": {
+				"cityCd": "DEL"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-07 02:10",
+			"arrTime": "2020-04-07 04:25",
+			"dur": 135
+		},
+		"AI_AI_853_DEL_PNQ_2020-04-11 19:15_2020-04-11 21:25": {
+			"mrkAl": "AI",
+			"oprAl": "AI",
+			"fltNo": "853",
+			"depInfo": {
+				"cityCd": "DEL"
+			},
+			"arrInfo": {
+				"cityCd": "PNQ"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-11 19:15",
+			"arrTime": "2020-04-11 21:25",
+			"dur": 130
+		}
+	}
+}

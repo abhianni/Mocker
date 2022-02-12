@@ -1,0 +1,21 @@
+{
+  "request":{
+    "urlPattern": "/flights-grpc/searchstream",
+    "bodyPatterns":[
+
+{ "contains" : "2021-01-27"
+},
+{ "contains" : "BLR"
+},
+{
+  "contains" : "SearchV5StreamRT"
+},
+{
+  "contains" : "\"responseViewType\": \"SPLIT\""
+}
+]
+  },
+  "response": {
+    "bodyFileName": "/grpc/searchstream/flightsfoundRT.json"
+  }
+}

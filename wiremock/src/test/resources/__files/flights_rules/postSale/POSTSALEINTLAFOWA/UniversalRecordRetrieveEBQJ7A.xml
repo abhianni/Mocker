@@ -1,0 +1,436 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <universal:UniversalRecordRetrieveRsp TraceId="TO8ctArKQkS" TransactionId="F7D168C80A074262A9A66FFCC2BD3069" ResponseTime="374" xmlns:universal="http://www.travelport.com/schema/universal_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:passive="http://www.travelport.com/schema/passive_v48_0">
+            <common_v48_0:ResponseMessage Code="1512" Type="Warning">Unable to process the request.</common_v48_0:ResponseMessage>
+            <universal:UniversalRecord LocatorCode="7CRICD" Version="24" Status="Active">
+                <common_v48_0:BookingTraveler Key="3BQB2LmB0BKAzZddkFAAAA==" TravelerType="ADT" Gender="M">
+                    <common_v48_0:BookingTravelerName Prefix="MR" First="Nitheesha" Last="Poojary"/>
+                    <common_v48_0:PhoneNumber Key="3BQB2LmB0BKA0ZddkFAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9900816618">
+                        <common_v48_0:ProviderReservationInfoRef Key="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    </common_v48_0:PhoneNumber>
+                    <common_v48_0:Email Key="3BQB2LmB0BKA4ZddkFAAAA==" EmailID="nitheesh86@gmail.com">
+                        <common_v48_0:ProviderReservationInfoRef Key="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    </common_v48_0:Email>
+                    <common_v48_0:LoyaltyCard Key="3BQB2LmB0BKA5ZddkFAAAA==" SupplierCode="AF" CardNumber="5034382392" SupplierType="Air" Level="E" PriorityCode="9">
+                        <common_v48_0:ProviderReservationSpecificInfo ProviderReservationLevel="true">
+                            <common_v48_0:ProviderReservationInfoRef Key="gEw61LBAAA/B1tYNnFAAAA=="/>
+                        </common_v48_0:ProviderReservationSpecificInfo>
+                    </common_v48_0:LoyaltyCard>
+                    <common_v48_0:SSR Key="3BQB2LmB0BKAEHfdkFAAAA==" Status="HK" Type="DOCS" FreeText="P/IN/S9902387//22FEB86/M/15DEC21/POOJARY/NITHEESHA/ -1POOJARY/NITHEESHAMR" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    <common_v48_0:SSR Key="yX/D2LKc1BKAeFqDnFAAAA==" SegmentRef="gEw61LBAAA/BhkYNnFAAAA==" Status="HK" Type="TKNE" FreeText="0573761038050C1" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    <common_v48_0:SSR Key="yX/D2LKc1BKAgFqDnFAAAA==" SegmentRef="gEw61LBAAA/BikYNnFAAAA==" Status="HK" Type="TKNE" FreeText="0573761038050C2" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    <common_v48_0:AirSeatAssignment Key="GfPB2LrB0BKABHy7mFAAAA==" Status="HK" Seat="003F" SegmentRef="gEw61LBAAA/BhkYNnFAAAA==" FlightDetailsRef="via91LBAAA/BFMPnnFAAAA=="/>
+                </common_v48_0:BookingTraveler>
+                <common_v48_0:BookingTraveler Key="3BQB2LmB0BKA6ZddkFAAAA==" TravelerType="ADT" Gender="F">
+                    <common_v48_0:BookingTravelerName Prefix="Ms" First="Reena Umesh" Last="Acharya"/>
+                    <common_v48_0:PhoneNumber Key="3BQB2LmB0BKA7ZddkFAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9900816618">
+                        <common_v48_0:ProviderReservationInfoRef Key="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    </common_v48_0:PhoneNumber>
+                    <common_v48_0:Email Key="3BQB2LmB0BKA/ZddkFAAAA==" EmailID="nitheesh86@gmail.com">
+                        <common_v48_0:ProviderReservationInfoRef Key="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    </common_v48_0:Email>
+                    <common_v48_0:SSR Key="3BQB2LmB0BKAFHfdkFAAAA==" Status="HK" Type="DOCS" FreeText="P/IN/M7151101//08JUL92/F/11MAR25/ACHARYA/REENA UMESH/ -1ACHARYA/REENAUMESHMS" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    <common_v48_0:SSR Key="yX/D2LKc1BKAfFqDnFAAAA==" SegmentRef="gEw61LBAAA/BhkYNnFAAAA==" Status="HK" Type="TKNE" FreeText="0573761038051C1" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    <common_v48_0:SSR Key="yX/D2LKc1BKAhFqDnFAAAA==" SegmentRef="gEw61LBAAA/BikYNnFAAAA==" Status="HK" Type="TKNE" FreeText="0573761038051C2" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    <common_v48_0:AirSeatAssignment Key="GfPB2LrB0BKACHy7mFAAAA==" Status="HK" Seat="003E" SegmentRef="gEw61LBAAA/BhkYNnFAAAA==" FlightDetailsRef="via91LBAAA/BFMPnnFAAAA=="/>
+                </common_v48_0:BookingTraveler>
+                <common_v48_0:OSI Key="bU7D2LPc1BKArnI5lFAAAA==" Carrier="YY" Text="CTCM 9900816618" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                <common_v48_0:ActionStatus Key="pu8D2LRc1BKAcYpsmFAAAA==" Type="ACTIVE" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA==" ProviderCode="1G">
+                    <common_v48_0:Remark>BOM 07JUL1619Z WS AG</common_v48_0:Remark>
+                </common_v48_0:ActionStatus>
+                <universal:ProviderReservationInfo Key="gEw61LBAAA/B1tYNnFAAAA==" ProviderCode="1G" LocatorCode="EBQJ7A" CreateDate="2020-07-07T16:18:50.172+00:00" ModifiedDate="2020-08-16T15:00:38.735+00:00" HostCreateDate="2020-07-07" OwningPCC="34TZ"/>
+                <air:AirReservation LocatorCode="7CRICI" CreateDate="2020-07-07T16:18:50.802+00:00" ModifiedDate="2020-08-16T15:09:23.260+00:00">
+                    <common_v48_0:SupplierLocator SupplierCode="AF" SupplierLocatorCode="RIHP4F" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA==" CreateDateTime="2020-07-07T16:18:00.000+00:00"/>
+                    <air:DocumentInfo>
+                        <air:TicketInfo Number="0573761038050" TicketIssueDate="2020-07-07T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="ZWP7GWS" CountryCode="IN" Status="N" BookingTravelerRef="3BQB2LmB0BKAzZddkFAAAA==" AirPricingInfoRef="r892pMjJ0BKAW5iwBAAAAA==">
+                            <common_v48_0:Name Prefix="MR" First="Nitheesha" Last="Poojary"/>
+                        </air:TicketInfo>
+                        <air:TicketInfo Number="0573761038051" TicketIssueDate="2020-07-07T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="ZWP7GWS" CountryCode="IN" Status="N" BookingTravelerRef="3BQB2LmB0BKA6ZddkFAAAA==" AirPricingInfoRef="r892pMjJ0BKAW5iwBAAAAA==">
+                            <common_v48_0:Name Prefix="Ms" First="Reena Umesh" Last="Acharya"/>
+                        </air:TicketInfo>
+                    </air:DocumentInfo>
+                    <common_v48_0:BookingTravelerRef Key="3BQB2LmB0BKAzZddkFAAAA==">
+                        <common_v48_0:LoyaltyCardRef Key="3BQB2LmB0BKA5ZddkFAAAA=="/>
+                    </common_v48_0:BookingTravelerRef>
+                    <common_v48_0:BookingTravelerRef Key="3BQB2LmB0BKA6ZddkFAAAA=="/>
+                    <common_v48_0:ProviderReservationInfoRef Key="gEw61LBAAA/B1tYNnFAAAA=="/>
+                    <air:AirSegment Key="gEw61LBAAA/BhkYNnFAAAA==" Group="0" Carrier="AF" CabinClass="Business" FlightNumber="191" ProviderCode="1G" Origin="BLR" Destination="CDG" DepartureTime="2020-09-02T01:30:00.000+05:30" ArrivalTime="2020-09-02T08:15:00.000+02:00" TravelTime="615" ClassOfService="O" ETicketability="Yes" Equipment="772" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false">
+                        <air:FlightDetails Key="via91LBAAA/BFMPnnFAAAA==" Origin="BLR" Destination="CDG" DepartureTime="2020-09-02T01:30:00.000+05:30" ArrivalTime="2020-09-02T08:15:00.000+02:00" FlightTime="615" TravelTime="615" Equipment="772" DestinationTerminal="2E" AutomatedCheckin="false"/>
+                        <air:Connection Duration="240"/>
+                        <common_v48_0:SellMessage>ARRIVES CDG TERMINAL 2E</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>*APIS DEST PAX DATA REQUIRED SSR DOCS*</common_v48_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirSegment Key="gEw61LBAAA/BikYNnFAAAA==" Group="0" Carrier="AF" CabinClass="Business" FlightNumber="1816" ProviderCode="1G" Origin="CDG" Destination="DUB" DepartureTime="2020-09-02T12:15:00.000+02:00" ArrivalTime="2020-09-02T13:10:00.000+01:00" TravelTime="115" ClassOfService="J" ETicketability="Yes" Equipment="E90" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false">
+                        <air:FlightDetails Key="via91LBAAA/BGMPnnFAAAA==" Origin="CDG" Destination="DUB" DepartureTime="2020-09-02T12:15:00.000+02:00" ArrivalTime="2020-09-02T13:10:00.000+01:00" FlightTime="115" TravelTime="115" Equipment="E90" OriginTerminal="2E" DestinationTerminal="1" AutomatedCheckin="false"/>
+                        <common_v48_0:SellMessage>DEPARTS CDG TERMINAL 2E - ARRIVES DUB TERMINAL 1</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v48_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirPricingInfo Key="r892pMjJ0BKAW5iwBAAAAA==" TotalPrice="INR100111" BasePrice="INR63625" ApproximateTotalPrice="INR100111" ApproximateBasePrice="INR63625" Taxes="INR36486" LatestTicketingTime="2020-07-07T23:59:00.000+05:30" TrueLastDateToTicket="2020-07-31T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA==" AirPricingInfoGroup="1" Ticketed="true" PricingType="StoredFare" FareCalculationInd="G">
+                        <air:FareInfo Key="r892pMjJ0BKA4kjwBAAAAA==" FareBasis="OS02BONF" PassengerTypeCode="ADT" Origin="BLR" Destination="CDG" EffectiveDate="2020-07-07T00:00:00.000+05:30" NotValidBefore="2020-09-02" NotValidAfter="2020-09-02" PseudoCityCode="WP7">
+                            <air:BaggageAllowance>
+                                <air:NumberOfPieces>2</air:NumberOfPieces>
+                            </air:BaggageAllowance>
+                            <air:Brand Key="r892pMjJ0BKA4kjwBAAAAA==" BrandID="467834" Name="BUSINESS" Carrier="AF" BrandTier="0006">
+                                <air:Title Type="External" LanguageCode="EN">Business</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">BUSINESS</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//0C3/N/UPTO50LB 23KG BAGGAGE////0FM/F/CHECKED BAG 2PC OF 32KG 158CM////0FN/D/CHECKED BAG 3PC OF 32KG////0MR/N/CARRY 12KG 26LB UPTO45LI 115LCM////0MS/F/CABIN BAGGAGE 18KG 2PC 115CM////05Z/F/PRIVACY SEAT////06A/N/25 PERCENT MILES EARNED////06B/N/50 PERCENT MILES EARNED////06D/N/100 PERCENT MILES EARNED////06H/F/ BUSINESS CLASS MILES ACCRUAL////07G/F/PRIORITY SERVICES////07H/N/STAND BY////050/N/BASIC SEAT////056/N/REFUNDABLE TICKET////058/C/UPGRADE ELIGIBILIY////059/N/CHANGEABLE TICKET////0AT/F/SNACK////0AX/F/BEVERAGE////0B3/F/MEAL 1////0BX/F/LOUNGE ACCESS//</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">Your BUSINESS CLASS fare includes:
+
+                                    •  Priority check in, fast track, priority boarding.
+                                    •  Lounge access.
+                                    •  Full flat seats, Nearly 2 m / 6.5 ft in length.
+                                    •  Every seat is on the aisle in the new cabin.
+                                    •  Delicious chef prepared 3 course menu accompanied by fine wines and other drinks.
+
+                                    Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">Your BUSINESS CLASS fare includes:
+
+                                    •  Priority check in, fast track, priority boarding.
+                                    •  Lounge access.
+                                    •  Full flat seats, Nearly 2 m / 6.5 ft in length.
+                                    •  Every seat is on the aisle in the new cabin.
+                                    •  Delicious chef prepared 3 course menu accompanied by fine wines and other drinks.
+
+                                    Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">Lie flat beds and much much more</air:Text>
+                                <air:ImageLocation Type="Consumer" ImageWidth="1398" ImageHeight="800">https://cdn.travelport.com/airfrance/AF_general_large_42418.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/airfrance/AF_general_medium_1438.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.290+00:00" ServiceSubCode="0FM" Key="r892pMjJ0BKAFkjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Checked bags 2x32kg</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1419.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1419.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">2x32kg</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">2x32kg</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked bags 2x32kg</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">C,2,32,Bag</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.290+00:00" ServiceSubCode="0MS" Key="r892pMjJ0BKAGkjwBAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Cabin bags max 18kg</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_4583.jpg"/>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_4583.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">2 bags max 18kg combined (max 55 x 35 x 25cm each).</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">2 bags max 18kg combined (max 55 x 35 x 25cm each).</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Cabin bags max 18kg</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">C,X,18,CY</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.290+00:00" ServiceSubCode="06H" Key="r892pMjJ0BKALkjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Business Class miles accrual</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_85123.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_85123.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Earn and save</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Business Class miles accrual</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">BizMls</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.290+00:00" ServiceSubCode="07G" Key="r892pMjJ0BKAMkjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Sky priority</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1417.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1417.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Beat the queues at the airport</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Sky priority</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Priority</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.290+00:00" ServiceSubCode="05Z" Key="r892pMjJ0BKANkjwBAAAAA==" SecondaryType="Seat" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Privacy seat</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_111517.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_111517.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">For your extra space and comfort</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">On short haul routes in Business Class the neighbour seat is left free.
+
+                                            On long haul routes in Business Class passengers enjoy lie flat beds (up to 2mtr in length), or in First Class enjoy the luxury of your own private suite (up to 2mtr in length).
+
+                                            (May be a different product if the flight is operated by another airline).</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">On short haul routes in Business Class the neighbour seat is left free.
+
+                                            On long haul routes in Business Class passengers enjoy lie flat beds (up to 2mtr in length), or in First Class enjoy the luxury of your own private suite (up to 2mtr in length).
+
+                                            (May be a different product if the flight is operated by another airline).</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Privacy seat</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">PrivcyST</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.290+00:00" ServiceSubCode="059" Key="r892pMjJ0BKAOkjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Changeable ticket</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1413.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1413.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Making changes to your reservation</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Changeable ticket</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Changes</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.291+00:00" ServiceSubCode="0B3" Key="r892pMjJ0BKAWkjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Meal</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71569.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71569.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Meal</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Meal</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.291+00:00" ServiceSubCode="0AX" Key="r892pMjJ0BKAXkjwBAAAAA==" SecondaryType="Drink" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Beverage</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71567.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71567.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Drinks on board your flight</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Beverage</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Beverage</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.291+00:00" ServiceSubCode="0AT" Key="r892pMjJ0BKAYkjwBAAAAA==" SecondaryType="Snack" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Snack</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71568.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71568.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Snack</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Snack</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Lounge" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.291+00:00" ServiceSubCode="0BX" Key="r892pMjJ0BKAakjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Business lounge access</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1411.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1411.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Somewhere quiet to work or relax</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Business lounge access</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Lounges</air:Title>
+                                    </air:OptionalService>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:FareInfo Key="r892pMjJ0BKA5kjwBAAAAA==" FareBasis="OS02BONF" PassengerTypeCode="ADT" Origin="CDG" Destination="DUB" EffectiveDate="2020-07-07T00:00:00.000+05:30" NotValidBefore="2020-09-02" NotValidAfter="2020-09-02" PseudoCityCode="WP7">
+                            <air:BaggageAllowance>
+                                <air:NumberOfPieces>2</air:NumberOfPieces>
+                            </air:BaggageAllowance>
+                            <air:Brand Key="r892pMjJ0BKA5kjwBAAAAA==" BrandID="467834" Name="BUSINESS" Carrier="AF" BrandTier="0006">
+                                <air:Title Type="External" LanguageCode="EN">Business</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">BUSINESS</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//0C3/N/UPTO50LB 23KG BAGGAGE////0FM/F/CHECKED BAG 2PC OF 32KG 158CM////0FN/D/CHECKED BAG 3PC OF 32KG////0MR/N/CARRY 12KG 26LB UPTO45LI 115LCM////0MS/F/CABIN BAGGAGE 18KG 2PC 115CM////05Z/F/PRIVACY SEAT////06A/N/25 PERCENT MILES EARNED////06B/N/50 PERCENT MILES EARNED////06D/N/100 PERCENT MILES EARNED////06H/F/ BUSINESS CLASS MILES ACCRUAL////07G/F/PRIORITY SERVICES////07H/N/STAND BY////050/N/BASIC SEAT////056/N/REFUNDABLE TICKET////058/C/UPGRADE ELIGIBILIY////059/N/CHANGEABLE TICKET////0AT/F/SNACK////0AX/F/BEVERAGE////0B3/F/MEAL 1////0BX/F/LOUNGE ACCESS//</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">Your BUSINESS CLASS fare includes:
+
+                                    •  Priority check in, fast track, priority boarding.
+                                    •  Lounge access.
+                                    •  Full flat seats, Nearly 2 m / 6.5 ft in length.
+                                    •  Every seat is on the aisle in the new cabin.
+                                    •  Delicious chef prepared 3 course menu accompanied by fine wines and other drinks.
+
+                                    Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">Your BUSINESS CLASS fare includes:
+
+                                    •  Priority check in, fast track, priority boarding.
+                                    •  Lounge access.
+                                    •  Full flat seats, Nearly 2 m / 6.5 ft in length.
+                                    •  Every seat is on the aisle in the new cabin.
+                                    •  Delicious chef prepared 3 course menu accompanied by fine wines and other drinks.
+
+                                    Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">Lie flat beds and much much more</air:Text>
+                                <air:ImageLocation Type="Consumer" ImageWidth="1398" ImageHeight="800">https://cdn.travelport.com/airfrance/AF_general_large_42418.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/airfrance/AF_general_medium_1438.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.320+00:00" ServiceSubCode="0FM" Key="r892pMjJ0BKAikjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Checked bags 2x32kg</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1419.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1419.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">2x32kg</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">2x32kg</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked bags 2x32kg</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">C,2,32,Bag</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.320+00:00" ServiceSubCode="0MS" Key="r892pMjJ0BKAjkjwBAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Cabin bags max 18kg</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_4583.jpg"/>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_4583.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">2 bags max 18kg combined (max 55 x 35 x 25cm each).</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">2 bags max 18kg combined (max 55 x 35 x 25cm each).</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Cabin bags max 18kg</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">C,X,18,CY</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.320+00:00" ServiceSubCode="06H" Key="r892pMjJ0BKAokjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Business Class miles accrual</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_85123.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_85123.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Earn and save</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Business Class miles accrual</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">BizMls</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.320+00:00" ServiceSubCode="07G" Key="r892pMjJ0BKApkjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Sky priority</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1417.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1417.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Beat the queues at the airport</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Sky priority</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Priority</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.320+00:00" ServiceSubCode="05Z" Key="r892pMjJ0BKAqkjwBAAAAA==" SecondaryType="Seat" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Privacy seat</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_111517.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_111517.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">For your extra space and comfort</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">On short haul routes in Business Class the neighbour seat is left free.
+
+                                            On long haul routes in Business Class passengers enjoy lie flat beds (up to 2mtr in length), or in First Class enjoy the luxury of your own private suite (up to 2mtr in length).
+
+                                            (May be a different product if the flight is operated by another airline).</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">On short haul routes in Business Class the neighbour seat is left free.
+
+                                            On long haul routes in Business Class passengers enjoy lie flat beds (up to 2mtr in length), or in First Class enjoy the luxury of your own private suite (up to 2mtr in length).
+
+                                            (May be a different product if the flight is operated by another airline).</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Privacy seat</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">PrivcyST</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.320+00:00" ServiceSubCode="059" Key="r892pMjJ0BKArkjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Changeable ticket</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1413.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1413.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Making changes to your reservation</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Changeable ticket</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Changes</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.321+00:00" ServiceSubCode="0B3" Key="r892pMjJ0BKAzkjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Meal</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71569.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71569.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Meal</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Meal</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.321+00:00" ServiceSubCode="0AX" Key="r892pMjJ0BKA0kjwBAAAAA==" SecondaryType="Drink" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Beverage</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71567.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71567.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Drinks on board your flight</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Beverage</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Beverage</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.321+00:00" ServiceSubCode="0AT" Key="r892pMjJ0BKA1kjwBAAAAA==" SecondaryType="Snack" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Snack</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71568.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_71568.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Snack</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Snack</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Lounge" SupplierCode="AF" CreateDate="2020-07-07T16:18:53.321+00:00" ServiceSubCode="0BX" Key="r892pMjJ0BKA3kjwBAAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>Business lounge access</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1411.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airfrance/AF_general_medium_1411.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Somewhere quiet to work or relax</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Business lounge access</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Lounges</air:Title>
+                                    </air:OptionalService>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:BookingInfo BookingCode="O" CabinClass="Business" FareInfoRef="r892pMjJ0BKA4kjwBAAAAA==" SegmentRef="gEw61LBAAA/BhkYNnFAAAA=="/>
+                        <air:BookingInfo BookingCode="J" CabinClass="Business" FareInfoRef="r892pMjJ0BKA5kjwBAAAAA==" SegmentRef="gEw61LBAAA/BikYNnFAAAA=="/>
+                        <air:TaxInfo Category="IN" Amount="INR991" Key="r892pMjJ0BKA9kjwBAAAAA=="/>
+                        <air:TaxInfo Category="K3" Amount="INR10429" Key="r892pMjJ0BKA+kjwBAAAAA=="/>
+                        <air:TaxInfo Category="P2" Amount="INR427" Key="r892pMjJ0BKA/kjwBAAAAA=="/>
+                        <air:TaxInfo Category="FR" Amount="INR393" Key="r892pMjJ0BKAAljwBAAAAA=="/>
+                        <air:TaxInfo Category="QX" Amount="INR962" Key="r892pMjJ0BKABljwBAAAAA=="/>
+                        <air:TaxInfo Category="YQ" Amount="INR925" Key="r892pMjJ0BKACljwBAAAAA=="/>
+                        <air:TaxInfo Category="YR" Amount="INR22359" Key="r892pMjJ0BKADljwBAAAAA=="/>
+                        <air:FareCalc>BLR AF X/PAR AF DUB 844.89OS02BONF NUC844.89END ROE75.305179</air:FareCalc>
+                        <air:PassengerType Code="ADT" BookingTravelerRef="3BQB2LmB0BKAzZddkFAAAA==">
+                            <air:FareGuaranteeInfo GuaranteeType="Guaranteed"/>
+                        </air:PassengerType>
+                        <air:PassengerType Code="ADT" BookingTravelerRef="3BQB2LmB0BKA6ZddkFAAAA==">
+                            <air:FareGuaranteeInfo GuaranteeType="Guaranteed"/>
+                        </air:PassengerType>
+                        <common_v48_0:BookingTravelerRef Key="3BQB2LmB0BKAzZddkFAAAA=="/>
+                        <common_v48_0:BookingTravelerRef Key="3BQB2LmB0BKA6ZddkFAAAA=="/>
+                        <air:TicketingModifiersRef Key="r892pMjJ0BKAFljwBAAAAA=="/>
+                    </air:AirPricingInfo>
+                    <air:TicketingModifiers PlatingCarrier="AF" Key="r892pMjJ0BKAFljwBAAAAA==">
+                        <common_v48_0:Commission Level="Fare" Type="PercentBase" Percentage="0.0"/>
+                        <air:TicketEndorsement Value="NN2011453671846"/>
+                        <air:DocumentSelect IssueElectronicTicket="true"/>
+                    </air:TicketingModifiers>
+                </air:AirReservation>
+                <passive:PassiveReservation LocatorCode="7CRIDJ" CreateDate="2020-07-07T16:18:59.564+00:00" ModifiedDate="2020-07-07T16:23:46.825+00:00" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA==">
+                    <common_v48_0:BookingTravelerRef Key="3BQB2LmB0BKAzZddkFAAAA=="/>
+                    <common_v48_0:BookingTravelerRef Key="3BQB2LmB0BKA6ZddkFAAAA=="/>
+                    <passive:PassiveSegment NumberOfItems="0" SegmentType="Tour" Status="BK" SupplierCode="ZZ" StartDate="2021-06-03T00:00:00.000+00:00" Key="Di92pMlJ0BKApPRrBAAAAA==" Group="0" TravelOrder="3" ProviderSegmentOrder="3" PassiveGroup="0"/>
+                    <passive:PassiveRemark PassiveSegmentRef="Di92pMlJ0BKApPRrBAAAAA==">
+                        <passive:Text>**RETENTION LINE TO KEEP THE PNR ACTIVE**</passive:Text>
+                    </passive:PassiveRemark>
+                </passive:PassiveReservation>
+                <common_v48_0:GeneralRemark Key="B7/31LBAAA/BIvzcnFAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA==" CreateDate="2020-07-07T16:18:00.000+00:00">
+                    <common_v48_0:RemarkData>MMTJOURNEY OW XX BLR-DUB YY AF-191 ZZ AF-1816</common_v48_0:RemarkData>
+                </common_v48_0:GeneralRemark>
+                <common_v48_0:GeneralRemark Key="gHw61LBAAA/BkNlpoFAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA==" SupplierCode="1A" Direction="Incoming" CreateDate="2020-07-07T16:19:00.000+00:00">
+                    <common_v48_0:RemarkData>ADTK1GTOAF BY 14JUL 2230 DEL OTHERWISE WILL BE XLD</common_v48_0:RemarkData>
+                </common_v48_0:GeneralRemark>
+                <common_v48_0:GeneralRemark Key="txPB2LvB0BKAwqBDmFAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA==" CreateDate="2020-07-07T16:19:00.000+00:00">
+                    <common_v48_0:RemarkData>FARESOURCE MMYTMY0000</common_v48_0:RemarkData>
+                </common_v48_0:GeneralRemark>
+                <common_v48_0:AgencyInfo>
+                    <common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084232" AgencyCode="S3083002" EventTime="2020-07-07T16:18:50.172+00:00"/>
+                    <common_v48_0:AgentAction ActionType="Modified" AgentCode="uAPI1667027830-ed41e340" BranchCode="CS3083007" AgencyCode="S3083002" EventTime="2020-08-16T15:09:23.268+00:00"/>
+                    <common_v48_0:AgentAction ActionType="Ticketed" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-07-07T16:19:26.207+00:00"/>
+                </common_v48_0:AgencyInfo>
+                <common_v48_0:SSR Key="3BQB2LmB0BKAGHfdkFAAAA==" Status="HK" Type="CTCM" FreeText="/919900816618-1POOJARY/NITHEESHAMR" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                <common_v48_0:SSR Key="3BQB2LmB0BKAHHfdkFAAAA==" Status="HK" Type="CTCE" FreeText="/NITHEESH86//GMAIL.COM-1POOJARY/NITHEESHAMR" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                <common_v48_0:SSR Key="3BQB2LmB0BKAIHfdkFAAAA==" Status="HK" Type="CTCM" FreeText="/919900816618-1ACHARYA/REENAUMESHMS" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                <common_v48_0:SSR Key="3BQB2LmB0BKAJHfdkFAAAA==" Status="HK" Type="CTCE" FreeText="/NITHEESH86//GMAIL.COM-1ACHARYA/REENAUMESHMS" Carrier="AF" ProviderReservationInfoRef="gEw61LBAAA/B1tYNnFAAAA=="/>
+                <common_v48_0:FormOfPayment Key="vMOaGMxYlDKA+FFx4DAAAA==" Type="Cash" Reusable="false" ProfileKey="hpGmi+jQQgO9ai1uB7y0Ug==">
+                    <common_v48_0:ProviderReservationInfoRef Key="gEw61LBAAA/B1tYNnFAAAA=="/>
+                </common_v48_0:FormOfPayment>
+            </universal:UniversalRecord>
+        </universal:UniversalRecordRetrieveRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

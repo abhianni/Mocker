@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-personalization/pricePersonalizationInfo",
+        "bodyPatterns":[{
+        "contains" : "PersonalisationNegativeTestCONNECTIONRESETBYPEER"
+        }]
+    },
+    "response": {
+        "fault": "CONNECTION_RESET_BY_PEER"
+    }
+}

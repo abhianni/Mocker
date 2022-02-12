@@ -1,0 +1,77 @@
+{
+	"RKEY:rkeyB2CRT3:0": {
+		"left": 1,
+		"middle": {
+			"fareKeyMap": {
+				"0": [{
+					"productClass": "EP",
+					"fareClass": "K",
+					"fareBasis": "K01H00",
+					"taxPsf": null,
+					"taxYq": null,
+					"taxYr": null,
+					"taxYdf": null,
+					"taxK3": null,
+					"journeyIndex": 0,
+					"legIndex": 0,
+					"pax": "A"
+				}]
+			},
+			"paxFareInformation": {
+				"adultPrice": 2320.0,
+				"childPrice": 0,
+				"infantPrice": 0,
+				"adultBasePrice": 1779.0,
+				"childBasePrice": 0,
+				"infantBasePrice": 0,
+				"rtAdultPrice": null,
+				"rtChildPrice": null,
+				"rtInfantPrice": null,
+				"rtAdultBasePrice": null,
+				"rtChildBasePrice": null,
+				"rtInfantBasePrice": null
+			},
+			"flightLevelInformation": {
+				"cabinClass": "M",
+				"adultNumber": 1,
+				"childNumber": 0,
+				"infantNumber": 0,
+				"markup": 0,
+				"lob": "CORPB2C_UN",
+				"realRKey": "v1~~EP$K$K01H00$null$null$null$null$null$0$0$A~A-2320.0|1779.0_C-0|0_I-0|0~M$1$0$0$CORPB2C_UN$0$0~~DEL_BOM_010420_I5-314_STVVTkk=_05:45_010420_07:55_I5_I5_I5_JO~I5_0_0_DEL-BOM-010420_null_null",
+				"discount": 0
+			}
+		},
+		"right": {
+			"0": {
+				"segments": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "BOM",
+					"depDate": "010420",
+					"depTime": "05:45",
+					"depDateTime": "2020-04-01 05:45",
+					"arrDate": "010420",
+					"arrTime": "07:55",
+					"arrDateTime": "2020-04-01 07:55",
+					"flightNumber": "I5-314",
+					"cmsId": "I5UNI",
+					"validatingAirline": "I5",
+					"marketingAirline": "I5",
+					"operatingAirline": "I5",
+					"flightServiceName": null,
+					"pnrGroup": null,
+					"rtFareFlag": null,
+					"stopType": "JOURNEY_OVER"
+				}],
+				"otherInfo": {
+					"flightServiceName": "I5",
+					"pnrGroup": 0,
+					"fareFamily": null,
+					"rtFareFlag": 0,
+					"intent": "DEL-BOM-010420",
+					"ptc": null
+				}
+			}
+		}
+	}
+}

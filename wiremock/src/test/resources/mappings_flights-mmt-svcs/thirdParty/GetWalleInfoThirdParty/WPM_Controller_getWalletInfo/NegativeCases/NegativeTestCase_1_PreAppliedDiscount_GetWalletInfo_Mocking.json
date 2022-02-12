@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/mmt_webs_mywallet/mywallet/v2/getaccountdetails",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Accept" : {"matches" : "application/json"},
+		"Authorization" : {"matches" : "Basic QVBJVVNFUjpmNGU5NUBlZjA4"}
+		},
+        "bodyPatterns":[{
+        "contains" : "UFULKJ5CVMK_Preapplied_InvalidUUID"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/GetWalleInfoThirdParty/preAppliedDiscount_getWalletInfo/NegativeCases/NegativeTestCase_1_PreAppliedDiscount_GetWalletInfo_Response.json"
+    }
+}

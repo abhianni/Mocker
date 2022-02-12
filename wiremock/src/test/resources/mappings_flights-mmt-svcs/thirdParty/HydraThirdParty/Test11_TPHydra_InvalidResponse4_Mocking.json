@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/hydra/v3/rest/getUserSegments",
+        "bodyPatterns":[{
+        "contains" : "CUFULKJ5CVMKI4"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/HydraThirdparty/Test_TPSVC_Hydra_V4_Invalid_Response.json"
+    }
+}

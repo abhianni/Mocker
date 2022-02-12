@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/getVisaInfo",
+       "bodyPatterns":[
+{       "contains" : "POSTRVIEW_INTL_OW_BLACK_BLOOMVISA"
+}
+]
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "flights_search/postreview/INTL_OW_BLACK_BLOOMVISA/SOA_VISA.json"
+		
+    }
+}

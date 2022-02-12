@@ -1,0 +1,14 @@
+{
+  "request": {
+     "method": "POST",
+    "url": "/flights-grpc/searchstream",
+     "bodyPatterns":[
+      {       "contains" : "flT_TEST_POSTRVIEW_INTL_OW_BLACK_BLOOMTVISA"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "flights_search/v5Stream/PostReviewINTLVISAsearchStream.json"
+  }
+}

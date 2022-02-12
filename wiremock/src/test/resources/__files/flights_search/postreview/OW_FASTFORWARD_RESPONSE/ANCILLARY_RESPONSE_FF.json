@@ -1,0 +1,92 @@
+{
+	"aggregatorSeatsResponse": null,
+	"aggregatorMealsTypeResponse": {
+		"status": true,
+		"segAnclryHldrList": [{
+			"anclryType": "FASTFORWARD",
+			"anclryDescr": "Fast Forward",
+			"displayTitle": null,
+			"displaySubTitle": null,
+			"segAnclryDataMap": {
+				"DEL_BOM": {
+					"segType": "DEP",
+					"originCity": "New Delhi",
+					"destCity": "Mumbai",
+					"selectType": "single",
+					"refundStat": 0,
+					"alCode": "6E",
+					"fltNo": "993",
+					"anclryGrpMap": {
+						"Fast Forward": [{
+							"grp": "Fast Forward",
+							"name": "Fast Forward",
+							"price": 350,
+							"code": "FFWD",
+							"mmtPrice": 350,
+							"imagePath": "default",
+							"showSlasherFare": false,
+							"cssrDetailSOA": null
+						}]
+					}
+				}
+			}
+		}],
+		"meta": {
+			"core": {
+				"nmAdt": 1,
+				"nmChd": 0,
+				"nmInf": 0,
+				"totFare": 3321.0,
+				"it": [{
+					"from": "DEL",
+					"to": "BOM",
+					"depDate": "2020-04-07"
+				}],
+				"itBrkup": {
+					"DEL-BOM-070420": [{
+						"depCityCode": "DEL",
+						"arrCityCode": "BOM",
+						"depDate": "070420",
+						"depTime": "06:40",
+						"depDateTime": "2020-04-07 06:40",
+						"arrDate": "070420",
+						"arrTime": "08:55",
+						"arrDateTime": "2020-04-07 08:55",
+						"flightNumber": "6E-993",
+						"cmsId": "6EUNI",
+						"validatingAirline": "6E",
+						"marketingAirline": "6E",
+						"operatingAirline": "6E",
+						"flightServiceName": "6E",
+						"pnrGroup": 0,
+						"rtFareFlag": 0,
+						"stopType": "JOURNEY_OVER"
+					}]
+				},
+				"itBrkupAllStops": {
+					"DEL-BOM-070420": [{
+						"depCityCode": "DEL",
+						"arrCityCode": "BOM",
+						"depDate": "070420",
+						"depTime": "06:40",
+						"depDateTime": "2020-04-07 06:40",
+						"arrDate": "070420",
+						"arrTime": "08:55",
+						"arrDateTime": "2020-04-07 08:55",
+						"flightNumber": "6E-993",
+						"cmsId": "6EUNI",
+						"validatingAirline": "6E",
+						"marketingAirline": "6E",
+						"operatingAirline": "6E",
+						"flightServiceName": "6E",
+						"pnrGroup": 0,
+						"rtFareFlag": 0,
+						"stopType": "JOURNEY_OVER"
+					}]
+				},
+				"cc": "E"
+			}
+		},
+		"statusCode": "OK"
+	}
+}

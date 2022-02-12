@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        
+       "bodyPatterns":[{
+        "contains" : "Ticket_RepricePNRWithBookingClass"},
+		{ "contains" : "5895125502385"
+		}
+		]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Prepayment/reprice_TW64ZO.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

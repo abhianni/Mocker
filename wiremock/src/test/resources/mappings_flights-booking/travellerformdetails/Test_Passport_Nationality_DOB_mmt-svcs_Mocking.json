@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+		"urlPattern": "/flights-mmt-svcs/v2/user-details.*crId=tst_pssprt_nsnlty_dob_crID&idTyp=UUID&idVal=tst_pssprt_nsnlty_dob_UUID.*"
+		},
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+         "bodyFileName": "/flights_booking/travellerformdetails/Test_Passport_Nationality_DOB_mmt-svcs_Response.json"
+    }
+}

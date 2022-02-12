@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+       "bodyPatterns":[
+{       "contains" : "WRVIEW_MULTICITY"
+}
+]
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/wreview/MULTICITY/soa/SOA_SEARCH.json"
+		
+    }
+}

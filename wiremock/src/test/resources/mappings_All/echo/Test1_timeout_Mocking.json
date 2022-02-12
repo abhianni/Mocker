@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/echo/getCal",
+        "bodyPatterns":[{
+        "contains" : "FailureInjectEchoTimeoutScenario"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 7000,
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

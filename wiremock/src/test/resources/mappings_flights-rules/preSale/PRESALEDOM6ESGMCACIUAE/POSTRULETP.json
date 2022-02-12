@@ -1,0 +1,22 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "SG-SG-436-RAJ-BOM-2021-01-19 08:30-2021-01-19 09:40"
+      },
+      {       "contains" : "c42e7321ebca54a776e279082e600efa521bb66c"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEDOM6ESGMCACIUAE/GETRULELCC.json"
+  }
+}
+

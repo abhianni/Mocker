@@ -1,0 +1,245 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NN2112053788892",
+    "iteneraryId": "76845c9894c2b07efd0a591b47469b691fca31f5",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><String xmlns=\"java.lang.String\">NN2112053788892</String>",
+      "BookingAggregatorResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BookingData xmlns:ns2=\"com.mmt.flights.getpnr.BookingData\"><cabinClass>E</cabinClass><cancellationAssurance>false</cancellationAssurance><itineraryId>76845c9894c2b07efd0a591b47469b691fca31f5</itineraryId><mmtId>NN2112053788892</mmtId><pnrData><airlineCode>UK</airlineCode><pnrNo>BXC7Z4</pnrNo><supplierId>TPUNI_INTL</supplierId><supplierType>TP</supplierType></pnrData><pnrData><airlineCode>6E</airlineCode><pnrNo>ALD8TD</pnrNo><supplierId>6EUNI</supplierId><supplierType>NAV42</supplierType></pnrData><userData><profileType>PERSONAL</profileType><uuid>UITHET2NQWH</uuid></userData></ns2:BookingData>",
+      "PostSaleCPReq": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</key><value><aircraftType>320</aircraftType><arrTime>1599741900000</arrTime><arrivalInfo><arpCd>DXB</arpCd><trmnl>3</trmnl></arrivalInfo><depTime>1599735300000</depTime><departureInfo><arpCd>BOM</arpCd><trmnl>2</trmnl></departureInfo><duration>12000000</duration><flightNum>201</flightNum><marketingAirline>UK</marketingAirline><operatingAirline>UK</operatingAirline><validatingCarrier>UK</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NN2112053788892</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>76845c9894c2b07efd0a591b47469b691fca31f5</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><cancellationAssured>false</cancellationAssured><fareFamily>ECO VALUE</fareFamily><paxFares><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</key><value><fareBasis>VOBDINYV</fareBasis><fareClass>V</fareClass><PClass></PClass><rbd>V</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>6000.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>IN</taxCode><taxVal>329.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>307.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>428.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YM</taxCode><taxVal>850.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ZR</taxCode><taxVal>102.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>8146.0</singlePaxTot><singlePaxTx>2146.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_INTL</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-09-10 18:15</arrDate><depDate>2020-09-10 16:25</depDate><duration>12000000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>BOM-DXB : UK-201</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-08-21 09:14:01\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NN2112053788892\\\",\\\"iteneraryId\\\":\\\"76845c9894c2b07efd0a591b47469b691fca31f5\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\\\":{\\\"mrkAl\\\":\\\"UK\\\",\\\"oprAl\\\":\\\"UK\\\",\\\"validatingCarrier\\\":\\\"UK\\\",\\\"fltNo\\\":\\\"201\\\",\\\"arcrfTyp\\\":\\\"320\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"2\\\",\\\"arpCd\\\":\\\"BOM\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"3\\\",\\\"arpCd\\\":\\\"DXB\\\"},\\\"depTime\\\":1599735300000,\\\"arrTime\\\":1599741900000,\\\"dur\\\":12000000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"BOM-DXB : UK-201\\\",\\\"depDate\\\":\\\"2020-09-10 16:25\\\",\\\"arrDate\\\":\\\"2020-09-10 18:15\\\",\\\"dur\\\":12000000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":6000.0,\\\"singlePaxTx\\\":2146.0,\\\"singlePaxTot\\\":8146.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":329.0,\\\"taxCode\\\":\\\"IN\\\"},{\\\"taxVal\\\":307.0,\\\"taxCode\\\":\\\"K3\\\"},{\\\"taxVal\\\":428.0,\\\"taxCode\\\":\\\"P2\\\"},{\\\"taxVal\\\":850.0,\\\"taxCode\\\":\\\"YM\\\"},{\\\"taxVal\\\":102.0,\\\"taxCode\\\":\\\"ZR\\\"},{\\\"taxVal\\\":130.0,\\\"taxCode\\\":\\\"YR\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{},\\\"segPrdctInfo\\\":{\\\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\\\":{\\\"pclass\\\":\\\"\\\",\\\"fareClass\\\":\\\"V\\\",\\\"fareBasis\\\":\\\"VOBDINYV\\\",\\\"pClass\\\":\\\"\\\",\\\"rbd\\\":\\\"V\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"TP\\\",\\\"supplierCredential\\\":\\\"TPUNI_INTL\\\",\\\"fareFamily\\\":\\\"ECO VALUE\\\"}]}}}}]}}\",\"ticketData\":\"{\\\"paxWiseTicket\\\":{\\\"2283761423749\\\":\\\"ADULT\\\"},\\\"ticketToOfficeIdMap\\\":{\\\"2283761423749\\\":\\\"P3084214\\\"},\\\"ticketToAccountCodeMap\\\":{\\\"2283761423749\\\":\\\"\\\"},\\\"allTicketsByPaxType\\\":{\\\"2283761423749\\\":\\\"ADULT\\\"},\\\"oneTicketNumberPerPaxType\\\":{\\\"2283761423749\\\":\\\"ADULT\\\"}}\",\"mmtId\":\"NN2112053788892\"}",
+      "TPPostSaleBagXML0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostSaleTPBaggage2283761423749": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:AirRetrieveDocumentRsp UniversalRecordLocatorCode=\"8F74OL\" TransactionId=\"A06CA8F20A0759C46480066203C294D3\" ResponseTime=\"361\" xmlns=\"http://www.travelport.com/schema/common_v47_0\" xmlns:ns6=\"http://www.travelport.com/schema/passive_v47_0\" xmlns:ns5=\"http://www.travelport.com/schema/hotel_v47_0\" xmlns:ns8=\"http://www.travelport.com/schema/cruise_v47_0\" xmlns:ns7=\"http://www.travelport.com/schema/rail_v47_0\" xmlns:ns2=\"http://www.travelport.com/schema/air_v47_0\" xmlns:ns4=\"http://www.travelport.com/schema/universal_v47_0\" xmlns:ns3=\"http://www.travelport.com/schema/vehicle_v47_0\"><ns2:ETR Key=\"Bg4YNQqB0BKA+/aPRAAAAA==\" Refundable=\"false\" Exchangeable=\"false\" IssuedDate=\"2020-08-21T00:00:00.000+05:30\" ProviderCode=\"1G\" ProviderLocatorCode=\"BXC7Z4\" IATANumber=\"14339942\" PseudoCityCode=\"WP7\" PlatingCarrier=\"UK\" TotalPrice=\"INR8146\" BasePrice=\"INR6000\" Taxes=\"INR2146\"><ns2:AirReservationLocatorCode>8F74OS</ns2:AirReservationLocatorCode><AgencyInfo><AgentAction ActionType=\"Created\" AgentCode=\"uAPI1667027830-ed41e340\" BranchCode=\"P3084232\" AgencyCode=\"S3083002\" EventTime=\"2020-08-20T18:30:00.000Z\"/></AgencyInfo><BookingTraveler Key=\"zxyYNQkB0BKAhtC/QAAAAA==\" TravelerType=\"ADT\" Gender=\"F\"><BookingTravelerName Prefix=\"Ms\" First=\"Dhara\" Last=\"Pillai\"/><PhoneNumber Key=\"zxyYNQkB0BKAitC/QAAAAA==\" Type=\"None\" Location=\"DEL\" CountryCode=\"91\" Number=\"9820886958\"><ProviderReservationInfoRef Key=\"55DVNQBAAA/Bc3bhRAAAAA==\"/></PhoneNumber><Email Key=\"zxyYNQkB0BKAltC/QAAAAA==\" EmailID=\"dharasanghavi1018@gmail.com\"><ProviderReservationInfoRef Key=\"55DVNQBAAA/Bc3bhRAAAAA==\"/></Email><SSR Key=\"Bg4YNQqB0BKAgAbPRAAAAA==\" SegmentRef=\"55DVNQBAAA/BvObhRAAAAA==\" ProviderReservationInfoRef=\"55DVNQBAAA/Bc3bhRAAAAA==\" Type=\"TKNE\" Status=\"HK\" FreeText=\"2283761423749C1\" Carrier=\"UK\"/></BookingTraveler><FormOfPayment Key=\"4MgSNQBAAA/BULBFSAAAAA==\" Type=\"Cash\" Reusable=\"false\" ProfileKey=\"sdSt4S48TSeJXYCxqlwmjg==\"/><Payment Key=\"Bg4YNQqB0BKAiAbPRAAAAA==\" Type=\"Itinerary\" FormOfPaymentRef=\"4MgSNQBAAA/BULBFSAAAAA==\" Amount=\"INR8146\"/><SupplierLocator SupplierCode=\"UK\" SupplierLocatorCode=\"UDQ8GJ\"/><ns2:FareCalc>BOM UK DXB 80.35 NUC80.35END ROE74.671925 XT 428P2850YM102ZR130YR</ns2:FareCalc><ns2:Ticket Key=\"Bg4YNQqB0BKACAbPRAAAAA==\" TicketNumber=\"2283761423749\" TicketStatus=\"S\"><ns2:Coupon Key=\"Bg4YNQqB0BKAbAbPRAAAAA==\" CouponNumber=\"1\" MarketingCarrier=\"UK\" MarketingFlightNumber=\"201\" Origin=\"BOM\" Destination=\"DXB\" DepartureTime=\"2020-09-10T16:25:00.000+05:30\" StopoverCode=\"true\" BookingClass=\"V\" FareBasis=\"VOBDINYV\" NotValidBefore=\"2020-09-10\" NotValidAfter=\"2020-09-10\" Status=\"F\" SegmentGroup=\"0\" MarriageGroup=\"0\"><ns2:TicketDesignator Value=\"YV\"/></ns2:Coupon><ns2:TicketEndorsement Value=\"NN2112053788892\"/></ns2:Ticket><ns2:AirPricingInfo Key=\"3uugNQwYlDKAL0OAQAAAAA==\" PricingMethod=\"Guaranteed\" ETicketability=\"Yes\" ProviderReservationInfoRef=\"55DVNQBAAA/Bc3bhRAAAAA==\" AirPricingInfoGroup=\"1\" Ticketed=\"true\" PricingType=\"StoredFare\" TrueLastDateToTicket=\"2020-08-31T23:59:00.000+05:30\" FareCalculationInd=\"G\" TotalPrice=\"INR8146\" BasePrice=\"INR6000\" ApproximateTotalPrice=\"INR8146\" ApproximateBasePrice=\"INR6000\" Taxes=\"INR2146\"><ns2:FareInfo Key=\"u+GVNQBAAA/BRDAaRAAAAA==\" FareBasis=\"VOBDINYV\" PassengerTypeCode=\"ADT\" Origin=\"BOM\" Destination=\"DXB\" EffectiveDate=\"2020-08-21T00:00:00.000+05:30\" NotValidBefore=\"2020-09-10\" NotValidAfter=\"2020-09-10\"><ns2:FareTicketDesignator Value=\"YV\"/><Endorsement Value=\"NON ENDORSABLE\"/><Endorsement Value=\"NON RE-ROUTABLE\"/><Endorsement Value=\"REBOOKING SBJCT TO PENALTY\"/><ns2:BaggageAllowance><ns2:MaxWeight Value=\"30\" Unit=\"Kilograms\"/></ns2:BaggageAllowance><ns2:Brand BrandID=\"282197\" Name=\"ECO VALUE\" Carrier=\"UK\" BrandTier=\"0001\"><ns2:Title Type=\"External\">Economy Value</ns2:Title><ns2:Title Type=\"Short\">ECOYV</ns2:Title><ns2:Text Type=\"ATPCO\">CHECK IN//068/Z/CHANGE ANYTIMEBAGGAGE 7KG//0ML/F/EXCESS HAND BAGGAGE5KG//03Q/F/BAGGAGE UPTO 25KG//ACCESS//06K/Z/REFUND BEFORE DEPARTURE//06L/Z/REFUND//0B5/F/PRE RESERVED SEAT ASSIGNMENT//0BX/F/LOUNGE//0B3/F/MEAL SERVICES//0LF/F/PRIORITYDEPARTURE//058/Z/UPGRADE ELIGIBILITY//0M3/F/HANDBAGGAGE//0G6/F/PRIORITY BOARDING//0BW/F/PRIORITYAFTER</ns2:Text><ns2:Text Type=\"MarketingConsumer\">Economy Value\n\n•\tComplimentary beverages on board\n•\tComplimentary meal on board\n•\t30kg checked-in baggage allowance\n•\t7kg hand baggage allowance\n•\tFree seat selection, except emergency exit seats\n•\tChanges permitted at ₹2,000\n•\tCancellation charges ₹3,000</ns2:Text><ns2:Text Type=\"MarketingAgent\">Economy Value\n\n•\tComplimentary beverages on board\n•\tComplimentary meal on board\n•\t30kg checked-in baggage allowance\n•\t7kg hand baggage allowance\n•\tFree seat selection, except emergency exit seats\n•\tChanges permitted at ₹2,000\n•\tCancellation charges ₹3,000</ns2:Text><ns2:Text Type=\"Strapline\">Economy Value</ns2:Text><ns2:ImageLocation Type=\"Agent\" ImageWidth=\"150\" ImageHeight=\"150\">https://cdn.travelport.com/vistara/UK_general_medium_4653.jpg</ns2:ImageLocation><ns2:ImageLocation Type=\"Consumer\" ImageWidth=\"1200\" ImageHeight=\"800\">https://cdn.travelport.com/vistara/UK_general_large_55858.jpg</ns2:ImageLocation><ns2:OptionalServices><ns2:OptionalService Type=\"Baggage\" SecondaryType=\"Carry On Hand Baggage\" CreateDate=\"2020-08-21T09:14:04.534Z\" ServiceSubCode=\"0M3\" Key=\"ktxgdSBAAA/BS9mXTAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Hand baggage 7kg</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Chargeable Baggage\"/></ns2:OptionalService><ns2:OptionalService Type=\"PreReservedSeatAssignment\" CreateDate=\"2020-08-21T09:14:04.534Z\" ServiceSubCode=\"0B5\" Key=\"ktxgdSBAAA/BT9mXTAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Pre reserved seat assignment</Description><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg\"/><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService><ns2:OptionalService Type=\"MealOrBeverage\" CreateDate=\"2020-08-21T09:14:04.534Z\" ServiceSubCode=\"0B3\" Key=\"ktxgdSBAAA/BU9mXTAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Meal services</Description><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg\"/><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService></ns2:OptionalServices></ns2:Brand></ns2:FareInfo><ns2:BookingInfo BookingCode=\"V\" CabinClass=\"Economy\" FareInfoRef=\"u+GVNQBAAA/BRDAaRAAAAA==\"/><ns2:TaxInfo Key=\"ktxgdSBAAA/BI9mXTAAAAA==\" Category=\"IN\" Amount=\"INR329\"/><ns2:TaxInfo Key=\"ktxgdSBAAA/BJ9mXTAAAAA==\" Category=\"K3\" Amount=\"INR307\"/><ns2:TaxInfo Key=\"ktxgdSBAAA/BK9mXTAAAAA==\" Category=\"P2\" Amount=\"INR428\"/><ns2:TaxInfo Key=\"ktxgdSBAAA/BL9mXTAAAAA==\" Category=\"YM\" Amount=\"INR850\"/><ns2:TaxInfo Key=\"ktxgdSBAAA/BM9mXTAAAAA==\" Category=\"ZR\" Amount=\"INR102\"/><ns2:TaxInfo Key=\"ktxgdSBAAA/BN9mXTAAAAA==\" Category=\"YR\" Amount=\"INR130\"/><ns2:FareCalc>BOM UK DXB 80.35VOBDINYV/YV NUC80.35END ROE74.671925</ns2:FareCalc><ns2:PassengerType Code=\"ADT\" BookingTravelerRef=\"zxyYNQkB0BKAhtC/QAAAAA==\"><ns2:FareGuaranteeInfo GuaranteeType=\"Guaranteed\"/></ns2:PassengerType><BookingTravelerRef Key=\"zxyYNQkB0BKAhtC/QAAAAA==\"/></ns2:AirPricingInfo><ns2:BaggageAllowances><ns2:BaggageAllowanceInfo TravelerType=\"ADT\" Origin=\"BOM\" Destination=\"DXB\" Carrier=\"UK\"><ns2:URLInfo><ns2:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UK</ns2:URL></ns2:URLInfo><ns2:TextInfo><ns2:Text>30K</ns2:Text><ns2:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</ns2:Text></ns2:TextInfo><ns2:BagDetails ApplicableBags=\"1stChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails><ns2:BagDetails ApplicableBags=\"2ndChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails></ns2:BaggageAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"BOM\" Destination=\"DXB\" Carrier=\"UK\"><ns2:TextInfo><ns2:Text>7K</ns2:Text></ns2:TextInfo><ns2:CarryOnDetails ApplicableCarryOnBags=\"1\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails><ns2:CarryOnDetails ApplicableCarryOnBags=\"2\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails></ns2:CarryOnAllowanceInfo></ns2:BaggageAllowances></ns2:ETR></ns2:AirRetrieveDocumentRsp>",
+      "PostSaleTPBaggagePcToKg201": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BaggageUnitMapDrools xmlns:ns2=\"com.mmt.international.entity.baggage.BaggageUnitMapDrools\"><airlineCode>UK</airlineCode><cabinClass>E</cabinClass><fromCity>BOM</fromCity><fromCountry>India</fromCountry><operatingAirlineCode>UK</operatingAirlineCode><pcToKgCabinAdt>7</pcToKgCabinAdt><pcToKgCabinChd>7</pcToKgCabinChd><pcToKgCabinInf>0</pcToKgCabinInf><pcToKgCheckedInAdt>23</pcToKgCheckedInAdt><pcToKgCheckedInChd>23</pcToKgCheckedInChd><pcToKgCheckedInInf>7</pcToKgCheckedInInf><toCity>DXB</toCity><toCountry>United Arab Emirates</toCountry><travelDateEnd>2020-09-10T16:25:00+05:30</travelDateEnd><travelDateStart>2020-09-10T16:25:00+05:30</travelDateStart></ns2:BaggageUnitMapDrools>",
+      "PostTickedTPMiniRuleRequest0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostTickedRawTPMiniRuleResponseADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenaltiesFromTicketNumberResponse xmlns:ns2=\"org.tempuri.GetPenaltiesFromTicketNumberResponse\"><getPenaltiesFromTicketNumberResult>&lt;ArrayOfFareRule xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;VOBDINYV&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;3000&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;VOBDINYV&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;3000&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;VOBDINYV&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;7000&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;VOBDINYV&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;6000&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;VOBDINYV&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;6000&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;VOBDINYV&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;10000&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;/ArrayOfFareRule&gt;</getPenaltiesFromTicketNumberResult></ns2:GetPenaltiesFromTicketNumberResponse>",
+      "MiniRuleConfig": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:MiniRulesConfig xmlns:ns2=\"com.mmt.models.MiniRulesConfig\"><airline>UK</airline><CPAdditive>0.0</CPAdditive><CPMultiplier>1.05</CPMultiplier><cabinClass>ECONOMY</cabinClass><DCPAdditive>0.0</DCPAdditive><DCPMultiplier>1.05</DCPMultiplier><noShowCutOff>24</noShowCutOff><sector>INTL</sector></ns2:MiniRulesConfig>",
+      "PostTickedTPMiniRuleResponseADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayOfFareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>VOBDINYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3000</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>VOBDINYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3000</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>VOBDINYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>7000</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>VOBDINYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>6000</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>VOBDINYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>6000</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>VOBDINYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>10000</FeeAmount><CATType>16</CATType></FareRule></ArrayOfFareRule>",
+      "PostSaleBaggageResponse0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"BOM-DXB : UK-201\":{\"fltGrps\":[{\"fltKeys\":[\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"BOM-DXB : UK-201\":{\"fltGrps\":[{\"fltKeys\":[\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":24,\"to\":8760,\"fareBasis\":\"VOBDINYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":24,\"to\":8760,\"fareBasis\":\"VOBDINYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6000\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":0,\"to\":24,\"fareBasis\":\"VOBDINYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"7000\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"VOBDINYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6000\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"VOBDINYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":0,\"to\":24,\"fareBasis\":\"VOBDINYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"10000\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"BOM-DXB : UK-201\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"BOM-DXB : UK-201\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</key><value><aircraftType>320</aircraftType><arrTime>1599741900000</arrTime><arrivalInfo><arpCd>DXB</arpCd><trmnl>3</trmnl></arrivalInfo><depTime>1599735300000</depTime><departureInfo><arpCd>BOM</arpCd><trmnl>2</trmnl></departureInfo><duration>12000000</duration><flightNum>201</flightNum><marketingAirline>UK</marketingAirline><operatingAirline>UK</operatingAirline><validatingCarrier>UK</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NN2112053788892</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>76845c9894c2b07efd0a591b47469b691fca31f5</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>7</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</flightLookUpKey><jrnyKey>BOM-DXB : UK-201</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>BOM-DXB : UK-201</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>10500.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>BOM-DXB : UK-201</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>6300.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>16800.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>6300.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily>ECO VALUE</fareFamily><paxFares><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</key><value><fareBasis>VOBDINYV</fareBasis><fareClass>V</fareClass><PClass></PClass><rbd>V</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>6000.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>IN</taxCode><taxVal>329.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>307.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>428.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YM</taxCode><taxVal>850.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ZR</taxCode><taxVal>102.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>8146.0</singlePaxTot><singlePaxTx>2146.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_INTL</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-09-10 18:15</arrDate><depDate>2020-09-10 16:25</depDate><duration>12000000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>BOM-DXB : UK-201</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "PostSaleCPResponseAfterSanity": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</key><value><aircraftType>320</aircraftType><arrTime>1599741900000</arrTime><arrivalInfo><arpCd>DXB</arpCd><trmnl>3</trmnl></arrivalInfo><depTime>1599735300000</depTime><departureInfo><arpCd>BOM</arpCd><trmnl>2</trmnl></departureInfo><duration>12000000</duration><flightNum>201</flightNum><marketingAirline>UK</marketingAirline><operatingAirline>UK</operatingAirline><validatingCarrier>UK</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NN2112053788892</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>76845c9894c2b07efd0a591b47469b691fca31f5</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>7</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</flightLookUpKey><jrnyKey>BOM-DXB : UK-201</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>BOM-DXB : UK-201</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><currentATCPenalty><airlinePenalty/><errorDetails><errorMessage>Oh ! Looks like all flights in this PNR has been Flown Already</errorMessage></errorDetails><waiver/></currentATCPenalty><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>BOM-DXB : UK-201</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>6300.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>6300.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily>ECO VALUE</fareFamily><paxFares><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</key><value><fareBasis>VOBDINYV</fareBasis><fareClass>V</fareClass><PClass></PClass><rbd>V</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>6000.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>IN</taxCode><taxVal>329.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>307.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>428.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YM</taxCode><taxVal>850.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ZR</taxCode><taxVal>102.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>8146.0</singlePaxTot><singlePaxTx>2146.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_INTL</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-09-10 18:15</arrDate><depDate>2020-09-10 16:25</depDate><duration>12000000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>BOM-DXB : UK-201</journeyKey></itineraryJrnyList></recoms></rcomGrps><status>SUCCCES</status></ns2:CPReqRes>",
+      "CurrentPNRState": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><CurrentPNRState xmlns=\"com.mmt.flights.rules.workflow.TPRefundRequiredCheckTask$CurrentPNRState\">AFTER</CurrentPNRState>",
+      "IsVR3CallRequired": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Boolean xmlns=\"java.lang.Boolean\">false</Boolean>",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15": {
+      "mrkAl": "UK",
+      "oprAl": "UK",
+      "validatingCarrier": "UK",
+      "fltNo": "201",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "2",
+        "arpCd": "BOM"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "DXB"
+      },
+      "depTime": 1599735300000,
+      "arrTime": 1599741900000,
+      "dur": 12000000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "BOM-DXB : UK-201",
+        "depDate": "2020-09-10 16:25",
+        "arrDate": "2020-09-10 18:15",
+        "dur": 12000000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 6000.0,
+                  "singlePaxTx": 2146.0,
+                  "singlePaxTot": 8146.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 329.0,
+                    "taxCode": "IN"
+                  }, {
+                    "taxVal": 307.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 428.0,
+                    "taxCode": "P2"
+                  }, {
+                    "taxVal": 850.0,
+                    "taxCode": "YM"
+                  }, {
+                    "taxVal": 102.0,
+                    "taxCode": "ZR"
+                  }, {
+                    "taxVal": 130.0,
+                    "taxCode": "YR"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15": {
+                      "pclass": "",
+                      "fareClass": "V",
+                      "fareBasis": "VOBDINYV",
+                      "pClass": "",
+                      "rbd": "V"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "BOM-DXB : UK-201",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3150.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3150.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "errorDetails": {
+                        "em": "Oh ! Looks like all flights in this PNR has been Flown Already"
+                      },
+                      "airlinePenalty": {},
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "BOM-DXB : UK-201",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6300.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6300.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "BOM-DXB : UK-201",
+                "flightLookUpKey": "UK-201-BOM-DXB-2020-09-10 16:25-2020-09-10 18:15",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "TP",
+              "supplierCredential": "TPUNI_INTL",
+              "fareFamily": "ECO VALUE"
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

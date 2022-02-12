@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+       "bodyPatterns":[
+{       "contains" : "DOM_RT_PREDIS"
+}
+]
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/soa/INTL_RT_PREDIS_RESP.json"
+		
+    }
+}

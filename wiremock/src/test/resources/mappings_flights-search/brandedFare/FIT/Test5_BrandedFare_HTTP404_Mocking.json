@@ -1,0 +1,18 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightSOA-web/v1/review",
+    "bodyPatterns":[
+      {       "contains" : "NotFoundSource"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    }
+  }
+}

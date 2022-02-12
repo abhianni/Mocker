@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/content-web/hotels/content/web.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_HS_HTTP_404"
+        }]
+    },
+    "response": {
+        "status": 404,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

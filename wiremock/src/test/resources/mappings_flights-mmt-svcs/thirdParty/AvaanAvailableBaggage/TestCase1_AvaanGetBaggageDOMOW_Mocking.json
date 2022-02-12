@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "GET",
+		"urlPattern": "/flights-mmt-svcs/v1/avaan/available-baggageMockedRespAPI",
+"bodyPatterns":[
+{       "contains" : "AvaanGetBaggage_DOM_OW"
+}
+]
+		
+		},
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+         "bodyFileName": "/TPSVCS/AvaanAvailableBaggage/TestCase1_AvaanGetBaggageDOMOW_Response.json"
+    }
+}
+
+
+

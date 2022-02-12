@@ -1,0 +1,14 @@
+{
+    "request":{
+        "method": "PUT",
+        "urlPattern": "/flights-itinerary/v1/itinerary/WRVIEW_MULTICITY/W_REVIEW"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+		"transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/wreview/MULTICITY/WREVIEW_PUT.json"
+    }
+}

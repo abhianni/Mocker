@@ -1,0 +1,104 @@
+{
+  "statusCode": 200,
+  "status": "SUCCESS",
+  "holdStatus": "SUCCESS",
+  "acceptedBookingIds": {
+    "HYD_AIR_pickup_sedan_1566991308064": "NC760616991416540",
+    "BLR_AIR_drop_sedan_1566991308059": "NC760616991416534"
+  },
+  "totalAmount": 1424.0,
+  "ChildLOBs": {
+    "NC760616991416540": {
+      "product": "Cabs",
+      "extraDetailSection": {
+        "extraDetailsParamMap": {}
+      },
+      "channel": "Native",
+      "paymentSection": {
+        "paymentParameterMap": {
+          "chargingCurrency": "INR",
+          "product": "Cabs",
+          "channel": "Native",
+          "searchKey": "CAB_NC760616991416540"
+        }
+      },
+      "currency": "INR",
+      "checkoutLOBResult": {
+        "result": "SUCCESS",
+        "uuidParams": {
+          "travellerCommIds": {
+            "mobile": "IJ6EUGH25CG",
+            "email": "C1znFLQilYcOwHemF0biLyckmCpAFxLfEriYaU1yfx6uzaieaFvLCjVIoX"
+          },
+          "profileType": "PERSONAL",
+          "commIds": {
+            "mobile": "IJ6EUGH25CG",
+            "email": "C1znFLQilYcOwHemF0biLyckmCpAFxLfEriYaU1yfx6uzaieaFvLCjVIoX"
+          },
+          "uuid": "UQHXO21Z5JH"
+        },
+        "bookingId": "NC760616991416540"
+      },
+      "chargeableItemSection": {
+        "grandTotal": 675.0,
+        "chargeableItemDetailsMap": {
+          "fare": {
+            "amount": 675.0,
+            "serviceName": "Activity Fare",
+            "type": "fare",
+            "key": "fare",
+            "removable": false
+          }
+        },
+        "mainFare": 675.0
+      },
+      "searchKey": "CAB_NC760616991416540"
+    },
+    "NC760616991416534": {
+      "product": "Cabs",
+      "extraDetailSection": {
+        "extraDetailsParamMap": {}
+      },
+      "channel": "Native",
+      "paymentSection": {
+        "paymentParameterMap": {
+          "chargingCurrency": "INR",
+          "product": "Cabs",
+          "channel": "Native",
+          "searchKey": "CAB_NC760616991416534"
+        }
+      },
+      "currency": "INR",
+      "checkoutLOBResult": {
+        "result": "SUCCESS",
+        "uuidParams": {
+          "travellerCommIds": {
+            "mobile": "IJ6EUGH25CG",
+            "email": "C1znFLQilYcOwHemF0biLyckmCpAFxLfEriYaU1yfx6uzaieaFvLCjVIoX"
+          },
+          "profileType": "PERSONAL",
+          "commIds": {
+            "mobile": "IJ6EUGH25CG",
+            "email": "C1znFLQilYcOwHemF0biLyckmCpAFxLfEriYaU1yfx6uzaieaFvLCjVIoX"
+          },
+          "uuid": "UQHXO21Z5JH"
+        },
+        "bookingId": "NC760616991416534"
+      },
+      "chargeableItemSection": {
+        "grandTotal": 749.0,
+        "chargeableItemDetailsMap": {
+          "fare": {
+            "amount": 749.0,
+            "serviceName": "Activity Fare",
+            "type": "fare",
+            "key": "fare",
+            "removable": false
+          }
+        },
+        "mainFare": 749.0
+      },
+      "searchKey": "CAB_NC760616991416534"
+    }
+  }
+}

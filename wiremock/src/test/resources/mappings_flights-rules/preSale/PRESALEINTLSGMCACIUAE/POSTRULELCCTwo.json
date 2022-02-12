@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "SG-SG-1-MAA-CMB-2021-01-30 00:10-2021-01-30 01:30"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTLSGMCACIUAE/GETRULELCCTwo.json"
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/postSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "HYD-VNS : 6E-6644"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOM6ENOTELIGIBLEDB/GETPOSTSALETPONWARD.json"
+  }
+}
+

@@ -1,0 +1,451 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": " ",
+    "src": " ",
+    "currency": "INR",
+    "correlationId": "NN7911652534292",
+    "iteneraryId": "576c23cd2d43cfb0bcc37921516d8032d0153610",
+    "enableDebugInfo": true
+  },
+  "flightLookUpList": {
+    "SK-520-STN-CPH-2020-06-04 14:00-2020-06-04 16:45": {
+      "mrkAl": "SK",
+      "oprAl": "SK",
+      "validatingCarrier": "SK",
+      "fltNo": "520",
+      "arcrfTyp": "32N",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "STN"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "CPH"
+      },
+      "depTime": 1591259400000,
+      "arrTime": 1591269300000,
+      "dur": 6300000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "STN-CPH : SK-520",
+        "depDate": "2020-06-04 14:00",
+        "arrDate": "2020-06-04 16:45",
+        "dur": 6300000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "SK-520-STN-CPH-2020-06-04 14:00-2020-06-04 16:45",
+          "pnrGroupNum": 0
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 560.0,
+                  "singlePaxTx": 3713.0,
+                  "singlePaxTot": 4273.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 1240.0,
+                    "taxCode": "YQ"
+                  }, {
+                    "taxVal": 1206.0,
+                    "taxCode": "GB"
+                  }, {
+                    "taxVal": 1267.0,
+                    "taxCode": "UB"
+                  }],
+                  "noOfPax": 2,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "SK-520-STN-CPH-2020-06-04 14:00-2020-06-04 16:45": {
+                      "pclass": "",
+                      "fareClass": "O",
+                      "fareBasis": "OKEOGHTD",
+                      "pClass": "",
+                      "rbd": "O"
+                    }
+                  }
+                },
+                "INFANT": {
+                  "singlePaxBaseFare": 95.0,
+                  "singlePaxTx": 1267.0,
+                  "singlePaxTot": 1362.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 1267.0,
+                    "taxCode": "UB"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "SK-520-STN-CPH-2020-06-04 14:00-2020-06-04 16:45": {
+                      "pclass": "",
+                      "fareClass": "O",
+                      "fareBasis": "OKEOGHTD",
+                      "pClass": "",
+                      "rbd": "O"
+                    }
+                  }
+                },
+                "CHILD": {
+                  "singlePaxBaseFare": 375.0,
+                  "singlePaxTx": 2507.0,
+                  "singlePaxTot": 2882.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 1240.0,
+                    "taxCode": "YQ"
+                  }, {
+                    "taxVal": 1267.0,
+                    "taxCode": "UB"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "SK-520-STN-CPH-2020-06-04 14:00-2020-06-04 16:45": {
+                      "pclass": "",
+                      "fareClass": "O",
+                      "fareBasis": "OKEOGHTD",
+                      "pClass": "",
+                      "rbd": "O"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "STN-CPH : SK-520",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "airlinePenalty": {
+                        "cancellationPenalty": 914.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "airlinePenalty": {
+                        "cancellationPenalty": 729.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "airlinePenalty": {
+                        "cancellationPenalty": 449.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "STN-CPH : SK-520",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "STN-CPH : SK-520",
+                "flightLookUpKey": "SK-520-STN-CPH-2020-06-04 14:00-2020-06-04 16:45",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "-1",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "MP",
+              "supplierCredential": "MPEXININTRANOMNR",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

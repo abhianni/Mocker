@@ -1,0 +1,192 @@
+{
+	"status": "SUCCESS",
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "BLR",
+				"depDate": "2020-04-12"
+			}],
+			"cc": "E",
+			"rKey": "v1~~SA$U$USME$91.0$null$null$null$null$0$0$A~A-3449.0|2864.0_C-0|0_I-0|0~M$1$0$0$CORPSME_UN$0$null~~DEL_BLR_120420_SG-143_U0dDU01FVEVTVA==_21:05_120420_23:50_SG_SG_SG_JO~SG_0_0_DEL-BLR-120420_null_null"
+		}
+	},
+	"insurance": {
+		"status": "FAILED",
+		"err": [{
+			"statusCode": 404,
+			"ec": "2001",
+			"em": "No Insurance plan found",
+			"ed": "",
+			"sn": "MMT-SVCS-INSURANCE"
+		}]
+	},
+	"review": {
+		"itineraryId": "orgInfoTest_Dom_Spcl_Itinerary1",
+		"meta": {
+			"cur": "INR",
+			"isDDApld": false,
+			"requestId": "TestUser1_SEARCHCORP_DOM_RT",
+			"srvrMtrc": {}
+		},
+		"recom": {
+			"itneraryJrnys": [{
+				"jrnyKey": "DEL$BLR$1204202105$SG-143",
+				"isCstmComb": false,
+				"depDate": "2020-04-12 21:05",
+				"arrDate": "2020-04-12 23:50",
+				"dur": 165,
+				"flightDtlsInfo": [{
+					"flyingDay": 0,
+					"fltLookUpKey": "SG-SG-143-DEL-BLR-2020-04-12 21:05-2020-04-12 23:50",
+					"pnrGroupNum": 0
+				}]
+			}],
+			"frInfo": {
+				"showMoreFaresOnListing": false,
+				"bookingFarePnrSelectionInfoMap": {
+					"COMBO": {
+						"paxFr": {
+							"ADULT": {
+								"addonsAmnt": 0.0,
+								"bs": 2864.0,
+								"tx": 585.0,
+								"sFee": 0.0,
+								"convFee": 0.0,
+								"instDisc": 0.0,
+								"preApDiscntInfo": [],
+								"tot": 3449.0,
+								"txInfo": [{
+									"amnt": 152.0,
+									"code": "GOODS_SERVICE_TAX",
+									"msg": "GOODS_SERVICE_TAX_DM"
+								}, {
+									"amnt": 91.0,
+									"code": "PSF",
+									"msg": "PSF_DM"
+								}, {
+									"amnt": 65.0,
+									"code": "TF",
+									"msg": "TF_DM"
+								}, {
+									"amnt": 277.0,
+									"code": "YQ",
+									"msg": "YQ_DM"
+								}],
+								"sFeeInfo": {}
+							}
+						},
+						"totFr": {
+							"addonsAmnt": 0.0,
+							"bs": 2864.0,
+							"tx": 585.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3449.0,
+							"txInfo": [{
+								"amnt": 152.0,
+								"code": "GOODS_SERVICE_TAX",
+								"msg": "GOODS_SERVICE_TAX_DM"
+							}, {
+								"amnt": 91.0,
+								"code": "PSF",
+								"msg": "PSF_DM"
+							}, {
+								"amnt": 65.0,
+								"code": "TF",
+								"msg": "TF_DM"
+							}, {
+								"amnt": 277.0,
+								"code": "YQ",
+								"msg": "YQ_DM"
+							}],
+							"sFeeInfo": {},
+							"addons": [{
+								"itemType": "COUPON",
+								"itemCode": "",
+								"selected": false,
+								"disabled": false
+							}]
+						},
+						"rKey": "v1~~SA$U$USME$91.0$null$null$null$null$0$0$A~A-3449.0|2864.0_C-0|0_I-0|0~M$1$0$0$CORPSME_UN$0$null~~DEL_BLR_120420_SG-143_U0dDU01FVEVTVA==_21:05_120420_23:50_SG_SG_SG_JO~SG_0_0_DEL-BLR-120420_null_null"
+					}
+				},
+				"isPnrGrpdFrFmlyAvl": false,
+				"preSlctdFarePnrSelectionInfoKey": "COMBO"
+			}
+		},
+		"fareComponentLookUpMap": {
+			"INF": "Infant Tax",
+			"KKC": "Krishi Kalyan Cess",
+			"AST": "Service Tax",
+			"PSF": "Passenger Service Fee",
+			"DF": "Development Fee",
+			"OTH": "Other",
+			"CF": "Congestion Fee",
+			"GOODS_SERVICE_TAX": "Goods and Services Tax",
+			"TTF": "Travel and Tourism Fee",
+			"GST": "Gvt. Service Fee",
+			"UDFA": "User Development Fee(Arrival)",
+			"TF": "CUTE Fee",
+			"SF": "Service Fee",
+			"RCF": "Regional Connectivity Fund",
+			"SBC": "Swachh Bharat Cess ",
+			"UDF": "User Development Fee",
+			"YQ": "Airline Fuel Charge",
+			"DC": "Discount"
+		},
+		"alCdeMap": {
+			"SG": {
+				"nm": "Spicejet"
+			}
+		},
+		"ctyCdeMap": {
+			"BLR": {
+				"nm": "Bengaluru",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Bengaluru International Airport"
+			},
+			"DEL": {
+				"nm": "New Delhi",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Indira Gandhi International Airport"
+			}
+		},
+		"flightLookUpList": {
+			"SG-SG-143-DEL-BLR-2020-04-12 21:05-2020-04-12 23:50": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "SG",
+				"oprAl": "SG",
+				"fltNo": "143",
+				"arcrfTyp": "Boeing 737-700",
+				"depInfo": {
+					"trmnl": "1D",
+					"cityCd": "DEL",
+					"arpNm": "Indira Gandhi International Airport"
+				},
+				"arrInfo": {
+					"trmnl": "",
+					"cityCd": "BLR",
+					"arpNm": "Bengaluru International Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-04-12 21:05",
+				"arrTime": "2020-04-12 23:50",
+				"dur": 165
+			}
+		},
+		"services": {}
+	}
+}

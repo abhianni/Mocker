@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-ancillary-api/ancillary/stateless",
+    "bodyPatterns":[
+      {       	"contains": "ancillary_rt_1adult_trujet"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights-ancillaries/flights-ancillaries-soa/meals_baggage_rt_stateless_positive.json"
+  }
+}

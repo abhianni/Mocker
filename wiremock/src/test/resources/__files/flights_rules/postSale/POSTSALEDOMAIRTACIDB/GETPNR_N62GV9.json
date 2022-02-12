@@ -1,0 +1,195 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "",
+    "apiLatency": "2747",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.4",
+    "serviceName": "Pnr-Service",
+    "supplierName": "TP",
+    "credentialId": "TPUNI_DOM",
+    "supplierLatency": "893",
+    "corporateCode": "",
+    "promoCode": ""
+  },
+  "flightLookUpList": {
+    "GWL$DEL$2020-01-31 16:50$AI-9627": {
+      "mrkAl": "AI",
+      "oprAl": "9I",
+      "fltNo": "9627",
+      "arcrfTyp": "ATR",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "GWL",
+        "arpNm": "Gwalior Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-01-31 16:50",
+      "arrTime": "2020-01-31 18:20",
+      "durInMins": "90"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "GWL$DEL$2020-01-31 16:50$AI-9627",
+      "depDate": "2020-01-31 16:50",
+      "arrDate": "2020-01-31 18:20",
+      "durInMins": "90",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "GWL$DEL$2020-01-31 16:50$AI-9627",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {},
+          "totFr": {
+            "bs": 0.0,
+            "tx": 0.0,
+            "tot": 0.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "N62GV9",
+          "aPnr": "9ZD5L6",
+          "travelerAddons": {},
+          "travelerInfos": [{
+            "id": "0",
+            "title": "MR",
+            "paxId": "",
+            "firstName": "niranjan",
+            "middleName": "",
+            "lastName": "agarwal",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "onetwelveth@gmail.com",
+            "mobileNumber": "9911507199",
+            "mobileNumberCountryCode": "91",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "Mstr",
+            "paxId": "",
+            "firstName": "abir",
+            "middleName": "",
+            "lastName": "sood",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "onetwelveth@gmail.com",
+            "mobileNumber": "9911507199",
+            "mobileNumberCountryCode": "91",
+            "paxType": "INFANT",
+            "dateOfBirth": "10JUN19",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "Ms",
+            "paxId": "",
+            "firstName": "arohi",
+            "middleName": "",
+            "lastName": "agarwal",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "onetwelveth@gmail.com",
+            "mobileNumber": "9911507199",
+            "mobileNumberCountryCode": "91",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "3",
+            "title": "MR",
+            "paxId": "",
+            "firstName": "Siddhartha",
+            "middleName": "",
+            "lastName": "sood",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "onetwelveth@gmail.com",
+            "mobileNumber": "9911507199",
+            "mobileNumberCountryCode": "91",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "4",
+            "title": "Ms",
+            "paxId": "",
+            "firstName": "prisha",
+            "middleName": "",
+            "lastName": "sood",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "onetwelveth@gmail.com",
+            "mobileNumber": "9911507199",
+            "mobileNumberCountryCode": "91",
+            "paxType": "CHILD",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [{
+            "travellerId": "1",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983754733848",
+            "ticketType": "E",
+            "status": "R",
+            "issuingDate": "2019-12-06 05:34",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "2",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983754733849",
+            "ticketType": "E",
+            "status": "S",
+            "issuingDate": "2019-12-06 05:34",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "3",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983754733850",
+            "ticketType": "E",
+            "status": "S",
+            "issuingDate": "2019-12-06 05:34",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "4",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983754733851",
+            "ticketType": "E",
+            "status": "S",
+            "issuingDate": "2019-12-06 05:34",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }],
+          "validatingCarrier": "",
+          "creationDate": "2019-12-06 05:33",
+          "fareFamily": "",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

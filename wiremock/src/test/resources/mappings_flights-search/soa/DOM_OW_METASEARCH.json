@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+       "bodyPatterns":[
+{       "contains" : "flt_Test_WRVIEW_DOM_OW_SEARCH_META_DATA_V1"
+}
+]
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/soa/DOM_BOMOW_METASEARCH.json"
+		
+    }
+}

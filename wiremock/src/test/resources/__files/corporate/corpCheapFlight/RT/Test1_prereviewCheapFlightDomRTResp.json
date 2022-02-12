@@ -1,0 +1,173 @@
+{
+	"itineraryId": "testItineraryCheapFlightDomRT1",
+	"status": "SUCCESS",
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "BLR",
+				"depDate": "2020-05-25"
+			}, {
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "BLR",
+				"to": "DEL",
+				"depDate": "2020-05-27"
+			}],
+			"cc": "E"
+		},
+		"isDDApld": false,
+		"srvrMtrc": {}
+	},
+	"recom": {
+		"itneraryJrnys": [{
+			"isCstmComb": false,
+			"depDate": "2020-05-25 10:15",
+			"arrDate": "2020-05-25 18:30",
+			"dur": 495,
+			"flightDtlsInfo": [{
+				"flyingDay": 0,
+				"fltLookUpKey": "AI_AI_406_DEL_VNS_2020-05-25 10:15_2020-05-25 11:35",
+				"pnrGroupNum": 0
+			}, {
+				"flyingDay": 0,
+				"fltLookUpKey": "AI_AI_696_VNS_BOM_2020-05-25 13:25_2020-05-25 15:40",
+				"pnrGroupNum": 0,
+				"prvFltCntDur": 110
+			}, {
+				"flyingDay": 0,
+				"fltLookUpKey": "AI_AI_607_BOM_BLR_2020-05-25 16:40_2020-05-25 18:30",
+				"pnrGroupNum": 0,
+				"prvFltCntDur": 60
+			}]
+		}, {
+			"isCstmComb": true,
+			"depDate": "2020-05-27 17:10",
+			"arrDate": "2020-05-27 21:15",
+			"dur": 245,
+			"flightDtlsInfo": [{
+				"flyingDay": 0,
+				"fltLookUpKey": "6E_6E_528_BLR_DEL_2020-05-27 17:10_2020-05-27 21:15",
+				"pnrGroupNum": 1
+			}]
+		}]
+	},
+	"alCdeMap": {
+		"AI": {
+			"nm": "Air India"
+		},
+		"6E": {
+			"nm": "IndiGo"
+		}
+	},
+	"ctyCdeMap": {
+		"BOM": {
+			"nm": "Mumbai",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Chhatrapati Shivaji International Airport"
+		},
+		"PNQ": {
+			"nm": "Pune",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Pune Airport"
+		},
+		"BLR": {
+			"nm": "Bengaluru",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Bengaluru International Airport"
+		},
+		"VNS": {
+			"nm": "Varanasi",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Varanasi Airport"
+		},
+		"DEL": {
+			"nm": "New Delhi",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Indira Gandhi International Airport"
+		}
+	},
+	"flightLookUpList": {
+		"AI_AI_696_VNS_BOM_2020-05-25 13:25_2020-05-25 15:40": {
+			"mrkAl": "AI",
+			"oprAl": "AI",
+			"fltNo": "696",
+			"depInfo": {
+				"cityCd": "VNS"
+			},
+			"arrInfo": {
+				"cityCd": "BOM"
+			},
+			"tchStp": [],
+			"depTime": "2020-05-25 13:25",
+			"arrTime": "2020-05-25 15:40",
+			"dur": 135
+		},
+		"AI_AI_607_BOM_BLR_2020-05-25 16:40_2020-05-25 18:30": {
+			"mrkAl": "AI",
+			"oprAl": "AI",
+			"fltNo": "607",
+			"depInfo": {
+				"cityCd": "BOM"
+			},
+			"arrInfo": {
+				"cityCd": "BLR"
+			},
+			"tchStp": [],
+			"depTime": "2020-05-25 16:40",
+			"arrTime": "2020-05-25 18:30",
+			"dur": 110
+		},
+		"6E_6E_528_BLR_DEL_2020-05-27 17:10_2020-05-27 21:15": {
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "528",
+			"depInfo": {
+				"cityCd": "BLR"
+			},
+			"arrInfo": {
+				"cityCd": "DEL"
+			},
+			"tchStp": [{
+				"dur": 30,
+				"locInfo": {
+					"cityCd": "PNQ",
+					"arpNm": "Pune Airport"
+				},
+				"depTime": "2020-05-27 19:00",
+				"arrTime": "2020-05-27 18:30"
+			}],
+			"depTime": "2020-05-27 17:10",
+			"arrTime": "2020-05-27 21:15",
+			"dur": 245
+		},
+		"AI_AI_406_DEL_VNS_2020-05-25 10:15_2020-05-25 11:35": {
+			"mrkAl": "AI",
+			"oprAl": "AI",
+			"fltNo": "406",
+			"depInfo": {
+				"cityCd": "DEL"
+			},
+			"arrInfo": {
+				"cityCd": "VNS"
+			},
+			"tchStp": [],
+			"depTime": "2020-05-25 10:15",
+			"arrTime": "2020-05-25 11:35",
+			"dur": 80
+		}
+	}
+}

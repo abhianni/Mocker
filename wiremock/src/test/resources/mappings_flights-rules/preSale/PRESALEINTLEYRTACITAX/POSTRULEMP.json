@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-mp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "EY-EY-274-AUH-HYD-2021-01-10 21:50-2021-01-11 02:50"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTLEYRTACITAX/GETRULEMP.json"
+  }
+}
+

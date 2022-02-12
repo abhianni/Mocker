@@ -1,0 +1,14 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/flights-search/v1/post-search.*crId=test_postsearch_crId.*"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpPostSearch/orgInfoTest/getPostSearch_V1.json"
+	}
+}

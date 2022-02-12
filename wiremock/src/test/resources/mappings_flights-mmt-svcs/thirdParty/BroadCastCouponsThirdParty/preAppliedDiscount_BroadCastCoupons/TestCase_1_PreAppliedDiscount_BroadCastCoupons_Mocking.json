@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/cdf/v2/rest/services/broadcastCouponsDOM",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Authorization" : {"matches" : "Basic cmVzdDoxMjM0NTY="}
+		},
+        "bodyPatterns":[{
+        "contains" : "PreApplied_DOM"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/BroadCastCouponsThirdParty/preAppliedDiscount_BroadCastCoupons/TestCase_1_PreAppliedDiscount_BroadCastCoupons_Response.json"
+    }
+}

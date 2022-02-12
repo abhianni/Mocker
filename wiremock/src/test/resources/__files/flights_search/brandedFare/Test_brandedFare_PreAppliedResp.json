@@ -1,0 +1,1014 @@
+{
+    "fareFamilyRecommendations": {
+        "fareFamilyAvailable": true,
+        "fareFamilyResponse": [
+            {
+                "error": null,
+                "sector": "FromCity1-ToCity1",
+                "warning": null,
+                "cheapestFamily": "ECONOMY CLASSIC",
+                "itineraryList": [
+                    {
+                        "rbd": null,
+                        "boardPoint": "FromCity1",
+                        "offPoint": "ToCity1",
+                        "airlineName": null,
+                        "mrktArln": "VS",
+                        "oprArln": "VS",
+                        "fltNum": "VS-301",
+                        "depDt": 1571209200000,
+                        "arrDt": 1571209200000
+                    }
+                ],
+                "serviceDisplayOrder": [
+                    "EXTRALEGROOM",
+                    "PRI_CHECKIN",
+                    "REFUND",
+                    "REBOOKINGANDUPGRADES",
+                   "HANDLUGGAGEUPTO10KG",
+                    "MEAL",
+                    "WiFi"
+                ],
+                "fareFamilies": [
+                    {
+                        "selected": true,
+                        "name": "ECONOMY CLASSIC",
+                        "description": "Economy Classic",
+                        "carrier": "VS",
+                        "packageSummary": {
+                            "titleColor": "#ffd3d4",
+                            "packageTitle": "Standard Seat | Priority check-in not offered",
+                            "packageDesc": "To enjoy added benefits like Seat with Extra Leg Room, Free Priority Check-in upgrade your booking",
+                            "operationName": "SEE OTHER FARES"
+                        },
+                        "finalAdultFare": 35356.0,
+                        "initialAdultFare": null,
+                        "services": [
+                            {
+                                "type": "05Z",
+                                "status": "NOF",
+                                "serviceName": "EXTRALEGROOM",
+                                "description": "Standard Seat-Seat pitch up to 79 cm"
+                            },
+                            {
+                                "type": "03P",
+                                "status": "NOF",
+                                "serviceName": "PRI_CHECKIN",
+                                "description": "Not Offered"
+                            },
+                            {
+                                "type": "056",
+                                "status": "CHA",
+                                "serviceName": "REFUND",
+                                "description": "Allowed at a cost"
+                            },
+                            {
+                                "type": "059",
+                                "status": "CHA",
+                                "serviceName": "REBOOKINGANDUPGRADES",
+                                "description": "Allowed at a cost"
+                            },
+                            {
+                                "type": "0MP",
+                                "status": "INC",
+                                "serviceName": "HANDLUGGAGEUPTO10KG",
+                                "description": "One Piece - up to 10KG"
+                            },
+                            {
+                                "type": "0B3",
+                                "status": "INC",
+                                "serviceName": "MEAL",
+                                "serviceType": "ML",
+                                "description": "Free"
+                            },
+                            {
+                                "type": "0CL",
+                                "status": "CHA",
+                                "serviceName": "WiFi",
+                                "description": "Available at Charge"
+                            }
+                        ]
+                    },
+                    {
+                        "selected": false,
+                        "name": "ECONOMY FromCity1IGHT",
+                        "description": "Economy FromCity1ight",
+                        "carrier": "VS",
+                        "packageSummary": {
+                            "titleColor": "#cdf6e8",
+                            "packageTitle": "Great choice! Your fare includes the following services:",
+                            "packageDesc": "Seat with Extra Leg Room, Free Priority Check-in",
+                            "operationName": "SEE OTHER FARES"
+                        },
+                        "finalAdultFare": 37981.0,
+                        "initialAdultFare": null,
+                        "services": [
+                            {
+                                "type": "05Z",
+                                "status": "INC",
+                                "serviceName": "EXTRALEGROOM",
+                                "description": "Extra leg room-Seat pitch up to 86 cm"
+                            },
+                            {
+                                "type": "03P",
+                                "status": "INC",
+                                "serviceName": "PRI_CHECKIN",
+                                "description": "Free"
+                            },
+                            {
+                                "type": "056",
+                                "status": "CHA",
+                                "serviceName": "REFUND",
+                                "description": "Allowed at a cost"
+                            },
+                            {
+                                "type": "059",
+                                "status": "CHA",
+                                "serviceName": "REBOOKINGANDUPGRADES",
+                                "description": "Allowed at a cost"
+                            },
+                            {
+                                "type": "0MP",
+                                "status": "INC",
+                                "serviceName": "HANDLUGGAGEUPTO10KG",
+                                "description": "One Piece - up to 10KG"
+                            },
+                            {
+                                "type": "0B3",
+                                "status": "INC",
+                                "serviceName": "MEAL",
+                                "serviceType": "ML",
+                                "description": "Free"
+                            },
+                            {
+                                "type": "0CL",
+                                "status": "CHA",
+                                "serviceName": "WiFi",
+                                "description": "Available at Charge"
+                            }
+                        ]
+                    }
+                ],
+                "fareList": [
+                    {
+                        "name": "ECONOMY CLASSIC",
+                        "paxWiseFareList": {
+                            "ADULT": {
+                                "numOfPax": 1,
+                                "paxType": "ADULT",
+                                "paxFare": 35356.0,
+                                "fareBreakUp": {
+                                    "frBrkupMap": {
+                                        "TAXCOMPONENT-K3": 1656.0,
+                                        "TAXCOMPONENT-WO": 596.0,
+                                        "TAXCOMPONENT-YQ": 9824.0,
+                                        "TOT": 35356.0,
+                                        "TAX": 12076.0,
+                                        "MUCITISPCL": 141.0,
+                                        "MUAPPFESTJET": 513.0
+                                    }
+                                },
+                                "fareComponentDetails": [
+                                    {
+                                        "fareFamilyName": "ECONOMY CLASSIC",
+                                        "boardPoint": "FromCity1",
+                                        "offPoint": "ToCity1",
+                                        "carrier": "VS",
+                                        "segmentInfos": [
+                                            {
+                                                "rbd": "X",
+                                                "fareBasis": "XLSF0OMX",
+                                                "supplierInfo": {
+                                                    "brandID": "280299",
+                                                    "brandTier": "0002"
+                                                },
+                                                "baggage": null,
+                                                "productClass": null,
+                                                "fareSellKey": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "personalizationMap": null
+                    },
+                    {
+                        "name": "ECONOMY FromCity1IGHT",
+                        "paxWiseFareList": {
+                            "ADULT": {
+                                "numOfPax": 1,
+                                "paxType": "ADULT",
+                                "paxFare": 37981.0,
+                                "fareBreakUp": {
+                                    "frBrkupMap": {
+                                        "TAXCOMPONENT-K3": 1781.0,
+                                        "TAXCOMPONENT-WO": 596.0,
+                                        "TAXCOMPONENT-YQ": 9824.0,
+                                        "TOT": 37981.0,
+                                        "TAX": 12201.0,
+                                        "MUCITISPCL": 152.0,
+                                        "MUAPPFESTJET": 551.0
+                                    }
+                                },
+                                "fareComponentDetails": [
+                                    {
+                                        "fareFamilyName": "ECONOMY FromCity1IGHT",
+                                        "boardPoint": "FromCity1",
+                                        "offPoint": "ToCity1",
+                                        "carrier": "VS",
+                                        "segmentInfos": [
+                                            {
+                                                "rbd": "V",
+                                                "fareBasis": "XLSF0OCX",
+                                                "supplierInfo": {
+                                                    "brandID": "280300",
+                                                    "brandTier": "0003"
+                                                },
+                                                "baggage": null,
+                                                "productClass": null,
+                                                "fareSellKey": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "personalizationMap": null
+                    }
+                ]
+            }
+        ],
+        "services": {
+            "HANDLUGGAGEUPTO10KG": {
+                "serviceName": "Hand Baggage",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_hand_baggage.png"
+            },
+            "REFUND": {
+                "serviceName": "Ticket Cancellation",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_flight_cancellation.png"
+            },
+            "PRI_BOARDING": {
+                "serviceName": "Priority Boarding",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+            },
+            "MEAL": {
+                "serviceName": "Meals",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_meals.png"
+            },
+            "WiFi": {
+                "serviceName": "WiFi",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_default.png"
+            },
+            "REBOOKINGANDUPGRADES": {
+                "serviceName": "Date Change",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_default.png"
+            },
+            "EXTRALEGROOM": {
+                "serviceName": "Seat with Extra Leg Room",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_seat_selection.png"
+            },
+            "PRI_CHECKIN": {
+                "serviceName": "Priority Check-in",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+            }
+        },
+        "rtFare": false,
+        "farelookupMap": {
+            "ID2": {
+                "name": null,
+                "paxWiseFareList": {
+                    "ADULT": {
+                        "numOfPax": 1,
+                        "paxType": "ADULT",
+                        "paxFare": 37981.0,
+                        "fareBreakUp": {
+                            "frBrkupMap": {
+                                "TAXCOMPONENT-K3": 1781.0,
+                                "TAXCOMPONENT-WO": 596.0,
+                                "TAXCOMPONENT-YQ": 9824.0,
+                                "TOT": 37981.0,
+                                "TAX": 12201.0,
+                                "MUCITISPCL": 152.0,
+                                "MUAPPFESTJET": 551.0
+                            }
+                        },
+                        "fareComponentDetails": [
+                            {
+                                "fareFamilyName": "ECONOMY FromCity1IGHT",
+                                "boardPoint": "FromCity1",
+                                "offPoint": "ToCity1",
+                                "carrier": "VS",
+                                "segmentInfos": [
+                                    {
+                                        "rbd": "V",
+                                        "fareBasis": "XLSF0OCX",
+                                        "supplierInfo": {
+                                            "brandID": "280300",
+                                            "brandTier": "0003"
+                                        },
+                                        "baggage": null,
+                                        "productClass": null,
+                                        "fareSellKey": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "personalizationMap": null
+            },
+            "ID1": {
+                "name": null,
+                "paxWiseFareList": {
+                    "ADULT": {
+                        "numOfPax": 1,
+                       "paxType": "ADULT",
+                        "paxFare": 35356.0,
+                        "fareBreakUp": {
+                            "frBrkupMap": {
+                                "TAXCOMPONENT-K3": 1656.0,
+                                "TAXCOMPONENT-WO": 596.0,
+                                "TAXCOMPONENT-YQ": 9824.0,
+                                "TOT": 35356.0,
+                                "TAX": 12076.0,
+                                "MUCITISPCL": 141.0,
+                                "MUAPPFESTJET": 513.0
+                            }
+                        },
+                        "fareComponentDetails": [
+                            {
+                                "fareFamilyName": "ECONOMY CLASSIC",
+                                "boardPoint": "FromCity1",
+                                "offPoint": "ToCity1",
+                                "carrier": "VS",
+                                "segmentInfos": [
+                                    {
+                                        "rbd": "X",
+                                        "fareBasis": "XLSF0OMX",
+                                        "supplierInfo": {
+                                            "brandID": "280299",
+                                            "brandTier": "0002"
+                                        },
+                                        "baggage": null,
+                                        "productClass": null,
+                                        "fareSellKey": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "personalizationMap": null
+            }
+        },
+        "fareMap": {
+            "FromCity1-ToCity1-ECONOMY CLASSIC": {
+                "finalAdultFare": 35356.0,
+                "initialAdultFare": null,
+                "rKey": "v1~~null$X$XLSF0OMX$null$9824.0$null$null$1656.0$0$0$A~A-35356.0|23280.0_C-0|0_I-0|0~M$1$0$0$INTLMobile_UN$654$null~~FromCity1_ToCity1_Depart1_VS-301_VFBVTklfSU5UTA==_12:30_Depart1_17:35_VS_VS_VS_JO~TP_0_0_FromCity1-ToCity1-Depart1_ECONOMY CLASSIC",
+                "fares": [
+                    {
+                        "sector": "FromCity1-ToCity1",
+                        "fareListIdentifier": "ID1"
+                    }
+                ]
+            },
+            "FromCity1-ToCity1-ECONOMY FromCity1IGHT": {
+                "finalAdultFare": 37981.0,
+                "initialAdultFare": null,
+                "rKey": "v1~~null$V$XLSF0OCX$null$9824.0$null$null$1781.0$0$0$A~A-37981.0|25780.0_C-0|0_I-0|0~M$1$0$0$INTLMobile_UN$654$null~~FromCity1_ToCity1_Depart1_VS-301_VFBVTklfSU5UTA==_12:30_Depart1_17:35_VS_VS_VS_JO~TP_0_0_FromCity1-ToCity1-Depart1_ECONOMY FromCity1IGHT",
+                "fares": [
+                    {
+                        "sector": "FromCity1-ToCity1",
+                        "fareListIdentifier": "ID2"
+                    }
+                ]
+            }
+        }
+    },
+    "reviewKey": "INTL_BRANDED_FARE_VS",
+    "rKey": "v1~~null$X$XLSF0OMX$null$9824.0$null$null$1656.0$0$0$A~A-35356.0|23280.0_C-0|0_I-0|0~M$1$0$0$INTLMobile_UN$654$null~~FromCity1_ToCity1_Depart1_VS-301_VFBVTklfSU5UTA==_12:30_Depart1_17:35_VS_VS_VS_JO~TP_0_0_FromCity1-ToCity1-Depart1_null",
+    "journeys": {
+        "FromCity1_ToCity1_Depart1": {
+            "segments": {
+                "FromCity1_ToCity1_Depart1": {
+                    "fltLst": [
+                        {
+                            "amenitySegmentKey": null,
+                            "depInf": {
+                                "trml": "3",
+                                "ctCd": "FromCity1",
+                                "airp": "Indira Gandhi International Airport",
+                                "ctNm": "New FromCity1hi",
+                                "arpCd": "FromCity1",
+                                "cntr": "India",
+                                "tmZn": "Asia/Kolkata",
+                                "lat": 28.5665,
+                                "long": 77.103088,
+                                "cont": "India",
+                                "cur": "INR"
+                            },
+                            "arrInf": {
+                                "trml": "3",
+                                "ctCd": "ToCity1",
+                                "airp": "Heathrow Airport",
+                                "ctNm": "London - Heathrow Apt",
+                                "arpCd": "LON",
+                                "cntr": "United Kingdom",
+                                "tmZn": "Europe/London",
+                                "lat": 51.4775,
+                                "long": -0.461389,
+                                "cont": "UK",
+                                "cur": "GBP"
+                            },
+                            "depDt": 1571209200000,
+                            "arrDt": 1571227500000,
+                            "techStpOvrLst": [],
+                            "totDur": 575,
+                            "segSlKey": "wY/yDzBAAA/BBCDyASAAAA==",
+                            "fareSlKey": null,
+                            "mrktArln": "VS",
+                            "oprArln": "VS",
+                            "equipTyp": "333",
+                            "equipCd": "333",
+                            "equipNm": "Airbus A330-300 ",
+                            "fltNum": "301",
+                            "carierCode": "VS",
+                            "bagDtls": [
+                                {
+                                    "bag": {
+                                        "qty": "46",
+                                        "utyp": "W",
+                                        "unt": "kgs (2 x 23 kgs each)"
+                                    },
+                                    "pxTyp": "ADT",
+                                    "pxRf": "wY/yDzBAAA/BDCDyASAAAA=="
+                                }
+                            ],
+                            "avlCntxtLst": [],
+                            "availCount": null,
+                            "cbcls": "M",
+                            "pnRf": {},
+                            "splitPnr": false,
+                            "availSrc": "Q",
+                            "suplrNm": null,
+                            "ao": [
+                                {
+                                    "at": "MEAL",
+                                    "isPaid": true
+                                }
+                            ],
+                            "si": {
+                                "tppa": "Cached status used. Polled avail exists"
+                            }
+                        }
+                    ],
+                    "fr": [
+                        {
+                            "pxTypFrMap": {
+                                "ADULT": [
+                                    {
+                                        "frId": 0,
+                                        "frBrkup": {
+                                            "frBrkupMap": {
+                                                "MUAPPFESTJET": 513.0,
+                                                "MUCITISPCL": 141.0,
+                                                "TAXCOMPONENT-K3": 1656.0,
+                                                "TAXCOMPONENT-WO": 596.0,
+                                                "TAXCOMPONENT-YQ": 9824.0,
+                                                "TOT": 35356.0,
+                                                "TAX": 12076.0
+                                            }
+                                        },
+                                        "segPrdctInf": [
+                                            {
+                                                "lgPrnfo": [
+                                                    {
+                                                        "frId": "wY/yDzBAAA/BHCDyASAAAA==",
+                                                        "rb": "X",
+                                                        "cbn": "M",
+                                                        "avl": "9",
+                                                        "fbc": "XLSF0OMX",
+                                                        "frAmt": "INR23280",
+                                                        "txAmt": null,
+                                                        "frtyp": [],
+                                                        "brkPnt": null,
+                                                        "arrcd": "ToCity1",
+                                                        "deptcd": "FromCity1",
+                                                        "prdcls": null,
+                                                        "si": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "paxRef": 0
+                                    }
+                                ]
+                            },
+                            "frInfoMap": {},
+                            "subFares": []
+                        }
+                    ],
+                    "minFrRl": null,
+                    "lfid": null,
+                    "aggFltNum": "FromCity1$LON$Depart11230$VS-301",
+                    "cur": "INR",
+                    "totDur": 575,
+                    "rfndbl": false,
+                    "sPNR": false,
+                    "hldbl": true,
+                    "cbn": null,
+                    "cbnCls": [
+                        "M"
+                    ],
+                    "refAir": "VS",
+                    "dep": "FromCity1",
+                    "arr": "ToCity1",
+                    "offId": null,
+                    "credId": "TPUNI_INTL",
+                    "jrnySlKey": null,
+                    "srvc": "TP",
+                    "vc": "VS",
+                    "currInfo": {
+                        "costCurrency": "INR",
+                        "sellCurrency": null,
+                        "conversionFactor": null
+                    },
+                    "signature": null,
+                    "rtngId": null
+                }
+            }
+        }
+    },
+    "combinedInfo": {
+        "COMBINED_DATA": {
+            "data": {
+                "REFUNDABLE": false,
+                "lastTicketTimeInMins": null,
+                "IS_PURE": true,
+                "MAX_STOP": 0,
+                "ticketImportantInfo": null,
+                "MAX_LAYOFF_TIME": 0,
+                "refferenceAirline": "VS",
+                "VC": "VS",
+                "splitPNR": null,
+                "officeIds": null,
+                "CABIN_CLASS": [
+                    "M"
+                ],
+                "LAST_TKT_DATE": null,
+                "HOLDABLE": true,
+                "IS_PURE_LCC": false
+            }
+        },
+        "COMBINED_REVIEW_FARE": {
+            "paxTypeFareBreakUp": {
+                "ADULT": {
+                    "totalTax": 12076.0,
+                    "totalBaseFare": 23280.0,
+                    "totalMarkup": 654.0,
+                    "totalDiscount": 0.0,
+                    "fareBreakupMap": {
+                        "MUAPPFESTJET": 513.0,
+                        "MUCITISPCL": 141.0,
+                        "TAXCOMPONENT-K3": 1656.0,
+                        "TAXCOMPONENT-WO": 596.0,
+                        "TAXCOMPONENT-YQ": 9824.0,
+                        "TOT": 35356.0,
+                        "TAX": 12076.0
+                    },
+                    "totalFare": 36010.0,
+                    "paxRef": 0
+                }
+            },
+            "combinedFareBreakUp": {
+                "totalTax": 12076.0,
+                "totalBaseFare": 23280.0,
+                "totalMarkup": 654.0,
+                "totalDiscount": 0.0,
+                "fareBreakupMap": {
+                    "MUAPPFESTJET": 513.0,
+                    "MUCITISPCL": 141.0,
+                    "TAXCOMPONENT-K3": 1656.0,
+                    "TAXCOMPONENT-WO": 596.0,
+                    "TAXCOMPONENT-YQ": 9824.0,
+                    "TOT": 35356.0,
+                    "TAX": 12076.0
+               },
+                "totalFare": 36010.0,
+                "paxRef": null
+            }
+        },
+        "FARE_CHANGE": {
+            "fareStatus": 0,
+            "oldFare": 0.0,
+            "newFare": 36010.0,
+            "totalFareChangeAmount": 36010.0
+        }
+    },
+    "travellerInfo": {
+        "prtPymtEnbld": false,
+        "prtPymtSeltd": false,
+        "prtPymtAmt": null,
+        "searchKey": null,
+        "email": null,
+        "userDetails": null
+    },
+    "trvlrReqdInfo": {
+        "dobReqdForAllPax": false,
+        "dobReqdForInf": true,
+        "dobReqdForChild": false,
+        "ppMandatory": false,
+        "nationalityMandatory": false
+    },
+    "error": null,
+    "frFamilyDetails": {
+        "fareFamilyAvailable": true,
+        "fareFamilyResponse": [
+            {
+                "error": null,
+                "sector": "FromCity1-ToCity1",
+                "warning": null,
+                "cheapestFamily": "ECONOMY CLASSIC",
+                "itineraryList": [
+                   {
+                        "rbd": null,
+                        "boardPoint": "FromCity1",
+                        "offPoint": "ToCity1",
+                        "airlineName": null,
+                        "mrktArln": "VS",
+                        "oprArln": "VS",
+                        "fltNum": "VS-301",
+                        "depDt": 1571209200000,
+                        "arrDt": 1571209200000
+                    }
+                ],
+                "serviceDisplayOrder": [
+                    "EXTRALEGROOM",
+                    "PRI_CHECKIN",
+                    "REFUND",
+                    "REBOOKINGANDUPGRADES",
+                    "HANDLUGGAGEUPTO10KG",
+                    "MEAL",
+                    "WiFi"
+                ],
+                "fareFamilies": [
+                    {
+                        "selected": true,
+                        "name": "ECONOMY CLASSIC",
+                        "description": "Economy Classic",
+                        "carrier": "VS",
+                        "packageSummary": {
+                            "titleColor": "#ffd3d4",
+                            "packageTitle": "Standard Seat | Priority check-in not offered",
+                            "packageDesc": "To enjoy added benefits like Seat with Extra Leg Room, Free Priority Check-in upgrade your booking",
+                            "operationName": "SEE OTHER FARES"
+                        },
+                        "finalAdultFare": 35356.0,
+                        "initialAdultFare": null,
+                        "services": [
+                            {
+                                "type": "05Z",
+                                "status": "NOF",
+                                "serviceName": "EXTRALEGROOM",
+                                "description": "Standard Seat-Seat pitch up to 79 cm"
+                            },
+                            {
+                                "type": "03P",
+                                "status": "NOF",
+                                "serviceName": "PRI_CHECKIN",
+                                "description": "Not Offered"
+                            },
+                            {
+                                "type": "056",
+                                "status": "CHA",
+                                "serviceName": "REFUND",
+                                "description": "Allowed at a cost"
+                            },
+                            {
+                                "type": "059",
+                                "status": "CHA",
+                                "serviceName": "REBOOKINGANDUPGRADES",
+                                "description": "Allowed at a cost"
+                            },
+                            {
+                                "type": "0MP",
+                                "status": "INC",
+                                "serviceName": "HANDLUGGAGEUPTO10KG",
+                                "description": "One Piece - up to 10KG"
+                            },
+                            {
+                                "type": "0B3",
+                                "status": "INC",
+                                "serviceName": "MEAL",
+                                "serviceType": "ML",
+                                "description": "Free"
+                            },
+                            {
+                                "type": "0CL",
+                                "status": "CHA",
+                                "serviceName": "WiFi",
+                                "description": "Available at Charge"
+                            }
+                        ]
+                    },
+                    {
+                        "selected": false,
+                        "name": "ECONOMY FromCity1IGHT",
+                        "description": "Economy FromCity1ight",
+                        "carrier": "VS",
+                        "packageSummary": {
+                            "titleColor": "#cdf6e8",
+                            "packageTitle": "Great choice! Your fare includes the following services:",
+                            "packageDesc": "Seat with Extra Leg Room, Free Priority Check-in",
+                            "operationName": "SEE OTHER FARES"
+                        },
+                        "finalAdultFare": 37981.0,
+                        "initialAdultFare": null,
+                        "services": [
+                            {
+                                "type": "05Z",
+                                "status": "INC",
+                                "serviceName": "EXTRALEGROOM",
+                                "description": "Extra leg room-Seat pitch up to 86 cm"
+                            },
+                            {
+                                "type": "03P",
+                                "status": "INC",
+                                "serviceName": "PRI_CHECKIN",
+                                "description": "Free"
+                            },
+                            {
+                                "type": "056",
+                                "status": "CHA",
+                                "serviceName": "REFUND",
+                                "description": "Allowed at a cost"
+                            },
+                            {
+                                "type": "059",
+                                "status": "CHA",
+                                "serviceName": "REBOOKINGANDUPGRADES",
+                                "description": "Allowed at a cost"
+                            },
+                            {
+                                "type": "0MP",
+                                "status": "INC",
+                                "serviceName": "HANDLUGGAGEUPTO10KG",
+                                "description": "One Piece - up to 10KG"
+                            },
+                            {
+                                "type": "0B3",
+                                "status": "INC",
+                                "serviceName": "MEAL",
+                                "serviceType": "ML",
+                                "description": "Free"
+                            },
+                            {
+                                "type": "0CL",
+                                "status": "CHA",
+                                "serviceName": "WiFi",
+                                "description": "Available at Charge"
+                            }
+                        ]
+                    }
+                ],
+                "fareList": [
+                    {
+                        "name": "ECONOMY CLASSIC",
+                        "paxWiseFareList": {
+                            "ADULT": {
+                                "numOfPax": 1,
+                                "paxType": "ADULT",
+                                "paxFare": 35356.0,
+                                "fareBreakUp": {
+                                    "frBrkupMap": {
+                                        "TAXCOMPONENT-K3": 1656.0,
+                                        "TAXCOMPONENT-WO": 596.0,
+                                        "TAXCOMPONENT-YQ": 9824.0,
+                                        "TOT": 35356.0,
+                                        "TAX": 12076.0,
+                                        "MUCITISPCL": 141.0,
+                                        "MUAPPFESTJET": 513.0
+                                    }
+                                },
+                                "fareComponentDetails": [
+                                    {
+                                        "fareFamilyName": "ECONOMY CLASSIC",
+                                        "boardPoint": "FromCity1",
+                                        "offPoint": "ToCity1",
+                                        "carrier": "VS",
+                                        "segmentInfos": [
+                                            {
+                                                "rbd": "X",
+                                                "fareBasis": "XLSF0OMX",
+                                                "supplierInfo": {
+                                                    "brandID": "280299",
+                                                    "brandTier": "0002"
+                                                },
+                                                "baggage": null,
+                                                "productClass": null,
+                                                "fareSellKey": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "personalizationMap": null
+                    },
+                    {
+                        "name": "ECONOMY FromCity1IGHT",
+                        "paxWiseFareList": {
+                            "ADULT": {
+                                "numOfPax": 1,
+                                "paxType": "ADULT",
+                                "paxFare": 37981.0,
+                                "fareBreakUp": {
+                                    "frBrkupMap": {
+                                        "TAXCOMPONENT-K3": 1781.0,
+                                        "TAXCOMPONENT-WO": 596.0,
+                                        "TAXCOMPONENT-YQ": 9824.0,
+                                        "TOT": 37981.0,
+                                        "TAX": 12201.0,
+                                        "MUCITISPCL": 152.0,
+                                        "MUAPPFESTJET": 551.0
+                                    }
+                                },
+                                "fareComponentDetails": [
+                                    {
+                                        "fareFamilyName": "ECONOMY FromCity1IGHT",
+                                        "boardPoint": "FromCity1",
+                                        "offPoint": "ToCity1",
+                                        "carrier": "VS",
+                                        "segmentInfos": [
+                                            {
+                                                "rbd": "V",
+                                                "fareBasis": "XLSF0OCX",
+                                                "supplierInfo": {
+                                                    "brandID": "280300",
+                                                    "brandTier": "0003"
+                                                },
+                                                "baggage": null,
+                                                "productClass": null,
+                                                "fareSellKey": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "personalizationMap": null
+                    }
+                ]
+            }
+        ],
+        "services": {
+            "HANDLUGGAGEUPTO10KG": {
+                "serviceName": "Hand Baggage",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_hand_baggage.png"
+            },
+            "REFUND": {
+                "serviceName": "Ticket Cancellation",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_flight_cancellation.png"
+            },
+            "PRI_BOARDING": {
+                "serviceName": "Priority Boarding",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+            },
+            "MEAL": {
+                "serviceName": "Meals",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_meals.png"
+            },
+            "WiFi": {
+                "serviceName": "WiFi",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_default.png"
+            },
+            "REBOOKINGANDUPGRADES": {
+                "serviceName": "Date Change",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_default.png"
+            },
+            "EXTRALEGROOM": {
+                "serviceName": "Seat with Extra Leg Room",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_seat_selection.png"
+            },
+            "PRI_CHECKIN": {
+                "serviceName": "Priority Check-in",
+                "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+            }
+        },
+        "rtFare": false,
+        "farelookupMap": {
+            "ID2": {
+                "name": null,
+                "paxWiseFareList": {
+                    "ADULT": {
+                        "numOfPax": 1,
+                        "paxType": "ADULT",
+                        "paxFare": 37981.0,
+                        "fareBreakUp": {
+                            "frBrkupMap": {
+                                "TAXCOMPONENT-K3": 1781.0,
+                                "TAXCOMPONENT-WO": 596.0,
+                                "TAXCOMPONENT-YQ": 9824.0,
+                                "TOT": 37981.0,
+                                "TAX": 12201.0,
+                                "MUCITISPCL": 152.0,
+                                "MUAPPFESTJET": 551.0
+                            }
+                        },
+                        "fareComponentDetails": [
+                            {
+                                "fareFamilyName": "ECONOMY FromCity1IGHT",
+                                "boardPoint": "FromCity1",
+                                "offPoint": "ToCity1",
+                                "carrier": "VS",
+                                "segmentInfos": [
+                                    {
+                                        "rbd": "V",
+                                        "fareBasis": "XLSF0OCX",
+                                        "supplierInfo": {
+                                            "brandID": "280300",
+                                            "brandTier": "0003"
+                                        },
+                                        "baggage": null,
+                                        "productClass": null,
+                                        "fareSellKey": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "personalizationMap": null
+            },
+            "ID1": {
+                "name": null,
+                "paxWiseFareList": {
+                    "ADULT": {
+                        "numOfPax": 1,
+                        "paxType": "ADULT",
+                        "paxFare": 35356.0,
+                        "fareBreakUp": {
+                            "frBrkupMap": {
+                                "TAXCOMPONENT-K3": 1656.0,
+                                "TAXCOMPONENT-WO": 596.0,
+                                "TAXCOMPONENT-YQ": 9824.0,
+                                "TOT": 35356.0,
+                                "TAX": 12076.0,
+                                "MUCITISPCL": 141.0,
+                                "MUAPPFESTJET": 513.0
+                            }
+                        },
+                        "fareComponentDetails": [
+                            {
+                                "fareFamilyName": "ECONOMY CLASSIC",
+                                "boardPoint": "FromCity1",
+                                "offPoint": "ToCity1",
+                                "carrier": "VS",
+                                "segmentInfos": [
+                                    {
+                                        "rbd": "X",
+                                        "fareBasis": "XLSF0OMX",
+                                        "supplierInfo": {
+                                            "brandID": "280299",
+                                            "brandTier": "0002"
+                                        },
+                                        "baggage": null,
+                                        "productClass": null,
+                                        "fareSellKey": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "personalizationMap": null
+            }
+        },
+        "fareMap": {
+            "FromCity1-ToCity1-ECONOMY CLASSIC": {
+                "finalAdultFare": 35356.0,
+                "initialAdultFare": null,
+                "rKey": "v1~~null$X$XLSF0OMX$null$9824.0$null$null$1656.0$0$0$A~A-35356.0|23280.0_C-0|0_I-0|0~M$1$0$0$INTLMobile_UN$654$null~~FromCity1_ToCity1_Depart1_VS-301_VFBVTklfSU5UTA==_12:30_Depart1_17:35_VS_VS_VS_JO~TP_0_0_FromCity1-ToCity1-Depart1_ECONOMY CLASSIC",
+                "fares": [
+                    {
+                        "sector": "FromCity1-ToCity1",
+                        "fareListIdentifier": "ID1"
+                    }
+                ]
+            },
+            "FromCity1-ToCity1-ECONOMY FromCity1IGHT": {
+                "finalAdultFare": 37981.0,
+                "initialAdultFare": null,
+                "rKey": "v1~~null$V$XLSF0OCX$null$9824.0$null$null$1781.0$0$0$A~A-37981.0|25780.0_C-0|0_I-0|0~M$1$0$0$INTLMobile_UN$654$null~~FromCity1_ToCity1_Depart1_VS-301_VFBVTklfSU5UTA==_12:30_Depart1_17:35_VS_VS_VS_JO~TP_0_0_FromCity1-ToCity1-Depart1_ECONOMY FromCity1IGHT",
+                "fares": [
+                    {
+                        "sector": "FromCity1-ToCity1",
+                        "fareListIdentifier": "ID2"
+                    }
+                ]
+            }
+        }
+    }
+}

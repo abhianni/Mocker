@@ -1,0 +1,17 @@
+{
+  "request":{
+	"method": "POST",
+    "url": "/BookingManager.svc",
+    "bodyPatterns":[
+      {       "contains" : "PriceItineraryRequest"
+      },
+	  {       "contains" : "DAC"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/SG/INTLOW/SGINTL_OW_itineraryPrice.xml"
+
+  }
+}

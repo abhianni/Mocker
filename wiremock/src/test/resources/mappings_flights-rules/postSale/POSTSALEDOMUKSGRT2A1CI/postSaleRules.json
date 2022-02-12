@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/postSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "SG-8709-DEL-BOM-2020-11-16 18:45-2020-11-16 21:05"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOMUKSGRT2A1CI/GETPOSTSALELCC.json"
+  }
+}
+

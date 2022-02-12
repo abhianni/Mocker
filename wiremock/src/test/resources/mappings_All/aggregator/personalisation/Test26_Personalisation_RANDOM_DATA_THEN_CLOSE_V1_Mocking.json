@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-personalization/pricePersonalizationInfo",
+        "bodyPatterns":[{	
+        "contains" : "PersonalisationNegativeTestRANDOMDATATHENCLOSE"
+        }]
+    },
+    "response": {
+        "fault": "RANDOM_DATA_THEN_CLOSE"
+    }
+}

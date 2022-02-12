@@ -1,0 +1,19 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/flights-search/v1/rkey-info.*crId=testCheaperFlightOW1.*",
+		"bodyPatterns": [
+			{
+				"contains": "RKEY:5a637b0b-437a-4cd6-933e-bead7544a3e1:0"
+			}
+		]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpCheapFlight/OW/Test1_getSrchV1RkeyInfoB2BDomOWResp.json"
+	}
+}

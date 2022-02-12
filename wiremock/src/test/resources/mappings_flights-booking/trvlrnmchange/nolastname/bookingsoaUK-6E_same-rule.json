@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightBooking/v1/traveller-name-change",
+       "bodyPatterns":[
+{       "contains" : "trvlr-nm-chng-two-same-rules"
+}
+]
+
+    },
+  "response": {
+    "status": 200,
+    "bodyFileName": "flights_booking/trvlrnmchange/nolastname/bookingsoaUK-6E_same-rule.json"
+  }
+}
+

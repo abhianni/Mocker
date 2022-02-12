@@ -1,0 +1,14 @@
+{
+    "request":{
+        "method": "PUT",
+        "urlPattern": "/flights-itinerary/v1/itinerary/WRVIEW_DOM_OW_AI_TP_TECHSTOP_SUCCESS/REVIEW"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+		"transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/wreview/DOMOWTECHSTOP/REVIEW.json"
+    }
+}

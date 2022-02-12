@@ -1,0 +1,384 @@
+{
+    "status": "SUCCESS",
+    "metaData": {
+        "currency": "INR",
+        "apiLatency": "1756",
+        "traceInfo": {},
+        "ipAddress": "172.17.0.11",
+        "serviceName": "Pnr-Service",
+        "supplierName": "TP",
+        "credentialId": "TPUNI_INTL",
+        "supplierLatency": "1255",
+        "corporateCode": "",
+        "promoCode": ""
+    },
+    "flightLookUpList": {
+        "DOH$BOM$2020-06-19 16:50$AI-970": {
+            "mrkAl": "AI",
+            "oprAl": "AI",
+            "fltNo": "970",
+            "arcrfTyp": "788",
+            "depInfo": {
+                "trmnl": "",
+                "arpCd": "DOH",
+                "arpNm": "Doha"
+            },
+            "arrInfo": {
+                "trmnl": "2",
+                "arpCd": "BOM",
+                "arpNm": "Chhatrapati Shivaji International Airport"
+            },
+            "tchStp": [],
+            "depTime": "2020-06-19 16:50",
+            "arrTime": "2020-06-19 22:45",
+            "durInMins": "205"
+        },
+        "BOM$COK$2020-06-20 05:30$AI-54": {
+            "mrkAl": "AI",
+            "oprAl": "AI",
+            "fltNo": "54",
+            "arcrfTyp": "319",
+            "depInfo": {
+                "trmnl": "2",
+                "arpCd": "BOM",
+                "arpNm": "Chhatrapati Shivaji International Airport"
+            },
+            "arrInfo": {
+                "trmnl": "3",
+                "arpCd": "COK",
+                "arpNm": "Cochin International Airport Limited"
+            },
+            "tchStp": [],
+            "depTime": "2020-06-20 05:30",
+            "arrTime": "2020-06-20 07:40",
+            "durInMins": "130"
+        }
+    },
+    "bookingInfo": {
+        "journeys": [{
+            "jrnyKey": "DOH$BOM$2020-06-19 16:50$AI-970|BOM$COK$2020-06-20 05:30$AI-54",
+            "depDate": "2020-06-19 16:50",
+            "arrDate": "2020-06-20 07:40",
+            "durInMins": "740",
+            "flightDtlsInfo": [{
+                "fltLookUpKey": "DOH$BOM$2020-06-19 16:50$AI-970",
+                "pnrGroupNum": 0
+            }, {
+                "fltLookUpKey": "BOM$COK$2020-06-20 05:30$AI-54",
+                "pnrGroupNum": 0
+            }]
+        }],
+        "frInfo": {
+            "pnrGrpdFrInfo": {
+                "0": {
+                    "status": "SUCCESS",
+                    "paxFares": {
+                        "INFANT": {
+                            "bs": 590.0,
+                            "tx": 270.0,
+                            "noOfPax": 1,
+                            "tot": 860.0,
+                            "taxBreakups": [{
+                                "amnt": 270.0,
+                                "code": "YR",
+                                "msg": ""
+                            }],
+                            "segPrdctInfo": {
+                                "DOH$BOM$2020-06-19 16:50$AI-970": {
+                                    "fareClass": "S",
+                                    "fareBasis": "SOQIXCS/",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 10,
+                                            "weightUnit": "KILOGRAMS"
+                                        }
+                                    },
+                                    "cabin": "Economy"
+                                },
+                                "BOM$COK$2020-06-20 05:30$AI-54": {
+                                    "fareClass": "S",
+                                    "fareBasis": "SOQIXCS/",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 10,
+                                            "weightUnit": "KILOGRAMS"
+                                        }
+                                    },
+                                    "cabin": "Economy"
+                                }
+                            }
+                        },
+                        "CHILD": {
+                            "bs": 5880.0,
+                            "tx": 6099.0,
+                            "noOfPax": 1,
+                            "tot": 11979.0,
+                            "taxBreakups": [{
+                                "amnt": 686.0,
+                                "code": "G4",
+                                "msg": ""
+                            }, {
+                                "amnt": 147.0,
+                                "code": "PZ",
+                                "msg": ""
+                            }, {
+                                "amnt": 784.0,
+                                "code": "QA",
+                                "msg": ""
+                            }, {
+                                "amnt": 4212.0,
+                                "code": "YQ",
+                                "msg": ""
+                            }, {
+                                "amnt": 270.0,
+                                "code": "YR",
+                                "msg": ""
+                            }],
+                            "segPrdctInfo": {
+                                "DOH$BOM$2020-06-19 16:50$AI-970": {
+                                    "fareClass": "S",
+                                    "fareBasis": "SOQIXCS",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 30,
+                                            "weightUnit": "KILOGRAMS"
+                                        }
+                                    },
+                                    "cabin": "Economy"
+                                },
+                                "BOM$COK$2020-06-20 05:30$AI-54": {
+                                    "fareClass": "S",
+                                    "fareBasis": "SOQIXCS",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 30,
+                                            "weightUnit": "KILOGRAMS"
+                                        }
+                                    },
+                                    "cabin": "Economy"
+                                }
+                            }
+                        },
+                        "ADULT": {
+                            "bs": 5880.0,
+                            "tx": 6099.0,
+                            "noOfPax": 2,
+                            "tot": 11979.0,
+                            "taxBreakups": [{
+                                "amnt": 686.0,
+                                "code": "G4",
+                                "msg": ""
+                            }, {
+                                "amnt": 147.0,
+                                "code": "PZ",
+                                "msg": ""
+                            }, {
+                                "amnt": 784.0,
+                                "code": "QA",
+                                "msg": ""
+                            }, {
+                                "amnt": 4212.0,
+                                "code": "YQ",
+                                "msg": ""
+                            }, {
+                                "amnt": 270.0,
+                                "code": "YR",
+                                "msg": ""
+                            }],
+                            "segPrdctInfo": {
+                                "DOH$BOM$2020-06-19 16:50$AI-970": {
+                                    "fareClass": "S",
+                                    "fareBasis": "SOQIXCS",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 30,
+                                            "weightUnit": "KILOGRAMS"
+                                        }
+                                    },
+                                    "cabin": "Economy"
+                                },
+                                "BOM$COK$2020-06-20 05:30$AI-54": {
+                                    "fareClass": "S",
+                                    "fareBasis": "SOQIXCS",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 30,
+                                            "weightUnit": "KILOGRAMS"
+                                        }
+                                    },
+                                    "cabin": "Economy"
+                                }
+                            }
+                        }
+                    },
+                    "totFr": {
+                        "bs": 18230.0,
+                        "tx": 18567.0,
+                        "tot": 36797.0
+                    },
+                    "rfndStatus": "RS_NOT_SET",
+                    "pnrKey": "",
+                    "sPnr": "9ZVVPM",
+                    "aPnr": "CFVBN1",
+                    "travelerAddons": {},
+                    "travelerInfos": [{
+                        "id": "0",
+                        "title": "Ms",
+                        "paxId": "",
+                        "firstName": "Nisha",
+                        "middleName": "",
+                        "lastName": "Shinu",
+                        "mealPreference": "",
+                        "gender": "FEMALE",
+                        "emailId": "shinu.christ@gmail.com",
+                        "mobileNumber": "9946284614",
+                        "mobileNumberCountryCode": "91",
+                        "paxType": "ADULT",
+                        "dateOfBirth": "",
+                        "nationality": "",
+                        "passportInformation": {
+                            "passportNumber": "J5111218",
+                            "issueDate": "",
+                            "expiryDate": "06APR21",
+                            "placeOfIssue": "IN",
+                            "nationality": "",
+                            "countryOfIssue": ""
+                        },
+                        "freqFlierInformation": []
+                    }, {
+                        "id": "1",
+                        "title": "Ms",
+                        "paxId": "",
+                        "firstName": "TIANA",
+                        "middleName": "",
+                        "lastName": "SHINU",
+                        "mealPreference": "",
+                        "gender": "FEMALE",
+                        "emailId": "shinu.christ@gmail.com",
+                        "mobileNumber": "9946284614",
+                        "mobileNumberCountryCode": "91",
+                        "paxType": "INFANT",
+                        "dateOfBirth": "30OCT18",
+                        "nationality": "",
+                        "passportInformation": {
+                            "passportNumber": "S9830920",
+                            "issueDate": "",
+                            "expiryDate": "14NOV23",
+                            "placeOfIssue": "IN",
+                            "nationality": "",
+                            "countryOfIssue": ""
+                        },
+                        "freqFlierInformation": []
+                    }, {
+                        "id": "2",
+                        "title": "MR",
+                        "paxId": "",
+                        "firstName": "SHINU",
+                        "middleName": "",
+                        "lastName": "KINATTUKALA JOY",
+                        "mealPreference": "",
+                        "gender": "MALE",
+                        "emailId": "shinu.christ@gmail.com",
+                        "mobileNumber": "9946284614",
+                        "mobileNumberCountryCode": "91",
+                        "paxType": "ADULT",
+                        "dateOfBirth": "",
+                        "nationality": "",
+                        "passportInformation": {
+                            "passportNumber": "J5111216",
+                            "issueDate": "",
+                            "expiryDate": "06APR21",
+                            "placeOfIssue": "IN",
+                            "nationality": "",
+                            "countryOfIssue": ""
+                        },
+                        "freqFlierInformation": []
+                    }, {
+                        "id": "3",
+                        "title": "Ms",
+                        "paxId": "",
+                        "firstName": "TESSA",
+                        "middleName": "",
+                        "lastName": "SHINU",
+                        "mealPreference": "",
+                        "gender": "FEMALE",
+                        "emailId": "shinu.christ@gmail.com",
+                        "mobileNumber": "9946284614",
+                        "mobileNumberCountryCode": "91",
+                        "paxType": "CHILD",
+                        "dateOfBirth": "",
+                        "nationality": "",
+                        "passportInformation": {
+                            "passportNumber": "S2361788",
+                            "issueDate": "",
+                            "expiryDate": "08AUG23",
+                            "placeOfIssue": "IN",
+                            "nationality": "",
+                            "countryOfIssue": ""
+                        },
+                        "freqFlierInformation": []
+                    }],
+                    "ticketInfos": [{
+                        "travellerId": "0",
+                        "issuingAirline": "AI",
+                        "ticketNumber": "0983756381920",
+                        "ticketType": "E",
+                        "status": "N",
+                        "issuingDate": "2020-01-10 23:05",
+                        "iataCode": "",
+                        "issuingAgent": "1G",
+                        "dateChange": false
+                    }, {
+                        "travellerId": "1",
+                        "issuingAirline": "AI",
+                        "ticketNumber": "0983756381921",
+                        "ticketType": "E",
+                        "status": "N",
+                        "issuingDate": "2020-01-10 23:05",
+                        "iataCode": "",
+                        "issuingAgent": "1G",
+                        "dateChange": false
+                    }, {
+                        "travellerId": "2",
+                        "issuingAirline": "AI",
+                        "ticketNumber": "0983756381922",
+                        "ticketType": "E",
+                        "status": "N",
+                        "issuingDate": "2020-01-10 23:05",
+                        "iataCode": "",
+                        "issuingAgent": "1G",
+                        "dateChange": false
+                    }, {
+                        "travellerId": "3",
+                        "issuingAirline": "AI",
+                        "ticketNumber": "0983756381923",
+                        "ticketType": "E",
+                        "status": "N",
+                        "issuingDate": "2020-01-10 23:05",
+                        "iataCode": "",
+                        "issuingAgent": "1G",
+                        "dateChange": false
+                    }],
+                    "validatingCarrier": "AI",
+                    "creationDate": "2020-01-10 23:03",
+                    "fareFamily": "",
+                    "accountCode": ""
+                }
+            }
+        },
+        "paxTypeAddonStatus": {}
+    },
+    "err": []
+}

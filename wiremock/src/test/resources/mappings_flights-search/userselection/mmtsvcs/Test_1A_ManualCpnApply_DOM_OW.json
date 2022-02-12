@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-mmt-svcs/v1/apply-coupon?crId=60ecc484-24bf-4ba0-83cb-1013f927f105",
+    "bodyPatterns":[
+      {
+        "contains":"fccc2909742bfd7e21b85304da85d0ca5bbc1772"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_search/userselection/mmtsvcs/ApplyCoupon_1A_DOM_OW.json"
+  }
+}

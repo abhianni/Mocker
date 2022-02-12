@@ -1,0 +1,17 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/flights-search/rkey-info.*crId=BRANDEDFAREDOMRT.*",
+		 "bodyPatterns":[{
+        "contains" : "RKEY:rkeyB2CRT3:111"
+        }]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpBrandedFare/DOMESTIC_RT/RKEY_RESPONSE_AI_NONSTOP_REGULARFARE_RT.json"
+	}
+}

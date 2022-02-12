@@ -1,0 +1,19 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/flights-search/rkey-TTL.*crId=testCheaperFlight2.*",
+		"bodyPatterns": [
+			{
+				"contains": "ttlInSecond"
+			}
+		]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpCheapFlight/RT/Test1_rkeyInfoTTLDomRTResp.json"
+	}
+}

@@ -1,0 +1,290 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NN2112053788892",
+    "iteneraryId": "76845c9894c2b07efd0a591b47469b691fca31f5",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "\"NN2112053788892\"",
+      "BookingAggregatorResponse": "{\"mmtId\":\"NN2112053788892\",\"pnrData\":[{\"pnrNo\":\"BXC7Z4\",\"supplierId\":\"TPUNI_INTL\",\"supplierType\":\"TP\",\"airlineCode\":\"UK\"},{\"pnrNo\":\"ALD8TD\",\"supplierId\":\"6EUNI\",\"supplierType\":\"NAV42\",\"airlineCode\":\"6E\"}],\"userData\":{\"uuid\":\"UITHET2NQWH\",\"profileType\":\"PERSONAL\"},\"itineraryId\":\"76845c9894c2b07efd0a591b47469b691fca31f5\",\"cancellationAssurance\":false,\"fareType\":null,\"cabinClass\":\"E\"}",
+      "PostSaleCPReq": "{\"status\":null,\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN2112053788892\",\"iteneraryId\":\"76845c9894c2b07efd0a591b47469b691fca31f5\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"1769\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"DXB\"},\"arrivalInfo\":{\"trmnl\":\"2\",\"arpCd\":\"BOM\"},\"techStops\":null,\"depTime\":1607382000000,\"arrTime\":1607397600000,\"duration\":15600000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"DXB-BOM : 6E-1769\",\"depDate\":\"2020-12-08 04:30\",\"arrDate\":\"2020-12-08 08:50\",\"duration\":15600000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":6135.0,\"singlePaxTx\":2421.0,\"singlePaxTot\":8556.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":706.0,\"taxCode\":\"F6\"},{\"nation\":null,\"taxVal\":1513.0,\"taxCode\":\"AE\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"TP\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\":{\"fareClass\":\"R\",\"fareBasis\":\"R0INT\",\"rbd\":\"R\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"DXB-BOM : 6E-1769\":{\"singlePaxBaseFare\":6135.0,\"singlePaxTx\":2421.0,\"singlePaxTot\":8556.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1513.0,\"taxCode\":\"AE\"},{\"nation\":null,\"taxVal\":706.0,\"taxCode\":\"F6\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"TP\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"ZR\"}]}}}},\"cancellationPenalty\":null,\"dateChangePenalty\":null,\"baggageList\":null,\"cancellationAssured\":false,\"supplierName\":\"NAV42\",\"supplierCredential\":\"6EUNI\",\"fareFamily\":\"\"}]}}}}]}}",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-08-21 14:48:14\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NN2112053788892\\\",\\\"iteneraryId\\\":\\\"76845c9894c2b07efd0a591b47469b691fca31f5\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\\\":{\\\"mrkAl\\\":\\\"6E\\\",\\\"oprAl\\\":\\\"6E\\\",\\\"validatingCarrier\\\":\\\"6E\\\",\\\"fltNo\\\":\\\"1769\\\",\\\"arcrfTyp\\\":\\\"320\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"1\\\",\\\"arpCd\\\":\\\"DXB\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"2\\\",\\\"arpCd\\\":\\\"BOM\\\"},\\\"depTime\\\":1607382000000,\\\"arrTime\\\":1607397600000,\\\"dur\\\":15600000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"DXB-BOM : 6E-1769\\\",\\\"depDate\\\":\\\"2020-12-08 04:30\\\",\\\"arrDate\\\":\\\"2020-12-08 08:50\\\",\\\"dur\\\":15600000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":6135.0,\\\"singlePaxTx\\\":2421.0,\\\"singlePaxTot\\\":8556.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":706.0,\\\"taxCode\\\":\\\"F6\\\"},{\\\"taxVal\\\":1513.0,\\\"taxCode\\\":\\\"AE\\\"},{\\\"taxVal\\\":101.0,\\\"taxCode\\\":\\\"ZR\\\"},{\\\"taxVal\\\":101.0,\\\"taxCode\\\":\\\"TP\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{\\\"DXB-BOM : 6E-1769\\\":{\\\"singlePaxBaseFare\\\":6135.0,\\\"singlePaxTx\\\":2421.0,\\\"singlePaxTot\\\":8556.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":1513.0,\\\"taxCode\\\":\\\"AE\\\"},{\\\"taxVal\\\":706.0,\\\"taxCode\\\":\\\"F6\\\"},{\\\"taxVal\\\":101.0,\\\"taxCode\\\":\\\"TP\\\"},{\\\"taxVal\\\":101.0,\\\"taxCode\\\":\\\"ZR\\\"}]}},\\\"segPrdctInfo\\\":{\\\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\\\":{\\\"pclass\\\":\\\"R\\\",\\\"fareClass\\\":\\\"R\\\",\\\"fareBasis\\\":\\\"R0INT\\\",\\\"pClass\\\":\\\"R\\\",\\\"rbd\\\":\\\"R\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"NAV42\\\",\\\"supplierCredential\\\":\\\"6EUNI\\\",\\\"fareFamily\\\":\\\"\\\"}]}}}}]}}\",\"ticketData\":\"null\",\"mmtId\":\"NN2112053788892\"}",
+      "PostSaleDroolsBaggage0": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"INTL\",\"fromCityLeg\":\"DXB\",\"toCityLeg\":\"BOM\",\"fromCountryLeg\":\"United Arab Emirates\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"6E\",\"validatingAirline\":\"6E\",\"cabinClass\":\"E\",\"flightNo\":\"1769\",\"fbc\":\"R0INT\",\"rbd\":\"R\",\"productClass\":\"R\",\"bookingDate\":1598001494000,\"ptcCode\":\"\",\"travelDateStart\":1607382000000,\"travelDateEnd\":1607382000000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "MiniRuleConfig": "{\"airline\":\"6E\",\"sector\":\"INTL\",\"fbc\":null,\"rbd\":null,\"productClass\":null,\"cabinClass\":\"ECONOMY\",\"departureDate\":null,\"bookingDate\":null,\"noShowCutOff\":24,\"firedRules\":[\"22\"],\"cpadditive\":300.0,\"cpmultiplier\":1.18,\"dcpadditive\":0.0,\"dcpmultiplier\":1.05}",
+      "PostSaleBaggageResponse0": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"DXB-BOM : 6E-1769\",\"flightLookUpKey\":\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}]}",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"DXB-BOM : 6E-1769\":{\"fltGrps\":[{\"fltKeys\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"DXB-BOM : 6E-1769\":{\"fltGrps\":[{\"fltKeys\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6749.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6749.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":0,\"to\":4,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6749.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":4,\"to\":72,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":0,\"to\":4,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6749.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":4,\"to\":72,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"5000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"DXB-BOM : 6E-1769\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"DXB-BOM : 6E-1769\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "{\"status\":\"SUCCCES\",\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN2112053788892\",\"iteneraryId\":\"76845c9894c2b07efd0a591b47469b691fca31f5\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"1769\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"DXB\"},\"arrivalInfo\":{\"trmnl\":\"2\",\"arpCd\":\"BOM\"},\"techStops\":null,\"depTime\":1607382000000,\"arrTime\":1607397600000,\"duration\":15600000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"DXB-BOM : 6E-1769\",\"depDate\":\"2020-12-08 04:30\",\"arrDate\":\"2020-12-08 08:50\",\"duration\":15600000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":6135.0,\"singlePaxTx\":2421.0,\"singlePaxTot\":8556.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":706.0,\"taxCode\":\"F6\"},{\"nation\":null,\"taxVal\":1513.0,\"taxCode\":\"AE\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"TP\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\":{\"fareClass\":\"R\",\"fareBasis\":\"R0INT\",\"rbd\":\"R\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"DXB-BOM : 6E-1769\":{\"singlePaxBaseFare\":6135.0,\"singlePaxTx\":2421.0,\"singlePaxTot\":8556.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1513.0,\"taxCode\":\"AE\"},{\"nation\":null,\"taxVal\":706.0,\"taxCode\":\"F6\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"TP\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"ZR\"}]}}}},\"cancellationPenalty\":[{\"jrnyKey\":\"DXB-BOM : 6E-1769\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":4500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":5000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":5000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":6749.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":6749.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null}}}],\"dateChangePenalty\":[{\"jrnyKey\":\"DXB-BOM : 6E-1769\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":6749.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":6749.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null}]}}}],\"baggageList\":[{\"jrnyKey\":\"DXB-BOM : 6E-1769\",\"flightLookUpKey\":\"6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}],\"cancellationAssured\":false,\"supplierName\":\"NAV42\",\"supplierCredential\":\"6EUNI\",\"fareFamily\":\"\"}]}}}}]}}",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "validatingCarrier": "6E",
+      "fltNo": "1769",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "DXB"
+      },
+      "arrInfo": {
+        "trmnl": "2",
+        "arpCd": "BOM"
+      },
+      "depTime": 1607382000000,
+      "arrTime": 1607397600000,
+      "dur": 15600000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "DXB-BOM : 6E-1769",
+        "depDate": "2020-12-08 04:30",
+        "arrDate": "2020-12-08 08:50",
+        "dur": 15600000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 6135.0,
+                  "singlePaxTx": 2421.0,
+                  "singlePaxTot": 8556.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 706.0,
+                    "taxCode": "F6"
+                  }, {
+                    "taxVal": 1513.0,
+                    "taxCode": "AE"
+                  }, {
+                    "taxVal": 101.0,
+                    "taxCode": "ZR"
+                  }, {
+                    "taxVal": 101.0,
+                    "taxCode": "TP"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {
+                    "DXB-BOM : 6E-1769": {
+                      "singlePaxBaseFare": 6135.0,
+                      "singlePaxTx": 2421.0,
+                      "singlePaxTot": 8556.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 1513.0,
+                        "taxCode": "AE"
+                      }, {
+                        "taxVal": 706.0,
+                        "taxCode": "F6"
+                      }, {
+                        "taxVal": 101.0,
+                        "taxCode": "TP"
+                      }, {
+                        "taxVal": 101.0,
+                        "taxCode": "ZR"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50": {
+                      "pclass": "R",
+                      "fareClass": "R",
+                      "fareBasis": "R0INT",
+                      "pClass": "R",
+                      "rbd": "R"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "DXB-BOM : 6E-1769",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 5000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 5000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6749.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6749.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "DXB-BOM : 6E-1769",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6749.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6749.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "DXB-BOM : 6E-1769",
+                "flightLookUpKey": "6E-1769-DXB-BOM-2020-12-08 04:30-2020-12-08 08:50",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "NAV42",
+              "supplierCredential": "6EUNI",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

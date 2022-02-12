@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/postsaleAncillary",
+        "bodyPatterns":[{
+        "contains" : "\"pnr\":\"PFGFHG\""
+        },
+	{	
+        "contains" : "\"postsaleAncillaryRequestType\":\"COMMIT\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/ancillarySoa/Test15_PNR1_dom_6E_AI_RT_PNR_ancillary_commit_response.json"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[{
+        "contains" : "PNR_Retrieve",
+		"contains" : "RZ43BD"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/PNR_retireve_RZ43BD.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

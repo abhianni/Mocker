@@ -1,0 +1,18 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/postsaleAncillary",
+        "bodyPatterns":[{
+        "contains" : "\"pnr\":\"JHVDQN\""
+        },
+	{	
+        "contains" : "\"postsaleAncillaryRequestType\":\"AVAILABILITY\""
+        },
+	{	
+        "contains" : "\"searchKey\":\"Error 400 Scenario\""
+        }]
+    },
+    "response": {
+        "status": 400
+	}
+}

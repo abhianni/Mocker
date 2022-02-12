@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/cms-service/credentialID",
+        "bodyPatterns":[{
+        "contains" : "DFITIntl_TIMEOUT_SCENARIO"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 30000
+    }
+}

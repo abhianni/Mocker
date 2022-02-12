@@ -1,0 +1,210 @@
+{
+  "error": null,
+  "sector": null,
+  "warning": null,
+  "cheapestFamily": null,
+  "itineraryList": [],
+  "serviceDisplayOrder": [],
+  "fareFamilies": [{
+    "selected": false,
+    "name": "SAVER",
+    "description": "SAVER FARE",
+    "carrier": "6E",
+    "packageSummary": {
+      "titleColor": "#ffd3d4",
+      "packageTitle": "Date Change Chargeable",
+      "packageDesc": "Upgrade to Flexi to enjoy unlimited free date changes",
+      "operationName": "SEE OTHER FARES"
+    },
+    "finalAdultFare": null,
+    "initialAdultFare": null,
+    "services": [{
+      "type": "6E-0C0",
+      "status": "NOF",
+      "serviceType": "BG",
+      "description": "HAND BAGGAGE"
+    }, {
+      "type": "6E-0B5",
+      "status": "CHA",
+      "serviceType": "SA",
+      "description": "PRE RESERVED SEAT ASSIGNMENT"
+    }, {
+      "type": "6E-0B3",
+      "status": "CHA",
+      "serviceType": "ML",
+      "description": "MEAL SERVICES"
+    }, {
+      "type": "6E-0BX",
+      "status": "NOF",
+      "serviceType": "LG",
+      "description": "LOUNGE ACCESS"
+    }, {
+      "type": "6E-0LF",
+      "status": "NOF",
+      "serviceType": "TS",
+      "description": "PRIORITY BAGGAGE HANDLING"
+    }, {
+      "type": "6E-0G6",
+      "status": "NOF",
+      "serviceType": "TS",
+      "description": "PRIORITY BOARDING CHARGES"
+    }, {
+      "type": "6E-068",
+      "status": "CHA",
+      "serviceType": "BF",
+      "description": "CHANGE ANYTIME"
+    }, {
+      "type": "6E-06K",
+      "status": "NOF",
+      "serviceType": "BF",
+      "description": "REFUND BEFORE DEPARTURE"
+    }, {
+      "type": "6E-06L",
+      "status": "NOF",
+      "serviceType": "BF",
+      "description": "REFUND AFTER DEPARTURE"
+    }]
+  }, {
+    "selected": false,
+    "name": "FLEXI",
+    "description": "FLEXI FARE",
+    "carrier": "6E",
+    "packageSummary": {
+      "titleColor": "#cdf6e8",
+      "packageTitle": "Great Choice! Unlimited free date changes",
+      "packageDesc": "Your Flexi fare now guarantees you unlimited free date changes",
+      "operationName": "SEE OTHER FARES"
+    },
+    "finalAdultFare": null,
+    "initialAdultFare": null,
+    "services": [{
+      "type": "6E-0C0",
+      "status": "NOF",
+      "serviceType": "BG",
+      "description": "HAND BAGGAGE"
+    }, {
+      "type": "6E-0B5",
+      "status": "CHA",
+      "serviceType": "SA",
+      "description": "PRE RESERVED SEAT ASSIGNMENT"
+    }, {
+      "type": "6E-0B3",
+      "status": "CHA",
+      "serviceType": "ML",
+      "description": "MEAL SERVICES"
+    }, {
+      "type": "6E-0BX",
+      "status": "NOF",
+      "serviceType": "LG",
+      "description": "LOUNGE ACCESS"
+    }, {
+      "type": "6E-0LF",
+      "status": "NOF",
+      "serviceType": "TS",
+      "description": "PRIORITY BAGGAGE HANDLING"
+    }, {
+      "type": "6E-0G6",
+      "status": "NOF",
+      "serviceType": "TS",
+      "description": "PRIORITY BOARDING CHARGES"
+    }, {
+      "type": "6E-068",
+      "status": "INC",
+      "serviceType": "BF",
+      "description": "CHANGE ANYTIME"
+    }, {
+      "type": "6E-06K",
+      "status": "NOF",
+      "serviceType": "BF",
+      "description": "REFUND BEFORE DEPARTURE"
+    }, {
+      "type": "6E-06L",
+      "status": "NOF",
+      "serviceType": "BF",
+      "description": "REFUND AFTER DEPARTURE"
+    }]
+  }],
+  "fareList": [{
+    "name": null,
+    "paxWiseFareList": {
+      "ADULT": {
+        "numOfPax": 1,
+        "paxType": "ADULT",
+        "paxFare": 0.0,
+        "fareBreakUp": {
+          "frBrkupMap": {
+            "TOT": 3125.0,
+            "TAXCOMPONENT-PHF": 50.0,
+            "TAX": 904.0,
+            "TAXCOMPONENT-RCF": 50.0,
+            "TAXCOMPONENT-YQ": 400.0,
+            "TAXCOMPONENT-ASF": 177.0,
+            "TAXCOMPONENT-PSF": 91.0,
+            "TAXCOMPONENT-07CGST": 68.0,
+            "TAXCOMPONENT-07SGST": 68.0
+          }
+        },
+        "fareComponentDetails": [{
+          "fareFamilyName": "SAVER",
+          "boardPoint": "DEL",
+          "offPoint": "BOM",
+          "carrier": "6E",
+          "segmentInfos": [{
+            "rbd": "R",
+            "fareBasis": "R0IP",
+            "supplierInfo": null,
+            "baggage": {
+              "qty": "7",
+              "utyp": "W",
+              "unt": null
+            },
+            "productClass": "R",
+            "fareSellKey": "0~R~ ~6E~R0IP~1060~~0~7~~X"
+          }]
+        }]
+      }
+    },
+    "personalizationMap": null
+  }, {
+    "name": null,
+    "paxWiseFareList": {
+      "ADULT": {
+        "numOfPax": 1,
+        "paxType": "ADULT",
+        "paxFare": 0.0,
+        "fareBreakUp": {
+          "frBrkupMap": {
+            "TOT": 3518.0,
+            "TAXCOMPONENT-PHF": 50.0,
+            "TAX": 922.0,
+            "TAXCOMPONENT-RCF": 50.0,
+            "TAXCOMPONENT-YQ": 400.0,
+            "TAXCOMPONENT-ASF": 177.0,
+            "TAXCOMPONENT-PSF": 91.0,
+            "TAXCOMPONENT-07CGST": 77.0,
+            "TAXCOMPONENT-07SGST": 77.0
+          }
+        },
+        "fareComponentDetails": [{
+          "fareFamilyName": "FLEXI",
+          "boardPoint": "DEL",
+          "offPoint": "BOM",
+          "carrier": "6E",
+          "segmentInfos": [{
+            "rbd": "R",
+            "fareBasis": "RUIP",
+            "supplierInfo": null,
+            "baggage": {
+              "qty": "7",
+              "utyp": "W",
+              "unt": null
+            },
+            "productClass": "J",
+            "fareSellKey": "0~R~ ~6E~RUIP~2007~~0~6~~X"
+          }]
+        }]
+      }
+    },
+    "personalizationMap": null
+  }]
+}

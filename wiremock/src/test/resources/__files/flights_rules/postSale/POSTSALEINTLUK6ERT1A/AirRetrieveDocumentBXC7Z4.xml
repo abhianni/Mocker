@@ -1,0 +1,151 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<air:AirRetrieveDocumentRsp TraceId="fwfwgwg" TransactionId="A0761C300A0759DA16E84CF3EB59A2BC" ResponseTime="382" UniversalRecordLocatorCode="8F74OL" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0">
+			<air:ETR Key="Bg4YNQqB0BKA+/aPRAAAAA==" TotalPrice="INR8146" BasePrice="INR6000" Taxes="INR2146" Refundable="false" Exchangeable="false" IssuedDate="2020-08-21T00:00:00.000+05:30" ProviderCode="1G" ProviderLocatorCode="BXC7Z4" IATANumber="14339942" PseudoCityCode="WP7" CountryCode="IN" PlatingCarrier="UK">
+				<air:AirReservationLocatorCode>8F74OS</air:AirReservationLocatorCode>
+				<common_v48_0:AgencyInfo>
+					<common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-08-20T18:30:00.000+00:00"/>
+				</common_v48_0:AgencyInfo>
+				<common_v48_0:BookingTraveler Key="zxyYNQkB0BKAhtC/QAAAAA==" TravelerType="ADT" Gender="F">
+					<common_v48_0:BookingTravelerName Prefix="Ms" First="Dhara" Last="Pillai"/>
+					<common_v48_0:PhoneNumber Key="zxyYNQkB0BKAitC/QAAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9820886958">
+						<common_v48_0:ProviderReservationInfoRef Key="55DVNQBAAA/Bc3bhRAAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="zxyYNQkB0BKAltC/QAAAAA==" EmailID="dharasanghavi1018@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="55DVNQBAAA/Bc3bhRAAAAA=="/>
+					</common_v48_0:Email>
+					<common_v48_0:SSR Key="Bg4YNQqB0BKAgAbPRAAAAA==" SegmentRef="55DVNQBAAA/BvObhRAAAAA==" Status="HK" Type="TKNE" FreeText="2283761423749C1" Carrier="UK" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:FormOfPayment Key="4MgSNQBAAA/BULBFSAAAAA==" Type="Cash" Reusable="false" ProfileKey="qj34kabFQDaG/+QgsHsMeg=="/>
+				<common_v48_0:Payment Key="Bg4YNQqB0BKAiAbPRAAAAA==" Type="Itinerary" Amount="INR8146" FormOfPaymentRef="4MgSNQBAAA/BULBFSAAAAA=="/>
+				<common_v48_0:SupplierLocator SupplierCode="UK" SupplierLocatorCode="UDQ8GJ"/>
+				<air:FareCalc>BOM UK DXB 80.35 NUC80.35END ROE74.671925 XT 428P2850YM102ZR130YR</air:FareCalc>
+				<air:Ticket Key="Bg4YNQqB0BKACAbPRAAAAA==" TicketNumber="2283761423749" TicketStatus="S">
+					<air:Coupon Key="Bg4YNQqB0BKAbAbPRAAAAA==" CouponNumber="1" MarketingCarrier="UK" MarketingFlightNumber="201" Origin="BOM" Destination="DXB" DepartureTime="2020-09-10T16:25:00.000+05:30" StopoverCode="true" BookingClass="V" FareBasis="VOBDINYV" NotValidBefore="2020-09-10" NotValidAfter="2020-09-10" Status="F" SegmentGroup="0" MarriageGroup="0">
+						<air:TicketDesignator Value="YV"/>
+					</air:Coupon>
+					<air:TicketEndorsement Value="NN2112053788892"/>
+				</air:Ticket>
+				<air:AirPricingInfo Key="3uugNQwYlDKAL0OAQAAAAA==" TotalPrice="INR8146" BasePrice="INR6000" ApproximateTotalPrice="INR8146" ApproximateBasePrice="INR6000" Taxes="INR2146" TrueLastDateToTicket="2020-08-31T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA==" AirPricingInfoGroup="1" Ticketed="true" PricingType="StoredFare" FareCalculationInd="G">
+					<air:FareInfo Key="u+GVNQBAAA/BRDAaRAAAAA==" FareBasis="VOBDINYV" PassengerTypeCode="ADT" Origin="BOM" Destination="DXB" EffectiveDate="2020-08-21T00:00:00.000+05:30" NotValidBefore="2020-09-10" NotValidAfter="2020-09-10">
+						<air:FareTicketDesignator Value="YV"/>
+						<common_v48_0:Endorsement Value="NON ENDORSABLE"/>
+						<common_v48_0:Endorsement Value="NON RE-ROUTABLE"/>
+						<common_v48_0:Endorsement Value="REBOOKING SBJCT TO PENALTY"/>
+						<air:BaggageAllowance>
+							<air:MaxWeight Value="30" Unit="Kilograms"/>
+						</air:BaggageAllowance>
+						<air:Brand BrandID="282197" Name="ECO VALUE" Carrier="UK" BrandTier="0001">
+							<air:Title Type="External">Economy Value</air:Title>
+							<air:Title Type="Short">ECOYV</air:Title>
+							<air:Text Type="ATPCO">CHECK IN//068/Z/CHANGE ANYTIMEBAGGAGE 7KG//0ML/F/EXCESS HAND BAGGAGE5KG//03Q/F/BAGGAGE UPTO 25KG//ACCESS//06K/Z/REFUND BEFORE DEPARTURE//06L/Z/REFUND//0B5/F/PRE RESERVED SEAT ASSIGNMENT//0BX/F/LOUNGE//0B3/F/MEAL SERVICES//0LF/F/PRIORITYDEPARTURE//058/Z/UPGRADE ELIGIBILITY//0M3/F/HANDBAGGAGE//0G6/F/PRIORITY BOARDING//0BW/F/PRIORITYAFTER</air:Text>
+							<air:Text Type="MarketingConsumer">Economy Value
+
+								•	Complimentary beverages on board
+								•	Complimentary meal on board
+								•	30kg checked-in baggage allowance
+								•	7kg hand baggage allowance
+								•	Free seat selection, except emergency exit seats
+								•	Changes permitted at ₹2,000
+								•	Cancellation charges ₹3,000</air:Text>
+							<air:Text Type="MarketingAgent">Economy Value
+
+								•	Complimentary beverages on board
+								•	Complimentary meal on board
+								•	30kg checked-in baggage allowance
+								•	7kg hand baggage allowance
+								•	Free seat selection, except emergency exit seats
+								•	Changes permitted at ₹2,000
+								•	Cancellation charges ₹3,000</air:Text>
+							<air:Text Type="Strapline">Economy Value</air:Text>
+							<air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/vistara/UK_general_medium_4653.jpg</air:ImageLocation>
+							<air:ImageLocation Type="Consumer" ImageWidth="1200" ImageHeight="800">https://cdn.travelport.com/vistara/UK_general_large_55858.jpg</air:ImageLocation>
+							<air:OptionalServices>
+								<air:OptionalService Type="Baggage" SupplierCode="UK" CreateDate="2020-08-21T09:14:04.534+00:00" ServiceSubCode="0M3" Key="UVejdSBAAA/BJyZlTAAAAA==" SecondaryType="Carry On Hand Baggage">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Hand baggage 7kg</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Chargeable Baggage"/>
+								</air:OptionalService>
+								<air:OptionalService Type="PreReservedSeatAssignment" SupplierCode="UK" CreateDate="2020-08-21T09:14:04.534+00:00" ServiceSubCode="0B5" Key="UVejdSBAAA/BKyZlTAAAAA==">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Pre reserved seat assignment</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+								<air:OptionalService Type="MealOrBeverage" SupplierCode="UK" CreateDate="2020-08-21T09:14:04.534+00:00" ServiceSubCode="0B3" Key="UVejdSBAAA/BLyZlTAAAAA==">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Meal services</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg"/>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+							</air:OptionalServices>
+						</air:Brand>
+					</air:FareInfo>
+					<air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="u+GVNQBAAA/BRDAaRAAAAA=="/>
+					<air:TaxInfo Category="IN" Amount="INR329" Key="UVejdSBAAA/B/xZlTAAAAA=="/>
+					<air:TaxInfo Category="K3" Amount="INR307" Key="UVejdSBAAA/BAyZlTAAAAA=="/>
+					<air:TaxInfo Category="P2" Amount="INR428" Key="UVejdSBAAA/BByZlTAAAAA=="/>
+					<air:TaxInfo Category="YM" Amount="INR850" Key="UVejdSBAAA/BCyZlTAAAAA=="/>
+					<air:TaxInfo Category="ZR" Amount="INR102" Key="UVejdSBAAA/BDyZlTAAAAA=="/>
+					<air:TaxInfo Category="YR" Amount="INR130" Key="UVejdSBAAA/BEyZlTAAAAA=="/>
+					<air:FareCalc>BOM UK DXB 80.35VOBDINYV/YV NUC80.35END ROE74.671925</air:FareCalc>
+					<air:PassengerType Code="ADT" BookingTravelerRef="zxyYNQkB0BKAhtC/QAAAAA==">
+						<air:FareGuaranteeInfo GuaranteeType="Guaranteed"/>
+					</air:PassengerType>
+					<common_v48_0:BookingTravelerRef Key="zxyYNQkB0BKAhtC/QAAAAA=="/>
+				</air:AirPricingInfo>
+				<air:BaggageAllowances>
+					<air:BaggageAllowanceInfo TravelerType="ADT" Origin="BOM" Destination="DXB" Carrier="UK">
+						<air:URLInfo>
+							<air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UK</air:URL>
+						</air:URLInfo>
+						<air:TextInfo>
+							<air:Text>30K</air:Text>
+							<air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+						</air:TextInfo>
+						<air:BagDetails ApplicableBags="1stChecked">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:BagDetails>
+						<air:BagDetails ApplicableBags="2ndChecked">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:BagDetails>
+					</air:BaggageAllowanceInfo>
+					<air:CarryOnAllowanceInfo Origin="BOM" Destination="DXB" Carrier="UK">
+						<air:TextInfo>
+							<air:Text>7K</air:Text>
+						</air:TextInfo>
+						<air:CarryOnDetails ApplicableCarryOnBags="1">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:CarryOnDetails>
+						<air:CarryOnDetails ApplicableCarryOnBags="2">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:CarryOnDetails>
+					</air:CarryOnAllowanceInfo>
+				</air:BaggageAllowances>
+			</air:ETR>
+		</air:AirRetrieveDocumentRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

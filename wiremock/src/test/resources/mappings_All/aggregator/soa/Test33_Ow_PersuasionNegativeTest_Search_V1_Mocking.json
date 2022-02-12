@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search/dom/aggr",
+        "bodyPatterns":[{	
+        "contains" : "\"sequenceId\":\"PersuasionNegativeTestRANDOMDATATHENCLOSE\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/aggregator/soa/Test_Ow_PersuasionNegativeTestRANDOMDATATHENCLOSE_Search_V1_Mocking.json"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        
+       "bodyPatterns":[{
+        "contains" : "PNR_Retrieve"},
+{		"contains" : "TW64ZO"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Prepayment/PNR_retireve_TW64ZO_successful.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

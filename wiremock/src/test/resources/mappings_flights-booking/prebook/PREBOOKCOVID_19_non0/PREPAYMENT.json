@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightBooking/prePayment",
+       "bodyPatterns":[
+{       "contains" : "PREBOOKCOVID_19_non0_itID"
+}
+]
+
+    },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_booking/prebook/PREBOOKCOVID_19_non0/PREPAYMENT.json"
+  }
+}
+

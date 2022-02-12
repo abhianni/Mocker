@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search/dom/aggr",
+        "bodyPatterns":[{	
+        "contains" : "\"sequenceId\":\"PersonalisationNegativeTestMALFORMEDRESPONSECHUNK\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/aggregator/soa/Test_Ow_PersonalisationNegativeTestMALFORMEDRESPONSECHUNK_Search_V1_Mocking_response.json"
+    }
+}

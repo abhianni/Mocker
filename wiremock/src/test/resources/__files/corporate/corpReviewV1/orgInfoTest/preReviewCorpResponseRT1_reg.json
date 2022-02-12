@@ -1,0 +1,111 @@
+{
+    "itineraryId": "testuser1_reviewitinerary_RTDom_regular1",
+    "status": "SUCCESS",
+    "meta": {
+        "core": {
+            "nmAdt": 2,
+            "nmChd": 0,
+            "nmInf": 0,
+            "it": [
+                {
+                    "classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+                    "from": "PNQ",
+                    "to": "DEL",
+                    "depDate": "2020-03-25"
+                },
+                {
+                    "classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+                    "from": "DEL",
+                    "to": "PNQ",
+                    "depDate": "2020-03-27"
+                }
+            ],
+            "cc": "E"
+        },
+        "isDDApld": false,
+        "srvrMtrc": {}
+    },
+    "recom": {
+        "itneraryJrnys": [
+            {
+                "isCstmComb": false,
+                "depDate": "2020-03-25 01:30",
+                "arrDate": "2020-03-25 03:40",
+                "dur": 130,
+                "flightDtlsInfo": [
+                    {
+                        "flyingDay": 0,
+                        "fltLookUpKey": "I5_I5_736_PNQ_DEL_2020-03-25 01:30_2020-03-25 03:40",
+                        "pnrGroupNum": 0
+                    }
+                ]
+            },
+            {
+                "isCstmComb": true,
+                "depDate": "2020-03-27 02:30",
+                "arrDate": "2020-03-27 04:40",
+                "dur": 130,
+                "flightDtlsInfo": [
+                    {
+                        "flyingDay": 0,
+                        "fltLookUpKey": "I5_I5_728_DEL_PNQ_2020-03-27 02:30_2020-03-27 04:40",
+                        "pnrGroupNum": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "alCdeMap": {
+        "I5": {
+            "nm": "AirAsia"
+        }
+    },
+    "ctyCdeMap": {
+        "PNQ": {
+            "nm": "Pune",
+            "cntry": "India",
+            "ctc": "IN",
+            "tmz": "Asia/Kolkata",
+            "airportName": "Pune Airport"
+        },
+        "DEL": {
+            "nm": "New Delhi",
+            "cntry": "India",
+            "ctc": "IN",
+            "tmz": "Asia/Kolkata",
+            "airportName": "Indira Gandhi International Airport"
+        }
+    },
+    "flightLookUpList": {
+        "I5_I5_728_DEL_PNQ_2020-03-27 02:30_2020-03-27 04:40": {
+            "mrkAl": "I5",
+            "oprAl": "I5",
+            "fltNo": "728",
+            "depInfo": {
+                "cityCd": "DEL"
+            },
+            "arrInfo": {
+                "cityCd": "PNQ"
+            },
+            "tchStp": [],
+            "depTime": "2020-03-27 02:30",
+            "arrTime": "2020-03-27 04:40",
+            "dur": 130
+        },
+        "I5_I5_736_PNQ_DEL_2020-03-25 01:30_2020-03-25 03:40": {
+            "mrkAl": "I5",
+            "oprAl": "I5",
+            "fltNo": "736",
+            "depInfo": {
+                "cityCd": "PNQ"
+            },
+            "arrInfo": {
+                "cityCd": "DEL"
+            },
+            "tchStp": [],
+            "depTime": "2020-03-25 01:30",
+            "arrTime": "2020-03-25 03:40",
+            "dur": 130
+        }
+    }
+}

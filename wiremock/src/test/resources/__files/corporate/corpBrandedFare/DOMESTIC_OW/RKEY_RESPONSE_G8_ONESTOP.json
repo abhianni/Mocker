@@ -1,0 +1,107 @@
+{
+	"RKEY:rkeyB2B1:24": {
+		"left": 1,
+		"middle": {
+			"fareKeyMap": {
+				"0": [{
+					"productClass": "BC",
+					"fareClass": "N",
+					"fareBasis": "NO9ZBINF",
+					"taxPsf": "91.0",
+					"taxYq": "600.0",
+					"taxYr": null,
+					"taxYdf": null,
+					"taxK3": null,
+					"journeyIndex": 0,
+					"legIndex": 0,
+					"pax": "A"
+				}, {
+					"productClass": "BC",
+					"fareClass": "H",
+					"fareBasis": "HO9ZBINF",
+					"taxPsf": "91.0",
+					"taxYq": "600.0",
+					"taxYr": null,
+					"taxYdf": null,
+					"taxK3": null,
+					"journeyIndex": 0,
+					"legIndex": 1,
+					"pax": "A"
+				}]
+			},
+			"paxFareInformation": {
+				"adultPrice": 5143.0,
+				"childPrice": 0,
+				"infantPrice": 0,
+				"adultBasePrice": 3882.0,
+				"childBasePrice": 0,
+				"infantBasePrice": 0,
+				"rtAdultPrice": null,
+				"rtChildPrice": null,
+				"rtInfantPrice": null,
+				"rtAdultBasePrice": null,
+				"rtChildBasePrice": null,
+				"rtInfantBasePrice": null
+			},
+			"flightLevelInformation": {
+				"cabinClass": "M",
+				"adultNumber": 1,
+				"childNumber": 0,
+				"infantNumber": 0,
+				"markup": 0,
+				"lob": "CORPB2B_UN",
+				"realRKey": "v1~~BC$N$NO9ZBINF$91.0$600.0$null$null$null$0$0$A,BC$H$HO9ZBINF$91.0$600.0$null$null$null$0$1$A~A-5143.0|3882.0_C-0|0_I-0|0~M$1$0$0$CORPB2B_UN$0$0~~DEL_LKO_030420_G8-188_RzhVTklOU0NPUlA=_16:55_030420_18:05_G8_G8_G8_P,LKO_BLR_030420_G8-806_RzhVTklOU0NPUlA=_19:10_030420_21:40_G8_G8_G8_JO~G8_0_0_DEL-BLR-030420_null_null",
+				"discount": 0
+			}
+		},
+		"right": {
+			"0": {
+				"segments": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "LKO",
+					"depDate": "030420",
+					"depTime": "16:55",
+					"depDateTime": "2020-04-03 16:55",
+					"arrDate": "030420",
+					"arrTime": "18:05",
+					"arrDateTime": "2020-04-03 18:05",
+					"flightNumber": "G8-188",
+					"cmsId": "G8UNINSCORP",
+					"validatingAirline": "G8",
+					"marketingAirline": "G8",
+					"operatingAirline": "G8",
+					"flightServiceName": null,
+					"pnrGroup": null,
+					"rtFareFlag": null,
+					"stopType": "PLANE_CHANGE"
+				}, {
+					"depCityCode": "LKO",
+					"arrCityCode": "BLR",
+					"depDate": "030420",
+					"depTime": "19:10",
+					"depDateTime": "2020-04-03 19:10",
+					"arrDate": "030420",
+					"arrTime": "21:40",
+					"arrDateTime": "2020-04-03 21:40",
+					"flightNumber": "G8-806",
+					"cmsId": "G8UNINSCORP",
+					"validatingAirline": "G8",
+					"marketingAirline": "G8",
+					"operatingAirline": "G8",
+					"flightServiceName": null,
+					"pnrGroup": null,
+					"rtFareFlag": null,
+					"stopType": "JOURNEY_OVER"
+				}],
+				"otherInfo": {
+					"flightServiceName": "G8",
+					"pnrGroup": 0,
+					"fareFamily": null,
+					"rtFareFlag": 0,
+					"intent": "DEL-BLR-030420",
+					"ptc": null
+				}
+			}
+		}
+	}
+}

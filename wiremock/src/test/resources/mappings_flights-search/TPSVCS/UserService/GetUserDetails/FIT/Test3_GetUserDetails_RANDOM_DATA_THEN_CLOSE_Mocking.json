@@ -1,0 +1,9 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-tp-svcs/v1/user-details?.*RandomDataGUD.*"
+    },
+    "response": {
+        "fault": "RANDOM_DATA_THEN_CLOSE"
+    }
+}

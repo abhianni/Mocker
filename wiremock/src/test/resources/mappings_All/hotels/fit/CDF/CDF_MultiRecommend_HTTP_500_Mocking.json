@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/cdf/rest/services/recommendCouponsForMultipleContexts*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_Avail_TEST_CDF_HTTP_500"
+        }]
+    },
+    "response": {
+        "status": 500,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

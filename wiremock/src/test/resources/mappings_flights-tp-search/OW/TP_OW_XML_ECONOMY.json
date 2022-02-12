@@ -1,0 +1,16 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/B2BGateway/connect/uAPI/AirService",
+    "bodyPatterns":[
+      {         
+    "contains": "\"Economy\""
+}
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/TP/OW/XMLEconomy.json"
+
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/hotels-entity/api/v2.0/.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_WEBAPI_HTTP_500"
+        }]
+    },
+    "response": {
+        "status": 500,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

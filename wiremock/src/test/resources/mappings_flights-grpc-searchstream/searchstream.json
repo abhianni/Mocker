@@ -1,0 +1,19 @@
+{
+  "request":{
+    "urlPattern": "/flights-grpc/searchstream",
+    "bodyPatterns":[
+
+{ "contains" : "2021-01-26"
+},
+{ "contains" : "DEL"
+}
+
+
+
+]
+  },
+  "response": {
+    "bodyFileName": "/grpc/searchstream/flightsfound.json"
+
+  }
+}

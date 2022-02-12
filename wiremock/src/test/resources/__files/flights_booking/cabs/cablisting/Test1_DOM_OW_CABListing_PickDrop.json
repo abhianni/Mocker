@@ -1,0 +1,59 @@
+{
+  "statusCode": 200,
+  "status": "SUCCESS",
+  "persuasionMessages": ["Driver receives you at the airport", "Airport Tolls included in price", "No surge pricing, no queues"],
+  "tnc": ["Driver details will be shared up to 2 hours prior to departure.", "Due to traffic or any other unavoidable reason, pickup may be delayed by 30 mins", "Please choose your pickup time keeping time for baggage collection, immigration, custom checks, etc.", "MMT reserves the right to cancel or change the booking of a vehicle at any point", "The booking will be for particular car category and we do not commit on providing any preferred car mode", "Waiting Charges: For drop to airport, post 15 mins of waiting a charge of Rs 100/30 min will be levied. For pickup from airport, post 45 mins of waiting a charge of Rs 100/30 min will be levied. In cases where the driver is made to wait indefinitely, booking can be cancelled with no refund."],
+  "tncLink": "https://promos.makemytrip.com/flight-addon-terms.html",
+  "pickUpAndDropCabs": [{
+    "key": "HYD_AIR_drop_sedan_1563877209226",
+    "displayMsg": "Book Cab Drop To Hyderabad Airport",
+    "cabCityCode": "HYD_AIR",
+    "cityCode": "HYD",
+    "flightDepartureDate": 1584457200000,
+    "cabServiceType": "DROP",
+    "date": 1584383400000,
+    "flightNumber": "I5-1519",
+    "cabs": [{
+      "tripLegId": "HYD_BLR_17-03-2020_20:30",
+      "cabCategory": "SEDAN",
+      "cabImageUrl": "https://imgak.mmtcdn.com/cabs_cdn/dist/static/images/new_cab_images/sedan.png",
+      "vendorId": "4",
+      "luggageCapacity": "3 BAGS",
+      "seatCapacity": "4 SEATS",
+      "fareOptions": [{
+        "itemCode": "DROP_I5-1519_2020-03-17_00:00_711.0",
+        "totalPrice": 711.0,
+        "inclusiveKms": 30,
+        "extraFarePerKm": 20.0,
+        "priceMessage": "Flat ₹711.0 up to 30.0 kms",
+        "isSelected": false
+      }]
+    }]
+  }, {
+    "key": "BLR_AIR_pickup_sedan_1563877209300",
+    "displayMsg": "Book Cab Pick-up From Bangalore International Airport",
+    "cabCityCode": "BLR_AIR",
+    "cityCode": "BLR",
+    "flightDepartureDate": 1584457200000,
+    "cabServiceType": "PICKUP",
+    "date": 1584383400000,
+    "flightNumber": "I5-1519",
+    "cabs": [{
+      "tripLegId": "HYD_BLR_17-03-2020_20:30",
+      "cabCategory": "SEDAN",
+      "cabImageUrl": "https://imgak.mmtcdn.com/cabs_cdn/dist/static/images/new_cab_images/sedan.png",
+      "vendorId": "4",
+      "luggageCapacity": "3 BAGS",
+      "seatCapacity": "4 SEATS",
+      "fareOptions": [{
+        "itemCode": "PICKUP_I5-1519_2020-03-17_00:00_849.0",
+        "totalPrice": 849.0,
+        "inclusiveKms": 45,
+        "extraFarePerKm": 10.0,
+        "priceMessage": "Flat ₹849.0 up to 45.0 kms",
+        "isSelected": false
+      }]
+    }]
+  }],
+  "cardDisplayMsg": "Airport Pickups & Drops"
+}

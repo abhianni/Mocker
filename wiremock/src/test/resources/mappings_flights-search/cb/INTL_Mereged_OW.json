@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "GET",
+		"urlPattern": "/flights-search/v4/search?.*DEL.*DXB.*"
+       
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+        "bodyFileName": "/flights_search/cb/mergedOWITNL_SHD.json"
+		
+    }
+}

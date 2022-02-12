@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/flights-mmt-svcs/v1/persuasion/peitho?.*PA.*",
+    "headers": {
+      "Content-Type" : { "matches" : "application/json" },
+      "x-uuid" : {"matches" : "FLUKJ5CVMK" },
+      "x-profile-type" : {"matches" : "PERSONAL" },
+      "x-pfm" : {"matches" : "ANDROID" },
+      "x-src" : {"matches" : "MMT" },
+      "x-os" : {"matches" : "OS" },
+      "x-lob" : {"matches" : "B2C" },
+      "x-app-ver" : {"matches" : "ver" },
+      "x-device-id" : {"matches" : "id" }
+    }
+  },
+    "response": {
+      "status": 200,
+      "bodyFileName": "/flights_search/TPSVCS/peitho/Response_Peitho_Assertion.json"
+    }
+}

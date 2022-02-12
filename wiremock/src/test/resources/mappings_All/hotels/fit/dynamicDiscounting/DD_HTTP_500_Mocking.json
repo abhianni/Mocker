@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/DynamicDiscounting/v2.0/signal.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_DD_HTTP_500"
+        }]
+    },
+    "response": {
+        "status": 500,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

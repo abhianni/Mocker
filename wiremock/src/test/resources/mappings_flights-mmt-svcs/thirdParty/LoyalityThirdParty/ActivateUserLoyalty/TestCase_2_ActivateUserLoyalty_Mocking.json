@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/loyalty-webservice/activateUser",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"}
+		},
+        "bodyPatterns":[{
+        "contains" : "USERALREADYEXISTS"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/LoyalityThirdParty/ActivateUserLoyalty/TestCase_2_ActivateUserLoyalty_Response.json"
+    }
+}

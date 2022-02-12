@@ -1,0 +1,206 @@
+{
+  "filterData": {
+    "stop": {
+      "tripData": [
+        {
+          "header": "Stops From Chandigarh",
+          "filters": [
+            {
+              "displayText": "Non-stop",
+              "bitset": "000111110000000000000",
+              "price": "2,254",
+              "tag": "nonstop"
+            },
+            {
+              "displayText": "One-stop",
+              "bitset": "111000001111111111110",
+              "price": "3,820",
+              "tag": "onestop"
+            },
+            {
+              "displayText": "More-stop",
+              "bitset": "000000000000000000001",
+              "price": "25,450",
+              "tag": "multistop"
+            }
+          ]
+        }
+      ]
+    },
+    "departure": {
+      "tripData": [
+        {
+          "header": "Departure From Chandigarh",
+          "filters": [
+            {
+              "displayText": "Before 6AM",
+              "bitset": "000001000000000000000",
+              "price": "2,397",
+              "tag": "morning"
+            },
+            {
+              "displayText": "6AM - 12PM",
+              "bitset": "101000000001000101111",
+              "price": "3,820",
+              "tag": "noon"
+            },
+            {
+              "displayText": "12PM - 6PM",
+              "bitset": "010000110100100010000",
+              "price": "2,397",
+              "tag": "evening"
+            },
+            {
+              "displayText": "After 6PM",
+              "bitset": "000110001010011000000",
+              "price": "2,254",
+              "tag": "night"
+            }
+          ]
+        }
+      ]
+    },
+    "arrival": {
+      "tripData": [
+        {
+          "header": "Arrival To Adampur",
+          "filters": [
+            {
+              "displayText": "Before 6AM",
+              "bitset": "000000001010011000000",
+              "price": "4,356",
+              "tag": "morning"
+            },
+            {
+              "displayText": "6AM-12PM",
+              "bitset": "000001000000000000000",
+              "price": "2,397",
+              "tag": "noon"
+            },
+            {
+              "displayText": "12PM-6PM",
+              "bitset": "111000010001100001111",
+              "price": "2,397",
+              "tag": "evening"
+            },
+            {
+              "displayText": "After 6PM",
+              "bitset": "000110100100000110000",
+              "price": "2,254",
+              "tag": "night"
+            }
+          ]
+        }
+      ]
+    },
+    "airline": {
+      "header": "Operating Airline",
+      "filters": [
+        {
+          "displayText": "AirIndia",
+          "bitset": "001000100000000000001",
+          "price": "2,917",
+          "tag": "AI"
+        },
+        {
+          "displayText": "Go Air",
+          "bitset": "000000000000011110000",
+          "price": "4,816",
+          "tag": "G8"
+        },
+        {
+          "displayText": "IndiGo",
+          "bitset": "110111011111100000000",
+          "price": "2,254",
+          "tag": "6E"
+        },
+        {
+          "displayText": "Jet Airways",
+          "bitset": "000000000000000001110",
+          "price": "4,246",
+          "tag": "9W"
+       },
+        {
+          "displayText": "Spicejet",
+          "bitset": "111000000000000001111",
+          "price": "3,820",
+          "tag": "SG"
+        }
+      ]
+    },
+    "fareType": {
+      "header": "Fare Type",
+      "filters": [
+        {
+         "displayText": "Refundable Flights",
+          "bitset": "000000000000000000000",
+          "price": "",
+          "tag": "refundable"
+        },
+        {
+          "displayText": "Partially Refundable",
+          "bitset": "111111111111100000001",
+          "price": "2,254",
+          "tag": "partiallyrefundable"
+        }
+      ]
+    },
+    "misc": {
+      "header": "",
+      "filters": null
+    }
+  },
+  "applied_sort": "price",
+  "quickFiltersList": [
+    {
+      "groupTag": "airline",
+      "tag": "SG",
+      "text": "Spicejet"
+    },
+    {
+      "groupTag": "departure",
+      "tag": "morning",
+      "text": "Before 6AM"
+    },
+    {
+      "groupTag": "departure",
+      "tag": "noon",
+      "text": "6AM - 12PM"
+    },
+    {
+      "groupTag": "fareType",
+      "tag": "partiallyrefundable",
+      "text": "Partially Refundable"
+    },
+    {
+      "groupTag": "stop",
+      "tag": "nonstop",
+      "text": "Non-stop"
+    },
+    {
+      "groupTag": "stop",
+      "tag": "onestop",
+      "text": "One-stop"
+    }
+  ],
+  "sortAvailMap": {
+    "arr_early": true,
+    "arr_late": true,
+    "dep_early": true,
+    "dep_late": true,
+    "duration": true,
+    "price": true
+  },
+  "bannerData": [
+    {
+      "type": "Text",
+      "index": 4,
+      "priority": 1,
+      "title": "Zero Cancellation",
+      "subtitle": "Get full refund on cancellation penalties. Buy Zero cancellation @ 449 only",
+      "bgColor": [
+        "#cdf6e8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "AF-AF-191-BLR-CDG-2020-09-02 01:30-2020-09-02 08:15"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTLAFOWA/GETRULETP.json"
+  }
+}
+

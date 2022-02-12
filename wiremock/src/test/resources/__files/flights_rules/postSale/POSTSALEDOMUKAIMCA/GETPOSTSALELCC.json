@@ -1,0 +1,230 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NF70102278750300",
+    "iteneraryId": "ad581c4a4fc037a3c41a0d448e69dba089d17d91",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><String xmlns=\"java.lang.String\">NF70102278750300</String>",
+      "BookingAggregatorResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BookingData xmlns:ns2=\"com.mmt.flights.getpnr.BookingData\"><cabinClass>E</cabinClass><cancellationAssurance>false</cancellationAssurance><itineraryId>ad581c4a4fc037a3c41a0d448e69dba089d17d91</itineraryId><mmtId>NF70102278750300</mmtId><pnrData><airlineCode>UK</airlineCode><pnrNo>NW3R2C</pnrNo><supplierId>TPUNI_DOM</supplierId><supplierType>TP</supplierType></pnrData><pnrData><airlineCode>AI</airlineCode><pnrNo>NW3S6K</pnrNo><supplierId>TPUNI_DOM</supplierId><supplierType>TP</supplierType></pnrData><userData><profileType>PERSONAL</profileType><uuid>UOMQQIEF9GM</uuid></userData></ns2:BookingData>",
+      "PostSaleCPReq": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</key><value><aircraftType>ATR</aircraftType><arrTime>1597649700000</arrTime><arrivalInfo><arpCd>IXY</arpCd><trmnl></trmnl></arrivalInfo><depTime>1597645800000</depTime><departureInfo><arpCd>AMD</arpCd><trmnl>2</trmnl></departureInfo><duration>3900000</duration><flightNum>9873</flightNum><marketingAirline>AI</marketingAirline><operatingAirline>9I</operatingAirline><validatingCarrier>AI</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NF70102278750300</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>ad581c4a4fc037a3c41a0d448e69dba089d17d91</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><cancellationAssured>false</cancellationAssured><fareFamily>Economy Saver</fareFamily><paxFares><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</key><value><fareBasis>SIPRC</fareBasis><fareClass>S</fareClass><PClass></PClass><rbd>S</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>1300.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>65.0</taxVal></singlePaxTaxBreakups><singlePaxTot>1365.0</singlePaxTot><singlePaxTx>65.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_DOM</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-08-17 13:05</arrDate><depDate>2020-08-17 12:00</depDate><duration>3900000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>AMD-IXY : AI-9873</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-08-03 04:18:50\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NF70102278750300\\\",\\\"iteneraryId\\\":\\\"ad581c4a4fc037a3c41a0d448e69dba089d17d91\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\\\":{\\\"mrkAl\\\":\\\"AI\\\",\\\"oprAl\\\":\\\"9I\\\",\\\"validatingCarrier\\\":\\\"AI\\\",\\\"fltNo\\\":\\\"9873\\\",\\\"arcrfTyp\\\":\\\"ATR\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"2\\\",\\\"arpCd\\\":\\\"AMD\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"\\\",\\\"arpCd\\\":\\\"IXY\\\"},\\\"depTime\\\":1597645800000,\\\"arrTime\\\":1597649700000,\\\"dur\\\":3900000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"AMD-IXY : AI-9873\\\",\\\"depDate\\\":\\\"2020-08-17 12:00\\\",\\\"arrDate\\\":\\\"2020-08-17 13:05\\\",\\\"dur\\\":3900000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":1300.0,\\\"singlePaxTx\\\":65.0,\\\"singlePaxTot\\\":1365.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":65.0,\\\"taxCode\\\":\\\"K3\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{},\\\"segPrdctInfo\\\":{\\\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\\\":{\\\"pclass\\\":\\\"\\\",\\\"fareClass\\\":\\\"S\\\",\\\"fareBasis\\\":\\\"SIPRC\\\",\\\"pClass\\\":\\\"\\\",\\\"rbd\\\":\\\"S\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"TP\\\",\\\"supplierCredential\\\":\\\"TPUNI_DOM\\\",\\\"fareFamily\\\":\\\"Economy Saver\\\"}]}}}}]}}\",\"ticketData\":\"{\\\"paxWiseTicket\\\":{\\\"0983761228767\\\":\\\"ADULT\\\"},\\\"ticketToOfficeIdMap\\\":{\\\"0983761228767\\\":\\\"P3084214\\\"},\\\"ticketToAccountCodeMap\\\":{\\\"0983761228767\\\":\\\"\\\"},\\\"allTicketsByPaxType\\\":{\\\"0983761228767\\\":\\\"ADULT\\\"},\\\"oneTicketNumberPerPaxType\\\":{\\\"0983761228767\\\":\\\"ADULT\\\"}}\",\"mmtId\":\"NF70102278750300\"}",
+      "TPPostSaleBagXML0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostSaleTPBaggage0983761228767": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:AirRetrieveDocumentRsp UniversalRecordLocatorCode=\"7WCTOK\" TransactionId=\"F714D2B80A07406EB9FBB0BD97E0A53B\" ResponseTime=\"217\" xmlns=\"http://www.travelport.com/schema/common_v47_0\" xmlns:ns6=\"http://www.travelport.com/schema/passive_v47_0\" xmlns:ns5=\"http://www.travelport.com/schema/hotel_v47_0\" xmlns:ns8=\"http://www.travelport.com/schema/cruise_v47_0\" xmlns:ns7=\"http://www.travelport.com/schema/rail_v47_0\" xmlns:ns2=\"http://www.travelport.com/schema/air_v47_0\" xmlns:ns4=\"http://www.travelport.com/schema/universal_v47_0\" xmlns:ns3=\"http://www.travelport.com/schema/vehicle_v47_0\"><ns2:ETR Key=\"yxlNhOBAAA/BzImDwBAAAA==\" Refundable=\"false\" Exchangeable=\"false\" IssuedDate=\"2020-08-03T00:00:00.000+05:30\" ProviderCode=\"1G\" ProviderLocatorCode=\"NW3S6K\" IATANumber=\"14339942\" PseudoCityCode=\"WP7\" PlatingCarrier=\"AI\" TotalPrice=\"INR1365\" BasePrice=\"INR1300\" Taxes=\"INR65\"><ns2:AirReservationLocatorCode>7WCTOL</ns2:AirReservationLocatorCode><AgencyInfo><AgentAction ActionType=\"Created\" AgentCode=\"uAPI1667027830-ed41e340\" BranchCode=\"P3084230\" AgencyCode=\"S3083002\" EventTime=\"2020-08-02T18:30:00.000Z\"/></AgencyInfo><BookingTraveler Key=\"gu2KhOBAAA/BBAcOwBAAAA==\" TravelerType=\"ADT\" Gender=\"M\"><BookingTravelerName Prefix=\"MR\" First=\"raj\" Last=\"Kumar\"/><PhoneNumber Key=\"gu2KhOBAAA/BCAcOwBAAAA==\" Type=\"None\" Location=\"DEL\" CountryCode=\"91\" Number=\"9099000482\"><ProviderReservationInfoRef Key=\"A/BUhOmB0BKAjMzjvBAAAA==\"/></PhoneNumber><Email Key=\"gu2KhOBAAA/BFAcOwBAAAA==\" EmailID=\"reachraj16@gmail.com\"><ProviderReservationInfoRef Key=\"A/BUhOmB0BKAjMzjvBAAAA==\"/></Email><SSR Key=\"yxlNhOBAAA/B3ImDwBAAAA==\" SegmentRef=\"A/BUhOmB0BKAriyjvBAAAA==\" ProviderReservationInfoRef=\"A/BUhOmB0BKAjMzjvBAAAA==\" Type=\"TKNE\" Status=\"HK\" FreeText=\"0983761228767C1\" Carrier=\"AI\"/></BookingTraveler><FormOfPayment Key=\"MF0+VOZYlDKAlS8kFDAAAA==\" Type=\"Credit\" Reusable=\"true\" ProfileKey=\"sXMOS8JETXazULuZutXbyQ==\"><CreditCard Type=\"VI\" Number=\"************2007\" ExpDate=\"2024-01\"/></FormOfPayment><Payment Key=\"yxlNhOBAAA/B5ImDwBAAAA==\" Type=\"Itinerary\" FormOfPaymentRef=\"MF0+VOZYlDKAlS8kFDAAAA==\" Amount=\"INR1365\"/><CreditCardAuth PaymentRef=\"yxlNhOBAAA/B5ImDwBAAAA==\" Number=\"************2007\" Amount=\"INR1365\" AuthCode=\"106979\" AuthResultCode=\"approved\" FormOfPaymentRef=\"MF0+VOZYlDKAlS8kFDAAAA==\"/><SupplierLocator SupplierCode=\"AI\" SupplierLocatorCode=\"JGK6K\"/><ns2:FareCalc>AMD AI IXY 1300 INR1300END</ns2:FareCalc><ns2:Ticket Key=\"yxlNhOBAAA/B1ImDwBAAAA==\" TicketNumber=\"0983761228767\" TicketStatus=\"N\"><ns2:Coupon Key=\"yxlNhOBAAA/B2ImDwBAAAA==\" CouponNumber=\"1\" MarketingCarrier=\"AI\" MarketingFlightNumber=\"9873\" Origin=\"AMD\" Destination=\"IXY\" DepartureTime=\"2020-08-17T12:00:00.000+05:30\" StopoverCode=\"true\" BookingClass=\"S\" FareBasis=\"SIPRC\" NotValidBefore=\"2020-08-17\" NotValidAfter=\"2020-08-17\" Status=\"O\" SegmentGroup=\"0\" MarriageGroup=\"0\"/><ns2:TicketEndorsement Value=\"NF70102278750300\"/></ns2:Ticket><Commission Key=\"/cFbpPuB0BKA4jv6MBAAAA==\" Level=\"Fare\" Type=\"PercentBase\" Percentage=\"1.5\"/><ns2:BaggageAllowances><ns2:BaggageAllowanceInfo TravelerType=\"ADT\" Origin=\"AMD\" Destination=\"IXY\" Carrier=\"AI\"><ns2:URLInfo><ns2:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/AI</ns2:URL></ns2:URLInfo><ns2:TextInfo><ns2:Text>15K</ns2:Text><ns2:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</ns2:Text></ns2:TextInfo><ns2:BagDetails ApplicableBags=\"1stChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails><ns2:BagDetails ApplicableBags=\"2ndChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails></ns2:BaggageAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"AMD\" Destination=\"IXY\" Carrier=\"9I\"><ns2:TextInfo><ns2:Text>BAGGAGE ALLOWANCE DATA NOT AVAILABLE</ns2:Text></ns2:TextInfo></ns2:CarryOnAllowanceInfo></ns2:BaggageAllowances></ns2:ETR></ns2:AirRetrieveDocumentRsp>",
+      "PostSaleTPBaggagePcToKg0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostTickedTPMiniRuleRequest0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostTickedRawTPMiniRuleResponseADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenaltiesFromTicketNumberResponse xmlns:ns2=\"org.tempuri.GetPenaltiesFromTicketNumberResponse\"><getPenaltiesFromTicketNumberResult>&lt;ArrayOfFareRule xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;SIPRC&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType /&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;SIPRC&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;3000&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;SIPRC&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;SIPRC&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;3000&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;SIPRC&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;3000&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;SIPRC&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;/ArrayOfFareRule&gt;</getPenaltiesFromTicketNumberResult></ns2:GetPenaltiesFromTicketNumberResponse>",
+      "MiniRuleConfig": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:MiniRulesConfig xmlns:ns2=\"com.mmt.models.MiniRulesConfig\"><airline>AI</airline><CPAdditive>0.0</CPAdditive><CPMultiplier>1.05</CPMultiplier><cabinClass>ECONOMY</cabinClass><DCPAdditive>0.0</DCPAdditive><DCPMultiplier>1.05</DCPMultiplier><noShowCutOff>24</noShowCutOff><sector>DOM</sector></ns2:MiniRulesConfig>",
+      "PostTickedTPMiniRuleResponseADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayOfFareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>AI</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>SIPRC</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType></CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>AI</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>SIPRC</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3000</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>AI</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>SIPRC</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>AI</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>SIPRC</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3000</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>AI</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>SIPRC</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3000</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>AI</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>SIPRC</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule></ArrayOfFareRule>",
+      "PostSaleBaggageResponse0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"AMD-IXY : AI-9873\":{\"fltGrps\":[{\"fltKeys\":[\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"AMD-IXY : AI-9873\":{\"fltGrps\":[{\"fltKeys\":[\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"AI\",\"from\":24,\"to\":8760,\"fareBasis\":\"SIPRC\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"AI\",\"from\":-8760,\"to\":0,\"fareBasis\":\"SIPRC\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"AI\",\"from\":0,\"to\":24,\"fareBasis\":\"SIPRC\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"AI\",\"from\":0,\"to\":24,\"fareBasis\":\"SIPRC\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"AI\",\"from\":24,\"to\":8760,\"fareBasis\":\"SIPRC\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"AI\",\"from\":-8760,\"to\":0,\"fareBasis\":\"SIPRC\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"AMD-IXY : AI-9873\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"AMD-IXY : AI-9873\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</key><value><aircraftType>ATR</aircraftType><arrTime>1597649700000</arrTime><arrivalInfo><arpCd>IXY</arpCd><trmnl></trmnl></arrivalInfo><depTime>1597645800000</depTime><departureInfo><arpCd>AMD</arpCd><trmnl>2</trmnl></departureInfo><duration>3900000</duration><flightNum>9873</flightNum><marketingAirline>AI</marketingAirline><operatingAirline>9I</operatingAirline><validatingCarrier>AI</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NF70102278750300</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>ad581c4a4fc037a3c41a0d448e69dba089d17d91</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>15</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</flightLookUpKey><jrnyKey>AMD-IXY : AI-9873</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>AMD-IXY : AI-9873</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>AMD-IXY : AI-9873</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily>Economy Saver</fareFamily><paxFares><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</key><value><fareBasis>SIPRC</fareBasis><fareClass>S</fareClass><PClass></PClass><rbd>S</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>1300.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>65.0</taxVal></singlePaxTaxBreakups><singlePaxTot>1365.0</singlePaxTot><singlePaxTx>65.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_DOM</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-08-17 13:05</arrDate><depDate>2020-08-17 12:00</depDate><duration>3900000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>AMD-IXY : AI-9873</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "PostSaleCPResponseAfterSanity": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</key><value><aircraftType>ATR</aircraftType><arrTime>1597649700000</arrTime><arrivalInfo><arpCd>IXY</arpCd><trmnl></trmnl></arrivalInfo><depTime>1597645800000</depTime><departureInfo><arpCd>AMD</arpCd><trmnl>2</trmnl></departureInfo><duration>3900000</duration><flightNum>9873</flightNum><marketingAirline>AI</marketingAirline><operatingAirline>9I</operatingAirline><validatingCarrier>AI</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NF70102278750300</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>ad581c4a4fc037a3c41a0d448e69dba089d17d91</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>15</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</flightLookUpKey><jrnyKey>AMD-IXY : AI-9873</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>AMD-IXY : AI-9873</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><currentATCPenalty><airlinePenalty/><errorDetails><errorMessage>This is NO-SHOW window , cant rely on VR3</errorMessage></errorDetails><waiver/></currentATCPenalty><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>AMD-IXY : AI-9873</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily>Economy Saver</fareFamily><paxFares><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</key><value><fareBasis>SIPRC</fareBasis><fareClass>S</fareClass><PClass></PClass><rbd>S</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>1300.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>65.0</taxVal></singlePaxTaxBreakups><singlePaxTot>1365.0</singlePaxTot><singlePaxTx>65.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_DOM</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-08-17 13:05</arrDate><depDate>2020-08-17 12:00</depDate><duration>3900000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>AMD-IXY : AI-9873</journeyKey></itineraryJrnyList></recoms></rcomGrps><status>SUCCCES</status></ns2:CPReqRes>",
+      "CurrentPNRState": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><CurrentPNRState xmlns=\"com.mmt.flights.rules.workflow.TPRefundRequiredCheckTask$CurrentPNRState\">NOSHOW</CurrentPNRState>",
+      "IsVR3CallRequired": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Boolean xmlns=\"java.lang.Boolean\">false</Boolean>",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05": {
+      "mrkAl": "AI",
+      "oprAl": "9I",
+      "validatingCarrier": "AI",
+      "fltNo": "9873",
+      "arcrfTyp": "ATR",
+      "depInfo": {
+        "trmnl": "2",
+        "arpCd": "AMD"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "arpCd": "IXY"
+      },
+      "depTime": 1597645800000,
+      "arrTime": 1597649700000,
+      "dur": 3900000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "AMD-IXY : AI-9873",
+        "depDate": "2020-08-17 12:00",
+        "arrDate": "2020-08-17 13:05",
+        "dur": 3900000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 1300.0,
+                  "singlePaxTx": 65.0,
+                  "singlePaxTot": 1365.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 65.0,
+                    "taxCode": "K3"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05": {
+                      "pclass": "",
+                      "fareClass": "S",
+                      "fareBasis": "SIPRC",
+                      "pClass": "",
+                      "rbd": "S"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "AMD-IXY : AI-9873",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "errorDetails": {
+                        "em": "This is NO-SHOW window , cant rely on VR3"
+                      },
+                      "airlinePenalty": {},
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "AMD-IXY : AI-9873",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "AMD-IXY : AI-9873",
+                "flightLookUpKey": "AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "15",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "-1",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "TP",
+              "supplierCredential": "TPUNI_DOM",
+              "fareFamily": "Economy Saver"
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

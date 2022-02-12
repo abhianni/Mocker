@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search/dom/aggr",
+        "bodyPatterns":[{	
+        "contains" : "\"sequenceId\":\"PersuasionNegativeTestHTTP500INTERNALSERVERERROR\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/aggregator/soa/Test_Ow_PersuasionNegativeTestHTTP500INTERNALSERVERERROR_Search_V1_Mocking.json"
+    }
+}

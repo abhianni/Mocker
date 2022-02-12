@@ -1,0 +1,306 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "1065",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.11",
+    "serviceName": "Pnr-Service",
+    "supplierName": "TP",
+    "credentialId": "TPUNI_INTL",
+    "supplierLatency": "1002",
+    "corporateCode": "",
+    "promoCode": ""
+  },
+  "flightLookUpList": {
+    "CPH$DEL$2020-06-16 20:45$AI-158": {
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "158",
+      "arcrfTyp": "788",
+      "depInfo": {
+        "trmnl": "2",
+        "arpCd": "CPH",
+        "arpNm": "Copenhagen Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-06-16 20:45",
+      "arrTime": "2020-06-17 07:35",
+      "durInMins": "440"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "CPH$DEL$2020-06-16 20:45$AI-158",
+      "depDate": "2020-06-16 20:45",
+      "arrDate": "2020-06-17 07:35",
+      "durInMins": "440",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "CPH$DEL$2020-06-16 20:45$AI-158",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "INFANT": {
+              "bs": 955.0,
+              "tx": 100.0,
+              "noOfPax": 1,
+              "tot": 1055.0,
+              "taxBreakups": [{
+                "amnt": 100.0,
+                "code": "YR",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "CPH$DEL$2020-06-16 20:45$AI-158": {
+                  "fareClass": "S",
+                  "fareBasis": "SOPRIDEL",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            },
+            "CHILD": {
+              "bs": 9545.0,
+              "tx": 9591.0,
+              "noOfPax": 1,
+              "tot": 19136.0,
+              "taxBreakups": [{
+                "amnt": 1712.0,
+                "code": "ZO",
+                "msg": ""
+              }, {
+                "amnt": 7779.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 100.0,
+                "code": "YR",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "CPH$DEL$2020-06-16 20:45$AI-158": {
+                  "fareClass": "S",
+                  "fareBasis": "SOPRIDEL",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 2,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            },
+            "ADULT": {
+              "bs": 9545.0,
+              "tx": 9591.0,
+              "noOfPax": 2,
+              "tot": 19136.0,
+              "taxBreakups": [{
+                "amnt": 1712.0,
+                "code": "ZO",
+                "msg": ""
+              }, {
+                "amnt": 7779.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 100.0,
+                "code": "YR",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "CPH$DEL$2020-06-16 20:45$AI-158": {
+                  "fareClass": "S",
+                  "fareBasis": "SOPRIDEL",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 2,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 29590.0,
+            "tx": 28873.0,
+            "tot": 58463.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "NDG7K1",
+          "aPnr": "1XOPB4",
+          "travelerAddons": {},
+          "travelerInfos": [{
+            "id": "0",
+            "title": "MR",
+            "paxId": "",
+            "firstName": "Deepak Singh",
+            "middleName": "",
+            "lastName": "Saini",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "ronniesaini@rediffmail.com",
+            "mobileNumber": "9988889989",
+            "mobileNumberCountryCode": "91",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "passportInformation": {
+              "passportNumber": "Z2303896",
+              "issueDate": "",
+              "expiryDate": "28JAN24",
+              "placeOfIssue": "IN",
+              "nationality": "",
+              "countryOfIssue": ""
+            },
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "Mstr",
+            "paxId": "",
+            "firstName": "Savir singh",
+            "middleName": "",
+            "lastName": "Saini",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "ronniesaini@rediffmail.com",
+            "mobileNumber": "9988889989",
+            "mobileNumberCountryCode": "91",
+            "paxType": "INFANT",
+            "dateOfBirth": "11JAN19",
+            "nationality": "",
+            "passportInformation": {
+              "passportNumber": "566438422",
+              "issueDate": "",
+              "expiryDate": "04MAR24",
+              "placeOfIssue": "US",
+              "nationality": "",
+              "countryOfIssue": ""
+            },
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "Ms",
+            "paxId": "",
+            "firstName": "Gurbinder Kaur",
+            "middleName": "",
+            "lastName": "Nanuan",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "ronniesaini@rediffmail.com",
+            "mobileNumber": "9988889989",
+            "mobileNumberCountryCode": "91",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "passportInformation": {
+              "passportNumber": "545549510",
+              "issueDate": "",
+              "expiryDate": "18APR26",
+              "placeOfIssue": "US",
+              "nationality": "",
+              "countryOfIssue": ""
+            },
+            "freqFlierInformation": []
+          }, {
+            "id": "3",
+            "title": "Ms",
+            "paxId": "",
+            "firstName": "Saanvi",
+            "middleName": "",
+            "lastName": "Saini",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "ronniesaini@rediffmail.com",
+            "mobileNumber": "9988889989",
+            "mobileNumberCountryCode": "91",
+            "paxType": "CHILD",
+            "dateOfBirth": "",
+            "nationality": "",
+            "passportInformation": {
+              "passportNumber": "561446203",
+              "issueDate": "",
+              "expiryDate": "04FEB23",
+              "placeOfIssue": "US",
+              "nationality": "",
+              "countryOfIssue": ""
+            },
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [{
+            "travellerId": "0",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983758697614",
+            "ticketType": "E",
+            "status": "N",
+            "issuingDate": "2020-02-15 13:26",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "1",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983758697615",
+            "ticketType": "E",
+            "status": "N",
+            "issuingDate": "2020-02-15 13:26",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "2",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983758697616",
+            "ticketType": "E",
+            "status": "N",
+            "issuingDate": "2020-02-15 13:26",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "3",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983758697617",
+            "ticketType": "E",
+            "status": "N",
+            "issuingDate": "2020-02-15 13:26",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }],
+          "validatingCarrier": "AI",
+          "creationDate": "2020-02-15 08:55",
+          "fareFamily": "",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

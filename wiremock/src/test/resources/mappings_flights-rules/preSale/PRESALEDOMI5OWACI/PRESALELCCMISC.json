@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "I5-I5-330-BOM-DEL-2020-06-10"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEDOMI5OWACI/GETLCCMISCRESPONSE.json"
+  }
+}
+

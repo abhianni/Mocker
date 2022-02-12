@@ -1,0 +1,6668 @@
+{
+	"classname": ".AggregatorSearchSplitResponse",
+	"status": "SUCCESS",
+	"meta": {
+		"cur": "INR",
+		"rhnBnr": {
+			"lbl": "",
+			"txt": "",
+			"subTxt": ""
+		},
+		"isDDApld": false,
+		"brdCstCpns": {},
+		"requestId": "ab8d2e1e-7ce0-40b0-89d2-1351c1227934",
+		"lgurl": "https://imgak.mmtcdn.com/air/pwa/dist/assets/img/airline-logos/sm{{airline}}.gif?v=17",
+		"srvrMtrc": {
+			"is.search.buddy.route": "false",
+			"is.search.nearby.route": "false",
+			"is.search.source.cache": "true",
+			"is.search.source.imp.cache": "false",
+			"time.search.total.ms": "3084"
+		}
+	},
+	"alCdeMap": {
+		"G8": {
+			"nm": "Go Air"
+		},
+		"MP": {
+			"nm": "Martinair"
+		},
+		"SG": {
+			"nm": "Spicejet"
+		},
+		"UK": {
+			"nm": "Vistara"
+		},
+		"TP": {
+			"nm": "TAP Portugal"
+		},
+		"6E": {
+			"nm": "IndiGo"
+		}
+	},
+	"ctyCdeMap": {
+		"BOM": {
+			"nm": "Mumbai",
+			"cntry": "India",
+			"tmz": "Asia/Kolkata"
+		},
+		"LKO": {
+			"nm": "Lucknow",
+			"cntry": "India",
+			"tmz": "Asia/Kolkata"
+		},
+		"AMD": {
+			"nm": "Ahmedabad",
+			"cntry": "India",
+			"tmz": "Asia/Kolkata"
+		},
+		"DEL": {
+			"nm": "New Delhi",
+			"cntry": "India",
+			"tmz": "Asia/Kolkata"
+		}
+	},
+	"flightLookUpList": {
+		"G8-G8-396-LKO-BOM-2020-04-01 18:05-2020-04-01 20:20": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "396",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "",
+				"cityCd": "LKO",
+				"arpNm": "Amausi Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 18:05",
+			"arrTime": "2020-04-01 20:20",
+			"dur": 135
+		},
+		"UK-UK-996-BOM-DEL-2020-04-02 18:30-2020-04-02 20:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "996",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 18:30",
+			"arrTime": "2020-04-02 20:40",
+			"dur": 130
+		},
+		"6E-6E-841-BOM-DEL-2020-04-02 20:00-2020-04-02 22:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "841",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 20:00",
+			"arrTime": "2020-04-02 22:10",
+			"dur": 130
+		},
+		"SG-SG-152-BOM-DEL-2020-04-02 07:20-2020-04-02 09:35": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "SG",
+			"oprAl": "SG",
+			"fltNo": "152",
+			"arcrfTyp": "Boeing 737-700",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1C",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 07:20",
+			"arrTime": "2020-04-02 09:35",
+			"dur": 135
+		},
+		"UK-UK-988-BOM-DEL-2020-04-02 20:55-2020-04-02 23:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "988",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 20:55",
+			"arrTime": "2020-04-02 23:00",
+			"dur": 125
+		},
+		"UK-UK-943-DEL-BOM-2020-04-01 07:30-2020-04-01 09:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "943",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 07:30",
+			"arrTime": "2020-04-01 09:45",
+			"dur": 135
+		},
+		"G8-G8-718-AMD-DEL-2020-04-02 18:55-2020-04-02 20:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "718",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 18:55",
+			"arrTime": "2020-04-02 20:40",
+			"dur": 105
+		},
+		"G8-G8-537-AMD-BOM-2020-04-01 19:55-2020-04-01 21:25": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "537",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 19:55",
+			"arrTime": "2020-04-01 21:25",
+			"dur": 90
+		},
+		"6E-6E-168-BOM-DEL-2020-04-02 12:50-2020-04-02 15:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "168",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 12:50",
+			"arrTime": "2020-04-02 15:00",
+			"dur": 130
+		},
+		"UK-UK-963-DEL-BOM-2020-04-01 08:50-2020-04-01 11:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "963",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 08:50",
+			"arrTime": "2020-04-01 11:10",
+			"dur": 140
+		},
+		"G8-G8-329-BOM-DEL-2020-04-02 06:00-2020-04-02 08:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "329",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 06:00",
+			"arrTime": "2020-04-02 08:10",
+			"dur": 130
+		},
+		"G8-G8-413-AMD-BOM-2020-04-02 00:35-2020-04-02 02:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "413",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 00:35",
+			"arrTime": "2020-04-02 02:00",
+			"dur": 85
+		},
+		"6E-6E-179-DEL-BOM-2020-04-01 08:30-2020-04-01 10:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "179",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 08:30",
+			"arrTime": "2020-04-01 10:40",
+			"dur": 130
+		},
+		"6E-6E-755-DEL-BOM-2020-04-01 16:00-2020-04-01 18:15": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "755",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 16:00",
+			"arrTime": "2020-04-01 18:15",
+			"dur": 135
+		},
+		"SG-SG-169-DEL-BOM-2020-04-01 19:45-2020-04-01 22:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "SG",
+			"oprAl": "SG",
+			"fltNo": "169",
+			"arcrfTyp": "Boeing 737-700",
+			"depInfo": {
+				"trmnl": "1D",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 19:45",
+			"arrTime": "2020-04-01 22:05",
+			"dur": 140
+		},
+		"6E-6E-185-DEL-BOM-2020-04-01 20:25-2020-04-01 22:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "185",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 20:25",
+			"arrTime": "2020-04-01 22:40",
+			"dur": 135
+		},
+		"G8-G8-175-LKO-DEL-2020-04-02 18:35-2020-04-02 19:55": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "175",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "",
+				"cityCd": "LKO",
+				"arpNm": "Amausi Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 18:35",
+			"arrTime": "2020-04-02 19:55",
+			"dur": 80
+		},
+		"6E-6E-129-DEL-BOM-2020-04-01 17:30-2020-04-01 19:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "129",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 17:30",
+			"arrTime": "2020-04-01 19:40",
+			"dur": 130
+		},
+		"6E-6E-6489-BOM-DEL-2020-04-02 00:25-2020-04-02 02:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "6489",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 00:25",
+			"arrTime": "2020-04-02 02:40",
+			"dur": 135
+		},
+		"6E-6E-439-BOM-DEL-2020-04-02 18:55-2020-04-02 21:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "439",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 18:55",
+			"arrTime": "2020-04-02 21:05",
+			"dur": 130
+		},
+		"UK-UK-944-BOM-DEL-2020-04-02 14:40-2020-04-02 16:55": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "944",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 14:40",
+			"arrTime": "2020-04-02 16:55",
+			"dur": 135
+		},
+		"UK-UK-902-BOM-DEL-2020-04-02 15:45-2020-04-02 18:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "902",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 15:45",
+			"arrTime": "2020-04-02 18:05",
+			"dur": 140
+		},
+		"6E-6E-176-BOM-DEL-2020-04-02 13:40-2020-04-02 15:55": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "176",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 13:40",
+			"arrTime": "2020-04-02 15:55",
+			"dur": 135
+		},
+		"UK-UK-940-BOM-DEL-2020-04-02 19:45-2020-04-02 21:55": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "940",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 19:45",
+			"arrTime": "2020-04-02 21:55",
+			"dur": 130
+		},
+		"6E-6E-171-DEL-BOM-2020-04-01 04:50-2020-04-01 07:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "171",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 04:50",
+			"arrTime": "2020-04-01 07:10",
+			"dur": 140
+		},
+		"UK-UK-994-BOM-DEL-2020-04-02 10:25-2020-04-02 12:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "994",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 10:25",
+			"arrTime": "2020-04-02 12:40",
+			"dur": 135
+		},
+		"G8-G8-397-BOM-LKO-2020-04-02 15:20-2020-04-02 17:35": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "397",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "",
+				"cityCd": "LKO",
+				"arpNm": "Amausi Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 15:20",
+			"arrTime": "2020-04-02 17:35",
+			"dur": 135
+		},
+		"UK-UK-945-DEL-BOM-2020-04-01 11:40-2020-04-01 14:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "945",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 11:40",
+			"arrTime": "2020-04-01 14:00",
+			"dur": 140
+		},
+		"6E-6E-5336-BOM-DEL-2020-04-02 08:25-2020-04-02 10:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "5336",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 08:25",
+			"arrTime": "2020-04-02 10:45",
+			"dur": 140
+		},
+		"6E-6E-956-BOM-DEL-2020-04-02 17:45-2020-04-02 20:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "956",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 17:45",
+			"arrTime": "2020-04-02 20:00",
+			"dur": 135
+		},
+		"6E-6E-248-BOM-DEL-2020-04-02 21:10-2020-04-02 23:25": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "248",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 21:10",
+			"arrTime": "2020-04-02 23:25",
+			"dur": 135
+		},
+		"G8-G8-2508-BOM-DEL-2020-04-02 00:05-2020-04-02 02:15": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "2508",
+			"arcrfTyp": "32A",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 00:05",
+			"arrTime": "2020-04-02 02:15",
+			"dur": 130
+		},
+		"G8-G8-429-DEL-BOM-2020-04-01 20:55-2020-04-01 23:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "429",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 20:55",
+			"arrTime": "2020-04-01 23:10",
+			"dur": 135
+		},
+		"6E-6E-155-DEL-BOM-2020-04-01 22:30-2020-04-02 00:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "155",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 22:30",
+			"arrTime": "2020-04-02 00:45",
+			"dur": 135
+		},
+		"UK-UK-977-DEL-BOM-2020-04-01 18:55-2020-04-01 21:15": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "977",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 18:55",
+			"arrTime": "2020-04-01 21:15",
+			"dur": 140
+		},
+		"6E-6E-174-BOM-DEL-2020-04-02 16:20-2020-04-02 18:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "174",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 16:20",
+			"arrTime": "2020-04-02 18:40",
+			"dur": 140
+		},
+		"6E-6E-223-DEL-BOM-2020-04-01 10:30-2020-04-01 12:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "223",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 10:30",
+			"arrTime": "2020-04-01 12:45",
+			"dur": 135
+		},
+		"SG-SG-161-DEL-BOM-2020-04-01 15:50-2020-04-01 18:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "SG",
+			"oprAl": "SG",
+			"fltNo": "161",
+			"arcrfTyp": "Boeing 737-700",
+			"depInfo": {
+				"trmnl": "1D",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 15:50",
+			"arrTime": "2020-04-01 18:05",
+			"dur": 135
+		},
+		"6E-6E-6613-BOM-DEL-2020-04-02 06:05-2020-04-02 08:15": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "6613",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 06:05",
+			"arrTime": "2020-04-02 08:15",
+			"dur": 130
+		},
+		"G8-G8-268-DEL-LKO-2020-04-01 12:00-2020-04-01 13:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "268",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "",
+				"cityCd": "LKO",
+				"arpNm": "Amausi Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 12:00",
+			"arrTime": "2020-04-01 13:10",
+			"dur": 70
+		},
+		"6E-6E-665-DEL-BOM-2020-04-01 21:30-2020-04-01 23:50": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "665",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 21:30",
+			"arrTime": "2020-04-01 23:50",
+			"dur": 140
+		},
+		"UK-UK-960-BOM-DEL-2020-04-02 11:55-2020-04-02 14:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "960",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 11:55",
+			"arrTime": "2020-04-02 14:05",
+			"dur": 130
+		},
+		"6E-6E-181-DEL-BOM-2020-04-01 09:25-2020-04-01 11:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "181",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 09:25",
+			"arrTime": "2020-04-01 11:45",
+			"dur": 140
+		},
+		"UK-UK-950-BOM-DEL-2020-04-02 21:55-2020-04-03 00:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "950",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 21:55",
+			"arrTime": "2020-04-03 00:10",
+			"dur": 135
+		},
+		"UK-UK-930-BOM-DEL-2020-04-02 07:30-2020-04-02 09:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "930",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 07:30",
+			"arrTime": "2020-04-02 09:40",
+			"dur": 130
+		},
+		"6E-6E-5047-BOM-DEL-2020-04-02 06:45-2020-04-02 09:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "5047",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 06:45",
+			"arrTime": "2020-04-02 09:05",
+			"dur": 140
+		},
+		"SG-SG-154-BOM-DEL-2020-04-02 21:05-2020-04-02 23:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "SG",
+			"oprAl": "SG",
+			"fltNo": "154",
+			"arcrfTyp": "Boeing 737-700",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1C",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 21:05",
+			"arrTime": "2020-04-02 23:10",
+			"dur": 125
+		},
+		"6E-6E-197-DEL-BOM-2020-04-01 19:30-2020-04-01 21:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "197",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 19:30",
+			"arrTime": "2020-04-01 21:45",
+			"dur": 135
+		},
+		"G8-G8-2501-DEL-BOM-2020-04-01 02:40-2020-04-01 04:55": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "2501",
+			"arcrfTyp": "32A",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 02:40",
+			"arrTime": "2020-04-01 04:55",
+			"dur": 135
+		},
+		"G8-G8-2505-AMD-BOM-2020-04-01 13:50-2020-04-01 15:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "2505",
+			"arcrfTyp": "32A",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 13:50",
+			"arrTime": "2020-04-01 15:10",
+			"dur": 80
+		},
+		"6E-6E-5335-DEL-BOM-2020-04-01 05:35-2020-04-01 07:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "5335",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 05:35",
+			"arrTime": "2020-04-01 07:45",
+			"dur": 130
+		},
+		"G8-G8-465-BOM-DEL-2020-04-02 12:10-2020-04-02 14:20": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "465",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 12:10",
+			"arrTime": "2020-04-02 14:20",
+			"dur": 130
+		},
+		"G8-G8-336-DEL-BOM-2020-04-01 14:25-2020-04-01 16:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "336",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 14:25",
+			"arrTime": "2020-04-01 16:40",
+			"dur": 135
+		},
+		"6E-6E-964-BOM-DEL-2020-04-02 07:50-2020-04-02 10:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "964",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 07:50",
+			"arrTime": "2020-04-02 10:05",
+			"dur": 135
+		},
+		"6E-6E-198-BOM-DEL-2020-04-02 22:25-2020-04-03 00:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "198",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 22:25",
+			"arrTime": "2020-04-03 00:45",
+			"dur": 140
+		},
+		"SG-SG-160-BOM-DEL-2020-04-02 06:00-2020-04-02 08:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "SG",
+			"oprAl": "SG",
+			"fltNo": "160",
+			"arcrfTyp": "Boeing 737-700",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1C",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 06:00",
+			"arrTime": "2020-04-02 08:05",
+			"dur": 125
+		},
+		"UK-UK-933-DEL-BOM-2020-04-01 15:30-2020-04-01 17:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "933",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 15:30",
+			"arrTime": "2020-04-01 17:40",
+			"dur": 130
+		},
+		"6E-6E-167-DEL-BOM-2020-04-01 07:30-2020-04-01 09:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "167",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 07:30",
+			"arrTime": "2020-04-01 09:40",
+			"dur": 130
+		},
+		"G8-G8-327-BOM-DEL-2020-04-02 07:55-2020-04-02 10:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "327",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 07:55",
+			"arrTime": "2020-04-02 10:05",
+			"dur": 130
+		},
+		"UK-UK-981-DEL-BOM-2020-04-01 21:40-2020-04-01 23:50": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "981",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 21:40",
+			"arrTime": "2020-04-01 23:50",
+			"dur": 130
+		},
+		"6E-6E-298-BOM-DEL-2020-04-02 10:50-2020-04-02 13:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "298",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 10:50",
+			"arrTime": "2020-04-02 13:05",
+			"dur": 135
+		},
+		"G8-G8-334-DEL-BOM-2020-04-01 08:00-2020-04-01 10:15": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "334",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 08:00",
+			"arrTime": "2020-04-01 10:15",
+			"dur": 135
+		},
+		"G8-G8-401-BOM-LKO-2020-04-02 10:45-2020-04-02 13:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "401",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "",
+				"cityCd": "LKO",
+				"arpNm": "Amausi Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 10:45",
+			"arrTime": "2020-04-02 13:05",
+			"dur": 140
+		},
+		"G8-G8-446-DEL-BOM-2020-04-01 19:40-2020-04-01 22:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "446",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 19:40",
+			"arrTime": "2020-04-01 22:00",
+			"dur": 140
+		},
+		"SG-SG-153-DEL-BOM-2020-04-01 06:35-2020-04-01 08:50": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "SG",
+			"oprAl": "SG",
+			"fltNo": "153",
+			"arcrfTyp": "Boeing 737-700",
+			"depInfo": {
+				"trmnl": "1D",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 06:35",
+			"arrTime": "2020-04-01 08:50",
+			"dur": 135
+		},
+		"G8-G8-364-BOM-AMD-2020-04-02 19:25-2020-04-02 20:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "364",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 19:25",
+			"arrTime": "2020-04-02 20:45",
+			"dur": 80
+		},
+		"G8-G8-530-DEL-BOM-2020-04-01 07:00-2020-04-01 09:15": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "530",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 07:00",
+			"arrTime": "2020-04-01 09:15",
+			"dur": 135
+		},
+		"G8-G8-345-BOM-DEL-2020-04-02 22:55-2020-04-03 01:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "345",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 22:55",
+			"arrTime": "2020-04-03 01:10",
+			"dur": 135
+		},
+		"G8-G8-640-DEL-BOM-2020-04-01 18:20-2020-04-01 20:35": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "640",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 18:20",
+			"arrTime": "2020-04-01 20:35",
+			"dur": 135
+		},
+		"G8-G8-714-AMD-DEL-2020-04-02 22:20-2020-04-03 00:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "714",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 22:20",
+			"arrTime": "2020-04-03 00:05",
+			"dur": 105
+		},
+		"6E-6E-5339-DEL-BOM-2020-04-01 10:00-2020-04-01 12:20": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "5339",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 10:00",
+			"arrTime": "2020-04-01 12:20",
+			"dur": 140
+		},
+		"G8-G8-643-BOM-DEL-2020-04-02 21:15-2020-04-02 23:30": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "643",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 21:15",
+			"arrTime": "2020-04-02 23:30",
+			"dur": 135
+		},
+		"UK-UK-970-BOM-DEL-2020-04-02 08:45-2020-04-02 11:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "970",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 08:45",
+			"arrTime": "2020-04-02 11:00",
+			"dur": 135
+		},
+		"6E-6E-957-DEL-BOM-2020-04-01 11:25-2020-04-01 13:40": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "957",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 11:25",
+			"arrTime": "2020-04-01 13:40",
+			"dur": 135
+		},
+		"UK-UK-995-DEL-BOM-2020-04-01 10:20-2020-04-01 12:35": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "995",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 10:20",
+			"arrTime": "2020-04-01 12:35",
+			"dur": 135
+		},
+		"6E-6E-154-BOM-DEL-2020-04-02 02:00-2020-04-02 04:15": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "154",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 02:00",
+			"arrTime": "2020-04-02 04:15",
+			"dur": 135
+		},
+		"G8-G8-717-DEL-AMD-2020-04-01 16:50-2020-04-01 18:25": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "717",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 16:50",
+			"arrTime": "2020-04-01 18:25",
+			"dur": 95
+		},
+		"G8-G8-719-DEL-AMD-2020-04-01 07:25-2020-04-01 09:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "719",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 07:25",
+			"arrTime": "2020-04-01 09:00",
+			"dur": 95
+		},
+		"UK-UK-975-DEL-BOM-2020-04-01 06:00-2020-04-01 08:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "975",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 06:00",
+			"arrTime": "2020-04-01 08:00",
+			"dur": 120
+		},
+		"6E-6E-6448-BOM-DEL-2020-04-02 14:30-2020-04-02 16:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "6448",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 14:30",
+			"arrTime": "2020-04-02 16:45",
+			"dur": 135
+		},
+		"G8-G8-338-DEL-BOM-2020-04-01 10:35-2020-04-01 12:50": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "338",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 10:35",
+			"arrTime": "2020-04-01 12:50",
+			"dur": 135
+		},
+		"SG-SG-158-BOM-DEL-2020-04-02 18:45-2020-04-02 20:55": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "SG",
+			"oprAl": "SG",
+			"fltNo": "158",
+			"arcrfTyp": "Boeing 737-700",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1C",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 18:45",
+			"arrTime": "2020-04-02 20:55",
+			"dur": 130
+		},
+		"6E-6E-993-DEL-BOM-2020-04-01 06:40-2020-04-01 08:55": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "993",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 06:40",
+			"arrTime": "2020-04-01 08:55",
+			"dur": 135
+		},
+		"6E-6E-189-DEL-BOM-2020-04-01 15:00-2020-04-01 17:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "189",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 15:00",
+			"arrTime": "2020-04-01 17:10",
+			"dur": 130
+		},
+		"SG-SG-159-DEL-BOM-2020-04-01 21:35-2020-04-01 23:55": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "SG",
+			"oprAl": "SG",
+			"fltNo": "159",
+			"arcrfTyp": "Boeing 737-700",
+			"depInfo": {
+				"trmnl": "1D",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 21:35",
+			"arrTime": "2020-04-01 23:55",
+			"dur": 140
+		},
+		"G8-G8-713-DEL-AMD-2020-04-01 20:05-2020-04-01 21:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "713",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 20:05",
+			"arrTime": "2020-04-01 21:45",
+			"dur": 100
+		},
+		"UK-UK-993-DEL-BOM-2020-04-01 12:50-2020-04-01 15:00": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "993",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 12:50",
+			"arrTime": "2020-04-01 15:00",
+			"dur": 130
+		},
+		"G8-G8-2504-BOM-AMD-2020-04-02 12:00-2020-04-02 13:20": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "2504",
+			"arcrfTyp": "32A",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "AMD",
+				"arpNm": "Sardar Vallabhbhai Patel International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 12:00",
+			"arrTime": "2020-04-02 13:20",
+			"dur": 80
+		},
+		"G8-G8-319-BOM-DEL-2020-04-02 09:55-2020-04-02 12:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "319",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 09:55",
+			"arrTime": "2020-04-02 12:10",
+			"dur": 135
+		},
+		"G8-G8-339-BOM-DEL-2020-04-02 18:20-2020-04-02 20:35": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "339",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 18:20",
+			"arrTime": "2020-04-02 20:35",
+			"dur": 135
+		},
+		"6E-6E-6126-BOM-DEL-2020-04-02 09:35-2020-04-02 11:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "6126",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 09:35",
+			"arrTime": "2020-04-02 11:45",
+			"dur": 130
+		},
+		"G8-G8-2609-LKO-BOM-2020-04-01 07:50-2020-04-01 10:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "2609",
+			"arcrfTyp": "32A",
+			"depInfo": {
+				"trmnl": "",
+				"cityCd": "LKO",
+				"arpNm": "Amausi Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 07:50",
+			"arrTime": "2020-04-01 10:10",
+			"dur": 140
+		},
+		"G8-G8-207-DEL-LKO-2020-04-01 05:10-2020-04-01 06:20": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "207",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "2",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "",
+				"cityCd": "LKO",
+				"arpNm": "Amausi Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 05:10",
+			"arrTime": "2020-04-01 06:20",
+			"dur": 70
+		},
+		"6E-6E-843-DEL-BOM-2020-04-01 18:35-2020-04-01 20:50": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "843",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 18:35",
+			"arrTime": "2020-04-01 20:50",
+			"dur": 135
+		},
+		"UK-UK-955-DEL-BOM-2020-04-01 17:45-2020-04-01 20:05": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "955",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "3",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "2",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 17:45",
+			"arrTime": "2020-04-01 20:05",
+			"dur": 140
+		},
+		"6E-6E-191-DEL-BOM-2020-04-01 17:00-2020-04-01 19:10": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "191",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-01 17:00",
+			"arrTime": "2020-04-01 19:10",
+			"dur": 130
+		},
+		"6E-6E-639-BOM-DEL-2020-04-02 20:10-2020-04-02 23:45": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "639",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [{
+				"nextFltDur": 105,
+				"prevFltDur": 80,
+				"dur": 30,
+				"locInfo": {
+					"cityCd": "AMD",
+					"arpNm": "Sardar Vallabhbhai Patel International Airport"
+				},
+				"depTime": "2020-04-02 22:00",
+				"arrTime": "2020-04-02 21:30"
+			}],
+			"depTime": "2020-04-02 20:10",
+			"arrTime": "2020-04-02 23:45",
+			"dur": 215
+		},
+		"6E-6E-6097-BOM-DEL-2020-04-02 15:15-2020-04-02 17:30": {
+			"amen": {
+				"frMeal": false
+			},
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "6097",
+			"arcrfTyp": "Airbus A320 ",
+			"depInfo": {
+				"trmnl": "1",
+				"cityCd": "BOM",
+				"arpNm": "Chhatrapati Shivaji International Airport"
+			},
+			"arrInfo": {
+				"trmnl": "1",
+				"cityCd": "DEL",
+				"arpNm": "Indira Gandhi International Airport"
+			},
+			"tchStp": [],
+			"depTime": "2020-04-02 15:15",
+			"arrTime": "2020-04-02 17:30",
+			"dur": 135
+		}
+	},
+	"ow": [{
+		"jrnyKey": "DEL$BOM$0104200240$G8-2501",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 02:40",
+		"arrDate": "2020-04-01 04:55",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-2501-DEL-BOM-2020-04-01 02:40-2020-04-01 04:55",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2219.0,
+							"tx": 967.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3186.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4438.0,
+						"tx": 1934.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6372.0
+					},
+					"rKey": "RKEY:rkeyB2B1:0",
+					"rtFrLookUpId": "fb8fc40f-bb61-41ce-aefe-5dc41d0afeee"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200700$G8-530",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 07:00",
+		"arrDate": "2020-04-01 09:15",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-530-DEL-BOM-2020-04-01 07:00-2020-04-01 09:15",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2219.0,
+							"tx": 967.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3186.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4438.0,
+						"tx": 1934.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6372.0
+					},
+					"rKey": "RKEY:rkeyB2B1:1",
+					"rtFrLookUpId": "c93e7a97-cdb6-42af-afd1-b13818d4aeff"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200800$G8-334",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 08:00",
+		"arrDate": "2020-04-01 10:15",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-334-DEL-BOM-2020-04-01 08:00-2020-04-01 10:15",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2219.0,
+							"tx": 967.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3186.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4438.0,
+						"tx": 1934.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6372.0
+					},
+					"rKey": "RKEY:rkeyB2B1:2",
+					"rtFrLookUpId": "0d8019b1-016a-4216-8041-e0841dda9c20"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201035$G8-338",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 10:35",
+		"arrDate": "2020-04-01 12:50",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-338-DEL-BOM-2020-04-01 10:35-2020-04-01 12:50",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2219.0,
+							"tx": 967.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3186.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4438.0,
+						"tx": 1934.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6372.0
+					},
+					"rKey": "RKEY:rkeyB2B1:3",
+					"rtFrLookUpId": "c961262c-8b6c-4f6f-9bd1-f193f23f804e"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201425$G8-336",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 14:25",
+		"arrDate": "2020-04-01 16:40",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-336-DEL-BOM-2020-04-01 14:25-2020-04-01 16:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2219.0,
+							"tx": 967.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3186.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4438.0,
+						"tx": 1934.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6372.0
+					},
+					"rKey": "RKEY:rkeyB2B1:4",
+					"rtFrLookUpId": "02d70286-9823-414e-b66c-92d610deea31"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201820$G8-640",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 18:20",
+		"arrDate": "2020-04-01 20:35",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-640-DEL-BOM-2020-04-01 18:20-2020-04-01 20:35",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2219.0,
+							"tx": 967.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3186.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4438.0,
+						"tx": 1934.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6372.0
+					},
+					"rKey": "RKEY:rkeyB2B1:5",
+					"rtFrLookUpId": "c1a4f4ff-d6c9-40bf-acaa-5d931616ea9a"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201940$G8-446",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 19:40",
+		"arrDate": "2020-04-01 22:00",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-446-DEL-BOM-2020-04-01 19:40-2020-04-01 22:00",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2219.0,
+							"tx": 967.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3186.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4438.0,
+						"tx": 1934.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6372.0
+					},
+					"rKey": "RKEY:rkeyB2B1:6",
+					"rtFrLookUpId": "39aa7e58-740e-479e-aa54-10fb43da6b47"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104202055$G8-429",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 20:55",
+		"arrDate": "2020-04-01 23:10",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-429-DEL-BOM-2020-04-01 20:55-2020-04-01 23:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2219.0,
+							"tx": 967.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3186.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4438.0,
+						"tx": 1934.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6372.0
+					},
+					"rKey": "RKEY:rkeyB2B1:7",
+					"rtFrLookUpId": "8a71ce2b-5a40-4d06-b2fa-b248fbda4dce"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200635$SG-153",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 06:35",
+		"arrDate": "2020-04-01 08:50",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "SG-SG-153-DEL-BOM-2020-04-01 06:35-2020-04-01 08:50",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2876.0,
+							"tx": 585.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3461.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5752.0,
+						"tx": 1170.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6922.0
+					},
+					"rKey": "RKEY:rkeyB2B1:8",
+					"rtFrLookUpId": "ab7845f1-2a83-428f-ac89-20db8d5ca837"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201550$SG-161",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 15:50",
+		"arrDate": "2020-04-01 18:05",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "SG-SG-161-DEL-BOM-2020-04-01 15:50-2020-04-01 18:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2876.0,
+							"tx": 585.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3461.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5752.0,
+						"tx": 1170.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6922.0
+					},
+					"rKey": "RKEY:rkeyB2B1:9",
+					"rtFrLookUpId": "cda80e51-d0e7-46e5-81ae-1f85e0e74bbf"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201945$SG-169",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 19:45",
+		"arrDate": "2020-04-01 22:05",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "SG-SG-169-DEL-BOM-2020-04-01 19:45-2020-04-01 22:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2876.0,
+							"tx": 585.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3461.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5752.0,
+						"tx": 1170.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6922.0
+					},
+					"rKey": "RKEY:rkeyB2B1:10",
+					"rtFrLookUpId": "25635612-7ded-4701-adb5-e6949116c7ad"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104202135$SG-159",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 21:35",
+		"arrDate": "2020-04-01 23:55",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "SG-SG-159-DEL-BOM-2020-04-01 21:35-2020-04-01 23:55",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2876.0,
+							"tx": 585.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3461.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5752.0,
+						"tx": 1170.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6922.0
+					},
+					"rKey": "RKEY:rkeyB2B1:11",
+					"rtFrLookUpId": "0ca142e2-582a-4cb0-b051-1790e2f524a7"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200450$6E-171",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 04:50",
+		"arrDate": "2020-04-01 07:10",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-171-DEL-BOM-2020-04-01 04:50-2020-04-01 07:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:12",
+					"rtFrLookUpId": "598463e3-62bf-4432-8041-65cfc83b289c"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200535$6E-5335",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 05:35",
+		"arrDate": "2020-04-01 07:45",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-5335-DEL-BOM-2020-04-01 05:35-2020-04-01 07:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:13",
+					"rtFrLookUpId": "4b635d64-49d5-41a4-aec8-41cdbc138426"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200640$6E-993",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 06:40",
+		"arrDate": "2020-04-01 08:55",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-993-DEL-BOM-2020-04-01 06:40-2020-04-01 08:55",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:14",
+					"rtFrLookUpId": "975f0fc2-8a79-4dd2-9ab3-b5b1c76f7d26"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200730$6E-167",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 07:30",
+		"arrDate": "2020-04-01 09:40",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-167-DEL-BOM-2020-04-01 07:30-2020-04-01 09:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:15",
+					"rtFrLookUpId": "5bf40b75-1f17-4ec2-92a4-bc08b0b9e712"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200830$6E-179",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 08:30",
+		"arrDate": "2020-04-01 10:40",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-179-DEL-BOM-2020-04-01 08:30-2020-04-01 10:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:16",
+					"rtFrLookUpId": "0b790ab1-1735-45bf-8398-b40a8c36fcd1"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200925$6E-181",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 09:25",
+		"arrDate": "2020-04-01 11:45",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-181-DEL-BOM-2020-04-01 09:25-2020-04-01 11:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:17",
+					"rtFrLookUpId": "09f91db0-e814-4f74-b870-c04c15a30064"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201000$6E-5339",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 10:00",
+		"arrDate": "2020-04-01 12:20",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-5339-DEL-BOM-2020-04-01 10:00-2020-04-01 12:20",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:18",
+					"rtFrLookUpId": "4a6e14ad-d1b2-49c1-a932-cfc871dc93b9"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201030$6E-223",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 10:30",
+		"arrDate": "2020-04-01 12:45",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-223-DEL-BOM-2020-04-01 10:30-2020-04-01 12:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:19",
+					"rtFrLookUpId": "9e589c29-235c-43c7-b314-3a02a06dfbc7"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201125$6E-957",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 11:25",
+		"arrDate": "2020-04-01 13:40",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-957-DEL-BOM-2020-04-01 11:25-2020-04-01 13:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:20",
+					"rtFrLookUpId": "1e3ce21e-769b-4403-ac0b-8857b9e1fcca"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201500$6E-189",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 15:00",
+		"arrDate": "2020-04-01 17:10",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-189-DEL-BOM-2020-04-01 15:00-2020-04-01 17:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:21",
+					"rtFrLookUpId": "52fbd7bf-2411-43af-ab26-bd408a588b3c"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201600$6E-755",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 16:00",
+		"arrDate": "2020-04-01 18:15",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-755-DEL-BOM-2020-04-01 16:00-2020-04-01 18:15",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:22",
+					"rtFrLookUpId": "95702b28-c32d-4cd0-971f-f0483561626d"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201700$6E-191",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 17:00",
+		"arrDate": "2020-04-01 19:10",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-191-DEL-BOM-2020-04-01 17:00-2020-04-01 19:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:23",
+					"rtFrLookUpId": "4d486484-46b5-4c52-8db9-8a85184242d4"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201730$6E-129",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 17:30",
+		"arrDate": "2020-04-01 19:40",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-129-DEL-BOM-2020-04-01 17:30-2020-04-01 19:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:24",
+					"rtFrLookUpId": "f0902726-7944-48bd-bd71-140bac57ad04"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201835$6E-843",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 18:35",
+		"arrDate": "2020-04-01 20:50",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-843-DEL-BOM-2020-04-01 18:35-2020-04-01 20:50",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:25",
+					"rtFrLookUpId": "cefa6b89-93b1-4da2-8ccf-e87fcd23b4e3"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201930$6E-197",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 19:30",
+		"arrDate": "2020-04-01 21:45",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-197-DEL-BOM-2020-04-01 19:30-2020-04-01 21:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:26",
+					"rtFrLookUpId": "8eef17b0-c9e1-4f73-8bae-a566a8c62edb"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104202025$6E-185",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 20:25",
+		"arrDate": "2020-04-01 22:40",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-185-DEL-BOM-2020-04-01 20:25-2020-04-01 22:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:27",
+					"rtFrLookUpId": "cfc9b54c-cb04-4a97-addd-9ce757bee8f2"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104202130$6E-665",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 21:30",
+		"arrDate": "2020-04-01 23:50",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-665-DEL-BOM-2020-04-01 21:30-2020-04-01 23:50",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:28",
+					"rtFrLookUpId": "ee65a95d-dc36-4fc7-9aa4-cfc1c98e82f2"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104202230$6E-155",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 22:30",
+		"arrDate": "2020-04-02 00:45",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-155-DEL-BOM-2020-04-01 22:30-2020-04-02 00:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2885.0,
+							"tx": 880.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3765.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5770.0,
+						"tx": 1760.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7530.0
+					},
+					"rKey": "RKEY:rkeyB2B1:29",
+					"rtFrLookUpId": "45df169c-9a12-4411-a684-f320e25160de"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$AMD$0104200725$G8-719|AMD$BOM$0104201350$G8-2505",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 07:25",
+		"arrDate": "2020-04-01 15:10",
+		"dur": 465,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-719-DEL-AMD-2020-04-01 07:25-2020-04-01 09:00",
+			"pnrGroupNum": 0
+		}, {
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-2505-AMD-BOM-2020-04-01 13:50-2020-04-01 15:10",
+			"pnrGroupNum": 0,
+			"prvFltCntTyp": "CHANGE_OF_PLANE",
+			"prvFltCntDur": 290
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 3781.0,
+							"tx": 1047.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 4828.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 7562.0,
+						"tx": 2094.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 9656.0
+					},
+					"rKey": "RKEY:rkeyB2B1:30",
+					"rtFrLookUpId": "9ac36608-4838-4939-8068-4f4b87d18738"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$AMD$0104201650$G8-717|AMD$BOM$0104201955$G8-537",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 16:50",
+		"arrDate": "2020-04-01 21:25",
+		"dur": 275,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-717-DEL-AMD-2020-04-01 16:50-2020-04-01 18:25",
+			"pnrGroupNum": 0
+		}, {
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-537-AMD-BOM-2020-04-01 19:55-2020-04-01 21:25",
+			"pnrGroupNum": 0,
+			"prvFltCntTyp": "CHANGE_OF_PLANE",
+			"prvFltCntDur": 90
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 3781.0,
+							"tx": 1047.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 4828.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 7562.0,
+						"tx": 2094.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 9656.0
+					},
+					"rKey": "RKEY:rkeyB2B1:31",
+					"rtFrLookUpId": "ff7ac29d-864e-4169-b7ae-567adac6d49c"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$AMD$0104202005$G8-713|AMD$BOM$0204200035$G8-413",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 20:05",
+		"arrDate": "2020-04-02 02:00",
+		"dur": 355,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-713-DEL-AMD-2020-04-01 20:05-2020-04-01 21:45",
+			"pnrGroupNum": 0
+		}, {
+			"flyingDay": 1,
+			"fltLookUpKey": "G8-G8-413-AMD-BOM-2020-04-02 00:35-2020-04-02 02:00",
+			"pnrGroupNum": 0,
+			"prvFltCntTyp": "CHANGE_OF_PLANE",
+			"prvFltCntDur": 170
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 3781.0,
+							"tx": 1047.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 4828.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 7562.0,
+						"tx": 2094.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 9656.0
+					},
+					"rKey": "RKEY:rkeyB2B1:32",
+					"rtFrLookUpId": "5f9271c3-ab7c-41aa-83fd-498d7cc3597b"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$LKO$0104200510$G8-207|LKO$BOM$0104200750$G8-2609",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 05:10",
+		"arrDate": "2020-04-01 10:10",
+		"dur": 300,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-207-DEL-LKO-2020-04-01 05:10-2020-04-01 06:20",
+			"pnrGroupNum": 0
+		}, {
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-2609-LKO-BOM-2020-04-01 07:50-2020-04-01 10:10",
+			"pnrGroupNum": 0,
+			"prvFltCntTyp": "CHANGE_OF_PLANE",
+			"prvFltCntDur": 90
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 3757.0,
+							"tx": 1255.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5012.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 7514.0,
+						"tx": 2510.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10024.0
+					},
+					"rKey": "RKEY:rkeyB2B1:33",
+					"rtFrLookUpId": "619dcbc0-d55f-4a3a-a4b1-03824f47c4e8"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200600$UK-975",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 06:00",
+		"arrDate": "2020-04-01 08:00",
+		"dur": 120,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-975-DEL-BOM-2020-04-01 06:00-2020-04-01 08:00",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 686.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5136.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1372.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10272.0
+					},
+					"rKey": "RKEY:rkeyB2B1:34",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "28c5b6f9-dd9b-4fbd-aa2a-2092e2a8459a"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201020$UK-995",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 10:20",
+		"arrDate": "2020-04-01 12:35",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-995-DEL-BOM-2020-04-01 10:20-2020-04-01 12:35",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 686.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5136.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1372.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10272.0
+					},
+					"rKey": "RKEY:rkeyB2B1:35",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "29b032d6-6fb4-4e8f-837f-8835b582f70c"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201140$UK-945",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 11:40",
+		"arrDate": "2020-04-01 14:00",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-945-DEL-BOM-2020-04-01 11:40-2020-04-01 14:00",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 686.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5136.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1372.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10272.0
+					},
+					"rKey": "RKEY:rkeyB2B1:36",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "84294d5c-2e38-4066-89de-b4d9827ce7c8"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201250$UK-993",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 12:50",
+		"arrDate": "2020-04-01 15:00",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-993-DEL-BOM-2020-04-01 12:50-2020-04-01 15:00",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 686.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5136.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1372.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10272.0
+					},
+					"rKey": "RKEY:rkeyB2B1:37",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "5179ed4f-12e4-43a6-a288-3c410f023043"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201530$UK-933",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 15:30",
+		"arrDate": "2020-04-01 17:40",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-933-DEL-BOM-2020-04-01 15:30-2020-04-01 17:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 686.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5136.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1372.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10272.0
+					},
+					"rKey": "RKEY:rkeyB2B1:38",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "c66ecde8-c39d-4d13-b986-8caa607bec74"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104202140$UK-981",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 21:40",
+		"arrDate": "2020-04-01 23:50",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-981-DEL-BOM-2020-04-01 21:40-2020-04-01 23:50",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 686.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5136.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1372.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10272.0
+					},
+					"rKey": "RKEY:rkeyB2B1:39",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "f2e190b4-0750-4bf4-a9f8-2b5a015e62b7"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$LKO$0104201200$G8-268|LKO$BOM$0104201805$G8-396",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 12:00",
+		"arrDate": "2020-04-01 20:20",
+		"dur": 500,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-268-DEL-LKO-2020-04-01 12:00-2020-04-01 13:10",
+			"pnrGroupNum": 0
+		}, {
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-396-LKO-BOM-2020-04-01 18:05-2020-04-01 20:20",
+			"pnrGroupNum": 0,
+			"prvFltCntTyp": "CHANGE_OF_PLANE",
+			"prvFltCntDur": 295
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 3951.0,
+							"tx": 1265.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5216.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 7902.0,
+						"tx": 2530.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10432.0
+					},
+					"rKey": "RKEY:rkeyB2B1:40",
+					"rtFrLookUpId": "0fbe190f-1844-40e3-b53c-c731ff1ed6d7"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200850$UK-963",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 08:50",
+		"arrDate": "2020-04-01 11:10",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-963-DEL-BOM-2020-04-01 08:50-2020-04-01 11:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 5550.0,
+							"tx": 741.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 6291.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 11100.0,
+						"tx": 1482.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 12582.0
+					},
+					"rKey": "RKEY:rkeyB2B1:41",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "3ac35acf-d5d4-4670-a7b8-2bb224534d6d"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201855$UK-977",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 18:55",
+		"arrDate": "2020-04-01 21:15",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-977-DEL-BOM-2020-04-01 18:55-2020-04-01 21:15",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 5550.0,
+							"tx": 741.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 6291.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 11100.0,
+						"tx": 1482.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 12582.0
+					},
+					"rKey": "RKEY:rkeyB2B1:42",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "c0891e35-3a1b-4fa1-a978-a63de9ca4d3c"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104200730$UK-943",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 07:30",
+		"arrDate": "2020-04-01 09:45",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-943-DEL-BOM-2020-04-01 07:30-2020-04-01 09:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 6050.0,
+							"tx": 766.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 6816.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 12100.0,
+						"tx": 1532.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 13632.0
+					},
+					"rKey": "RKEY:rkeyB2B1:43",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "7630b8a1-2b7e-42c4-9ad0-7410d345624d"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "DEL$BOM$0104201745$UK-955",
+		"isCstmComb": false,
+		"depDate": "2020-04-01 17:45",
+		"arrDate": "2020-04-01 20:05",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-955-DEL-BOM-2020-04-01 17:45-2020-04-01 20:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 7400.0,
+							"tx": 833.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 8233.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 14800.0,
+						"tx": 1666.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 16466.0
+					},
+					"rKey": "RKEY:rkeyB2B1:44",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "a98c72bf-fd8d-4ff2-9e49-4b81173dc361"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}],
+	"rt": [{
+		"jrnyKey": "BOM$DEL$0204200005$G8-2508",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 00:05",
+		"arrDate": "2020-04-02 02:15",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-2508-BOM-DEL-2020-04-02 00:05-2020-04-02 02:15",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2112.0,
+							"tx": 1036.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3148.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4224.0,
+						"tx": 2072.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6296.0
+					},
+					"rKey": "RKEY:rkeyB2B1:45",
+					"rtFrLookUpId": "dd6269f9-ef5f-41f8-a7af-afeb7804f582"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201210$G8-465",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 12:10",
+		"arrDate": "2020-04-02 14:20",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-465-BOM-DEL-2020-04-02 12:10-2020-04-02 14:20",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2112.0,
+							"tx": 1036.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3148.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4224.0,
+						"tx": 2072.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6296.0
+					},
+					"rKey": "RKEY:rkeyB2B1:46",
+					"rtFrLookUpId": "07d73c82-bf1a-4ade-a824-503aaa47b15e"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201820$G8-339",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 18:20",
+		"arrDate": "2020-04-02 20:35",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-339-BOM-DEL-2020-04-02 18:20-2020-04-02 20:35",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2112.0,
+							"tx": 1036.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3148.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4224.0,
+						"tx": 2072.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 6296.0
+					},
+					"rKey": "RKEY:rkeyB2B1:47",
+					"rtFrLookUpId": "4bc07416-6ace-4e5e-a87e-b2a0fe1aad49"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200600$G8-329",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 06:00",
+		"arrDate": "2020-04-02 08:10",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-329-BOM-DEL-2020-04-02 06:00-2020-04-02 08:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2469.0,
+							"tx": 1054.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3523.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4938.0,
+						"tx": 2108.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7046.0
+					},
+					"rKey": "RKEY:rkeyB2B1:48",
+					"rtFrLookUpId": "8e5f0c99-d872-4e09-8d47-d28b4ceb5559"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200755$G8-327",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 07:55",
+		"arrDate": "2020-04-02 10:05",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-327-BOM-DEL-2020-04-02 07:55-2020-04-02 10:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2469.0,
+							"tx": 1054.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3523.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4938.0,
+						"tx": 2108.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7046.0
+					},
+					"rKey": "RKEY:rkeyB2B1:49",
+					"rtFrLookUpId": "045814fe-22f9-44bc-b028-d5462196e68d"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200955$G8-319",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 09:55",
+		"arrDate": "2020-04-02 12:10",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-319-BOM-DEL-2020-04-02 09:55-2020-04-02 12:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2469.0,
+							"tx": 1054.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3523.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4938.0,
+						"tx": 2108.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7046.0
+					},
+					"rKey": "RKEY:rkeyB2B1:50",
+					"rtFrLookUpId": "ad820a49-2ae2-4b56-beb7-d4740e5dc737"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204202115$G8-643",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 21:15",
+		"arrDate": "2020-04-02 23:30",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-643-BOM-DEL-2020-04-02 21:15-2020-04-02 23:30",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2469.0,
+							"tx": 1054.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3523.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4938.0,
+						"tx": 2108.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7046.0
+					},
+					"rKey": "RKEY:rkeyB2B1:51",
+					"rtFrLookUpId": "055bd089-d613-4218-aca8-e0b36eb1e343"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204202255$G8-345",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 22:55",
+		"arrDate": "2020-04-03 01:10",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-345-BOM-DEL-2020-04-02 22:55-2020-04-03 01:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2469.0,
+							"tx": 1054.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3523.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 4938.0,
+						"tx": 2108.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7046.0
+					},
+					"rKey": "RKEY:rkeyB2B1:52",
+					"rtFrLookUpId": "bd6de2d4-6c56-457d-abe1-4b0f058dc093"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200600$SG-160",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 06:00",
+		"arrDate": "2020-04-02 08:05",
+		"dur": 125,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "SG-SG-160-BOM-DEL-2020-04-02 06:00-2020-04-02 08:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2876.0,
+							"tx": 653.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3529.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5752.0,
+						"tx": 1306.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7058.0
+					},
+					"rKey": "RKEY:rkeyB2B1:53",
+					"rtFrLookUpId": "2ee3f4da-001d-4217-b432-7e9309f94e81"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200720$SG-152",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 07:20",
+		"arrDate": "2020-04-02 09:35",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "SG-SG-152-BOM-DEL-2020-04-02 07:20-2020-04-02 09:35",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2876.0,
+							"tx": 653.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3529.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5752.0,
+						"tx": 1306.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7058.0
+					},
+					"rKey": "RKEY:rkeyB2B1:54",
+					"rtFrLookUpId": "b4307def-1e8e-415d-8702-ad8985966fbb"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201845$SG-158",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 18:45",
+		"arrDate": "2020-04-02 20:55",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "SG-SG-158-BOM-DEL-2020-04-02 18:45-2020-04-02 20:55",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2876.0,
+							"tx": 653.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3529.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5752.0,
+						"tx": 1306.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7058.0
+					},
+					"rKey": "RKEY:rkeyB2B1:55",
+					"rtFrLookUpId": "69251c01-3ed9-44d9-8aee-83bf03715266"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204202105$SG-154",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 21:05",
+		"arrDate": "2020-04-02 23:10",
+		"dur": 125,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "SG-SG-154-BOM-DEL-2020-04-02 21:05-2020-04-02 23:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2876.0,
+							"tx": 653.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3529.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5752.0,
+						"tx": 1306.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7058.0
+					},
+					"rKey": "RKEY:rkeyB2B1:56",
+					"rtFrLookUpId": "ccfa0525-eea7-4813-b09a-a75bf914013b"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200605$6E-6613",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 06:05",
+		"arrDate": "2020-04-02 08:15",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-6613-BOM-DEL-2020-04-02 06:05-2020-04-02 08:15",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2839.0,
+							"tx": 928.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3767.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5678.0,
+						"tx": 1856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7534.0
+					},
+					"rKey": "RKEY:rkeyB2B1:57",
+					"rtFrLookUpId": "65b8facb-b96d-4fb1-9c3e-9927df749a72"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200645$6E-5047",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 06:45",
+		"arrDate": "2020-04-02 09:05",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-5047-BOM-DEL-2020-04-02 06:45-2020-04-02 09:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2839.0,
+							"tx": 928.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3767.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5678.0,
+						"tx": 1856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7534.0
+					},
+					"rKey": "RKEY:rkeyB2B1:58",
+					"rtFrLookUpId": "cb47e933-2a4c-4af5-948d-7b5844e7df5d"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201430$6E-6448",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 14:30",
+		"arrDate": "2020-04-02 16:45",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-6448-BOM-DEL-2020-04-02 14:30-2020-04-02 16:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2839.0,
+							"tx": 928.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3767.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5678.0,
+						"tx": 1856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7534.0
+					},
+					"rKey": "RKEY:rkeyB2B1:59",
+					"rtFrLookUpId": "001c7026-bd50-4f36-b1ee-a2eacb7dcb17"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201515$6E-6097",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 15:15",
+		"arrDate": "2020-04-02 17:30",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-6097-BOM-DEL-2020-04-02 15:15-2020-04-02 17:30",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2839.0,
+							"tx": 928.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3767.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5678.0,
+						"tx": 1856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7534.0
+					},
+					"rKey": "RKEY:rkeyB2B1:60",
+					"rtFrLookUpId": "96ed37ac-5ae6-4d99-a813-b12b0e0c9e17"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201745$6E-956",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 17:45",
+		"arrDate": "2020-04-02 20:00",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-956-BOM-DEL-2020-04-02 17:45-2020-04-02 20:00",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2839.0,
+							"tx": 928.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3767.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5678.0,
+						"tx": 1856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7534.0
+					},
+					"rKey": "RKEY:rkeyB2B1:61",
+					"rtFrLookUpId": "43f10713-fb8f-4d88-9935-01bacc5752a5"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201855$6E-439",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 18:55",
+		"arrDate": "2020-04-02 21:05",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-439-BOM-DEL-2020-04-02 18:55-2020-04-02 21:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2839.0,
+							"tx": 928.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3767.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5678.0,
+						"tx": 1856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7534.0
+					},
+					"rKey": "RKEY:rkeyB2B1:62",
+					"rtFrLookUpId": "9b041158-44e8-460e-abf0-75e69bd91c9e"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204202110$6E-248",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 21:10",
+		"arrDate": "2020-04-02 23:25",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-248-BOM-DEL-2020-04-02 21:10-2020-04-02 23:25",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2839.0,
+							"tx": 928.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3767.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5678.0,
+						"tx": 1856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7534.0
+					},
+					"rKey": "RKEY:rkeyB2B1:63",
+					"rtFrLookUpId": "5cfffebc-0a73-4581-8467-d79fb95a35ac"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204202225$6E-198",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 22:25",
+		"arrDate": "2020-04-03 00:45",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-198-BOM-DEL-2020-04-02 22:25-2020-04-03 00:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2839.0,
+							"tx": 928.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3767.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5678.0,
+						"tx": 1856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7534.0
+					},
+					"rKey": "RKEY:rkeyB2B1:64",
+					"rtFrLookUpId": "1f7b0638-a08d-4fa4-8c46-8b2cd8640146"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200025$6E-6489",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 00:25",
+		"arrDate": "2020-04-02 02:40",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-6489-BOM-DEL-2020-04-02 00:25-2020-04-02 02:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2964.0,
+							"tx": 934.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3898.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5928.0,
+						"tx": 1868.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7796.0
+					},
+					"rKey": "RKEY:rkeyB2B1:65",
+					"rtFrLookUpId": "ad7421cf-d0bb-457d-94f3-8c3ee2d92400"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200200$6E-154",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 02:00",
+		"arrDate": "2020-04-02 04:15",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-154-BOM-DEL-2020-04-02 02:00-2020-04-02 04:15",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2964.0,
+							"tx": 934.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3898.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5928.0,
+						"tx": 1868.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7796.0
+					},
+					"rKey": "RKEY:rkeyB2B1:66",
+					"rtFrLookUpId": "b4a77095-6557-4394-bed7-94457ce5bcd9"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200750$6E-964",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 07:50",
+		"arrDate": "2020-04-02 10:05",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-964-BOM-DEL-2020-04-02 07:50-2020-04-02 10:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2964.0,
+							"tx": 934.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3898.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5928.0,
+						"tx": 1868.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7796.0
+					},
+					"rKey": "RKEY:rkeyB2B1:67",
+					"rtFrLookUpId": "3b972dea-a0fa-4881-8113-3b68ba7a4dc8"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200825$6E-5336",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 08:25",
+		"arrDate": "2020-04-02 10:45",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-5336-BOM-DEL-2020-04-02 08:25-2020-04-02 10:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2964.0,
+							"tx": 934.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3898.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5928.0,
+						"tx": 1868.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7796.0
+					},
+					"rKey": "RKEY:rkeyB2B1:68",
+					"rtFrLookUpId": "cee57d62-6a2c-48aa-a758-dc4dbab736b1"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200935$6E-6126",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 09:35",
+		"arrDate": "2020-04-02 11:45",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-6126-BOM-DEL-2020-04-02 09:35-2020-04-02 11:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2964.0,
+							"tx": 934.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3898.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5928.0,
+						"tx": 1868.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7796.0
+					},
+					"rKey": "RKEY:rkeyB2B1:69",
+					"rtFrLookUpId": "3f66d667-0c23-4ebd-bc4e-e3c36c4f2769"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201250$6E-168",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 12:50",
+		"arrDate": "2020-04-02 15:00",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-168-BOM-DEL-2020-04-02 12:50-2020-04-02 15:00",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2964.0,
+							"tx": 934.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3898.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5928.0,
+						"tx": 1868.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7796.0
+					},
+					"rKey": "RKEY:rkeyB2B1:70",
+					"rtFrLookUpId": "52e15411-9e7f-47a8-918b-ac3c3c265f7c"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201340$6E-176",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 13:40",
+		"arrDate": "2020-04-02 15:55",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-176-BOM-DEL-2020-04-02 13:40-2020-04-02 15:55",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2964.0,
+							"tx": 934.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3898.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5928.0,
+						"tx": 1868.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7796.0
+					},
+					"rKey": "RKEY:rkeyB2B1:71",
+					"rtFrLookUpId": "564156f4-77ab-4f82-81cb-60394c382f24"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201620$6E-174",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 16:20",
+		"arrDate": "2020-04-02 18:40",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-174-BOM-DEL-2020-04-02 16:20-2020-04-02 18:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2964.0,
+							"tx": 934.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3898.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5928.0,
+						"tx": 1868.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7796.0
+					},
+					"rKey": "RKEY:rkeyB2B1:72",
+					"rtFrLookUpId": "8580cd80-ac03-4960-9273-e2a8f6febffe"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204202000$6E-841",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 20:00",
+		"arrDate": "2020-04-02 22:10",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-841-BOM-DEL-2020-04-02 20:00-2020-04-02 22:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 2964.0,
+							"tx": 934.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3898.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 5928.0,
+						"tx": 1868.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 7796.0
+					},
+					"rKey": "RKEY:rkeyB2B1:73",
+					"rtFrLookUpId": "34ceaf1e-8c2e-4652-ab30-7cb2c9ede3b8"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$AMD$DEL$0204202010$6E-639",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 20:10",
+		"arrDate": "2020-04-02 23:45",
+		"dur": 215,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-639-BOM-DEL-2020-04-02 20:10-2020-04-02 23:45",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 3140.0,
+							"tx": 990.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 4130.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 6280.0,
+						"tx": 1980.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 8260.0
+					},
+					"rKey": "RKEY:rkeyB2B1:74",
+					"rtFrLookUpId": "ae9f23bb-2b46-4543-844e-297751f3849f"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201025$UK-994",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 10:25",
+		"arrDate": "2020-04-02 12:40",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-994-BOM-DEL-2020-04-02 10:25-2020-04-02 12:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 737.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5187.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1474.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10374.0
+					},
+					"rKey": "RKEY:rkeyB2B1:75",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "4e45beba-943e-4826-b118-3f8503794508"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201155$UK-960",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 11:55",
+		"arrDate": "2020-04-02 14:05",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-960-BOM-DEL-2020-04-02 11:55-2020-04-02 14:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 737.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5187.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1474.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10374.0
+					},
+					"rKey": "RKEY:rkeyB2B1:76",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "9b9d8b8a-188a-49b9-b4d5-e1d854e52c2c"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201440$UK-944",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 14:40",
+		"arrDate": "2020-04-02 16:55",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-944-BOM-DEL-2020-04-02 14:40-2020-04-02 16:55",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 737.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5187.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1474.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10374.0
+					},
+					"rKey": "RKEY:rkeyB2B1:77",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "90fdb20f-49f3-4d50-82eb-3824d4386682"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201545$UK-902",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 15:45",
+		"arrDate": "2020-04-02 18:05",
+		"dur": 140,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-902-BOM-DEL-2020-04-02 15:45-2020-04-02 18:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 737.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5187.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1474.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10374.0
+					},
+					"rKey": "RKEY:rkeyB2B1:78",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "be076e34-fc2a-4c40-9e9d-cb947176276b"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204202055$UK-988",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 20:55",
+		"arrDate": "2020-04-02 23:00",
+		"dur": 125,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-988-BOM-DEL-2020-04-02 20:55-2020-04-02 23:00",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 737.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5187.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1474.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10374.0
+					},
+					"rKey": "RKEY:rkeyB2B1:79",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "f54eb8f9-e076-4285-9d4d-2ea480e201eb"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204202155$UK-950",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 21:55",
+		"arrDate": "2020-04-03 00:10",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-950-BOM-DEL-2020-04-02 21:55-2020-04-03 00:10",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4450.0,
+							"tx": 737.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5187.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8900.0,
+						"tx": 1474.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10374.0
+					},
+					"rKey": "RKEY:rkeyB2B1:80",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "a94b8cd5-aa87-4bd9-9354-3036759fc65c"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$AMD$0204201200$G8-2504|AMD$DEL$0204201855$G8-718",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 12:00",
+		"arrDate": "2020-04-02 20:40",
+		"dur": 520,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-2504-BOM-AMD-2020-04-02 12:00-2020-04-02 13:20",
+			"pnrGroupNum": 0
+		}, {
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-718-AMD-DEL-2020-04-02 18:55-2020-04-02 20:40",
+			"pnrGroupNum": 0,
+			"prvFltCntTyp": "CHANGE_OF_PLANE",
+			"prvFltCntDur": 335
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4061.0,
+							"tx": 1134.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5195.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8122.0,
+						"tx": 2268.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10390.0
+					},
+					"rKey": "RKEY:rkeyB2B1:81",
+					"rtFrLookUpId": "12f775e8-91fa-42b5-b232-36408d77e134"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$AMD$0204201925$G8-364|AMD$DEL$0204202220$G8-714",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 19:25",
+		"arrDate": "2020-04-03 00:05",
+		"dur": 280,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-364-BOM-AMD-2020-04-02 19:25-2020-04-02 20:45",
+			"pnrGroupNum": 0
+		}, {
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-714-AMD-DEL-2020-04-02 22:20-2020-04-03 00:05",
+			"pnrGroupNum": 0,
+			"prvFltCntTyp": "CHANGE_OF_PLANE",
+			"prvFltCntDur": 95
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4061.0,
+							"tx": 1134.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5195.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 8122.0,
+						"tx": 2268.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10390.0
+					},
+					"rKey": "RKEY:rkeyB2B1:82",
+					"rtFrLookUpId": "dcb18eec-f42c-4c2f-a2eb-f590d80d532d"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201050$6E-298",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 10:50",
+		"arrDate": "2020-04-02 13:05",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "6E-6E-298-BOM-DEL-2020-04-02 10:50-2020-04-02 13:05",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 4500.0,
+							"tx": 979.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 5479.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 9000.0,
+						"tx": 1958.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 10958.0
+					},
+					"rKey": "RKEY:rkeyB2B1:83",
+					"rtFrLookUpId": "d64febb5-3c52-45b1-a520-130f06b270db"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200730$UK-930",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 07:30",
+		"arrDate": "2020-04-02 09:40",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-930-BOM-DEL-2020-04-02 07:30-2020-04-02 09:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 5550.0,
+							"tx": 792.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 6342.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 11100.0,
+						"tx": 1584.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 12684.0
+					},
+					"rKey": "RKEY:rkeyB2B1:84",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "9bb92988-86a7-4ddc-94ea-c24f428b9ab4"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204200845$UK-970",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 08:45",
+		"arrDate": "2020-04-02 11:00",
+		"dur": 135,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-970-BOM-DEL-2020-04-02 08:45-2020-04-02 11:00",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 5550.0,
+							"tx": 792.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 6342.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 11100.0,
+						"tx": 1584.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 12684.0
+					},
+					"rKey": "RKEY:rkeyB2B1:85",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "b6d4c82a-5f67-49d5-a4c7-c7cc7080d268"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201830$UK-996",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 18:30",
+		"arrDate": "2020-04-02 20:40",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-996-BOM-DEL-2020-04-02 18:30-2020-04-02 20:40",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 5550.0,
+							"tx": 792.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 6342.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 11100.0,
+						"tx": 1584.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 12684.0
+					},
+					"rKey": "RKEY:rkeyB2B1:86",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "d89a046e-4fad-422a-b615-81bfbc93c537"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$DEL$0204201945$UK-940",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 19:45",
+		"arrDate": "2020-04-02 21:55",
+		"dur": 130,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "UK-UK-940-BOM-DEL-2020-04-02 19:45-2020-04-02 21:55",
+			"pnrGroupNum": 0
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 5550.0,
+							"tx": 792.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 6342.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 11100.0,
+						"tx": 1584.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 12684.0
+					},
+					"rKey": "RKEY:rkeyB2B1:87",
+					"sAdltBaggageInfo": {
+						"cknBgg": {
+							"unt": "Kgs",
+							"qty": 15,
+							"diTxt": "15 Kgs"
+						}
+					},
+					"rtFrLookUpId": "263badd0-15e8-4697-bc6d-ff90250b674c"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": true
+		}
+	}, {
+		"jrnyKey": "BOM$LKO$0204201045$G8-401|LKO$DEL$0204201835$G8-175",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 10:45",
+		"arrDate": "2020-04-02 19:55",
+		"dur": 550,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-401-BOM-LKO-2020-04-02 10:45-2020-04-02 13:05",
+			"pnrGroupNum": 0
+		}, {
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-175-LKO-DEL-2020-04-02 18:35-2020-04-02 19:55",
+			"pnrGroupNum": 0,
+			"prvFltCntTyp": "CHANGE_OF_PLANE",
+			"prvFltCntDur": 330
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 5756.0,
+							"tx": 1428.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 7184.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 11512.0,
+						"tx": 2856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 14368.0
+					},
+					"rKey": "RKEY:rkeyB2B1:88",
+					"rtFrLookUpId": "3f762068-4edc-47ef-9ff0-3b087e7c8357"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}, {
+		"jrnyKey": "BOM$LKO$0204201520$G8-397|LKO$DEL$0204201835$G8-175",
+		"isCstmComb": false,
+		"depDate": "2020-04-02 15:20",
+		"arrDate": "2020-04-02 19:55",
+		"dur": 275,
+		"flightDtlsInfo": [{
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-397-BOM-LKO-2020-04-02 15:20-2020-04-02 17:35",
+			"pnrGroupNum": 0
+		}, {
+			"flyingDay": 0,
+			"fltLookUpKey": "G8-G8-175-LKO-DEL-2020-04-02 18:35-2020-04-02 19:55",
+			"pnrGroupNum": 0,
+			"prvFltCntTyp": "CHANGE_OF_PLANE",
+			"prvFltCntDur": 60
+		}],
+		"isShlst": false,
+		"isTrvisaReq": false,
+		"frInfo": {
+			"showMoreFaresOnListing": false,
+			"cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+			"bookingFarePnrSelectionInfoMap": {
+				"COMBO": {
+					"paxFr": {
+						"ADULT": {
+							"addonsAmnt": 0.0,
+							"bs": 5756.0,
+							"tx": 1428.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 7184.0
+						}
+					},
+					"totFr": {
+						"addonsAmnt": 0.0,
+						"bs": 11512.0,
+						"tx": 2856.0,
+						"sFee": 0.0,
+						"convFee": 0.0,
+						"instDisc": 0.0,
+						"preApDiscntInfo": [],
+						"tot": 14368.0
+					},
+					"rKey": "RKEY:rkeyB2B1:89",
+					"rtFrLookUpId": "ef48d317-368d-46b3-8c4b-2f7c2f9614a0"
+				}
+			},
+			"isPnrGrpdFrFmlyAvl": false
+		}
+	}],
+	"rtFrCmb": {}
+}

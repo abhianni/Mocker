@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-ancillary-api/ancillary/stateless",
+    "bodyPatterns":[
+      {       	"contains": "ancillary_ow_1adult_trujet_api_error"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights-ancillaries/flights-ancillaries-soa/Stateless_Negative.json.json"
+  }
+}

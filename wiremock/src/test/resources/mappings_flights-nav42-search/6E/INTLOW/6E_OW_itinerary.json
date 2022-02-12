@@ -1,0 +1,17 @@
+{
+  "request":{
+	"method": "POST",
+    "url": "/bookingmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "PriceItineraryRequest"
+      },
+	  {       "contains" : "SIN"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/6E/INTLOW/6E_OW_itineraryPrice.xml"
+
+  }
+}

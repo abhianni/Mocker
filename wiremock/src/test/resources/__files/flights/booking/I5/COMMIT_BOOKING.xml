@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+	
+	<com.airasia.schemas.webservices.CommitResponse> <CommitResult xmlns="http://tempuri.org/" xmlns:ns4="http://schemas.datacontract.org/2004/07/ACE.Entities" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns4:BookingUpdateResponseData"> <ns4:NSProcessTime>1249</ns4:NSProcessTime> <ns4:ProcessTime>1256</ns4:ProcessTime> <ns4:Booking xsi:nil="1"/> <ns4:Success> <ns4:RecordLocator>ABCDEF</ns4:RecordLocator> <ns4:PNRAmount> <ns4:BalanceDue>0</ns4:BalanceDue> <ns4:AuthorizedBalanceDue>0</ns4:AuthorizedBalanceDue> <ns4:SegmentCount>1</ns4:SegmentCount> <ns4:PassiveSegmentCount>0</ns4:PassiveSegmentCount> <ns4:TotalCost>3049.00000</ns4:TotalCost> <ns4:PointsBalanceDue>0</ns4:PointsBalanceDue> <ns4:TotalPointCost>0</ns4:TotalPointCost> <ns4:AlternateCurrencyCode></ns4:AlternateCurrencyCode> <ns4:AlternateCurrencyBalanceDue>0</ns4:AlternateCurrencyBalanceDue> </ns4:PNRAmount> </ns4:Success> <ns4:Warning xsi:nil="1"/> <ns4:Error xsi:nil="1"/> <ns4:OtherServiceInformations xsi:nil="1"/> </CommitResult> </com.airasia.schemas.webservices.CommitResponse>
+	
+	
+		</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,23 @@
+
+{
+    "request":{
+        "method": "POST",
+        "url": "/res/v1/fees",
+	"bodyPatterns":[
+	{ "contains" : "AssessAgencyTransactionFeesRequest"
+
+	}	
+
+
+]
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/booking/FZ/ASSES_AGENCY.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}
+

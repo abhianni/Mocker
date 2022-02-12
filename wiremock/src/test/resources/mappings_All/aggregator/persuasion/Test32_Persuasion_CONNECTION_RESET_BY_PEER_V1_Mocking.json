@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-persuasion/persuasionElements",
+        "bodyPatterns":[{
+        "contains" : "PersuasionNegativeTestCONNECTIONRESETBYPEER"
+        }]
+    },
+    "response": {
+        "fault": "CONNECTION_RESET_BY_PEER"
+    }
+}

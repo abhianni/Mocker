@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-book-service/v1/validateTravellersInfo",
+    "bodyPatterns":[
+      {       "contains" : "tst_validate_traveller_form_itID"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_booking/validateTravellerForm/Test_Validate_Traveller_Form_BookService_Response.json"
+
+  }
+}

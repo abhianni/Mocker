@@ -1,0 +1,21 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v4/search.*crId=adminUser_SEARCHCORP.*",
+		"headers": {
+			"x-lob": {
+				"equalTo": "CORPB2C"
+			}
+		}
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json",
+			"x-profile-type": "BUSINESS",
+			"x-org-id": "3"
+		},
+		"bodyFileName": "/corporate/corpSearchV1/adminUserTest/searchCorp_DomB2COW_Resp.json"
+	}
+}

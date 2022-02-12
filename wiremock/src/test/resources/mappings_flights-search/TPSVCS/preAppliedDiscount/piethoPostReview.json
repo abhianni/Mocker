@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v2/persuasion/peitho?.*flT_TEST_WRVIEW_DOM_RT_PIETHO.*"	
+    },
+        "response": {
+            "status": 200,
+			"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+			"transformers": ["FlightSOAResponseTransformer"],
+            "bodyFileName": "/flights_search/TPSVCS/preAppliedDiscount/piethoPostReviewResponse.json"
+        }
+}

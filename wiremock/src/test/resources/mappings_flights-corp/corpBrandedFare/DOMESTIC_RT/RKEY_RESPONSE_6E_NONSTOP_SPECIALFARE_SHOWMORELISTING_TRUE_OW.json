@@ -1,0 +1,17 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/flights-search/rkey-info.*crId=BRANDEDFAREDOMRT.*",
+		 "bodyPatterns":[{
+        "contains" : "RKEY:rkeyB2BRT1:12"
+        }]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpBrandedFare/DOMESTIC_RT/RKEY_RESPONSE_6E_NONSTOP_SPECIALFARE_SHOWMORELISTING_TRUE_OW.json"
+	}
+}

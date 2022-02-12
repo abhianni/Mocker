@@ -1,0 +1,615 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NN7115353762802",
+    "iteneraryId": "d474a8eb61a696acc1638679f2e725f289aaec18",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "\"NN7115353762802\"",
+      "BookingAggregatorResponse": "{\"mmtId\":\"NN7115353762802\",\"pnrData\":[{\"pnrNo\":\"DEDGUA\",\"supplierId\":\"SGEXINDIA\",\"supplierType\":\"NAV42\",\"airlineCode\":\"SG\"}],\"userData\":{\"uuid\":\"UDMBTV8XJJM\",\"profileType\":\"PERSONAL\"},\"itineraryId\":\"d474a8eb61a696acc1638679f2e725f289aaec18\",\"cancellationAssurance\":false,\"fareType\":null,\"cabinClass\":\"E\"}",
+      "PostSaleCPReq": "{\"status\":null,\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN7115353762802\",\"iteneraryId\":\"d474a8eb61a696acc1638679f2e725f289aaec18\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"15\",\"aircraftType\":\"737\",\"departureInfo\":{\"trmnl\":\"2\",\"arpCd\":\"AMD\"},\"arrivalInfo\":{\"trmnl\":\"2\",\"arpCd\":\"DXB\"},\"techStops\":null,\"depTime\":1597835100000,\"arrTime\":1597841700000,\"duration\":6600000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"AMD-DXB : SG-15\",\"depDate\":\"2020-08-19 16:35\",\"arrDate\":\"2020-08-19 18:25\",\"duration\":6600000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":9847.0,\"singlePaxTx\":1188.0,\"singlePaxTot\":11035.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":248.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"AAT\"},{\"nation\":null,\"taxVal\":426.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":100.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":248.0,\"taxCode\":\"SGST24\"},{\"nation\":null,\"taxVal\":65.0,\"taxCode\":\"TRF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\":{\"fareClass\":\"U\",\"fareBasis\":\"USMX\",\"rbd\":\"U\",\"pclass\":\"SC\"}},\"journeyWiseFare\":{\"AMD-DXB : SG-15\":{\"singlePaxBaseFare\":9847.0,\"singlePaxTx\":1188.0,\"singlePaxTot\":11035.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":65.0,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"AAT\"},{\"nation\":null,\"taxVal\":426.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":100.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":2.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":246.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":2.0,\"taxCode\":\"SGST24\"},{\"nation\":null,\"taxVal\":246.0,\"taxCode\":\"SGST24\"}]}}},\"CHILD\":{\"singlePaxBaseFare\":9847.0,\"singlePaxTx\":1188.0,\"singlePaxTot\":11035.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":248.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"AAT\"},{\"nation\":null,\"taxVal\":426.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":100.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":248.0,\"taxCode\":\"SGST24\"},{\"nation\":null,\"taxVal\":65.0,\"taxCode\":\"TRF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\":{\"fareClass\":\"U\",\"fareBasis\":\"USMX\",\"rbd\":\"U\",\"pclass\":\"SC\"}},\"journeyWiseFare\":{\"AMD-DXB : SG-15\":{\"singlePaxBaseFare\":9847.0,\"singlePaxTx\":1188.0,\"singlePaxTot\":11035.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":65.0,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"AAT\"},{\"nation\":null,\"taxVal\":426.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":100.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":2.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":246.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":2.0,\"taxCode\":\"SGST24\"},{\"nation\":null,\"taxVal\":246.0,\"taxCode\":\"SGST24\"}]}}},\"INFANT\":{\"singlePaxBaseFare\":2381.0,\"singlePaxTx\":120.0,\"singlePaxTot\":2501.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":60.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":60.0,\"taxCode\":\"SGST24\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\":{\"fareClass\":\"U\",\"fareBasis\":\"USMX\",\"rbd\":\"U\",\"pclass\":\"SC\"}},\"journeyWiseFare\":{}}},\"cancellationPenalty\":null,\"dateChangePenalty\":null,\"baggageList\":null,\"cancellationAssured\":false,\"supplierName\":\"SG\",\"supplierCredential\":\"SGEXINDIA\",\"fareFamily\":\"\"}]}}}}]}}",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-08-12 19:55:45\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NN7115353762802\\\",\\\"iteneraryId\\\":\\\"d474a8eb61a696acc1638679f2e725f289aaec18\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\\\":{\\\"mrkAl\\\":\\\"SG\\\",\\\"oprAl\\\":\\\"SG\\\",\\\"validatingCarrier\\\":\\\"SG\\\",\\\"fltNo\\\":\\\"15\\\",\\\"arcrfTyp\\\":\\\"737\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"2\\\",\\\"arpCd\\\":\\\"AMD\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"2\\\",\\\"arpCd\\\":\\\"DXB\\\"},\\\"depTime\\\":1597835100000,\\\"arrTime\\\":1597841700000,\\\"dur\\\":6600000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"AMD-DXB : SG-15\\\",\\\"depDate\\\":\\\"2020-08-19 16:35\\\",\\\"arrDate\\\":\\\"2020-08-19 18:25\\\",\\\"dur\\\":6600000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":9847.0,\\\"singlePaxTx\\\":1188.0,\\\"singlePaxTot\\\":11035.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":248.0,\\\"taxCode\\\":\\\"CGST24\\\"},{\\\"taxVal\\\":101.0,\\\"taxCode\\\":\\\"AAT\\\"},{\\\"taxVal\\\":426.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":100.0,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":248.0,\\\"taxCode\\\":\\\"SGST24\\\"},{\\\"taxVal\\\":65.0,\\\"taxCode\\\":\\\"TRF\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{\\\"AMD-DXB : SG-15\\\":{\\\"singlePaxBaseFare\\\":9847.0,\\\"singlePaxTx\\\":1188.0,\\\"singlePaxTot\\\":11035.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":65.0,\\\"taxCode\\\":\\\"TRF\\\"},{\\\"taxVal\\\":101.0,\\\"taxCode\\\":\\\"AAT\\\"},{\\\"taxVal\\\":426.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":100.0,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":2.0,\\\"taxCode\\\":\\\"CGST24\\\"},{\\\"taxVal\\\":246.0,\\\"taxCode\\\":\\\"CGST24\\\"},{\\\"taxVal\\\":2.0,\\\"taxCode\\\":\\\"SGST24\\\"},{\\\"taxVal\\\":246.0,\\\"taxCode\\\":\\\"SGST24\\\"}]}},\\\"segPrdctInfo\\\":{\\\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\\\":{\\\"pclass\\\":\\\"SC\\\",\\\"fareClass\\\":\\\"U\\\",\\\"fareBasis\\\":\\\"USMX\\\",\\\"pClass\\\":\\\"SC\\\",\\\"rbd\\\":\\\"U\\\"}}},\\\"CHILD\\\":{\\\"singlePaxBaseFare\\\":9847.0,\\\"singlePaxTx\\\":1188.0,\\\"singlePaxTot\\\":11035.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":248.0,\\\"taxCode\\\":\\\"CGST24\\\"},{\\\"taxVal\\\":101.0,\\\"taxCode\\\":\\\"AAT\\\"},{\\\"taxVal\\\":426.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":100.0,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":248.0,\\\"taxCode\\\":\\\"SGST24\\\"},{\\\"taxVal\\\":65.0,\\\"taxCode\\\":\\\"TRF\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{\\\"AMD-DXB : SG-15\\\":{\\\"singlePaxBaseFare\\\":9847.0,\\\"singlePaxTx\\\":1188.0,\\\"singlePaxTot\\\":11035.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":65.0,\\\"taxCode\\\":\\\"TRF\\\"},{\\\"taxVal\\\":101.0,\\\"taxCode\\\":\\\"AAT\\\"},{\\\"taxVal\\\":426.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":100.0,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":2.0,\\\"taxCode\\\":\\\"CGST24\\\"},{\\\"taxVal\\\":246.0,\\\"taxCode\\\":\\\"CGST24\\\"},{\\\"taxVal\\\":2.0,\\\"taxCode\\\":\\\"SGST24\\\"},{\\\"taxVal\\\":246.0,\\\"taxCode\\\":\\\"SGST24\\\"}]}},\\\"segPrdctInfo\\\":{\\\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\\\":{\\\"pclass\\\":\\\"SC\\\",\\\"fareClass\\\":\\\"U\\\",\\\"fareBasis\\\":\\\"USMX\\\",\\\"pClass\\\":\\\"SC\\\",\\\"rbd\\\":\\\"U\\\"}}},\\\"INFANT\\\":{\\\"singlePaxBaseFare\\\":2381.0,\\\"singlePaxTx\\\":120.0,\\\"singlePaxTot\\\":2501.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":60.0,\\\"taxCode\\\":\\\"CGST24\\\"},{\\\"taxVal\\\":60.0,\\\"taxCode\\\":\\\"SGST24\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{},\\\"segPrdctInfo\\\":{\\\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\\\":{\\\"pclass\\\":\\\"SC\\\",\\\"fareClass\\\":\\\"U\\\",\\\"fareBasis\\\":\\\"USMX\\\",\\\"pClass\\\":\\\"SC\\\",\\\"rbd\\\":\\\"U\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"SG\\\",\\\"supplierCredential\\\":\\\"SGEXINDIA\\\",\\\"fareFamily\\\":\\\"\\\"}]}}}}]}}\",\"ticketData\":\"null\",\"mmtId\":\"NN7115353762802\"}",
+      "PostSaleDroolsBaggage0": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"INTL\",\"fromCityLeg\":\"AMD\",\"toCityLeg\":\"DXB\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"United Arab Emirates\",\"operatingAirline\":\"SG\",\"validatingAirline\":\"SG\",\"cabinClass\":\"E\",\"flightNo\":\"15\",\"fbc\":\"USMX\",\"rbd\":\"U\",\"productClass\":\"SC\",\"bookingDate\":1597242345000,\"ptcCode\":\"\",\"travelDateStart\":1597835100000,\"travelDateEnd\":1597835100000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "MiniRuleConfig": "{\"airline\":\"SG\",\"sector\":\"INTL\",\"fbc\":null,\"rbd\":null,\"productClass\":null,\"cabinClass\":\"ECONOMY\",\"departureDate\":null,\"bookingDate\":null,\"noShowCutOff\":24,\"firedRules\":[\"22\"],\"cpadditive\":300.0,\"cpmultiplier\":1.18,\"dcpadditive\":0.0,\"dcpmultiplier\":1.05}",
+      "PostSaleBaggageResponse0": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"AMD-DXB : SG-15\",\"flightLookUpKey\":\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"INFANT\":{\"allowance\":\"0\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"INFANT\":{\"allowance\":\"0\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}]}",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"AMD-DXB : SG-15\":{\"fltGrps\":[{\"fltKeys\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{\"AMD-DXB : SG-15\":{\"fltGrps\":[{\"fltKeys\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftCancelFltPenaltyGrp\":{\"AMD-DXB : SG-15\":{\"fltGrps\":[{\"fltKeys\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"AMD-DXB : SG-15\":{\"fltGrps\":[{\"fltKeys\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{\"AMD-DXB : SG-15\":{\"fltGrps\":[{\"fltKeys\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftDateChngeFltPenaltyGrp\":{\"AMD-DXB : SG-15\":{\"fltGrps\":[{\"fltKeys\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"twFareRules\":[{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":4,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"10935.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":4,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0.0\",\"mmtFee\":0.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":4,\"to\":24,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"10832.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":4,\"to\":24,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":4,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"10935.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":4,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":4,\"to\":24,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"10832.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":4,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"10935.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0.0\",\"mmtFee\":0.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"5000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":4,\"to\":24,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"5000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0.0\",\"mmtFee\":0.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":4,\"to\":24,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0.0\",\"mmtFee\":0.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":4,\"to\":24,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":4,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"10935.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"USMX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"AMD-DXB : SG-15\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"AMD-DXB : SG-15\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "{\"status\":\"SUCCCES\",\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN7115353762802\",\"iteneraryId\":\"d474a8eb61a696acc1638679f2e725f289aaec18\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"15\",\"aircraftType\":\"737\",\"departureInfo\":{\"trmnl\":\"2\",\"arpCd\":\"AMD\"},\"arrivalInfo\":{\"trmnl\":\"2\",\"arpCd\":\"DXB\"},\"techStops\":null,\"depTime\":1597835100000,\"arrTime\":1597841700000,\"duration\":6600000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"AMD-DXB : SG-15\",\"depDate\":\"2020-08-19 16:35\",\"arrDate\":\"2020-08-19 18:25\",\"duration\":6600000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":9847.0,\"singlePaxTx\":1188.0,\"singlePaxTot\":11035.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":248.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"AAT\"},{\"nation\":null,\"taxVal\":426.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":100.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":248.0,\"taxCode\":\"SGST24\"},{\"nation\":null,\"taxVal\":65.0,\"taxCode\":\"TRF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\":{\"fareClass\":\"U\",\"fareBasis\":\"USMX\",\"rbd\":\"U\",\"pclass\":\"SC\"}},\"journeyWiseFare\":{\"AMD-DXB : SG-15\":{\"singlePaxBaseFare\":9847.0,\"singlePaxTx\":1188.0,\"singlePaxTot\":11035.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":65.0,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"AAT\"},{\"nation\":null,\"taxVal\":426.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":100.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":2.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":246.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":2.0,\"taxCode\":\"SGST24\"},{\"nation\":null,\"taxVal\":246.0,\"taxCode\":\"SGST24\"}]}}},\"CHILD\":{\"singlePaxBaseFare\":9847.0,\"singlePaxTx\":1188.0,\"singlePaxTot\":11035.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":248.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"AAT\"},{\"nation\":null,\"taxVal\":426.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":100.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":248.0,\"taxCode\":\"SGST24\"},{\"nation\":null,\"taxVal\":65.0,\"taxCode\":\"TRF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\":{\"fareClass\":\"U\",\"fareBasis\":\"USMX\",\"rbd\":\"U\",\"pclass\":\"SC\"}},\"journeyWiseFare\":{\"AMD-DXB : SG-15\":{\"singlePaxBaseFare\":9847.0,\"singlePaxTx\":1188.0,\"singlePaxTot\":11035.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":65.0,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":101.0,\"taxCode\":\"AAT\"},{\"nation\":null,\"taxVal\":426.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":100.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":2.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":246.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":2.0,\"taxCode\":\"SGST24\"},{\"nation\":null,\"taxVal\":246.0,\"taxCode\":\"SGST24\"}]}}},\"INFANT\":{\"singlePaxBaseFare\":2381.0,\"singlePaxTx\":120.0,\"singlePaxTot\":2501.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":60.0,\"taxCode\":\"CGST24\"},{\"nation\":null,\"taxVal\":60.0,\"taxCode\":\"SGST24\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\":{\"fareClass\":\"U\",\"fareBasis\":\"USMX\",\"rbd\":\"U\",\"pclass\":\"SC\"}},\"journeyWiseFare\":{}}},\"cancellationPenalty\":[{\"jrnyKey\":\"AMD-DXB : SG-15\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":4500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":5000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":10832.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":10935.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null},\"CHILD\":{\"ptcCode\":null,\"paxType\":\"CHILD\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":4500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":5000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":10832.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":10935.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null},\"INFANT\":{\"ptcCode\":null,\"paxType\":\"INFANT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null}}}],\"dateChangePenalty\":[{\"jrnyKey\":\"AMD-DXB : SG-15\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":10935.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null}]},\"CHILD\":{\"ptcCode\":null,\"paxType\":\"CHILD\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":10935.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null}]},\"INFANT\":{\"ptcCode\":null,\"paxType\":\"INFANT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":0.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":0.0},\"waiver\":null},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":0.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":0.0},\"waiver\":null}]}}}],\"baggageList\":[{\"jrnyKey\":\"AMD-DXB : SG-15\",\"flightLookUpKey\":\"SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"INFANT\":{\"allowance\":\"0\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"INFANT\":{\"allowance\":\"0\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}],\"cancellationAssured\":false,\"supplierName\":\"SG\",\"supplierCredential\":\"SGEXINDIA\",\"fareFamily\":\"\"}]}}}}]}}",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25": {
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "validatingCarrier": "SG",
+      "fltNo": "15",
+      "arcrfTyp": "737",
+      "depInfo": {
+        "trmnl": "2",
+        "arpCd": "AMD"
+      },
+      "arrInfo": {
+        "trmnl": "2",
+        "arpCd": "DXB"
+      },
+      "depTime": 1597835100000,
+      "arrTime": 1597841700000,
+      "dur": 6600000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "AMD-DXB : SG-15",
+        "depDate": "2020-08-19 16:35",
+        "arrDate": "2020-08-19 18:25",
+        "dur": 6600000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 9847.0,
+                  "singlePaxTx": 1188.0,
+                  "singlePaxTot": 11035.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 248.0,
+                    "taxCode": "CGST24"
+                  }, {
+                    "taxVal": 101.0,
+                    "taxCode": "AAT"
+                  }, {
+                    "taxVal": 426.0,
+                    "taxCode": "ASF"
+                  }, {
+                    "taxVal": 100.0,
+                    "taxCode": "UDF"
+                  }, {
+                    "taxVal": 248.0,
+                    "taxCode": "SGST24"
+                  }, {
+                    "taxVal": 65.0,
+                    "taxCode": "TRF"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {
+                    "AMD-DXB : SG-15": {
+                      "singlePaxBaseFare": 9847.0,
+                      "singlePaxTx": 1188.0,
+                      "singlePaxTot": 11035.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 65.0,
+                        "taxCode": "TRF"
+                      }, {
+                        "taxVal": 101.0,
+                        "taxCode": "AAT"
+                      }, {
+                        "taxVal": 426.0,
+                        "taxCode": "ASF"
+                      }, {
+                        "taxVal": 100.0,
+                        "taxCode": "UDF"
+                      }, {
+                        "taxVal": 2.0,
+                        "taxCode": "CGST24"
+                      }, {
+                        "taxVal": 246.0,
+                        "taxCode": "CGST24"
+                      }, {
+                        "taxVal": 2.0,
+                        "taxCode": "SGST24"
+                      }, {
+                        "taxVal": 246.0,
+                        "taxCode": "SGST24"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25": {
+                      "pclass": "SC",
+                      "fareClass": "U",
+                      "fareBasis": "USMX",
+                      "pClass": "SC",
+                      "rbd": "U"
+                    }
+                  }
+                },
+                "CHILD": {
+                  "singlePaxBaseFare": 9847.0,
+                  "singlePaxTx": 1188.0,
+                  "singlePaxTot": 11035.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 248.0,
+                    "taxCode": "CGST24"
+                  }, {
+                    "taxVal": 101.0,
+                    "taxCode": "AAT"
+                  }, {
+                    "taxVal": 426.0,
+                    "taxCode": "ASF"
+                  }, {
+                    "taxVal": 100.0,
+                    "taxCode": "UDF"
+                  }, {
+                    "taxVal": 248.0,
+                    "taxCode": "SGST24"
+                  }, {
+                    "taxVal": 65.0,
+                    "taxCode": "TRF"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {
+                    "AMD-DXB : SG-15": {
+                      "singlePaxBaseFare": 9847.0,
+                      "singlePaxTx": 1188.0,
+                      "singlePaxTot": 11035.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 65.0,
+                        "taxCode": "TRF"
+                      }, {
+                        "taxVal": 101.0,
+                        "taxCode": "AAT"
+                      }, {
+                        "taxVal": 426.0,
+                        "taxCode": "ASF"
+                      }, {
+                        "taxVal": 100.0,
+                        "taxCode": "UDF"
+                      }, {
+                        "taxVal": 2.0,
+                        "taxCode": "CGST24"
+                      }, {
+                        "taxVal": 246.0,
+                        "taxCode": "CGST24"
+                      }, {
+                        "taxVal": 2.0,
+                        "taxCode": "SGST24"
+                      }, {
+                        "taxVal": 246.0,
+                        "taxCode": "SGST24"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25": {
+                      "pclass": "SC",
+                      "fareClass": "U",
+                      "fareBasis": "USMX",
+                      "pClass": "SC",
+                      "rbd": "U"
+                    }
+                  }
+                },
+                "INFANT": {
+                  "singlePaxBaseFare": 2381.0,
+                  "singlePaxTx": 120.0,
+                  "singlePaxTot": 2501.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 60.0,
+                    "taxCode": "CGST24"
+                  }, {
+                    "taxVal": 60.0,
+                    "taxCode": "SGST24"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25": {
+                      "pclass": "SC",
+                      "fareClass": "U",
+                      "fareBasis": "USMX",
+                      "pClass": "SC",
+                      "rbd": "U"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "AMD-DXB : SG-15",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 5000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 10832.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 10935.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 5000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 10832.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 10935.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "AMD-DXB : SG-15",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 10935.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 10935.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "AMD-DXB : SG-15",
+                "flightLookUpKey": "SG-15-AMD-DXB-2020-08-19 16:35-2020-08-19 18:25",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "CHILD": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "INFANT": {
+                      "allowance": "0",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "CHILD": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "INFANT": {
+                      "allowance": "0",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "SG",
+              "supplierCredential": "SGEXINDIA",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

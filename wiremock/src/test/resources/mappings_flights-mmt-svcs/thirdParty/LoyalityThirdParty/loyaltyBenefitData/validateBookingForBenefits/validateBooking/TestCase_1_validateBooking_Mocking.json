@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/loyalty-messaging-service/validateBookingForBenefits",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"}
+		},
+        "bodyPatterns":[{
+        "contains" : "OnlyValidateBooking"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/LoyalityThirdParty/validateBookingForBenefits/validateBooking/TestCase_1_validateBooking_Response.json"
+    }
+}

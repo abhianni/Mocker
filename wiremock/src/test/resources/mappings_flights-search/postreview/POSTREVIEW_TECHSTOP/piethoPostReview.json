@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v2/persuasion/peitho?.*POSTRVIEW_DOM_OW_TECH_STOP.*"	
+    },
+        "response": {
+            "status": 200,
+			"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+			"transformers": ["FlightSOAResponseTransformer"],
+            "bodyFileName": "/flights_search/postreview/DOM_OW_TECHSTOP/piethoPostReviewResponse.json"
+        }
+}

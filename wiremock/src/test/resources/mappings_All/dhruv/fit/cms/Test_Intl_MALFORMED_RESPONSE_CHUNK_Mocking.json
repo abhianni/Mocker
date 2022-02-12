@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/cms-service/credentialID",
+        "bodyPatterns":[{	
+        "contains" : "DFITIntl_MALFORMED_RESPONSE_CHUNK"
+        }]
+    },
+    "response": {
+        "fault": "MALFORMED_RESPONSE_CHUNK"
+    }
+}

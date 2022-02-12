@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/bookingmanager.svc",
+       "bodyPatterns":[{
+        "contains" : "SellRequest"
+        }]
+ 
+
+    
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/G8_Sell_Repsonse.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

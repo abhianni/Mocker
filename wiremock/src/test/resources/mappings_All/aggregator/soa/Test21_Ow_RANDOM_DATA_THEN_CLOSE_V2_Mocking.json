@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+        "bodyPatterns":[{	
+        "contains" : "\"sequenceId\":\"SOANegativeTest_RANDOM_DATA_THEN_CLOSE\""
+        }]
+    },
+    "response": {
+        "fault": "RANDOM_DATA_THEN_CLOSE"
+    }
+}

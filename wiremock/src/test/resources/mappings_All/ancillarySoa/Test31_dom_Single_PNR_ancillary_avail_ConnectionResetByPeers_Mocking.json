@@ -1,0 +1,15 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/postsaleAncillary",
+        "bodyPatterns":[{
+        "contains" : "\"pnr\":\"UD4SVP\""
+        },
+	{	
+        "contains" : "\"postsaleAncillaryRequestType\":\"AVAILABILITY\""
+        }]
+    },
+    "response": {
+        "fault": "CONNECTION_RESET_BY_PEER"
+    }
+}

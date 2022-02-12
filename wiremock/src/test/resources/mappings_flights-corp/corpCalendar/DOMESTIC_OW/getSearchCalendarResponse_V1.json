@@ -1,0 +1,14 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v1/calendar.*crId=test_calendar_crId.*"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpCalendar/DOMESTIC_OW/getSearchCalendarResponse_V1.json"
+	}
+}

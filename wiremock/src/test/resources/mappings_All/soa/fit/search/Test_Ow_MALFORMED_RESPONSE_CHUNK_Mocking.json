@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/search/soa?DhruvNegativeTest_MALFORMED_RESPONSE_CHUNK",
+        "bodyPatterns":[{	
+        "contains" : "DhruvNegativeTest_MALFORMED_RESPONSE_CHUNK"
+        }]
+    },
+    "response": {
+        "fault": "MALFORMED_RESPONSE_CHUNK"
+    }
+}

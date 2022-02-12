@@ -1,0 +1,18 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v1/wallet-info.*flT_TEST_WRVIEW_DOM_RT_SG_RTFARE_SUCCESS.*"
+
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/TPSVCS/preAppliedDiscount/walletErrReponse.json"
+		
+    }
+}

@@ -1,0 +1,331 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "787",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.7",
+    "serviceName": "Pnr-Service",
+    "supplierName": "NAV42",
+    "credentialId": "SGUNICOUP",
+    "supplierLatency": "513",
+    "corporateCode": "",
+    "promoCode": "C101MTIB"
+  },
+  "flightLookUpList": {
+    "TRV$DEL$2020-02-07 16:05:00$SG-8964": {
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "8964",
+      "arcrfTyp": "737",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "TRV",
+        "arpNm": "Trivandrum International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-02-07 16:05:00",
+      "arrTime": "2020-02-07 19:15:00",
+      "durInMins": "190"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "TRV$DEL$2020-02-07 16:05:00$SG-8964",
+      "depDate": "2020-02-07 16:05:00",
+      "arrDate": "2020-02-07 19:15:00",
+      "durInMins": "190",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "TRV$DEL$2020-02-07 16:05:00$SG-8964",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "ADULT": {
+              "bs": 4209.0,
+              "tx": 1135.0,
+              "noOfPax": 2,
+              "tot": 5344.0,
+              "taxBreakups": [{
+                "amnt": 109.0,
+                "code": "CGST32",
+                "msg": ""
+              }, {
+                "amnt": 100.0,
+                "code": "RCS",
+                "msg": ""
+              }, {
+                "amnt": 177.0,
+                "code": "ASF",
+                "msg": ""
+              }, {
+                "amnt": 109.0,
+                "code": "SGST32",
+                "msg": ""
+              }, {
+                "amnt": 575.0,
+                "code": "UDF",
+                "msg": ""
+              }, {
+                "amnt": 65.0,
+                "code": "TRF",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "TRV$DEL$2020-02-07 16:05:00$SG-8964": {
+                  "fareClass": "U",
+                  "fareBasis": "USFH",
+                  "productClass": "HR",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": "Default"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 4209.0,
+                    "tx": 1135.0,
+                    "tot": 5344.0,
+                    "taxBreakups": [{
+                      "amnt": 100.0,
+                      "code": "RCS",
+                      "msg": ""
+                    }, {
+                      "amnt": 65.0,
+                      "code": "TRF",
+                      "msg": ""
+                    }, {
+                      "amnt": 177.0,
+                      "code": "ASF",
+                      "msg": ""
+                    }, {
+                      "amnt": 575.0,
+                      "code": "UDF",
+                      "msg": ""
+                    }, {
+                      "amnt": 4.0,
+                      "code": "CGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 105.0,
+                      "code": "CGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 4.0,
+                      "code": "SGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 105.0,
+                      "code": "SGST32",
+                      "msg": ""
+                    }]
+                  }
+                }
+              }
+            },
+            "CHILD": {
+              "bs": 4209.0,
+              "tx": 1135.0,
+              "noOfPax": 1,
+              "tot": 5344.0,
+              "taxBreakups": [{
+                "amnt": 109.0,
+                "code": "CGST32",
+                "msg": ""
+              }, {
+                "amnt": 100.0,
+                "code": "RCS",
+                "msg": ""
+              }, {
+                "amnt": 177.0,
+                "code": "ASF",
+                "msg": ""
+              }, {
+                "amnt": 109.0,
+                "code": "SGST32",
+                "msg": ""
+              }, {
+                "amnt": 575.0,
+                "code": "UDF",
+                "msg": ""
+              }, {
+                "amnt": 65.0,
+                "code": "TRF",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "TRV$DEL$2020-02-07 16:05:00$SG-8964": {
+                  "fareClass": "U",
+                  "fareBasis": "USFH",
+                  "productClass": "HR",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": "Default"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 4209.0,
+                    "tx": 1135.0,
+                    "tot": 5344.0,
+                    "taxBreakups": [{
+                      "amnt": 100.0,
+                      "code": "RCS",
+                      "msg": ""
+                    }, {
+                      "amnt": 65.0,
+                      "code": "TRF",
+                      "msg": ""
+                    }, {
+                      "amnt": 177.0,
+                      "code": "ASF",
+                      "msg": ""
+                    }, {
+                      "amnt": 575.0,
+                      "code": "UDF",
+                      "msg": ""
+                    }, {
+                      "amnt": 4.0,
+                      "code": "CGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 105.0,
+                      "code": "CGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 4.0,
+                      "code": "SGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 105.0,
+                      "code": "SGST32",
+                      "msg": ""
+                    }]
+                  }
+                }
+              }
+            },
+            "INFANT": {
+              "bs": 1200.0,
+              "tx": 60.0,
+              "noOfPax": 1,
+              "tot": 1260.0,
+              "taxBreakups": [{
+                "amnt": 30.0,
+                "code": "CGST32",
+                "msg": ""
+              }, {
+                "amnt": 30.0,
+                "code": "SGST32",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "TRV$DEL$2020-02-07 16:05:00$SG-8964": {
+                  "fareClass": "U",
+                  "fareBasis": "USFH",
+                  "productClass": "HR",
+                  "cabin": "ECONOMY"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 13827.0,
+            "tx": 3465.0,
+            "tot": 17292.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "PB7W8J",
+          "aPnr": "",
+          "travelerAddons": {},
+          "travelerInfos": [{
+            "id": "0",
+            "title": "MR",
+            "paxId": "0",
+            "firstName": "jitesh",
+            "middleName": "",
+            "lastName": "garg",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "jitesh@swasstationery.in",
+            "mobileNumber": "919899089082",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "MS",
+            "paxId": "0",
+            "firstName": "jiya",
+            "middleName": "",
+            "lastName": "garg",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "",
+            "mobileNumber": "",
+            "mobileNumberCountryCode": "",
+            "paxType": "INFANT",
+            "dateOfBirth": "2019-08-29 00:00:00",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "MS",
+            "paxId": "1",
+            "firstName": "sandhya",
+            "middleName": "",
+            "lastName": "garg",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "jitesh@swasstationery.in",
+            "mobileNumber": "919899089082",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "3",
+            "title": "MR",
+            "paxId": "2",
+            "firstName": "vedant",
+            "middleName": "",
+            "lastName": "garg",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "jitesh@swasstationery.in",
+            "mobileNumber": "919899089082",
+            "mobileNumberCountryCode": "",
+            "paxType": "CHILD",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [],
+          "validatingCarrier": "SG",
+          "creationDate": "2020-01-06 23:22:38",
+          "fareFamily": "",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

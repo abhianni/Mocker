@@ -1,0 +1,9 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPatterns": "/flights-tp-svcs/v1/user-details?.*MalformedResponseGUD.*"
+    },
+    "response": {
+        "fault": "MALFORMED_RESPONSE_CHUNK"
+    }
+}

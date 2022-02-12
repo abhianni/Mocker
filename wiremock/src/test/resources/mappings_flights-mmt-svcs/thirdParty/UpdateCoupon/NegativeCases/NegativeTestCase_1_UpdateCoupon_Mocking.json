@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/cdf/v2/rest/services/saveOrUpdateStatus",
+		"headers": {
+		"Authorization" : {"matches" : "Basic cmVzdDoxMjM0NTY="},
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"}
+		},
+       "bodyPatterns":[
+{       "contains" : "COUPONNOTFOUND"
+}
+]
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+        "bodyFileName": "/TPSVCS/UpdateCoupon/NegativeCases/NegativeTestCase_1_UpdateCoupon_Response.json"
+		
+    }
+}

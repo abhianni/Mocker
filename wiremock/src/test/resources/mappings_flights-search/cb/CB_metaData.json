@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "GET",
+	"urlPattern": "/getCBMetaData"
+       
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+        "bodyFileName": "/flights_search/cb/CBMetaDataResponse.json"
+		
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/postSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOM6EMCAC/GETPOSTSALELCC.json"
+  }
+}
+

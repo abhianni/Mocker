@@ -1,0 +1,132 @@
+{
+  "status": "SUCCESS",
+  "anclryDataMap": null,
+  "segAnclryHldrList": [
+    {
+      "anclryType": "MEALS",
+      "anclryDescr": "Food & Beverages",
+      "displayTitle": null,
+      "displaySubTitle": null,
+      "segAnclryDataMap": {
+        "HYD_TIR": {
+          "segType": "DEP",
+          "originCity": "Hyderabad",
+          "destCity": "Tirupati",
+          "selectType": "single",
+          "refundStat": 1,
+          "alCode": "2T",
+          "fltNo": "107",
+          "anclryGrpMap": {
+            "Non Veg": [
+              {
+                "grp": "Non Veg",
+                "name": "NON VEG CUP NOODLES WITH BEVER",
+                "price": 300,
+                "code": "NNML",
+                "mmtPrice": 300,
+                "imagePath": "/meal-icons/v1abc.jpg",
+                "showSlasherFare": false,
+                "cssrDetailSOA": null
+              }
+            ],
+            "Veg": [
+              {
+                "grp": "Veg",
+                "name": "VEG CUP NOODLES WITH BEVERAGE",
+                "price": 300,
+                "code": "VNML",
+                "mmtPrice": 300,
+                "imagePath": "/meal-icons/v1abc.jpg",
+                "showSlasherFare": false,
+                "cssrDetailSOA": null
+              },
+              {
+                "grp": "Veg",
+                "name": "RAVA UPMA WITH BEVERAGE",
+                "price": 260,
+                "code": "UPML",
+                "mmtPrice": 260,
+                "imagePath": "/meal-icons/v1abc.jpg",
+                "showSlasherFare": false,
+                "cssrDetailSOA": null
+              },
+              {
+                "grp": "Veg",
+                "name": "POHA TUB WITH BEVERAGES",
+                "price": 260,
+                "code": "PPML",
+                "mmtPrice": 260,
+                "imagePath": "/meal-icons/v1abc.jpg",
+                "showSlasherFare": false,
+                "cssrDetailSOA": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "anclryType": "BAGGAGE",
+      "anclryDescr": "Baggage",
+      "displayTitle": null,
+      "displaySubTitle": null,
+      "segAnclryDataMap": {
+        "HYD_TIR": {
+          "segType": "DEP",
+          "originCity": "Hyderabad",
+          "destCity": "Tirupati",
+          "selectType": "single",
+          "refundStat": 1,
+          "alCode": "2T",
+          "fltNo": "107",
+          "anclryGrpMap": {
+            "Extra Baggage Allowance": [
+              {
+                "grp": "Extra Baggage Allowance",
+                "name": "Baggage 15kg",
+                "price": 3750,
+                "code": "15KG XBAG",
+                "mmtPrice": 3750,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "cssrDetailSOA": null
+              },
+              {
+                "grp": "Extra Baggage Allowance",
+                "name": "Baggage 20kg",
+                "price": 5000,
+                "code": "20KG XBAG",
+                "mmtPrice": 5000,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "cssrDetailSOA": null
+              },
+              {
+                "grp": "Extra Baggage Allowance",
+                "name": "Baggage 5kg",
+                "price": 1375,
+                "code": "5KG XBAG",
+                "mmtPrice": 1375,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "cssrDetailSOA": null
+              },
+              {
+                "grp": "Extra Baggage Allowance",
+                "name": "Baggage 10kg",
+                "price": 2500,
+                "code": "10KG XBAG",
+                "mmtPrice": 2500,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "cssrDetailSOA": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "availSeatMap": null,
+  "error": null
+}

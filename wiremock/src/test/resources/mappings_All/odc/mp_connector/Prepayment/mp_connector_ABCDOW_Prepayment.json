@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-mp-odc/date-change-prepayment",
+       "bodyPatterns":[
+{		"contains" : "TW64ZO"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Prepayment/mp_connector_prepayment_response_TW64ZO.json",
+"headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v1/lending-data.*POSTRVIEW_INTL_OW_BLACK_BLOOMVISA.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "flights_search/postreview/INTL_OW_BLACK_BLOOMVISA/BNPL.json"
+    }
+}

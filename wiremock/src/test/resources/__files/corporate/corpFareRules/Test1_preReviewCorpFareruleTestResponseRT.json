@@ -1,0 +1,104 @@
+{
+	"itineraryId": "fareRuleTestItineraryIdRTTest1",
+	"status": "SUCCESS",
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "BLR",
+				"depDate": "2020-06-12"
+			}, {
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "BLR",
+				"to": "DEL",
+				"depDate": "2020-06-18"
+			}],
+			"cc": "E"
+		},
+		"isDDApld": false,
+		"srvrMtrc": {}
+	},
+	"recom": {
+		"itneraryJrnys": [{
+			"isCstmComb": false,
+			"depDate": "2020-06-12 20:30",
+			"arrDate": "2020-06-12 23:15",
+			"dur": 165,
+			"flightDtlsInfo": [{
+				"flyingDay": 0,
+				"fltLookUpKey": "AI_AI_504_DEL_BLR_2020-06-12 20:30_2020-06-12 23:15",
+				"pnrGroupNum": 0
+			}]
+		}, {
+			"isCstmComb": true,
+			"depDate": "2020-06-18 10:10",
+			"arrDate": "2020-06-18 13:00",
+			"dur": 170,
+			"flightDtlsInfo": [{
+				"flyingDay": 0,
+				"fltLookUpKey": "6E_6E_5022_BLR_DEL_2020-06-18 10:10_2020-06-18 13:00",
+				"pnrGroupNum": 1
+			}]
+		}]
+	},
+	"alCdeMap": {
+		"AI": {
+			"nm": "Air India"
+		},
+		"6E": {
+			"nm": "IndiGo"
+		}
+	},
+	"ctyCdeMap": {
+		"BLR": {
+			"nm": "Bengaluru",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Bengaluru International Airport"
+		},
+		"DEL": {
+			"nm": "New Delhi",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Indira Gandhi International Airport"
+		}
+	},
+	"flightLookUpList": {
+		"AI_AI_504_DEL_BLR_2020-06-12 20:30_2020-06-12 23:15": {
+			"mrkAl": "AI",
+			"oprAl": "AI",
+			"fltNo": "504",
+			"depInfo": {
+				"cityCd": "DEL"
+			},
+			"arrInfo": {
+				"cityCd": "BLR"
+			},
+			"tchStp": [],
+			"depTime": "2020-06-12 20:30",
+			"arrTime": "2020-06-12 23:15",
+			"dur": 165
+		},
+		"6E_6E_5022_BLR_DEL_2020-06-18 10:10_2020-06-18 13:00": {
+			"mrkAl": "6E",
+			"oprAl": "6E",
+			"fltNo": "5022",
+			"depInfo": {
+				"cityCd": "BLR"
+			},
+			"arrInfo": {
+				"cityCd": "DEL"
+			},
+			"tchStp": [],
+			"depTime": "2020-06-18 10:10",
+			"arrTime": "2020-06-18 13:00",
+			"dur": 170
+		}
+	}
+}

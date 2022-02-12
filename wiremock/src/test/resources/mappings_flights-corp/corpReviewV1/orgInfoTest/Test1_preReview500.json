@@ -1,0 +1,15 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v1/pre-review.*rKey=corpprereviewinvalidrkey500.*"
+	},
+	"response": {
+		"status": 500,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+			"bodyFileName": "/corporate/corpReviewV1/orgInfoTest/preReview500Response_invalidrkey.json"
+		}
+		
+}

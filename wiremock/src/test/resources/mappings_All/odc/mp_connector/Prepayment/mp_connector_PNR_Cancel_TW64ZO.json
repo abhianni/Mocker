@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        
+       "bodyPatterns":[{
+        "contains" : "PNR_Cancel"},
+{"contains":"TW64ZO"}
+		]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Prepayment/PNR_Cancel_TW64ZO.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

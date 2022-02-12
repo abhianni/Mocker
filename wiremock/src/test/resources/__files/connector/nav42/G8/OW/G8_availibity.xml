@@ -1,0 +1,1967 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <GetAvailabilityByTripResponse xmlns="http://schemas.navitaire.com/WebServices/ServiceContracts/BookingService">
+            <GetTripAvailabilityResponse xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Booking" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <OtherServiceInfoList xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common"/>
+                <Schedules>
+                    <ArrayOfJourneyDateMarket>
+                        <JourneyDateMarket>
+                            <DepartureDate><DEPARTUREDATE_1>T00:00:00</DepartureDate>
+                            <DepartureStation>DEL</DepartureStation>
+                            <ArrivalStation>JAI</ArrivalStation>
+                            <Journeys>
+                                <Journey>
+                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                    <NotForGeneralUse>false</NotForGeneralUse>
+                                    <Segments>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>BOM</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>DEL</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA><DEPARTUREDATE_1>T08:10:00</STA>
+                                            <STD><DEPARTUREDATE_1>T06:05:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber> 334</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>Z</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>ZO9RBINX</FareBasisCode>
+                                                    <FareSequence>107</FareSequence>
+                                                    <FareClassOfService>Z</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>Z</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>1684.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>1684.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~Z~~G8~ZO9RBINX~0001~~0~107~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>6</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>P</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>PO9LBINX</FareBasisCode>
+                                                    <FareSequence>39</FareSequence>
+                                                    <FareClassOfService>P</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>P</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2410.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2410.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~P~~G8~PO9LBINX~8001~~0~39~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>17</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>BOM</ArrivalStation>
+                                                    <DepartureStation>DEL</DepartureStation>
+                                                    <STA><DEPARTUREDATE_1>T08:10:00</STA>
+                                                    <STD><DEPARTUREDATE_1>T06:05:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber> 334</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>32A</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA><DEPARTUREDATE_1>T08:10:00</PaxSTA>
+                                                        <PaxSTD><DEPARTUREDATE_1>T06:05:00</PaxSTD>
+                                                        <PRBCCode>A320NEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y174</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>507809</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~ 334~ ~~DEL~<ONWARDDATE> 06:05~BOM~<ONWARDDATE> 08:10~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>JAI</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>BOM</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA><DEPARTUREDATE_1>T18:10:00</STA>
+                                            <STD><DEPARTUREDATE_1>T16:00:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber>2607</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>N</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>NO9RBINX</FareBasisCode>
+                                                    <FareSequence>3</FareSequence>
+                                                    <FareClassOfService>N</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>N</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>1496.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>1496.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~N~~G8~NO9RBINX~0001~~0~3~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>6</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>P</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>PO9LBINX</FareBasisCode>
+                                                    <FareSequence>32</FareSequence>
+                                                    <FareClassOfService>P</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>P</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2593.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2593.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~P~~G8~PO9LBINX~8001~~0~32~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>17</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>JAI</ArrivalStation>
+                                                    <DepartureStation>BOM</DepartureStation>
+                                                    <STA><DEPARTUREDATE_1>T18:10:00</STA>
+                                                    <STD><DEPARTUREDATE_1>T16:00:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber>2607</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>32A</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA><DEPARTUREDATE_1>T18:10:00</PaxSTA>
+                                                        <PaxSTD><DEPARTUREDATE_1>T16:00:00</PaxSTD>
+                                                        <PRBCCode>A320NEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y174</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>507837</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~2607~ ~~BOM~<ONWARDDATE> 16:00~JAI~<ONWARDDATE> 18:10~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                    </Segments>
+                                    <JourneySellKey>G8~ 334~ ~~DEL~<ONWARDDATE> 06:05~BOM~<ONWARDDATE> 08:10~~^G8~2607~ ~~BOM~<ONWARDDATE> 16:00~JAI~<ONWARDDATE> 18:10~~</JourneySellKey>
+                                </Journey>
+                                <Journey>
+                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                    <NotForGeneralUse>false</NotForGeneralUse>
+                                    <Segments>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>BOM</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>DEL</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA><DEPARTUREDATE_1>T09:10:00</STA>
+                                            <STD><DEPARTUREDATE_1>T07:00:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber> 530</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>Z</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>ZO9RBINX</FareBasisCode>
+                                                    <FareSequence>107</FareSequence>
+                                                    <FareClassOfService>Z</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>Z</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>1684.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>1684.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~Z~~G8~ZO9RBINX~0001~~0~107~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>6</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>P</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>PO9LBINX</FareBasisCode>
+                                                    <FareSequence>39</FareSequence>
+                                                    <FareClassOfService>P</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>P</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2410.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2410.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~P~~G8~PO9LBINX~8001~~0~39~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>18</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>BOM</ArrivalStation>
+                                                    <DepartureStation>DEL</DepartureStation>
+                                                    <STA><DEPARTUREDATE_1>T09:10:00</STA>
+                                                    <STD><DEPARTUREDATE_1>T07:00:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber> 530</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>320</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA><DEPARTUREDATE_1>T09:10:00</PaxSTA>
+                                                        <PaxSTD><DEPARTUREDATE_1>T07:00:00</PaxSTD>
+                                                        <PRBCCode>A320CEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y168</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>507890</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~ 530~ ~~DEL~<ONWARDDATE> 07:00~BOM~<ONWARDDATE> 09:10~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>JAI</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>BOM</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA><DEPARTUREDATE_1>T18:10:00</STA>
+                                            <STD><DEPARTUREDATE_1>T16:00:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber>2607</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>N</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>NO9RBINX</FareBasisCode>
+                                                    <FareSequence>3</FareSequence>
+                                                    <FareClassOfService>N</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>N</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>1496.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>1496.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~N~~G8~NO9RBINX~0001~~0~3~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>6</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>P</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>PO9LBINX</FareBasisCode>
+                                                    <FareSequence>32</FareSequence>
+                                                    <FareClassOfService>P</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>P</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2593.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2593.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~P~~G8~PO9LBINX~8001~~0~32~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>18</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>JAI</ArrivalStation>
+                                                    <DepartureStation>BOM</DepartureStation>
+                                                    <STA><DEPARTUREDATE_1>T18:10:00</STA>
+                                                    <STD><DEPARTUREDATE_1>T16:00:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber>2607</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>32A</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA><DEPARTUREDATE_1>T18:10:00</PaxSTA>
+                                                        <PaxSTD><DEPARTUREDATE_1>T16:00:00</PaxSTD>
+                                                        <PRBCCode>A320NEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y174</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>507837</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~2607~ ~~BOM~<ONWARDDATE> 16:00~JAI~<ONWARDDATE> 18:10~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                    </Segments>
+                                    <JourneySellKey>G8~ 530~ ~~DEL~<ONWARDDATE> 07:00~BOM~<ONWARDDATE> 09:10~~^G8~2607~ ~~BOM~<ONWARDDATE> 16:00~JAI~<ONWARDDATE> 18:10~~</JourneySellKey>
+                                </Journey>
+                                <Journey>
+                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                    <NotForGeneralUse>false</NotForGeneralUse>
+                                    <Segments>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>BOM</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>DEL</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA><DEPARTUREDATE_1>T12:35:00</STA>
+                                            <STD><DEPARTUREDATE_1>T10:30:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber> 395</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>Z</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>ZO9RBINX</FareBasisCode>
+                                                    <FareSequence>107</FareSequence>
+                                                    <FareClassOfService>Z</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>Z</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>1684.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>1684.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~Z~~G8~ZO9RBINX~0001~~0~107~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>6</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>P</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>PO9LBINX</FareBasisCode>
+                                                    <FareSequence>39</FareSequence>
+                                                    <FareClassOfService>P</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>P</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2410.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2410.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~P~~G8~PO9LBINX~8001~~0~39~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>20</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>BOM</ArrivalStation>
+                                                    <DepartureStation>DEL</DepartureStation>
+                                                    <STA><DEPARTUREDATE_1>T12:35:00</STA>
+                                                    <STD><DEPARTUREDATE_1>T10:30:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber> 395</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>32A</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA><DEPARTUREDATE_1>T12:35:00</PaxSTA>
+                                                        <PaxSTD><DEPARTUREDATE_1>T10:30:00</PaxSTD>
+                                                        <PRBCCode>A320NEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y174</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>507813</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~ 395~ ~~DEL~<ONWARDDATE> 10:30~BOM~<ONWARDDATE> 12:35~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>JAI</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>BOM</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA><DEPARTUREDATE_1>T18:10:00</STA>
+                                            <STD><DEPARTUREDATE_1>T16:00:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber>2607</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>N</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>NO9RBINX</FareBasisCode>
+                                                    <FareSequence>3</FareSequence>
+                                                    <FareClassOfService>N</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>N</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>1496.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>1496.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~N~~G8~NO9RBINX~0001~~0~3~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>6</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>P</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>PO9LBINX</FareBasisCode>
+                                                    <FareSequence>32</FareSequence>
+                                                    <FareClassOfService>P</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>P</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2593.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2593.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~P~~G8~PO9LBINX~8001~~0~32~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>20</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>JAI</ArrivalStation>
+                                                    <DepartureStation>BOM</DepartureStation>
+                                                    <STA><DEPARTUREDATE_1>T18:10:00</STA>
+                                                    <STD><DEPARTUREDATE_1>T16:00:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber>2607</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>32A</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA><DEPARTUREDATE_1>T18:10:00</PaxSTA>
+                                                        <PaxSTD><DEPARTUREDATE_1>T16:00:00</PaxSTD>
+                                                        <PRBCCode>A320NEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y174</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>507837</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~2607~ ~~BOM~<ONWARDDATE> 16:00~JAI~<ONWARDDATE> 18:10~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                    </Segments>
+                                    <JourneySellKey>G8~ 395~ ~~DEL~<ONWARDDATE> 10:30~BOM~<ONWARDDATE> 12:35~~^G8~2607~ ~~BOM~<ONWARDDATE> 16:00~JAI~<ONWARDDATE> 18:10~~</JourneySellKey>
+                                </Journey>
+                                <Journey>
+                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                    <NotForGeneralUse>false</NotForGeneralUse>
+                                    <Segments>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>CCU</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>DEL</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA><DEPARTUREDATE_1>T21:45:00</STA>
+                                            <STD><DEPARTUREDATE_1>T19:25:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber> 103</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>M</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>MO9RBINX</FareBasisCode>
+                                                    <FareSequence>18</FareSequence>
+                                                    <FareClassOfService>M</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>M</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>1687.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>1687.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~M~~G8~MO9RBINX~0001~~0~18~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>3</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>P</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>PO9LBINX</FareBasisCode>
+                                                    <FareSequence>35</FareSequence>
+                                                    <FareClassOfService>P</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>P</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2760.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2760.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~P~~G8~PO9LBINX~8001~~0~35~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>3</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>CCU</ArrivalStation>
+                                                    <DepartureStation>DEL</DepartureStation>
+                                                    <STA><DEPARTUREDATE_1>T21:45:00</STA>
+                                                    <STD><DEPARTUREDATE_1>T19:25:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber> 103</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>320</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA><DEPARTUREDATE_1>T21:45:00</PaxSTA>
+                                                        <PaxSTD><DEPARTUREDATE_1>T19:25:00</PaxSTD>
+                                                        <PRBCCode>A320CEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y168</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>507701</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~ 103~ ~~DEL~<ONWARDDATE> 19:25~CCU~<ONWARDDATE> 21:45~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>JAI</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>CCU</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA>2020-12-23T11:15:00</STA>
+                                            <STD>2020-12-23T08:30:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber> 701</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>K</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>KO9RBINX</FareBasisCode>
+                                                    <FareSequence>62</FareSequence>
+                                                    <FareClassOfService>K</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>K</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2439.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2439.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~K~~G8~KO9RBINX~0001~~0~62~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>3</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>K</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>KO9LBINX</FareBasisCode>
+                                                    <FareSequence>34</FareSequence>
+                                                    <FareClassOfService>K</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>K</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2864.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2864.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~K~~G8~KO9LBINX~8001~~0~34~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>3</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>JAI</ArrivalStation>
+                                                    <DepartureStation>CCU</DepartureStation>
+                                                    <STA>2020-12-23T11:15:00</STA>
+                                                    <STD>2020-12-23T08:30:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber> 701</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>32A</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA>2020-12-23T11:15:00</PaxSTA>
+                                                        <PaxSTD>2020-12-23T08:30:00</PaxSTD>
+                                                        <PRBCCode>A320NEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y174</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>508202</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~ 701~ ~~CCU~12/23/2020 08:30~JAI~12/23/2020 11:15~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                    </Segments>
+                                    <JourneySellKey>G8~ 103~ ~~DEL~<ONWARDDATE> 19:25~CCU~<ONWARDDATE> 21:45~~^G8~ 701~ ~~CCU~12/23/2020 08:30~JAI~12/23/2020 11:15~~</JourneySellKey>
+                                </Journey>
+                                <Journey>
+                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                    <NotForGeneralUse>false</NotForGeneralUse>
+                                    <Segments>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>CCU</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>DEL</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA><DEPARTUREDATE_1>T23:10:00</STA>
+                                            <STD><DEPARTUREDATE_1>T20:55:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber> 105</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>M</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>MO9RBINX</FareBasisCode>
+                                                    <FareSequence>18</FareSequence>
+                                                    <FareClassOfService>M</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>M</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>1687.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>1687.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~M~~G8~MO9RBINX~0001~~0~18~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>3</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>P</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>PO9LBINX</FareBasisCode>
+                                                    <FareSequence>35</FareSequence>
+                                                    <FareClassOfService>P</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Governing</FareApplicationType>
+                                                    <OriginalClassOfService>P</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2760.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2760.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>2~P~~G8~PO9LBINX~8001~~0~35~~X</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>3</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>CCU</ArrivalStation>
+                                                    <DepartureStation>DEL</DepartureStation>
+                                                    <STA><DEPARTUREDATE_1>T23:10:00</STA>
+                                                    <STD><DEPARTUREDATE_1>T20:55:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber> 105</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>320</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA><DEPARTUREDATE_1>T23:10:00</PaxSTA>
+                                                        <PaxSTD><DEPARTUREDATE_1>T20:55:00</PaxSTD>
+                                                        <PRBCCode>A320CEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y168</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>507702</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~ 105~ ~~DEL~<ONWARDDATE> 20:55~CCU~<ONWARDDATE> 23:10~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                        <Segment>
+                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                            <ActionStatusCode/>
+                                            <ArrivalStation>JAI</ArrivalStation>
+                                            <CabinOfService></CabinOfService>
+                                            <ChangeReasonCode/>
+                                            <DepartureStation>CCU</DepartureStation>
+                                            <PriorityCode/>
+                                            <SegmentType/>
+                                            <STA>2020-12-23T11:15:00</STA>
+                                            <STD>2020-12-23T08:30:00</STD>
+                                            <International>false</International>
+                                            <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode>G8</a:CarrierCode>
+                                                <a:FlightNumber> 701</a:FlightNumber>
+                                                <a:OpSuffix></a:OpSuffix>
+                                            </FlightDesignator>
+                                            <XrefFlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                <a:CarrierCode/>
+                                                <a:FlightNumber/>
+                                                <a:OpSuffix/>
+                                            </XrefFlightDesignator>
+                                            <Fares>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>K</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>0001</RuleNumber>
+                                                    <FareBasisCode>KO9RBINX</FareBasisCode>
+                                                    <FareSequence>62</FareSequence>
+                                                    <FareClassOfService>K</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>K</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2439.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2439.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GS</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~K~~G8~KO9RBINX~0001~~0~62~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>3</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                                <Fare i:type="AvailableFare">
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                    <ClassOfService>K</ClassOfService>
+                                                    <ClassType/>
+                                                    <RuleTariff/>
+                                                    <CarrierCode>G8</CarrierCode>
+                                                    <RuleNumber>8001</RuleNumber>
+                                                    <FareBasisCode>KO9LBINX</FareBasisCode>
+                                                    <FareSequence>34</FareSequence>
+                                                    <FareClassOfService>K</FareClassOfService>
+                                                    <FareStatus>Default</FareStatus>
+                                                    <FareApplicationType>Sector</FareApplicationType>
+                                                    <OriginalClassOfService>K</OriginalClassOfService>
+                                                    <XrefClassOfService/>
+                                                    <PaxFares>
+                                                        <PaxFare>
+                                                            <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                            <PaxType>ADT</PaxType>
+                                                            <PaxDiscountCode/>
+                                                            <FareDiscountCode/>
+                                                            <ServiceCharges>
+                                                                <BookingServiceCharge>
+                                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">New</State>
+                                                                    <ChargeType>FarePrice</ChargeType>
+                                                                    <CollectType>SellerChargeable</CollectType>
+                                                                    <ChargeCode/>
+                                                                    <TicketCode/>
+                                                                    <CurrencyCode>INR</CurrencyCode>
+                                                                    <Amount>2864.0000</Amount>
+                                                                    <ChargeDetail/>
+                                                                    <ForeignCurrencyCode>INR</ForeignCurrencyCode>
+                                                                    <ForeignAmount>2864.0000</ForeignAmount>
+                                                                </BookingServiceCharge>
+                                                            </ServiceCharges>
+                                                            <TicketFareBasisCode/>
+                                                            <ProofOfStatusRequired>false</ProofOfStatusRequired>
+                                                        </PaxFare>
+                                                    </PaxFares>
+                                                    <ProductClass>GF</ProductClass>
+                                                    <IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+                                                    <TravelClassCode></TravelClassCode>
+                                                    <FareSellKey>1~K~~G8~KO9LBINX~8001~~0~34~~</FareSellKey>
+                                                    <InboundOutbound>None</InboundOutbound>
+                                                    <FareLink>0</FareLink>
+                                                    <FareDesignator i:nil="true"/>
+                                                    <AvailableCount>3</AvailableCount>
+                                                    <Status>Active</Status>
+                                                    <SSRIndexes i:nil="true" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                    <ServiceBundleSetCode/>
+                                                    <ServiceBundleOfferIndexes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+                                                </Fare>
+                                            </Fares>
+                                            <Legs>
+                                                <Leg>
+                                                    <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                    <ArrivalStation>JAI</ArrivalStation>
+                                                    <DepartureStation>CCU</DepartureStation>
+                                                    <STA>2020-12-23T11:15:00</STA>
+                                                    <STD>2020-12-23T08:30:00</STD>
+                                                    <FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+                                                        <a:CarrierCode>G8</a:CarrierCode>
+                                                        <a:FlightNumber> 701</a:FlightNumber>
+                                                        <a:OpSuffix></a:OpSuffix>
+                                                    </FlightDesignator>
+                                                    <LegInfo>
+                                                        <State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+                                                        <AdjustedCapacity>0</AdjustedCapacity>
+                                                        <EquipmentType>32A</EquipmentType>
+                                                        <EquipmentTypeSuffix>001</EquipmentTypeSuffix>
+                                                        <ArrivalTerminal>2</ArrivalTerminal>
+                                                        <ArrvLTV>330</ArrvLTV>
+                                                        <Capacity>0</Capacity>
+                                                        <CodeShareIndicator></CodeShareIndicator>
+                                                        <DepartureTerminal>2</DepartureTerminal>
+                                                        <DeptLTV>330</DeptLTV>
+                                                        <ETicket>true</ETicket>
+                                                        <FlifoUpdated>false</FlifoUpdated>
+                                                        <IROP>false</IROP>
+                                                        <Status>Normal</Status>
+                                                        <Lid>0</Lid>
+                                                        <OnTime></OnTime>
+                                                        <PaxSTA>2020-12-23T11:15:00</PaxSTA>
+                                                        <PaxSTD>2020-12-23T08:30:00</PaxSTD>
+                                                        <PRBCCode>A320NEO</PRBCCode>
+                                                        <ScheduleServiceType>J</ScheduleServiceType>
+                                                        <Sold>0</Sold>
+                                                        <OutMoveDays>0</OutMoveDays>
+                                                        <BackMoveDays>0</BackMoveDays>
+                                                        <LegNests/>
+                                                        <LegSSRs/>
+                                                        <OperatingFlightNumber></OperatingFlightNumber>
+                                                        <OperatedByText/>
+                                                        <OperatingCarrier/>
+                                                        <OperatingOpSuffix></OperatingOpSuffix>
+                                                        <SubjectToGovtApproval>false</SubjectToGovtApproval>
+                                                        <MarketingCode>C8Y174</MarketingCode>
+                                                        <ChangeOfDirection>false</ChangeOfDirection>
+                                                        <MarketingOverride>false</MarketingOverride>
+                                                        <AircraftOwner/>
+                                                    </LegInfo>
+                                                    <OperationsInfo i:nil="true"/>
+                                                    <InventoryLegID>508202</InventoryLegID>
+                                                </Leg>
+                                            </Legs>
+                                            <PaxBags/>
+                                            <PaxSeats/>
+                                            <PaxSSRs/>
+                                            <PaxSegments/>
+                                            <PaxTickets/>
+                                            <PaxSeatPreferences/>
+                                            <SalesDate>9999-12-31T00:00:00Z</SalesDate>
+                                            <SegmentSellKey>G8~ 701~ ~~CCU~12/23/2020 08:30~JAI~12/23/2020 11:15~~</SegmentSellKey>
+                                            <PaxScores/>
+                                            <ChannelType>Default</ChannelType>
+                                            <AvailabilitySourceCode/>
+                                            <InventorySourceCode/>
+                                        </Segment>
+                                    </Segments>
+                                    <JourneySellKey>G8~ 105~ ~~DEL~<ONWARDDATE> 20:55~CCU~<ONWARDDATE> 23:10~~^G8~ 701~ ~~CCU~12/23/2020 08:30~JAI~12/23/2020 11:15~~</JourneySellKey>
+                                </Journey>
+                            </Journeys>
+                            <IncludesTaxesAndFees>false</IncludesTaxesAndFees>
+                        </JourneyDateMarket>
+                    </ArrayOfJourneyDateMarket>
+                </Schedules>
+                <ServiceBundleOfferList/>
+            </GetTripAvailabilityResponse>
+        </GetAvailabilityByTripResponse>
+    </s:Body>
+</s:Envelope>

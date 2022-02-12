@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/HotelsSOA/hotels/book/v2.0/.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_SOA_HTTP_404"
+        }]
+    },
+    "response": {
+        "status": 404,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

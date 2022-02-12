@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/Nav-PostSales/getpnr/getpnrrequest",
+    "bodyPatterns":[
+      {       "contains" : "KNBQL3"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+
+    "bodyFileName": "/flights_rules/postSale/POSTSALEINTLTGUKAITGMCACI/getpnrKNBQL3request.json"
+  }
+}
+

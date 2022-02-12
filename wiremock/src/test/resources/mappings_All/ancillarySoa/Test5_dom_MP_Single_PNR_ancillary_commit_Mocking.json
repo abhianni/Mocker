@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/postsaleAncillary",
+        "bodyPatterns":[{
+        "contains" : "\"pnr\":\"TYVTSW\""
+        },
+	{	
+        "contains" : "\"postsaleAncillaryRequestType\":\"COMMIT\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/ancillarySoa/Test5_dom_MP_Single_PNR_ancillary_commit_response.json"
+    }
+}

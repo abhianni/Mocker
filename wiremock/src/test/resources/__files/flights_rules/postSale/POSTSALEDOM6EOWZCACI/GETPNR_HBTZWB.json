@@ -1,0 +1,344 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "1865",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.6",
+    "serviceName": "Pnr-Service",
+    "supplierName": "NAV42",
+    "credentialId": "6EUNI_23June",
+    "supplierLatency": "707",
+    "corporateCode": "",
+    "promoCode": "MMTTBF"
+  },
+  "flightLookUpList": {
+    "BLR$DEL$2020-01-06 10:30:00$6E-2032": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "2032",
+      "arcrfTyp": "321",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "BLR",
+        "arpNm": "Bengaluru International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "2",
+        "arpCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-01-06 10:30:00",
+      "arrTime": "2020-01-06 13:25:00",
+      "durInMins": "175"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "BLR$DEL$2020-01-06 10:30:00$6E-2032",
+      "depDate": "2020-01-06 10:30:00",
+      "arrDate": "2020-01-06 13:25:00",
+      "durInMins": "175",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "BLR$DEL$2020-01-06 10:30:00$6E-2032",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "ADULT": {
+              "bs": 6198.0,
+              "tx": 1175.0,
+              "noOfPax": 1,
+              "tot": 7373.0,
+              "taxBreakups": [{
+                "amnt": 167.0,
+                "code": "29SGST",
+                "msg": ""
+              }, {
+                "amnt": 50.0,
+                "code": "RCF",
+                "msg": ""
+              }, {
+                "amnt": 177.0,
+                "code": "ASF",
+                "msg": ""
+              }, {
+                "amnt": 164.0,
+                "code": "UDF",
+                "msg": ""
+              }, {
+                "amnt": 400.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 167.0,
+                "code": "29CGST",
+                "msg": ""
+              }, {
+                "amnt": 50.0,
+                "code": "PHF",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "BLR$DEL$2020-01-06 10:30:00$6E-2032": {
+                  "fareClass": "M",
+                  "fareBasis": "M0IP",
+                  "productClass": "R",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 15,
+                      "weightUnit": "Kilograms"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 6198.0,
+                    "tx": 1175.0,
+                    "tot": 7373.0,
+                    "taxBreakups": [{
+                      "amnt": 50.0,
+                      "code": "PHF",
+                      "msg": ""
+                    }, {
+                      "amnt": 50.0,
+                      "code": "RCF",
+                      "msg": ""
+                    }, {
+                      "amnt": 400.0,
+                      "code": "YQ",
+                      "msg": ""
+                    }, {
+                      "amnt": 177.0,
+                      "code": "ASF",
+                      "msg": ""
+                    }, {
+                      "amnt": 164.0,
+                      "code": "UDF",
+                      "msg": ""
+                    }, {
+                      "amnt": 167.0,
+                      "code": "29CGST",
+                      "msg": ""
+                    }, {
+                      "amnt": 167.0,
+                      "code": "29SGST",
+                      "msg": ""
+                    }]
+                  }
+                }
+              }
+            },
+            "CHILD": {
+              "bs": 6198.0,
+              "tx": 1175.0,
+              "noOfPax": 1,
+              "tot": 7373.0,
+              "taxBreakups": [{
+                "amnt": 167.0,
+                "code": "29SGST",
+                "msg": ""
+              }, {
+                "amnt": 50.0,
+                "code": "RCF",
+                "msg": ""
+              }, {
+                "amnt": 177.0,
+                "code": "ASF",
+                "msg": ""
+              }, {
+                "amnt": 164.0,
+                "code": "UDF",
+                "msg": ""
+              }, {
+                "amnt": 400.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 167.0,
+                "code": "29CGST",
+                "msg": ""
+              }, {
+                "amnt": 50.0,
+                "code": "PHF",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "BLR$DEL$2020-01-06 10:30:00$6E-2032": {
+                  "fareClass": "M",
+                  "fareBasis": "M0IP",
+                  "productClass": "R",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 15,
+                      "weightUnit": "Kilograms"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 6198.0,
+                    "tx": 1175.0,
+                    "tot": 7373.0,
+                    "taxBreakups": [{
+                      "amnt": 50.0,
+                      "code": "PHF",
+                      "msg": ""
+                    }, {
+                      "amnt": 50.0,
+                      "code": "RCF",
+                      "msg": ""
+                    }, {
+                      "amnt": 400.0,
+                      "code": "YQ",
+                      "msg": ""
+                    }, {
+                      "amnt": 177.0,
+                      "code": "ASF",
+                      "msg": ""
+                    }, {
+                      "amnt": 164.0,
+                      "code": "UDF",
+                      "msg": ""
+                    }, {
+                      "amnt": 167.0,
+                      "code": "29CGST",
+                      "msg": ""
+                    }, {
+                      "amnt": 167.0,
+                      "code": "29SGST",
+                      "msg": ""
+                    }]
+                  }
+                }
+              }
+            },
+            "INFANT": {
+              "bs": 1250.0,
+              "tx": 60.0,
+              "noOfPax": 1,
+              "tot": 1310.0,
+              "taxBreakups": [{
+                "amnt": 30.0,
+                "code": "29CGST",
+                "msg": ""
+              }, {
+                "amnt": 30.0,
+                "code": "29SGST",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "BLR$DEL$2020-01-06 10:30:00$6E-2032": {
+                  "fareClass": "M",
+                  "fareBasis": "M0IP",
+                  "productClass": "R",
+                  "cabin": "ECONOMY"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 13646.0,
+            "tx": 2410.0,
+            "tot": 16056.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "HBTZWB",
+          "aPnr": "",
+          "travelerAddons": {
+            "0": {
+              "ptcType": "ADULT",
+              "flightLevelAddons": {
+                "BLR$DEL$2020-01-06 10:30:00$6E-2032": {
+                  "addons": {
+                    "SEATS": {
+                      "addonsType": "SEATS",
+                      "amount": 250.0,
+                      "code": "21F"
+                    }
+                  }
+                }
+              }
+            },
+            "1": {
+              "ptcType": "CHILD",
+              "flightLevelAddons": {
+                "BLR$DEL$2020-01-06 10:30:00$6E-2032": {
+                  "addons": {
+                    "SEATS": {
+                      "addonsType": "SEATS",
+                      "amount": 0.0,
+                      "code": "21E"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "travelerInfos": [{
+            "id": "0",
+            "title": "MS",
+            "paxId": "0",
+            "firstName": "Suman",
+            "middleName": "",
+            "lastName": "Suman",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "raviprakash198553@rediffmail.com",
+            "mobileNumber": "917899655705",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "",
+            "paxId": "0",
+            "firstName": "Piyush",
+            "middleName": "",
+            "lastName": "Piyush",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "",
+            "mobileNumber": "",
+            "mobileNumberCountryCode": "",
+            "paxType": "INFANT",
+            "dateOfBirth": "2018-04-01 00:00:00",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "MISS",
+            "paxId": "1",
+            "firstName": "SARGUN",
+            "middleName": "",
+            "lastName": "SARGUN",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "raviprakash198553@rediffmail.com",
+            "mobileNumber": "917899655705",
+            "mobileNumberCountryCode": "",
+            "paxType": "CHILD",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [],
+          "validatingCarrier": "6E",
+          "creationDate": "2020-01-01 18:11:12",
+          "fareFamily": "",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

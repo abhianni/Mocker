@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-persuasion/persuasionElements",
+        "bodyPatterns":[{	
+        "contains" : "PersuasionNegativeTestRANDOMDATATHENCLOSE"
+        }]
+    },
+    "response": {
+        "fault": "RANDOM_DATA_THEN_CLOSE"
+    }
+}

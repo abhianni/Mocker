@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/cdf/v2/rest/services/recommendCoupons",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Authorization" : {"matches" : "Basic cmVzdDoxMjM0NTY="}
+		},
+        "bodyPatterns":[{
+        "contains" : "UJH1BWIO1XL_Recommende_One"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/RecommendedCouponsThirdParty/recommendedDiscount_RecommendedCoupons/TestCase_1_RecommendedDiscount_RecommendedCoupons_Response.json"
+    }
+}

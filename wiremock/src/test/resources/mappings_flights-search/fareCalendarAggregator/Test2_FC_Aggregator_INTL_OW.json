@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightSOA-web/fareCal",
+    "bodyPatterns":[
+      {       "contains" : "SIN"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "transformers": ["FlightSOAResponseTransformer"],
+    "bodyFileName": "/flights_search/fareCalendarAggregator/Test_FareCalender_INTL_OW.json"
+
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+    "request":{
+        "method": "POST",
+	 "url": "/B2BGateway/connect/uAPI/AirService",
+       "bodyPatterns":[
+{ "contains" : "BookingAirPnrElementReq"}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/booking/TP/BookingAirPnrElementResponse.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

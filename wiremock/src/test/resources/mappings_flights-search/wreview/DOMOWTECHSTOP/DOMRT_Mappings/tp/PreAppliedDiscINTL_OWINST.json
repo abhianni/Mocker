@@ -1,0 +1,18 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/flights-mmt-svcs/v1/tp-aggregator/pre-applied-discount.*WRVIEW_DOM_OW_AI_TP_TECHSTOP.*"
+
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/wreview/DOMOWTECHSTOP/tp/preAppliedCouponINTLINST.json"
+		
+    }
+}

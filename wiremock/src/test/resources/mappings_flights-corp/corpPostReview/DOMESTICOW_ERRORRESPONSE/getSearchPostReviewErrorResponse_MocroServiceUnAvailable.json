@@ -1,0 +1,13 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v1/post-review.*crId=test_postreview_errorresponse.*"
+	},
+	"response": {
+		"status": 503,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		}
+	}
+}

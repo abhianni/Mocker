@@ -1,0 +1,262 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "979",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.10",
+    "serviceName": "Pnr-Service",
+    "supplierName": "MP",
+    "credentialId": "MPEXININTRANOMNR",
+    "supplierLatency": "928",
+    "corporateCode": "",
+    "promoCode": ""
+  },
+  "flightLookUpList": {
+    "DXB$WAW$2020-06-04 08:10$EK-179": {
+      "mrkAl": "EK",
+      "oprAl": "EK",
+      "fltNo": "179",
+      "arcrfTyp": "77W",
+      "depInfo": {
+        "trmnl": "3",
+        "arpCd": "DXB",
+        "arpNm": "Dubai International"
+      },
+      "arrInfo": {
+        "trmnl": "A",
+        "arpCd": "WAW",
+        "arpNm": "Frederic Chopin"
+      },
+      "tchStp": [],
+      "depTime": "2020-06-04 08:10",
+      "arrTime": "2020-06-04 12:15",
+      "durInMins": "365"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "DXB$WAW$2020-06-04 08:10$EK-179",
+      "depDate": "2020-06-04 08:10",
+      "arrDate": "2020-06-04 12:15",
+      "durInMins": "365",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "DXB$WAW$2020-06-04 08:10$EK-179",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "INFANT": {
+              "bs": 3495.0,
+              "tx": 300.0,
+              "noOfPax": 1,
+              "tot": 3795.0,
+              "taxBreakups": [{
+                "amnt": 300.0,
+                "code": "YR",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "DXB$WAW$2020-06-04 08:10$EK-179": {
+                  "fareClass": "U",
+                  "fareBasis": "ULSOSAE1I",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 10,
+                      "weightUnit": "K"
+                    },
+                    "cabinBag": {
+                      "numOfPieces": 0,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "UnKnown"
+                }
+              }
+            },
+            "CHILD": {
+              "bs": 26015.0,
+              "tx": 15605.0,
+              "noOfPax": 2,
+              "tot": 41620.0,
+              "taxBreakups": [{
+                "amnt": 12975.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 300.0,
+                "code": "YR",
+                "msg": ""
+              }, {
+                "amnt": 1456.0,
+                "code": "AE",
+                "msg": ""
+              }, {
+                "amnt": 680.0,
+                "code": "F6",
+                "msg": ""
+              }, {
+                "amnt": 97.0,
+                "code": "TP",
+                "msg": ""
+              }, {
+                "amnt": 97.0,
+                "code": "ZR",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "DXB$WAW$2020-06-04 08:10$EK-179": {
+                  "fareClass": "U",
+                  "fareBasis": "ULSOSAE1C",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 30,
+                      "weightUnit": "K"
+                    },
+                    "cabinBag": {
+                      "numOfPieces": 0,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "UnKnown"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 90080.0,
+            "tx": 47115.0,
+            "tot": 137195.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "PJ2JAR",
+          "aPnr": "II6WAN",
+          "travelerAddons": {},
+          "travelerInfos": [{
+            "id": "0",
+            "title": "",
+            "paxId": "PA2",
+            "firstName": "ANNA",
+            "middleName": "",
+            "lastName": "ADAMIEC",
+            "mealPreference": "",
+            "gender": "G_NOT_SET",
+            "emailId": "gadamiec@deloitte.com",
+            "mobileNumber": "17863380600",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "",
+            "paxId": "PI2",
+            "firstName": "HELENA",
+            "middleName": "",
+            "lastName": "ADAMIEC",
+            "mealPreference": "",
+            "gender": "G_NOT_SET",
+            "emailId": "gadamiec@deloitte.com",
+            "mobileNumber": "17863380600",
+            "mobileNumberCountryCode": "",
+            "paxType": "INFANT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "",
+            "paxId": "PA5",
+            "firstName": "ANTONI",
+            "middleName": "",
+            "lastName": "ADAMIEC",
+            "mealPreference": "",
+            "gender": "G_NOT_SET",
+            "emailId": "gadamiec@deloitte.com",
+            "mobileNumber": "17863380600",
+            "mobileNumberCountryCode": "",
+            "paxType": "CHILD",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "3",
+            "title": "",
+            "paxId": "PA4",
+            "firstName": "JAN",
+            "middleName": "",
+            "lastName": "ADAMIEC",
+            "mealPreference": "",
+            "gender": "G_NOT_SET",
+            "emailId": "gadamiec@deloitte.com",
+            "mobileNumber": "17863380600",
+            "mobileNumberCountryCode": "",
+            "paxType": "CHILD",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [{
+            "travellerId": "0",
+            "issuingAirline": "EK",
+            "ticketNumber": "176-3317241115",
+            "ticketType": "P06",
+            "status": "",
+            "issuingDate": "2019-12-10",
+            "iataCode": "14339942",
+            "issuingAgent": "DELWI2202",
+            "dateChange": false
+          }, {
+            "travellerId": "2",
+            "issuingAirline": "EK",
+            "ticketNumber": "176-3317241116",
+            "ticketType": "P06",
+            "status": "",
+            "issuingDate": "2019-12-10",
+            "iataCode": "14339942",
+            "issuingAgent": "DELWI2202",
+            "dateChange": false
+          }, {
+            "travellerId": "3",
+            "issuingAirline": "EK",
+            "ticketNumber": "176-3317241117",
+            "ticketType": "P06",
+            "status": "",
+            "issuingDate": "2019-12-10",
+            "iataCode": "14339942",
+            "issuingAgent": "DELWI2202",
+            "dateChange": false
+          }, {
+            "travellerId": "1",
+            "issuingAirline": "EK",
+            "ticketNumber": "176-3317241118",
+            "ticketType": "P06",
+            "status": "",
+            "issuingDate": "2019-12-10",
+            "iataCode": "14339942",
+            "issuingAgent": "DELWI2202",
+            "dateChange": false
+          }],
+          "validatingCarrier": "EK",
+          "creationDate": "2019-12-10 11:36",
+          "fareFamily": "",
+          "accountCode": "DELI228BM"
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

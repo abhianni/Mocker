@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-ancillaries/v1/b2c/ancillary.*flt_TEST_FASTFORWARD.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/flights_search/postreview/OW_FASTFORWARD_RESPONSE/ANCILLARY_RESPONSE_FF.json"
+    }
+}

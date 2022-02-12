@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "6E-6E-6997-LKO-PNQ-2020-08-14 23:55-2020-08-15 02:30"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEDOM6ERTACI/GETRULELCC.json"
+  }
+}
+

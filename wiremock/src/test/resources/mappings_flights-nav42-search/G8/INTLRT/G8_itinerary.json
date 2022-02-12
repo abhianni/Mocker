@@ -1,0 +1,17 @@
+{
+  "request":{
+	"method": "POST",
+    "url": "/bookingmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "PriceItineraryRequest"
+      },
+	  {       "contains" : "CMB"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/G8/INTLRT/G8_itineraryPrice.xml"
+
+  }
+}

@@ -1,0 +1,3357 @@
+{
+  "airlineStatusMap": null,
+  "srchRespMap": {
+    "SIMPLE": {
+      "srcRes": {
+        "rcomMap": {
+          "FROMCITY1_TOCITY1_DEPTDATETRIP1": [
+            {
+              "score": null,
+              "flightKey": "FROMCITY1_DEL_DEPTDATETRIP1_9W-642|9W-339_MP,DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_SG",
+              "actualScore": null,
+              "rhinoRank": 0,
+              "groupedOrigRank": null,
+              "recommendedFlight": null,
+              "fareHash": null,
+              "amenityItineraryKey": null,
+              "nearByFlight": false,
+              "fltUniKey": "FROMCITY1_DEL_DEPTDATETRIP1_9W-642|9W-339_MP_0,DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_SG_1",
+              "rKey": "v1~~null$H$H2IPO$null$2400.0$250.0$null$379.0$0$0$A,null$H$H2IPO$null$2400.0$250.0$null$379.0$0$1$A,null$H$H2IPO$null$2400.0$250.0$null$379.0$0$0$C,null$H$H2IPO$null$2400.0$250.0$null$379.0$0$1$C,null$H$H2IPO$null$null$250.0$null$151.0$0$0$I,null$H$H2IPO$null$null$250.0$null$151.0$0$1$I^null$H$H2IPO$null$2400.0$250.0$null$379.0$1$0$A,null$H$H2IPO$null$2400.0$250.0$null$379.0$1$0$C,null$H$H2IPO$null$null$250.0$null$151.0$1$0$I~A-10991.0_C-10991.0_I-4421.0~M~~FROMCITY1_BOM_DEPTDATETRIP1_9W-642_TVBERkZMVDJ8U0dGQU1JTFk=,BOM_DEL_DEPTDATEPLUS1TRIP1_9W-339_TVBERkZMVDJ8U0dGQU1JTFk=~MP_0_0^DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_TVBERkZMVDJ8U0dGQU1JTFk=~SG_0_1",
+              "jrnyMap": {
+                "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+                  "buddyResult": true,
+                  "refKey": "MP|SG",
+                  "lfid": null,
+                  "minFrRl": null,
+                  "fltLst": [
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "",
+                        "ctCd": "FROMCITY1",
+                        "airp": "Chandigarh Airport",
+                        "ctNm": "Chandigarh",
+                        "arpCd": "FROMCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 30.673469,
+                        "long": 76.788542,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "2",
+                        "ctCd": "BOM",
+                        "airp": "Chhatrapati Shivaji International Airport",
+                        "ctNm": "Mumbai",
+                        "arpCd": "BOM",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 19.088686,
+                        "long": 72.867919,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547027400000,
+                      "arrDt": 1547037900000,
+                      "techStpOvrLst": [],
+                      "totDur": 175,
+                      "segSlKey": null,
+                      "fareSlKey": null,
+                      "mrktArln": "9W",
+                      "oprArln": "9W",
+                      "equipTyp": "73H",
+                      "equipCd": null,
+                      "equipNm": "73H",
+                      "fltNum": "642",
+                      "carierCode": "9W",
+                      "bagDtls": [
+                        {
+                          "bag": {
+                            "qty": "1",
+                            "utyp": "N",
+                            "unt": null
+                          },
+                          "pxTyp": "ADT",
+                          "pxRf": "1"
+                        }
+                      ],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "M",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    },
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "2",
+                        "ctCd": "BOM",
+                        "airp": "Chhatrapati Shivaji International Airport",
+                        "ctNm": "Mumbai",
+                        "arpCd": "BOM",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 19.088686,
+                        "long": 72.867919,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "3",
+                        "ctCd": "DEL",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "DEL",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547069400000,
+                      "arrDt": 1547076900000,
+                      "techStpOvrLst": [],
+                      "totDur": 125,
+                      "segSlKey": null,
+                      "fareSlKey": null,
+                      "mrktArln": "9W",
+                      "oprArln": "9W",
+                      "equipTyp": "73H",
+                      "equipCd": null,
+                      "equipNm": "73H",
+                      "fltNum": "339",
+                      "carierCode": "9W",
+                      "bagDtls": [
+                        {
+                          "bag": {
+                            "qty": "1",
+                            "utyp": "N",
+                            "unt": null
+                          },
+                          "pxTyp": "ADT",
+                          "pxRf": "1"
+                        }
+                      ],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "M",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    },
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "2",
+                        "ctCd": "DEL",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "DEL",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "",
+                        "ctCd": "TOCITY1",
+                        "airp": "Adampur Airport",
+                        "ctNm": "Adampur",
+                        "arpCd": "TOCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 31.433056,
+                        "long": 75.760556,
+                        "cont": "Asia",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547102100000,
+                      "arrDt": 1547106300000,
+                      "techStpOvrLst": [],
+                      "totDur": 70,
+                      "segSlKey": "SG~8731~ ~~DEL~01/10/2019 12:05~TOCITY1~01/10/2019 13:15~",
+                      "fareSlKey": "0~D~~DSAVER~8100~~3~X",
+                      "mrktArln": "SG",
+                      "oprArln": "SG",
+                      "equipTyp": "DH8",
+                      "equipCd": "DH8",
+                      "equipNm": "DH8",
+                      "fltNum": "8731",
+                      "carierCode": "SG",
+                      "bagDtls": [],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "Y",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    }
+                  ],
+                  "aggFltNum": "FROMCITY1$BOM$DEPTDATETRIP11520$9W-642|BOM$DEL$DEPTDATEPLUS1TRIP10300$9W-339|DEL$TOCITY1$DEPTDATEPLUS1TRIP11205$SG-8731",
+                  "totFr": null,
+                  "totBsFr": null,
+                  "totTx": null,
+                  "cur": null,
+                  "totDur": 1315,
+                  "rfndbl": null,
+                  "fr": [
+                    {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "DEFAULT|0~D~~DSAVER~8100~~3~X",
+                      "pxTypFrMap": {
+                        "INFANT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-K3": 151,
+                                "TOT": 4421,
+                                "TAX": 461
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 1,
+                            "frRuleList": []
+                          }
+                        ],
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 50,
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-SGST07": 50,
+                                "TAXCOMPONENT-YQ": 2400,
+                                "TAXCOMPONENT-K3": 379,
+                                "TAXCOMPONENT-WO": 154,
+                                "TAXCOMPONENT-IN": 767,
+                                "TOT": 10991,
+                                "TAX": 4050
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "D",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "DSAVER",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "DEL",
+                                    "prdcls": "RS"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 1,
+                            "frRuleList": []
+                          }
+                        ],
+                        "CHILD": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 50,
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-SGST07": 50,
+                                "TAXCOMPONENT-YQ": 2400,
+                                "TAXCOMPONENT-K3": 379,
+                                "TAXCOMPONENT-WO": 154,
+                                "TAXCOMPONENT-IN": 767,
+                                "TOT": 10991,
+                                "TAX": 4050
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "D",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "DSAVER",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "DEL",
+                                    "prdcls": "RS"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 2,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {},
+                      "subFares": [],
+                      "rKey": null
+                    }
+                  ],
+                  "sPNR": false,
+                  "hldbl": false,
+                  "lstTckDt": null,
+                  "jrnySlKey": null,
+                  "cbn": null,
+                  "cbnCls": [],
+                  "refAir": "9W|SG",
+                  "dep": null,
+                  "arr": "TOCITY1",
+                  "offId": null,
+                  "credId": "MPDFFLT2|SGFAMILY",
+                  "isBuddyResult": true,
+                  "buddyCity": "DEL",
+                  "transVisaMsg": null,
+                  "xxlnAssurance": null
+                }
+              },
+              "frLst": [
+                {
+                  "frTyp": "SIMPLE",
+                  "frTypFrmSrv": "DEFAULT|0~D~~DSAVER~8100~~3~X",
+                  "pxTypFrMap": {
+                    "INFANT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-K3": 151,
+                            "TOT": 4421,
+                            "TAX": 461
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 1,
+                        "frRuleList": []
+                      }
+                    ],
+                    "ADULT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 50,
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-SGST07": 50,
+                            "TAXCOMPONENT-YQ": 2400,
+                            "TAXCOMPONENT-K3": 379,
+                            "TAXCOMPONENT-WO": 154,
+                            "TAXCOMPONENT-IN": 767,
+                            "TOT": 10991,
+                            "TAX": 4050
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "D",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "DSAVER",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "DEL",
+                                "prdcls": "RS"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 1,
+                        "frRuleList": []
+                      }
+                    ],
+                    "CHILD": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 50,
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-SGST07": 50,
+                            "TAXCOMPONENT-YQ": 2400,
+                            "TAXCOMPONENT-K3": 379,
+                            "TAXCOMPONENT-WO": 154,
+                            "TAXCOMPONENT-IN": 767,
+                            "TOT": 10991,
+                            "TAX": 4050
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "D",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "DSAVER",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "DEL",
+                                "prdcls": "RS"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 2,
+                        "frRuleList": []
+                      }
+                    ]
+                  },
+                  "frInfoMap": {},
+                  "subFares": [],
+                  "rKey": null
+                }
+              ],
+              "jrnyRtLst": [],
+              "combInfo": {
+                "data": {
+                  "TT": 8561,
+                  "REFUNDABLE": false,
+                  "TOTAL_DURATION": 895,
+                  "IS_PURE": true,
+                  "BAGGAGE_INDEX": 0,
+                  "MAX_STOP": 1,
+                  "MAX_LAYOFF_TIME": 525,
+                  "refferenceAirline": "SG|9W",
+                  "VC": "SG|9W",
+                  "splitPNR": false,
+                  "officeIds": [
+                    "DELWI2202"
+                  ],
+                  "CABIN_CLASS": [
+                    "M"
+                  ],
+                  "T": 26403,
+                  "LAST_TKT_DATE": "27NOV18",
+                  "HOLDABLE": true,
+                  "SINGLE_ADULT_FARE": 10991,
+                  "IS_PURE_LCC": false,
+                  "KEY": "DEL$TOCITY1$DEPTDATEPLUS1TRIP11205$SG-8731|FROMCITY1$BOM$DEPTDATETRIP11520$9W-642|BOM$DEL$DEPTDATEPLUS1TRIP10300$9W-339"
+                }
+              },
+              "srName": "MP|SG",
+              "prmTxt": null,
+              "rvPrmTxt": null,
+              "tVisaMsgTxt": [],
+              "listingPageMsg": null,
+              "currInfo": null,
+              "signature": null
+            },
+            {
+              "score": null,
+              "flightKey": "FROMCITY1_DEL_DEPTDATETRIP1_9W-2430|9W-339_MP,DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_SG",
+              "actualScore": null,
+              "rhinoRank": 0,
+              "groupedOrigRank": null,
+              "recommendedFlight": null,
+              "fareHash": null,
+              "amenityItineraryKey": null,
+              "nearByFlight": false,
+              "fltUniKey": "FROMCITY1_DEL_DEPTDATETRIP1_9W-2430|9W-339_MP_0,DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_SG_1",
+              "rKey": "v1~~null$H$H2IPO$null$2400.0$250.0$null$379.0$0$0$A,null$H$H2IPO$null$2400.0$250.0$null$379.0$0$1$A,null$H$H2IPO$null$2400.0$250.0$null$379.0$0$0$C,null$H$H2IPO$null$2400.0$250.0$null$379.0$0$1$C,null$H$H2IPO$null$null$250.0$null$151.0$0$0$I,null$H$H2IPO$null$null$250.0$null$151.0$0$1$I^null$H$H2IPO$null$2400.0$250.0$null$379.0$1$0$A,null$H$H2IPO$null$2400.0$250.0$null$379.0$1$0$C,null$H$H2IPO$null$null$250.0$null$151.0$1$0$I~A-10991.0_C-10991.0_I-4421.0~M~~FROMCITY1_BOM_DEPTDATETRIP1_9W-2430_TVBERkZMVDJ8U0dGQU1JTFk=,BOM_DEL_DEPTDATEPLUS1TRIP1_9W-339_TVBERkZMVDJ8U0dGQU1JTFk=~MP_0_0^DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_TVBERkZMVDJ8U0dGQU1JTFk=~SG_0_1",
+              "jrnyMap": {
+                "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+                  "buddyResult": true,
+                  "refKey": "MP|SG",
+                  "lfid": null,
+                  "minFrRl": null,
+                  "fltLst": [
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "",
+                        "ctCd": "FROMCITY1",
+                        "airp": "Chandigarh Airport",
+                        "ctNm": "Chandigarh",
+                        "arpCd": "FROMCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 30.673469,
+                        "long": 76.788542,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "2",
+                        "ctCd": "BOM",
+                        "airp": "Chhatrapati Shivaji International Airport",
+                        "ctNm": "Mumbai",
+                        "arpCd": "BOM",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 19.088686,
+                        "long": 72.867919,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547016900000,
+                      "arrDt": 1547025300000,
+                      "techStpOvrLst": [],
+                      "totDur": 140,
+                      "segSlKey": null,
+                      "fareSlKey": null,
+                      "mrktArln": "9W",
+                      "oprArln": "46",
+                      "equipTyp": "73H",
+                      "equipCd": null,
+                      "equipNm": "73H",
+                      "fltNum": "2430",
+                      "carierCode": "9W",
+                      "bagDtls": [
+                        {
+                          "bag": {
+                            "qty": "1",
+                            "utyp": "N",
+                            "unt": null
+                          },
+                          "pxTyp": "ADT",
+                          "pxRf": "1"
+                        }
+                      ],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "M",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    },
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "2",
+                        "ctCd": "BOM",
+                        "airp": "Chhatrapati Shivaji International Airport",
+                        "ctNm": "Mumbai",
+                        "arpCd": "BOM",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 19.088686,
+                        "long": 72.867919,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "3",
+                        "ctCd": "DEL",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "DEL",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547069400000,
+                      "arrDt": 1547076900000,
+                      "techStpOvrLst": [],
+                      "totDur": 125,
+                      "segSlKey": null,
+                      "fareSlKey": null,
+                      "mrktArln": "9W",
+                      "oprArln": "9W",
+                      "equipTyp": "73H",
+                      "equipCd": null,
+                      "equipNm": "73H",
+                      "fltNum": "339",
+                      "carierCode": "9W",
+                      "bagDtls": [
+                        {
+                          "bag": {
+                            "qty": "1",
+                            "utyp": "N",
+                            "unt": null
+                          },
+                          "pxTyp": "ADT",
+                          "pxRf": "1"
+                        }
+                      ],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "M",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    },
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "2",
+                        "ctCd": "DEL",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "DEL",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "",
+                        "ctCd": "TOCITY1",
+                        "airp": "Adampur Airport",
+                        "ctNm": "Adampur",
+                        "arpCd": "TOCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 31.433056,
+                        "long": 75.760556,
+                        "cont": "Asia",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547102100000,
+                      "arrDt": 1547106300000,
+                      "techStpOvrLst": [],
+                      "totDur": 70,
+                      "segSlKey": "SG~8731~ ~~DEL~01/10/2019 12:05~TOCITY1~01/10/2019 13:15~",
+                      "fareSlKey": "0~D~~DSAVER~8100~~3~X",
+                      "mrktArln": "SG",
+                      "oprArln": "SG",
+                      "equipTyp": "DH8",
+                      "equipCd": "DH8",
+                      "equipNm": "DH8",
+                      "fltNum": "8731",
+                      "carierCode": "SG",
+                      "bagDtls": [],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "Y",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    }
+                  ],
+                  "aggFltNum": "FROMCITY1$BOM$DEPTDATETRIP11225$9W-2430|BOM$DEL$DEPTDATEPLUS1TRIP10300$9W-339|DEL$TOCITY1$DEPTDATEPLUS1TRIP11205$SG-8731",
+                  "totFr": null,
+                  "totBsFr": null,
+                  "totTx": null,
+                  "cur": null,
+                  "totDur": 1490,
+                  "rfndbl": null,
+                  "fr": [
+                    {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "DEFAULT|0~D~~DSAVER~8100~~3~X",
+                      "pxTypFrMap": {
+                        "INFANT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-K3": 151,
+                                "TOT": 4421,
+                                "TAX": 461
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 1,
+                            "frRuleList": []
+                          }
+                        ],
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 50,
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-SGST07": 50,
+                                "TAXCOMPONENT-YQ": 2400,
+                                "TAXCOMPONENT-K3": 379,
+                                "TAXCOMPONENT-WO": 154,
+                                "TAXCOMPONENT-IN": 767,
+                                "TOT": 10991,
+                                "TAX": 4050
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "D",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "DSAVER",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "DEL",
+                                    "prdcls": "RS"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 1,
+                            "frRuleList": []
+                          }
+                        ],
+                        "CHILD": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 50,
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-SGST07": 50,
+                                "TAXCOMPONENT-YQ": 2400,
+                                "TAXCOMPONENT-K3": 379,
+                                "TAXCOMPONENT-WO": 154,
+                                "TAXCOMPONENT-IN": 767,
+                                "TOT": 10991,
+                                "TAX": 4050
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "D",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "DSAVER",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "DEL",
+                                    "prdcls": "RS"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 2,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {},
+                      "subFares": [],
+                      "rKey": null
+                    }
+                  ],
+                  "sPNR": false,
+                  "hldbl": false,
+                  "lstTckDt": null,
+                  "jrnySlKey": null,
+                  "cbn": null,
+                  "cbnCls": [],
+                  "refAir": "9W|SG",
+                  "dep": null,
+                  "arr": "TOCITY1",
+                  "offId": null,
+                  "credId": "MPDFFLT2|SGFAMILY",
+                  "isBuddyResult": true,
+                  "buddyCity": "DEL",
+                  "transVisaMsg": null,
+                  "xxlnAssurance": null
+                }
+              },
+              "frLst": [
+                {
+                  "frTyp": "SIMPLE",
+                  "frTypFrmSrv": "DEFAULT|0~D~~DSAVER~8100~~3~X",
+                  "pxTypFrMap": {
+                    "INFANT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-K3": 151,
+                            "TOT": 4421,
+                            "TAX": 461
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 1,
+                        "frRuleList": []
+                      }
+                    ],
+                    "ADULT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 50,
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-SGST07": 50,
+                            "TAXCOMPONENT-YQ": 2400,
+                            "TAXCOMPONENT-K3": 379,
+                            "TAXCOMPONENT-WO": 154,
+                            "TAXCOMPONENT-IN": 767,
+                            "TOT": 10991,
+                            "TAX": 4050
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "D",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "DSAVER",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "DEL",
+                                "prdcls": "RS"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 1,
+                        "frRuleList": []
+                      }
+                    ],
+                    "CHILD": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 50,
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-SGST07": 50,
+                            "TAXCOMPONENT-YQ": 2400,
+                            "TAXCOMPONENT-K3": 379,
+                            "TAXCOMPONENT-WO": 154,
+                            "TAXCOMPONENT-IN": 767,
+                            "TOT": 10991,
+                            "TAX": 4050
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "D",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "DSAVER",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "DEL",
+                                "prdcls": "RS"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 2,
+                        "frRuleList": []
+                      }
+                    ]
+                  },
+                  "frInfoMap": {},
+                  "subFares": [],
+                  "rKey": null
+                }
+              ],
+              "jrnyRtLst": [],
+              "combInfo": {
+                "data": {
+                  "TT": 8561,
+                  "REFUNDABLE": false,
+                  "TOTAL_DURATION": 1070,
+                  "IS_PURE": false,
+                  "BAGGAGE_INDEX": 0,
+                  "MAX_STOP": 1,
+                  "MAX_LAYOFF_TIME": 735,
+                  "refferenceAirline": "SG|9W",
+                  "VC": "SG|9W",
+                  "splitPNR": false,
+                  "officeIds": [
+                    "DELWI2202"
+                  ],
+                  "CABIN_CLASS": [
+                    "M"
+                  ],
+                  "T": 26403,
+                  "LAST_TKT_DATE": "27NOV18",
+                  "HOLDABLE": true,
+                  "SINGLE_ADULT_FARE": 10991,
+                  "IS_PURE_LCC": false,
+                  "KEY": "DEL$TOCITY1$DEPTDATEPLUS1TRIP11205$SG-8731|FROMCITY1$BOM$DEPTDATETRIP11225$9W-2430|BOM$DEL$DEPTDATEPLUS1TRIP10300$9W-339"
+                }
+              },
+              "srName": "MP|SG",
+              "prmTxt": null,
+              "rvPrmTxt": null,
+              "tVisaMsgTxt": [],
+              "listingPageMsg": null,
+              "currInfo": null,
+              "signature": null
+            },
+            {
+              "score": null,
+              "flightKey": "FROMCITY1_DEL_DEPTDATETRIP1_9W-3523|9W-916_MP,DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_SG",
+              "actualScore": null,
+              "rhinoRank": 0,
+              "groupedOrigRank": null,
+              "recommendedFlight": null,
+              "fareHash": null,
+              "amenityItineraryKey": null,
+              "nearByFlight": false,
+              "fltUniKey": "FROMCITY1_DEL_DEPTDATETRIP1_9W-3523|9W-916_MP_0,DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_SG_1",
+              "rKey": "v1~~null$K$K2IPO$null$1200.0$250.0$null$325.0$0$0$A,null$K$K2IPO$null$1200.0$250.0$null$325.0$0$1$A,null$K$K2IPO$null$1200.0$250.0$null$325.0$0$0$C,null$K$K2IPO$null$1200.0$250.0$null$325.0$0$1$C,null$K$K2IPO$null$null$250.0$null$151.0$0$0$I,null$K$K2IPO$null$null$250.0$null$151.0$0$1$I^null$K$K2IPO$null$1200.0$250.0$null$325.0$1$0$A,null$K$K2IPO$null$1200.0$250.0$null$325.0$1$0$C,null$K$K2IPO$null$null$250.0$null$151.0$1$0$I~A-9857.0_C-9857.0_I-4421.0~M~~FROMCITY1_LKO_DEPTDATETRIP1_9W-3523_TVBERkZMVDJ8U0dGQU1JTFk=,LKO_DEL_DEPTDATEPLUS1TRIP1_9W-916_TVBERkZMVDJ8U0dGQU1JTFk=~MP_0_0^DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_TVBERkZMVDJ8U0dGQU1JTFk=~SG_0_1",
+              "jrnyMap": {
+                "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+                  "buddyResult": true,
+                  "refKey": "MP|SG",
+                  "lfid": null,
+                  "minFrRl": null,
+                  "fltLst": [
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "",
+                        "ctCd": "FROMCITY1",
+                        "airp": "Chandigarh Airport",
+                        "ctNm": "Chandigarh",
+                        "arpCd": "FROMCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 30.673469,
+                        "long": 76.788542,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "2",
+                        "ctCd": "LKO",
+                        "airp": "Amausi Airport",
+                        "ctNm": "Lucknow",
+                        "arpCd": "LKO",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 26.760594,
+                        "long": 80.889339,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547032800000,
+                      "arrDt": 1547039700000,
+                      "techStpOvrLst": [],
+                      "totDur": 115,
+                      "segSlKey": null,
+                      "fareSlKey": null,
+                      "mrktArln": "9W",
+                      "oprArln": "9W",
+                      "equipTyp": "AT7",
+                      "equipCd": null,
+                      "equipNm": "AT7",
+                      "fltNum": "3523",
+                      "carierCode": "9W",
+                      "bagDtls": [
+                        {
+                          "bag": {
+                            "qty": "1",
+                            "utyp": "N",
+                            "unt": null
+                          },
+                          "pxTyp": "ADT",
+                          "pxRf": "1"
+                        }
+                      ],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "M",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    },
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "2",
+                        "ctCd": "LKO",
+                        "airp": "Amausi Airport",
+                        "ctNm": "Lucknow",
+                        "arpCd": "LKO",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 26.760594,
+                        "long": 80.889339,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "3",
+                        "ctCd": "DEL",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "DEL",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547080800000,
+                      "arrDt": 1547085600000,
+                      "techStpOvrLst": [],
+                      "totDur": 80,
+                      "segSlKey": null,
+                      "fareSlKey": null,
+                      "mrktArln": "9W",
+                      "oprArln": "9W",
+                      "equipTyp": "73H",
+                      "equipCd": null,
+                      "equipNm": "73H",
+                      "fltNum": "916",
+                      "carierCode": "9W",
+                      "bagDtls": [
+                        {
+                          "bag": {
+                            "qty": "1",
+                            "utyp": "N",
+                            "unt": null
+                          },
+                          "pxTyp": "ADT",
+                          "pxRf": "1"
+                        }
+                      ],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "M",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    },
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "2",
+                        "ctCd": "DEL",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "DEL",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "",
+                        "ctCd": "TOCITY1",
+                        "airp": "Adampur Airport",
+                        "ctNm": "Adampur",
+                        "arpCd": "TOCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 31.433056,
+                        "long": 75.760556,
+                        "cont": "Asia",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547102100000,
+                      "arrDt": 1547106300000,
+                      "techStpOvrLst": [],
+                      "totDur": 70,
+                      "segSlKey": "SG~8731~ ~~DEL~01/10/2019 12:05~TOCITY1~01/10/2019 13:15~",
+                      "fareSlKey": "0~D~~DSAVER~8100~~3~X",
+                      "mrktArln": "SG",
+                      "oprArln": "SG",
+                      "equipTyp": "DH8",
+                      "equipCd": "DH8",
+                      "equipNm": "DH8",
+                      "fltNum": "8731",
+                      "carierCode": "SG",
+                      "bagDtls": [],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "Y",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    }
+                  ],
+                  "aggFltNum": "FROMCITY1$LKO$DEPTDATETRIP11650$9W-3523|LKO$DEL$DEPTDATEPLUS1TRIP10610$9W-916|DEL$TOCITY1$DEPTDATEPLUS1TRIP11205$SG-8731",
+                  "totFr": null,
+                  "totBsFr": null,
+                  "totTx": null,
+                  "cur": null,
+                  "totDur": 1225,
+                  "rfndbl": null,
+                  "fr": [
+                    {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "DEFAULT|0~D~~DSAVER~8100~~3~X",
+                      "pxTypFrMap": {
+                        "INFANT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-K3": 151,
+                                "TOT": 4421,
+                                "TAX": 461
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "K",
+                                    "cbn": "M",
+                                    "avl": "6",
+                                    "fbc": "K2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "K",
+                                    "cbn": "M",
+                                    "avl": "6",
+                                    "fbc": "K2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 1,
+                            "frRuleList": []
+                          }
+                        ],
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 50,
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-SGST07": 50,
+                                "TAXCOMPONENT-YQ": 1200,
+                                "TAXCOMPONENT-K3": 325,
+                                "TAXCOMPONENT-WO": 154,
+                                "TAXCOMPONENT-IN": 767,
+                                "TOT": 9857,
+                                "TAX": 2796
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "K",
+                                    "cbn": "M",
+                                    "avl": "6",
+                                    "fbc": "K2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "K",
+                                    "cbn": "M",
+                                    "avl": "6",
+                                    "fbc": "K2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "D",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "DSAVER",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "DEL",
+                                    "prdcls": "RS"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 1,
+                            "frRuleList": []
+                          }
+                        ],
+                        "CHILD": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 50,
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-SGST07": 50,
+                                "TAXCOMPONENT-YQ": 1200,
+                                "TAXCOMPONENT-K3": 325,
+                                "TAXCOMPONENT-WO": 154,
+                                "TAXCOMPONENT-IN": 767,
+                                "TOT": 9857,
+                                "TAX": 2796
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "K",
+                                    "cbn": "M",
+                                    "avl": "6",
+                                    "fbc": "K2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "K",
+                                    "cbn": "M",
+                                    "avl": "6",
+                                    "fbc": "K2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "D",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "DSAVER",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "DEL",
+                                    "prdcls": "RS"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 2,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {},
+                      "subFares": [],
+                      "rKey": null
+                    }
+                  ],
+                  "sPNR": false,
+                  "hldbl": false,
+                  "lstTckDt": null,
+                  "jrnySlKey": null,
+                  "cbn": null,
+                  "cbnCls": [],
+                  "refAir": "9W|SG",
+                  "dep": null,
+                  "arr": "TOCITY1",
+                  "offId": null,
+                  "credId": "MPDFFLT2|SGFAMILY",
+                  "isBuddyResult": true,
+                  "buddyCity": "DEL",
+                  "transVisaMsg": null,
+                  "xxlnAssurance": null
+                }
+              },
+              "frLst": [
+                {
+                  "frTyp": "SIMPLE",
+                  "frTypFrmSrv": "DEFAULT|0~D~~DSAVER~8100~~3~X",
+                  "pxTypFrMap": {
+                    "INFANT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-K3": 151,
+                            "TOT": 4421,
+                            "TAX": 461
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "K",
+                                "cbn": "M",
+                                "avl": "6",
+                                "fbc": "K2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "K",
+                                "cbn": "M",
+                                "avl": "6",
+                                "fbc": "K2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 1,
+                        "frRuleList": []
+                      }
+                    ],
+                    "ADULT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 50,
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-SGST07": 50,
+                            "TAXCOMPONENT-YQ": 1200,
+                            "TAXCOMPONENT-K3": 325,
+                            "TAXCOMPONENT-WO": 154,
+                            "TAXCOMPONENT-IN": 767,
+                            "TOT": 9857,
+                            "TAX": 2796
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "K",
+                                "cbn": "M",
+                                "avl": "6",
+                                "fbc": "K2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "K",
+                                "cbn": "M",
+                                "avl": "6",
+                                "fbc": "K2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "D",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "DSAVER",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "DEL",
+                                "prdcls": "RS"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 1,
+                        "frRuleList": []
+                      }
+                    ],
+                    "CHILD": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 50,
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-SGST07": 50,
+                            "TAXCOMPONENT-YQ": 1200,
+                            "TAXCOMPONENT-K3": 325,
+                            "TAXCOMPONENT-WO": 154,
+                            "TAXCOMPONENT-IN": 767,
+                            "TOT": 9857,
+                            "TAX": 2796
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "K",
+                                "cbn": "M",
+                                "avl": "6",
+                                "fbc": "K2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "K",
+                                "cbn": "M",
+                                "avl": "6",
+                                "fbc": "K2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "D",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "DSAVER",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "DEL",
+                                "prdcls": "RS"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 2,
+                        "frRuleList": []
+                      }
+                    ]
+                  },
+                  "frInfoMap": {},
+                  "subFares": [],
+                  "rKey": null
+                }
+              ],
+              "jrnyRtLst": [],
+              "combInfo": {
+                "data": {
+                  "TT": 6053,
+                  "REFUNDABLE": false,
+                  "TOTAL_DURATION": 950,
+                  "IS_PURE": true,
+                  "BAGGAGE_INDEX": 0,
+                  "MAX_STOP": 1,
+                  "MAX_LAYOFF_TIME": 685,
+                  "refferenceAirline": "SG|9W",
+                  "VC": "SG|9W",
+                  "splitPNR": false,
+                  "officeIds": [
+                    "DELWI2202"
+                  ],
+                  "CABIN_CLASS": [
+                    "M"
+                  ],
+                  "T": 24135,
+                  "LAST_TKT_DATE": "27NOV18",
+                  "HOLDABLE": true,
+                  "SINGLE_ADULT_FARE": 9857,
+                  "IS_PURE_LCC": false,
+                  "KEY": "DEL$TOCITY1$DEPTDATEPLUS1TRIP11205$SG-8731|FROMCITY1$LKO$DEPTDATETRIP11650$9W-3523|LKO$DEL$DEPTDATEPLUS1TRIP10610$9W-916"
+                }
+              },
+              "srName": "MP|SG",
+              "prmTxt": null,
+              "rvPrmTxt": null,
+              "tVisaMsgTxt": [],
+              "listingPageMsg": null,
+              "currInfo": null,
+              "signature": null
+            },
+            {
+              "score": null,
+              "flightKey": "FROMCITY1_DEL_DEPTDATETRIP1_9W-642|9W-762_MP,DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_SG",
+              "actualScore": null,
+              "rhinoRank": 0,
+              "groupedOrigRank": null,
+              "recommendedFlight": null,
+              "fareHash": null,
+              "amenityItineraryKey": null,
+              "nearByFlight": false,
+              "fltUniKey": "FROMCITY1_DEL_DEPTDATETRIP1_9W-642|9W-762_MP_0,DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_SG_1",
+              "rKey": "v1~~null$H$H2IPO$null$2400.0$250.0$null$379.0$0$0$A,null$H$H2IPO$null$2400.0$250.0$null$379.0$0$1$A,null$H$H2IPO$null$2400.0$250.0$null$379.0$0$0$C,null$H$H2IPO$null$2400.0$250.0$null$379.0$0$1$C,null$H$H2IPO$null$null$250.0$null$151.0$0$0$I,null$H$H2IPO$null$null$250.0$null$151.0$0$1$I^null$H$H2IPO$null$2400.0$250.0$null$379.0$1$0$A,null$H$H2IPO$null$2400.0$250.0$null$379.0$1$0$C,null$H$H2IPO$null$null$250.0$null$151.0$1$0$I~A-10991.0_C-10991.0_I-4421.0~M~~FROMCITY1_BOM_DEPTDATETRIP1_9W-642_TVBERkZMVDJ8U0dGQU1JTFk=,BOM_DEL_DEPTDATEPLUS1TRIP1_9W-762_TVBERkZMVDJ8U0dGQU1JTFk=~MP_0_0^DEL_TOCITY1_DEPTDATEPLUS1TRIP1_SG-8731_TVBERkZMVDJ8U0dGQU1JTFk=~SG_0_1",
+              "jrnyMap": {
+                "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+                  "buddyResult": true,
+                  "refKey": "MP|SG",
+                  "lfid": null,
+                  "minFrRl": null,
+                  "fltLst": [
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "",
+                        "ctCd": "FROMCITY1",
+                        "airp": "Chandigarh Airport",
+                        "ctNm": "Chandigarh",
+                        "arpCd": "FROMCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 30.673469,
+                        "long": 76.788542,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "2",
+                        "ctCd": "BOM",
+                        "airp": "Chhatrapati Shivaji International Airport",
+                        "ctNm": "Mumbai",
+                        "arpCd": "BOM",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 19.088686,
+                        "long": 72.867919,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547027400000,
+                      "arrDt": 1547037900000,
+                      "techStpOvrLst": [],
+                      "totDur": 175,
+                      "segSlKey": null,
+                      "fareSlKey": null,
+                      "mrktArln": "9W",
+                      "oprArln": "9W",
+                      "equipTyp": "73H",
+                      "equipCd": null,
+                      "equipNm": "73H",
+                      "fltNum": "642",
+                      "carierCode": "9W",
+                      "bagDtls": [
+                        {
+                          "bag": {
+                            "qty": "1",
+                            "utyp": "N",
+                            "unt": null
+                          },
+                          "pxTyp": "ADT",
+                          "pxRf": "1"
+                        }
+                      ],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "M",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    },
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "2",
+                        "ctCd": "BOM",
+                        "airp": "Chhatrapati Shivaji International Airport",
+                        "ctNm": "Mumbai",
+                        "arpCd": "BOM",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 19.088686,
+                        "long": 72.867919,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "3",
+                        "ctCd": "DEL",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "DEL",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547080200000,
+                      "arrDt": 1547088300000,
+                      "techStpOvrLst": [],
+                      "totDur": 135,
+                      "segSlKey": null,
+                      "fareSlKey": null,
+                      "mrktArln": "9W",
+                      "oprArln": "9W",
+                      "equipTyp": "73H",
+                      "equipCd": null,
+                      "equipNm": "73H",
+                      "fltNum": "762",
+                      "carierCode": "9W",
+                      "bagDtls": [
+                        {
+                          "bag": {
+                            "qty": "1",
+                            "utyp": "N",
+                            "unt": null
+                          },
+                          "pxTyp": "ADT",
+                          "pxRf": "1"
+                        }
+                      ],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "M",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    },
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "2",
+                        "ctCd": "DEL",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "DEL",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "",
+                        "ctCd": "TOCITY1",
+                        "airp": "Adampur Airport",
+                        "ctNm": "Adampur",
+                        "arpCd": "TOCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 31.433056,
+                        "long": 75.760556,
+                        "cont": "Asia",
+                        "cur": "INR"
+                      },
+                      "depDt": 1547102100000,
+                      "arrDt": 1547106300000,
+                      "techStpOvrLst": [],
+                      "totDur": 70,
+                      "segSlKey": "SG~8731~ ~~DEL~01/10/2019 12:05~TOCITY1~01/10/2019 13:15~",
+                      "fareSlKey": "0~D~~DSAVER~8100~~3~X",
+                      "mrktArln": "SG",
+                      "oprArln": "SG",
+                      "equipTyp": "DH8",
+                      "equipCd": "DH8",
+                      "equipNm": "DH8",
+                      "fltNum": "8731",
+                      "carierCode": "SG",
+                      "bagDtls": [],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "Y",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "rKey": null
+                    }
+                  ],
+                  "aggFltNum": "FROMCITY1$BOM$DEPTDATETRIP11520$9W-642|BOM$DEL$DEPTDATEPLUS1TRIP10600$9W-762|DEL$TOCITY1$DEPTDATEPLUS1TRIP11205$SG-8731",
+                  "totFr": null,
+                  "totBsFr": null,
+                  "totTx": null,
+                  "cur": null,
+                  "totDur": 1315,
+                  "rfndbl": null,
+                  "fr": [
+                    {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "DEFAULT|0~D~~DSAVER~8100~~3~X",
+                      "pxTypFrMap": {
+                        "INFANT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-K3": 151,
+                                "TOT": 4421,
+                                "TAX": 461
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 1,
+                            "frRuleList": []
+                          }
+                        ],
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 50,
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-SGST07": 50,
+                                "TAXCOMPONENT-YQ": 2400,
+                                "TAXCOMPONENT-K3": 379,
+                                "TAXCOMPONENT-WO": 154,
+                                "TAXCOMPONENT-IN": 767,
+                                "TOT": 10991,
+                                "TAX": 4050
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "D",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "DSAVER",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "DEL",
+                                    "prdcls": "RS"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 1,
+                            "frRuleList": []
+                          }
+                        ],
+                        "CHILD": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 50,
+                                "TAXCOMPONENT-YR": 250,
+                                "TAXCOMPONENT-SGST07": 50,
+                                "TAXCOMPONENT-YQ": 2400,
+                                "TAXCOMPONENT-K3": 379,
+                                "TAXCOMPONENT-WO": 154,
+                                "TAXCOMPONENT-IN": 767,
+                                "TOT": 10991,
+                                "TAX": 4050
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "H",
+                                    "cbn": "M",
+                                    "avl": "7",
+                                    "fbc": "H2IPO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [
+                                      "RP"
+                                    ],
+                                    "brkPnt": "Y",
+                                    "arrcd": "",
+                                    "deptcd": "",
+                                    "prdcls": null
+                                  },
+                                  {
+                                    "frId": null,
+                                    "rb": "D",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "DSAVER",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "DEL",
+                                    "prdcls": "RS"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 2,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {},
+                      "subFares": [],
+                      "rKey": null
+                    }
+                  ],
+                  "sPNR": false,
+                  "hldbl": false,
+                  "lstTckDt": null,
+                  "jrnySlKey": null,
+                  "cbn": null,
+                  "cbnCls": [],
+                  "refAir": "9W|SG",
+                  "dep": null,
+                  "arr": "TOCITY1",
+                  "offId": null,
+                  "credId": "MPDFFLT2|SGFAMILY",
+                  "isBuddyResult": true,
+                  "buddyCity": "DEL",
+                  "transVisaMsg": null,
+                  "xxlnAssurance": null
+                }
+              },
+              "frLst": [
+                {
+                  "frTyp": "SIMPLE",
+                  "frTypFrmSrv": "DEFAULT|0~D~~DSAVER~8100~~3~X",
+                  "pxTypFrMap": {
+                    "INFANT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-K3": 151,
+                            "TOT": 4421,
+                            "TAX": 461
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 1,
+                        "frRuleList": []
+                      }
+                    ],
+                    "ADULT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 50,
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-SGST07": 50,
+                            "TAXCOMPONENT-YQ": 2400,
+                            "TAXCOMPONENT-K3": 379,
+                            "TAXCOMPONENT-WO": 154,
+                            "TAXCOMPONENT-IN": 767,
+                            "TOT": 10991,
+                            "TAX": 4050
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "D",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "DSAVER",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "DEL",
+                                "prdcls": "RS"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 1,
+                        "frRuleList": []
+                      }
+                    ],
+                    "CHILD": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 50,
+                            "TAXCOMPONENT-YR": 250,
+                            "TAXCOMPONENT-SGST07": 50,
+                            "TAXCOMPONENT-YQ": 2400,
+                            "TAXCOMPONENT-K3": 379,
+                            "TAXCOMPONENT-WO": 154,
+                            "TAXCOMPONENT-IN": 767,
+                            "TOT": 10991,
+                            "TAX": 4050
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "H",
+                                "cbn": "M",
+                                "avl": "7",
+                                "fbc": "H2IPO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [
+                                  "RP"
+                                ],
+                                "brkPnt": "Y",
+                                "arrcd": "",
+                                "deptcd": "",
+                                "prdcls": null
+                              },
+                              {
+                                "frId": null,
+                                "rb": "D",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "DSAVER",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "DEL",
+                                "prdcls": "RS"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 2,
+                        "frRuleList": []
+                      }
+                    ]
+                  },
+                  "frInfoMap": {},
+                  "subFares": [],
+                  "rKey": null
+                }
+              ],
+              "jrnyRtLst": [],
+              "combInfo": {
+                "data": {
+                  "TT": 8561,
+                  "REFUNDABLE": false,
+                  "TOTAL_DURATION": 1085,
+                  "IS_PURE": true,
+                  "BAGGAGE_INDEX": 0,
+                  "MAX_STOP": 1,
+                  "MAX_LAYOFF_TIME": 705,
+                  "refferenceAirline": "SG|9W",
+                  "VC": "SG|9W",
+                  "splitPNR": false,
+                  "officeIds": [
+                    "DELWI2202"
+                  ],
+                  "CABIN_CLASS": [
+                    "M"
+                  ],
+                  "T": 26403,
+                  "LAST_TKT_DATE": "27NOV18",
+                  "HOLDABLE": true,
+                  "SINGLE_ADULT_FARE": 10991,
+                  "IS_PURE_LCC": false,
+                  "KEY": "DEL$TOCITY1$DEPTDATEPLUS1TRIP11205$SG-8731|FROMCITY1$BOM$DEPTDATETRIP11520$9W-642|BOM$DEL$DEPTDATEPLUS1TRIP10600$9W-762"
+                }
+              },
+              "srName": "MP|SG",
+              "prmTxt": null,
+              "rvPrmTxt": null,
+              "tVisaMsgTxt": [],
+              "listingPageMsg": null,
+              "currInfo": null,
+              "signature": null
+            },
+            {
+              "score": null,
+              "flightKey": null,
+              "actualScore": null,
+              "rhinoRank": 0,
+              "groupedOrigRank": null,
+              "recommendedFlight": null,
+              "fareHash": "baefc0221ebb28fd6530d45eed5b550ece19687b351c069452d38552f9f2a0f0",
+              "amenityItineraryKey": null,
+              "nearByFlight": false,
+              "fltUniKey": "FROMCITY1_TOCITY1_DEPTDATETRIP1_SG-153_SG_0",
+              "rKey": "v1~~HO$U$UHBO$244.0$null$null$null$null$0$0$A~A-2638.0_C-0_I-0~M$1$0$0~~FROMCITY1_TOCITY1_DEPTDATETRIP1_SG-153_T1NPV0RIUlVW_06:35_DEPTDATETRIP1_08:45_SG_SG_SG~SG_0_0_FROMCITY1-TOCITY1-DEPTDATETRIP1",
+              "jrnyMap": {
+                "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+                  "buddyResult": false,
+                  "refKey": "SG",
+                  "lfid": null,
+                  "minFrRl": null,
+                  "fltLst": [
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "1D",
+                        "ctCd": "FROMCITY1",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New FROMCITY1hi",
+                        "arpCd": "FROMCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "1",
+                        "ctCd": "TOCITY1",
+                        "airp": "Chhatrapati Shivaji International Airport",
+                        "ctNm": "Mumbai",
+                        "arpCd": "TOCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 19.088686,
+                        "long": 72.867919,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1549760700000,
+                      "arrDt": 1549768500000,
+                      "techStpOvrLst": [],
+                      "totDur": 130,
+                      "segSlKey": "SG~ 153~ ~~FROMCITY1~02/10/2019 06:35~TOCITY1~02/10/2019 08:45~~",
+                      "fareSlKey": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                      "mrktArln": "SG",
+                      "oprArln": "SG",
+                      "equipTyp": "7M8",
+                      "equipCd": "7M8",
+                      "equipNm": "7M8",
+                      "fltNum": "153",
+                      "carierCode": "SG",
+                      "bagDtls": [],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "Y",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ]
+                    }
+                  ],
+                  "aggFltNum": "FROMCITY1$TOCITY1$DEPTDATETRIP10635$SG-153",
+                  "totFr": 2838,
+                  "totBsFr": 2230,
+                  "totTx": 508,
+                  "cur": "INR",
+                  "totDur": 130,
+                  "rfndbl": null,
+                  "fr": [
+                    {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                      "pxTypFrMap": {
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 57,
+                                "TAXCOMPONENT-SGST07": 57,
+                                "TAXCOMPONENT-RCS": 100,
+                                "TOT": 2638,
+                                "TAXCOMPONENT-PSF": 244,
+                                "TAX": 508,
+                                "TAXCOMPONENT-TRF": 50
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "U",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "UHBO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "FROMCITY1",
+                                    "prdcls": "HO"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 0,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {
+                        "ProductClass": "HO",
+                        "FareClassOfService": "U",
+                        "FareType": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                        "FareStatus": null,
+                        "OriginalClassOfService": null,
+                        "FareBasisCode": "UHBO"
+                      },
+                      "subFares": [],
+                      "rKey": null
+                    }
+                  ],
+                  "sPNR": false,
+                  "hldbl": false,
+                  "lstTckDt": null,
+                  "jrnySlKey": "SG~ 153~ ~~FROMCITY1~02/10/2019 06:35~TOCITY1~02/10/2019 08:45~~",
+                  "cbn": null,
+                  "cbnCls": null,
+                  "refAir": "SG",
+                  "dep": "FROMCITY1",
+                  "arr": "TOCITY1",
+                  "offId": null,
+                  "credId": "SGOWDHRUV",
+                  "isBuddyResult": false,
+                  "buddyCity": null,
+                  "transVisaMsg": null,
+                  "xxlnAssurance": {
+                    "sa": true,
+                    "cw": null,
+                    "fe": 499,
+                    "ac": "OS499",
+                    "pt": "Get Full refund on cancellation penalties. Buy ZC @ only Mock Rs. 499",
+                    "pp": "Great choice! Your cancellation is now covered by us. You will get 100% mock refund on your cancellation penalty if your plan changes",
+                    "fpp": 499
+                  }
+                }
+              },
+              "frLst": [
+                {
+                  "frTyp": "SIMPLE",
+                  "frTypFrmSrv": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                  "pxTypFrMap": {
+                    "ADULT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 57,
+                            "TAXCOMPONENT-SGST07": 57,
+                            "TAXCOMPONENT-RCS": 100,
+                            "TOT": 2638,
+                            "TAXCOMPONENT-PSF": 244,
+                            "TAX": 508,
+                            "TAXCOMPONENT-TRF": 50
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "U",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "UHBO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "FROMCITY1",
+                                "prdcls": "HO"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 0,
+                        "frRuleList": []
+                      }
+                    ]
+                  },
+                  "frInfoMap": {
+                    "ProductClass": "HO",
+                    "FareClassOfService": "U",
+                    "FareType": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                    "FareStatus": null,
+                    "OriginalClassOfService": null,
+                    "FareBasisCode": "UHBO"
+                  },
+                  "subFares": [],
+                  "rKey": null
+                }
+              ],
+              "jrnyRtLst": [],
+              "combInfo": {
+                "data": {
+                  "TT": 508,
+                  "REFUNDABLE": false,
+                  "TOTAL_DURATION": 130,
+                  "T": 2838,
+                  "IS_PURE": false,
+                  "MAX_STOP": 0,
+                  "MAX_LAYOFF_TIME": 0,
+                  "refferenceAirline": "SG",
+                  "SINGLE_ADULT_FARE": 2838,
+                  "IS_PURE_LCC": true,
+                  "VC": "SG",
+                  "KEY": "FROMCITY1$TOCITY1$DEPTDATETRIP10635$OS-153"
+                }
+              },
+              "srName": "SG",
+              "prmTxt": null,
+              "rvPrmTxt": null,
+              "tVisaMsgTxt": [],
+              "listingPageMsg": null,
+              "currInfo": {
+                "costCurrency": "INR",
+                "sellCurrency": null,
+                "conversionFactor": null
+              },
+              "signature": null
+            },
+            {
+              "score": null,
+              "flightKey": null,
+              "actualScore": null,
+              "rhinoRank": 0,
+              "groupedOrigRank": null,
+              "recommendedFlight": null,
+              "fareHash": "baefc0221ebb28fd6530d45eed5b550ece19687b351c069452d38552f9f2a0f0",
+              "amenityItineraryKey": null,
+              "nearByFlight": false,
+              "fltUniKey": "FROMCITY1_TOCITY1_DEPTDATETRIP1_OS-153_OS_0",
+              "rKey": "v1~~HO$U$UHBO$244.0$null$null$null$null$0$0$A~A-2638.0_C-0_I-0~M$1$0$0~~FROMCITY1_TOCITY1_DEPTDATETRIP1_OS-153_T1NPV0RIUlVW_06:35_DEPTDATETRIP1_08:45_OS_OS_OS~OS_0_0_FROMCITY1-TOCITY1-DEPTDATETRIP1",
+              "jrnyMap": {
+                "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+                  "buddyResult": false,
+                  "refKey": "OS",
+                  "lfid": null,
+                  "minFrRl": null,
+                  "fltLst": [
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "1D",
+                        "ctCd": "FROMCITY1",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New FROMCITY1hi",
+                        "arpCd": "FROMCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "1",
+                        "ctCd": "TOCITY1",
+                        "airp": "Chhatrapati Shivaji International Airport",
+                        "ctNm": "Mumbai",
+                        "arpCd": "TOCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 19.088686,
+                        "long": 72.867919,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1549760700000,
+                      "arrDt": 1549768500000,
+                      "techStpOvrLst": [],
+                      "totDur": 130,
+                      "segSlKey": "SG~ 153~ ~~FROMCITY1~02/10/2019 06:35~TOCITY1~02/10/2019 08:45~~",
+                      "fareSlKey": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                      "mrktArln": "OS",
+                      "oprArln": "OS",
+                      "equipTyp": "7M8",
+                      "equipCd": "7M8",
+                      "equipNm": "7M8",
+                      "fltNum": "153",
+                      "carierCode": "OS",
+                      "bagDtls": [],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "Y",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ]
+                    }
+                  ],
+                  "aggFltNum": "FROMCITY1$TOCITY1$DEPTDATETRIP10635$OS-153",
+                  "totFr": 2638,
+                  "totBsFr": 2130,
+                  "totTx": 508,
+                  "cur": "INR",
+                  "totDur": 130,
+                  "rfndbl": null,
+                  "fr": [
+                    {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                      "pxTypFrMap": {
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-CGST07": 57,
+                                "TAXCOMPONENT-SGST07": 57,
+                                "TAXCOMPONENT-RCS": 100,
+                                "TOT": 2638,
+                                "TAXCOMPONENT-PSF": 244,
+                                "TAX": 508,
+                                "TAXCOMPONENT-TRF": 50
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "U",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "UHBO",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "FROMCITY1",
+                                    "prdcls": "HO"
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 0,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {
+                        "ProductClass": "HO",
+                        "FareClassOfService": "U",
+                        "FareType": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                        "FareStatus": null,
+                        "OriginalClassOfService": null,
+                        "FareBasisCode": "UHBO"
+                      },
+                      "subFares": [],
+                      "rKey": null
+                    }
+                  ],
+                  "sPNR": false,
+                  "hldbl": false,
+                  "lstTckDt": null,
+                  "jrnySlKey": "SG~ 153~ ~~FROMCITY1~02/10/2019 06:35~TOCITY1~02/10/2019 08:45~~",
+                  "cbn": null,
+                  "cbnCls": null,
+                  "refAir": "OS",
+                  "dep": "FROMCITY1",
+                  "arr": "TOCITY1",
+                  "offId": null,
+                  "credId": "OSOWDHRUV",
+                  "isBuddyResult": false,
+                  "buddyCity": null,
+                  "transVisaMsg": null,
+                  "xxlnAssurance": {
+                    "sa": true,
+                    "cw": null,
+                    "fe": 499,
+                    "ac": "OS499",
+                    "pt": "Get Full refund on cancellation penalties. Buy ZC @ only Mock Rs. 499",
+                    "pp": "Great choice! Your cancellation is now covered by us. You will get 100% mock refund on your cancellation penalty if your plan changes",
+                    "fpp": 499
+                  }
+                }
+              },
+              "frLst": [
+                {
+                  "frTyp": "SIMPLE",
+                  "frTypFrmSrv": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                  "pxTypFrMap": {
+                    "ADULT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-CGST07": 57,
+                            "TAXCOMPONENT-SGST07": 57,
+                            "TAXCOMPONENT-RCS": 100,
+                            "TOT": 2638,
+                            "TAXCOMPONENT-PSF": 244,
+                            "TAX": 508,
+                            "TAXCOMPONENT-TRF": 50
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "U",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "UHBO",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "FROMCITY1",
+                                "prdcls": "HO"
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 0,
+                        "frRuleList": []
+                      }
+                    ]
+                  },
+                  "frInfoMap": {
+                    "ProductClass": "HO",
+                    "FareClassOfService": "U",
+                    "FareType": "0~U~ ~SG~UHBO~1901~~0~19~~X",
+                    "FareStatus": null,
+                    "OriginalClassOfService": null,
+                    "FareBasisCode": "UHBO"
+                  },
+                  "subFares": [],
+                  "rKey": null
+                }
+              ],
+              "jrnyRtLst": [],
+              "combInfo": {
+                "data": {
+                  "TT": 508,
+                  "REFUNDABLE": false,
+                  "TOTAL_DURATION": 130,
+                  "T": 2638,
+                  "IS_PURE": false,
+                  "MAX_STOP": 0,
+                  "MAX_LAYOFF_TIME": 0,
+                  "refferenceAirline": "SG",
+                  "SINGLE_ADULT_FARE": 2638,
+                  "IS_PURE_LCC": true,
+                  "VC": "SG",
+                  "KEY": "FROMCITY1$TOCITY1$DEPTDATETRIP10635$OS-153"
+                }
+              },
+              "srName": "OS",
+              "prmTxt": null,
+              "rvPrmTxt": null,
+              "tVisaMsgTxt": [],
+              "listingPageMsg": null,
+              "currInfo": {
+                "costCurrency": "INR",
+                "sellCurrency": null,
+                "conversionFactor": null
+              },
+              "signature": null
+            }
+          ]
+        },
+        "metaInfo": {
+          "customPageRules": {
+            "genericBanner": null,
+            "hbarRadioLabelDescList": null,
+            "interStitialBanner": null,
+            "isNewInterstitial": null,
+            "isFlexiTabToShow": null,
+            "defaultRadioButton": null,
+            "noOfFlexiRowsToShow": null,
+            "isSecondGroupingPattern": "false",
+            "showMinStopQuickSelectFilter": true,
+            "showMorningArrivalQuickSelectFilter": true,
+            "showEveningDepartureQuickSelectFilter": true,
+            "showRefundableFlightsQuickSelectFilter": true,
+            "showRecommendedFlightsQuickSelectFilter": true,
+            "showNearbyAirportsFlightsQuickSelectFilter": true,
+            "optionToBeShown": null,
+            "questions": [],
+            "buttonTexts": [],
+            "filterLogics": [],
+            "showVisaAssistance": false
+          },
+          "airlineInfoMap": {
+            "MP": {
+              "CRED_ID": "MPDFFLT2"
+            },
+            "SG": {
+              "CRED_ID": "SGFAMILY"
+            },
+            "6E": {
+              "CRED_ID": "6EFAMILY"
+            }
+          },
+          "listMetaData": {
+            "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+              "airlineWiseMinPrice": {
+                "SG": {
+                  "minTotalFare": 9857,
+                  "minStops": 2,
+                  "numFlights": 11
+                },
+                "AI": {
+                  "minTotalFare": 15674,
+                  "minStops": 2,
+                  "numFlights": 2
+                },
+                "9W": {
+                  "minTotalFare": 9857,
+                  "minStops": 2,
+                  "numFlights": 9
+                }
+              },
+              "stopWiseMinPrice": {
+                "2": {
+                  "minTotalFare": 9857,
+                  "minStops": 2,
+                  "numFlights": 11
+                }
+              },
+              "layoverWisePrice": {
+                "LKO": {
+                  "minTotalFare": 9857,
+                  "minStops": 2,
+                  "numFlights": 1
+                },
+                "BOM": {
+                  "minTotalFare": 10991,
+                  "minStops": 2,
+                  "numFlights": 8
+                },
+                "PNQ": {
+                  "minTotalFare": 16524,
+                  "minStops": 2,
+                  "numFlights": 1
+                },
+                "JAI": {
+                  "minTotalFare": 12624,
+                  "minStops": 2,
+                  "numFlights": 1
+                },
+                "DEL": {
+                  "minTotalFare": 9857,
+                  "minStops": 2,
+                  "numFlights": 11
+                }
+              },
+              "nearbyWisePrice": {},
+              "refundableMetaData": {
+                "minTotalFare": 12624,
+                "minStops": 2,
+                "numFlights": 3
+              },
+              "fastestMetaData": {
+                "minTotalFare": 9857,
+                "minStops": 2,
+                "numFlights": 1
+              },
+              "minFare": 9857,
+              "maxFare": 16524,
+              "timeSlotWiseInfo": null,
+              "minDeparture": 1547005500000,
+              "maxDeparture": 1547005500000,
+              "recomRhinoDataMap": null
+            }
+          },
+          "fltrDatSecCodeToNamMap": {
+            "LKO": "Lucknow",
+            "BOM": "Mumbai",
+            "PNQ": "Pune",
+            "JAI": "JTOCITY1ur",
+            "DEL": "New Delhi"
+          },
+          "airlineNameMap": {
+            "46": "New Airline",
+            "SG": "SpiceJet",
+            "MA": "Multiple Airline",
+            "AI": "Air India",
+            "9W": "Jet Airways"
+          }
+        },
+        "err": null
+      },
+      "err": null
+    }
+  },
+  "responseStatus": "COMPLETED",
+  "responseCounter": null,
+  "latMeta": {
+    "fromCache": false,
+    "buddySearch": true,
+    "nearBySearch": false,
+    "fromCacheWithIMPOnly": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightBooking/prePayment",
+       "bodyPatterns":[
+{       "contains" : "PREBOOKBEFOREDOUBLEBLACKMSG"
+}
+]
+
+    },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_booking/prebook/PREBOOKBEFOREDOUBLEBLACKMSG/PREPAYMENT.json"
+  }
+}
+

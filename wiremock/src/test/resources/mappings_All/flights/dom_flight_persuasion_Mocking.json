@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-persuasion/persuasionElements",
+        "bodyPatterns":[{
+        "contains" : "\"tripType\":\"O\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "dom_flight_persuasion_response.json"
+    }
+}

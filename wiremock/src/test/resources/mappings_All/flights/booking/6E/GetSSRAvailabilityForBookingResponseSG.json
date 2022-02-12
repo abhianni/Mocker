@@ -1,0 +1,25 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/BookingManager.svc",
+       "bodyPatterns":[
+{ 	"contains" : "GetSSRAvailabilityForBookingRequest",
+	"contains" : "SG"
+
+}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/booking/SG/GetSSRAvailabilityForBookingResponseSG.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

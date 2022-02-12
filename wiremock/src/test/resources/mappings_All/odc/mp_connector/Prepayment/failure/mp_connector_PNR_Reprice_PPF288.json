@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        
+       "bodyPatterns":[{
+        "contains" : "Ticket_RepricePNRWithBookingClass"},
+		{ "contains" : "589PPF288"
+		}
+		]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Prepayment/failure/reprice_PPF288.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

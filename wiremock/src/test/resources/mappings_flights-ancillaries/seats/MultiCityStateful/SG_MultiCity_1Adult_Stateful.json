@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-ancillary-api/ancillary/stateFul/v2",
+    "bodyPatterns":[
+      {       	"contains": "ancillary_mc_1adult_SG"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights-ancillaries/flights-ancillaries-soa/MultiCityStateful/SG_MultiCity_1adult_Stateful_DEL_BLR_PUN.json"
+  }
+}

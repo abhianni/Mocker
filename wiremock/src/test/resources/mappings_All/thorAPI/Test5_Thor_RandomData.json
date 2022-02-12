@@ -1,0 +1,9 @@
+{
+  "request": {
+   "method": "GET",
+   "urlPattern": "/v2/thor/rest/flight/search/.*RandomData.*"
+  },
+    "response": {
+        "fault": "RANDOM_DATA_THEN_CLOSE"
+    }
+}

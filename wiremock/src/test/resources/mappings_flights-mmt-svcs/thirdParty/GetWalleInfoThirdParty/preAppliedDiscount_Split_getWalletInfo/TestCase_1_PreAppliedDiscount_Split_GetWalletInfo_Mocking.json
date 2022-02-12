@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/mmt_webs_mywallet/mywallet/v2/getaccountdetails",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Accept" : {"matches" : "application/json"},
+		"Authorization" : {"matches" : "Basic QVBJVVNFUjpmNGU5NUBlZjA4"}
+		},
+        "bodyPatterns":[{
+        "contains" : "PREAPPLIED_SPLIT"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/GetWalleInfoThirdParty/preAppliedDiscount_Split_getWalletInfo/TestCase_1_PreAppliedDiscount_Split_GetWalletInfo_Response.json"
+    }
+}

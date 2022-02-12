@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        
+       "bodyPatterns":[{
+        "contains" : "PNR_Retrieve"},
+	{	"contains" : "NFFERR"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/ATC_Search/PNR_retireve_NFFERR.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

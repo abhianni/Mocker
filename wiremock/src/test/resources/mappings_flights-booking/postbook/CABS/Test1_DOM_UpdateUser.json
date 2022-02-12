@@ -1,0 +1,15 @@
+{
+  "request":{
+    "method": "POST",
+    "urlPattern": "/flights-mmt-svcs/v2/update-user.*crId.*c6c11a3e2b783d7eaf73e0ac263ad557d7c5e885.*itId.*c6c11a3e2b783d7eaf73e0ac263ad557d7c5e885",
+    "bodyPatterns":[
+      {       "contains" : "UT6MOJXAK1L"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_booking/cabs/cabconfirm/Test1_DOM_UpdateUser_Response_OW.json"
+  }
+}

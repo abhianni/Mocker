@@ -1,0 +1,116 @@
+{
+	"itineraryId": "e085ec4eb1878a48ff1aea29adf7d0241b4d2a7d",
+	"status": "SUCCESS",
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [
+				{
+					"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+					"from": "BOM",
+					"to": "MAA",
+					"depDate": "2020-01-13"
+				},
+				{
+					"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+					"from": "MAA",
+					"to": "BOM",
+					"depDate": "2020-01-16"
+				}
+			],
+			"cc": "B"
+		},
+		"isDDApld": false,
+		"srvrMtrc": {
+			
+		}
+	},
+	"recom": {
+		"itneraryJrnys": [
+			{
+				"isCstmComb": false,
+				"depDate": "2020-01-13 06:05",
+				"arrDate": "2020-01-13 08:00",
+				"dur": 115,
+				"flightDtlsInfo": [
+					{
+						"flyingDay": 0,
+						"fltLookUpKey": "UK_UK_821_BOM_MAA_2020-01-13 06:05_2020-01-13 08:00",
+						"pnrGroupNum": 0
+					}
+				]
+			},
+			{
+				"isCstmComb": true,
+				"depDate": "2020-01-16 13:45",
+				"arrDate": "2020-01-16 15:40",
+				"dur": 115,
+				"flightDtlsInfo": [
+					{
+						"flyingDay": 0,
+						"fltLookUpKey": "G8_G8_304_MAA_BOM_2020-01-16 13:45_2020-01-16 15:40",
+						"pnrGroupNum": 1
+					}
+				]
+			}
+		]
+	},
+	"alCdeMap": {
+		"G8": {
+			"nm": "Go Air"
+		},
+		"UK": {
+			"nm": "Vistara"
+		}
+	},
+	"ctyCdeMap": {
+		"BOM": {
+			"nm": "Mumbai",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Chhatrapati Shivaji International Airport"
+		},
+		"MAA": {
+			"nm": "Chennai",
+			"cntry": "India",
+			"ctc": "IN",
+			"tmz": "Asia/Kolkata",
+			"airportName": "Chennai International Airport"
+		}
+	},
+	"flightLookUpList": {
+		"G8_G8_304_MAA_BOM_2020-01-16 13:45_2020-01-16 15:40": {
+			"mrkAl": "G8",
+			"oprAl": "G8",
+			"fltNo": "304",
+			"depInfo": {
+				"cityCd": "MAA"
+			},
+			"arrInfo": {
+				"cityCd": "BOM"
+			},
+			"tchStp": [],
+			"depTime": "2020-01-16 13:45",
+			"arrTime": "2020-01-16 15:40",
+			"dur": 115
+		},
+		"UK_UK_821_BOM_MAA_2020-01-13 06:05_2020-01-13 08:00": {
+			"mrkAl": "UK",
+			"oprAl": "UK",
+			"fltNo": "821",
+			"depInfo": {
+				"cityCd": "BOM"
+			},
+			"arrInfo": {
+				"cityCd": "MAA"
+			},
+			"tchStp": [],
+			"depTime": "2020-01-13 06:05",
+			"arrTime": "2020-01-13 08:00",
+			"dur": 115
+		}
+	}
+}

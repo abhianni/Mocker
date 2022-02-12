@@ -1,0 +1,14 @@
+{
+  "request": {
+     "method": "POST",
+    "url": "/flights-grpc/searchstream",
+     "bodyPatterns":[
+      {       "contains" : "flT_TEST_DOM_BrandedFare_SOA"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "flights_search/v5Stream/PreReviewDOMsearchStream.json"
+  }
+}

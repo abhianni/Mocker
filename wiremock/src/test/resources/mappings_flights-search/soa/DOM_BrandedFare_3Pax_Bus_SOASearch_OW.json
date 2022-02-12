@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightSOA-web/search",
+    "bodyPatterns":[
+      {       "contains" : "BrandeFare_3Pax_Business"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "transformers": ["FlightSOAResponseTransformer"],
+    "bodyFileName": "/flights_search/soa/DOM_3Pax_BrandedFare_Business_SOASearch_OW.json"
+
+  }
+}

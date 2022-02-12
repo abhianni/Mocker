@@ -1,0 +1,21 @@
+{
+  "request":{
+    "urlPattern": "/flights-search-go-cache/v1/search",
+    "bodyPatterns":[
+
+{ "contains" : "2021-01-27"
+},
+{ "contains" : "BLR"
+},
+{
+  "contains" : "SearchV5StreamRT"
+},
+{
+  "contains" : "\"responseViewType\": 2"
+}
+]
+  },
+  "response": {
+    "bodyFileName": "/grpc/searchstream/flightsfoundRT.json"
+  }
+}

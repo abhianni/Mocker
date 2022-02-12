@@ -1,0 +1,624 @@
+{
+  "airlineStatusMap": null,
+  "srchRespMap": {
+    "SIMPLE": {
+      "srcRes": {
+        "rcomMap": {
+          "FROMCITY1_TOCITY1_DEPTDATETRIP1": [
+            {
+              "score": null,
+              "flightKey": null,
+              "actualScore": null,
+              "rhinoRank": 0,
+              "groupedOrigRank": null,
+              "recommendedFlight": null,
+              "rhinoRecommendedFlight": false,
+              "fareHash": "8ce59b25eac20ad73fc81ae60060d993a3673a432eb6e110abedb739e98851be",
+              "amenityItineraryKey": null,
+              "nearByFlight": false,
+              "fltUniKey": "FROMCITY1_TOCITY1_DEPTDATETRIP1_I5-314_I5_0",
+              "rKey": "v1~~EP$X$X01H00$null$null$null$null$null$0$0$A,EP$X$X01H00$null$null$null$null$null$0$0$C,EP$X$X01H00$null$null$null$null$null$0$0$I~A-2572.0|2119.0_C-2572.0|2119.0_I-1200.0|1142.0~M$1$1$1$Mobile_UN$0$0~~FROMCITY1_TOCITY1_DEPTDATETRIP1_I5-314_STVVTkky_05:45_DEPTDATETRIP1_07:55_I5_I5_I5_JO~I5_0_0_FROMCITY1-TOCITY1-DEPTDATETRIP1_null",
+              "jrnyMap": {
+                "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+                  "buddyResult": false,
+                  "refKey": "I5",
+                  "lfid": null,
+                  "minFrRl": null,
+                  "fltLst": [
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "3",
+                        "ctCd": "FROMCITY1",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "FROMCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "1",
+                        "ctCd": "TOCITY1",
+                        "airp": "Chhatrapati Shivaji International Airport",
+                        "ctNm": "Mumbai",
+                        "arpCd": "TOCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 19.088686,
+                        "long": 72.867919,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1600388100000,
+                      "arrDt": 1600395900000,
+                      "techStpOvrLst": [],
+                      "totDur": 130,
+                      "segSlKey": "I5~ 314~ ~~FROMCITY1~09/18/2020 05:45~TOCITY1~09/18/2020 07:55~~",
+                      "fareSlKey": "0~X~ ~AK~X01H00~INDM~~0~1~~X",
+                      "mrktArln": "I5",
+                      "oprArln": "I5",
+                      "equipTyp": "320",
+                      "equipCd": "I5Y180",
+                      "equipNm": "Airbus A320 ",
+                      "fltNum": "314",
+                      "carierCode": "I5",
+                      "bagDtls": [],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "Y",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "si": null
+                    }
+                  ],
+                  "aggFltNum": "FROMCITY1$TOCITY1$DEPTDATETRIP10545$I5-314",
+                  "totFr": 5144,
+                  "totBsFr": 4238,
+                  "totTx": 906,
+                  "cur": "INR",
+                  "totDur": 130,
+                  "rfndbl": null,
+                  "fr": [
+                    {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "0~X~ ~AK~X01H00~INDM~~0~1~~X",
+                      "pxTypFrMap": {
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TOT": 2572,
+                                "TAX": 453
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "X",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "X01H00",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "FROMCITY1",
+                                    "prdcls": "EP",
+                                    "si": null
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 0,
+                            "frRuleList": []
+                          }
+                        ],
+                        "CHILD": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TOT": 2572,
+                                "TAX": 453
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "X",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "X01H00",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "FROMCITY1",
+                                    "prdcls": "EP",
+                                    "si": null
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 0,
+                            "frRuleList": []
+                          }
+                        ],
+                        "INFANT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TOT": 1200,
+                                "TAX": 58
+                              }
+                            },
+                            "segPrdctInf": [],
+                            "paxRef": 0,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {
+                        "FareBasisCode": "X01H00",
+                        "FareType": "0~X~ ~AK~X01H00~INDM~~0~1~~X",
+                        "ProductClass": "EP",
+                        "FareClassOfService": "X"
+                      },
+                      "fareServices": {},
+                      "subFares": [],
+                      "rKey": null
+                    }
+                  ],
+                  "sPNR": false,
+                  "hldbl": false,
+                  "lstTckDt": null,
+                  "jrnySlKey": "I5~ 314~ ~~FROMCITY1~09/18/2020 05:45~TOCITY1~09/18/2020 07:55~~",
+                  "cbn": null,
+                  "cbnCls": null,
+                  "refAir": "I5",
+                  "dep": "FROMCITY1",
+                  "arr": "TOCITY1",
+                  "offId": null,
+                  "credId": "I5UNI2",
+                  "isBuddyResult": false,
+                  "buddyCity": null,
+                  "transVisaMsg": null,
+                  "xxlnAssurance": {
+                    "sa": true,
+                    "cw": null,
+                    "fe": 1647,
+                    "ac": "I5549",
+                    "pt": "Get Full refund on cancellation penalties. Buy ZC @ only Rs.549",
+                    "pp": "Great choice! Your cancellation is now covered by us. You will get 100% refund on your cancellation penalty if your plan changes",
+                    "pp": "Great choice! Your cancellation is now covered by us. You will get 100% refund on your cancellation penalty if your plan changes",
+                    "fpp": 549
+                  }
+                }
+              },
+              "frLst": [
+                {
+                  "frTyp": "SIMPLE",
+                  "frTypFrmSrv": "0~X~ ~AK~X01H00~INDM~~0~1~~X",
+                  "pxTypFrMap": {
+                    "ADULT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TOT": 2572,
+                            "TAX": 453
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "X",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "X01H00",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "FROMCITY1",
+                                "prdcls": "EP",
+                                "si": null
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 0,
+                        "frRuleList": []
+                      }
+                    ],
+                    "CHILD": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TOT": 2572,
+                            "TAX": 453
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "X",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "X01H00",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "FROMCITY1",
+                                "prdcls": "EP",
+                                "si": null
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 0,
+                        "frRuleList": []
+                      }
+                    ],
+                    "INFANT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TOT": 1200,
+                            "TAX": 58
+                          }
+                        },
+                        "segPrdctInf": [],
+                        "paxRef": 0,
+                        "frRuleList": []
+                      }
+                    ]
+                  },
+                  "frInfoMap": {
+                    "FareBasisCode": "X01H00",
+                    "FareType": "0~X~ ~AK~X01H00~INDM~~0~1~~X",
+                    "ProductClass": "EP",
+                    "FareClassOfService": "X"
+                  },
+                  "fareServices": {},
+                  "subFares": [],
+                  "rKey": null
+                }
+              ],
+              "jrnyRtLst": [],
+              "combInfo": {
+                "data": {
+                  "TT": 906,
+                  "REFUNDABLE": false,
+                  "TOTAL_DURATION": 130,
+                  "T": 5144,
+                  "IS_PURE": true,
+                  "MAX_STOP": 0,
+                  "MAX_LAYOFF_TIME": 0,
+                  "refferenceAirline": "I5",
+                  "SINGLE_ADULT_FARE": 2572,
+                  "IS_PURE_LCC": true,
+                  "VC": "I5",
+                  "KEY": "FROMCITY1$TOCITY1$DEPTDATETRIP10545$I5-314"
+                }
+              },
+              "srName": "I5",
+              "prmTxt": null,
+              "rvPrmTxt": null,
+              "tVisaMsgTxt": [],
+              "listingPageMsg": null,
+              "currInfo": {
+                "costCurrency": "INR",
+                "sellCurrency": null,
+                "conversionFactor": null
+              },
+              "signature": null
+            }
+          ]
+        },
+        "metaInfo": {
+          "customPageRules": {
+            "genericBanner": null,
+            "hbarRadioLabelDescList": null,
+            "interStitialBanner": null,
+            "isNewInterstitial": null,
+            "isFlexiTabToShow": null,
+            "defaultRadioButton": null,
+            "noOfFlexiRowsToShow": null,
+            "isSecondGroupingPattern": "false",
+            "showMinStopQuickSelectFilter": true,
+            "showMorningArrivalQuickSelectFilter": true,
+            "showEveningDepartureQuickSelectFilter": true,
+            "showRefundableFlightsQuickSelectFilter": true,
+            "showRecommendedFlightsQuickSelectFilter": true,
+            "showNearbyAirportsFlightsQuickSelectFilter": true,
+            "optionToBeShown": null,
+            "questions": [],
+            "buttonTexts": [],
+            "filterLogics": [],
+            "showVisaAssistance": false
+          },
+          "airlineInfoMap": {
+            "G8": {
+              "CRED_ID": "G8UNINS_16DEC"
+            },
+            "MP": {
+              "CRED_ID": "MPDFFLT2",
+              "REVIEW_SERVICE_NAME": null,
+              "ALTERNATE_SERVICE_NAME": null
+            },
+            "SG": {
+              "CRED_ID": "SGMOBILEGI"
+            },
+            "I5": {
+              "CRED_ID": "I5UNI2"
+            },
+            "TP": {
+              "CRED_ID": "TPUNI_DOM"
+            },
+            "6E": {
+              "CRED_ID": "6EUNI_23June"
+            }
+          },
+          "listMetaData": {
+            "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+              "airlineWiseMinPrice": {
+                "G8": {
+                  "minTotalFare": 2660,
+                  "minStops": 0,
+                  "numFlights": 14
+                },
+                "SG": {
+                  "minTotalFare": 2657,
+                  "minStops": 0,
+                  "numFlights": 20
+                },
+                "UK": {
+                  "minTotalFare": 3765,
+                  "minStops": 0,
+                  "numFlights": 55
+                },
+                "AI": {
+                  "minTotalFare": 3597,
+                  "minStops": 0,
+                  "numFlights": 45
+                },
+                "I5": {
+                  "minTotalFare": 2572,
+                  "minStops": 0,
+                  "numFlights": 10
+                },
+                "6E": {
+                  "minTotalFare": 2597,
+                  "minStops": 0,
+                  "numFlights": 18
+                }
+              },
+              "stopWiseMinPrice": {
+                "0": {
+                  "minTotalFare": 2572,
+                  "minStops": 0,
+                  "numFlights": 69
+                },
+                "1": {
+                  "minTotalFare": 3435,
+                  "minStops": 1,
+                  "numFlights": 93
+                }
+              },
+              "layoverWisePrice": {
+                "GOI": {
+                  "minTotalFare": 7347,
+                  "minStops": 1,
+                  "numFlights": 3
+                },
+                "DED": {
+                  "minTotalFare": 12444,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "PAT": {
+                  "minTotalFare": 7274,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "UDR": {
+                  "minTotalFare": 7870,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "IXU": {
+                  "minTotalFare": 5971,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "BHO": {
+                  "minTotalFare": 6190,
+                  "minStops": 1,
+                  "numFlights": 5
+                },
+                "BBI": {
+                  "minTotalFare": 8185,
+                  "minStops": 1,
+                  "numFlights": 2
+                },
+                "BLR": {
+                  "minTotalFare": 4175,
+                  "minStops": 1,
+                  "numFlights": 15
+                },
+                "GOP": {
+                  "minTotalFare": 9510,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "MAA": {
+                  "minTotalFare": 7975,
+                  "minStops": 1,
+                  "numFlights": 9
+                },
+                "LKO": {
+                  "minTotalFare": 4935,
+                  "minStops": 1,
+                  "numFlights": 4
+                },
+                "HYD": {
+                  "minTotalFare": 5001,
+                  "minStops": 1,
+                  "numFlights": 18
+                },
+                "JAI": {
+                  "minTotalFare": 8815,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "CCU": {
+                  "minTotalFare": 5023,
+                  "minStops": 1,
+                  "numFlights": 10
+                },
+                "NAG": {
+                  "minTotalFare": 5350,
+                  "minStops": 1,
+                  "numFlights": 2
+                },
+                "IXC": {
+                  "minTotalFare": 6369,
+                  "minStops": 1,
+                  "numFlights": 5
+                },
+                "AMD": {
+                  "minTotalFare": 3435,
+                  "minStops": 1,
+                  "numFlights": 11
+                },
+                "VNS": {
+                  "minTotalFare": 5791,
+                  "minStops": 1,
+                  "numFlights": 1
+                }
+              },
+              "nearbyWisePrice": {},
+              "refundableMetaData": {
+                "minTotalFare": 2597,
+                "minStops": 0,
+                "numFlights": 111
+              },
+              "fastestMetaData": {
+                "minTotalFare": 2657,
+                "minStops": 0,
+                "numFlights": 1
+              },
+              "minFare": 2572,
+              "maxFare": 17905,
+              "timeSlotWiseInfo": [
+                {
+                  "startMinuteOfDay": 0,
+                  "endMinuteOfDay": 360,
+                  "priceInfo": {
+                    "minTotalFare": 2572,
+                    "minStops": 0,
+                    "numFlights": 13
+                  }
+                },
+                {
+                  "startMinuteOfDay": 360,
+                  "endMinuteOfDay": 720,
+                  "priceInfo": {
+                    "minTotalFare": 2572,
+                    "minStops": 0,
+                    "numFlights": 53
+                  }
+                },
+                {
+                  "startMinuteOfDay": 720,
+                  "endMinuteOfDay": 1080,
+                  "priceInfo": {
+                    "minTotalFare": 2572,
+                    "minStops": 0,
+                    "numFlights": 47
+                  }
+                },
+                {
+                  "startMinuteOfDay": 1080,
+                  "endMinuteOfDay": 1440,
+                  "priceInfo": {
+                    "minTotalFare": 2572,
+                    "minStops": 0,
+                    "numFlights": 49
+                  }
+                }
+              ],
+              "minDeparture": 1600377000000,
+              "maxDeparture": 1600452300000,
+              "recomRhinoDataMap": null
+            }
+          },
+          "fltrDatSecCodeToNamMap": {
+            "GOI": "Goa",
+            "DED": "Dehradun",
+            "PAT": "Patna",
+            "UDR": "Udaipur",
+            "IXU": "Aurangabad",
+            "BHO": "Bhopal",
+            "BBI": "Bhubaneswar",
+            "BLR": "Bengaluru",
+            "GOP": "Gorakhpur",
+            "MAA": "Chennai",
+            "LKO": "Lucknow",
+            "HYD": "Hyderabad",
+            "JAI": "Jaipur",
+            "CCU": "Kolkata",
+            "NAG": "Nagpur",
+            "IXC": "Chandigarh",
+            "AMD": "Ahmedabad",
+            "VNS": "Varanasi"
+          },
+          "airlineNameMap": {
+            "G8": "Go Air",
+            "SG": "Spicejet",
+            "MA": "Multiple Airline",
+            "UK": "Vistara",
+            "AI": "AirIndia",
+            "I5": "AirAsia",
+            "6E": "IndiGo"
+          },
+          "recommendedFlightsCount": null
+        },
+        "err": null
+      },
+      "err": null
+    }
+  },
+  "responseStatus": "COMPLETED",
+  "responseCounter": null,
+  "latMeta": {
+    "fromCache": false,
+    "buddySearch": false,
+    "nearBySearch": false,
+    "fromCacheWithIMPOnly": false
+  }
+}

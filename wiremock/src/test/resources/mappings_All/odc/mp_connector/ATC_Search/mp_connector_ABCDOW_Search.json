@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-mp-odc/date-change-search",
+       "bodyPatterns":[
+{		"contains" : "ABCDOW"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/ATC_Search/mp_connector_search_response_ABCDOW.json",
+"headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

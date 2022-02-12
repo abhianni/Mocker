@@ -1,0 +1,14 @@
+{
+  "request": {
+     "method": "POST",
+    "url": "/flights-grpc/searchstream",
+     "bodyPatterns":[
+      {       "contains" : "flT_TEST_DOM_V5"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "flights_search/v5Stream/WreviewDOMRTsearchStream.json"
+  }
+}

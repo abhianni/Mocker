@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/hotels/clientbackend/user/.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_USER_HTTP_200"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 30000,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+    }
+}

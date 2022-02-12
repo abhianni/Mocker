@@ -1,0 +1,224 @@
+{
+    "bokingDateTime": "1531787857476",
+    "cancelAnyway": false,
+    "displayTexts": {
+        "nonChangebleText": "Non-Changeable",
+        "nonRefundableText": "Fare is Non-Refundable (Only taxes and government fees will be refunded)"
+    },
+    "journeyPartialCancellation": {
+        "DEL-PNQ": "Yes",
+        "PNQ-DEL": "Yes"
+    },
+    "lob": "LOB02510",
+    "lobName": "DOM",
+    "preTicketed": true,
+    "query": "ALL",
+    "reqChannel": "APPLIVE",
+    "requestType": "GRID",
+    "searchId": "15c17540611|1dab|ca27|cd90|16d5dccd",
+    "segments": [
+        {
+            "airlineCode": "SG",
+            "cancellationAssured": "1",
+            "departureDateTime": "1533689400000",
+            "flightNumber": "8913_ 523",
+            "fromCity": "DEL",
+            "intent": "DEL-PNQ",
+            "passengers": [
+                {
+                    "baggageInfo": {
+                        "ADT": {
+                            "allowance": "15",
+                            "unit": "Kgs"
+                        },
+                        "CHD": {
+                            "allowance": "15",
+                            "unit": "Kgs"
+                        },
+                        "INF": {
+                            "allowance": "0",
+                            "unit": "Kgs"
+                        }
+                    },
+                    "baseFare": 2530.0,
+                    "cabinBaggageInfo": {
+                        "ADT": {
+                            "allowance": "7",
+                            "unit": "Kgs"
+                        },
+                        "CHD": {
+                            "allowance": "7",
+                            "unit": "Kgs"
+                        }
+                    },
+                    "convenienceFee": 0.0,
+                    "costAmount": 0.0,
+                    "familyFarePaxCount": 0,
+                    "fbc": "USAVER8913_523",
+                    "inTax": 0.0,
+                    "isTicketDirectlyCancelledWithAirline": false,
+                    "isTicketDirectlyCancelledWithAirlineRefundRecieved": false,
+                    "jn": 0.0,
+                    "partialCancellationAllowed": "Yes",
+                    "paxID": 0,
+                    "paxType": "A",
+                    "productClass": "RS",
+                    "psf": 0.0,
+                    "puf": 0.0,
+                    "rbd": "U",
+                    "svc": 0.0,
+                    "ticketValueValid": true,
+                    "timeWindows": [
+                        {
+                            "baggAllowAdt": 15,
+                            "baggAllowChd": 15,
+                            "baggAllowInft": 0,
+                            "cancellationMarkup": 300.0,
+                            "cancellationMarkupWaiver": 0.0,
+                            "cancellationPenalty": 3000.0,
+                            "convenienceFee": 0.0,
+                            "dateChangeMarkup": 300.0,
+                            "dateChangePenalty": 2250.0,
+                            "fromTimeWindow": 24,
+                            "nonChangeble": 0,
+                            "nonRefundable": 0,
+                            "partialCancellationPenalty": 0.0,
+                            "priorityFlag": 0,
+                            "toTimeWindow": 8760,
+                            "waiver": 3000.0
+                        },
+                        {
+                            "baggAllowAdt": 15,
+                            "baggAllowChd": 15,
+                            "baggAllowInft": 0,
+                            "cancellationMarkup": 300.0,
+                            "cancellationMarkupWaiver": 0.0,
+                            "cancellationPenalty": 3000.0,
+                            "convenienceFee": 0.0,
+                            "dateChangeMarkup": 300.0,
+                            "dateChangePenalty": 2250.0,
+                            "fromTimeWindow": 2,
+                            "nonChangeble": 0,
+                            "nonRefundable": 0,
+                            "partialCancellationPenalty": 0.0,
+                            "priorityFlag": 0,
+                            "toTimeWindow": 24,
+                            "waiver": 0.0
+                        }
+                    ],
+                    "udf": 0.0,
+                    "validatingAirline": "SG",
+                    "wo": 0.0,
+                    "ym": 0.0,
+                    "yq": 234.0,
+                    "yr": 0.0
+                }
+            ],
+            "segmentID": "0",
+            "toCity": "PNQ",
+            "trueIntent": "DEL-PNQ"
+        },
+        {
+            "airlineCode": "I5",
+            "cancellationAssured": "1",
+            "departureDateTime": "1534249800000",
+            "flightNumber": "732",
+            "fromCity": "PNQ",
+            "intent": "DEL-PNQ",
+            "passengers": [
+                {
+                    "baggageInfo": {
+                        "ADT": {
+                            "allowance": "15",
+                            "unit": "Kgs"
+                        },
+                        "CHD": {
+                            "allowance": "15",
+                            "unit": "Kgs"
+                        },
+                        "INF": {
+                            "allowance": "0",
+                            "unit": "Kgs"
+                        }
+                    },
+                    "baseFare": 3493.0,
+                    "cabinBaggageInfo": {
+                        "ADT": {
+                            "allowance": "7",
+                            "unit": "Kgs"
+                        },
+                        "CHD": {
+                            "allowance": "7",
+                            "unit": "Kgs"
+                        }
+                    },
+                    "convenienceFee": 0.0,
+                    "costAmount": 0.0,
+                    "familyFarePaxCount": 0,
+                    "fbc": "Z01H00D732",
+                    "inTax": 0.0,
+                    "isTicketDirectlyCancelledWithAirline": false,
+                    "isTicketDirectlyCancelledWithAirlineRefundRecieved": false,
+                    "jn": 0.0,
+                    "partialCancellationAllowed": "Yes",
+                    "paxID": 0,
+                    "paxType": "A",
+                    "productClass": "EC",
+                    "psf": 0.0,
+                    "puf": 0.0,
+                    "rbd": "Z",
+                    "svc": 0.0,
+                    "ticketValueValid": true,
+                    "timeWindows": [
+                        {
+                            "baggAllowAdt": 15,
+                            "baggAllowChd": 15,
+                            "baggAllowInft": 0,
+                            "cancellationMarkup": 300.0,
+                            "cancellationMarkupWaiver": 0.0,
+                            "cancellationPenalty": 2900.0,
+                            "convenienceFee": 0.0,
+                            "dateChangeMarkup": 300.0,
+                            "dateChangePenalty": 2900.0,
+                            "fromTimeWindow": 24,
+                            "nonChangeble": 0,
+                            "nonRefundable": 0,
+                            "partialCancellationPenalty": 0.0,
+                            "priorityFlag": 0,
+                            "toTimeWindow": 8760,
+                            "waiver": 2900.0
+                        },
+                        {
+                            "baggAllowAdt": 15,
+                            "baggAllowChd": 15,
+                            "baggAllowInft": 0,
+                            "cancellationMarkup": 300.0,
+                            "cancellationMarkupWaiver": 0.0,
+                            "cancellationPenalty": 2900.0,
+                            "convenienceFee": 0.0,
+                            "dateChangeMarkup": 300.0,
+                            "dateChangePenalty": 2900.0,
+                            "fromTimeWindow": 4,
+                            "nonChangeble": 0,
+                            "nonRefundable": 0,
+                            "partialCancellationPenalty": 0.0,
+                            "priorityFlag": 0,
+                            "toTimeWindow": 24,
+                            "waiver": 0.0
+                        }
+                    ],
+                    "udf": 0.0,
+                    "validatingAirline": "I5",
+                    "wo": 0.0,
+                    "ym": 0.0,
+                    "yq": 757.0,
+                    "yr": 0.0
+                }
+            ],
+            "segmentID": "1",
+            "toCity": "DEL",
+            "trueIntent": "PNQ-DEL"
+        }
+    ]
+}
+

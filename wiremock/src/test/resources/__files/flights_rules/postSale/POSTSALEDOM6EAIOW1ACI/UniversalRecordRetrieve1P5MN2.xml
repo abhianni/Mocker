@@ -1,0 +1,711 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<universal:UniversalRecordRetrieveRsp TraceId="TO8ctArKQkS" TransactionId="A09B2C2A0A074263702B84B95B7DAF7E" ResponseTime="565" xmlns:universal="http://www.travelport.com/schema/universal_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:passive="http://www.travelport.com/schema/passive_v48_0">
+			<common_v48_0:ResponseMessage Code="1512" Type="Warning">Unable to process the request.</common_v48_0:ResponseMessage>
+			<universal:UniversalRecord LocatorCode="8VIOLO" Version="20" Status="Active">
+				<common_v48_0:BookingTraveler Key="ebqmvRpYlDKAWYCaBBAAAA==" TravelerType="ADT" Gender="M">
+					<common_v48_0:BookingTravelerName Prefix="MR" First="Dr Ankit" Last="Dubey"/>
+					<common_v48_0:PhoneNumber Key="ebqmvRpYlDKAXYCaBBAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9882244568">
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="ebqmvRpYlDKAaYCaBBAAAA==" EmailID="doctorankit79@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:Email>
+					<common_v48_0:SSR Key="hvDXvRBAAA/Bt6TvCBAAAA==" SegmentRef="WZumvRzYlDKAHNv3ABAAAA==" Status="KK" Type="INFT" FreeText="DUBEY/RITANYAMS 24DEC19" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+					<common_v48_0:SSR Key="8REXvRBAAA/BWLJzCBAAAA==" SegmentRef="WZumvRzYlDKAHNv3ABAAAA==" Status="HK" Type="TKNE" FreeText="0983761745687C1" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+					<common_v48_0:AirSeatAssignment Key="l1CkvRiYlDKAvYDpBBAAAA==" Status="HK" Seat="006D" SegmentRef="WZumvRzYlDKAHNv3ABAAAA==" FlightDetailsRef="L5DrURYYlDKAf9vzOEAAAA=="/>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:BookingTraveler Key="ebqmvRpYlDKAbYCaBBAAAA==" TravelerType="INF" Gender="F">
+					<common_v48_0:BookingTravelerName Prefix="Ms" First="Ritanya" Last="Dubey"/>
+					<common_v48_0:PhoneNumber Key="ebqmvRpYlDKAcYCaBBAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9882244568">
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="ebqmvRpYlDKAdYCaBBAAAA==" EmailID="doctorankit79@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:Email>
+					<common_v48_0:SSR Key="8REXvRBAAA/BXLJzCBAAAA==" SegmentRef="WZumvRzYlDKAHNv3ABAAAA==" Status="HK" Type="TKNE" FreeText="0983761745688C1" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+					<common_v48_0:NameRemark Key="ebqmvRpYlDKAeYCaBBAAAA==">
+						<common_v48_0:RemarkData>24DEC19</common_v48_0:RemarkData>
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:NameRemark>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:BookingTraveler Key="ebqmvRpYlDKAfYCaBBAAAA==" TravelerType="ADT" Gender="F">
+					<common_v48_0:BookingTravelerName Prefix="Ms" First="Dr Shail" Last="Dubey"/>
+					<common_v48_0:PhoneNumber Key="ebqmvRpYlDKAgYCaBBAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9882244568">
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="ebqmvRpYlDKAjYCaBBAAAA==" EmailID="doctorankit79@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:Email>
+					<common_v48_0:SSR Key="8REXvRBAAA/BYLJzCBAAAA==" SegmentRef="WZumvRzYlDKAHNv3ABAAAA==" Status="HK" Type="TKNE" FreeText="0983761745689C1" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+					<common_v48_0:AirSeatAssignment Key="l1CkvRiYlDKAwYDpBBAAAA==" Status="HK" Seat="006F" SegmentRef="WZumvRzYlDKAHNv3ABAAAA==" FlightDetailsRef="L5DrURYYlDKAf9vzOEAAAA=="/>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:BookingTraveler Key="ebqmvRpYlDKAkYCaBBAAAA==" TravelerType="CNN" Age="8" Gender="F">
+					<common_v48_0:BookingTravelerName Prefix="Ms" First="Anwita" Last="Dubey"/>
+					<common_v48_0:PhoneNumber Key="ebqmvRpYlDKAlYCaBBAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9882244568">
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="ebqmvRpYlDKAoYCaBBAAAA==" EmailID="doctorankit79@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:Email>
+					<common_v48_0:SSR Key="8REXvRBAAA/BZLJzCBAAAA==" SegmentRef="WZumvRzYlDKAHNv3ABAAAA==" Status="HK" Type="TKNE" FreeText="0983761745690C1" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+					<common_v48_0:NameRemark Key="ebqmvRpYlDKApYCaBBAAAA==">
+						<common_v48_0:RemarkData>P-C8</common_v48_0:RemarkData>
+						<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					</common_v48_0:NameRemark>
+					<common_v48_0:AirSeatAssignment Key="l1CkvRiYlDKAxYDpBBAAAA==" Status="HK" Seat="006E" SegmentRef="WZumvRzYlDKAHNv3ABAAAA==" FlightDetailsRef="L5DrURYYlDKAf9vzOEAAAA=="/>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:OSI Key="mZIXvRBAAA/Bn6hPDBAAAA==" Carrier="YY" Text="CTCM 9882244568" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+				<common_v48_0:ActionStatus Key="GgYdvRjB0BKAoB8jCBAAAA==" Type="ACTIVE" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==" ProviderCode="1G">
+					<common_v48_0:Remark>BOM 10SEP1658Z WS AG</common_v48_0:Remark>
+				</common_v48_0:ActionStatus>
+				<universal:ProviderReservationInfo Key="WZumvRzYlDKAE9v3ABAAAA==" ProviderCode="1G" LocatorCode="1P5MN2" CreateDate="2020-09-10T16:57:15.933+00:00" ModifiedDate="2020-09-18T09:29:19.341+00:00" HostCreateDate="2020-09-10" OwningPCC="3G5Y"/>
+				<air:AirReservation LocatorCode="8VIOLP" CreateDate="2020-09-10T16:57:16.188+00:00" ModifiedDate="2020-09-18T09:45:58.445+00:00">
+					<common_v48_0:SupplierLocator SupplierCode="AI" SupplierLocatorCode="HBMJQ" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==" CreateDateTime="2020-09-10T16:58:00.000+00:00"/>
+					<air:DocumentInfo>
+						<air:TicketInfo Number="0983761745687" TicketIssueDate="2020-09-10T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="ZWP7GWS" CountryCode="IN" Status="N" BookingTravelerRef="ebqmvRpYlDKAWYCaBBAAAA==" AirPricingInfoRef="S8xRvRBAAA/B1tSnDBAAAA==">
+							<common_v48_0:Name Prefix="MR" First="Dr Ankit" Last="Dubey"/>
+						</air:TicketInfo>
+						<air:TicketInfo Number="0983761745688" TicketIssueDate="2020-09-10T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="ZWP7GWS" CountryCode="IN" Status="N" BookingTravelerRef="ebqmvRpYlDKAbYCaBBAAAA==" AirPricingInfoRef="S8xRvRBAAA/B3tSnDBAAAA==">
+							<common_v48_0:Name Prefix="Ms" First="Ritanya" Last="Dubey"/>
+						</air:TicketInfo>
+						<air:TicketInfo Number="0983761745689" TicketIssueDate="2020-09-10T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="ZWP7GWS" CountryCode="IN" Status="N" BookingTravelerRef="ebqmvRpYlDKAfYCaBBAAAA==" AirPricingInfoRef="S8xRvRBAAA/B1tSnDBAAAA==">
+							<common_v48_0:Name Prefix="Ms" First="Dr Shail" Last="Dubey"/>
+						</air:TicketInfo>
+						<air:TicketInfo Number="0983761745690" TicketIssueDate="2020-09-10T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="ZWP7GWS" CountryCode="IN" Status="N" BookingTravelerRef="ebqmvRpYlDKAkYCaBBAAAA==" AirPricingInfoRef="S8xRvRBAAA/BwtSnDBAAAA==">
+							<common_v48_0:Name Prefix="Ms" First="Anwita" Last="Dubey"/>
+						</air:TicketInfo>
+					</air:DocumentInfo>
+					<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAWYCaBBAAAA=="/>
+					<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAbYCaBBAAAA=="/>
+					<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAfYCaBBAAAA=="/>
+					<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAkYCaBBAAAA=="/>
+					<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+					<air:AirSegment Key="WZumvRzYlDKAHNv3ABAAAA==" Group="0" Carrier="AI" CabinClass="Economy" FlightNumber="403" ProviderCode="1G" Origin="DEL" Destination="RAJ" DepartureTime="2020-09-22T14:00:00.000+05:30" ArrivalTime="2020-09-22T15:50:00.000+05:30" TravelTime="95" ClassOfService="S" ETicketability="Yes" Equipment="319" Status="TK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false">
+						<air:FlightDetails Key="L5DrURYYlDKAf9vzOEAAAA==" Origin="DEL" Destination="RAJ" DepartureTime="2020-09-22T14:00:00.000+05:30" ArrivalTime="2020-09-22T15:50:00.000+05:30" FlightTime="110" TravelTime="110" Equipment="319" OriginTerminal="3" AutomatedCheckin="false"/>
+						<common_v48_0:SellMessage>DEPARTS DEL TERMINAL 3</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>*DEPARTURE DEL TERMINAL 3 / ARRIVAL RAJ TERMINAL*</common_v48_0:SellMessage>
+					</air:AirSegment>
+					<air:AirPricingInfo Key="S8xRvRBAAA/BwtSnDBAAAA==" TotalPrice="INR3430" BasePrice="INR2830" ApproximateTotalPrice="INR3430" ApproximateBasePrice="INR2830" Taxes="INR600" TrueLastDateToTicket="2020-09-22T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" FareCalculationInd="G">
+						<air:FareInfo Key="LkfdvRhB0BKAFRDuBBAAAA==" FareBasis="SIP" PassengerTypeCode="CNN" Origin="DEL" Destination="RAJ" EffectiveDate="2020-09-10T00:00:00.000+05:30" NotValidBefore="2020-09-22" NotValidAfter="2020-09-22" PseudoCityCode="WP7">
+							<common_v48_0:Endorsement Value="NON ENDORSABLE/ CHANGE/"/>
+							<common_v48_0:Endorsement Value="CANCELLATION/NO-SHOW FEE"/>
+							<common_v48_0:Endorsement Value="APPLY PER SECTOR"/>
+							<air:BaggageAllowance>
+								<air:MaxWeight Value="25" Unit="Kilograms"/>
+							</air:BaggageAllowance>
+							<air:Brand Key="LkfdvRhB0BKAFRDuBBAAAA==" BrandID="361790" Name="Economy Saver" Carrier="AI" BrandTier="0001">
+								<air:Title Type="External" LanguageCode="EN">Economy Saver</air:Title>
+								<air:Title Type="Short" LanguageCode="EN">EcoSaver</air:Title>
+								<air:Text Type="MarketingConsumer" LanguageCode="EN">Included in your ECONOMY SAVER fare are:
+
+									•  Check in 25kg baggage allowance.
+									•  Carry on one bag max 8kg.
+									•  Choice of continental or Indian cuisine non veg or veg.
+									•  Complimentary liquors and wine.
+									•  Spacious seats with a pitch of 33 inches.
+									•  Rebooking against a fee until 24hrs prior departure.
+									•  Refunds against a fee until 24hrs prior departure.
+									•  Earn miles when you fly.
+
+									Note: Refer to fare rules for specific booking terms and conditions.
+									• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+								<air:Text Type="MarketingAgent" LanguageCode="EN">Included in your ECONOMY SAVER fare are:
+
+									•  Check in 25kg baggage allowance.
+									•  Carry on one bag max 8kg.
+									•  Choice of continental or Indian cuisine non veg or veg.
+									•  Complimentary liquors and wine.
+									•  Spacious seats with a pitch of 33 inches.
+									•  Rebooking against a fee until 24hrs prior departure.
+									•  Refunds against a fee until 24hrs prior departure.
+									•  Earn miles when you fly.
+
+									Note: Refer to fare rules for specific booking terms and conditions.
+									• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+								<air:Text Type="Strapline" LanguageCode="EN">For our budget minded travellers</air:Text>
+								<air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/airindia/AI_general_large_42653.jpg</air:ImageLocation>
+								<air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/airindia/AI_general_medium_2171.jpg</air:ImageLocation>
+								<air:OptionalServices>
+									<air:OptionalService Type="Baggage" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.401+00:00" Key="S8xRvRBAAA/BiAVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Domestic Checked Baggage</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">DOM Bag</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Baggage Allowance Domestic Flights
+
+											First Class (F,A,O) 40kgs
+											Business Class (C,D,J,Z,I) 35kgs
+											Economy Class (Y, B, M, H, K, Q, V, W, G, L, U, T, S, X, E) 25kgs</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Baggage Allowance Domestic Flights
+
+											First Class (F,A,O) 40kgs
+											Business Class (C,D,J,Z,I) 35kgs
+											Economy Class (Y, B, M, H, K, Q, V, W, G, L, U, T, S, X, E) 25kgs</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Domestic Checked Baggage</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Y,X,KG,25,</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="Baggage" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.401+00:00" Key="S8xRvRBAAA/BjAVnDBAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Carry on baggage</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">One carry on bag max 8kg permitted 55 cms (22 inches) x 40 cms (16 inches) x 20 cms (8 inches).
+
+											Children are entitled to the same cabin baggage allowance as adults.
+
+											In addition to one piece of cabin baggage or package, you may also be permitted to carry one following personal item, subject to Security Regulations:
+
+											• A Ladys hand bag.
+											• An overcoat or wrap.
+											• A rug or a blanket
+											• A camera or binoculars
+											• Reasonable amount of reading material for the flight.
+											• Infants feed for consumption during the flight and infants carrying basket, feeding bottle, if an infant is carried.
+											• A Collapsible wheelchair or pair of crutches or braces for passengers use, if dependent on these.
+											• A Walking stick.
+											• An umbrella (Folding type)
+											• Medicines required during Flight like Asthma inhaler etc.
+											• A Laptop.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">One carry on bag max 8kg permitted 55 cms (22 inches) x 40 cms (16 inches) x 20 cms (8 inches).
+
+											Children are entitled to the same cabin baggage allowance as adults.
+
+											In addition to one piece of cabin baggage or package, you may also be permitted to carry one following personal item, subject to Security Regulations:
+
+											• A Ladys hand bag.
+											• An overcoat or wrap.
+											• A rug or a blanket
+											• A camera or binoculars
+											• Reasonable amount of reading material for the flight.
+											• Infants feed for consumption during the flight and infants carrying basket, feeding bottle, if an infant is carried.
+											• A Collapsible wheelchair or pair of crutches or braces for passengers use, if dependent on these.
+											• A Walking stick.
+											• An umbrella (Folding type)
+											• Medicines required during Flight like Asthma inhaler etc.
+											• A Laptop.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Carry on baggage</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Y,1,8,CY</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="PreReservedSeatAssignment" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.401+00:00" Key="S8xRvRBAAA/BpAVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Advance seat reservation</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Pre book your preferred seat</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Pre reserved seat assignment.
+											Your passenger can check-in through AIR INDIA website  www.airindia.in and make selection of your seat on- line and print boarding pass.
+
+											Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Pre reserved seat assignment
+											You can check-in through AIR INDIA website  www.airindia.in and make selection of your seat on- line and print boarding pass.
+
+											Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Advance seat reservation</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Pre Reserv</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="MealOrBeverage" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.401+00:00" Key="S8xRvRBAAA/BqAVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Inflight Meals</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Food at Maharajah now at your table</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">In Business or Economy Class passengers can enjoy a selection of meals with a choice of continental or Indian cuisine.
+
+											These are accompanied by complimentary liquors, wines or soft drinks.
+
+											In First Class passengers are treated to stimulating cocktails followed by a fine selection of the most delectable entrees.
+
+											Gourmet food in First Class is served on specially selected Noritake fine bone china.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">In Business or Economy Class passengers can enjoy a selection of meals with a choice of continental or Indian cuisine.
+
+											These are accompanied by complimentary liquors, wines or soft drinks.
+
+											In First Class passengers are treated to stimulating cocktails followed by a fine selection of the most delectable entrees.
+
+											Gourmet food in First Class is served on specially selected Noritake fine bone china.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Inflight Meals</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="FrequentFlyer" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.401+00:00" Key="S8xRvRBAAA/BsAVnDBAAAA==" SecondaryType="Mileage Accrual" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Miles accrual</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg"/>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Getting more with each flight</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Every time you fly Air India, you accrue miles based on sector and the booking class. The miles you earn on domestic sector and on international sectors.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Every time you fly Air India, you accrue miles based on sector and the booking class. The miles you earn on domestic sector and on international sectors.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Miles accrual</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Mileage</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="Upgrades" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.401+00:00" Key="S8xRvRBAAA/BvAVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Mileage upgrade</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg"/>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Use your miles to upgrade!</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Use your miles to upgrade to a higher cabin.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Use your miles to upgrade to a higher cabin.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Mileage upgrade</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Mileage up</air:Title>
+									</air:OptionalService>
+								</air:OptionalServices>
+							</air:Brand>
+						</air:FareInfo>
+						<air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="LkfdvRhB0BKAFRDuBBAAAA==" SegmentRef="WZumvRzYlDKAHNv3ABAAAA=="/>
+						<air:TaxInfo Category="K3" Amount="INR150" Key="S8xRvRBAAA/BHCVnDBAAAA=="/>
+						<air:TaxInfo Category="P2" Amount="INR189" Key="S8xRvRBAAA/BICVnDBAAAA=="/>
+						<air:TaxInfo Category="WO" Amount="INR91" Key="S8xRvRBAAA/BJCVnDBAAAA=="/>
+						<air:TaxInfo Category="YR" Amount="INR170" Key="S8xRvRBAAA/BKCVnDBAAAA=="/>
+						<air:FareCalc>DEL AI RAJ 2830SIP INR2830END</air:FareCalc>
+						<air:PassengerType Code="CNN" BookingTravelerRef="ebqmvRpYlDKAkYCaBBAAAA==">
+							<air:FareGuaranteeInfo GuaranteeType="Invalid"/>
+						</air:PassengerType>
+						<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAkYCaBBAAAA=="/>
+						<air:TicketingModifiersRef Key="S8xRvRBAAA/BdCVnDBAAAA=="/>
+					</air:AirPricingInfo>
+					<air:AirPricingInfo Key="S8xRvRBAAA/B1tSnDBAAAA==" TotalPrice="INR3430" BasePrice="INR2830" ApproximateTotalPrice="INR3430" ApproximateBasePrice="INR2830" Taxes="INR600" TrueLastDateToTicket="2020-09-22T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" FareCalculationInd="G">
+						<air:FareInfo Key="LkfdvRhB0BKATQDuBBAAAA==" FareBasis="SIP" PassengerTypeCode="ADT" Origin="DEL" Destination="RAJ" EffectiveDate="2020-09-10T00:00:00.000+05:30" NotValidBefore="2020-09-22" NotValidAfter="2020-09-22" PseudoCityCode="WP7">
+							<common_v48_0:Endorsement Value="NON ENDORSABLE/ CHANGE/"/>
+							<common_v48_0:Endorsement Value="CANCELLATION/NO-SHOW FEE"/>
+							<common_v48_0:Endorsement Value="APPLY PER SECTOR"/>
+							<air:BaggageAllowance>
+								<air:MaxWeight Value="25" Unit="Kilograms"/>
+							</air:BaggageAllowance>
+							<air:Brand Key="LkfdvRhB0BKATQDuBBAAAA==" BrandID="361790" Name="Economy Saver" Carrier="AI" BrandTier="0001">
+								<air:Title Type="External" LanguageCode="EN">Economy Saver</air:Title>
+								<air:Title Type="Short" LanguageCode="EN">EcoSaver</air:Title>
+								<air:Text Type="MarketingConsumer" LanguageCode="EN">Included in your ECONOMY SAVER fare are:
+
+									•  Check in 25kg baggage allowance.
+									•  Carry on one bag max 8kg.
+									•  Choice of continental or Indian cuisine non veg or veg.
+									•  Complimentary liquors and wine.
+									•  Spacious seats with a pitch of 33 inches.
+									•  Rebooking against a fee until 24hrs prior departure.
+									•  Refunds against a fee until 24hrs prior departure.
+									•  Earn miles when you fly.
+
+									Note: Refer to fare rules for specific booking terms and conditions.
+									• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+								<air:Text Type="MarketingAgent" LanguageCode="EN">Included in your ECONOMY SAVER fare are:
+
+									•  Check in 25kg baggage allowance.
+									•  Carry on one bag max 8kg.
+									•  Choice of continental or Indian cuisine non veg or veg.
+									•  Complimentary liquors and wine.
+									•  Spacious seats with a pitch of 33 inches.
+									•  Rebooking against a fee until 24hrs prior departure.
+									•  Refunds against a fee until 24hrs prior departure.
+									•  Earn miles when you fly.
+
+									Note: Refer to fare rules for specific booking terms and conditions.
+									• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+								<air:Text Type="Strapline" LanguageCode="EN">For our budget minded travellers</air:Text>
+								<air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/airindia/AI_general_large_42653.jpg</air:ImageLocation>
+								<air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/airindia/AI_general_medium_2171.jpg</air:ImageLocation>
+								<air:OptionalServices>
+									<air:OptionalService Type="Baggage" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.445+00:00" Key="S8xRvRBAAA/B2AVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Domestic Checked Baggage</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">DOM Bag</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Baggage Allowance Domestic Flights
+
+											First Class (F,A,O) 40kgs
+											Business Class (C,D,J,Z,I) 35kgs
+											Economy Class (Y, B, M, H, K, Q, V, W, G, L, U, T, S, X, E) 25kgs</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Baggage Allowance Domestic Flights
+
+											First Class (F,A,O) 40kgs
+											Business Class (C,D,J,Z,I) 35kgs
+											Economy Class (Y, B, M, H, K, Q, V, W, G, L, U, T, S, X, E) 25kgs</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Domestic Checked Baggage</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Y,X,KG,25,</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="Baggage" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.445+00:00" Key="S8xRvRBAAA/B3AVnDBAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Carry on baggage</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">One carry on bag max 8kg permitted 55 cms (22 inches) x 40 cms (16 inches) x 20 cms (8 inches).
+
+											Children are entitled to the same cabin baggage allowance as adults.
+
+											In addition to one piece of cabin baggage or package, you may also be permitted to carry one following personal item, subject to Security Regulations:
+
+											• A Ladys hand bag.
+											• An overcoat or wrap.
+											• A rug or a blanket
+											• A camera or binoculars
+											• Reasonable amount of reading material for the flight.
+											• Infants feed for consumption during the flight and infants carrying basket, feeding bottle, if an infant is carried.
+											• A Collapsible wheelchair or pair of crutches or braces for passengers use, if dependent on these.
+											• A Walking stick.
+											• An umbrella (Folding type)
+											• Medicines required during Flight like Asthma inhaler etc.
+											• A Laptop.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">One carry on bag max 8kg permitted 55 cms (22 inches) x 40 cms (16 inches) x 20 cms (8 inches).
+
+											Children are entitled to the same cabin baggage allowance as adults.
+
+											In addition to one piece of cabin baggage or package, you may also be permitted to carry one following personal item, subject to Security Regulations:
+
+											• A Ladys hand bag.
+											• An overcoat or wrap.
+											• A rug or a blanket
+											• A camera or binoculars
+											• Reasonable amount of reading material for the flight.
+											• Infants feed for consumption during the flight and infants carrying basket, feeding bottle, if an infant is carried.
+											• A Collapsible wheelchair or pair of crutches or braces for passengers use, if dependent on these.
+											• A Walking stick.
+											• An umbrella (Folding type)
+											• Medicines required during Flight like Asthma inhaler etc.
+											• A Laptop.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Carry on baggage</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Y,1,8,CY</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="PreReservedSeatAssignment" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.445+00:00" Key="S8xRvRBAAA/B9AVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Advance seat reservation</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Pre book your preferred seat</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Pre reserved seat assignment.
+											Your passenger can check-in through AIR INDIA website  www.airindia.in and make selection of your seat on- line and print boarding pass.
+
+											Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Pre reserved seat assignment
+											You can check-in through AIR INDIA website  www.airindia.in and make selection of your seat on- line and print boarding pass.
+
+											Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Advance seat reservation</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Pre Reserv</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="MealOrBeverage" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.445+00:00" Key="S8xRvRBAAA/B+AVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Inflight Meals</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Food at Maharajah now at your table</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">In Business or Economy Class passengers can enjoy a selection of meals with a choice of continental or Indian cuisine.
+
+											These are accompanied by complimentary liquors, wines or soft drinks.
+
+											In First Class passengers are treated to stimulating cocktails followed by a fine selection of the most delectable entrees.
+
+											Gourmet food in First Class is served on specially selected Noritake fine bone china.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">In Business or Economy Class passengers can enjoy a selection of meals with a choice of continental or Indian cuisine.
+
+											These are accompanied by complimentary liquors, wines or soft drinks.
+
+											In First Class passengers are treated to stimulating cocktails followed by a fine selection of the most delectable entrees.
+
+											Gourmet food in First Class is served on specially selected Noritake fine bone china.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Inflight Meals</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="FrequentFlyer" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.445+00:00" Key="S8xRvRBAAA/BABVnDBAAAA==" SecondaryType="Mileage Accrual" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Miles accrual</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg"/>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Getting more with each flight</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Every time you fly Air India, you accrue miles based on sector and the booking class. The miles you earn on domestic sector and on international sectors.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Every time you fly Air India, you accrue miles based on sector and the booking class. The miles you earn on domestic sector and on international sectors.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Miles accrual</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Mileage</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="Upgrades" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.445+00:00" Key="S8xRvRBAAA/BDBVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Mileage upgrade</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg"/>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Use your miles to upgrade!</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Use your miles to upgrade to a higher cabin.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Use your miles to upgrade to a higher cabin.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Mileage upgrade</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Mileage up</air:Title>
+									</air:OptionalService>
+								</air:OptionalServices>
+							</air:Brand>
+						</air:FareInfo>
+						<air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="LkfdvRhB0BKATQDuBBAAAA==" SegmentRef="WZumvRzYlDKAHNv3ABAAAA=="/>
+						<air:TaxInfo Category="K3" Amount="INR150" Key="S8xRvRBAAA/BPCVnDBAAAA=="/>
+						<air:TaxInfo Category="P2" Amount="INR189" Key="S8xRvRBAAA/BQCVnDBAAAA=="/>
+						<air:TaxInfo Category="WO" Amount="INR91" Key="S8xRvRBAAA/BRCVnDBAAAA=="/>
+						<air:TaxInfo Category="YR" Amount="INR170" Key="S8xRvRBAAA/BSCVnDBAAAA=="/>
+						<air:FareCalc>DEL AI RAJ 2830SIP INR2830END</air:FareCalc>
+						<air:PassengerType Code="ADT" BookingTravelerRef="ebqmvRpYlDKAWYCaBBAAAA==">
+							<air:FareGuaranteeInfo GuaranteeType="Invalid"/>
+						</air:PassengerType>
+						<air:PassengerType Code="ADT" BookingTravelerRef="ebqmvRpYlDKAfYCaBBAAAA==">
+							<air:FareGuaranteeInfo GuaranteeType="Invalid"/>
+						</air:PassengerType>
+						<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAWYCaBBAAAA=="/>
+						<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAfYCaBBAAAA=="/>
+						<air:TicketingModifiersRef Key="S8xRvRBAAA/BdCVnDBAAAA=="/>
+					</air:AirPricingInfo>
+					<air:AirPricingInfo Key="S8xRvRBAAA/B3tSnDBAAAA==" TotalPrice="INR1491" BasePrice="INR1250" ApproximateTotalPrice="INR1491" ApproximateBasePrice="INR1250" Taxes="INR241" TrueLastDateToTicket="2020-09-22T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" FareCalculationInd="G">
+						<air:FareInfo Key="S8xRvRBAAA/BECVnDBAAAA==" FareBasis="SIPIN" PassengerTypeCode="INF" Origin="DEL" Destination="RAJ" EffectiveDate="2020-09-10T00:00:00.000+05:30" NotValidBefore="2020-09-22" NotValidAfter="2020-09-22" PseudoCityCode="WP7">
+							<common_v48_0:Endorsement Value="NON ENDORSABLE/ CHANGE/"/>
+							<common_v48_0:Endorsement Value="CANCELLATION/NO-SHOW FEE"/>
+							<common_v48_0:Endorsement Value="APPLY PER SECTOR"/>
+							<air:BaggageAllowance>
+								<air:MaxWeight Value="10" Unit="Kilograms"/>
+							</air:BaggageAllowance>
+							<air:Brand Key="S8xRvRBAAA/BECVnDBAAAA==" BrandID="361790" Name="Economy Saver" Carrier="AI" BrandTier="0001">
+								<air:Title Type="External" LanguageCode="EN">Economy Saver</air:Title>
+								<air:Title Type="Short" LanguageCode="EN">EcoSaver</air:Title>
+								<air:Text Type="MarketingConsumer" LanguageCode="EN">Included in your ECONOMY SAVER fare are:
+
+									•  Check in 25kg baggage allowance.
+									•  Carry on one bag max 8kg.
+									•  Choice of continental or Indian cuisine non veg or veg.
+									•  Complimentary liquors and wine.
+									•  Spacious seats with a pitch of 33 inches.
+									•  Rebooking against a fee until 24hrs prior departure.
+									•  Refunds against a fee until 24hrs prior departure.
+									•  Earn miles when you fly.
+
+									Note: Refer to fare rules for specific booking terms and conditions.
+									• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+								<air:Text Type="MarketingAgent" LanguageCode="EN">Included in your ECONOMY SAVER fare are:
+
+									•  Check in 25kg baggage allowance.
+									•  Carry on one bag max 8kg.
+									•  Choice of continental or Indian cuisine non veg or veg.
+									•  Complimentary liquors and wine.
+									•  Spacious seats with a pitch of 33 inches.
+									•  Rebooking against a fee until 24hrs prior departure.
+									•  Refunds against a fee until 24hrs prior departure.
+									•  Earn miles when you fly.
+
+									Note: Refer to fare rules for specific booking terms and conditions.
+									• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+								<air:Text Type="Strapline" LanguageCode="EN">For our budget minded travellers</air:Text>
+								<air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/airindia/AI_general_large_42653.jpg</air:ImageLocation>
+								<air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/airindia/AI_general_medium_2171.jpg</air:ImageLocation>
+								<air:OptionalServices>
+									<air:OptionalService Type="Baggage" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.511+00:00" Key="S8xRvRBAAA/BaBVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Domestic Checked Baggage</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">DOM Bag</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Baggage Allowance Domestic Flights
+
+											First Class (F,A,O) 40kgs
+											Business Class (C,D,J,Z,I) 35kgs
+											Economy Class (Y, B, M, H, K, Q, V, W, G, L, U, T, S, X, E) 25kgs</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Baggage Allowance Domestic Flights
+
+											First Class (F,A,O) 40kgs
+											Business Class (C,D,J,Z,I) 35kgs
+											Economy Class (Y, B, M, H, K, Q, V, W, G, L, U, T, S, X, E) 25kgs</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Domestic Checked Baggage</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Y,X,KG,25,</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="Baggage" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.511+00:00" Key="S8xRvRBAAA/BbBVnDBAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Carry on baggage</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">One carry on bag max 8kg permitted 55 cms (22 inches) x 40 cms (16 inches) x 20 cms (8 inches).
+
+											Children are entitled to the same cabin baggage allowance as adults.
+
+											In addition to one piece of cabin baggage or package, you may also be permitted to carry one following personal item, subject to Security Regulations:
+
+											• A Ladys hand bag.
+											• An overcoat or wrap.
+											• A rug or a blanket
+											• A camera or binoculars
+											• Reasonable amount of reading material for the flight.
+											• Infants feed for consumption during the flight and infants carrying basket, feeding bottle, if an infant is carried.
+											• A Collapsible wheelchair or pair of crutches or braces for passengers use, if dependent on these.
+											• A Walking stick.
+											• An umbrella (Folding type)
+											• Medicines required during Flight like Asthma inhaler etc.
+											• A Laptop.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">One carry on bag max 8kg permitted 55 cms (22 inches) x 40 cms (16 inches) x 20 cms (8 inches).
+
+											Children are entitled to the same cabin baggage allowance as adults.
+
+											In addition to one piece of cabin baggage or package, you may also be permitted to carry one following personal item, subject to Security Regulations:
+
+											• A Ladys hand bag.
+											• An overcoat or wrap.
+											• A rug or a blanket
+											• A camera or binoculars
+											• Reasonable amount of reading material for the flight.
+											• Infants feed for consumption during the flight and infants carrying basket, feeding bottle, if an infant is carried.
+											• A Collapsible wheelchair or pair of crutches or braces for passengers use, if dependent on these.
+											• A Walking stick.
+											• An umbrella (Folding type)
+											• Medicines required during Flight like Asthma inhaler etc.
+											• A Laptop.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Carry on baggage</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Y,1,8,CY</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="PreReservedSeatAssignment" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.511+00:00" Key="S8xRvRBAAA/BhBVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Advance seat reservation</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Pre book your preferred seat</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Pre reserved seat assignment.
+											Your passenger can check-in through AIR INDIA website  www.airindia.in and make selection of your seat on- line and print boarding pass.
+
+											Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Pre reserved seat assignment
+											You can check-in through AIR INDIA website  www.airindia.in and make selection of your seat on- line and print boarding pass.
+
+											Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Advance seat reservation</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Pre Reserv</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="MealOrBeverage" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.511+00:00" Key="S8xRvRBAAA/BiBVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Inflight Meals</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Food at Maharajah now at your table</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">In Business or Economy Class passengers can enjoy a selection of meals with a choice of continental or Indian cuisine.
+
+											These are accompanied by complimentary liquors, wines or soft drinks.
+
+											In First Class passengers are treated to stimulating cocktails followed by a fine selection of the most delectable entrees.
+
+											Gourmet food in First Class is served on specially selected Noritake fine bone china.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">In Business or Economy Class passengers can enjoy a selection of meals with a choice of continental or Indian cuisine.
+
+											These are accompanied by complimentary liquors, wines or soft drinks.
+
+											In First Class passengers are treated to stimulating cocktails followed by a fine selection of the most delectable entrees.
+
+											Gourmet food in First Class is served on specially selected Noritake fine bone china.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Inflight Meals</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="FrequentFlyer" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.511+00:00" Key="S8xRvRBAAA/BkBVnDBAAAA==" SecondaryType="Mileage Accrual" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Miles accrual</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg"/>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Getting more with each flight</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Every time you fly Air India, you accrue miles based on sector and the booking class. The miles you earn on domestic sector and on international sectors.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Every time you fly Air India, you accrue miles based on sector and the booking class. The miles you earn on domestic sector and on international sectors.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Miles accrual</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Mileage</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="Upgrades" SupplierCode="AI" CreateDate="2020-09-10T16:57:18.511+00:00" Key="S8xRvRBAAA/BnBVnDBAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Mileage upgrade</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg"/>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Use your miles to upgrade!</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Use your miles to upgrade to a higher cabin.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Use your miles to upgrade to a higher cabin.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Mileage upgrade</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Mileage up</air:Title>
+									</air:OptionalService>
+								</air:OptionalServices>
+							</air:Brand>
+						</air:FareInfo>
+						<air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="S8xRvRBAAA/BECVnDBAAAA==" SegmentRef="WZumvRzYlDKAHNv3ABAAAA=="/>
+						<air:TaxInfo Category="K3" Amount="INR71" Key="S8xRvRBAAA/BXCVnDBAAAA=="/>
+						<air:TaxInfo Category="YR" Amount="INR170" Key="S8xRvRBAAA/BYCVnDBAAAA=="/>
+						<air:FareCalc>DEL AI RAJ 1250SIPIN INR1250END</air:FareCalc>
+						<air:PassengerType Code="INF" BookingTravelerRef="ebqmvRpYlDKAbYCaBBAAAA==">
+							<air:FareGuaranteeInfo GuaranteeType="Invalid"/>
+						</air:PassengerType>
+						<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAbYCaBBAAAA=="/>
+						<air:TicketingModifiersRef Key="S8xRvRBAAA/BdCVnDBAAAA=="/>
+					</air:AirPricingInfo>
+					<air:TicketingModifiers PlatingCarrier="AI" Key="S8xRvRBAAA/BdCVnDBAAAA==">
+						<common_v48_0:Commission Level="Fare" Type="PercentBase" Percentage="1.5"/>
+						<air:TicketEndorsement Value="NF70152281488060"/>
+						<air:DocumentSelect IssueElectronicTicket="true"/>
+					</air:TicketingModifiers>
+				</air:AirReservation>
+				<passive:PassiveReservation LocatorCode="8VIP07" CreateDate="2020-09-10T16:58:21.954+00:00" ModifiedDate="2020-09-11T11:13:18.944+00:00" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==">
+					<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAWYCaBBAAAA=="/>
+					<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAbYCaBBAAAA=="/>
+					<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAfYCaBBAAAA=="/>
+					<common_v48_0:BookingTravelerRef Key="ebqmvRpYlDKAkYCaBBAAAA=="/>
+					<passive:PassiveSegment NumberOfItems="0" SegmentType="Tour" Status="BK" SupplierCode="ZZ" StartDate="2021-08-07T00:00:00.000+00:00" Key="oqQfvRMc1BKAqqfdCBAAAA==" Group="0" TravelOrder="2" ProviderSegmentOrder="2" PassiveGroup="0"/>
+					<passive:PassiveRemark PassiveSegmentRef="oqQfvRMc1BKAqqfdCBAAAA==">
+						<passive:Text>**RETENTION LINE TO KEEP THE PNR ACTIVE**</passive:Text>
+					</passive:PassiveRemark>
+				</passive:PassiveReservation>
+				<common_v48_0:GeneralRemark Key="wGeUvRBAAA/BKSOXDBAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==" CreateDate="2020-09-10T16:57:00.000+00:00">
+					<common_v48_0:RemarkData>MMTJOURNEY OW XX DEL-RAJ YY AI-403</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="hvDXvRBAAA/BDiEwCBAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==" CreateDate="2020-09-10T16:58:00.000+00:00">
+					<common_v48_0:RemarkData>FARESOURCE MMYTAI1.5000</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="6XJXvRBAAA/B4jvLFBAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA==" SupplierCode="AI" Direction="Incoming" CreateDate="2020-09-10T17:25:00.000+00:00">
+					<common_v48_0:RemarkData>AUTO XX IF SSR TKNA/E/M/C NOT RCVD BY AI BY 2228/13SEP/ DEL LT</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:AgencyInfo>
+					<common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084230" AgencyCode="S3083002" EventTime="2020-09-10T16:57:15.933+00:00"/>
+					<common_v48_0:AgentAction ActionType="Modified" AgentCode="uAPI1667027830-ed41e340" BranchCode="CS3083007" AgencyCode="S3083002" EventTime="2020-09-18T09:45:58.455+00:00"/>
+					<common_v48_0:AgentAction ActionType="Ticketed" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-09-10T16:58:59.540+00:00"/>
+				</common_v48_0:AgencyInfo>
+				<common_v48_0:SSR Key="ebqmvRpYlDKA2bDaBBAAAA==" Status="HK" Type="CTCM" FreeText="/919882244568-1DUBEY/DRANKITMR" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+				<common_v48_0:SSR Key="ebqmvRpYlDKA3bDaBBAAAA==" Status="HK" Type="CTCE" FreeText="/DOCTORANKIT79//GMAIL.COM-1DUBEY/DRANKITMR" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+				<common_v48_0:SSR Key="ebqmvRpYlDKA4bDaBBAAAA==" Status="HK" Type="CTCM" FreeText="/919882244568-1DUBEY/DRSHAILMS" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+				<common_v48_0:SSR Key="ebqmvRpYlDKA5bDaBBAAAA==" Status="HK" Type="CTCE" FreeText="/DOCTORANKIT79//GMAIL.COM-1DUBEY/DRSHAILMS" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+				<common_v48_0:SSR Key="ebqmvRpYlDKA6bDaBBAAAA==" Status="HK" Type="CTCM" FreeText="/919882244568-1DUBEY/ANWITAMS" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+				<common_v48_0:SSR Key="ebqmvRpYlDKA7bDaBBAAAA==" Status="HK" Type="CTCE" FreeText="/DOCTORANKIT79//GMAIL.COM-1DUBEY/ANWITAMS" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+				<common_v48_0:SSR Key="hvDXvRBAAA/BIfUvCBAAAA==" Status="HK" Type="CHLD" FreeText="/-1DUBEY/ANWITAMS" Carrier="AI" ProviderReservationInfoRef="WZumvRzYlDKAE9v3ABAAAA=="/>
+				<common_v48_0:FormOfPayment Key="kKkpURkJ0BKALytN3DAAAA==" Type="Credit" Reusable="true" ProfileKey="7/uwTK3jQ3O/qnEByUFsYg==">
+					<common_v48_0:CreditCard Type="VI" Number="************2007" ExpDate="2024-01"/>
+					<common_v48_0:ProviderReservationInfoRef Key="WZumvRzYlDKAE9v3ABAAAA=="/>
+				</common_v48_0:FormOfPayment>
+			</universal:UniversalRecord>
+		</universal:UniversalRecordRetrieveRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

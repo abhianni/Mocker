@@ -1,0 +1,17 @@
+{
+  "request":{
+    "url": "/sessionmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "LogonRequest"
+      },
+		{ "contains" : "DELIP67490"
+		}
+	  
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/SG/OW/SG_logon.xml"
+
+  }
+}

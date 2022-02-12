@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/postsaleAncillary",
+        "bodyPatterns":[{
+        "contains" : "\"pnr\":\"KLERRR\""
+        },
+	{	
+        "contains" : "\"postsaleAncillaryRequestType\":\"AVAILABILITY\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/ancillarySoa/Test20_PNR3_dom_6E_RT_PNR_ancillary_avail_response.json"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/wpm/hcs/v2/rule/recommend",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Accept" : {"matches" : "application/json"},
+		"Authorization" : {"matches" : "d3BtQXBwbGljYXRpb24="}
+		},
+        "bodyPatterns":[{
+        "contains" : "PreApplied_DOM"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/WPMThirdParty/preAppliedDiscount_WPM/TestCase_1_PreAppliedDiscount_WPM_Response.json"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/search/soa",
+       "bodyPatterns":[{
+        "contains" : "KTM"
+        }]
+ 
+
+    
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/flights/dhruv/DEL_KTM_RT.json",
+"headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

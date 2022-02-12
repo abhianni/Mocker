@@ -1,0 +1,18 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/peitho/get",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"}
+		},
+        "bodyPatterns":[{
+        "contains" : "400peitho"
+        }]
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

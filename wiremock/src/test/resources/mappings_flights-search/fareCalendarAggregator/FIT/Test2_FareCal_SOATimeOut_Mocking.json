@@ -1,0 +1,13 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightSOA-web/fareCal",
+    "bodyPatterns":[{
+      "contains" : "JAI"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 15000
+  }
+}

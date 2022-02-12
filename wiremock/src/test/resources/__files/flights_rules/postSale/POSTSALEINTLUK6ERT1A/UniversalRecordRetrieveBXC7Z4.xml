@@ -1,0 +1,168 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<universal:UniversalRecordRetrieveRsp TraceId="TO8ctArKQkS" TransactionId="A074360D0A07570F5DEF76A661238B5A" ResponseTime="269" xmlns:universal="http://www.travelport.com/schema/universal_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:passive="http://www.travelport.com/schema/passive_v48_0">
+			<common_v48_0:ResponseMessage Code="1512" Type="Warning">Unable to process the request.</common_v48_0:ResponseMessage>
+			<universal:UniversalRecord LocatorCode="8F74OL" Version="15" Status="Active">
+				<common_v48_0:BookingTraveler Key="zxyYNQkB0BKAhtC/QAAAAA==" TravelerType="ADT" Gender="F">
+					<common_v48_0:BookingTravelerName Prefix="Ms" First="Dhara" Last="Pillai"/>
+					<common_v48_0:PhoneNumber Key="zxyYNQkB0BKAitC/QAAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9820886958">
+						<common_v48_0:ProviderReservationInfoRef Key="55DVNQBAAA/Bc3bhRAAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="zxyYNQkB0BKAltC/QAAAAA==" EmailID="dharasanghavi1018@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="55DVNQBAAA/Bc3bhRAAAAA=="/>
+					</common_v48_0:Email>
+					<common_v48_0:SSR Key="Bg4YNQqB0BKAgAbPRAAAAA==" SegmentRef="55DVNQBAAA/BvObhRAAAAA==" Status="HK" Type="TKNE" FreeText="2283761423749C1" Carrier="UK" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:OSI Key="u3yYNQpB0BKAq5/LRAAAAA==" Carrier="YY" Text="CTCM 9820886958" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				<common_v48_0:OSI Key="mHImdSBAAA/B33ZLRAAAAA==" Carrier="1G" Text="SNC RLOC 1A UDQ8GJ" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				<common_v48_0:ActionStatus Key="Bg4YNQqB0BKANo7ORAAAAA==" Type="ACTIVE" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA==" ProviderCode="1G">
+					<common_v48_0:Remark>BOM 21AUG0918Z WS AG</common_v48_0:Remark>
+				</common_v48_0:ActionStatus>
+				<universal:ProviderReservationInfo Key="55DVNQBAAA/Bc3bhRAAAAA==" ProviderCode="1G" LocatorCode="BXC7Z4" CreateDate="2020-08-21T09:14:01.680+00:00" ModifiedDate="2020-09-18T08:55:02.287+00:00" HostCreateDate="2020-08-21" OwningPCC="34TZ"/>
+				<air:AirReservation LocatorCode="8F74OS" CreateDate="2020-08-21T09:14:02.421+00:00" ModifiedDate="2020-09-18T09:03:24.891+00:00">
+					<common_v48_0:SupplierLocator SupplierCode="UK" SupplierLocatorCode="UDQ8GJ" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA==" CreateDateTime="2020-08-21T09:18:00.000+00:00"/>
+					<air:DocumentInfo>
+						<air:TicketInfo Number="2283761423749" TicketIssueDate="2020-08-21T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="ZWP7GWS" CountryCode="IN" Status="S" BookingTravelerRef="zxyYNQkB0BKAhtC/QAAAAA==" AirPricingInfoRef="3uugNQwYlDKAL0OAQAAAAA==">
+							<common_v48_0:Name Prefix="Ms" First="Dhara" Last="Pillai"/>
+						</air:TicketInfo>
+					</air:DocumentInfo>
+					<common_v48_0:BookingTravelerRef Key="zxyYNQkB0BKAhtC/QAAAAA=="/>
+					<common_v48_0:ProviderReservationInfoRef Key="55DVNQBAAA/Bc3bhRAAAAA=="/>
+					<air:AirSegment Key="55DVNQBAAA/BvObhRAAAAA==" Group="0" Carrier="UK" CabinClass="Economy" FlightNumber="201" ProviderCode="1G" Origin="BOM" Destination="DXB" DepartureTime="2020-09-10T16:25:00.000+05:30" ArrivalTime="2020-09-10T18:15:00.000+04:00" TravelTime="200" ClassOfService="V" ETicketability="Yes" Equipment="320" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false">
+						<air:FlightDetails Key="53zYNQnB0BKAUlOPRAAAAA==" Origin="BOM" Destination="DXB" DepartureTime="2020-09-10T16:25:00.000+05:30" ArrivalTime="2020-09-10T18:15:00.000+04:00" FlightTime="200" TravelTime="200" Equipment="320" OriginTerminal="2" DestinationTerminal="3" AutomatedCheckin="false"/>
+						<common_v48_0:SellMessage>DEPARTS BOM TERMINAL 2  - ARRIVES DXB TERMINAL 3</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v48_0:SellMessage>
+						<common_v48_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v48_0:SellMessage>
+					</air:AirSegment>
+					<air:AirPricingInfo Key="3uugNQwYlDKAL0OAQAAAAA==" TotalPrice="INR8146" BasePrice="INR6000" ApproximateTotalPrice="INR8146" ApproximateBasePrice="INR6000" Taxes="INR2146" TrueLastDateToTicket="2020-08-31T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA==" AirPricingInfoGroup="1" Ticketed="true" PricingType="StoredFare" FareCalculationInd="G">
+						<air:FareInfo Key="u+GVNQBAAA/BRDAaRAAAAA==" FareBasis="VOBDINYV" PassengerTypeCode="ADT" Origin="BOM" Destination="DXB" EffectiveDate="2020-08-21T00:00:00.000+05:30" NotValidBefore="2020-09-10" NotValidAfter="2020-09-10" PseudoCityCode="WP7">
+							<air:FareTicketDesignator Value="YV"/>
+							<common_v48_0:Endorsement Value="NON ENDORSABLE"/>
+							<common_v48_0:Endorsement Value="NON RE-ROUTABLE"/>
+							<common_v48_0:Endorsement Value="REBOOKING SBJCT TO PENALTY"/>
+							<air:BaggageAllowance>
+								<air:MaxWeight Value="30" Unit="Kilograms"/>
+							</air:BaggageAllowance>
+							<air:Brand Key="u+GVNQBAAA/BRDAaRAAAAA==" BrandID="282197" Name="ECO VALUE" Carrier="UK" BrandTier="0001">
+								<air:Title Type="External" LanguageCode="EN">Economy Value</air:Title>
+								<air:Title Type="Short" LanguageCode="EN">ECOYV</air:Title>
+								<air:Text Type="ATPCO" LanguageCode="EN">CHECK IN//068/Z/CHANGE ANYTIMEBAGGAGE 7KG//0ML/F/EXCESS HAND BAGGAGE5KG//03Q/F/BAGGAGE UPTO 25KG//ACCESS//06K/Z/REFUND BEFORE DEPARTURE//06L/Z/REFUND//0B5/F/PRE RESERVED SEAT ASSIGNMENT//0BX/F/LOUNGE//0B3/F/MEAL SERVICES//0LF/F/PRIORITYDEPARTURE//058/Z/UPGRADE ELIGIBILITY//0M3/F/HANDBAGGAGE//0G6/F/PRIORITY BOARDING//0BW/F/PRIORITYAFTER</air:Text>
+								<air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value
+
+									•	Complimentary beverages on board
+									•	Complimentary meal on board
+									•	30kg checked-in baggage allowance
+									•	7kg hand baggage allowance
+									•	Free seat selection, except emergency exit seats
+									•	Changes permitted at ₹2,000
+									•	Cancellation charges ₹3,000</air:Text>
+								<air:Text Type="MarketingAgent" LanguageCode="EN">Economy Value
+
+									•	Complimentary beverages on board
+									•	Complimentary meal on board
+									•	30kg checked-in baggage allowance
+									•	7kg hand baggage allowance
+									•	Free seat selection, except emergency exit seats
+									•	Changes permitted at ₹2,000
+									•	Cancellation charges ₹3,000</air:Text>
+								<air:Text Type="Strapline" LanguageCode="EN">Economy Value</air:Text>
+								<air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/vistara/UK_general_medium_4653.jpg</air:ImageLocation>
+								<air:ImageLocation Type="Consumer" ImageWidth="1200" ImageHeight="800">https://cdn.travelport.com/vistara/UK_general_large_55858.jpg</air:ImageLocation>
+								<air:OptionalServices>
+									<air:OptionalService Type="Baggage" SupplierCode="UK" CreateDate="2020-08-21T09:14:04.534+00:00" ServiceSubCode="0M3" Key="3uugNQwYlDKASPPAQAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Hand baggage 7kg</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Chargeable Baggage"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Max 7kg</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Max 7kg</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Hand baggage 7kg</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">HandBag</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="PreReservedSeatAssignment" SupplierCode="UK" CreateDate="2020-08-21T09:14:04.534+00:00" ServiceSubCode="0B5" Key="3uugNQwYlDKAaPPAQAAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Pre reserved seat assignment</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">Pre reserve your preferred seat in advance</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">Note that if the flight is operated by another airline then the options to reserve seats in advance may be different.</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">Note that if the flight is operated by another airline then the options to reserve seats in advance may be different.</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Pre reserved seat assignment</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Seating</air:Title>
+									</air:OptionalService>
+									<air:OptionalService Type="MealOrBeverage" SupplierCode="UK" CreateDate="2020-08-21T09:14:04.534+00:00" ServiceSubCode="0B3" Key="3uugNQwYlDKAbPPAQAAAAA==" Chargeable="Included in the brand">
+										<common_v48_0:ServiceInfo>
+											<common_v48_0:Description>Meal services</common_v48_0:Description>
+											<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg"/>
+											<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_114534.jpg"/>
+										</common_v48_0:ServiceInfo>
+										<air:EMD AssociatedItem="Flight"/>
+										<air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+										<air:Text Type="MarketingAgent" LanguageCode="EN">MEAL SERVICES</air:Text>
+										<air:Text Type="MarketingConsumer" LanguageCode="EN">MEAL SERVICES</air:Text>
+										<air:Title Type="External" LanguageCode="EN">Meal services</air:Title>
+										<air:Title Type="Short" LanguageCode="EN">Meals</air:Title>
+									</air:OptionalService>
+								</air:OptionalServices>
+							</air:Brand>
+						</air:FareInfo>
+						<air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="u+GVNQBAAA/BRDAaRAAAAA==" SegmentRef="55DVNQBAAA/BvObhRAAAAA=="/>
+						<air:TaxInfo Category="IN" Amount="INR329" Key="3uugNQwYlDKAjPPAQAAAAA=="/>
+						<air:TaxInfo Category="K3" Amount="INR307" Key="3uugNQwYlDKAkPPAQAAAAA=="/>
+						<air:TaxInfo Category="P2" Amount="INR428" Key="3uugNQwYlDKAlPPAQAAAAA=="/>
+						<air:TaxInfo Category="YM" Amount="INR850" Key="3uugNQwYlDKAmPPAQAAAAA=="/>
+						<air:TaxInfo Category="ZR" Amount="INR102" Key="3uugNQwYlDKAnPPAQAAAAA=="/>
+						<air:TaxInfo Category="YR" Amount="INR130" Key="3uugNQwYlDKAoPPAQAAAAA=="/>
+						<air:FareCalc>BOM UK DXB 80.35VOBDINYV/YV NUC80.35END ROE74.671925</air:FareCalc>
+						<air:PassengerType Code="ADT" BookingTravelerRef="zxyYNQkB0BKAhtC/QAAAAA==">
+							<air:FareGuaranteeInfo GuaranteeType="Guaranteed"/>
+						</air:PassengerType>
+						<common_v48_0:BookingTravelerRef Key="zxyYNQkB0BKAhtC/QAAAAA=="/>
+						<air:TicketingModifiersRef Key="3uugNQwYlDKAtPPAQAAAAA=="/>
+					</air:AirPricingInfo>
+					<air:TicketingModifiers PlatingCarrier="UK" Key="3uugNQwYlDKAtPPAQAAAAA==">
+						<common_v48_0:Commission Level="Fare" Type="PercentBase" Percentage="0.0"/>
+						<air:TicketEndorsement Value="NN2112053788892"/>
+						<air:DocumentSelect IssueElectronicTicket="true"/>
+					</air:TicketingModifiers>
+				</air:AirReservation>
+				<passive:PassiveReservation LocatorCode="8F9KOU" CreateDate="2020-08-21T09:18:13.643+00:00" ModifiedDate="2020-09-18T08:03:55.388+00:00" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA==">
+					<common_v48_0:BookingTravelerRef Key="zxyYNQkB0BKAhtC/QAAAAA=="/>
+					<passive:PassiveSegment NumberOfItems="0" SegmentType="Tour" Status="BK" SupplierCode="ZZ" StartDate="2021-07-18T00:00:00.000+00:00" Key="siueNQlYlDKAxUlgQAAAAA==" Group="0" TravelOrder="2" ProviderSegmentOrder="2" PassiveGroup="0"/>
+					<passive:PassiveRemark PassiveSegmentRef="siueNQlYlDKAxUlgQAAAAA==">
+						<passive:Text>**RETENTION LINE TO KEEP THE PNR ACTIVE**</passive:Text>
+					</passive:PassiveRemark>
+				</passive:PassiveReservation>
+				<common_v48_0:GeneralRemark Key="zxyYNQkB0BKAJ3G/QAAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA==" CreateDate="2020-08-21T09:14:00.000+00:00">
+					<common_v48_0:RemarkData>MMTJOURNEY OW XX BOM-DXB YY UK-201</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="2d0YNQgB0BKAUSrXRAAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA==" SupplierCode="1A" Direction="Incoming" CreateDate="2020-08-21T09:18:00.000+00:00">
+					<common_v48_0:RemarkData>ADTK1GTOUK BY 23AUG 1444 DEL TIME ZONE OTHERWISE WILL BE XLD</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="Mu5PNQBAAA/BuKGmSAAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA==" CreateDate="2020-08-21T09:18:00.000+00:00">
+					<common_v48_0:RemarkData>FARESOURCE MMYTMY0000</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:AgencyInfo>
+					<common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084232" AgencyCode="S3083002" EventTime="2020-08-21T09:14:01.679+00:00"/>
+					<common_v48_0:AgentAction ActionType="Modified" AgentCode="uAPI1667027830-ed41e340" BranchCode="CS3083007" AgencyCode="S3083002" EventTime="2020-09-18T09:03:24.899+00:00"/>
+					<common_v48_0:AgentAction ActionType="Ticketed" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-08-21T09:18:27.902+00:00"/>
+				</common_v48_0:AgencyInfo>
+				<common_v48_0:SSR Key="zxyYNQkB0BKAmtC/QAAAAA==" Status="HK" Type="CTCM" FreeText="/919820886958-1PILLAI/DHARAMS" Carrier="UK" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				<common_v48_0:SSR Key="zxyYNQkB0BKAntC/QAAAAA==" Status="HK" Type="CTCE" FreeText="/DHARASANGHAVI1018//GMAIL.COM-1PILLAI/DHARAMS" Carrier="UK" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				<common_v48_0:SSR Key="mHImdSBAAA/B43ZLRAAAAA==" Status="HK" Type="DOCS" FreeText="P/IND/T6697998/IND/10JUN90/F/11JUL29/PILLAI/DHARA SIVASANKAR" Carrier="UK" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				<common_v48_0:SSR Key="mHImdSBAAA/B53ZLRAAAAA==" Status="HK" Type="DOCS" FreeText="OMDXB 0201V10SEP/P/IND/T6697998/IND/10JUN90/F/11JUL29/PILLAI/DHARA SIVASANKAR" Carrier="UK" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				<common_v48_0:SSR Key="mHImdSBAAA/B63ZLRAAAAA==" Status="HK" Type="DOCO" FreeText="OMDXB 0201V10SEP//V/219227133///ARE" Carrier="UK" ProviderReservationInfoRef="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				<common_v48_0:FormOfPayment Key="4MgSNQBAAA/BULBFSAAAAA==" Type="Cash" Reusable="false" ProfileKey="Hm21lS9YSdStqrP4U5HXHg==">
+					<common_v48_0:ProviderReservationInfoRef Key="55DVNQBAAA/Bc3bhRAAAAA=="/>
+				</common_v48_0:FormOfPayment>
+			</universal:UniversalRecord>
+		</universal:UniversalRecordRetrieveRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

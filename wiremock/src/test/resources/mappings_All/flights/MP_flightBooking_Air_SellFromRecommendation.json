@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[{
+        "contains" : "Air_SellFromRecommendation"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/MP_flightBooking_Air_SellFromRecommendation.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

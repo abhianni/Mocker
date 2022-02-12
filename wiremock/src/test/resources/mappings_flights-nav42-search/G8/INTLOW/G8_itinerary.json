@@ -1,0 +1,17 @@
+{
+  "request":{
+	"method": "POST",
+    "url": "/bookingmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "PriceItineraryRequest"
+      },
+	  {       "contains" : "HKT"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/G8/INTLOW/G8_itineraryPrice.xml"
+
+  }
+}

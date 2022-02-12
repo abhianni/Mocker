@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/loyalty-messaging-service/validateBookingForBenefits.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_DB_HTTP_200"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 30000,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+    }
+}

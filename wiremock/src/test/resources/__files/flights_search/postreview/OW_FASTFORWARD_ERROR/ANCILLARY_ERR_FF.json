@@ -1,0 +1,71 @@
+{
+	"aggregatorSeatsResponse": null,
+	"aggregatorMealsTypeResponse": {
+		"status": false,
+		"errors": [{
+			"statusCode": "INTERNAL_SERVER_ERROR",
+			"ec": "8017",
+			"em": "Empty meals and baggage response received",
+			"ed": "Empty meals and baggage response received",
+			"sn": ""
+		}],
+		"meta": {
+			"core": {
+				"nmAdt": 1,
+				"nmChd": 0,
+				"nmInf": 0,
+				"totFare": 2318.0,
+				"it": [{
+					"from": "DEL",
+					"to": "BOM",
+					"depDate": "2020-04-07"
+				}],
+				"itBrkup": {
+					"DEL-BOM-070420": [{
+						"depCityCode": "DEL",
+						"arrCityCode": "BOM",
+						"depDate": "070420",
+						"depTime": "15:40",
+						"depDateTime": "2020-04-07 15:40",
+						"arrDate": "070420",
+						"arrTime": "17:50",
+						"arrDateTime": "2020-04-07 17:50",
+						"flightNumber": "I5-332",
+						"cmsId": "I5UNI",
+						"validatingAirline": "I5",
+						"marketingAirline": "I5",
+						"operatingAirline": "I5",
+						"flightServiceName": "I5",
+						"pnrGroup": 0,
+						"rtFareFlag": 0,
+						"stopType": "JOURNEY_OVER"
+					}]
+				},
+				"itBrkupAllStops": {
+					"DEL-BOM-070420": [{
+						"depCityCode": "DEL",
+						"arrCityCode": "BOM",
+						"depDate": "070420",
+						"depTime": "15:40",
+						"depDateTime": "2020-04-07 15:40",
+						"arrDate": "070420",
+						"arrTime": "17:50",
+						"arrDateTime": "2020-04-07 17:50",
+						"flightNumber": "I5-332",
+						"cmsId": "I5UNI",
+						"validatingAirline": "I5",
+						"marketingAirline": "I5",
+						"operatingAirline": "I5",
+						"flightServiceName": "I5",
+						"pnrGroup": 0,
+						"rtFareFlag": 0,
+						"stopType": "JOURNEY_OVER"
+						
+					}]
+				},
+				"cc": "E"
+			}
+		},
+		"statusCode": "INTERNAL_SERVER_ERROR"
+	}
+}

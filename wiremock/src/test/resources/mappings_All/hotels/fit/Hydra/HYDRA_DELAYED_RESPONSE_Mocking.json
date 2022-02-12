@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/hydra/v3/rest/.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_HYDRA_HTTP_200"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 30000,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+    }
+}

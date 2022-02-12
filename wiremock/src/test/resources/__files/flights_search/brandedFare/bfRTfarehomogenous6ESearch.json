@@ -1,0 +1,1090 @@
+{
+  "airlineStatusMap": null,
+  "srchRespMap": {
+    "SPLIT": {
+      "srcRes": {
+        "rcomMap": {
+          "FROMCITY1_TOCITY1_DEPTDATETRIP1": [
+            {
+              "score": null,
+              "flightKey": null,
+              "actualScore": null,
+              "rhinoRank": 0,
+              "groupedOrigRank": null,
+              "recommendedFlight": null,
+              "rhinoRecommendedFlight": false,
+              "fareHash": "bfab3cdbf1b4ba24ed53153e62fd2385e57a6b798bbafd1436987a4ec04d98ba",
+              "amenityItineraryKey": null,
+              "nearByFlight": false,
+              "fltUniKey": "FROMCITY1_TOCITY1_DEPTDATETRIP1_6E-2376_6E_0",
+              "rKey": "v1~~R$R$R0IP$244.0$400.0$null$null$null$0$0$A~A-3524.0|2624.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~FROMCITY1_TOCITY1_DEPTDATETRIP1_6E-2376_NkVVTklfMjNKdW5l_00:10_DEPTDATETRIP1_03:00_6E_6E_6E_JO~6E_0_0_FROMCITY1-TOCITY1-DEPTDATETRIP1_null",
+              "jrnyMap": {
+                "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+                  "buddyResult": false,
+                  "refKey": "6E",
+                  "lfid": null,
+                  "minFrRl": null,
+                  "fltLst": [
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "2",
+                        "ctCd": "FROMCITY1",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "FROMCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "",
+                        "ctCd": "TOCITY1",
+                        "airp": "Bengaluru International Airport",
+                        "ctNm": "Bengaluru",
+                        "arpCd": "TOCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 12.949986,
+                        "long": 77.668206,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1562784000000,
+                      "arrDt": 1562794200000,
+                      "techStpOvrLst": [],
+                      "totDur": 170,
+                      "segSlKey": "6E~2376~ ~~FROMCITY1~07/11/2019 00:10~TOCITY1~07/11/2019 03:00~~",
+                      "fareSlKey": "0~R~ ~6E~R0IPRT~3206~~0~56~~X",
+                      "mrktArln": "6E",
+                      "oprArln": "6E",
+                      "equipTyp": "320",
+                      "equipCd": "Y180",
+                      "equipNm": "Airbus A320 ",
+                      "fltNum": "2376",
+                      "carierCode": "6E",
+                      "bagDtls": [],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "Y",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "si": null
+                    }
+                  ],
+                  "aggFltNum": "FROMCITY1$TOCITY1$DEPTDATETRIP10010$6E-2376",
+                  "totFr": 3472,
+                  "totBsFr": 2574,
+                  "totTx": 898,
+                  "cur": "INR",
+                  "totDur": 170,
+                  "rfndbl": null,
+                  "fr": [
+                    {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "0~R~ ~6E~R0IP~1058~~0~40~~X",
+                      "pxTypFrMap": {
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-PHF": 50,
+                                "TAXCOMPONENT-YQ": 400,
+                                "TAXCOMPONENT-07CGST": 78,
+                                "TOT": 3524,
+                                "TAXCOMPONENT-PSF": 244,
+                                "TAX": 900,
+                                "TAXCOMPONENT-RCF": 50,
+                                "TAXCOMPONENT-07SGST": 78
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "bfrtfare6Ehomogeneous",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "R0IP",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "FROMCITY1",
+                                    "prdcls": "R",
+                                    "si": null
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 0,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {
+                        "FareBasisCode": "R0IP",
+                        "FareStatus": null,
+                        "FareType": "0~R~ ~6E~R0IP~1058~~0~40~~X",
+                        "ProductClass": "bfrtfare6Ehomogeneous",
+                        "OriginalClassOfService": null,
+                        "FareClassOfService": "bfrtfare6Ehomogeneous"
+                      },
+                      "subFares": [],
+                      "rKey": null
+                    }
+                  ],
+                  "sPNR": false,
+                  "hldbl": false,
+                  "lstTckDt": null,
+                  "jrnySlKey": "6E~2376~ ~~FROMCITY1~07/11/2019 00:10~TOCITY1~07/11/2019 03:00~~",
+                  "cbn": null,
+                  "cbnCls": null,
+                  "refAir": "6E",
+                  "dep": "FROMCITY1",
+                  "arr": "TOCITY1",
+                  "offId": null,
+                  "credId": "bfrtfare6Ehomogeneous",
+                  "isBuddyResult": false,
+                  "buddyCity": null,
+                  "transVisaMsg": null,
+                  "xxlnAssurance": {
+                    "sa": true,
+                    "cw": null,
+                    "fe": 699,
+                    "ac": "6E449",
+                    "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+                    "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+                    "fpp": 699
+                  }
+                }
+              },
+              "frLst": [
+                {
+                  "frTyp": "SIMPLE",
+                  "frTypFrmSrv": "0~R~ ~6E~R0IP~1058~~0~40~~X",
+                  "pxTypFrMap": {
+                    "ADULT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-PHF": 50,
+                            "TAXCOMPONENT-YQ": 400,
+                            "TAXCOMPONENT-07CGST": 78,
+                            "TOT": 3524,
+                            "TAXCOMPONENT-PSF": 244,
+                            "TAX": 900,
+                            "TAXCOMPONENT-RCF": 50,
+                            "TAXCOMPONENT-07SGST": 78
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "bfrtfare6Ehomogeneous",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "R0IP",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "TOCITY1",
+                                "deptcd": "FROMCITY1",
+                                "prdcls": "R",
+                                "si": null
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 0,
+                        "frRuleList": []
+                      }
+                    ]
+                  },
+                  "frInfoMap": {
+                    "FareBasisCode": "R0IP",
+                    "FareStatus": null,
+                    "FareType": "0~R~ ~6E~R0IP~1058~~0~40~~X",
+                    "ProductClass": "bfrtfare6Ehomogeneous",
+                    "OriginalClassOfService": null,
+                    "FareClassOfService": "bfrtfare6Ehomogeneous"
+                  },
+                  "subFares": [],
+                  "rKey": null
+                }
+              ],
+              "jrnyRtLst": [
+                "TOCITY1$FROMCITY1$DEPTDATETRIP22330$6E-2484"
+              ],
+              "combInfo": {
+                "data": {
+                  "RT_FARE": {
+                    "TOCITY1$FROMCITY1$DEPTDATETRIP22330$6E-2484": {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "0~R~ ~6E~R0IPRT~3206~~0~56~~X^0~P~ ~6E~P0IPRT~3207~~0~50~~X",
+                      "pxTypFrMap": {
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-29CGST": 85,
+                                "TAXCOMPONENT-PHF": 100,
+                                "TAXCOMPONENT-YQ": 800,
+                                "TAXCOMPONENT-07CGST": 77,
+                                "TOT": 7560,
+                                "TAXCOMPONENT-PSF": 397,
+                                "TAXCOMPONENT-29SGST": 85,
+                                "TAX": 2082,
+                                "TAXCOMPONENT-RCF": 100,
+                                "TAXCOMPONENT-UDF": 361,
+                                "TAXCOMPONENT-07SGST": 77
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "bfrtfare6Ehomogeneous",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "R0IPRT",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "TOCITY1",
+                                    "deptcd": "FROMCITY1",
+                                    "prdcls": "N",
+                                    "si": null
+                                  }
+                                ]
+                              },
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "P",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "P0IPRT",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "FROMCITY1",
+                                    "deptcd": "TOCITY1",
+                                    "prdcls": "N",
+                                    "si": null
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 0,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {
+                        "FareBasisCode": "R0IPRT",
+                        "FareType": "0~R~ ~6E~R0IPRT~3206~~0~56~~X",
+                        "ProductClass": "N",
+                        "FareClassOfService": "bfrtfare6Ehomogeneous"
+                      },
+                      "subFares": [
+                        {
+                          "frTyp": "SIMPLE",
+                          "frTypFrmSrv": "0~R~ ~6E~R0IPRT~3206~~0~56~~X",
+                          "pxTypFrMap": {
+                            "ADULT": [
+                              {
+                                "frBrkup": {
+                                  "frBrkupMap": {
+                                    "TAXCOMPONENT-PHF": 50,
+                                    "TAXCOMPONENT-YQ": 400,
+                                    "TAXCOMPONENT-07CGST": 77,
+                                    "TOT": 3472,
+                                    "TAXCOMPONENT-PSF": 244,
+                                    "TAX": 898,
+                                    "TAXCOMPONENT-RCF": 50,
+                                    "TAXCOMPONENT-07SGST": 77
+                                  }
+                                },
+                                "segPrdctInf": [
+                                  {
+                                    "lgPrnfo": [
+                                      {
+                                        "frId": null,
+                                        "rb": "bfrtfare6Ehomogeneous",
+                                        "cbn": null,
+                                        "avl": null,
+                                        "fbc": "R0IPRT",
+                                        "frAmt": null,
+                                        "txAmt": null,
+                                        "frtyp": [],
+                                        "brkPnt": null,
+                                        "arrcd": "TOCITY1",
+                                        "deptcd": "FROMCITY1",
+                                        "prdcls": "N",
+                                        "si": null
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "paxRef": 0,
+                                "frRuleList": []
+                              }
+                            ]
+                          },
+                          "frInfoMap": {
+                            "FareBasisCode": "R0IPRT",
+                            "FareStatus": null,
+                            "FareType": "0~R~ ~6E~R0IPRT~3206~~0~56~~X",
+                            "ProductClass": "N",
+                            "OriginalClassOfService": null,
+                            "FareClassOfService": "bfrtfare6Ehomogeneous"
+                          },
+                          "subFares": [],
+                          "rKey": null
+                        },
+                        {
+                          "frTyp": "SIMPLE",
+                          "frTypFrmSrv": "0~P~ ~6E~P0IPRT~3207~~0~50~~X",
+                          "pxTypFrMap": {
+                            "ADULT": [
+                              {
+                                "frBrkup": {
+                                  "frBrkupMap": {
+                                    "TAXCOMPONENT-29CGST": 85,
+                                    "TAXCOMPONENT-PHF": 50,
+                                    "TAXCOMPONENT-YQ": 400,
+                                    "TOT": 4088,
+                                    "TAXCOMPONENT-29SGST": 85,
+                                    "TAXCOMPONENT-PSF": 153,
+                                    "TAX": 1184,
+                                    "TAXCOMPONENT-RCF": 50,
+                                    "TAXCOMPONENT-UDF": 361
+                                  }
+                                },
+                                "segPrdctInf": [
+                                  {
+                                    "lgPrnfo": [
+                                      {
+                                        "frId": null,
+                                        "rb": "P",
+                                        "cbn": null,
+                                        "avl": null,
+                                        "fbc": "P0IPRT",
+                                        "frAmt": null,
+                                        "txAmt": null,
+                                        "frtyp": [],
+                                        "brkPnt": null,
+                                        "arrcd": "FROMCITY1",
+                                        "deptcd": "TOCITY1",
+                                        "prdcls": "N",
+                                        "si": null
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "paxRef": 0,
+                                "frRuleList": []
+                              }
+                            ]
+                          },
+                          "frInfoMap": {
+                            "FareBasisCode": "P0IPRT",
+                            "FareStatus": null,
+                            "FareType": "0~P~ ~6E~P0IPRT~3207~~0~50~~X",
+                            "ProductClass": "N",
+                            "OriginalClassOfService": null,
+                            "FareClassOfService": "P"
+                          },
+                          "subFares": [],
+                          "rKey": null
+                        }
+                      ],
+                      "rKey": "v1~~R$R$R0IP$244.0$400.0$null$null$null$0$0$A^R$P$P0IP$153.0$400.0$null$361.0$null$1$0$A~A-7664.0|5578.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~FROMCITY1_TOCITY1_DEPTDATETRIP1_6E-2376_NkVVTklfMjNKdW5l_00:10_DEPTDATETRIP1_03:00_6E_6E_6E_JO~6E_1_0_FROMCITY1-TOCITY1-DEPTDATETRIP1_null^TOCITY1_FROMCITY1_DEPTDATETRIP2_6E-2484_NkVVTklfMjNKdW5l_23:30_160819_02:20_6E_6E_6E_JO~6E_1_0_TOCITY1-FROMCITY1-DEPTDATETRIP2_null"
+                    }
+                  }
+                }
+              },
+              "srName": "6E",
+              "prmTxt": null,
+              "rvPrmTxt": null,
+              "tVisaMsgTxt": [],
+              "listingPageMsg": null,
+              "currInfo": {
+                "costCurrency": "INR",
+                "sellCurrency": null,
+                "conversionFactor": null
+              },
+              "signature": null
+            }
+          ],
+          "TOCITY1_FROMCITY1_DEPTDATETRIP2": [
+            {
+              "score": null,
+              "flightKey": null,
+              "actualScore": null,
+              "rhinoRank": 0,
+              "groupedOrigRank": null,
+              "recommendedFlight": null,
+              "rhinoRecommendedFlight": false,
+              "fareHash": "52e8d02deaf90f705b20e0bd0d2fad87512ffc73cd60c5bf6e717e72f08d5658",
+              "amenityItineraryKey": null,
+              "nearByFlight": false,
+              "fltUniKey": "TOCITY1_FROMCITY1_DEPTDATETRIP2_6E-2484_6E_0",
+              "rKey": "v1~~R$P$P0IP$153.0$400.0$null$361.0$null$0$0$A~A-4140.0|2954.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~TOCITY1_FROMCITY1_DEPTDATETRIP2_6E-2484_NkVVTklfMjNKdW5l_23:30_160819_02:20_6E_6E_6E_JO~6E_0_0_TOCITY1-FROMCITY1-DEPTDATETRIP2_null",
+              "jrnyMap": {
+                "TOCITY1_FROMCITY1_DEPTDATETRIP2": {
+                  "buddyResult": false,
+                  "refKey": "6E",
+                  "lfid": null,
+                  "minFrRl": null,
+                  "fltLst": [
+                    {
+                      "amenitySegmentKey": null,
+                      "depInf": {
+                        "trml": "1",
+                        "ctCd": "TOCITY1",
+                        "airp": "Bengaluru International Airport",
+                        "ctNm": "Bengaluru",
+                        "arpCd": "TOCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 12.949986,
+                        "long": 77.668206,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "arrInf": {
+                        "trml": "2",
+                        "ctCd": "FROMCITY1",
+                        "airp": "Indira Gandhi International Airport",
+                        "ctNm": "New Delhi",
+                        "arpCd": "FROMCITY1",
+                        "cntr": "India",
+                        "tmZn": "Asia/Kolkata",
+                        "lat": 28.5665,
+                        "long": 77.103088,
+                        "cont": "India",
+                        "cur": "INR"
+                      },
+                      "depDt": 1565892000000,
+                      "arrDt": 1565902200000,
+                      "techStpOvrLst": [],
+                      "totDur": 170,
+                      "segSlKey": "6E~2484~ ~~TOCITY1~08/15/2019 23:30~FROMCITY1~08/16/2019 02:20~~",
+                      "fareSlKey": "0~P~ ~6E~P0IPRT~3207~~0~50~~X",
+                      "mrktArln": "6E",
+                      "oprArln": "6E",
+                      "equipTyp": "320",
+                      "equipCd": "Y180",
+                      "equipNm": "Airbus A320 ",
+                      "fltNum": "2484",
+                      "carierCode": "6E",
+                      "bagDtls": [],
+                      "avlCntxtLst": [],
+                      "availCount": null,
+                      "cbcls": "Y",
+                      "pnRf": {},
+                      "splitPnr": false,
+                      "availSrc": null,
+                      "suplrNm": null,
+                      "ao": [
+                        {
+                          "at": "MEAL",
+                          "isPaid": true
+                        }
+                      ],
+                      "si": null
+                    }
+                  ],
+                  "aggFltNum": "TOCITY1$FROMCITY1$DEPTDATETRIP22330$6E-2484",
+                  "totFr": 4088,
+                  "totBsFr": 2904,
+                  "totTx": 1184,
+                  "cur": "INR",
+                  "totDur": 170,
+                  "rfndbl": null,
+                  "fr": [
+                    {
+                      "frTyp": "SIMPLE",
+                      "frTypFrmSrv": "0~P~ ~6E~P0IP~1059~~0~57~~X",
+                      "pxTypFrMap": {
+                        "ADULT": [
+                          {
+                            "frBrkup": {
+                              "frBrkupMap": {
+                                "TAXCOMPONENT-29CGST": 86,
+                                "TAXCOMPONENT-PHF": 50,
+                                "TAXCOMPONENT-YQ": 400,
+                                "TOT": 4140,
+                                "TAXCOMPONENT-29SGST": 86,
+                                "TAXCOMPONENT-PSF": 153,
+                                "TAX": 1186,
+                                "TAXCOMPONENT-RCF": 50,
+                                "TAXCOMPONENT-UDF": 361
+                              }
+                            },
+                            "segPrdctInf": [
+                              {
+                                "lgPrnfo": [
+                                  {
+                                    "frId": null,
+                                    "rb": "P",
+                                    "cbn": null,
+                                    "avl": null,
+                                    "fbc": "P0IP",
+                                    "frAmt": null,
+                                    "txAmt": null,
+                                    "frtyp": [],
+                                    "brkPnt": null,
+                                    "arrcd": "FROMCITY1",
+                                    "deptcd": "TOCITY1",
+                                    "prdcls": "R",
+                                    "si": null
+                                  }
+                                ]
+                              }
+                            ],
+                            "paxRef": 0,
+                            "frRuleList": []
+                          }
+                        ]
+                      },
+                      "frInfoMap": {
+                        "FareBasisCode": "P0IP",
+                        "FareStatus": null,
+                        "FareType": "0~P~ ~6E~P0IP~1059~~0~57~~X",
+                        "ProductClass": "bfrtfare6Ehomogeneous",
+                        "OriginalClassOfService": null,
+                        "FareClassOfService": "P"
+                      },
+                      "subFares": [],
+                      "rKey": null
+                    }
+                  ],
+                  "sPNR": false,
+                  "hldbl": false,
+                  "lstTckDt": null,
+                  "jrnySlKey": "6E~2484~ ~~TOCITY1~08/15/2019 23:30~FROMCITY1~08/16/2019 02:20~~",
+                  "cbn": null,
+                  "cbnCls": null,
+                  "refAir": "6E",
+                  "dep": "TOCITY1",
+                  "arr": "FROMCITY1",
+                  "offId": null,
+                  "credId": "bfrtfare6Ehomogeneous",
+                  "isBuddyResult": false,
+                  "buddyCity": null,
+                  "transVisaMsg": null,
+                  "xxlnAssurance": {
+                    "sa": true,
+                    "cw": null,
+                    "fe": 699,
+                    "ac": "6E449",
+                    "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+                    "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+                    "fpp": 699
+                  }
+                }
+              },
+              "frLst": [
+                {
+                  "frTyp": "SIMPLE",
+                  "frTypFrmSrv": "0~P~ ~6E~P0IP~1059~~0~57~~X",
+                  "pxTypFrMap": {
+                    "ADULT": [
+                      {
+                        "frBrkup": {
+                          "frBrkupMap": {
+                            "TAXCOMPONENT-29CGST": 86,
+                            "TAXCOMPONENT-PHF": 50,
+                            "TAXCOMPONENT-YQ": 400,
+                            "TOT": 4140,
+                            "TAXCOMPONENT-29SGST": 86,
+                            "TAXCOMPONENT-PSF": 153,
+                            "TAX": 1186,
+                            "TAXCOMPONENT-RCF": 50,
+                            "TAXCOMPONENT-UDF": 361
+                          }
+                        },
+                        "segPrdctInf": [
+                          {
+                            "lgPrnfo": [
+                              {
+                                "frId": null,
+                                "rb": "P",
+                                "cbn": null,
+                                "avl": null,
+                                "fbc": "P0IP",
+                                "frAmt": null,
+                                "txAmt": null,
+                                "frtyp": [],
+                                "brkPnt": null,
+                                "arrcd": "FROMCITY1",
+                                "deptcd": "TOCITY1",
+                                "prdcls": "R",
+                                "si": null
+                              }
+                            ]
+                          }
+                        ],
+                        "paxRef": 0,
+                        "frRuleList": []
+                      }
+                    ]
+                  },
+                  "frInfoMap": {
+                    "FareBasisCode": "P0IP",
+                    "FareStatus": null,
+                    "FareType": "0~P~ ~6E~P0IP~1059~~0~57~~X",
+                    "ProductClass": "bfrtfare6Ehomogeneous",
+                    "OriginalClassOfService": null,
+                    "FareClassOfService": "P"
+                  },
+                  "subFares": [],
+                  "rKey": null
+                }
+              ],
+              "jrnyRtLst": [],
+              "combInfo": {
+                "data": {}
+              },
+              "srName": "6E",
+              "prmTxt": null,
+              "rvPrmTxt": null,
+              "tVisaMsgTxt": [],
+              "listingPageMsg": null,
+              "currInfo": {
+                "costCurrency": "INR",
+                "sellCurrency": null,
+                "conversionFactor": null
+              },
+              "signature": null
+            }
+          ]
+        },
+        "metaInfo": {
+          "customPageRules": {
+            "genericBanner": null,
+            "hbarRadioLabelDescList": null,
+            "interStitialBanner": null,
+            "isNewInterstitial": null,
+            "isFlexiTabToShow": null,
+            "defaultRadioButton": null,
+            "noOfFlexiRowsToShow": null,
+            "isSecondGroupingPattern": "false",
+            "showMinStopQuickSelectFilter": true,
+            "showMorningArrivalQuickSelectFilter": true,
+            "showEveningDepartureQuickSelectFilter": true,
+            "showRefundableFlightsQuickSelectFilter": true,
+            "showRecommendedFlightsQuickSelectFilter": true,
+            "showNearbyAirportsFlightsQuickSelectFilter": true,
+            "optionToBeShown": null,
+            "questions": [],
+            "buttonTexts": [],
+            "filterLogics": [],
+            "showVisaAssistance": false
+          },
+          "airlineInfoMap": {
+            "G8": {
+              "CRED_ID": "G8UNIMOBNS_16Dec"
+            },
+            "MP": {
+              "CRED_ID": "MPRTDHRUV"
+            },
+            "SG": {
+              "CRED_ID": "SGOWDHRUV"
+            },
+            "I5": {
+              "CRED_ID": "I5UNI"
+            },
+            "TP": {
+              "CRED_ID": "TPUNI_DOM"
+            },
+            "6E": {
+              "CRED_ID": "bfrtfare6Ehomogeneous"
+            }
+          },
+          "listMetaData": {
+            "FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+              "airlineWiseMinPrice": {
+                "G8": {
+                  "minTotalFare": 3894,
+                  "minStops": 0,
+                  "numFlights": 7
+                },
+                "SG": {
+                  "minTotalFare": 3515,
+                  "minStops": 0,
+                  "numFlights": 9
+                },
+                "UK": {
+                  "minTotalFare": 4745,
+                  "minStops": 0,
+                  "numFlights": 20
+                },
+                "AI": {
+                  "minTotalFare": 4099,
+                  "minStops": 0,
+                  "numFlights": 17
+                },
+                "I5": {
+                  "minTotalFare": 4033,
+                  "minStops": 0,
+                  "numFlights": 3
+                },
+                "6E": {
+                  "minTotalFare": 3524,
+                  "minStops": 0,
+                  "numFlights": 22
+                }
+              },
+              "stopWiseMinPrice": {
+                "0": {
+                  "minTotalFare": 3515,
+                  "minStops": 0,
+                  "numFlights": 39
+                },
+                "1": {
+                  "minTotalFare": 3928,
+                  "minStops": 1,
+                  "numFlights": 34
+                },
+                "2": {
+                  "minTotalFare": 7816,
+                  "minStops": 2,
+                  "numFlights": 5
+                }
+              },
+              "layoverWisePrice": {
+                "GOI": {
+                  "minTotalFare": 6850,
+                  "minStops": 1,
+                  "numFlights": 2
+                },
+                "BOM": {
+                  "minTotalFare": 5384,
+                  "minStops": 1,
+                  "numFlights": 21
+                },
+                "UDR": {
+                  "minTotalFare": 8551,
+                  "minStops": 2,
+                  "numFlights": 1
+                },
+                "MAA": {
+                  "minTotalFare": 5934,
+                  "minStops": 1,
+                  "numFlights": 2
+                },
+                "LKO": {
+                  "minTotalFare": 4478,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "PNQ": {
+                  "minTotalFare": 5667,
+                  "minStops": 1,
+                  "numFlights": 3
+                },
+                "HYD": {
+                  "minTotalFare": 3928,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "JAI": {
+                  "minTotalFare": 7816,
+                  "minStops": 2,
+                  "numFlights": 1
+                },
+                "CCU": {
+                  "minTotalFare": 7165,
+                  "minStops": 1,
+                  "numFlights": 3
+                },
+                "SAG": {
+                  "minTotalFare": 8817,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "AMD": {
+                  "minTotalFare": 7585,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "COK": {
+                  "minTotalFare": 6645,
+                  "minStops": 1,
+                  "numFlights": 2
+                },
+                "ATQ": {
+                  "minTotalFare": 13221,
+                  "minStops": 2,
+                  "numFlights": 1
+                }
+              },
+              "nearbyWisePrice": {},
+              "refundableMetaData": {
+                "minTotalFare": 4099,
+                "minStops": 0,
+                "numFlights": 32
+              },
+              "fastestMetaData": {
+                "minTotalFare": 4033,
+                "minStops": 0,
+                "numFlights": 1
+              },
+              "minFare": 3515,
+              "maxFare": 15770,
+              "timeSlotWiseInfo": [
+                {
+                  "startMinuteOfDay": 0,
+                  "endMinuteOfDay": 360,
+                  "priceInfo": {
+                    "minTotalFare": 3524,
+                    "minStops": 0,
+                    "numFlights": 8
+                  }
+                },
+                {
+                  "startMinuteOfDay": 360,
+                  "endMinuteOfDay": 720,
+                  "priceInfo": {
+                    "minTotalFare": 3828,
+                    "minStops": 0,
+                    "numFlights": 26
+                  }
+                },
+                {
+                  "startMinuteOfDay": 720,
+                  "endMinuteOfDay": 1080,
+                  "priceInfo": {
+                    "minTotalFare": 3828,
+                    "minStops": 0,
+                    "numFlights": 27
+                  }
+                },
+                {
+                  "startMinuteOfDay": 1080,
+                  "endMinuteOfDay": 1440,
+                  "priceInfo": {
+                    "minTotalFare": 3515,
+                    "minStops": 0,
+                    "numFlights": 17
+                  }
+                }
+              ],
+              "minDeparture": 1562784000000,
+              "maxDeparture": 1562866800000,
+              "recomRhinoDataMap": null
+            },
+            "TOCITY1_FROMCITY1_DEPTDATETRIP2": {
+              "airlineWiseMinPrice": {
+                "G8": {
+                  "minTotalFare": 4133,
+                  "minStops": 0,
+                  "numFlights": 7
+                },
+                "SG": {
+                  "minTotalFare": 4104,
+                  "minStops": 0,
+                  "numFlights": 9
+                },
+                "UK": {
+                  "minTotalFare": 4596,
+                  "minStops": 0,
+                  "numFlights": 7
+                },
+                "AI": {
+                  "minTotalFare": 4370,
+                  "minStops": 0,
+                  "numFlights": 18
+                },
+                "I5": {
+                  "minTotalFare": 5032,
+                  "minStops": 0,
+                  "numFlights": 3
+                },
+                "6E": {
+                  "minTotalFare": 4140,
+                  "minStops": 0,
+                  "numFlights": 23
+                }
+              },
+              "stopWiseMinPrice": {
+                "0": {
+                  "minTotalFare": 4104,
+                  "minStops": 0,
+                  "numFlights": 35
+                },
+                "1": {
+                  "minTotalFare": 4526,
+                  "minStops": 1,
+                  "numFlights": 29
+                },
+                "2": {
+                  "minTotalFare": 8045,
+                  "minStops": 2,
+                  "numFlights": 3
+                }
+              },
+              "layoverWisePrice": {
+                "BOM": {
+                  "minTotalFare": 5554,
+                  "minStops": 1,
+                  "numFlights": 12
+                },
+                "PNQ": {
+                  "minTotalFare": 5319,
+                  "minStops": 1,
+                  "numFlights": 4
+                },
+                "HYD": {
+                  "minTotalFare": 4870,
+                  "minStops": 1,
+                  "numFlights": 3
+                },
+                "CCU": {
+                  "minTotalFare": 7278,
+                  "minStops": 1,
+                  "numFlights": 2
+                },
+                "AMD": {
+                  "minTotalFare": 4553,
+                  "minStops": 1,
+                  "numFlights": 4
+                },
+                "MAA": {
+                  "minTotalFare": 5651,
+                  "minStops": 1,
+                  "numFlights": 3
+                },
+                "COK": {
+                  "minTotalFare": 9226,
+                  "minStops": 1,
+                  "numFlights": 1
+                },
+                "JDH": {
+                  "minTotalFare": 15437,
+                  "minStops": 2,
+                  "numFlights": 1
+                }
+              },
+              "nearbyWisePrice": {},
+              "refundableMetaData": {
+                "minTotalFare": 4370,
+                "minStops": 0,
+                "numFlights": 21
+              },
+              "fastestMetaData": {
+                "minTotalFare": 5032,
+                "minStops": 0,
+                "numFlights": 1
+              },
+              "minFare": 4104,
+              "maxFare": 15437,
+              "timeSlotWiseInfo": [
+                {
+                  "startMinuteOfDay": 0,
+                  "endMinuteOfDay": 360,
+                  "priceInfo": {
+                    "minTotalFare": 4546,
+                    "minStops": 0,
+                    "numFlights": 10
+                  }
+                },
+                {
+                  "startMinuteOfDay": 360,
+                  "endMinuteOfDay": 720,
+                  "priceInfo": {
+                    "minTotalFare": 4472,
+                    "minStops": 0,
+                    "numFlights": 27
+                  }
+                },
+                {
+                  "startMinuteOfDay": 720,
+                  "endMinuteOfDay": 1080,
+                  "priceInfo": {
+                    "minTotalFare": 4596,
+                    "minStops": 0,
+                    "numFlights": 15
+                  }
+                },
+                {
+                  "startMinuteOfDay": 1080,
+                  "endMinuteOfDay": 1440,
+                  "priceInfo": {
+                    "minTotalFare": 4104,
+                    "minStops": 0,
+                    "numFlights": 15
+                  }
+                }
+              ],
+              "minDeparture": 1565807700000,
+              "maxDeparture": 1565892000000,
+              "recomRhinoDataMap": null
+            }
+          },
+          "fltrDatSecCodeToNamMap": {
+            "GOI": "Goa",
+            "UDR": "Udaipur",
+            "MAA": "Chennai",
+            "JDH": "Jodhpur",
+            "LKO": "Lucknow",
+            "HYD": "Hyderabad",
+            "JAI": "Jaipur",
+            "CCU": "Kolkata",
+            "AMD": "Ahmedabad",
+            "COK": "Kochi",
+            "ATQ": "Amritsar",
+            "BOM": "Mumbai",
+            "PNQ": "Pune",
+            "SAG": "Shirdi"
+          },
+          "airlineNameMap": {
+            "9I": "New Airline",
+            "G8": "Go Air",
+            "SG": "Spicejet",
+            "MA": "Multiple Airline",
+            "UK": "Vistara",
+            "AI": "AirIndia",
+            "I5": "AirAsia",
+            "6E": "IndiGo"
+          },
+          "recommendedFlightsCount": null
+        },
+        "err": null
+      },
+      "err": null
+    }
+  },
+  "responseStatus": "COMPLETED",
+  "responseCounter": null,
+  "latMeta": {
+    "fromCache": false,
+    "buddySearch": false,
+    "nearBySearch": false,
+    "fromCacheWithIMPOnly": false
+  }
+}

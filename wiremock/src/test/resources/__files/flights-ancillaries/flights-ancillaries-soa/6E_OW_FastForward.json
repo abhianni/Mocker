@@ -1,0 +1,124 @@
+{
+  "status": "SUCCESS",
+  "anclryDataMap": null,
+  "segAnclryHldrList": [
+    {
+      "anclryType": "FASTFORWARD",
+      "anclryDescr": "Fast Forward",
+      "displayTitle": null,
+      "displaySubTitle": null,
+      "segAnclryDataMap": {
+        "DEL_BOM": {
+          "segType": "DEP",
+          "originCity": "New Delhi",
+          "destCity": "Mumbai",
+          "intentOriginCity": null,
+          "intentDestCity": null,
+          "spiceMaxMsg": null,
+          "selectType": "single",
+          "refundStat": 0,
+          "alCode": "6E",
+          "fltNo": "197",
+          "mergedSegment": false,
+          "anclryGrpMap": {
+            "Fast Forward": [
+              {
+                "grp": "Fast Forward",
+                "name": "Fast Forward",
+                "price": 400,
+                "code": "FFWD",
+                "mmtPrice": 400,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "popular": false,
+                "cssrDetailSOA": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "anclryType": "BAGGAGE",
+      "anclryDescr": "Baggage",
+      "displayTitle": null,
+      "displaySubTitle": null,
+      "segAnclryDataMap": {
+        "DEL_BOM": {
+          "segType": "DEP",
+          "originCity": "New Delhi",
+          "destCity": "Mumbai",
+          "intentOriginCity": null,
+          "intentDestCity": null,
+          "spiceMaxMsg": null,
+          "selectType": "single",
+          "refundStat": 1,
+          "alCode": "6E",
+          "fltNo": "197",
+          "mergedSegment": false,
+          "anclryGrpMap": {
+            "Pre-purchased Baggage": [
+              {
+                "grp": "Pre-purchased Baggage",
+                "name": "Additional 3 KG",
+                "price": 1140,
+                "code": "XBPE",
+                "mmtPrice": 1140,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "popular": false,
+                "cssrDetailSOA": null
+              },
+              {
+                "grp": "Pre-purchased Baggage",
+                "name": "Additional 5 KG",
+                "price": 1900,
+                "code": "XBPA",
+                "mmtPrice": 1900,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "popular": false,
+                "cssrDetailSOA": null
+              },
+              {
+                "grp": "Pre-purchased Baggage",
+                "name": "Additional 10 KG",
+                "price": 3800,
+                "code": "XBPB",
+                "mmtPrice": 3800,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "popular": false,
+                "cssrDetailSOA": null
+              },
+              {
+                "grp": "Pre-purchased Baggage",
+                "name": "Additional 15 KG",
+                "price": 5700,
+                "code": "XBPC",
+                "mmtPrice": 5700,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "popular": false,
+                "cssrDetailSOA": null
+              },
+              {
+                "grp": "Pre-purchased Baggage",
+                "name": "Additional 30 KG",
+                "price": 11400,
+                "code": "XBPD",
+                "mmtPrice": 11400,
+                "imagePath": "default",
+                "showSlasherFare": false,
+                "popular": false,
+                "cssrDetailSOA": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "availSeatMap": null,
+  "error": null
+}

@@ -1,0 +1,134 @@
+{
+	"errorCode": null,
+	"errorMessage": null,
+	"employee": {
+		"id": 286123,
+		"name": " raman sethi",
+		"mmtUserId": "mmtUID_orgInfoTest",
+		"businessEmailId": "ramanauto5@mygola.com",
+		"employeeStatus": "VERIFIED",
+		"approvingManager1": {
+			"id": 286112,
+			"name": "Raman",
+			"businessEmailId": "ramanmgr1@mygola.com",
+			"businessEmailCommId": "CpD3F2QF4oC7Yhj9T2lSvWcO5TZbuXYf1WfybUv7cqbIb7i4wslrFz8ClOIAx",
+			"mmtUuid": "UDMC5TAQKJL",
+			"phoneNumber": "9711626076",
+			"phoneNumberCommId": "ILZ1IF7499M",
+			"designation": null,
+			"employeeId": "286112"
+		},
+		"approvingManager2": null,
+		"isdCode": null,
+		"phoneNumber": "9711626076",
+		"phoneNumberCommId": "ILZ1IF7499M",
+		"designation": null,
+		"employeeId": "286123",
+		"invitationCode": null,
+		"personalEmailId": "ramanauto5@mygola.com",
+		"personalEmailCommId": "CX0aFBMsvVhYnc1bFMYCE8T9xiePsKqhklfPXFp7UZBTweIQWS6yI7PF82hxBIo6",
+		"roles": [
+			"TRAVELLER"
+		],
+		"organizationId": 3,
+		"preferences": null,
+		"updatedBy": "user2@mygola.com",
+		"emailVerified": true,
+		"gstn": null,
+		"sourceCampaign": "",
+		"gender": null,
+		"title": null,
+		"mmtBlackUser": 1,
+		"mmtUuid": "UQHU03GVX0L",
+		"businessEmailCommId": "CX0aFBMsvVhYnc1bFMYCE8T9xiePsKqhklfPXFp7UZBTweIQWS6yI7PF82hxBIo6",
+		"ssoUser": false,
+		"department": null,
+		"costCentre": null,
+		"provisionAdmin": false,
+		"policyIds": [
+			1111
+		],
+		"groupIds": [
+			167417
+		],
+		"groups": [
+			{
+				"created": "2018-09-24T10:07:11.000+0000",
+				"updated": "2018-09-24T10:07:46.000+0000",
+				"name": "Raman_APPROVAL_ALWAYS_REQUIRED_Wallet_ALLOWED_ALWAYS",
+				"description": "Raman_APPROVAL_ALWAYS_REQUIRED_Wallet_ALLOWED_ALWAYS",
+				"type": null,
+				"policyId": 1111,
+				"disabled": false,
+				"employees": null,
+				"organizationId": 3
+			}
+		],
+		"moAffiliateId": "AFFC3",
+		"created": 1537782943000,
+		"gstDetails": {
+			"gstn": "03ASBPG2644P1Z1",
+			"orgId": 3,
+			"branchName": null,
+			"address1": "ganesh",
+			"address2": "",
+			"pinCode": "122012",
+			"city": "gurgaon",
+			"country": null,
+			"gstEmail": "ramanauto5@mygola.com",
+			"isHeadQuarter": false,
+			"organizationName": "mygolapeople",
+			"createdBy": null,
+			"updatedBy": null,
+			"enabled": true,
+			"gstEmailCommId": "CX0aFBMsvVhYnc1bFMYCE8T9xiePsKqhklfPXFp7UZBTweIQWS6yI7PF82hxBIo6",
+			"displayMessage": "first gstin in list picked.",
+			"gstClaimable": null,
+			"gstFilterParameter": "firstRegisteredGstinInList",
+			"headQuarter": false
+		},
+		"blockLobs": null,
+		"signupMetaData": null,
+		"displayMessage": null
+	},
+	"organization": {
+		"created": "2017-06-25T10:55:34.000+0000",
+		"updated": "2019-09-11T12:52:02.000+0000",
+		"name": "mygolapeople",
+		"emailDomain": "mygola.com",
+		"isTravelAgent": false,
+		"invitationMethod": "EMAIL_VERIFICATION",
+		"status": "VERIFIED",
+		"panCard": "ABCDE1234D",
+		"size": null,
+		"policyId": 7,
+		"moAffiliateId": "AFFC3",
+		"orgAdminEmailId": "mymmtbusiness@mygola.com",
+		"walletId": "WL2017062827379107",
+		"organizationType": 100,
+		"panAuditRecords": [],
+		"groups": null,
+		"updatedBy": "mmt6646",
+		"gstDetails": null,
+		"ssoEnabled": false,
+		"personalSsoEnabled": false,
+		"ssoAuthType": "saml",
+		"idpUrl": "https://fedauthtst.pg.com",
+		"parentOrg": {
+			"created": "2019-06-19T18:22:11.000+0000",
+			"updated": "2019-06-19T18:22:11.000+0000",
+			"name": "corp-test-parent",
+			"content": [],
+			"links": [
+				{
+					"rel": "organizations",
+					"href": "http://10.66.107.68:8080/organizations/3"
+				},
+				{
+					"rel": "organizations",
+					"href": "http://10.66.107.68:8080/organizations/9"
+				}
+			]
+		}
+	}
+}

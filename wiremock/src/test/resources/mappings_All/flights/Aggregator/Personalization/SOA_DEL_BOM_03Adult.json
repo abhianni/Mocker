@@ -1,0 +1,23 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search/dom/aggr",
+        "bodyPatterns":[{
+		"contains" : "\"from\":\"DEL\""
+        },
+        {
+        "contains" : "\"to\":\"BOM\""
+        },
+		{
+        "contains" : "\"tripType\":\"OW\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+		"transformers": ["body-transformer"],
+        "bodyFileName": "/flights/Aggregator/Personalization/SOA_DEL_BOM_03Adult.json"
+    }
+}

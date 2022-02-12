@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/internal/employee.*.mmtUuid.*.UID_orgInfoDomTestRT1.*"
+  },
+  "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+    "bodyFileName": "/corporate/corpSearchV2/DOMESTIC_RT/corpuserserviceresp.json"
+  }
+}

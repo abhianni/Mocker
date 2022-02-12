@@ -1,0 +1,510 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NF21122279243962",
+    "iteneraryId": "7a5d71d4e220517cef85a41d5124e28680d8ea61",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "\"NF21122279243962\"",
+      "BookingAggregatorResponse": "{\"mmtId\":\"NF21122279243962\",\"pnrData\":[{\"pnrNo\":\"FGJ52P\",\"supplierId\":\"6EUNI\",\"supplierType\":\"NAV42\",\"airlineCode\":\"6E\"},{\"pnrNo\":\"RW7D7K\",\"supplierId\":\"6EUNI\",\"supplierType\":\"NAV42\",\"airlineCode\":\"6E\"}],\"userData\":{\"uuid\":\"UDMC0OG0WZH\",\"profileType\":\"PERSONAL\"},\"itineraryId\":\"7a5d71d4e220517cef85a41d5124e28680d8ea61\",\"cancellationAssurance\":false,\"fareType\":null,\"cabinClass\":\"E\"}",
+      "PostSaleCPReq": "{\"status\":null,\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NF21122279243962\",\"iteneraryId\":\"7a5d71d4e220517cef85a41d5124e28680d8ea61\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"894\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"\",\"arpCd\":\"CCU\"},\"arrivalInfo\":{\"trmnl\":\"\",\"arpCd\":\"DED\"},\"techStops\":null,\"depTime\":1599394200000,\"arrTime\":1599401400000,\"duration\":7200000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"CCU-DED : 6E-894\",\"depDate\":\"2020-09-06 17:40\",\"arrDate\":\"2020-09-06 19:40\",\"duration\":7200000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"CHILD\":{\"singlePaxBaseFare\":4400.0,\"singlePaxTx\":1191.0,\"singlePaxTot\":5591.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":177.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":688.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19SGST\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19CGST\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\":{\"fareClass\":\"N\",\"fareBasis\":\"N08AP\",\"rbd\":\"N\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"CCU-DED : 6E-894\":{\"singlePaxBaseFare\":4400.0,\"singlePaxTx\":1191.0,\"singlePaxTot\":5591.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":177.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":688.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19CGST\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19SGST\"}]}}},\"ADULT\":{\"singlePaxBaseFare\":4400.0,\"singlePaxTx\":1191.0,\"singlePaxTot\":5591.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":177.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":688.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19SGST\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19CGST\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\":{\"fareClass\":\"N\",\"fareBasis\":\"N08AP\",\"rbd\":\"N\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"CCU-DED : 6E-894\":{\"singlePaxBaseFare\":4400.0,\"singlePaxTx\":1191.0,\"singlePaxTot\":5591.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":177.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":688.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19CGST\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19SGST\"}]}}}},\"cancellationPenalty\":null,\"dateChangePenalty\":null,\"baggageList\":null,\"cancellationAssured\":false,\"supplierName\":\"6E\",\"supplierCredential\":\"6EUNI\",\"fareFamily\":\"\"}]}}}}]}}",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-08-11 21:48:13\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NF21122279243962\\\",\\\"iteneraryId\\\":\\\"7a5d71d4e220517cef85a41d5124e28680d8ea61\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\\\":{\\\"mrkAl\\\":\\\"6E\\\",\\\"oprAl\\\":\\\"6E\\\",\\\"validatingCarrier\\\":\\\"6E\\\",\\\"fltNo\\\":\\\"894\\\",\\\"arcrfTyp\\\":\\\"320\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"\\\",\\\"arpCd\\\":\\\"CCU\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"\\\",\\\"arpCd\\\":\\\"DED\\\"},\\\"depTime\\\":1599394200000,\\\"arrTime\\\":1599401400000,\\\"dur\\\":7200000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"CCU-DED : 6E-894\\\",\\\"depDate\\\":\\\"2020-09-06 17:40\\\",\\\"arrDate\\\":\\\"2020-09-06 19:40\\\",\\\"dur\\\":7200000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"CHILD\\\":{\\\"singlePaxBaseFare\\\":4400.0,\\\"singlePaxTx\\\":1191.0,\\\"singlePaxTot\\\":5591.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"RCF\\\"},{\\\"taxVal\\\":177.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":688.0,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":113.0,\\\"taxCode\\\":\\\"19SGST\\\"},{\\\"taxVal\\\":113.0,\\\"taxCode\\\":\\\"19CGST\\\"},{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"PHF\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{\\\"CCU-DED : 6E-894\\\":{\\\"singlePaxBaseFare\\\":4400.0,\\\"singlePaxTx\\\":1191.0,\\\"singlePaxTot\\\":5591.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"PHF\\\"},{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"RCF\\\"},{\\\"taxVal\\\":177.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":688.0,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":113.0,\\\"taxCode\\\":\\\"19CGST\\\"},{\\\"taxVal\\\":113.0,\\\"taxCode\\\":\\\"19SGST\\\"}]}},\\\"segPrdctInfo\\\":{\\\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\\\":{\\\"pclass\\\":\\\"R\\\",\\\"fareClass\\\":\\\"N\\\",\\\"fareBasis\\\":\\\"N08AP\\\",\\\"pClass\\\":\\\"R\\\",\\\"rbd\\\":\\\"N\\\"}}},\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":4400.0,\\\"singlePaxTx\\\":1191.0,\\\"singlePaxTot\\\":5591.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"RCF\\\"},{\\\"taxVal\\\":177.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":688.0,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":113.0,\\\"taxCode\\\":\\\"19SGST\\\"},{\\\"taxVal\\\":113.0,\\\"taxCode\\\":\\\"19CGST\\\"},{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"PHF\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{\\\"CCU-DED : 6E-894\\\":{\\\"singlePaxBaseFare\\\":4400.0,\\\"singlePaxTx\\\":1191.0,\\\"singlePaxTot\\\":5591.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"PHF\\\"},{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"RCF\\\"},{\\\"taxVal\\\":177.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":688.0,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":113.0,\\\"taxCode\\\":\\\"19CGST\\\"},{\\\"taxVal\\\":113.0,\\\"taxCode\\\":\\\"19SGST\\\"}]}},\\\"segPrdctInfo\\\":{\\\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\\\":{\\\"pclass\\\":\\\"R\\\",\\\"fareClass\\\":\\\"N\\\",\\\"fareBasis\\\":\\\"N08AP\\\",\\\"pClass\\\":\\\"R\\\",\\\"rbd\\\":\\\"N\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"6E\\\",\\\"supplierCredential\\\":\\\"6EUNI\\\",\\\"fareFamily\\\":\\\"\\\"}]}}}}]}}\",\"ticketData\":\"null\",\"mmtId\":\"NF21122279243962\"}",
+      "PostSaleDroolsBaggage0": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"DOM\",\"fromCityLeg\":\"CCU\",\"toCityLeg\":\"DED\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"6E\",\"validatingAirline\":\"6E\",\"cabinClass\":\"E\",\"flightNo\":\"894\",\"fbc\":\"N08AP\",\"rbd\":\"N\",\"productClass\":\"R\",\"bookingDate\":1597162693000,\"ptcCode\":\"\",\"travelDateStart\":1599394200000,\"travelDateEnd\":1599394200000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"1\",\"unit\":\"Piece (Laptop or Ladies handbag)\"},\"childBaggage\":{\"allowance\":\"1\",\"unit\":\"Piece (Laptop or Ladies handbag)\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "MiniRuleConfig": "{\"airline\":\"6E\",\"sector\":\"DOM\",\"fbc\":null,\"rbd\":null,\"productClass\":null,\"cabinClass\":\"ECONOMY\",\"departureDate\":null,\"bookingDate\":null,\"noShowCutOff\":24,\"firedRules\":[\"20\"],\"cpadditive\":0.0,\"cpmultiplier\":1.05,\"dcpadditive\":0.0,\"dcpmultiplier\":1.05}",
+      "PostSaleBaggageResponse0": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"CCU-DED : 6E-894\",\"flightLookUpKey\":\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"1\",\"unit\":\"Piece (Laptop or Ladies handbag)\",\"conversionRate\":\"-1\"},\"CHILD\":{\"allowance\":\"1\",\"unit\":\"Piece (Laptop or Ladies handbag)\",\"conversionRate\":\"-1\"}}}}]}",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"CCU-DED : 6E-894\":{\"fltGrps\":[{\"fltKeys\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{\"CCU-DED : 6E-894\":{\"fltGrps\":[{\"fltKeys\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"CCU-DED : 6E-894\":{\"fltGrps\":[{\"fltKeys\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{\"CCU-DED : 6E-894\":{\"fltGrps\":[{\"fltKeys\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":24,\"to\":72,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":0,\"to\":2,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4903.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0\",\"mmtFee\":0.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4903.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":2,\"to\":24,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":2,\"to\":24,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4903.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":24,\"to\":72,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":2,\"to\":24,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4903.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4903.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":24,\"to\":72,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":0,\"to\":2,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4903.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":0,\"to\":2,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4903.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":2,\"to\":24,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":24,\"to\":72,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"0\",\"mmtFee\":0.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":0,\"to\":2,\"fareBasis\":\"N08AP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4903.0\",\"mmtFee\":300.0,\"supplierType\":\"LCC\",\"nonRefundable\":true}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"CCU-DED : 6E-894\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"CCU-DED : 6E-894\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "{\"status\":\"SUCCCES\",\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NF21122279243962\",\"iteneraryId\":\"7a5d71d4e220517cef85a41d5124e28680d8ea61\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"894\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"\",\"arpCd\":\"CCU\"},\"arrivalInfo\":{\"trmnl\":\"\",\"arpCd\":\"DED\"},\"techStops\":null,\"depTime\":1599394200000,\"arrTime\":1599401400000,\"duration\":7200000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"CCU-DED : 6E-894\",\"depDate\":\"2020-09-06 17:40\",\"arrDate\":\"2020-09-06 19:40\",\"duration\":7200000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"CHILD\":{\"singlePaxBaseFare\":4400.0,\"singlePaxTx\":1191.0,\"singlePaxTot\":5591.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":177.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":688.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19SGST\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19CGST\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\":{\"fareClass\":\"N\",\"fareBasis\":\"N08AP\",\"rbd\":\"N\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"CCU-DED : 6E-894\":{\"singlePaxBaseFare\":4400.0,\"singlePaxTx\":1191.0,\"singlePaxTot\":5591.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":177.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":688.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19CGST\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19SGST\"}]}}},\"ADULT\":{\"singlePaxBaseFare\":4400.0,\"singlePaxTx\":1191.0,\"singlePaxTot\":5591.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":177.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":688.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19SGST\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19CGST\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\":{\"fareClass\":\"N\",\"fareBasis\":\"N08AP\",\"rbd\":\"N\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"CCU-DED : 6E-894\":{\"singlePaxBaseFare\":4400.0,\"singlePaxTx\":1191.0,\"singlePaxTot\":5591.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"RCF\"},{\"nation\":null,\"taxVal\":177.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":688.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19CGST\"},{\"nation\":null,\"taxVal\":113.0,\"taxCode\":\"19SGST\"}]}}}},\"cancellationPenalty\":[{\"jrnyKey\":\"CCU-DED : 6E-894\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":3000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":4903.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":4903.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null},\"CHILD\":{\"ptcCode\":null,\"paxType\":\"CHILD\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":3000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":4903.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":4903.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":300.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null}}}],\"dateChangePenalty\":[{\"jrnyKey\":\"CCU-DED : 6E-894\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":0.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":3000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":300.0},\"waiver\":null},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":3000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":300.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":4903.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":300.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":4903.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":300.0},\"waiver\":null}]},\"CHILD\":{\"ptcCode\":null,\"paxType\":\"CHILD\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":0.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":0.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":3000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":300.0},\"waiver\":null},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":3000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":300.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":4903.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":300.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":4903.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":300.0},\"waiver\":null}]}}}],\"baggageList\":[{\"jrnyKey\":\"CCU-DED : 6E-894\",\"flightLookUpKey\":\"6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"1\",\"unit\":\"Piece (Laptop or Ladies handbag)\",\"conversionRate\":\"-1\"},\"CHILD\":{\"allowance\":\"1\",\"unit\":\"Piece (Laptop or Ladies handbag)\",\"conversionRate\":\"-1\"}}}}],\"cancellationAssured\":false,\"supplierName\":\"6E\",\"supplierCredential\":\"6EUNI\",\"fareFamily\":\"\"}]}}}}]}}",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "validatingCarrier": "6E",
+      "fltNo": "894",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "CCU"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "arpCd": "DED"
+      },
+      "depTime": 1599394200000,
+      "arrTime": 1599401400000,
+      "dur": 7200000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "CCU-DED : 6E-894",
+        "depDate": "2020-09-06 17:40",
+        "arrDate": "2020-09-06 19:40",
+        "dur": 7200000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "CHILD": {
+                  "singlePaxBaseFare": 4400.0,
+                  "singlePaxTx": 1191.0,
+                  "singlePaxTot": 5591.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 50.0,
+                    "taxCode": "RCF"
+                  }, {
+                    "taxVal": 177.0,
+                    "taxCode": "ASF"
+                  }, {
+                    "taxVal": 688.0,
+                    "taxCode": "UDF"
+                  }, {
+                    "taxVal": 113.0,
+                    "taxCode": "19SGST"
+                  }, {
+                    "taxVal": 113.0,
+                    "taxCode": "19CGST"
+                  }, {
+                    "taxVal": 50.0,
+                    "taxCode": "PHF"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {
+                    "CCU-DED : 6E-894": {
+                      "singlePaxBaseFare": 4400.0,
+                      "singlePaxTx": 1191.0,
+                      "singlePaxTot": 5591.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 50.0,
+                        "taxCode": "PHF"
+                      }, {
+                        "taxVal": 50.0,
+                        "taxCode": "RCF"
+                      }, {
+                        "taxVal": 177.0,
+                        "taxCode": "ASF"
+                      }, {
+                        "taxVal": 688.0,
+                        "taxCode": "UDF"
+                      }, {
+                        "taxVal": 113.0,
+                        "taxCode": "19CGST"
+                      }, {
+                        "taxVal": 113.0,
+                        "taxCode": "19SGST"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40": {
+                      "pclass": "R",
+                      "fareClass": "N",
+                      "fareBasis": "N08AP",
+                      "pClass": "R",
+                      "rbd": "N"
+                    }
+                  }
+                },
+                "ADULT": {
+                  "singlePaxBaseFare": 4400.0,
+                  "singlePaxTx": 1191.0,
+                  "singlePaxTot": 5591.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 50.0,
+                    "taxCode": "RCF"
+                  }, {
+                    "taxVal": 177.0,
+                    "taxCode": "ASF"
+                  }, {
+                    "taxVal": 688.0,
+                    "taxCode": "UDF"
+                  }, {
+                    "taxVal": 113.0,
+                    "taxCode": "19SGST"
+                  }, {
+                    "taxVal": 113.0,
+                    "taxCode": "19CGST"
+                  }, {
+                    "taxVal": 50.0,
+                    "taxCode": "PHF"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {
+                    "CCU-DED : 6E-894": {
+                      "singlePaxBaseFare": 4400.0,
+                      "singlePaxTx": 1191.0,
+                      "singlePaxTot": 5591.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 50.0,
+                        "taxCode": "PHF"
+                      }, {
+                        "taxVal": 50.0,
+                        "taxCode": "RCF"
+                      }, {
+                        "taxVal": 177.0,
+                        "taxCode": "ASF"
+                      }, {
+                        "taxVal": 688.0,
+                        "taxCode": "UDF"
+                      }, {
+                        "taxVal": 113.0,
+                        "taxCode": "19CGST"
+                      }, {
+                        "taxVal": 113.0,
+                        "taxCode": "19SGST"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40": {
+                      "pclass": "R",
+                      "fareClass": "N",
+                      "fareBasis": "N08AP",
+                      "pClass": "R",
+                      "rbd": "N"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "CCU-DED : 6E-894",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4903.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4903.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4903.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4903.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "CCU-DED : 6E-894",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4903.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4903.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4903.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4903.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "CCU-DED : 6E-894",
+                "flightLookUpKey": "6E-894-CCU-DED-2020-09-06 17:40-2020-09-06 19:40",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "CHILD": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "1",
+                      "unit": "Piece (Laptop or Ladies handbag)",
+                      "conversionRate": "-1"
+                    },
+                    "CHILD": {
+                      "allowance": "1",
+                      "unit": "Piece (Laptop or Ladies handbag)",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "6E",
+              "supplierCredential": "6EUNI",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

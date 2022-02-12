@@ -1,0 +1,27 @@
+{
+  "response": {
+    "originalCommission": 17.0,
+    "provisionalBookingId": "$(provisionalBookingId)",
+    "currency": "$(bookingInfo.currency)",
+    "departureDate": "$(departureDate)",
+    "vendorBookingId": "MOCKTESTPNR",
+    "mmtBookingId": "$(mmtBookingId)",
+    "gstin": "06DUMMYVENDOR",
+    "totalCost": "$(bookingInfo.price)",
+    "vendorCode": "$(vendorCode)",
+    "hotelCode": "$(hotelCode)",
+    "arrivalDate": "$(arrivalDate)",
+    "hotelConfirmationId": "",
+    "roomBookingInfo": [
+      {
+        "status": "SUCCESS",
+        "legacyBookingStatus": "",
+        "vendorRoomConfirmationId": ""
+      }
+    ],
+    "cancelPolicyDescription": "",
+    "settlementMode": "CP",
+    "stateCode": "27"
+  },
+  "correlationKey": "$(clientInfo.correlationKey)"
+}

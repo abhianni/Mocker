@@ -1,0 +1,73 @@
+{
+    "pnrGrpdBookingInfo": {
+        "0": {
+            "pnrKey": "8d831678-2c98-4d61-b159-3c45a1139cb1",
+            "bookingKey": "",
+            "addonsMap": {
+                "ancillaryInfo": {
+                    "FASTFORWARD": {
+                        "sellLevel": "FLIGHT",
+                        "allPaxInclusive": false,
+                        "ssr": {
+                            "DEL$BLR$2020-12-02 14:30$6E-2839": {
+                                "ssrList": [
+                                    {
+                                        "sellPrice": 400.0,
+                                        "costPrice": 400.0,
+                                        "markup": 0.0,
+                                        "markdown": 0.0,
+                                        "availability": 0,
+                                        "maxCountAvailable": "",
+                                        "description": "Fast Forward",
+                                        "currencyCode": "inr",
+                                        "mandatory": false,
+                                        "value": 0,
+                                        "unit": "",
+                                        "ssrType": "NOT_SET",
+                                        "ssrcode": "FFWD"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "journeys": [
+                {
+                    "jrnyKey": "DEL$BLR$2020-12-02 14:30$6E-2839",
+                    "flightDtlsInfo": [
+                        {
+                            "pnrGroupNum": 0,
+                            "fltLookUpKey": "DEL$BLR$2020-12-02 14:30$6E-2839"
+                        }
+                    ]
+                }
+            ],
+            "flightLookUpList": {
+                "DEL$BLR$2020-12-02 14:30$6E-2839": {
+                    "oprAl": "6E",
+                    "fltNo": "2839",
+                    "arcrfTyp": "321",
+                    "arcrfNm": "JetAircraft",
+                    "depInfo": {
+                        "trmnl": "1",
+                        "arpCd": "DEL",
+                        "arpNm": "Indira Gandhi International Airport"
+                    },
+                    "arrInfo": {
+                        "trmnl": "1",
+                        "arpCd": "BLR",
+                        "arpNm": "Bengaluru International Airport"
+                    },
+                    "tchStp": [],
+                    "depTime": "2020-12-02 14:30",
+                    "arrTime": "2020-12-02 17:20",
+                    "durInMins": 170,
+                    "mrkAl": "6E"
+                }
+            }
+        }
+    },
+    "status": "SUCCESS",
+    "statusCode": 200
+}

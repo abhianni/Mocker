@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightSOA-web/v1/review",
+    "bodyPatterns":[
+      {       "contains" : "DOM_Business_Branded"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "transformers": ["FlightSOAResponseTransformer"],
+    "bodyFileName": "/flights_search/brandedFare/Test_brandedFare_Business_OW.json"
+
+  }
+}

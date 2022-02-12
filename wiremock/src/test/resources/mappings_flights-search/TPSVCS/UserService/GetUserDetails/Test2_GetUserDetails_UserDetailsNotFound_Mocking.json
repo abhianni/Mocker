@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-tp-svcs/v1/user-details?.*404GUD.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/flights_search/TPSVCS/UserService/GetUserDetails/Test_GetUserDetails_V1_2_Response.json"
+    }
+}

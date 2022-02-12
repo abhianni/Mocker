@@ -1,0 +1,15 @@
+{
+  "request":{
+    "url": "/B2BGateway/connect/uAPI/AirService",
+    "bodyPatterns":[
+      {
+	"contains" : "PremiumEconomy"
+	}
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/TP/OW/XMLEconomyPremium.json"
+
+  }
+}

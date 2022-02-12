@@ -1,0 +1,601 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NF28107279512706",
+    "iteneraryId": "16e4cb6867551fa780cd764b9ac888420ba20018",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><String xmlns=\"java.lang.String\">NF28107279512706</String>",
+      "BookingAggregatorResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BookingData xmlns:ns2=\"com.mmt.flights.getpnr.BookingData\"><cabinClass>E</cabinClass><cancellationAssurance>false</cancellationAssurance><itineraryId>16e4cb6867551fa780cd764b9ac888420ba20018</itineraryId><mmtId>NF28107279512706</mmtId><pnrData><airlineCode>UK</airlineCode><pnrNo>T1NHSW</pnrNo><supplierId>TPUNI_DOM</supplierId><supplierType>TP</supplierType></pnrData><pnrData><airlineCode>SG</airlineCode><pnrNo>UI79VH</pnrNo><supplierId>SGSPECIALFARE</supplierId><supplierType>NAV42</supplierType></pnrData><userData><profileType>PERSONAL</profileType><uuid>UQHUN62J4GL</uuid></userData></ns2:BookingData>",
+      "PostSaleCPReq": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><aircraftType>320</aircraftType><arrTime>1604147700000</arrTime><arrivalInfo><arpCd>DEL</arpCd><trmnl>3</trmnl></arrivalInfo><depTime>1604139300000</depTime><departureInfo><arpCd>BOM</arpCd><trmnl>2</trmnl></departureInfo><duration>8400000</duration><flightNum>902</flightNum><marketingAirline>UK</marketingAirline><operatingAirline>UK</operatingAirline><validatingCarrier>UK</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NF28107279512706</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>16e4cb6867551fa780cd764b9ac888420ba20018</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><cancellationAssured>false</cancellationAssured><fareFamily>ECO LITE</fareFamily><paxFares><entry><key>CHILD</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><fareBasis>OL1PYL/Y</fareBasis><fareClass>O</fareClass><PClass></PClass><rbd>O</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>3370.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>175.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>177.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YM</taxCode><taxVal>142.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>3994.0</singlePaxTot><singlePaxTx>624.0</singlePaxTx></value></entry><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>2</noOfPax><segPrdctInfo><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><fareBasis>OL1PYL/Y</fareBasis><fareClass>O</fareClass><PClass></PClass><rbd>O</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>3370.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>175.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>177.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YM</taxCode><taxVal>142.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>3994.0</singlePaxTot><singlePaxTx>624.0</singlePaxTx></value></entry><entry><key>INFANT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><fareBasis>OL1PYL/Y</fareBasis><fareClass>O</fareClass><PClass></PClass><rbd>O</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>1250.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>69.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>1449.0</singlePaxTot><singlePaxTx>199.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_DOM</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-10-31 18:05</arrDate><depDate>2020-10-31 15:45</depDate><duration>8400000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>BOM-DEL : UK-902</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-08-16 07:01:24\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NF28107279512706\\\",\\\"iteneraryId\\\":\\\"16e4cb6867551fa780cd764b9ac888420ba20018\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\\\":{\\\"mrkAl\\\":\\\"UK\\\",\\\"oprAl\\\":\\\"UK\\\",\\\"validatingCarrier\\\":\\\"UK\\\",\\\"fltNo\\\":\\\"902\\\",\\\"arcrfTyp\\\":\\\"320\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"2\\\",\\\"arpCd\\\":\\\"BOM\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"3\\\",\\\"arpCd\\\":\\\"DEL\\\"},\\\"depTime\\\":1604139300000,\\\"arrTime\\\":1604147700000,\\\"dur\\\":8400000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"BOM-DEL : UK-902\\\",\\\"depDate\\\":\\\"2020-10-31 15:45\\\",\\\"arrDate\\\":\\\"2020-10-31 18:05\\\",\\\"dur\\\":8400000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"CHILD\\\":{\\\"singlePaxBaseFare\\\":3370.0,\\\"singlePaxTx\\\":624.0,\\\"singlePaxTot\\\":3994.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":175.0,\\\"taxCode\\\":\\\"K3\\\"},{\\\"taxVal\\\":177.0,\\\"taxCode\\\":\\\"P2\\\"},{\\\"taxVal\\\":142.0,\\\"taxCode\\\":\\\"YM\\\"},{\\\"taxVal\\\":130.0,\\\"taxCode\\\":\\\"YR\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{},\\\"segPrdctInfo\\\":{\\\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\\\":{\\\"pclass\\\":\\\"\\\",\\\"fareClass\\\":\\\"O\\\",\\\"fareBasis\\\":\\\"OL1PYL/Y\\\",\\\"pClass\\\":\\\"\\\",\\\"rbd\\\":\\\"O\\\"}}},\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":3370.0,\\\"singlePaxTx\\\":624.0,\\\"singlePaxTot\\\":3994.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":175.0,\\\"taxCode\\\":\\\"K3\\\"},{\\\"taxVal\\\":177.0,\\\"taxCode\\\":\\\"P2\\\"},{\\\"taxVal\\\":142.0,\\\"taxCode\\\":\\\"YM\\\"},{\\\"taxVal\\\":130.0,\\\"taxCode\\\":\\\"YR\\\"}],\\\"noOfPax\\\":2,\\\"journeyWiseFare\\\":{},\\\"segPrdctInfo\\\":{\\\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\\\":{\\\"pclass\\\":\\\"\\\",\\\"fareClass\\\":\\\"O\\\",\\\"fareBasis\\\":\\\"OL1PYL/Y\\\",\\\"pClass\\\":\\\"\\\",\\\"rbd\\\":\\\"O\\\"}}},\\\"INFANT\\\":{\\\"singlePaxBaseFare\\\":1250.0,\\\"singlePaxTx\\\":199.0,\\\"singlePaxTot\\\":1449.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":69.0,\\\"taxCode\\\":\\\"K3\\\"},{\\\"taxVal\\\":130.0,\\\"taxCode\\\":\\\"YR\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{},\\\"segPrdctInfo\\\":{\\\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\\\":{\\\"pclass\\\":\\\"\\\",\\\"fareClass\\\":\\\"O\\\",\\\"fareBasis\\\":\\\"OL1PYL/Y\\\",\\\"pClass\\\":\\\"\\\",\\\"rbd\\\":\\\"O\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"TP\\\",\\\"supplierCredential\\\":\\\"TPUNI_DOM\\\",\\\"fareFamily\\\":\\\"ECO LITE\\\"}]}}}}]}}\",\"ticketData\":\"{\\\"paxWiseTicket\\\":{\\\"2283761362304\\\":\\\"ADULT\\\",\\\"2283761362307\\\":\\\"CHILD\\\",\\\"2283761362305\\\":\\\"INFANT\\\",\\\"2283761362306\\\":\\\"ADULT\\\"},\\\"ticketToOfficeIdMap\\\":{\\\"2283761362304\\\":\\\"P3084214\\\",\\\"2283761362307\\\":\\\"P3084214\\\",\\\"2283761362305\\\":\\\"P3084214\\\",\\\"2283761362306\\\":\\\"P3084214\\\"},\\\"ticketToAccountCodeMap\\\":{\\\"2283761362304\\\":\\\"\\\",\\\"2283761362307\\\":\\\"\\\",\\\"2283761362305\\\":\\\"\\\",\\\"2283761362306\\\":\\\"\\\"},\\\"allTicketsByPaxType\\\":{\\\"2283761362304\\\":\\\"ADULT\\\",\\\"2283761362307\\\":\\\"CHILD\\\",\\\"2283761362305\\\":\\\"INFANT\\\",\\\"2283761362306\\\":\\\"ADULT\\\"},\\\"oneTicketNumberPerPaxType\\\":{\\\"2283761362304\\\":\\\"ADULT\\\",\\\"2283761362307\\\":\\\"CHILD\\\",\\\"2283761362305\\\":\\\"INFANT\\\"}}\",\"mmtId\":\"NF28107279512706\"}",
+      "TPPostSaleBagXML0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "TPPostSaleBagXML1": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "TPPostSaleBagXML2": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostSaleTPBaggage2283761362304": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:AirRetrieveDocumentRsp UniversalRecordLocatorCode=\"89JIBM\" TransactionId=\"A10039B80A0E5628624A38EDDFE53D15\" ResponseTime=\"639\" xmlns=\"http://www.travelport.com/schema/common_v47_0\" xmlns:ns6=\"http://www.travelport.com/schema/passive_v47_0\" xmlns:ns5=\"http://www.travelport.com/schema/hotel_v47_0\" xmlns:ns8=\"http://www.travelport.com/schema/cruise_v47_0\" xmlns:ns7=\"http://www.travelport.com/schema/rail_v47_0\" xmlns:ns2=\"http://www.travelport.com/schema/air_v47_0\" xmlns:ns4=\"http://www.travelport.com/schema/universal_v47_0\" xmlns:ns3=\"http://www.travelport.com/schema/vehicle_v47_0\"><ns2:ETR Key=\"hCmcpPSc1BKANaUtGBAAAA==\" Refundable=\"false\" Exchangeable=\"false\" IssuedDate=\"2020-08-16T00:00:00.000+05:30\" ProviderCode=\"1G\" ProviderLocatorCode=\"T1NHSW\" IATANumber=\"14339942\" PseudoCityCode=\"WP7\" PlatingCarrier=\"UK\" TotalPrice=\"INR3994\" BasePrice=\"INR3370\" Taxes=\"INR624\"><ns2:AirReservationLocatorCode>89JIBO</ns2:AirReservationLocatorCode><AgencyInfo><AgentAction ActionType=\"Created\" AgentCode=\"uAPI1667027830-ed41e340\" BranchCode=\"P3084230\" AgencyCode=\"S3083002\" EventTime=\"2020-08-15T18:30:00.000Z\"/></AgencyInfo><BookingTraveler Key=\"Vm/UpPBAAA/BdSHkHBAAAA==\" TravelerType=\"ADT\" Gender=\"M\"><BookingTravelerName Prefix=\"MR\" First=\"RAHUL\" Last=\"KUMAR\"/><PhoneNumber Key=\"Vm/UpPBAAA/BeSHkHBAAAA==\" Type=\"None\" Location=\"DEL\" CountryCode=\"91\" Number=\"8006383398\"><ProviderReservationInfoRef Key=\"hw9RpPYYlDKArxdhHBAAAA==\"/></PhoneNumber><Email Key=\"Vm/UpPBAAA/BhSHkHBAAAA==\" EmailID=\"sailorrahul@yahoo.com\"><ProviderReservationInfoRef Key=\"hw9RpPYYlDKArxdhHBAAAA==\"/></Email><SSR Key=\"x/EbpPgB0BKALcM2GBAAAA==\" SegmentRef=\"hw9RpPYYlDKAMfbhHBAAAA==\" ProviderReservationInfoRef=\"hw9RpPYYlDKArxdhHBAAAA==\" Type=\"INFT\" Status=\"KK\" FreeText=\"SINGH/MUKUNDMSTR 24JAN19\" Carrier=\"UK\"/><SSR Key=\"hCmcpPSc1BKAkaUtGBAAAA==\" SegmentRef=\"hw9RpPYYlDKAMfbhHBAAAA==\" ProviderReservationInfoRef=\"hw9RpPYYlDKArxdhHBAAAA==\" Type=\"TKNE\" Status=\"HK\" FreeText=\"2283761362304C1\" Carrier=\"UK\"/><AirSeatAssignment Key=\"aO/XpPfYlDKAe9P2GBAAAA==\" Status=\"HK\" Seat=\"024E\" SegmentRef=\"hw9RpPYYlDKAMfbhHBAAAA==\" FlightDetailsRef=\"x/EbpPgB0BKAMcM2GBAAAA==\"/></BookingTraveler><FormOfPayment Key=\"AdhcpPQc1BKAy5B2GBAAAA==\" Type=\"Cash\" Reusable=\"false\" ProfileKey=\"8nK8qtukRc21hCufKw76Tw==\"/><Payment Key=\"hCmcpPSc1BKApaUtGBAAAA==\" Type=\"Itinerary\" FormOfPaymentRef=\"AdhcpPQc1BKAy5B2GBAAAA==\" Amount=\"INR3994\"/><SupplierLocator SupplierCode=\"UK\" SupplierLocatorCode=\"QGFCAT\"/><ns2:FareCalc>BOM UK DEL 3370 INR3370END XT 142YM130YR</ns2:FareCalc><ns2:Ticket Key=\"hCmcpPSc1BKARaUtGBAAAA==\" TicketNumber=\"2283761362304\" TicketStatus=\"N\"><ns2:Coupon Key=\"hCmcpPSc1BKASaUtGBAAAA==\" CouponNumber=\"1\" MarketingCarrier=\"UK\" MarketingFlightNumber=\"902\" Origin=\"BOM\" Destination=\"DEL\" DepartureTime=\"2020-10-31T15:45:00.000+05:30\" StopoverCode=\"true\" BookingClass=\"O\" FareBasis=\"OL1PYL\" NotValidBefore=\"2020-10-31\" NotValidAfter=\"2020-10-31\" Status=\"O\" SegmentGroup=\"0\" MarriageGroup=\"0\"><ns2:TicketDesignator Value=\"YL\"/></ns2:Coupon><ns2:TicketEndorsement Value=\"NF28107279512706\"/></ns2:Ticket><ns2:AirPricingInfo Key=\"W2hcpPOc1BKAaCZRGBAAAA==\" LatestTicketingTime=\"2020-08-16T23:59:00.000+05:30\" PricingMethod=\"Guaranteed\" ETicketability=\"Yes\" ProviderReservationInfoRef=\"hw9RpPYYlDKArxdhHBAAAA==\" AirPricingInfoGroup=\"1\" Ticketed=\"true\" PricingType=\"StoredFare\" TrueLastDateToTicket=\"2020-08-16T23:59:00.000+05:30\" FareCalculationInd=\"G\" TotalPrice=\"INR3994\" BasePrice=\"INR3370\" ApproximateTotalPrice=\"INR3994\" ApproximateBasePrice=\"INR3370\" Taxes=\"INR624\"><ns2:FareInfo Key=\"W2hcpPOc1BKASyZRGBAAAA==\" FareBasis=\"OL1PYL/Y\" PassengerTypeCode=\"ADT\" Origin=\"BOM\" Destination=\"DEL\" EffectiveDate=\"2020-08-16T00:00:00.000+05:30\" NotValidBefore=\"2020-10-31\" NotValidAfter=\"2020-10-31\"><ns2:FareTicketDesignator Value=\"L\"/><Endorsement Value=\"NON ENDORSABLE/NO MEAL\"/><Endorsement Value=\"NON RE-ROUTABLE/1PC-20KGS\"/><ns2:BaggageAllowance><ns2:MaxWeight Value=\"20\" Unit=\"Kilograms\"/></ns2:BaggageAllowance><ns2:Brand BrandID=\"211433\" Name=\"ECO LITE\" Carrier=\"UK\" BrandTier=\"0001\"><ns2:Title Type=\"External\">ECO LITE</ns2:Title><ns2:Title Type=\"Short\">ECO LITE</ns2:Title><ns2:Text Type=\"ATPCO\">//0B5/F/PRE RESERVED SEAT ASSIGNMENT//0BX/F/LOUNGEACCESS//0B3/F/MEAL SERVICES//0LF/F/PRIORITYBAGGAGE//0G6/F/PRIORITY BOARDING//0BW/F/PRIORITYCHECK IN//068/Z/CHANGE ANYTIME//06K/Z/REFUND BEFORE DEPARTURE//06L/Z/REFUNDAFTERDEPARTURE//058/Z/UPGRADE ELIGIBILITY//0M3/F/HANDBAGGAGE 7KG//0ML/F/EXCESS HAND BAGGAGE5KG//0C1/F/1 PC UPTO 15KG BAGGAGE//</ns2:Text><ns2:Text Type=\"MarketingConsumer\">ECO LITE\n\n• Complimentary beverage on board (tea/coffee)\n• 15 kg (1 piece only) Check-in Baggage Allowance\n• Hand Baggage included\n• Complimentary advance seat selection, select seats only\n• Buy-on-board light snacks\n• No changes permitted\n• No refunds permitted\n\n• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</ns2:Text><ns2:Text Type=\"MarketingAgent\">ECO LITE\n\n• Complimentary beverage on board (tea/coffee)\n• 15 kg (1 piece only) Check-in Baggage Allowance\n• Hand Baggage included\n• Complimentary advance seat selection, select seats only\n• Buy-on-board light snacks\n• No changes permitted\n• No refunds permitted\n\n• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</ns2:Text><ns2:Text Type=\"Strapline\">ECO LITE</ns2:Text><ns2:ImageLocation Type=\"Consumer\" ImageWidth=\"1400\" ImageHeight=\"800\">https://cdn.travelport.com/vistara/UK_general_large_80634.jpg</ns2:ImageLocation><ns2:ImageLocation Type=\"Agent\" ImageWidth=\"150\" ImageHeight=\"150\">https://cdn.travelport.com/vistara/UK_general_medium_80633.jpg</ns2:ImageLocation><ns2:OptionalServices><ns2:OptionalService Type=\"Baggage\" CreateDate=\"2020-08-16T07:01:27.239Z\" ServiceSubCode=\"0C1\" Key=\"VL3xdSoYlDKAV4RDWAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Checked baggage 1x15kg</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_82178.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_82178.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService><ns2:OptionalService Type=\"Baggage\" SecondaryType=\"Carry On Hand Baggage\" CreateDate=\"2020-08-16T07:01:27.239Z\" ServiceSubCode=\"0M3\" Key=\"VL3xdSoYlDKAW4RDWAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Hand baggage 7kg</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Chargeable Baggage\"/></ns2:OptionalService><ns2:OptionalService Type=\"PreReservedSeatAssignment\" CreateDate=\"2020-08-16T07:01:27.239Z\" ServiceSubCode=\"0B5\" Key=\"VL3xdSoYlDKAX4RDWAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Pre reserved seat assignment</Description><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg\"/><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService></ns2:OptionalServices></ns2:Brand></ns2:FareInfo><ns2:BookingInfo BookingCode=\"O\" CabinClass=\"Economy\" FareInfoRef=\"W2hcpPOc1BKASyZRGBAAAA==\"/><ns2:TaxInfo Key=\"VL3xdSoYlDKAO4RDWAAAAA==\" Category=\"K3\" Amount=\"INR175\"/><ns2:TaxInfo Key=\"VL3xdSoYlDKAP4RDWAAAAA==\" Category=\"P2\" Amount=\"INR177\"/><ns2:TaxInfo Key=\"VL3xdSoYlDKAQ4RDWAAAAA==\" Category=\"YM\" Amount=\"INR142\"/><ns2:TaxInfo Key=\"VL3xdSoYlDKAR4RDWAAAAA==\" Category=\"YR\" Amount=\"INR130\"/><ns2:FareCalc>BOM UK DEL 3370OL1PYL/YL INR3370END</ns2:FareCalc><ns2:PassengerType Code=\"ADT\" BookingTravelerRef=\"Vm/UpPBAAA/BdSHkHBAAAA==\"><ns2:FareGuaranteeInfo GuaranteeType=\"Guaranteed\"/></ns2:PassengerType><ns2:PassengerType Code=\"ADT\" BookingTravelerRef=\"Vm/UpPBAAA/BmSHkHBAAAA==\"><ns2:FareGuaranteeInfo GuaranteeType=\"Guaranteed\"/></ns2:PassengerType><BookingTravelerRef Key=\"Vm/UpPBAAA/BdSHkHBAAAA==\"/><BookingTravelerRef Key=\"Vm/UpPBAAA/BmSHkHBAAAA==\"/></ns2:AirPricingInfo><ns2:BaggageAllowances><ns2:BaggageAllowanceInfo TravelerType=\"ADT\" Origin=\"BOM\" Destination=\"DEL\" Carrier=\"UK\"><ns2:URLInfo><ns2:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UK</ns2:URL></ns2:URLInfo><ns2:TextInfo><ns2:Text>20K</ns2:Text><ns2:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</ns2:Text></ns2:TextInfo><ns2:BagDetails ApplicableBags=\"1stChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails><ns2:BagDetails ApplicableBags=\"2ndChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails></ns2:BaggageAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"BOM\" Destination=\"DEL\" Carrier=\"UK\"><ns2:TextInfo><ns2:Text>7K</ns2:Text></ns2:TextInfo><ns2:CarryOnDetails ApplicableCarryOnBags=\"1\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails><ns2:CarryOnDetails ApplicableCarryOnBags=\"2\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails></ns2:CarryOnAllowanceInfo></ns2:BaggageAllowances></ns2:ETR></ns2:AirRetrieveDocumentRsp>",
+      "PostSaleTPBaggage2283761362307": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:AirRetrieveDocumentRsp UniversalRecordLocatorCode=\"89JIBM\" TransactionId=\"A1003D7A0A0E5622E5DFAA27D78D53D8\" ResponseTime=\"498\" xmlns=\"http://www.travelport.com/schema/common_v47_0\" xmlns:ns6=\"http://www.travelport.com/schema/passive_v47_0\" xmlns:ns5=\"http://www.travelport.com/schema/hotel_v47_0\" xmlns:ns8=\"http://www.travelport.com/schema/cruise_v47_0\" xmlns:ns7=\"http://www.travelport.com/schema/rail_v47_0\" xmlns:ns2=\"http://www.travelport.com/schema/air_v47_0\" xmlns:ns4=\"http://www.travelport.com/schema/universal_v47_0\" xmlns:ns3=\"http://www.travelport.com/schema/vehicle_v47_0\"><ns2:ETR Key=\"hCmcpPSc1BKAZaUtGBAAAA==\" Refundable=\"false\" Exchangeable=\"false\" IssuedDate=\"2020-08-16T00:00:00.000+05:30\" ProviderCode=\"1G\" ProviderLocatorCode=\"T1NHSW\" IATANumber=\"14339942\" PseudoCityCode=\"WP7\" PlatingCarrier=\"UK\" TotalPrice=\"INR3994\" BasePrice=\"INR3370\" Taxes=\"INR624\"><ns2:AirReservationLocatorCode>89JIBO</ns2:AirReservationLocatorCode><AgencyInfo><AgentAction ActionType=\"Created\" AgentCode=\"uAPI1667027830-ed41e340\" BranchCode=\"P3084230\" AgencyCode=\"S3083002\" EventTime=\"2020-08-15T18:30:00.000Z\"/></AgencyInfo><BookingTraveler Key=\"Vm/UpPBAAA/BrSHkHBAAAA==\" TravelerType=\"CNN\" Age=\"8\" Gender=\"F\"><BookingTravelerName Prefix=\"Ms\" First=\"DEVANSHI\" Last=\"SINGH\"/><PhoneNumber Key=\"Vm/UpPBAAA/BsSHkHBAAAA==\" Type=\"None\" Location=\"DEL\" CountryCode=\"91\" Number=\"8006383398\"><ProviderReservationInfoRef Key=\"hw9RpPYYlDKArxdhHBAAAA==\"/></PhoneNumber><Email Key=\"Vm/UpPBAAA/BvSHkHBAAAA==\" EmailID=\"sailorrahul@yahoo.com\"><ProviderReservationInfoRef Key=\"hw9RpPYYlDKArxdhHBAAAA==\"/></Email><SSR Key=\"hCmcpPSc1BKAnaUtGBAAAA==\" SegmentRef=\"hw9RpPYYlDKAMfbhHBAAAA==\" ProviderReservationInfoRef=\"hw9RpPYYlDKArxdhHBAAAA==\" Type=\"TKNE\" Status=\"HK\" FreeText=\"2283761362307C1\" Carrier=\"UK\"/><NameRemark Key=\"Vm/UpPBAAA/BwSHkHBAAAA==\"><RemarkData>P-C8</RemarkData><ProviderReservationInfoRef Key=\"hw9RpPYYlDKArxdhHBAAAA==\"/></NameRemark><AirSeatAssignment Key=\"aO/XpPfYlDKAg9P2GBAAAA==\" Status=\"HK\" Seat=\"024D\" SegmentRef=\"hw9RpPYYlDKAMfbhHBAAAA==\" FlightDetailsRef=\"x/EbpPgB0BKAMcM2GBAAAA==\"/></BookingTraveler><FormOfPayment Key=\"AdhcpPQc1BKAy5B2GBAAAA==\" Type=\"Cash\" Reusable=\"false\" ProfileKey=\"HWGT1I1ISgqE2UZGFApcsA==\"/><Payment Key=\"hCmcpPSc1BKAraUtGBAAAA==\" Type=\"Itinerary\" FormOfPaymentRef=\"AdhcpPQc1BKAy5B2GBAAAA==\" Amount=\"INR3994\"/><SupplierLocator SupplierCode=\"UK\" SupplierLocatorCode=\"QGFCAT\"/><ns2:FareCalc>BOM UK DEL 3370 INR3370END XT 142YM130YR</ns2:FareCalc><ns2:Ticket Key=\"hCmcpPSc1BKAdaUtGBAAAA==\" TicketNumber=\"2283761362307\" TicketStatus=\"N\"><ns2:Coupon Key=\"hCmcpPSc1BKAeaUtGBAAAA==\" CouponNumber=\"1\" MarketingCarrier=\"UK\" MarketingFlightNumber=\"902\" Origin=\"BOM\" Destination=\"DEL\" DepartureTime=\"2020-10-31T15:45:00.000+05:30\" StopoverCode=\"true\" BookingClass=\"O\" FareBasis=\"OL1PYL\" NotValidBefore=\"2020-10-31\" NotValidAfter=\"2020-10-31\" Status=\"O\" SegmentGroup=\"0\" MarriageGroup=\"0\"><ns2:TicketDesignator Value=\"YL\"/></ns2:Coupon><ns2:TicketEndorsement Value=\"NF28107279512706\"/></ns2:Ticket><ns2:AirPricingInfo Key=\"W2hcpPOc1BKAcCZRGBAAAA==\" LatestTicketingTime=\"2020-08-16T23:59:00.000+05:30\" PricingMethod=\"Guaranteed\" ETicketability=\"Yes\" ProviderReservationInfoRef=\"hw9RpPYYlDKArxdhHBAAAA==\" AirPricingInfoGroup=\"1\" Ticketed=\"true\" PricingType=\"StoredFare\" TrueLastDateToTicket=\"2020-08-16T23:59:00.000+05:30\" FareCalculationInd=\"G\" TotalPrice=\"INR3994\" BasePrice=\"INR3370\" ApproximateTotalPrice=\"INR3994\" ApproximateBasePrice=\"INR3370\" Taxes=\"INR624\"><ns2:FareInfo Key=\"W2hcpPOc1BKATyZRGBAAAA==\" FareBasis=\"OL1PYL/Y\" PassengerTypeCode=\"CNN\" Origin=\"BOM\" Destination=\"DEL\" EffectiveDate=\"2020-08-16T00:00:00.000+05:30\" NotValidBefore=\"2020-10-31\" NotValidAfter=\"2020-10-31\"><ns2:FareTicketDesignator Value=\"L\"/><Endorsement Value=\"NON ENDORSABLE/NO MEAL\"/><Endorsement Value=\"NON RE-ROUTABLE/1PC-20KGS\"/><ns2:BaggageAllowance><ns2:MaxWeight Value=\"20\" Unit=\"Kilograms\"/></ns2:BaggageAllowance><ns2:Brand BrandID=\"211433\" Name=\"ECO LITE\" Carrier=\"UK\" BrandTier=\"0001\"><ns2:Title Type=\"External\">ECO LITE</ns2:Title><ns2:Title Type=\"Short\">ECO LITE</ns2:Title><ns2:Text Type=\"ATPCO\">//0B5/F/PRE RESERVED SEAT ASSIGNMENT//0BX/F/LOUNGEACCESS//0B3/F/MEAL SERVICES//0LF/F/PRIORITYBAGGAGE//0G6/F/PRIORITY BOARDING//0BW/F/PRIORITYCHECK IN//068/Z/CHANGE ANYTIME//06K/Z/REFUND BEFORE DEPARTURE//06L/Z/REFUNDAFTERDEPARTURE//058/Z/UPGRADE ELIGIBILITY//0M3/F/HANDBAGGAGE 7KG//0ML/F/EXCESS HAND BAGGAGE5KG//0C1/F/1 PC UPTO 15KG BAGGAGE//</ns2:Text><ns2:Text Type=\"MarketingConsumer\">ECO LITE\n\n• Complimentary beverage on board (tea/coffee)\n• 15 kg (1 piece only) Check-in Baggage Allowance\n• Hand Baggage included\n• Complimentary advance seat selection, select seats only\n• Buy-on-board light snacks\n• No changes permitted\n• No refunds permitted\n\n• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</ns2:Text><ns2:Text Type=\"MarketingAgent\">ECO LITE\n\n• Complimentary beverage on board (tea/coffee)\n• 15 kg (1 piece only) Check-in Baggage Allowance\n• Hand Baggage included\n• Complimentary advance seat selection, select seats only\n• Buy-on-board light snacks\n• No changes permitted\n• No refunds permitted\n\n• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</ns2:Text><ns2:Text Type=\"Strapline\">ECO LITE</ns2:Text><ns2:ImageLocation Type=\"Consumer\" ImageWidth=\"1400\" ImageHeight=\"800\">https://cdn.travelport.com/vistara/UK_general_large_80634.jpg</ns2:ImageLocation><ns2:ImageLocation Type=\"Agent\" ImageWidth=\"150\" ImageHeight=\"150\">https://cdn.travelport.com/vistara/UK_general_medium_80633.jpg</ns2:ImageLocation><ns2:OptionalServices><ns2:OptionalService Type=\"Baggage\" CreateDate=\"2020-08-16T07:01:27.290Z\" ServiceSubCode=\"0C1\" Key=\"2WqvdSiYlDKAokCYWAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Checked baggage 1x15kg</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_82178.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_82178.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService><ns2:OptionalService Type=\"Baggage\" SecondaryType=\"Carry On Hand Baggage\" CreateDate=\"2020-08-16T07:01:27.291Z\" ServiceSubCode=\"0M3\" Key=\"2WqvdSiYlDKApkCYWAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Hand baggage 7kg</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Chargeable Baggage\"/></ns2:OptionalService><ns2:OptionalService Type=\"PreReservedSeatAssignment\" CreateDate=\"2020-08-16T07:01:27.291Z\" ServiceSubCode=\"0B5\" Key=\"2WqvdSiYlDKAqkCYWAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Pre reserved seat assignment</Description><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg\"/><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService></ns2:OptionalServices></ns2:Brand></ns2:FareInfo><ns2:BookingInfo BookingCode=\"O\" CabinClass=\"Economy\" FareInfoRef=\"W2hcpPOc1BKATyZRGBAAAA==\"/><ns2:TaxInfo Key=\"2WqvdSiYlDKAhkCYWAAAAA==\" Category=\"K3\" Amount=\"INR175\"/><ns2:TaxInfo Key=\"2WqvdSiYlDKAikCYWAAAAA==\" Category=\"P2\" Amount=\"INR177\"/><ns2:TaxInfo Key=\"2WqvdSiYlDKAjkCYWAAAAA==\" Category=\"YM\" Amount=\"INR142\"/><ns2:TaxInfo Key=\"2WqvdSiYlDKAkkCYWAAAAA==\" Category=\"YR\" Amount=\"INR130\"/><ns2:FareCalc>BOM UK DEL 3370OL1PYL/YL INR3370END</ns2:FareCalc><ns2:PassengerType Code=\"CNN\" BookingTravelerRef=\"Vm/UpPBAAA/BrSHkHBAAAA==\"><ns2:FareGuaranteeInfo GuaranteeType=\"Guaranteed\"/></ns2:PassengerType><BookingTravelerRef Key=\"Vm/UpPBAAA/BrSHkHBAAAA==\"/></ns2:AirPricingInfo><ns2:BaggageAllowances><ns2:BaggageAllowanceInfo TravelerType=\"CNN\" Origin=\"BOM\" Destination=\"DEL\" Carrier=\"UK\"><ns2:URLInfo><ns2:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UK</ns2:URL></ns2:URLInfo><ns2:TextInfo><ns2:Text>20K</ns2:Text><ns2:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</ns2:Text></ns2:TextInfo><ns2:BagDetails ApplicableBags=\"1stChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails><ns2:BagDetails ApplicableBags=\"2ndChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails></ns2:BaggageAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"BOM\" Destination=\"DEL\" Carrier=\"UK\"><ns2:TextInfo><ns2:Text>7K</ns2:Text></ns2:TextInfo><ns2:CarryOnDetails ApplicableCarryOnBags=\"1\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails><ns2:CarryOnDetails ApplicableCarryOnBags=\"2\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails></ns2:CarryOnAllowanceInfo></ns2:BaggageAllowances></ns2:ETR></ns2:AirRetrieveDocumentRsp>",
+      "PostSaleTPBaggage2283761362305": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:AirRetrieveDocumentRsp UniversalRecordLocatorCode=\"89JIBM\" TransactionId=\"A100405E0A07406BE695A03E3B742981\" ResponseTime=\"456\" xmlns=\"http://www.travelport.com/schema/common_v47_0\" xmlns:ns6=\"http://www.travelport.com/schema/passive_v47_0\" xmlns:ns5=\"http://www.travelport.com/schema/hotel_v47_0\" xmlns:ns8=\"http://www.travelport.com/schema/cruise_v47_0\" xmlns:ns7=\"http://www.travelport.com/schema/rail_v47_0\" xmlns:ns2=\"http://www.travelport.com/schema/air_v47_0\" xmlns:ns4=\"http://www.travelport.com/schema/universal_v47_0\" xmlns:ns3=\"http://www.travelport.com/schema/vehicle_v47_0\"><ns2:ETR Key=\"hCmcpPSc1BKAfaUtGBAAAA==\" Refundable=\"false\" Exchangeable=\"false\" IssuedDate=\"2020-08-16T00:00:00.000+05:30\" ProviderCode=\"1G\" ProviderLocatorCode=\"T1NHSW\" IATANumber=\"14339942\" PseudoCityCode=\"WP7\" PlatingCarrier=\"UK\" TotalPrice=\"INR1449\" BasePrice=\"INR1250\" Taxes=\"INR199\"><ns2:AirReservationLocatorCode>89JIBO</ns2:AirReservationLocatorCode><AgencyInfo><AgentAction ActionType=\"Created\" AgentCode=\"uAPI1667027830-ed41e340\" BranchCode=\"P3084230\" AgencyCode=\"S3083002\" EventTime=\"2020-08-15T18:30:00.000Z\"/></AgencyInfo><BookingTraveler Key=\"Vm/UpPBAAA/BiSHkHBAAAA==\" TravelerType=\"INF\" Gender=\"M\"><BookingTravelerName Prefix=\"Mstr\" First=\"MUKUND\" Last=\"SINGH\"/><PhoneNumber Key=\"Vm/UpPBAAA/BjSHkHBAAAA==\" Type=\"None\" Location=\"DEL\" CountryCode=\"91\" Number=\"8006383398\"><ProviderReservationInfoRef Key=\"hw9RpPYYlDKArxdhHBAAAA==\"/></PhoneNumber><Email Key=\"Vm/UpPBAAA/BkSHkHBAAAA==\" EmailID=\"sailorrahul@yahoo.com\"><ProviderReservationInfoRef Key=\"hw9RpPYYlDKArxdhHBAAAA==\"/></Email><SSR Key=\"hCmcpPSc1BKAlaUtGBAAAA==\" SegmentRef=\"hw9RpPYYlDKAMfbhHBAAAA==\" ProviderReservationInfoRef=\"hw9RpPYYlDKArxdhHBAAAA==\" Type=\"TKNE\" Status=\"HK\" FreeText=\"2283761362305C1\" Carrier=\"UK\"/><NameRemark Key=\"Vm/UpPBAAA/BlSHkHBAAAA==\"><RemarkData>24JAN19</RemarkData><ProviderReservationInfoRef Key=\"hw9RpPYYlDKArxdhHBAAAA==\"/></NameRemark></BookingTraveler><FormOfPayment Key=\"AdhcpPQc1BKAy5B2GBAAAA==\" Type=\"Cash\" Reusable=\"false\" ProfileKey=\"CGCY1Vs7STuH/uKf4hChoA==\"/><Payment Key=\"hCmcpPSc1BKAsaUtGBAAAA==\" Type=\"Itinerary\" FormOfPaymentRef=\"AdhcpPQc1BKAy5B2GBAAAA==\" Amount=\"INR1449\"/><SupplierLocator SupplierCode=\"UK\" SupplierLocatorCode=\"QGFCAT\"/><ns2:FareCalc>BOM UK DEL 1250 INR1250END</ns2:FareCalc><ns2:Ticket Key=\"hCmcpPSc1BKAiaUtGBAAAA==\" TicketNumber=\"2283761362305\" TicketStatus=\"N\"><ns2:Coupon Key=\"hCmcpPSc1BKAjaUtGBAAAA==\" CouponNumber=\"1\" MarketingCarrier=\"UK\" MarketingFlightNumber=\"902\" Origin=\"BOM\" Destination=\"DEL\" DepartureTime=\"2020-10-31T15:45:00.000+05:30\" StopoverCode=\"true\" BookingClass=\"O\" FareBasis=\"OL1PYL\" NotValidBefore=\"2020-10-31\" NotValidAfter=\"2020-10-31\" Status=\"O\" SegmentGroup=\"0\" MarriageGroup=\"0\"><ns2:TicketDesignator Value=\"YL\"/></ns2:Coupon><ns2:TicketEndorsement Value=\"NF28107279512706\"/></ns2:Ticket><ns2:AirPricingInfo Key=\"W2hcpPOc1BKAVCZRGBAAAA==\" LatestTicketingTime=\"2020-08-16T23:59:00.000+05:30\" PricingMethod=\"Guaranteed\" ETicketability=\"Yes\" ProviderReservationInfoRef=\"hw9RpPYYlDKArxdhHBAAAA==\" AirPricingInfoGroup=\"1\" Ticketed=\"true\" PricingType=\"StoredFare\" TrueLastDateToTicket=\"2020-08-16T23:59:00.000+05:30\" FareCalculationInd=\"G\" TotalPrice=\"INR1449\" BasePrice=\"INR1250\" ApproximateTotalPrice=\"INR1449\" ApproximateBasePrice=\"INR1250\" Taxes=\"INR199\"><ns2:FareInfo Key=\"W2hcpPOc1BKARyZRGBAAAA==\" FareBasis=\"OL1PYL/Y\" PassengerTypeCode=\"INF\" Origin=\"BOM\" Destination=\"DEL\" EffectiveDate=\"2020-08-16T00:00:00.000+05:30\" NotValidBefore=\"2020-10-31\" NotValidAfter=\"2020-10-31\"><ns2:FareTicketDesignator Value=\"L\"/><Endorsement Value=\"NON ENDORSABLE/NO MEAL\"/><Endorsement Value=\"NON RE-ROUTABLE/1PC-20KGS\"/><ns2:BaggageAllowance><ns2:NumberOfPieces>0</ns2:NumberOfPieces></ns2:BaggageAllowance><ns2:Brand BrandID=\"211433\" Name=\"ECO LITE\" Carrier=\"UK\" BrandTier=\"0001\"><ns2:Title Type=\"External\">ECO LITE</ns2:Title><ns2:Title Type=\"Short\">ECO LITE</ns2:Title><ns2:Text Type=\"ATPCO\">//0B5/F/PRE RESERVED SEAT ASSIGNMENT//0BX/F/LOUNGEACCESS//0B3/F/MEAL SERVICES//0LF/F/PRIORITYBAGGAGE//0G6/F/PRIORITY BOARDING//0BW/F/PRIORITYCHECK IN//068/Z/CHANGE ANYTIME//06K/Z/REFUND BEFORE DEPARTURE//06L/Z/REFUNDAFTERDEPARTURE//058/Z/UPGRADE ELIGIBILITY//0M3/F/HANDBAGGAGE 7KG//0ML/F/EXCESS HAND BAGGAGE5KG//0C1/F/1 PC UPTO 15KG BAGGAGE//</ns2:Text><ns2:Text Type=\"MarketingConsumer\">ECO LITE\n\n• Complimentary beverage on board (tea/coffee)\n• 15 kg (1 piece only) Check-in Baggage Allowance\n• Hand Baggage included\n• Complimentary advance seat selection, select seats only\n• Buy-on-board light snacks\n• No changes permitted\n• No refunds permitted\n\n• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</ns2:Text><ns2:Text Type=\"MarketingAgent\">ECO LITE\n\n• Complimentary beverage on board (tea/coffee)\n• 15 kg (1 piece only) Check-in Baggage Allowance\n• Hand Baggage included\n• Complimentary advance seat selection, select seats only\n• Buy-on-board light snacks\n• No changes permitted\n• No refunds permitted\n\n• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</ns2:Text><ns2:Text Type=\"Strapline\">ECO LITE</ns2:Text><ns2:ImageLocation Type=\"Consumer\" ImageWidth=\"1400\" ImageHeight=\"800\">https://cdn.travelport.com/vistara/UK_general_large_80634.jpg</ns2:ImageLocation><ns2:ImageLocation Type=\"Agent\" ImageWidth=\"150\" ImageHeight=\"150\">https://cdn.travelport.com/vistara/UK_general_medium_80633.jpg</ns2:ImageLocation><ns2:OptionalServices><ns2:OptionalService Type=\"Baggage\" CreateDate=\"2020-08-16T07:01:27.199Z\" ServiceSubCode=\"0C1\" Key=\"W14pdSrB0BKAXrL9WAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Checked baggage 1x15kg</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_82178.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_82178.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService><ns2:OptionalService Type=\"Baggage\" SecondaryType=\"Carry On Hand Baggage\" CreateDate=\"2020-08-16T07:01:27.199Z\" ServiceSubCode=\"0M3\" Key=\"W14pdSrB0BKAYrL9WAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Hand baggage 7kg</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Chargeable Baggage\"/></ns2:OptionalService><ns2:OptionalService Type=\"PreReservedSeatAssignment\" CreateDate=\"2020-08-16T07:01:27.199Z\" ServiceSubCode=\"0B5\" Key=\"W14pdSrB0BKAZrL9WAAAAA==\" SupplierCode=\"UK\"><ServiceInfo><Description>Pre reserved seat assignment</Description><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg\"/><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService></ns2:OptionalServices></ns2:Brand></ns2:FareInfo><ns2:BookingInfo BookingCode=\"O\" CabinClass=\"Economy\" FareInfoRef=\"W2hcpPOc1BKARyZRGBAAAA==\"/><ns2:TaxInfo Key=\"W14pdSrB0BKASrL9WAAAAA==\" Category=\"K3\" Amount=\"INR69\"/><ns2:TaxInfo Key=\"W14pdSrB0BKATrL9WAAAAA==\" Category=\"YR\" Amount=\"INR130\"/><ns2:FareCalc>BOM UK DEL 1250OL1PYL/YL INR1250END</ns2:FareCalc><ns2:PassengerType Code=\"INF\" BookingTravelerRef=\"Vm/UpPBAAA/BiSHkHBAAAA==\"><ns2:FareGuaranteeInfo GuaranteeType=\"Guaranteed\"/></ns2:PassengerType><BookingTravelerRef Key=\"Vm/UpPBAAA/BiSHkHBAAAA==\"/></ns2:AirPricingInfo><ns2:BaggageAllowances><ns2:BaggageAllowanceInfo TravelerType=\"INF\" Origin=\"BOM\" Destination=\"DEL\" Carrier=\"UK\"><ns2:URLInfo><ns2:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UK</ns2:URL></ns2:URLInfo><ns2:TextInfo><ns2:Text>0P</ns2:Text><ns2:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</ns2:Text></ns2:TextInfo><ns2:BagDetails ApplicableBags=\"1stChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>BAGGAGE CHARGES DATA NOT AVAILABLE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails><ns2:BagDetails ApplicableBags=\"2ndChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>BAGGAGE CHARGES DATA NOT AVAILABLE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails></ns2:BaggageAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"BOM\" Destination=\"DEL\" Carrier=\"UK\"><ns2:TextInfo><ns2:Text>7K</ns2:Text></ns2:TextInfo><ns2:CarryOnDetails ApplicableCarryOnBags=\"1\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails><ns2:CarryOnDetails ApplicableCarryOnBags=\"2\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails></ns2:CarryOnAllowanceInfo></ns2:BaggageAllowances></ns2:ETR></ns2:AirRetrieveDocumentRsp>",
+      "PostSaleTPBaggagePcToKg902": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BaggageUnitMapDrools xmlns:ns2=\"com.mmt.international.entity.baggage.BaggageUnitMapDrools\"><airlineCode>UK</airlineCode><cabinClass>E</cabinClass><fromCity>BOM</fromCity><fromCountry>India</fromCountry><operatingAirlineCode>UK</operatingAirlineCode><pcToKgCabinAdt>7</pcToKgCabinAdt><pcToKgCabinChd>7</pcToKgCabinChd><pcToKgCabinInf>0</pcToKgCabinInf><pcToKgCheckedInAdt>15</pcToKgCheckedInAdt><pcToKgCheckedInChd>15</pcToKgCheckedInChd><pcToKgCheckedInInf>7</pcToKgCheckedInInf><toCity>DEL</toCity><toCountry>India</toCountry><travelDateEnd>2020-10-31T15:45:00+05:30</travelDateEnd><travelDateStart>2020-10-31T15:45:00+05:30</travelDateStart></ns2:BaggageUnitMapDrools>",
+      "PostTickedTPMiniRuleRequest0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostTickedTPMiniRuleRequest1": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostTickedTPMiniRuleRequest2": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostTickedRawTPMiniRuleResponseINFANT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenaltiesFromTicketNumberResponse xmlns:ns2=\"org.tempuri.GetPenaltiesFromTicketNumberResponse\"><getPenaltiesFromTicketNumberResult>&lt;ArrayOfFareRule xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;&lt;FareRule&gt;&lt;PaxType&gt;INF&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType /&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;INF&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType /&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;INF&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;INF&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;0&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;INF&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;0&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;INF&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;0&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks&gt;&lt;/Remarks&gt;&lt;/FareRule&gt;&lt;/ArrayOfFareRule&gt;</getPenaltiesFromTicketNumberResult></ns2:GetPenaltiesFromTicketNumberResponse>",
+      "PostTickedRawTPMiniRuleResponseADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenaltiesFromTicketNumberResponse xmlns:ns2=\"org.tempuri.GetPenaltiesFromTicketNumberResponse\"><getPenaltiesFromTicketNumberResult>&lt;ArrayOfFareRule xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType /&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType /&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NP&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks&gt;NP&lt;/Remarks&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NP&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks&gt;NP&lt;/Remarks&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;/ArrayOfFareRule&gt;</getPenaltiesFromTicketNumberResult></ns2:GetPenaltiesFromTicketNumberResponse>",
+      "PostTickedRawTPMiniRuleResponseCHILD": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenaltiesFromTicketNumberResponse xmlns:ns2=\"org.tempuri.GetPenaltiesFromTicketNumberResponse\"><getPenaltiesFromTicketNumberResult>&lt;ArrayOfFareRule xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;&lt;FareRule&gt;&lt;PaxType&gt;CHD&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType /&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;CHD&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType /&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;CHD&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;CHD&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;CHD&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;CHD&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;OL1PYL&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;/ArrayOfFareRule&gt;</getPenaltiesFromTicketNumberResult></ns2:GetPenaltiesFromTicketNumberResponse>",
+      "MiniRuleConfig": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:MiniRulesConfig xmlns:ns2=\"com.mmt.models.MiniRulesConfig\"><airline>UK</airline><CPAdditive>0.0</CPAdditive><CPMultiplier>1.05</CPMultiplier><cabinClass>ECONOMY</cabinClass><DCPAdditive>0.0</DCPAdditive><DCPMultiplier>1.05</DCPMultiplier><noShowCutOff>2</noShowCutOff><sector>DOM</sector></ns2:MiniRulesConfig>",
+      "PostTickedTPMiniRuleResponseINFANT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayOfFareRule><FareRule><PaxType>INF</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType></CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType></CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>0</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>0</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>0</FeeAmount><CATType>16</CATType></FareRule></ArrayOfFareRule>",
+      "PostTickedTPMiniRuleResponseADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayOfFareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType></CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType></CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule></ArrayOfFareRule>",
+      "PostTickedTPMiniRuleResponseCHILD": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayOfFareRule><FareRule><PaxType>CHD</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType></CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType></CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>OL1PYL</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule></ArrayOfFareRule>",
+      "PostSaleBaggageResponse0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"BOM-DEL : UK-902\":{\"fltGrps\":[{\"fltKeys\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{\"BOM-DEL : UK-902\":{\"fltGrps\":[{\"fltKeys\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftCancelFltPenaltyGrp\":{\"BOM-DEL : UK-902\":{\"fltGrps\":[{\"fltKeys\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"BOM-DEL : UK-902\":{\"fltGrps\":[{\"fltKeys\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{\"BOM-DEL : UK-902\":{\"fltGrps\":[{\"fltKeys\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftDateChngeFltPenaltyGrp\":{\"BOM-DEL : UK-902\":{\"fltGrps\":[{\"fltKeys\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"twFareRules\":[{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":0,\"to\":2,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":2,\"to\":8760,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":2,\"to\":8760,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":0,\"to\":2,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":2,\"to\":8760,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"0\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":0,\"to\":2,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":2,\"to\":8760,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":2,\"to\":8760,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":0,\"to\":2,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":0,\"to\":2,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":2,\"to\":8760,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"0\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":0,\"to\":2,\"fareBasis\":\"OL1PYL\",\"feeCurrency\":\"\",\"feeAmount\":\"0\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"BOM-DEL : UK-902\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"BOM-DEL : UK-902\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><aircraftType>320</aircraftType><arrTime>1604147700000</arrTime><arrivalInfo><arpCd>DEL</arpCd><trmnl>3</trmnl></arrivalInfo><depTime>1604139300000</depTime><departureInfo><arpCd>BOM</arpCd><trmnl>2</trmnl></departureInfo><duration>8400000</duration><flightNum>902</flightNum><marketingAirline>UK</marketingAirline><operatingAirline>UK</operatingAirline><validatingCarrier>UK</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NF28107279512706</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>16e4cb6867551fa780cd764b9ac888420ba20018</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>INFANT</key><value><allowance>7</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry><entry><key>ADULT</key><value><allowance>7</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry><entry><key>CHILD</key><value><allowance>7</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>INFANT</key><value><allowance>0</allowance><conversionRate>7</conversionRate><unit>PC</unit></value></entry><entry><key>ADULT</key><value><allowance>20</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry><entry><key>CHILD</key><value><allowance>20</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</flightLookUpKey><jrnyKey>BOM-DEL : UK-902</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>BOM-DEL : UK-902</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>2</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry><entry><key>CHILD</key><value><paxType>CHILD</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>2</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry><entry><key>INFANT</key><value><paxType>INFANT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>2</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>BOM-DEL : UK-902</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>2</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry><entry><key>CHILD</key><value><paxType>CHILD</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>2</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry><entry><key>INFANT</key><value><paxType>INFANT</paxType><timeWindows><airlinePenalty><cancellationPenalty>0.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>0.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>0.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>2</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>0.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily>ECO LITE</fareFamily><paxFares><entry><key>CHILD</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><fareBasis>OL1PYL/Y</fareBasis><fareClass>O</fareClass><PClass></PClass><rbd>O</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>3370.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>175.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>177.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YM</taxCode><taxVal>142.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>3994.0</singlePaxTot><singlePaxTx>624.0</singlePaxTx></value></entry><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>2</noOfPax><segPrdctInfo><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><fareBasis>OL1PYL/Y</fareBasis><fareClass>O</fareClass><PClass></PClass><rbd>O</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>3370.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>175.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>177.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YM</taxCode><taxVal>142.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>3994.0</singlePaxTot><singlePaxTx>624.0</singlePaxTx></value></entry><entry><key>INFANT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><fareBasis>OL1PYL/Y</fareBasis><fareClass>O</fareClass><PClass></PClass><rbd>O</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>1250.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>69.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>1449.0</singlePaxTot><singlePaxTx>199.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_DOM</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-10-31 18:05</arrDate><depDate>2020-10-31 15:45</depDate><duration>8400000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>BOM-DEL : UK-902</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "PostSaleCPResponseAfterSanity": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><aircraftType>320</aircraftType><arrTime>1604147700000</arrTime><arrivalInfo><arpCd>DEL</arpCd><trmnl>3</trmnl></arrivalInfo><depTime>1604139300000</depTime><departureInfo><arpCd>BOM</arpCd><trmnl>2</trmnl></departureInfo><duration>8400000</duration><flightNum>902</flightNum><marketingAirline>UK</marketingAirline><operatingAirline>UK</operatingAirline><validatingCarrier>UK</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NF28107279512706</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>16e4cb6867551fa780cd764b9ac888420ba20018</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>INFANT</key><value><allowance>7</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry><entry><key>ADULT</key><value><allowance>7</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry><entry><key>CHILD</key><value><allowance>7</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>INFANT</key><value><allowance>0</allowance><conversionRate>7</conversionRate><unit>PC</unit></value></entry><entry><key>ADULT</key><value><allowance>20</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry><entry><key>CHILD</key><value><allowance>20</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</flightLookUpKey><jrnyKey>BOM-DEL : UK-902</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>BOM-DEL : UK-902</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><currentATCPenalty><airlinePenalty><cancellationPenalty>3538.5</cancellationPenalty></airlinePenalty><waiver/></currentATCPenalty><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>2</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry><entry><key>CHILD</key><value><currentATCPenalty><airlinePenalty><cancellationPenalty>3538.5</cancellationPenalty></airlinePenalty><waiver/></currentATCPenalty><paxType>CHILD</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>2</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry><entry><key>INFANT</key><value><currentATCPenalty><airlinePenalty><cancellationPenalty>1312.5</cancellationPenalty></airlinePenalty><waiver/></currentATCPenalty><paxType>INFANT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>2</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>BOM-DEL : UK-902</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>2</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry><entry><key>CHILD</key><value><paxType>CHILD</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>2</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry><entry><key>INFANT</key><value><paxType>INFANT</paxType><timeWindows><airlinePenalty><cancellationPenalty>0.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>0.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>2</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>0.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>2</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>0.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily>ECO LITE</fareFamily><paxFares><entry><key>CHILD</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><fareBasis>OL1PYL/Y</fareBasis><fareClass>O</fareClass><PClass></PClass><rbd>O</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>3370.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>175.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>177.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YM</taxCode><taxVal>142.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>3994.0</singlePaxTot><singlePaxTx>624.0</singlePaxTx></value></entry><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>2</noOfPax><segPrdctInfo><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><fareBasis>OL1PYL/Y</fareBasis><fareClass>O</fareClass><PClass></PClass><rbd>O</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>3370.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>175.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>177.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YM</taxCode><taxVal>142.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>3994.0</singlePaxTot><singlePaxTx>624.0</singlePaxTx></value></entry><entry><key>INFANT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</key><value><fareBasis>OL1PYL/Y</fareBasis><fareClass>O</fareClass><PClass></PClass><rbd>O</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>1250.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>69.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>130.0</taxVal></singlePaxTaxBreakups><singlePaxTot>1449.0</singlePaxTot><singlePaxTx>199.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_DOM</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-10-31 18:05</arrDate><depDate>2020-10-31 15:45</depDate><duration>8400000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>BOM-DEL : UK-902</journeyKey></itineraryJrnyList></recoms></rcomGrps><status>SUCCCES</status></ns2:CPReqRes>",
+      "CurrentPNRState": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><CurrentPNRState xmlns=\"com.mmt.flights.rules.workflow.TPRefundRequiredCheckTask$CurrentPNRState\">BEFORE</CurrentPNRState>",
+      "IsVR3CallRequired": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Boolean xmlns=\"java.lang.Boolean\">true</Boolean>",
+      "CPRefundTPREQXML0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "CPRefundTPREQXML1": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "CPRefundTPREQXML2": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "CPRefundTPData2283761362304": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetRefundFareResponse xmlns:ns2=\"vr3service.GetRefundFareResponse\"><getRefundFareResult><baseFareRefund>0</baseFareRefund><cancellationFee>3370</cancellationFee><error></error><fareTaxBreakUp/><GST>168.5</GST><RAF>0</RAF><refundType></refundType><remarks>NONREF</remarks><taxDetails><taxDetail><rates>INR177</rates><type>P2</type></taxDetail><taxDetail><rates>INR142</rates><type>YM</type></taxDetail><taxDetail><rates>INR130</rates><type>YR</type></taxDetail></taxDetails><totalRefund>280.5</totalRefund></getRefundFareResult></ns2:GetRefundFareResponse>",
+      "CPRefundTPData2283761362307": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetRefundFareResponse xmlns:ns2=\"vr3service.GetRefundFareResponse\"><getRefundFareResult><baseFareRefund>0</baseFareRefund><cancellationFee>3370</cancellationFee><error></error><fareTaxBreakUp/><GST>168.5</GST><RAF>0</RAF><refundType></refundType><remarks>NONREF</remarks><taxDetails><taxDetail><rates>INR177</rates><type>P2</type></taxDetail><taxDetail><rates>INR142</rates><type>YM</type></taxDetail><taxDetail><rates>INR130</rates><type>YR</type></taxDetail></taxDetails><totalRefund>280.5</totalRefund></getRefundFareResult></ns2:GetRefundFareResponse>",
+      "CPRefundTPData2283761362305": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetRefundFareResponse xmlns:ns2=\"vr3service.GetRefundFareResponse\"><getRefundFareResult><baseFareRefund>0</baseFareRefund><cancellationFee>1250</cancellationFee><error></error><fareTaxBreakUp/><GST>62.5</GST><RAF>0</RAF><refundType></refundType><remarks>NONREF</remarks><taxDetails><taxDetail><rates>INR130</rates><type>YR</type></taxDetail></taxDetails><totalRefund>67.5</totalRefund></getRefundFareResult></ns2:GetRefundFareResponse>",
+      "vr3PenaltyDataMapINFANT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:VR3PenaltyData xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.refund.VR3PenaltyData\"><currencyCode>INR</currencyCode><penalty>1312.5</penalty></ns2:VR3PenaltyData>",
+      "vr3PenaltyDataMapADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:VR3PenaltyData xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.refund.VR3PenaltyData\"><currencyCode>INR</currencyCode><penalty>3538.5</penalty></ns2:VR3PenaltyData>",
+      "vr3PenaltyDataMapCHILD": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:VR3PenaltyData xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.refund.VR3PenaltyData\"><currencyCode>INR</currencyCode><penalty>3538.5</penalty></ns2:VR3PenaltyData>",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05": {
+      "mrkAl": "UK",
+      "oprAl": "UK",
+      "validatingCarrier": "UK",
+      "fltNo": "902",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "2",
+        "arpCd": "BOM"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL"
+      },
+      "depTime": 1604139300000,
+      "arrTime": 1604147700000,
+      "dur": 8400000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "BOM-DEL : UK-902",
+        "depDate": "2020-10-31 15:45",
+        "arrDate": "2020-10-31 18:05",
+        "dur": 8400000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "CHILD": {
+                  "singlePaxBaseFare": 3370.0,
+                  "singlePaxTx": 624.0,
+                  "singlePaxTot": 3994.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 175.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 177.0,
+                    "taxCode": "P2"
+                  }, {
+                    "taxVal": 142.0,
+                    "taxCode": "YM"
+                  }, {
+                    "taxVal": 130.0,
+                    "taxCode": "YR"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05": {
+                      "pclass": "",
+                      "fareClass": "O",
+                      "fareBasis": "OL1PYL/Y",
+                      "pClass": "",
+                      "rbd": "O"
+                    }
+                  }
+                },
+                "ADULT": {
+                  "singlePaxBaseFare": 3370.0,
+                  "singlePaxTx": 624.0,
+                  "singlePaxTot": 3994.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 175.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 177.0,
+                    "taxCode": "P2"
+                  }, {
+                    "taxVal": 142.0,
+                    "taxCode": "YM"
+                  }, {
+                    "taxVal": 130.0,
+                    "taxCode": "YR"
+                  }],
+                  "noOfPax": 2,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05": {
+                      "pclass": "",
+                      "fareClass": "O",
+                      "fareBasis": "OL1PYL/Y",
+                      "pClass": "",
+                      "rbd": "O"
+                    }
+                  }
+                },
+                "INFANT": {
+                  "singlePaxBaseFare": 1250.0,
+                  "singlePaxTx": 199.0,
+                  "singlePaxTot": 1449.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 69.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 130.0,
+                    "taxCode": "YR"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05": {
+                      "pclass": "",
+                      "fareClass": "O",
+                      "fareBasis": "OL1PYL/Y",
+                      "pClass": "",
+                      "rbd": "O"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "BOM-DEL : UK-902",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3538.5
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3538.5
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "airlinePenalty": {
+                        "cancellationPenalty": 1312.5
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "BOM-DEL : UK-902",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "BOM-DEL : UK-902",
+                "flightLookUpKey": "UK-902-BOM-DEL-2020-10-31 15:45-2020-10-31 18:05",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "INFANT": {
+                      "allowance": "0",
+                      "unit": "PC",
+                      "conversionRate": "7"
+                    },
+                    "ADULT": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "CHILD": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "INFANT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "CHILD": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "TP",
+              "supplierCredential": "TPUNI_DOM",
+              "fareFamily": "ECO LITE"
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

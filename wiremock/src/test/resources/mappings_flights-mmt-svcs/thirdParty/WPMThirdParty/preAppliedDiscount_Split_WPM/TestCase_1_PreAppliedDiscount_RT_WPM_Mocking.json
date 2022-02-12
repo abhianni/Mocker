@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/wpm/hcs/v2/rule/recommend",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Accept" : {"matches" : "application/json"},
+		"Authorization" : {"matches" : "d3BtQXBwbGljYXRpb24="}
+		},
+        "bodyPatterns":[{
+        "matches" : ".*\"sector\":.*\"BOM-DEL\".*"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/WPMThirdParty/preAppliedDiscount_Split_WPM/TestCase_1_PreAppliedDiscount_RT_WPM_Response.json"
+    }
+}

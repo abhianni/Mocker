@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/postSaleRules",
+    "bodyPatterns": [
+      {
+        "contains": "DEL-BOM : 6E-167"
+      }
+    ]
+  },
+  "response": {
+    "status": 503
+  }
+}
+

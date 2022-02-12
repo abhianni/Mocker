@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "GET",
+		"urlPattern": "/flights-search/v4/search?.*IXJ.*SXR.*SXR.*IXJ.*"
+       
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+        "bodyFileName": "/flights_search/cb/mergedRTDOM_SHD.json"
+		
+    }
+}

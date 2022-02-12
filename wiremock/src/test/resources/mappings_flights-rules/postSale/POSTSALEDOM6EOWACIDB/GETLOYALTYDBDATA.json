@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "urlPattern": "/flights-tp-svcs/v1/loyalty",
+    "bodyPatterns":[
+      {       "contains" : "NF28126264519618"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOM6EOWACIDB/GETLOYALTYDBDATA.json"
+  }
+}
+

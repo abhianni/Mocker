@@ -1,0 +1,80 @@
+{
+	"statusCode":200,
+	"status":"SUCCESS",
+	"persuasionMessages":[
+		"Airport Tolls included in price",
+		"No surge pricing, no queues"
+	],
+	"tnc":[
+		"Driver details will be shared up to 2 hours prior to departure.",
+		"Due to traffic or any other unavoidable reason, pickup may be delayed by 30 mins",
+		"Please choose your pickup time keeping time for baggage collection, immigration, custom checks, etc.",
+		"MMT reserves the right to cancel or change the booking of a vehicle at any point",
+		"The booking will be for particular car category and we do not commit on providing any preferred car mode",
+		"Waiting Charges: For drop to airport, post 15 mins of waiting a charge of Rs 100/30 min will be levied. For pickup from airport, post 45 mins of waiting a charge of Rs 100/30 min will be levied. In cases where the driver is made to wait indefinitely, booking can be cancelled with no refund."
+	],
+	"tncLink":"https://promos.makemytrip.com/flight-addon-terms.html",
+	"pickUpAndDropCabs":[
+		{
+			"key":"DL_AIR3_drop_sedan_1578052683088",
+			"displayMsg":"Book Cab Drop To Terminal 2 Delhi Airport, Igi",
+			"cabCityCode":"DL_AIR3",
+			"cityCode":"DEL",
+			"flightDepartureDate":1580409300000,
+			"cabServiceType":"DROP",
+			"date":1580322600000,
+			"flightNumber":"6E-2376",
+			"cabs":[
+				{
+					"tripLegId":"DEL_BLR_31-01-2020_00:05",
+					"cabCategory":"SEDAN",
+					"cabImageUrl":"https://imgak.mmtcdn.com/cabs_cdn/dist/static/images/new_cab_images/sedan.png",
+					"vendorId":"4",
+					"luggageCapacity":"3 BAGS",
+					"seatCapacity":"4 SEATS",
+					"fareOptions":[
+						{
+							"itemCode":"DROP_6E-2376_2020-01-30_00:00_249.0",
+							"totalPrice":249.0,
+							"inclusiveKms":10,
+							"extraFarePerKm":21.0,
+							"priceMessage":"Flat ?249.0 up to 10.0 kms",
+							"isSelected":false
+						}
+					]
+				}
+			]
+		},
+		{
+			"key":"BLR_AIR_pickup_sedan_1578052683091",
+			"displayMsg":"Book Cab Pick-up From Bangalore International Airport",
+			"cabCityCode":"BLR_AIR",
+			"cityCode":"BLR",
+			"flightDepartureDate":1580409300000,
+			"cabServiceType":"PICKUP",
+			"date":1580409000000,
+			"flightNumber":"6E-2376",
+			"cabs":[
+				{
+					"tripLegId":"DEL_BLR_31-01-2020_00:05",
+					"cabCategory":"SEDAN",
+					"cabImageUrl":"https://imgak.mmtcdn.com/cabs_cdn/dist/static/images/new_cab_images/sedan.png",
+					"vendorId":"4",
+					"luggageCapacity":"3 BAGS",
+					"seatCapacity":"4 SEATS",
+					"fareOptions":[
+						{
+							"itemCode":"PICKUP_6E-2376_2020-01-31_00:00_799.0",
+							"totalPrice":799.0,
+							"inclusiveKms":45,
+							"extraFarePerKm":20.0,
+							"priceMessage":"Flat ?799.0 up to 45.0 kms",
+							"isSelected":false
+						}
+					]
+				}
+			]
+		}
+	],
+	"cardDisplayMsg":"Airport Pickups & Drops"
+}

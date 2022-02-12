@@ -1,0 +1,241 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NN7813253854624",
+    "iteneraryId": "64adb14cb2a220880d94c6eea632accc44351369",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><String xmlns=\"java.lang.String\">NN7813253854624</String>",
+      "BookingAggregatorResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BookingData xmlns:ns2=\"com.mmt.flights.getpnr.BookingData\"><cabinClass>E</cabinClass><cancellationAssurance>false</cancellationAssurance><itineraryId>64adb14cb2a220880d94c6eea632accc44351369</itineraryId><mmtId>NN7813253854624</mmtId><pnrData><airlineCode>SG</airlineCode><pnrNo>RH75KX</pnrNo><supplierId>SGUNICOUP</supplierId><supplierType>NAV42</supplierType></pnrData><pnrData><airlineCode>AI</airlineCode><pnrNo>1TK3D4</pnrNo><supplierId>TPUNI_DOM</supplierId><supplierType>TP</supplierType></pnrData><userData><profileType>PERSONAL</profileType><uuid>UGDMC07TJGH</uuid></userData></ns2:BookingData>",
+      "PostSaleCPReq": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</key><value><aircraftType>32B</aircraftType><arrTime>1604285100000</arrTime><arrivalInfo><arpCd>LKO</arpCd><trmnl>2</trmnl></arrivalInfo><depTime>1604280900000</depTime><departureInfo><arpCd>DEL</arpCd><trmnl>3</trmnl></departureInfo><duration>4200000</duration><flightNum>411</flightNum><marketingAirline>AI</marketingAirline><operatingAirline>AI</operatingAirline><validatingCarrier>AI</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NN7813253854624</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>64adb14cb2a220880d94c6eea632accc44351369</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><cancellationAssured>false</cancellationAssured><fareFamily>Economy Saver</fareFamily><paxFares><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</key><value><fareBasis>SIP</fareBasis><fareClass>S</fareClass><PClass></PClass><rbd>S</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>2330.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>125.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>189.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>WO</taxCode><taxVal>91.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>170.0</taxVal></singlePaxTaxBreakups><singlePaxTot>2905.0</singlePaxTot><singlePaxTx>575.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_DOM</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-11-02 08:15</arrDate><depDate>2020-11-02 07:05</depDate><duration>4200000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>DEL-LKO : AI-411</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-09-10 18:12:28\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NN7813253854624\\\",\\\"iteneraryId\\\":\\\"64adb14cb2a220880d94c6eea632accc44351369\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\\\":{\\\"mrkAl\\\":\\\"AI\\\",\\\"oprAl\\\":\\\"AI\\\",\\\"validatingCarrier\\\":\\\"AI\\\",\\\"fltNo\\\":\\\"411\\\",\\\"arcrfTyp\\\":\\\"32B\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"3\\\",\\\"arpCd\\\":\\\"DEL\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"2\\\",\\\"arpCd\\\":\\\"LKO\\\"},\\\"depTime\\\":1604280900000,\\\"arrTime\\\":1604285100000,\\\"dur\\\":4200000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"DEL-LKO : AI-411\\\",\\\"depDate\\\":\\\"2020-11-02 07:05\\\",\\\"arrDate\\\":\\\"2020-11-02 08:15\\\",\\\"dur\\\":4200000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":2330.0,\\\"singlePaxTx\\\":575.0,\\\"singlePaxTot\\\":2905.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":125.0,\\\"taxCode\\\":\\\"K3\\\"},{\\\"taxVal\\\":189.0,\\\"taxCode\\\":\\\"P2\\\"},{\\\"taxVal\\\":91.0,\\\"taxCode\\\":\\\"WO\\\"},{\\\"taxVal\\\":170.0,\\\"taxCode\\\":\\\"YR\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{},\\\"segPrdctInfo\\\":{\\\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\\\":{\\\"pclass\\\":\\\"\\\",\\\"fareClass\\\":\\\"S\\\",\\\"fareBasis\\\":\\\"SIP\\\",\\\"pClass\\\":\\\"\\\",\\\"rbd\\\":\\\"S\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"TP\\\",\\\"supplierCredential\\\":\\\"TPUNI_DOM\\\",\\\"fareFamily\\\":\\\"Economy Saver\\\"}]}}}}]}}\",\"ticketData\":\"{\\\"paxWiseTicket\\\":{\\\"0983761747776\\\":\\\"ADULT\\\"},\\\"ticketToOfficeIdMap\\\":{\\\"0983761747776\\\":\\\"P3084214\\\"},\\\"ticketToAccountCodeMap\\\":{\\\"0983761747776\\\":\\\"\\\"},\\\"allTicketsByPaxType\\\":{\\\"0983761747776\\\":\\\"ADULT\\\"},\\\"oneTicketNumberPerPaxType\\\":{\\\"0983761747776\\\":\\\"ADULT\\\"}}\",\"mmtId\":\"NN7813253854624\"}",
+      "TPPostSaleBagXML0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostSaleTPBaggage0983761747776": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:AirRetrieveDocumentRsp UniversalRecordLocatorCode=\"8VILLQ\" TransactionId=\"A052AA340A07405EFA583887B15CB6E3\" ResponseTime=\"438\" xmlns=\"http://www.travelport.com/schema/common_v47_0\" xmlns:ns6=\"http://www.travelport.com/schema/passive_v47_0\" xmlns:ns5=\"http://www.travelport.com/schema/hotel_v47_0\" xmlns:ns8=\"http://www.travelport.com/schema/cruise_v47_0\" xmlns:ns7=\"http://www.travelport.com/schema/rail_v47_0\" xmlns:ns2=\"http://www.travelport.com/schema/air_v47_0\" xmlns:ns4=\"http://www.travelport.com/schema/universal_v47_0\" xmlns:ns3=\"http://www.travelport.com/schema/vehicle_v47_0\"><ns2:ETR Key=\"SBWfvRYc1BKAj1skEBAAAA==\" Refundable=\"false\" Exchangeable=\"false\" IssuedDate=\"2020-09-10T00:00:00.000+05:30\" ProviderCode=\"1G\" ProviderLocatorCode=\"1TK3D4\" IATANumber=\"14339942\" PseudoCityCode=\"WP7\" PlatingCarrier=\"AI\" TotalPrice=\"INR2905\" BasePrice=\"INR2330\" Taxes=\"INR575\"><ns2:AirReservationLocatorCode>8VILLV</ns2:AirReservationLocatorCode><AgencyInfo><AgentAction ActionType=\"Created\" AgentCode=\"uAPI1667027830-ed41e340\" BranchCode=\"P3084230\" AgencyCode=\"S3083002\" EventTime=\"2020-09-09T18:30:00.000Z\"/></AgencyInfo><BookingTraveler Key=\"KEJkvReYlDKAcEIsDBAAAA==\" TravelerType=\"ADT\" Gender=\"M\"><BookingTravelerName Prefix=\"MR\" First=\"prabhanshu\" Last=\"mishra\"/><PhoneNumber Key=\"KEJkvReYlDKAdEIsDBAAAA==\" Type=\"None\" Location=\"DEL\" CountryCode=\"971\" Number=\"581055084\"><ProviderReservationInfoRef Key=\"/1fUvRBAAA/B+gisFBAAAA==\"/></PhoneNumber><Email Key=\"KEJkvReYlDKAhEIsDBAAAA==\" EmailID=\"prabhanshu.misra@gmail.com\"><ProviderReservationInfoRef Key=\"/1fUvRBAAA/B+gisFBAAAA==\"/></Email><SSR Key=\"KEJkvReYlDKA72KsDBAAAA==\" ProviderReservationInfoRef=\"/1fUvRBAAA/B+gisFBAAAA==\" Type=\"DOCS\" Status=\"HK\" FreeText=\"P/IN/P4368372/IN/31MAY90/M/21SEP26/MISHRA/PRABHANSHU/ -1MISHRA/PRABHANSHUMR\" Carrier=\"AI\"/><SSR Key=\"SBWfvRYc1BKAp1skEBAAAA==\" SegmentRef=\"/1fUvRBAAA/B7gisFBAAAA==\" ProviderReservationInfoRef=\"/1fUvRBAAA/B+gisFBAAAA==\" Type=\"TKNE\" Status=\"HK\" FreeText=\"0983761747776C1\" Carrier=\"AI\"/><AirSeatAssignment Key=\"GgYdvRjB0BKABN1pEBAAAA==\" Status=\"HK\" Seat=\"012A\" SegmentRef=\"/1fUvRBAAA/B7gisFBAAAA==\"/></BookingTraveler><FormOfPayment Key=\"/ZHXvRBAAA/BNqnxEBAAAA==\" Type=\"Credit\" Reusable=\"true\" ProfileKey=\"eWuz42uJRJGFJeOZDQxhOQ==\"><CreditCard Type=\"VI\" Number=\"************2007\" ExpDate=\"2024-01\"/></FormOfPayment><Payment Key=\"SBWfvRYc1BKAr1skEBAAAA==\" Type=\"Itinerary\" FormOfPaymentRef=\"/ZHXvRBAAA/BNqnxEBAAAA==\" Amount=\"INR2905\"/><CreditCardAuth PaymentRef=\"SBWfvRYc1BKAr1skEBAAAA==\" Number=\"************2007\" Amount=\"INR2905\" AuthCode=\"431274\" AuthResultCode=\"approved\" FormOfPaymentRef=\"/ZHXvRBAAA/BNqnxEBAAAA==\"/><SupplierLocator SupplierCode=\"AI\" SupplierLocatorCode=\"HBN0E\"/><ns2:FareCalc>DEL AI LKO 2330 INR2330END XT 91WO170YR</ns2:FareCalc><ns2:Ticket Key=\"SBWfvRYc1BKAn1skEBAAAA==\" TicketNumber=\"0983761747776\" TicketStatus=\"N\"><ns2:Coupon Key=\"SBWfvRYc1BKAo1skEBAAAA==\" CouponNumber=\"1\" MarketingCarrier=\"AI\" MarketingFlightNumber=\"411\" Origin=\"DEL\" Destination=\"LKO\" DepartureTime=\"2020-11-02T07:05:00.000+05:30\" StopoverCode=\"true\" BookingClass=\"S\" FareBasis=\"SIP\" NotValidBefore=\"2020-11-02\" NotValidAfter=\"2020-11-02\" Status=\"O\" SegmentGroup=\"0\" MarriageGroup=\"0\"/><ns2:TicketEndorsement Value=\"NN7813253854624\"/></ns2:Ticket><Commission Key=\"Q55pdSeB0BKAC5WgRAAAAA==\" Level=\"Fare\" Type=\"PercentBase\" Percentage=\"1.5\"/><ns2:AirPricingInfo Key=\"ybeUvRBAAA/BaseyFBAAAA==\" LatestTicketingTime=\"2020-09-10T23:59:00.000+05:30\" PricingMethod=\"Guaranteed\" ETicketability=\"Yes\" ProviderReservationInfoRef=\"/1fUvRBAAA/B+gisFBAAAA==\" AirPricingInfoGroup=\"1\" Ticketed=\"true\" PricingType=\"StoredFare\" TrueLastDateToTicket=\"2020-11-02T23:59:00.000+05:30\" FareCalculationInd=\"G\" TotalPrice=\"INR2905\" BasePrice=\"INR2330\" ApproximateTotalPrice=\"INR2905\" ApproximateBasePrice=\"INR2330\" Taxes=\"INR575\"><ns2:FareInfo Key=\"k5tmvRsYlDKA6joeDBAAAA==\" FareBasis=\"SIP\" PassengerTypeCode=\"ADT\" Origin=\"DEL\" Destination=\"LKO\" EffectiveDate=\"2020-09-10T00:00:00.000+05:30\" NotValidBefore=\"2020-11-02\" NotValidAfter=\"2020-11-02\"><Endorsement Value=\"NON ENDORSABLE/ CHANGE/\"/><Endorsement Value=\"CANCELLATION/NO-SHOW FEE\"/><Endorsement Value=\"APPLY PER SECTOR\"/><ns2:BaggageAllowance><ns2:MaxWeight Value=\"25\" Unit=\"Kilograms\"/></ns2:BaggageAllowance><ns2:Brand BrandID=\"361790\" Name=\"Economy Saver\" Carrier=\"AI\" BrandTier=\"0001\"><ns2:Title Type=\"External\">Economy Saver</ns2:Title><ns2:Title Type=\"Short\">EcoSaver</ns2:Title><ns2:Text Type=\"MarketingConsumer\">Included in your ECONOMY SAVER fare are:\n\n•  Check in 25kg baggage allowance. \n•  Carry on one bag max 8kg. \n•  Choice of continental or Indian cuisine non veg or veg. \n•  Complimentary liquors and wine. \n•  Spacious seats with a pitch of 33 inches. \n•  Rebooking against a fee until 24hrs prior departure. \n•  Refunds against a fee until 24hrs prior departure. \n•  Earn miles when you fly.\n\nNote: Refer to fare rules for specific booking terms and conditions.\n• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</ns2:Text><ns2:Text Type=\"MarketingAgent\">Included in your ECONOMY SAVER fare are:\n\n•  Check in 25kg baggage allowance. \n•  Carry on one bag max 8kg. \n•  Choice of continental or Indian cuisine non veg or veg. \n•  Complimentary liquors and wine. \n•  Spacious seats with a pitch of 33 inches. \n•  Rebooking against a fee until 24hrs prior departure. \n•  Refunds against a fee until 24hrs prior departure. \n•  Earn miles when you fly.\n\nNote: Refer to fare rules for specific booking terms and conditions.\n• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</ns2:Text><ns2:Text Type=\"Strapline\">For our budget minded travellers</ns2:Text><ns2:ImageLocation Type=\"Consumer\" ImageWidth=\"1400\" ImageHeight=\"800\">https://cdn.travelport.com/airindia/AI_general_large_42653.jpg</ns2:ImageLocation><ns2:ImageLocation Type=\"Agent\" ImageWidth=\"150\" ImageHeight=\"149\">https://cdn.travelport.com/airindia/AI_general_medium_2171.jpg</ns2:ImageLocation><ns2:OptionalServices><ns2:OptionalService Type=\"Baggage\" CreateDate=\"2020-09-10T18:12:32.386Z\" Key=\"Q55pdSeB0BKAN5WgRAAAAA==\" SupplierCode=\"AI\"><ServiceInfo><Description>Domestic Checked Baggage</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2152.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService><ns2:OptionalService Type=\"Baggage\" SecondaryType=\"Carry On Hand Baggage\" CreateDate=\"2020-09-10T18:12:32.386Z\" Key=\"Q55pdSeB0BKAO5WgRAAAAA==\" SupplierCode=\"AI\"><ServiceInfo><Description>Carry on baggage</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2153.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService><ns2:OptionalService Type=\"PreReservedSeatAssignment\" CreateDate=\"2020-09-10T18:12:32.386Z\" Key=\"Q55pdSeB0BKAP5WgRAAAAA==\" SupplierCode=\"AI\"><ServiceInfo><Description>Advance seat reservation</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2162.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService><ns2:OptionalService Type=\"MealOrBeverage\" CreateDate=\"2020-09-10T18:12:32.386Z\" Key=\"Q55pdSeB0BKAQ5WgRAAAAA==\" SupplierCode=\"AI\"><ServiceInfo><Description>Inflight Meals</Description><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg\"/><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2158.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService><ns2:OptionalService Type=\"FrequentFlyer\" SecondaryType=\"Mileage Accrual\" CreateDate=\"2020-09-10T18:12:32.386Z\" Key=\"Q55pdSeB0BKAR5WgRAAAAA==\" SupplierCode=\"AI\"><ServiceInfo><Description>Miles accrual</Description><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg\"/><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2154.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService><ns2:OptionalService Type=\"Upgrades\" CreateDate=\"2020-09-10T18:12:32.386Z\" Key=\"Q55pdSeB0BKAS5WgRAAAAA==\" SupplierCode=\"AI\"><ServiceInfo><Description>Mileage upgrade</Description><MediaItem caption=\"CONSUMER\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg\"/><MediaItem caption=\"AGENT\" height=\"60\" width=\"60\" url=\"https://cdn.travelport.com/airindia/AI_general_medium_2166.jpg\"/></ServiceInfo><ns2:EMD AssociatedItem=\"Flight\"/></ns2:OptionalService></ns2:OptionalServices></ns2:Brand></ns2:FareInfo><ns2:BookingInfo BookingCode=\"S\" CabinClass=\"Economy\" FareInfoRef=\"k5tmvRsYlDKA6joeDBAAAA==\"/><ns2:TaxInfo Key=\"Q55pdSeB0BKAF5WgRAAAAA==\" Category=\"K3\" Amount=\"INR125\"/><ns2:TaxInfo Key=\"Q55pdSeB0BKAG5WgRAAAAA==\" Category=\"P2\" Amount=\"INR189\"/><ns2:TaxInfo Key=\"Q55pdSeB0BKAH5WgRAAAAA==\" Category=\"WO\" Amount=\"INR91\"/><ns2:TaxInfo Key=\"Q55pdSeB0BKAI5WgRAAAAA==\" Category=\"YR\" Amount=\"INR170\"/><ns2:FareCalc>DEL AI LKO 2330SIP INR2330END</ns2:FareCalc><ns2:PassengerType Code=\"ADT\" BookingTravelerRef=\"KEJkvReYlDKAcEIsDBAAAA==\"><ns2:FareGuaranteeInfo GuaranteeType=\"Guaranteed\"/></ns2:PassengerType><BookingTravelerRef Key=\"KEJkvReYlDKAcEIsDBAAAA==\"/></ns2:AirPricingInfo><ns2:BaggageAllowances><ns2:BaggageAllowanceInfo TravelerType=\"ADT\" Origin=\"DEL\" Destination=\"LKO\" Carrier=\"AI\"><ns2:URLInfo><ns2:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/AI</ns2:URL></ns2:URLInfo><ns2:TextInfo><ns2:Text>25K</ns2:Text><ns2:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</ns2:Text></ns2:TextInfo><ns2:BagDetails ApplicableBags=\"1stChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails><ns2:BagDetails ApplicableBags=\"2ndChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails></ns2:BaggageAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"DEL\" Destination=\"LKO\" Carrier=\"AI\"><ns2:TextInfo><ns2:Text>8K</ns2:Text></ns2:TextInfo><ns2:CarryOnDetails ApplicableCarryOnBags=\"1\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails><ns2:CarryOnDetails ApplicableCarryOnBags=\"2\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:CarryOnDetails></ns2:CarryOnAllowanceInfo></ns2:BaggageAllowances></ns2:ETR></ns2:AirRetrieveDocumentRsp>",
+      "PostSaleTPBaggagePcToKg411": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BaggageUnitMapDrools xmlns:ns2=\"com.mmt.international.entity.baggage.BaggageUnitMapDrools\"><airlineCode>AI</airlineCode><cabinClass>E</cabinClass><fromCity>DEL</fromCity><fromCountry>India</fromCountry><operatingAirlineCode>AI</operatingAirlineCode><pcToKgCabinAdt>7</pcToKgCabinAdt><pcToKgCabinChd>7</pcToKgCabinChd><pcToKgCabinInf>0</pcToKgCabinInf><pcToKgCheckedInAdt>23</pcToKgCheckedInAdt><pcToKgCheckedInChd>23</pcToKgCheckedInChd><pcToKgCheckedInInf>10</pcToKgCheckedInInf><toCity>LKO</toCity><toCountry>India</toCountry><travelDateEnd>2020-11-02T07:05:00+05:30</travelDateEnd><travelDateStart>2020-11-02T07:05:00+05:30</travelDateStart></ns2:BaggageUnitMapDrools>",
+      "PostTickedTPMiniRuleRequest0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PostTickedRawTPMiniRuleResponseADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenaltiesFromTicketNumberResponse xmlns:ns2=\"org.tempuri.GetPenaltiesFromTicketNumberResponse\"><getPenaltiesFromTicketNumberResult>&lt;ArrayOfFareRule xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;SIP&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType /&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;SIP&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;3000&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;SIP&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;SIP&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;3000&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;SIP&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;3000&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;AI&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;SIP&lt;/FareBasis&gt;&lt;FeeCurrency /&gt;&lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;/ArrayOfFareRule&gt;</getPenaltiesFromTicketNumberResult></ns2:GetPenaltiesFromTicketNumberResponse>",
+      "MiniRuleConfig": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:MiniRulesConfig xmlns:ns2=\"com.mmt.models.MiniRulesConfig\"><airline>AI</airline><CPAdditive>0.0</CPAdditive><CPMultiplier>1.05</CPMultiplier><cabinClass>ECONOMY</cabinClass><DCPAdditive>0.0</DCPAdditive><DCPMultiplier>1.05</DCPMultiplier><noShowCutOff>24</noShowCutOff><sector>DOM</sector></ns2:MiniRulesConfig>",
+      "PostTickedTPMiniRuleResponseADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayOfFareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>AI</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>SIP</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType></CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>AI</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>SIP</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3000</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>AI</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>SIP</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>AI</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>SIP</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3000</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>AI</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>SIP</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3000</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>AI</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>SIP</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>16</CATType></FareRule></ArrayOfFareRule>",
+      "PostSaleBaggageResponse0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"DEL-LKO : AI-411\":{\"fltGrps\":[{\"fltKeys\":[\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"DEL-LKO : AI-411\":{\"fltGrps\":[{\"fltKeys\":[\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"AI\",\"from\":24,\"to\":8760,\"fareBasis\":\"SIP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"AI\",\"from\":24,\"to\":8760,\"fareBasis\":\"SIP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"AI\",\"from\":0,\"to\":24,\"fareBasis\":\"SIP\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"AI\",\"from\":0,\"to\":24,\"fareBasis\":\"SIP\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"AI\",\"from\":-8760,\"to\":0,\"fareBasis\":\"SIP\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"AI\",\"from\":-8760,\"to\":0,\"fareBasis\":\"SIP\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3000\",\"mmtFee\":300.0,\"supplierType\":\"TP\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"DEL-LKO : AI-411\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"DEL-LKO : AI-411\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</key><value><aircraftType>32B</aircraftType><arrTime>1604285100000</arrTime><arrivalInfo><arpCd>LKO</arpCd><trmnl>2</trmnl></arrivalInfo><depTime>1604280900000</depTime><departureInfo><arpCd>DEL</arpCd><trmnl>3</trmnl></departureInfo><duration>4200000</duration><flightNum>411</flightNum><marketingAirline>AI</marketingAirline><operatingAirline>AI</operatingAirline><validatingCarrier>AI</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NN7813253854624</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>64adb14cb2a220880d94c6eea632accc44351369</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>8</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>25</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</flightLookUpKey><jrnyKey>DEL-LKO : AI-411</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>DEL-LKO : AI-411</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>DEL-LKO : AI-411</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>3150.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily>Economy Saver</fareFamily><paxFares><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</key><value><fareBasis>SIP</fareBasis><fareClass>S</fareClass><PClass></PClass><rbd>S</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>2330.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>125.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>189.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>WO</taxCode><taxVal>91.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>170.0</taxVal></singlePaxTaxBreakups><singlePaxTot>2905.0</singlePaxTot><singlePaxTx>575.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_DOM</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-11-02 08:15</arrDate><depDate>2020-11-02 07:05</depDate><duration>4200000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>DEL-LKO : AI-411</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "PostSaleCPResponseAfterSanity": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</key><value><aircraftType>32B</aircraftType><arrTime>1604285100000</arrTime><arrivalInfo><arpCd>LKO</arpCd><trmnl>2</trmnl></arrivalInfo><depTime>1604280900000</depTime><departureInfo><arpCd>DEL</arpCd><trmnl>3</trmnl></departureInfo><duration>4200000</duration><flightNum>411</flightNum><marketingAirline>AI</marketingAirline><operatingAirline>AI</operatingAirline><validatingCarrier>AI</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>NN7813253854624</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>64adb14cb2a220880d94c6eea632accc44351369</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>8</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>25</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</flightLookUpKey><jrnyKey>DEL-LKO : AI-411</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>DEL-LKO : AI-411</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><currentATCPenalty><airlinePenalty><cancellationPenalty>2447.0</cancellationPenalty></airlinePenalty><waiver/></currentATCPenalty><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>300.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>DEL-LKO : AI-411</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>300.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily>Economy Saver</fareFamily><paxFares><entry><key>ADULT</key><value><journeyWiseFare/><noOfPax>1</noOfPax><segPrdctInfo><entry><key>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</key><value><fareBasis>SIP</fareBasis><fareClass>S</fareClass><PClass></PClass><rbd>S</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>2330.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>125.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>P2</taxCode><taxVal>189.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>WO</taxCode><taxVal>91.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>YR</taxCode><taxVal>170.0</taxVal></singlePaxTaxBreakups><singlePaxTot>2905.0</singlePaxTot><singlePaxTx>575.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_DOM</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-11-02 08:15</arrDate><depDate>2020-11-02 07:05</depDate><duration>4200000</duration><flightPnrLookupInfo><cabin>E</cabin><fltLookUpKey>AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>DEL-LKO : AI-411</journeyKey></itineraryJrnyList></recoms></rcomGrps><status>SUCCCES</status></ns2:CPReqRes>",
+      "CurrentPNRState": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><CurrentPNRState xmlns=\"com.mmt.flights.rules.workflow.TPRefundRequiredCheckTask$CurrentPNRState\">BEFORE</CurrentPNRState>",
+      "IsVR3CallRequired": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Boolean xmlns=\"java.lang.Boolean\">true</Boolean>",
+      "CPRefundTPREQXML0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "CPRefundTPData0983761747776": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetRefundFareResponse xmlns:ns2=\"vr3service.GetRefundFareResponse\"><getRefundFareResult><baseFareRefund></baseFareRefund><cancellationFee>2330</cancellationFee><error></error><fareTaxBreakUp/><GST>117</GST><RAF>0</RAF><refundType>F</refundType><remarks></remarks><totalRefund></totalRefund></getRefundFareResult></ns2:GetRefundFareResponse>",
+      "vr3PenaltyDataMapADULT": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:VR3PenaltyData xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.refund.VR3PenaltyData\"><currencyCode>INR</currencyCode><penalty>2447.0</penalty></ns2:VR3PenaltyData>",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15": {
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "validatingCarrier": "AI",
+      "fltNo": "411",
+      "arcrfTyp": "32B",
+      "depInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL"
+      },
+      "arrInfo": {
+        "trmnl": "2",
+        "arpCd": "LKO"
+      },
+      "depTime": 1604280900000,
+      "arrTime": 1604285100000,
+      "dur": 4200000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "DEL-LKO : AI-411",
+        "depDate": "2020-11-02 07:05",
+        "arrDate": "2020-11-02 08:15",
+        "dur": 4200000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 2330.0,
+                  "singlePaxTx": 575.0,
+                  "singlePaxTot": 2905.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 125.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 189.0,
+                    "taxCode": "P2"
+                  }, {
+                    "taxVal": 91.0,
+                    "taxCode": "WO"
+                  }, {
+                    "taxVal": 170.0,
+                    "taxCode": "YR"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15": {
+                      "pclass": "",
+                      "fareClass": "S",
+                      "fareBasis": "SIP",
+                      "pClass": "",
+                      "rbd": "S"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "DEL-LKO : AI-411",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2447.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "DEL-LKO : AI-411",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "DEL-LKO : AI-411",
+                "flightLookUpKey": "AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "25",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "8",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "TP",
+              "supplierCredential": "TPUNI_DOM",
+              "fareFamily": "Economy Saver"
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

@@ -1,0 +1,2025 @@
+{
+  "fareFamilyRecommendations": {
+    "fareFamilyAvailable": true,
+    "fareFamilyResponse": [
+      {
+        "error": null,
+        "sector": "DEL-BLR",
+        "warning": null,
+        "cheapestFamily": "SAVER",
+        "itineraryList": [
+          {
+            "rbd": null,
+            "boardPoint": "DEL",
+            "offPoint": "BLR",
+            "airlineName": "IndiGo",
+            "mrktArln": "6E",
+            "oprArln": "6E",
+            "fltNum": "6E-2376",
+            "depDt": 1562803500000,
+            "arrDt": 1562803500000
+          }
+        ],
+        "serviceDisplayOrder": [
+          "DATE_CHANGE",
+          "RFD_BF_DEPART",
+          "RFD_AFT_DEPART",
+          "SEAT_ASSIGN",
+          "HAND_BAGGAGE",
+          "PRI_BAGGAGE",
+          "LOUNGE"
+        ],
+        "fareFamilies": [
+          {
+            "selected": true,
+            "name": "SAVER",
+            "description": "SAVER FARE",
+            "carrier": "6E",
+            "packageSummary": {
+              "titleColor": "#ffd3d4",
+              "packageTitle": "Date Change Chargeable",
+              "packageDesc": "Upgrade to Flexi to enjoy unlimited free date changes",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 2794,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "6E-068",
+                "status": "CHA",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-06K",
+                "status": "NOF",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-06L",
+                "status": "NOF",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-0B5",
+                "status": "CHA",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-0C0",
+                "status": "NOF",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "6E-0LF",
+                "status": "NOF",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Not Offered"
+              },
+              {
+                "type": "6E-0BX",
+                "status": "NOF",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Not Offered"
+              }
+            ]
+          },
+          {
+            "selected": false,
+            "name": "FLEXI",
+            "description": "FLEXI FARE",
+            "carrier": "6E",
+            "packageSummary": {
+              "titleColor": "#cdf6e8",
+              "packageTitle": "Great Choice! Unlimited free date changes",
+              "packageDesc": "Your Flexi fare now guarantees you unlimited free date changes",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 3176,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "6E-068",
+                "status": "INC",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Zero airline date change penalty"
+              },
+              {
+                "type": "6E-06K",
+                "status": "NOF",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-06L",
+                "status": "NOF",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-0B5",
+                "status": "CHA",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-0C0",
+                "status": "NOF",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "6E-0LF",
+                "status": "NOF",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Not Offered"
+              },
+              {
+                "type": "6E-0BX",
+                "status": "NOF",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Not Offered"
+              }
+            ]
+          }
+        ],
+        "fareList": [
+          {
+            "name": "SAVER",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 1,
+                "paxType": "ADULT",
+                "paxFare": 2794,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TOT": 2794,
+                    "TAXCOMPONENT-PHF": 50,
+                    "TAX": 866,
+                    "TAXCOMPONENT-RCF": 50,
+                    "TAXCOMPONENT-YQ": 400,
+                    "TAXCOMPONENT-PSF": 244,
+                    "TAXCOMPONENT-07CGST": 61,
+                    "TAXCOMPONENT-07SGST": 61
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "SAVER",
+                    "boardPoint": "DEL",
+                    "offPoint": "BLR",
+                    "carrier": "6E",
+                    "segmentInfos": [
+                      {
+                        "rbd": "R",
+                        "fareBasis": "R0IP",
+                        "supplierInfo": null,
+                        "baggage": {
+                          "qty": "7",
+                          "utyp": "W",
+                          "unt": null
+                        },
+                        "productClass": "R",
+                        "fareSellKey": "0~R~ ~6E~R0IP~1059~~0~27~~X"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          },
+          {
+            "name": "FLEXI",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 1,
+                "paxType": "ADULT",
+                "paxFare": 3176,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TOT": 3176,
+                    "TAXCOMPONENT-PHF": 50,
+                    "TAX": 884,
+                    "TAXCOMPONENT-RCF": 50,
+                    "TAXCOMPONENT-YQ": 400,
+                    "TAXCOMPONENT-PSF": 244,
+                    "TAXCOMPONENT-07CGST": 70,
+                    "TAXCOMPONENT-07SGST": 70
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "FLEXI",
+                    "boardPoint": "DEL",
+                    "offPoint": "BLR",
+                    "carrier": "6E",
+                    "segmentInfos": [
+                      {
+                        "rbd": "R",
+                        "fareBasis": "RUIP",
+                        "supplierInfo": null,
+                        "baggage": {
+                          "qty": "7",
+                          "utyp": "W",
+                          "unt": null
+                        },
+                        "productClass": "J",
+                        "fareSellKey": "0~R~ ~6E~RUIP~2005~~0~37~~X"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          }
+        ]
+      },
+      {
+        "error": null,
+        "sector": "BLR-DEL",
+        "warning": null,
+        "cheapestFamily": "SAVER",
+        "itineraryList": [
+          {
+            "rbd": null,
+            "boardPoint": "BLR",
+            "offPoint": "DEL",
+            "airlineName": "IndiGo",
+            "mrktArln": "6E",
+            "oprArln": "6E",
+            "fltNum": "6E-2484",
+            "depDt": 1565853600000,
+            "arrDt": 1565853600000
+          }
+        ],
+        "serviceDisplayOrder": [
+          "DATE_CHANGE",
+          "RFD_BF_DEPART",
+          "RFD_AFT_DEPART",
+          "SEAT_ASSIGN",
+          "HAND_BAGGAGE",
+          "PRI_BAGGAGE",
+          "LOUNGE"
+        ],
+        "fareFamilies": [
+          {
+            "selected": true,
+            "name": "SAVER",
+            "description": "SAVER FARE",
+            "carrier": "6E",
+            "packageSummary": {
+              "titleColor": "#ffd3d4",
+              "packageTitle": "Date Change Chargeable",
+              "packageDesc": "Upgrade to Flexi to enjoy unlimited free date changes",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 3048,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "6E-068",
+                "status": "CHA",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-06K",
+                "status": "NOF",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-06L",
+                "status": "NOF",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-0B5",
+                "status": "CHA",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-0C0",
+                "status": "NOF",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "6E-0LF",
+                "status": "NOF",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Not Offered"
+              },
+              {
+                "type": "6E-0BX",
+                "status": "NOF",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Not Offered"
+              }
+            ]
+          },
+          {
+            "selected": false,
+            "name": "FLEXI",
+            "description": "FLEXI FARE",
+            "carrier": "6E",
+            "packageSummary": {
+              "titleColor": "#cdf6e8",
+              "packageTitle": "Great Choice! Unlimited free date changes",
+              "packageDesc": "Your Flexi fare now guarantees you unlimited free date changes",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 3441,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "6E-068",
+                "status": "INC",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Zero airline date change penalty"
+              },
+              {
+                "type": "6E-06K",
+                "status": "NOF",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-06L",
+                "status": "NOF",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-0B5",
+                "status": "CHA",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-0C0",
+                "status": "NOF",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "6E-0LF",
+                "status": "NOF",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Not Offered"
+              },
+              {
+                "type": "6E-0BX",
+                "status": "NOF",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Not Offered"
+              }
+            ]
+          }
+        ],
+        "fareList": [
+          {
+            "name": "SAVER",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 1,
+                "paxType": "ADULT",
+                "paxFare": 3048,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TOT": 3048,
+                    "TAXCOMPONENT-PHF": 50,
+                    "TAX": 927,
+                    "TAXCOMPONENT-RCF": 50,
+                    "TAXCOMPONENT-YQ": 400,
+                    "TAXCOMPONENT-DF": 142,
+                    "TAXCOMPONENT-PSF": 153,
+                    "TAXCOMPONENT-27CGST": 66,
+                    "TAXCOMPONENT-27SGST": 66
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "SAVER",
+                    "boardPoint": "BLR",
+                    "offPoint": "DEL",
+                    "carrier": "6E",
+                    "segmentInfos": [
+                      {
+                        "rbd": "Q",
+                        "fareBasis": "Q0IP",
+                        "supplierInfo": null,
+                        "baggage": {
+                          "qty": "7",
+                          "utyp": "W",
+                          "unt": null
+                        },
+                        "productClass": "R",
+                        "fareSellKey": "0~Q~ ~6E~Q0IP~1059~~0~27~~X"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          },
+          {
+            "name": "FLEXI",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 1,
+                "paxType": "ADULT",
+                "paxFare": 3441,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TOT": 3441,
+                    "TAXCOMPONENT-PHF": 50,
+                    "TAX": 945,
+                    "TAXCOMPONENT-RCF": 50,
+                    "TAXCOMPONENT-YQ": 400,
+                    "TAXCOMPONENT-DF": 142,
+                    "TAXCOMPONENT-PSF": 153,
+                    "TAXCOMPONENT-27CGST": 75,
+                    "TAXCOMPONENT-27SGST": 75
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "FLEXI",
+                    "boardPoint": "BLR",
+                    "offPoint": "DEL",
+                    "carrier": "6E",
+                    "segmentInfos": [
+                      {
+                        "rbd": "Q",
+                        "fareBasis": "QUIP",
+                        "supplierInfo": null,
+                        "baggage": {
+                          "qty": "7",
+                          "utyp": "W",
+                          "unt": null
+                        },
+                        "productClass": "J",
+                        "fareSellKey": "0~Q~ ~6E~QUIP~2005~~0~40~~X"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          }
+        ]
+      }
+    ],
+    "services": {
+      "DATE_CHANGE": {
+        "serviceName": "Date Change",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_date_change.png"
+      },
+      "RFD_AFT_DEPART": {
+        "serviceName": "No Show",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_no_show.png"
+      },
+      "HAND_BAGGAGE": {
+        "serviceName": "Hand Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_hand_baggage.png"
+      },
+      "MEAL": {
+        "serviceName": "Meals",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_meals.png"
+      },
+      "PRI_BOARDING": {
+        "serviceName": "Priority Boarding",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "PRI_BAGGAGE": {
+        "serviceName": "Priority Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "LOUNGE": {
+        "serviceName": "Lounge Access",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_lounge_access.png"
+      },
+      "RFD_BF_DEPART": {
+        "serviceName": "Refund Before Departure",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_flight_cancellation.png"
+      },
+      "SEAT_ASSIGN": {
+        "serviceName": "Seats",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_seat_selection.png"
+      }
+    },
+    "rtFare": true,
+    "farelookupMap": {
+      "ID2": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 3176,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TOT": 3176,
+                "TAXCOMPONENT-PHF": 50,
+                "TAX": 884,
+                "TAXCOMPONENT-RCF": 50,
+                "TAXCOMPONENT-YQ": 400,
+                "TAXCOMPONENT-PSF": 244,
+                "TAXCOMPONENT-07CGST": 70,
+                "TAXCOMPONENT-07SGST": 70
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "FLEXI",
+                "boardPoint": "DEL",
+                "offPoint": "BLR",
+                "carrier": "6E",
+                "segmentInfos": [
+                  {
+                    "rbd": "R",
+                    "fareBasis": "RUIP",
+                    "supplierInfo": null,
+                    "baggage": {
+                      "qty": "7",
+                      "utyp": "W",
+                      "unt": null
+                    },
+                    "productClass": "J",
+                    "fareSellKey": "0~R~ ~6E~RUIP~2005~~0~37~~X"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID1": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 2794,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TOT": 2794,
+                "TAXCOMPONENT-PHF": 50,
+                "TAX": 866,
+                "TAXCOMPONENT-RCF": 50,
+                "TAXCOMPONENT-YQ": 400,
+                "TAXCOMPONENT-PSF": 244,
+                "TAXCOMPONENT-07CGST": 61,
+                "TAXCOMPONENT-07SGST": 61
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "SAVER",
+                "boardPoint": "DEL",
+                "offPoint": "BLR",
+                "carrier": "6E",
+                "segmentInfos": [
+                  {
+                    "rbd": "R",
+                    "fareBasis": "R0IP",
+                    "supplierInfo": null,
+                    "baggage": {
+                      "qty": "7",
+                      "utyp": "W",
+                      "unt": null
+                    },
+                    "productClass": "R",
+                    "fareSellKey": "0~R~ ~6E~R0IP~1059~~0~27~~X"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID4": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 3441,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TOT": 3441,
+                "TAXCOMPONENT-PHF": 50,
+                "TAX": 945,
+                "TAXCOMPONENT-RCF": 50,
+                "TAXCOMPONENT-YQ": 400,
+                "TAXCOMPONENT-DF": 142,
+                "TAXCOMPONENT-PSF": 153,
+                "TAXCOMPONENT-27CGST": 75,
+                "TAXCOMPONENT-27SGST": 75
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "FLEXI",
+                "boardPoint": "BLR",
+                "offPoint": "DEL",
+                "carrier": "6E",
+                "segmentInfos": [
+                  {
+                    "rbd": "Q",
+                    "fareBasis": "QUIP",
+                    "supplierInfo": null,
+                    "baggage": {
+                      "qty": "7",
+                      "utyp": "W",
+                      "unt": null
+                    },
+                    "productClass": "J",
+                    "fareSellKey": "0~Q~ ~6E~QUIP~2005~~0~40~~X"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID3": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 3048,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TOT": 3048,
+                "TAXCOMPONENT-PHF": 50,
+                "TAX": 927,
+                "TAXCOMPONENT-RCF": 50,
+                "TAXCOMPONENT-YQ": 400,
+                "TAXCOMPONENT-DF": 142,
+                "TAXCOMPONENT-PSF": 153,
+                "TAXCOMPONENT-27CGST": 66,
+                "TAXCOMPONENT-27SGST": 66
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "SAVER",
+                "boardPoint": "BLR",
+                "offPoint": "DEL",
+                "carrier": "6E",
+                "segmentInfos": [
+                  {
+                    "rbd": "Q",
+                    "fareBasis": "Q0IP",
+                    "supplierInfo": null,
+                    "baggage": {
+                      "qty": "7",
+                      "utyp": "W",
+                      "unt": null
+                    },
+                    "productClass": "R",
+                    "fareSellKey": "0~Q~ ~6E~Q0IP~1059~~0~27~~X"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      }
+    },
+    "fareMap": {
+      "DEL-BLR-SAVER|BLR-DEL-SAVER": {
+        "finalAdultFare": 5842,
+        "initialAdultFare": null,
+        "rKey": "v1~~R$R$R0IP$244.0$400.0$null$null$null$0$0$A^R$Q$Q0IP$153.0$400.0$null$null$null$1$0$A~A-2794.0|1928.0_C-0|0_I-0|0^A-3048.0|2121.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~DEL_BLR_DepartDate1_6E-2212_NkVVTkk=_05:35_DepartDate1_07:45_6E_6E_6E_JO~6E_0_0_DEL-BLR-DepartDate1_SAVER^BLR_DEL_DepartDate2_6E-168_NkVVTkk=_12:50_DepartDate2_15:00_6E_6E_6E_JO~6E_0_1_BLR-DEL-DepartDate2_SAVER",
+        "fares": [
+          {
+            "sector": "DEL-BLR",
+            "fareListIdentifier": "ID1"
+          },
+          {
+            "sector": "BLR-DEL",
+            "fareListIdentifier": "ID3"
+          }
+        ]
+      },
+      "DEL-BLR-FLEXI|BLR-DEL-FLEXI": {
+        "finalAdultFare": 6617,
+        "initialAdultFare": null,
+        "rKey": "v1~~J$R$RUIP$244.0$400.0$null$null$null$0$0$A^J$Q$QUIP$153.0$400.0$null$null$null$1$0$A~A-3176.0|2292.0_C-0|0_I-0|0^A-3441.0|2496.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~DEL_BLR_DepartDate1_6E-2212_NkVVTkk=_05:35_DepartDate1_07:45_6E_6E_6E_JO~6E_0_0_DEL-BLR-DepartDate1_FLEXI^BLR_DEL_DepartDate2_6E-168_NkVVTkk=_12:50_DepartDate2_15:00_6E_6E_6E_JO~6E_0_1_BLR-DEL-DepartDate2_FLEXI",
+        "fares": [
+          {
+            "sector": "DEL-BLR",
+            "fareListIdentifier": "ID2"
+          },
+          {
+            "sector": "BLR-DEL",
+            "fareListIdentifier": "ID4"
+          }
+        ]
+      }
+    }
+  },
+  "reviewKey": "RKEY:bde5cb02-3d86-460a-9bb0-70e859e51cb1:10~~~RKEY:bde5cb02-3d86-460a-9bb0-70e859e51cb1:109",
+  "rKey": "v1~~R$R$R0IP$244.0$400.0$null$null$null$0$0$A^R$Q$Q0IP$153.0$400.0$null$null$null$1$0$A~A-2794.0|1928.0_C-0|0_I-0|0^A-3048.0|2121.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~DEL_BLR_DepartDate1_6E-2212_NkVVTkk=_05:35_DepartDate1_07:45_6E_6E_6E_JO~6E_0_0_DEL-BLR-DepartDate1_null^BLR_DEL_DepartDate2_6E-168_NkVVTkk=_12:50_DepartDate2_15:00_6E_6E_6E_JO~6E_0_1_BLR-DEL-DepartDate2_null",
+  "journeys": {
+    "DEL_BLR_DepartDate1": {
+      "segments": {
+        "DEL_BLR_DepartDate1": {
+          "fltLst": [
+            {
+              "amenitySegmentKey": null,
+              "depInf": {
+                "trml": "2",
+                "ctCd": "DEL",
+                "airp": "Indira Gandhi International Airport",
+                "ctNm": "New Delhi",
+                "arpCd": "DEL",
+                "cntr": "India",
+                "tmZn": "Asia/Kolkata",
+                "lat": 28.5665,
+                "long": 77.103088,
+                "cont": "India",
+                "cur": "INR"
+              },
+              "arrInf": {
+                "trml": "2",
+                "ctCd": "BLR",
+                "airp": "Chhatrapati Shivaji International Airport",
+                "ctNm": "Mumbai",
+                "arpCd": "BLR",
+                "cntr": "India",
+                "tmZn": "Asia/Kolkata",
+                "lat": 19.088686,
+                "long": 72.867919,
+                "cont": "India",
+                "cur": "INR"
+              },
+              "depDt": 1562803500000,
+              "arrDt": 1562811300000,
+              "techStpOvrLst": [],
+              "totDur": 130,
+              "segSlKey": "6E~2212~ ~~DEL~07/11/2019 05:35~BLR~07/11/2019 07:45~~",
+              "fareSlKey": "0~R~ ~6E~R0IP~1059~~0~27~~X",
+              "mrktArln": "6E",
+              "oprArln": "6E",
+              "equipTyp": "320",
+              "equipCd": "Y180",
+              "equipNm": "Airbus A320 ",
+              "fltNum": "2376",
+              "carierCode": "6E",
+              "bagDtls": [],
+              "avlCntxtLst": [],
+              "availCount": null,
+              "cbcls": "Y",
+              "pnRf": {},
+              "splitPnr": false,
+              "availSrc": null,
+              "suplrNm": null,
+              "ao": [
+                {
+                  "at": "MEAL",
+                  "isPaid": true
+                }
+              ],
+              "si": null
+            }
+          ],
+          "fr": [
+            {
+              "pxTypFrMap": {
+                "ADULT": [
+                  {
+                    "frId": 0,
+                    "frBrkup": {
+                      "frBrkupMap": {
+                        "TAXCOMPONENT-PHF": 50,
+                        "TAXCOMPONENT-YQ": 400,
+                        "TAXCOMPONENT-07CGST": 61,
+                        "TOT": 2794,
+                        "TAXCOMPONENT-PSF": 244,
+                        "TAX": 866,
+                        "TAXCOMPONENT-RCF": 50,
+                        "TAXCOMPONENT-07SGST": 61
+                      }
+                    },
+                    "segPrdctInf": [
+                      {
+                        "lgPrnfo": [
+                          {
+                            "frId": null,
+                            "rb": "R",
+                            "cbn": null,
+                            "avl": null,
+                            "fbc": "R0IP",
+                            "frAmt": null,
+                            "txAmt": null,
+                            "frtyp": [],
+                            "brkPnt": null,
+                            "arrcd": "BLR",
+                            "deptcd": "DEL",
+                            "prdcls": "R",
+                            "si": null
+                          }
+                        ]
+                      }
+                    ],
+                    "paxRef": 0
+                  }
+                ]
+              },
+              "frInfoMap": {
+                "FareBasisCode": "R0IP",
+                "FareStatus": null,
+                "FareType": "0~R~ ~6E~R0IP~1059~~0~27~~X",
+                "ProductClass": "R",
+                "OriginalClassOfService": null,
+                "FareClassOfService": "R"
+              },
+              "subFares": []
+            }
+          ],
+          "minFrRl": null,
+          "lfid": null,
+          "aggFltNum": "DEL$BLR$DepartDate10535$6E-2212",
+          "cur": "INR",
+          "totDur": 130,
+          "rfndbl": null,
+          "sPNR": false,
+          "hldbl": false,
+          "cbn": null,
+          "cbnCls": null,
+          "refAir": "6E",
+          "dep": "DEL",
+          "arr": "BLR",
+          "offId": null,
+          "credId": "6EUNI",
+          "jrnySlKey": "6E~2212~ ~~DEL~07/11/2019 05:35~BLR~07/11/2019 07:45~~",
+          "srvc": "6E",
+          "vc": "6E",
+          "currInfo": {
+            "costCurrency": "INR",
+            "sellCurrency": null,
+            "conversionFactor": null
+          },
+          "signature": null,
+          "rtngId": null
+        }
+      }
+    },
+    "BLR_DEL_DepartDate2": {
+      "segments": {
+        "BLR_DEL_DepartDate2": {
+          "fltLst": [
+            {
+              "amenitySegmentKey": null,
+              "depInf": {
+                "trml": "1",
+                "ctCd": "BLR",
+                "airp": "Chhatrapati Shivaji International Airport",
+                "ctNm": "Mumbai",
+                "arpCd": "BLR",
+                "cntr": "India",
+                "tmZn": "Asia/Kolkata",
+                "lat": 19.088686,
+                "long": 72.867919,
+                "cont": "India",
+                "cur": "INR"
+              },
+              "arrInf": {
+                "trml": "1",
+                "ctCd": "DEL",
+                "airp": "Indira Gandhi International Airport",
+                "ctNm": "New Delhi",
+                "arpCd": "DEL",
+                "cntr": "India",
+                "tmZn": "Asia/Kolkata",
+                "lat": 28.5665,
+                "long": 77.103088,
+                "cont": "India",
+                "cur": "INR"
+              },
+              "depDt": 1565853600000,
+              "arrDt": 1565861400000,
+              "techStpOvrLst": [],
+              "totDur": 130,
+              "segSlKey": "6E~ 168~ ~~BLR~08/15/2019 12:50~DEL~08/15/2019 15:00~~",
+              "fareSlKey": "0~Q~ ~6E~Q0IP~1059~~0~27~~X",
+              "mrktArln": "6E",
+              "oprArln": "6E",
+              "equipTyp": "320",
+              "equipCd": "Y180",
+              "equipNm": "Airbus A320 ",
+              "fltNum": "2484",
+              "carierCode": "6E",
+              "bagDtls": [],
+              "avlCntxtLst": [],
+              "availCount": null,
+              "cbcls": "Y",
+              "pnRf": {},
+              "splitPnr": false,
+              "availSrc": null,
+              "suplrNm": null,
+              "ao": [
+                {
+                  "at": "MEAL",
+                  "isPaid": true
+                }
+              ],
+              "si": null
+            }
+          ],
+          "fr": [
+            {
+              "pxTypFrMap": {
+                "ADULT": [
+                  {
+                    "frId": 0,
+                    "frBrkup": {
+                      "frBrkupMap": {
+                        "TAXCOMPONENT-PHF": 50,
+                        "TAXCOMPONENT-YQ": 400,
+                        "TAXCOMPONENT-27SGST": 66,
+                        "TOT": 3048,
+                        "TAXCOMPONENT-PSF": 153,
+                        "TAXCOMPONENT-DF": 142,
+                        "TAX": 927,
+                        "TAXCOMPONENT-RCF": 50,
+                        "TAXCOMPONENT-27CGST": 66
+                      }
+                    },
+                    "segPrdctInf": [
+                      {
+                        "lgPrnfo": [
+                          {
+                            "frId": null,
+                            "rb": "Q",
+                            "cbn": null,
+                            "avl": null,
+                            "fbc": "Q0IP",
+                            "frAmt": null,
+                            "txAmt": null,
+                            "frtyp": [],
+                            "brkPnt": null,
+                            "arrcd": "DEL",
+                            "deptcd": "BLR",
+                            "prdcls": "R",
+                            "si": null
+                          }
+                        ]
+                      }
+                    ],
+                    "paxRef": 0
+                  }
+                ]
+              },
+              "frInfoMap": {
+                "FareBasisCode": "Q0IP",
+                "FareStatus": null,
+                "FareType": "0~Q~ ~6E~Q0IP~1059~~0~27~~X",
+                "ProductClass": "R",
+                "OriginalClassOfService": null,
+                "FareClassOfService": "Q"
+              },
+              "subFares": []
+            }
+          ],
+          "minFrRl": null,
+          "lfid": null,
+          "aggFltNum": "BLR$DEL$DepartDate21250$6E-168",
+          "cur": "INR",
+          "totDur": 130,
+          "rfndbl": null,
+          "sPNR": false,
+          "hldbl": false,
+          "cbn": null,
+          "cbnCls": null,
+          "refAir": "6E",
+          "dep": "BLR",
+          "arr": "DEL",
+          "offId": null,
+          "credId": "6EUNI",
+          "jrnySlKey": "6E~ 168~ ~~BLR~08/15/2019 12:50~DEL~08/15/2019 15:00~~",
+          "srvc": "6E",
+          "vc": "6E",
+          "currInfo": {
+            "costCurrency": "INR",
+            "sellCurrency": null,
+            "conversionFactor": null
+          },
+          "signature": null,
+          "rtngId": null
+        }
+      }
+    }
+  },
+  "combinedInfo": {
+    "COMBINED_DATA": {
+      "data": {
+        "splitPNR": null,
+        "REFUNDABLE": null,
+        "officeIds": null,
+        "CABIN_CLASS": null,
+        "IS_PURE": null,
+        "LAST_TKT_DATE": null,
+        "MAX_STOP": null,
+        "HOLDABLE": null,
+        "MAX_LAYOFF_TIME": null,
+        "refferenceAirline": null,
+        "IS_PURE_LCC": null,
+        "VC": null
+      }
+    },
+    "FARE_CHANGE": {
+      "fareStatus": 0,
+      "oldFare": 0,
+      "newFare": 5842,
+      "totalFareChangeAmount": 5842
+    },
+    "COMBINED_REVIEW_FARE": {
+      "paxTypeFareBreakUp": {
+        "ADULT": {
+          "totalMarkup": 0,
+          "totalTax": 1793,
+          "totalBaseFare": 4049,
+          "totalDiscount": 0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-PHF": 100,
+            "TAXCOMPONENT-YQ": 800,
+            "TAXCOMPONENT-07CGST": 61,
+            "TAXCOMPONENT-27SGST": 66,
+            "TOT": 5842,
+            "TAXCOMPONENT-PSF": 397,
+            "TAX": 1793,
+            "TAXCOMPONENT-DF": 142,
+            "TAXCOMPONENT-RCF": 100,
+            "TAXCOMPONENT-27CGST": 66,
+            "TAXCOMPONENT-07SGST": 61
+          },
+          "totalFare": 5842,
+          "paxRef": 0
+        }
+      },
+      "combinedFareBreakUp": {
+        "totalMarkup": 0,
+        "totalTax": 1793,
+        "totalBaseFare": 4049,
+        "totalDiscount": 0,
+        "fareBreakupMap": {
+          "TAXCOMPONENT-PHF": 100,
+          "TAXCOMPONENT-YQ": 800,
+          "TAXCOMPONENT-07CGST": 61,
+          "TAXCOMPONENT-27SGST": 66,
+          "TOT": 5842,
+          "TAXCOMPONENT-PSF": 397,
+          "TAX": 1793,
+          "TAXCOMPONENT-DF": 142,
+          "TAXCOMPONENT-RCF": 100,
+          "TAXCOMPONENT-27CGST": 66,
+          "TAXCOMPONENT-07SGST": 61
+        },
+        "totalFare": 5842,
+        "paxRef": null
+      }
+    }
+  },
+  "travellerInfo": {
+    "prtPymtEnbld": false,
+    "prtPymtSeltd": false,
+    "prtPymtAmt": null,
+    "searchKey": null,
+    "email": null,
+    "userDetails": null
+  },
+  "trvlrReqdInfo": {
+    "dobReqdForAllPax": false,
+    "dobReqdForInf": true,
+    "dobReqdForChild": false,
+    "ppMandatory": false,
+    "nationalityMandatory": false
+  },
+  "frFamilyDetails": {
+    "fareFamilyAvailable": true,
+    "fareFamilyResponse": [
+      {
+        "error": null,
+        "sector": "DEL-BLR",
+        "warning": null,
+        "cheapestFamily": "SAVER",
+        "itineraryList": [
+          {
+            "rbd": null,
+            "boardPoint": "DEL",
+            "offPoint": "BLR",
+            "airlineName": "IndiGo",
+            "mrktArln": "6E",
+            "oprArln": "6E",
+            "fltNum": "6E-2376",
+            "depDt": 1562803500000,
+            "arrDt": 1562803500000
+          }
+        ],
+        "serviceDisplayOrder": [
+          "DATE_CHANGE",
+          "RFD_BF_DEPART",
+          "RFD_AFT_DEPART",
+          "SEAT_ASSIGN",
+          "HAND_BAGGAGE",
+          "PRI_BAGGAGE",
+          "LOUNGE"
+        ],
+        "fareFamilies": [
+          {
+            "selected": true,
+            "name": "SAVER",
+            "description": "SAVER FARE",
+            "carrier": "6E",
+            "packageSummary": {
+              "titleColor": "#ffd3d4",
+              "packageTitle": "Date Change Chargeable",
+              "packageDesc": "Upgrade to Flexi to enjoy unlimited free date changes",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 2794,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "6E-068",
+                "status": "CHA",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-06K",
+                "status": "NOF",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-06L",
+                "status": "NOF",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-0B5",
+                "status": "CHA",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-0C0",
+                "status": "NOF",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "6E-0LF",
+                "status": "NOF",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Not Offered"
+              },
+              {
+                "type": "6E-0BX",
+                "status": "NOF",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Not Offered"
+              }
+            ]
+          },
+          {
+            "selected": false,
+            "name": "FLEXI",
+            "description": "FLEXI FARE",
+            "carrier": "6E",
+            "packageSummary": {
+              "titleColor": "#cdf6e8",
+              "packageTitle": "Great Choice! Unlimited free date changes",
+              "packageDesc": "Your Flexi fare now guarantees you unlimited free date changes",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 3176,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "6E-068",
+                "status": "INC",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Zero airline date change penalty"
+              },
+              {
+                "type": "6E-06K",
+                "status": "NOF",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-06L",
+                "status": "NOF",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-0B5",
+                "status": "CHA",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-0C0",
+                "status": "NOF",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "6E-0LF",
+                "status": "NOF",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Not Offered"
+              },
+              {
+                "type": "6E-0BX",
+                "status": "NOF",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Not Offered"
+              }
+            ]
+          }
+        ],
+        "fareList": [
+          {
+            "name": "SAVER",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 1,
+                "paxType": "ADULT",
+                "paxFare": 2794,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TOT": 2794,
+                    "TAXCOMPONENT-PHF": 50,
+                    "TAX": 866,
+                    "TAXCOMPONENT-RCF": 50,
+                    "TAXCOMPONENT-YQ": 400,
+                    "TAXCOMPONENT-PSF": 244,
+                    "TAXCOMPONENT-07CGST": 61,
+                    "TAXCOMPONENT-07SGST": 61
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "SAVER",
+                    "boardPoint": "DEL",
+                    "offPoint": "BLR",
+                    "carrier": "6E",
+                    "segmentInfos": [
+                      {
+                        "rbd": "R",
+                        "fareBasis": "R0IP",
+                        "supplierInfo": null,
+                        "baggage": {
+                          "qty": "7",
+                          "utyp": "W",
+                          "unt": null
+                        },
+                        "productClass": "R",
+                        "fareSellKey": "0~R~ ~6E~R0IP~1059~~0~27~~X"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          },
+          {
+            "name": "FLEXI",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 1,
+                "paxType": "ADULT",
+                "paxFare": 3176,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TOT": 3176,
+                    "TAXCOMPONENT-PHF": 50,
+                    "TAX": 884,
+                    "TAXCOMPONENT-RCF": 50,
+                    "TAXCOMPONENT-YQ": 400,
+                    "TAXCOMPONENT-PSF": 244,
+                    "TAXCOMPONENT-07CGST": 70,
+                    "TAXCOMPONENT-07SGST": 70
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "FLEXI",
+                    "boardPoint": "DEL",
+                    "offPoint": "BLR",
+                    "carrier": "6E",
+                    "segmentInfos": [
+                      {
+                        "rbd": "R",
+                        "fareBasis": "RUIP",
+                        "supplierInfo": null,
+                        "baggage": {
+                          "qty": "7",
+                          "utyp": "W",
+                          "unt": null
+                        },
+                        "productClass": "J",
+                        "fareSellKey": "0~R~ ~6E~RUIP~2005~~0~37~~X"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          }
+        ]
+      },
+      {
+        "error": null,
+        "sector": "BLR-DEL",
+        "warning": null,
+        "cheapestFamily": "SAVER",
+        "itineraryList": [
+          {
+            "rbd": null,
+            "boardPoint": "BLR",
+            "offPoint": "DEL",
+            "airlineName": "IndiGo",
+            "mrktArln": "6E",
+            "oprArln": "6E",
+            "fltNum": "6E-2484",
+            "depDt": 1565853600000,
+            "arrDt": 1565853600000
+          }
+        ],
+        "serviceDisplayOrder": [
+          "DATE_CHANGE",
+          "RFD_BF_DEPART",
+          "RFD_AFT_DEPART",
+          "SEAT_ASSIGN",
+          "HAND_BAGGAGE",
+          "PRI_BAGGAGE",
+          "LOUNGE"
+        ],
+        "fareFamilies": [
+          {
+            "selected": true,
+            "name": "SAVER",
+            "description": "SAVER FARE",
+            "carrier": "6E",
+            "packageSummary": {
+              "titleColor": "#ffd3d4",
+              "packageTitle": "Date Change Chargeable",
+              "packageDesc": "Upgrade to Flexi to enjoy unlimited free date changes",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 3048,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "6E-068",
+                "status": "CHA",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-06K",
+                "status": "NOF",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-06L",
+                "status": "NOF",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-0B5",
+                "status": "CHA",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-0C0",
+                "status": "NOF",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "6E-0LF",
+                "status": "NOF",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Not Offered"
+              },
+              {
+                "type": "6E-0BX",
+                "status": "NOF",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Not Offered"
+              }
+            ]
+          },
+          {
+            "selected": false,
+            "name": "FLEXI",
+            "description": "FLEXI FARE",
+            "carrier": "6E",
+            "packageSummary": {
+              "titleColor": "#cdf6e8",
+              "packageTitle": "Great Choice! Unlimited free date changes",
+              "packageDesc": "Your Flexi fare now guarantees you unlimited free date changes",
+              "operationName": "SEE OTHER FARES"
+            },
+            "finalAdultFare": 3441,
+            "initialAdultFare": null,
+            "services": [
+              {
+                "type": "6E-068",
+                "status": "INC",
+                "serviceName": "DATE_CHANGE",
+                "serviceType": "BF",
+                "description": "Zero airline date change penalty"
+              },
+              {
+                "type": "6E-06K",
+                "status": "NOF",
+                "serviceName": "RFD_BF_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-06L",
+                "status": "NOF",
+                "serviceName": "RFD_AFT_DEPART",
+                "serviceType": "BF",
+                "description": "As per Airline rules"
+              },
+              {
+                "type": "6E-0B5",
+                "status": "CHA",
+                "serviceName": "SEAT_ASSIGN",
+                "serviceType": "SA",
+                "description": "Chargeable"
+              },
+              {
+                "type": "6E-0C0",
+                "status": "NOF",
+                "serviceName": "HAND_BAGGAGE",
+                "serviceType": "BG",
+                "description": "Free up to 7 Kg"
+              },
+              {
+                "type": "6E-0LF",
+                "status": "NOF",
+                "serviceName": "PRI_BAGGAGE",
+                "serviceType": "TS",
+                "description": "Not Offered"
+              },
+              {
+                "type": "6E-0BX",
+                "status": "NOF",
+                "serviceName": "LOUNGE",
+                "serviceType": "LG",
+                "description": "Not Offered"
+              }
+            ]
+          }
+        ],
+        "fareList": [
+          {
+            "name": "SAVER",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 1,
+                "paxType": "ADULT",
+                "paxFare": 3048,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TOT": 3048,
+                    "TAXCOMPONENT-PHF": 50,
+                    "TAX": 927,
+                    "TAXCOMPONENT-RCF": 50,
+                    "TAXCOMPONENT-YQ": 400,
+                    "TAXCOMPONENT-DF": 142,
+                    "TAXCOMPONENT-PSF": 153,
+                    "TAXCOMPONENT-27CGST": 66,
+                    "TAXCOMPONENT-27SGST": 66
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "SAVER",
+                    "boardPoint": "BLR",
+                    "offPoint": "DEL",
+                    "carrier": "6E",
+                    "segmentInfos": [
+                      {
+                        "rbd": "Q",
+                        "fareBasis": "Q0IP",
+                        "supplierInfo": null,
+                        "baggage": {
+                          "qty": "7",
+                          "utyp": "W",
+                          "unt": null
+                        },
+                        "productClass": "R",
+                        "fareSellKey": "0~Q~ ~6E~Q0IP~1059~~0~27~~X"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          },
+          {
+            "name": "FLEXI",
+            "paxWiseFareList": {
+              "ADULT": {
+                "numOfPax": 1,
+                "paxType": "ADULT",
+                "paxFare": 3441,
+                "fareBreakUp": {
+                  "frBrkupMap": {
+                    "TOT": 3441,
+                    "TAXCOMPONENT-PHF": 50,
+                    "TAX": 945,
+                    "TAXCOMPONENT-RCF": 50,
+                    "TAXCOMPONENT-YQ": 400,
+                    "TAXCOMPONENT-DF": 142,
+                    "TAXCOMPONENT-PSF": 153,
+                    "TAXCOMPONENT-27CGST": 75,
+                    "TAXCOMPONENT-27SGST": 75
+                  }
+                },
+                "fareComponentDetails": [
+                  {
+                    "fareFamilyName": "FLEXI",
+                    "boardPoint": "BLR",
+                    "offPoint": "DEL",
+                    "carrier": "6E",
+                    "segmentInfos": [
+                      {
+                        "rbd": "Q",
+                        "fareBasis": "QUIP",
+                        "supplierInfo": null,
+                        "baggage": {
+                          "qty": "7",
+                          "utyp": "W",
+                          "unt": null
+                        },
+                        "productClass": "J",
+                        "fareSellKey": "0~Q~ ~6E~QUIP~2005~~0~40~~X"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "personalizationMap": null
+          }
+        ]
+      }
+    ],
+    "services": {
+      "DATE_CHANGE": {
+        "serviceName": "Date Change",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_date_change.png"
+      },
+      "RFD_AFT_DEPART": {
+        "serviceName": "No Show",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_no_show.png"
+      },
+      "HAND_BAGGAGE": {
+        "serviceName": "Hand Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_hand_baggage.png"
+      },
+      "MEAL": {
+        "serviceName": "Meals",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_meals.png"
+      },
+      "PRI_BOARDING": {
+        "serviceName": "Priority Boarding",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "PRI_BAGGAGE": {
+        "serviceName": "Priority Baggage",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_priority_handling.png"
+      },
+      "LOUNGE": {
+        "serviceName": "Lounge Access",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_lounge_access.png"
+      },
+      "RFD_BF_DEPART": {
+        "serviceName": "Refund Before Departure",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_flight_cancellation.png"
+      },
+      "SEAT_ASSIGN": {
+        "serviceName": "Seats",
+        "displayIconUrl": "https://imgak.mmtcdn.com/flights/assets/media/mobile/listing/{density}/ff_seat_selection.png"
+      }
+    },
+    "rtFare": true,
+    "farelookupMap": {
+      "ID2": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 3176,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TOT": 3176,
+                "TAXCOMPONENT-PHF": 50,
+                "TAX": 884,
+                "TAXCOMPONENT-RCF": 50,
+                "TAXCOMPONENT-YQ": 400,
+                "TAXCOMPONENT-PSF": 244,
+                "TAXCOMPONENT-07CGST": 70,
+                "TAXCOMPONENT-07SGST": 70
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "FLEXI",
+                "boardPoint": "DEL",
+                "offPoint": "BLR",
+                "carrier": "6E",
+                "segmentInfos": [
+                  {
+                    "rbd": "R",
+                    "fareBasis": "RUIP",
+                    "supplierInfo": null,
+                    "baggage": {
+                      "qty": "7",
+                      "utyp": "W",
+                      "unt": null
+                    },
+                    "productClass": "J",
+                    "fareSellKey": "0~R~ ~6E~RUIP~2005~~0~37~~X"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID1": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 2794,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TOT": 2794,
+                "TAXCOMPONENT-PHF": 50,
+                "TAX": 866,
+                "TAXCOMPONENT-RCF": 50,
+                "TAXCOMPONENT-YQ": 400,
+                "TAXCOMPONENT-PSF": 244,
+                "TAXCOMPONENT-07CGST": 61,
+                "TAXCOMPONENT-07SGST": 61
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "SAVER",
+                "boardPoint": "DEL",
+                "offPoint": "BLR",
+                "carrier": "6E",
+                "segmentInfos": [
+                  {
+                    "rbd": "R",
+                    "fareBasis": "R0IP",
+                    "supplierInfo": null,
+                    "baggage": {
+                      "qty": "7",
+                      "utyp": "W",
+                      "unt": null
+                    },
+                    "productClass": "R",
+                    "fareSellKey": "0~R~ ~6E~R0IP~1059~~0~27~~X"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID4": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 3441,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TOT": 3441,
+                "TAXCOMPONENT-PHF": 50,
+                "TAX": 945,
+                "TAXCOMPONENT-RCF": 50,
+                "TAXCOMPONENT-YQ": 400,
+                "TAXCOMPONENT-DF": 142,
+                "TAXCOMPONENT-PSF": 153,
+                "TAXCOMPONENT-27CGST": 75,
+                "TAXCOMPONENT-27SGST": 75
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "FLEXI",
+                "boardPoint": "BLR",
+                "offPoint": "DEL",
+                "carrier": "6E",
+                "segmentInfos": [
+                  {
+                    "rbd": "Q",
+                    "fareBasis": "QUIP",
+                    "supplierInfo": null,
+                    "baggage": {
+                      "qty": "7",
+                      "utyp": "W",
+                      "unt": null
+                    },
+                    "productClass": "J",
+                    "fareSellKey": "0~Q~ ~6E~QUIP~2005~~0~40~~X"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      },
+      "ID3": {
+        "name": null,
+        "paxWiseFareList": {
+          "ADULT": {
+            "numOfPax": 1,
+            "paxType": "ADULT",
+            "paxFare": 3048,
+            "fareBreakUp": {
+              "frBrkupMap": {
+                "TOT": 3048,
+                "TAXCOMPONENT-PHF": 50,
+                "TAX": 927,
+                "TAXCOMPONENT-RCF": 50,
+                "TAXCOMPONENT-YQ": 400,
+                "TAXCOMPONENT-DF": 142,
+                "TAXCOMPONENT-PSF": 153,
+                "TAXCOMPONENT-27CGST": 66,
+                "TAXCOMPONENT-27SGST": 66
+              }
+            },
+            "fareComponentDetails": [
+              {
+                "fareFamilyName": "SAVER",
+                "boardPoint": "BLR",
+                "offPoint": "DEL",
+                "carrier": "6E",
+                "segmentInfos": [
+                  {
+                    "rbd": "Q",
+                    "fareBasis": "Q0IP",
+                    "supplierInfo": null,
+                    "baggage": {
+                      "qty": "7",
+                      "utyp": "W",
+                      "unt": null
+                    },
+                    "productClass": "R",
+                    "fareSellKey": "0~Q~ ~6E~Q0IP~1059~~0~27~~X"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "personalizationMap": null
+      }
+    },
+    "fareMap": {
+      "DEL-BLR-FLEXI|BLR-DEL-SAVER": {
+        "finalAdultFare": 6224,
+        "initialAdultFare": null,
+        "rKey": "v1~~J$R$RUIP$244.0$400.0$null$null$null$0$0$A^R$Q$Q0IP$153.0$400.0$null$null$null$1$0$A~A-3176.0|2292.0_C-0|0_I-0|0^A-3048.0|2121.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~DEL_BLR_DepartDate1_6E-2212_NkVVTkk=_05:35_DepartDate1_07:45_6E_6E_6E_JO~6E_0_0_DEL-BLR-DepartDate1_FLEXI^BLR_DEL_DepartDate2_6E-168_NkVVTkk=_12:50_DepartDate2_15:00_6E_6E_6E_JO~6E_0_1_BLR-DEL-DepartDate2_SAVER",
+        "fares": [
+          {
+            "sector": "DEL-BLR",
+            "fareListIdentifier": "ID2"
+          },
+          {
+            "sector": "BLR-DEL",
+            "fareListIdentifier": "ID3"
+          }
+        ]
+      },
+      "DEL-BLR-SAVER|BLR-DEL-SAVER": {
+        "finalAdultFare": 5842,
+        "initialAdultFare": null,
+        "rKey": "v1~~R$R$R0IP$244.0$400.0$null$null$null$0$0$A^R$Q$Q0IP$153.0$400.0$null$null$null$1$0$A~A-2794.0|1928.0_C-0|0_I-0|0^A-3048.0|2121.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~DEL_BLR_DepartDate1_6E-2212_NkVVTkk=_05:35_DepartDate1_07:45_6E_6E_6E_JO~6E_0_0_DEL-BLR-DepartDate1_SAVER^BLR_DEL_DepartDate2_6E-168_NkVVTkk=_12:50_DepartDate2_15:00_6E_6E_6E_JO~6E_0_1_BLR-DEL-DepartDate2_SAVER",
+        "fares": [
+          {
+            "sector": "DEL-BLR",
+            "fareListIdentifier": "ID1"
+          },
+          {
+            "sector": "BLR-DEL",
+            "fareListIdentifier": "ID3"
+          }
+        ]
+      },
+      "DEL-BLR-FLEXI|BLR-DEL-FLEXI": {
+        "finalAdultFare": 6617,
+        "initialAdultFare": null,
+        "rKey": "v1~~J$R$RUIP$244.0$400.0$null$null$null$0$0$A^J$Q$QUIP$153.0$400.0$null$null$null$1$0$A~A-3176.0|2292.0_C-0|0_I-0|0^A-3441.0|2496.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~DEL_BLR_DepartDate1_6E-2212_NkVVTkk=_05:35_DepartDate1_07:45_6E_6E_6E_JO~6E_0_0_DEL-BLR-DepartDate1_FLEXI^BLR_DEL_DepartDate2_6E-168_NkVVTkk=_12:50_DepartDate2_15:00_6E_6E_6E_JO~6E_0_1_BLR-DEL-DepartDate2_FLEXI",
+        "fares": [
+          {
+            "sector": "DEL-BLR",
+            "fareListIdentifier": "ID2"
+          },
+          {
+            "sector": "BLR-DEL",
+            "fareListIdentifier": "ID4"
+          }
+        ]
+      },
+      "DEL-BLR-SAVER|BLR-DEL-FLEXI": {
+        "finalAdultFare": 6235,
+        "initialAdultFare": null,
+        "rKey": "v1~~R$R$R0IP$244.0$400.0$null$null$null$0$0$A^J$Q$QUIP$153.0$400.0$null$null$null$1$0$A~A-2794.0|1928.0_C-0|0_I-0|0^A-3441.0|2496.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0~~DEL_BLR_DepartDate1_6E-2212_NkVVTkk=_05:35_DepartDate1_07:45_6E_6E_6E_JO~6E_0_0_DEL-BLR-DepartDate1_SAVER^BLR_DEL_DepartDate2_6E-168_NkVVTkk=_12:50_DepartDate2_15:00_6E_6E_6E_JO~6E_0_1_BLR-DEL-DepartDate2_FLEXI",
+        "fares": [
+          {
+            "sector": "DEL-BLR",
+            "fareListIdentifier": "ID1"
+          },
+          {
+            "sector": "BLR-DEL",
+            "fareListIdentifier": "ID4"
+          }
+        ]
+      }
+    }
+  },
+  "fareBreakUp": {
+    "fareSummary": [
+      {
+        "paxType": "Adult",
+        "noOfPax": 1,
+        "fareDetails": {
+          "discount": 0,
+          "taxDetails": {
+            "flightTax": [
+              {
+                "taxValue": 100,
+                "taxDescription": "TF",
+                "taxDescriptionMessage": "TF_DM"
+              },
+              {
+                "taxValue": 1042,
+                "taxDescription": "YQ",
+                "taxDescriptionMessage": "YQ_DM"
+              },
+              {
+                "taxValue": 254,
+                "taxDescription": "GOODS_SERVICE_TAX",
+                "taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+              },
+              {
+                "taxValue": 397,
+                "taxDescription": "PSF",
+                "taxDescriptionMessage": "PSF_DM"
+              }
+            ],
+            "totalTaxAmount": 1793
+          },
+          "baseFare": 4049,
+          "totalFare": 5842
+        }
+      }
+    ],
+    "taxSummary": {
+      "flightTax": [
+        {
+          "taxValue": 100,
+          "taxDescription": "TF",
+          "taxDescriptionMessage": "TF_DM"
+        },
+        {
+          "taxValue": 1042,
+          "taxDescription": "YQ",
+          "taxDescriptionMessage": "YQ_DM"
+        },
+        {
+          "taxValue": 254,
+          "taxDescription": "GOODS_SERVICE_TAX",
+          "taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+        },
+        {
+          "taxValue": 397,
+          "taxDescription": "PSF",
+          "taxDescriptionMessage": "PSF_DM"
+        }
+      ],
+      "totalTaxAmount": 1793
+    },
+    "taxDescMap": {
+      "INF": "Infant Tax",
+      "KKC": "Krishi Kalyan Cess",
+      "AST": "Service Tax",
+      "PSF": "Passenger Service Fee",
+      "DF": "Development Fee",
+      "OTH": "Other",
+      "CF": "Congestion Fee",
+      "GOODS_SERVICE_TAX": "Goods and Services Tax",
+      "TTF": "Travel and Tourism Fee",
+      "GST": "Gvt. Service Fee",
+      "UDFA": "User Development Fee(Arrival)",
+      "TF": "CUTE Fee",
+      "SF": "Service Fee",
+      "RCF": "Regional Connectivity Fund",
+      "SBC": "Swachh Bharat Cess ",
+      "UDF": "User Development Fee",
+      "YQ": "Airline Fuel Charge",
+      "DC": "Discount"
+    }
+  }
+}

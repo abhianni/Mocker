@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/loyalty-webservice/getUserActivationStatus?.*PREAPPLIED_SPLIT.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/LoyalityThirdParty/getUserActivationStatus/preAppliedDiscount_Split_getUserActivationStatus/TestCase_1_preAppliedDiscount_Split_getUserActivationStatus_Response.json"
+    }
+}

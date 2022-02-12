@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-aggregator/addToShortlist",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json",
+        "caseInsensitive": true
+      },
+      "mmt-auth": {
+        "equalTo": "VH_A_P_OW",
+        "caseInsensitive": true
+      }
+    },
+    "bodyPatterns": [
+      {
+        "contains": "Test:Test:Test^Test:Test|Test$$$DEL_EDI_310818_BA-256|BA-1452_MP_0"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights/Aggregator/Shortlisting/AddShortlist/Valid_Header_AddShortlistAggregator_response_OW.json"
+  }
+}

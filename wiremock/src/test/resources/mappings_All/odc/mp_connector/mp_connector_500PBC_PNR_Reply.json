@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+       
+       "bodyPatterns":[{
+        "contains" : "PNR_Retrieve",
+		"contains" : "500PBC"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 500
+        
+        
+
+
+
+    }
+}

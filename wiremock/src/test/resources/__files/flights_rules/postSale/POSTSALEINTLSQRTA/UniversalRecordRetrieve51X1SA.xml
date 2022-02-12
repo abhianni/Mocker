@@ -1,0 +1,705 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <universal:UniversalRecordRetrieveRsp TraceId="TO8ctArKQkS" TransactionId="F7D4725D0A0E562B58372AAF82BD1318" ResponseTime="388" xmlns:universal="http://www.travelport.com/schema/universal_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:passive="http://www.travelport.com/schema/passive_v48_0">
+            <common_v48_0:ResponseMessage Code="1512" Type="Warning">Unable to process the request.</common_v48_0:ResponseMessage>
+            <universal:UniversalRecord LocatorCode="7IGWRA" Version="15" Status="Active">
+                <common_v48_0:BookingTraveler Key="Fp8O1MNc1BKAicj/SDAAAA==" TravelerType="ADT" Gender="M">
+                    <common_v48_0:BookingTravelerName Prefix="MR" First="Amit" Last="Harvanshi"/>
+                    <common_v48_0:PhoneNumber Key="Fp8O1MNc1BKAjcj/SDAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9811213274">
+                        <common_v48_0:ProviderReservationInfoRef Key="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    </common_v48_0:PhoneNumber>
+                    <common_v48_0:Email Key="Fp8O1MNc1BKAmcj/SDAAAA==" EmailID="amit@aapinfosystems.com">
+                        <common_v48_0:ProviderReservationInfoRef Key="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    </common_v48_0:Email>
+                    <common_v48_0:SSR Key="zsPM1MtB0BKAmq+LTDAAAA==" SegmentRef="PmOM1MlB0BKAQcnxTDAAAA==" Status="HK" Type="TKNE" FreeText="6183761086928C1" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    <common_v48_0:SSR Key="zsPM1MtB0BKAnq+LTDAAAA==" SegmentRef="PmOM1MlB0BKARcnxTDAAAA==" Status="HK" Type="TKNE" FreeText="6183761086928C2" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    <common_v48_0:SSR Key="zsPM1MtB0BKAoq+LTDAAAA==" SegmentRef="PmOM1MlB0BKAScnxTDAAAA==" Status="HK" Type="TKNE" FreeText="6183761086928C3" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    <common_v48_0:SSR Key="zsPM1MtB0BKApq+LTDAAAA==" SegmentRef="PmOM1MlB0BKATcnxTDAAAA==" Status="HK" Type="TKNE" FreeText="6183761086928C4" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                </common_v48_0:BookingTraveler>
+                <common_v48_0:OSI Key="C7zF1MBAAA/BXVDNUDAAAA==" Carrier="YY" Text="CTCM 9811213274" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                <common_v48_0:OSI Key="X5AVpPBAAA/BVxqPSAAAAA==" Carrier="1G" Text="SNC RLOC 1A RDI6K9" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                <common_v48_0:ActionStatus Key="hH3T1MxYlDKA24PGTDAAAA==" Type="ACTIVE" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" ProviderCode="1G">
+                    <common_v48_0:Remark>BOM 15JUL1440Z WS AG</common_v48_0:Remark>
+                </common_v48_0:ActionStatus>
+                <universal:ProviderReservationInfo Key="PmOM1MlB0BKA0boxTDAAAA==" ProviderCode="1G" LocatorCode="51X1SA" CreateDate="2020-07-15T14:35:56.610+00:00" ModifiedDate="2020-08-16T14:47:41.168+00:00" HostCreateDate="2020-07-15" OwningPCC="34TZ"/>
+                <air:AirReservation LocatorCode="7IGWRJ" CreateDate="2020-07-15T14:35:57.432+00:00" ModifiedDate="2020-08-16T14:47:41.598+00:00">
+                    <common_v48_0:SupplierLocator SupplierCode="SQ" SupplierLocatorCode="RDI6K9" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" CreateDateTime="2020-07-15T14:39:00.000+00:00"/>
+                    <air:DocumentInfo>
+                        <air:TicketInfo Number="6183761086928" TicketIssueDate="2020-07-15T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="ZWP7GWS" CountryCode="IN" Status="N" BookingTravelerRef="Fp8O1MNc1BKAicj/SDAAAA==" AirPricingInfoRef="Az8O1Mcc1BKAL/Z0SDAAAA==">
+                            <common_v48_0:Name Prefix="MR" First="Amit" Last="Harvanshi"/>
+                        </air:TicketInfo>
+                    </air:DocumentInfo>
+                    <common_v48_0:BookingTravelerRef Key="Fp8O1MNc1BKAicj/SDAAAA=="/>
+                    <common_v48_0:ProviderReservationInfoRef Key="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    <air:AirSegment Key="PmOM1MlB0BKAQcnxTDAAAA==" Group="0" Carrier="SQ" CabinClass="Economy" FlightNumber="403" ProviderCode="1G" Origin="DEL" Destination="SIN" DepartureTime="2021-04-22T21:55:00.000+05:30" ArrivalTime="2021-04-23T06:10:00.000+08:00" TravelTime="345" ClassOfService="V" ETicketability="Yes" Equipment="388" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false">
+                        <air:FlightDetails Key="5Y8O1MLc1BKAQPt6TDAAAA==" Origin="DEL" Destination="SIN" DepartureTime="2021-04-22T21:55:00.000+05:30" ArrivalTime="2021-04-23T06:10:00.000+08:00" FlightTime="345" TravelTime="345" Equipment="388" OriginTerminal="3" AutomatedCheckin="false"/>
+                        <air:Connection Duration="200"/>
+                        <common_v48_0:SellMessage>DEPARTS DEL TERMINAL 3</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>*PREMIUM EYCL IS AVAIL ON SELECTED FLTS*</common_v48_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirSegment Key="PmOM1MlB0BKARcnxTDAAAA==" Group="0" Carrier="SQ" CabinClass="Economy" FlightNumber="972" ProviderCode="1G" Origin="SIN" Destination="BKK" DepartureTime="2021-04-23T09:30:00.000+08:00" ArrivalTime="2021-04-23T11:00:00.000+07:00" TravelTime="150" ClassOfService="V" ETicketability="Yes" Equipment="333" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false">
+                        <air:FlightDetails Key="5Y8O1MLc1BKARPt6TDAAAA==" Origin="SIN" Destination="BKK" DepartureTime="2021-04-23T09:30:00.000+08:00" ArrivalTime="2021-04-23T11:00:00.000+07:00" FlightTime="150" TravelTime="150" Equipment="333" OriginTerminal="3" AutomatedCheckin="false"/>
+                        <common_v48_0:SellMessage>DEPARTS SIN TERMINAL 3</common_v48_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirSegment Key="PmOM1MlB0BKAScnxTDAAAA==" Group="1" Carrier="SQ" CabinClass="Economy" FlightNumber="977" ProviderCode="1G" Origin="BKK" Destination="SIN" DepartureTime="2021-04-28T15:30:00.000+07:00" ArrivalTime="2021-04-28T18:55:00.000+08:00" TravelTime="145" ClassOfService="V" ETicketability="Yes" Equipment="333" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" TravelOrder="3" ProviderSegmentOrder="3" OptionalServicesIndicator="false">
+                        <air:FlightDetails Key="5Y8O1MLc1BKASPt6TDAAAA==" Origin="BKK" Destination="SIN" DepartureTime="2021-04-28T15:30:00.000+07:00" ArrivalTime="2021-04-28T18:55:00.000+08:00" FlightTime="145" TravelTime="145" Equipment="333" AutomatedCheckin="false"/>
+                    </air:AirSegment>
+                    <air:AirSegment Key="PmOM1MlB0BKATcnxTDAAAA==" Group="2" Carrier="SQ" CabinClass="Economy" FlightNumber="406" ProviderCode="1G" Origin="SIN" Destination="DEL" DepartureTime="2021-04-29T16:50:00.000+08:00" ArrivalTime="2021-04-29T20:10:00.000+05:30" TravelTime="350" ClassOfService="V" ETicketability="Yes" Equipment="388" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" TravelOrder="4" ProviderSegmentOrder="4" OptionalServicesIndicator="false">
+                        <air:FlightDetails Key="5Y8O1MLc1BKATPt6TDAAAA==" Origin="SIN" Destination="DEL" DepartureTime="2021-04-29T16:50:00.000+08:00" ArrivalTime="2021-04-29T20:10:00.000+05:30" FlightTime="350" TravelTime="350" Equipment="388" OriginTerminal="3" DestinationTerminal="3" AutomatedCheckin="false"/>
+                        <common_v48_0:SellMessage>DEPARTS SIN TERMINAL 3  - ARRIVES DEL TERMINAL 3</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>*PREMIUM EYCL IS AVAIL ON SELECTED FLTS*</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v48_0:SellMessage>
+                        <common_v48_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v48_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirPricingInfo Key="Az8O1Mcc1BKAL/Z0SDAAAA==" TotalPrice="INR20634" BasePrice="INR16300" ApproximateTotalPrice="INR20634" ApproximateBasePrice="INR16300" Taxes="INR4334" TrueLastDateToTicket="2021-03-23T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" AirPricingInfoGroup="1" Ticketed="true" PricingType="StoredFare" FareCalculationInd="G">
+                        <air:FareInfo Key="Az8O1Mcc1BKAgpb0SDAAAA==" FareBasis="V15IIRA1" PassengerTypeCode="ADT" Origin="DEL" Destination="SIN" EffectiveDate="2020-07-15T00:00:00.000+05:30" NotValidAfter="2021-05-22" PseudoCityCode="WP7">
+                            <common_v48_0:Endorsement Value="VALID SQ/MI.CHNG FEE APPLY"/>
+                            <common_v48_0:Endorsement Value="NON REFUND / NO SHOW FEE"/>
+                            <common_v48_0:Endorsement Value="APPLY"/>
+                            <air:BaggageAllowance>
+                                <air:MaxWeight Value="30" Unit="Kilograms"/>
+                            </air:BaggageAllowance>
+                            <air:Brand Key="Az8O1Mcc1BKAgpb0SDAAAA==" BrandID="541215" Name="ECONOMY LITE" Carrier="SQ" BrandTier="0001">
+                                <air:Title Type="External" LanguageCode="EN">ECONOMY LITE</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">YCLLITE</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//06B/F/50 PERCENT KF MILES EARNED//06C/N/75PERCENT KF MILES EARNED//06D/N/100 PERCENT KFMILES EARNED//06R/N/125 PERCENT KF MILESEARNED//06M/N/150 PERCENT KF MILESEARNED//06N/N/200 PERCENT KF MILESEARNED//0C5/F/UP TO 30KG BAGGAGE//0C7/N/UP TO35KG BAGGAGE//0C8/N/UP TO 40KGBAGGAGE//0I7/N/UP TO 50KG BAGGAGE//050/C/SEATSELECTION STANDARD ZONE//05Z/C/SEAT SELECTIONFORWARD ZONE//0NI/D/UPGRADE WITHMILES//056/D/CANCELLATION//059/F/BOOKINGCHANGE//0NN/C/NO SHOW//</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">ECONOMY LITE FARE includes
+
+                                    - 30kg check-in baggage
+                                    - Seat Selection is subjected to a fee
+                                    - Earn 50% KrisFlyer miles
+                                    - Upgrade with KrisFlyer miles not allowed
+                                    - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                    - Refunds not permitted
+
+                                    Fare offering may differ on codeshare flight bookings</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">ECONOMY LITE FARE includes
+
+                                    - 30kg check-in baggage
+                                    - Seat Selection is subjected to a fee
+                                    - Earn 50% KrisFlyer miles
+                                    - Upgrade with KrisFlyer miles not allowed
+                                    - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                    - Refunds not permitted
+
+                                    Fare offering may differ on codeshare flight bookings</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">ECONOMY LITE</air:Text>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.735+00:00" ServiceSubCode="0C5" Key="Az8O1Mcc1BKAiib0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>UP TO 30KG BAGGAGE</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">UP TO 30KG BAGGAGE</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Free baggage allowance is included in all fares:
+
+                                            Economy Lite: 30kg
+                                            Economy Standard: 30kg
+                                            Economy Flexi: 35kg
+                                            Premium Economy Standard/Flexi: 35kg
+                                            Business Lite/Standard/Flexi: 40kg
+                                            First/Suites: 50kg
+
+                                            PPS Club + family members on same flight:
+                                            Economy: +30kg
+                                            Premium Economy: +35kg
+                                            Business: +40kg
+                                            First/Suites: +50kg
+
+                                            KF/Star Gold: 20kg more</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Free baggage allowance is included in all fares:
+
+                                            Economy Lite: 30kg
+                                            Economy Standard: 30kg
+                                            Economy Flexi: 35kg
+                                            Premium Economy Standard/Flexi: 35kg
+                                            Business Lite/Standard/Flexi: 40kg
+                                            First/Suites: 50kg
+
+                                            PPS Club + family members on same flight:
+                                            Economy: +30kg
+                                            Premium Economy: +35kg
+                                            Business: +40kg
+                                            First/Suites: +50kg
+
+                                            KF/Star Gold: 20kg more</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">UP TO 30KG BAGGAGE</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">UP TO 30KG</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.736+00:00" ServiceSubCode="06B" Key="Az8O1Mcc1BKAnib0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>50 PERCENT KF MILES EARNED</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">50 PERCENT KF MILES EARNED</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Lite: 50%
+                                            Economy Standard: 75%
+                                            Economy Flexi: 100%
+                                            Premium Economy Lite: 100%
+                                            Premium Economy Standard: 100%
+                                            Premium Economy Flexi: 125%
+                                            Business Lite: 125%
+                                            Business Standard: 125%
+                                            Business Flexi: 150%
+                                            First/Suites: 200%</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Lite: 50%
+                                            Economy Standard: 75%
+                                            Economy Flexi: 100%
+                                            Premium Economy Lite: 100%
+                                            Premium Economy Standard: 100%
+                                            Premium Economy Flexi: 125%
+                                            Business Lite: 125%
+                                            Business Standard: 125%
+                                            Business Flexi: 150%
+                                            First/Suites: 200%</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">50 PERCENT KF MILES EARNED</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">50 PERCENT</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.736+00:00" ServiceSubCode="059" Key="Az8O1Mcc1BKAoib0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>BOOKING CHANGE</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">BOOKING CHANGE</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">(USD) - SH/LH
+                                            Economy Lite: 50/200
+                                            Economy Standard: 20/50
+                                            Economy Flexi: FOC
+                                            Premium Economy Lite: 100/100
+                                            Premium Economy Standard: 50/50
+                                            Premium Economy Flexi: FOC
+                                            Business Lite: 200/250
+                                            Business Standard: 100/150
+                                            Business Flexi: FOC
+                                            First/Suites: FOC
+
+                                            Check fare rules for more details.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">(USD) - SH/LH
+                                            Economy Lite: 50/200
+                                            Economy Standard: 20/50
+                                            Economy Flexi: FOC
+                                            Premium Economy Lite: 100/100
+                                            Premium Economy Standard: 50/50
+                                            Premium Economy Flexi: FOC
+                                            Business Lite: 200/250
+                                            Business Standard: 100/150
+                                            Business Flexi: FOC
+                                            First/Suites: FOC
+
+                                            Check fare rules for more details.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">BOOKING CHANGE</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">BOOKING CH</air:Title>
+                                    </air:OptionalService>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:FareInfo Key="Az8O1Mcc1BKAhpb0SDAAAA==" FareBasis="V15IIRA1" PassengerTypeCode="ADT" Origin="SIN" Destination="BKK" EffectiveDate="2020-07-15T00:00:00.000+05:30" NotValidAfter="2021-05-22" PseudoCityCode="WP7">
+                            <common_v48_0:Endorsement Value="VALID SQ/MI.CHNG FEE APPLY"/>
+                            <common_v48_0:Endorsement Value="NON REFUND / NO SHOW FEE"/>
+                            <common_v48_0:Endorsement Value="APPLY"/>
+                            <air:BaggageAllowance>
+                                <air:MaxWeight Value="30" Unit="Kilograms"/>
+                            </air:BaggageAllowance>
+                            <air:Brand Key="Az8O1Mcc1BKAhpb0SDAAAA==" BrandID="541215" Name="ECONOMY LITE" Carrier="SQ" BrandTier="0001">
+                                <air:Title Type="External" LanguageCode="EN">ECONOMY LITE</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">YCLLITE</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//06B/F/50 PERCENT KF MILES EARNED//06C/N/75PERCENT KF MILES EARNED//06D/N/100 PERCENT KFMILES EARNED//06R/N/125 PERCENT KF MILESEARNED//06M/N/150 PERCENT KF MILESEARNED//06N/N/200 PERCENT KF MILESEARNED//0C5/F/UP TO 30KG BAGGAGE//0C7/N/UP TO35KG BAGGAGE//0C8/N/UP TO 40KGBAGGAGE//0I7/N/UP TO 50KG BAGGAGE//050/C/SEATSELECTION STANDARD ZONE//05Z/C/SEAT SELECTIONFORWARD ZONE//0NI/D/UPGRADE WITHMILES//056/D/CANCELLATION//059/F/BOOKINGCHANGE//0NN/C/NO SHOW//</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">ECONOMY LITE FARE includes
+
+                                    - 30kg check-in baggage
+                                    - Seat Selection is subjected to a fee
+                                    - Earn 50% KrisFlyer miles
+                                    - Upgrade with KrisFlyer miles not allowed
+                                    - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                    - Refunds not permitted
+
+                                    Fare offering may differ on codeshare flight bookings</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">ECONOMY LITE FARE includes
+
+                                    - 30kg check-in baggage
+                                    - Seat Selection is subjected to a fee
+                                    - Earn 50% KrisFlyer miles
+                                    - Upgrade with KrisFlyer miles not allowed
+                                    - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                    - Refunds not permitted
+
+                                    Fare offering may differ on codeshare flight bookings</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">ECONOMY LITE</air:Text>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.767+00:00" ServiceSubCode="0C5" Key="Az8O1Mcc1BKA7ib0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>UP TO 30KG BAGGAGE</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">UP TO 30KG BAGGAGE</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Free baggage allowance is included in all fares:
+
+                                            Economy Lite: 30kg
+                                            Economy Standard: 30kg
+                                            Economy Flexi: 35kg
+                                            Premium Economy Standard/Flexi: 35kg
+                                            Business Lite/Standard/Flexi: 40kg
+                                            First/Suites: 50kg
+
+                                            PPS Club + family members on same flight:
+                                            Economy: +30kg
+                                            Premium Economy: +35kg
+                                            Business: +40kg
+                                            First/Suites: +50kg
+
+                                            KF/Star Gold: 20kg more</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Free baggage allowance is included in all fares:
+
+                                            Economy Lite: 30kg
+                                            Economy Standard: 30kg
+                                            Economy Flexi: 35kg
+                                            Premium Economy Standard/Flexi: 35kg
+                                            Business Lite/Standard/Flexi: 40kg
+                                            First/Suites: 50kg
+
+                                            PPS Club + family members on same flight:
+                                            Economy: +30kg
+                                            Premium Economy: +35kg
+                                            Business: +40kg
+                                            First/Suites: +50kg
+
+                                            KF/Star Gold: 20kg more</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">UP TO 30KG BAGGAGE</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">UP TO 30KG</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.767+00:00" ServiceSubCode="06B" Key="Az8O1Mcc1BKAAjb0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>50 PERCENT KF MILES EARNED</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">50 PERCENT KF MILES EARNED</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Lite: 50%
+                                            Economy Standard: 75%
+                                            Economy Flexi: 100%
+                                            Premium Economy Lite: 100%
+                                            Premium Economy Standard: 100%
+                                            Premium Economy Flexi: 125%
+                                            Business Lite: 125%
+                                            Business Standard: 125%
+                                            Business Flexi: 150%
+                                            First/Suites: 200%</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Lite: 50%
+                                            Economy Standard: 75%
+                                            Economy Flexi: 100%
+                                            Premium Economy Lite: 100%
+                                            Premium Economy Standard: 100%
+                                            Premium Economy Flexi: 125%
+                                            Business Lite: 125%
+                                            Business Standard: 125%
+                                            Business Flexi: 150%
+                                            First/Suites: 200%</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">50 PERCENT KF MILES EARNED</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">50 PERCENT</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.767+00:00" ServiceSubCode="059" Key="Az8O1Mcc1BKABjb0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>BOOKING CHANGE</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">BOOKING CHANGE</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">(USD) - SH/LH
+                                            Economy Lite: 50/200
+                                            Economy Standard: 20/50
+                                            Economy Flexi: FOC
+                                            Premium Economy Lite: 100/100
+                                            Premium Economy Standard: 50/50
+                                            Premium Economy Flexi: FOC
+                                            Business Lite: 200/250
+                                            Business Standard: 100/150
+                                            Business Flexi: FOC
+                                            First/Suites: FOC
+
+                                            Check fare rules for more details.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">(USD) - SH/LH
+                                            Economy Lite: 50/200
+                                            Economy Standard: 20/50
+                                            Economy Flexi: FOC
+                                            Premium Economy Lite: 100/100
+                                            Premium Economy Standard: 50/50
+                                            Premium Economy Flexi: FOC
+                                            Business Lite: 200/250
+                                            Business Standard: 100/150
+                                            Business Flexi: FOC
+                                            First/Suites: FOC
+
+                                            Check fare rules for more details.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">BOOKING CHANGE</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">BOOKING CH</air:Title>
+                                    </air:OptionalService>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:FareInfo Key="Az8O1Mcc1BKAipb0SDAAAA==" FareBasis="V15IIRA1" PassengerTypeCode="ADT" Origin="BKK" Destination="SIN" EffectiveDate="2020-07-15T00:00:00.000+05:30" NotValidBefore="2021-04-25" NotValidAfter="2021-05-22" PseudoCityCode="WP7">
+                            <common_v48_0:Endorsement Value="VALID SQ/MI.CHNG FEE APPLY"/>
+                            <common_v48_0:Endorsement Value="NON REFUND / NO SHOW FEE"/>
+                            <common_v48_0:Endorsement Value="APPLY"/>
+                            <air:BaggageAllowance>
+                                <air:MaxWeight Value="30" Unit="Kilograms"/>
+                            </air:BaggageAllowance>
+                            <air:Brand Key="Az8O1Mcc1BKAipb0SDAAAA==" BrandID="541215" Name="ECONOMY LITE" Carrier="SQ" BrandTier="0001">
+                                <air:Title Type="External" LanguageCode="EN">ECONOMY LITE</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">YCLLITE</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//06B/F/50 PERCENT KF MILES EARNED//06C/N/75PERCENT KF MILES EARNED//06D/N/100 PERCENT KFMILES EARNED//06R/N/125 PERCENT KF MILESEARNED//06M/N/150 PERCENT KF MILESEARNED//06N/N/200 PERCENT KF MILESEARNED//0C5/F/UP TO 30KG BAGGAGE//0C7/N/UP TO35KG BAGGAGE//0C8/N/UP TO 40KGBAGGAGE//0I7/N/UP TO 50KG BAGGAGE//050/C/SEATSELECTION STANDARD ZONE//05Z/C/SEAT SELECTIONFORWARD ZONE//0NI/D/UPGRADE WITHMILES//056/D/CANCELLATION//059/F/BOOKINGCHANGE//0NN/C/NO SHOW//</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">ECONOMY LITE FARE includes
+
+                                    - 30kg check-in baggage
+                                    - Seat Selection is subjected to a fee
+                                    - Earn 50% KrisFlyer miles
+                                    - Upgrade with KrisFlyer miles not allowed
+                                    - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                    - Refunds not permitted
+
+                                    Fare offering may differ on codeshare flight bookings</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">ECONOMY LITE FARE includes
+
+                                    - 30kg check-in baggage
+                                    - Seat Selection is subjected to a fee
+                                    - Earn 50% KrisFlyer miles
+                                    - Upgrade with KrisFlyer miles not allowed
+                                    - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                    - Refunds not permitted
+
+                                    Fare offering may differ on codeshare flight bookings</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">ECONOMY LITE</air:Text>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.799+00:00" ServiceSubCode="0C5" Key="Az8O1Mcc1BKAyob0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>UP TO 30KG BAGGAGE</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">UP TO 30KG BAGGAGE</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Free baggage allowance is included in all fares:
+
+                                            Economy Lite: 30kg
+                                            Economy Standard: 30kg
+                                            Economy Flexi: 35kg
+                                            Premium Economy Standard/Flexi: 35kg
+                                            Business Lite/Standard/Flexi: 40kg
+                                            First/Suites: 50kg
+
+                                            PPS Club + family members on same flight:
+                                            Economy: +30kg
+                                            Premium Economy: +35kg
+                                            Business: +40kg
+                                            First/Suites: +50kg
+
+                                            KF/Star Gold: 20kg more</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Free baggage allowance is included in all fares:
+
+                                            Economy Lite: 30kg
+                                            Economy Standard: 30kg
+                                            Economy Flexi: 35kg
+                                            Premium Economy Standard/Flexi: 35kg
+                                            Business Lite/Standard/Flexi: 40kg
+                                            First/Suites: 50kg
+
+                                            PPS Club + family members on same flight:
+                                            Economy: +30kg
+                                            Premium Economy: +35kg
+                                            Business: +40kg
+                                            First/Suites: +50kg
+
+                                            KF/Star Gold: 20kg more</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">UP TO 30KG BAGGAGE</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">UP TO 30KG</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.799+00:00" ServiceSubCode="06B" Key="Az8O1Mcc1BKA3ob0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>50 PERCENT KF MILES EARNED</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">50 PERCENT KF MILES EARNED</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Lite: 50%
+                                            Economy Standard: 75%
+                                            Economy Flexi: 100%
+                                            Premium Economy Lite: 100%
+                                            Premium Economy Standard: 100%
+                                            Premium Economy Flexi: 125%
+                                            Business Lite: 125%
+                                            Business Standard: 125%
+                                            Business Flexi: 150%
+                                            First/Suites: 200%</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Lite: 50%
+                                            Economy Standard: 75%
+                                            Economy Flexi: 100%
+                                            Premium Economy Lite: 100%
+                                            Premium Economy Standard: 100%
+                                            Premium Economy Flexi: 125%
+                                            Business Lite: 125%
+                                            Business Standard: 125%
+                                            Business Flexi: 150%
+                                            First/Suites: 200%</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">50 PERCENT KF MILES EARNED</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">50 PERCENT</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.799+00:00" ServiceSubCode="059" Key="Az8O1Mcc1BKA4ob0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>BOOKING CHANGE</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">BOOKING CHANGE</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">(USD) - SH/LH
+                                            Economy Lite: 50/200
+                                            Economy Standard: 20/50
+                                            Economy Flexi: FOC
+                                            Premium Economy Lite: 100/100
+                                            Premium Economy Standard: 50/50
+                                            Premium Economy Flexi: FOC
+                                            Business Lite: 200/250
+                                            Business Standard: 100/150
+                                            Business Flexi: FOC
+                                            First/Suites: FOC
+
+                                            Check fare rules for more details.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">(USD) - SH/LH
+                                            Economy Lite: 50/200
+                                            Economy Standard: 20/50
+                                            Economy Flexi: FOC
+                                            Premium Economy Lite: 100/100
+                                            Premium Economy Standard: 50/50
+                                            Premium Economy Flexi: FOC
+                                            Business Lite: 200/250
+                                            Business Standard: 100/150
+                                            Business Flexi: FOC
+                                            First/Suites: FOC
+
+                                            Check fare rules for more details.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">BOOKING CHANGE</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">BOOKING CH</air:Title>
+                                    </air:OptionalService>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:FareInfo Key="Az8O1Mcc1BKAjpb0SDAAAA==" FareBasis="V15IIRA1" PassengerTypeCode="ADT" Origin="SIN" Destination="DEL" EffectiveDate="2020-07-15T00:00:00.000+05:30" NotValidBefore="2021-04-25" NotValidAfter="2021-05-22" PseudoCityCode="WP7">
+                            <common_v48_0:Endorsement Value="VALID SQ/MI.CHNG FEE APPLY"/>
+                            <common_v48_0:Endorsement Value="NON REFUND / NO SHOW FEE"/>
+                            <common_v48_0:Endorsement Value="APPLY"/>
+                            <air:BaggageAllowance>
+                                <air:MaxWeight Value="30" Unit="Kilograms"/>
+                            </air:BaggageAllowance>
+                            <air:Brand Key="Az8O1Mcc1BKAjpb0SDAAAA==" BrandID="541215" Name="ECONOMY LITE" Carrier="SQ" BrandTier="0001">
+                                <air:Title Type="External" LanguageCode="EN">ECONOMY LITE</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">YCLLITE</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//06B/F/50 PERCENT KF MILES EARNED//06C/N/75PERCENT KF MILES EARNED//06D/N/100 PERCENT KFMILES EARNED//06R/N/125 PERCENT KF MILESEARNED//06M/N/150 PERCENT KF MILESEARNED//06N/N/200 PERCENT KF MILESEARNED//0C5/F/UP TO 30KG BAGGAGE//0C7/N/UP TO35KG BAGGAGE//0C8/N/UP TO 40KGBAGGAGE//0I7/N/UP TO 50KG BAGGAGE//050/C/SEATSELECTION STANDARD ZONE//05Z/C/SEAT SELECTIONFORWARD ZONE//0NI/D/UPGRADE WITHMILES//056/D/CANCELLATION//059/F/BOOKINGCHANGE//0NN/C/NO SHOW//</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">ECONOMY LITE FARE includes
+
+                                    - 30kg check-in baggage
+                                    - Seat Selection is subjected to a fee
+                                    - Earn 50% KrisFlyer miles
+                                    - Upgrade with KrisFlyer miles not allowed
+                                    - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                    - Refunds not permitted
+
+                                    Fare offering may differ on codeshare flight bookings</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">ECONOMY LITE FARE includes
+
+                                    - 30kg check-in baggage
+                                    - Seat Selection is subjected to a fee
+                                    - Earn 50% KrisFlyer miles
+                                    - Upgrade with KrisFlyer miles not allowed
+                                    - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                    - Refunds not permitted
+
+                                    Fare offering may differ on codeshare flight bookings</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">ECONOMY LITE</air:Text>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.826+00:00" ServiceSubCode="0C5" Key="Az8O1Mcc1BKANpb0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>UP TO 30KG BAGGAGE</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">UP TO 30KG BAGGAGE</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Free baggage allowance is included in all fares:
+
+                                            Economy Lite: 30kg
+                                            Economy Standard: 30kg
+                                            Economy Flexi: 35kg
+                                            Premium Economy Standard/Flexi: 35kg
+                                            Business Lite/Standard/Flexi: 40kg
+                                            First/Suites: 50kg
+
+                                            PPS Club + family members on same flight:
+                                            Economy: +30kg
+                                            Premium Economy: +35kg
+                                            Business: +40kg
+                                            First/Suites: +50kg
+
+                                            KF/Star Gold: 20kg more</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Free baggage allowance is included in all fares:
+
+                                            Economy Lite: 30kg
+                                            Economy Standard: 30kg
+                                            Economy Flexi: 35kg
+                                            Premium Economy Standard/Flexi: 35kg
+                                            Business Lite/Standard/Flexi: 40kg
+                                            First/Suites: 50kg
+
+                                            PPS Club + family members on same flight:
+                                            Economy: +30kg
+                                            Premium Economy: +35kg
+                                            Business: +40kg
+                                            First/Suites: +50kg
+
+                                            KF/Star Gold: 20kg more</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">UP TO 30KG BAGGAGE</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">UP TO 30KG</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.826+00:00" ServiceSubCode="06B" Key="Az8O1Mcc1BKASpb0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>50 PERCENT KF MILES EARNED</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">50 PERCENT KF MILES EARNED</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Lite: 50%
+                                            Economy Standard: 75%
+                                            Economy Flexi: 100%
+                                            Premium Economy Lite: 100%
+                                            Premium Economy Standard: 100%
+                                            Premium Economy Flexi: 125%
+                                            Business Lite: 125%
+                                            Business Standard: 125%
+                                            Business Flexi: 150%
+                                            First/Suites: 200%</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Lite: 50%
+                                            Economy Standard: 75%
+                                            Economy Flexi: 100%
+                                            Premium Economy Lite: 100%
+                                            Premium Economy Standard: 100%
+                                            Premium Economy Flexi: 125%
+                                            Business Lite: 125%
+                                            Business Standard: 125%
+                                            Business Flexi: 150%
+                                            First/Suites: 200%</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">50 PERCENT KF MILES EARNED</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">50 PERCENT</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.826+00:00" ServiceSubCode="059" Key="Az8O1Mcc1BKATpb0SDAAAA==" Chargeable="Included in the brand">
+                                        <common_v48_0:ServiceInfo>
+                                            <common_v48_0:Description>BOOKING CHANGE</common_v48_0:Description>
+                                            <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                            <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                        </common_v48_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">BOOKING CHANGE</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">(USD) - SH/LH
+                                            Economy Lite: 50/200
+                                            Economy Standard: 20/50
+                                            Economy Flexi: FOC
+                                            Premium Economy Lite: 100/100
+                                            Premium Economy Standard: 50/50
+                                            Premium Economy Flexi: FOC
+                                            Business Lite: 200/250
+                                            Business Standard: 100/150
+                                            Business Flexi: FOC
+                                            First/Suites: FOC
+
+                                            Check fare rules for more details.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">(USD) - SH/LH
+                                            Economy Lite: 50/200
+                                            Economy Standard: 20/50
+                                            Economy Flexi: FOC
+                                            Premium Economy Lite: 100/100
+                                            Premium Economy Standard: 50/50
+                                            Premium Economy Flexi: FOC
+                                            Business Lite: 200/250
+                                            Business Standard: 100/150
+                                            Business Flexi: FOC
+                                            First/Suites: FOC
+
+                                            Check fare rules for more details.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">BOOKING CHANGE</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">BOOKING CH</air:Title>
+                                    </air:OptionalService>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="Az8O1Mcc1BKAgpb0SDAAAA==" SegmentRef="PmOM1MlB0BKAQcnxTDAAAA=="/>
+                        <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="Az8O1Mcc1BKAhpb0SDAAAA==" SegmentRef="PmOM1MlB0BKARcnxTDAAAA=="/>
+                        <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="Az8O1Mcc1BKAipb0SDAAAA==" SegmentRef="PmOM1MlB0BKAScnxTDAAAA=="/>
+                        <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="Az8O1Mcc1BKAjpb0SDAAAA==" SegmentRef="PmOM1MlB0BKATcnxTDAAAA=="/>
+                        <air:TaxInfo Category="K3" Amount="INR815" Key="Az8O1Mcc1BKA3pb0SDAAAA=="/>
+                        <air:TaxInfo Category="P2" Amount="INR430" Key="Az8O1Mcc1BKA4pb0SDAAAA=="/>
+                        <air:TaxInfo Category="WO" Amount="INR196" Key="Az8O1Mcc1BKA5pb0SDAAAA=="/>
+                        <air:TaxInfo Category="L7" Amount="INR324" Key="Az8O1Mcc1BKA6pb0SDAAAA=="/>
+                        <air:TaxInfo Category="SG" Amount="INR650" Key="Az8O1Mcc1BKA7pb0SDAAAA=="/>
+                        <air:TaxInfo Category="E7" Amount="INR168" Key="Az8O1Mcc1BKA8pb0SDAAAA=="/>
+                        <air:TaxInfo Category="G8" Amount="INR72" Key="Az8O1Mcc1BKA9pb0SDAAAA=="/>
+                        <air:TaxInfo Category="TS" Amount="INR1679" Key="Az8O1Mcc1BKA+pb0SDAAAA=="/>
+                        <air:FareCalc>DEL SQ X/SIN SQ BKK 108.22V15IIRA1 SQ X/SIN SQ DEL 108.23V15IIRA1 NUC216.45END ROE75.305179</air:FareCalc>
+                        <air:PassengerType Code="ADT" BookingTravelerRef="Fp8O1MNc1BKAicj/SDAAAA==">
+                            <air:FareGuaranteeInfo GuaranteeType="Guaranteed"/>
+                        </air:PassengerType>
+                        <common_v48_0:BookingTravelerRef Key="Fp8O1MNc1BKAicj/SDAAAA=="/>
+                        <air:TicketingModifiersRef Key="Az8O1Mcc1BKA2pb0SDAAAA=="/>
+                    </air:AirPricingInfo>
+                    <air:TicketingModifiers PlatingCarrier="SQ" Key="Az8O1Mcc1BKA2pb0SDAAAA==">
+                        <common_v48_0:Commission Level="Fare" Type="PercentBase" Percentage="0.0"/>
+                        <air:TicketEndorsement Value="NN2011253689054"/>
+                        <air:DocumentSelect IssueElectronicTicket="true"/>
+                    </air:TicketingModifiers>
+                </air:AirReservation>
+                <passive:PassiveReservation LocatorCode="7IH87W" CreateDate="2020-07-15T14:39:48.050+00:00" ModifiedDate="2020-08-14T10:52:38.337+00:00" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==">
+                    <common_v48_0:BookingTravelerRef Key="Fp8O1MNc1BKAicj/SDAAAA=="/>
+                    <passive:PassiveSegment NumberOfItems="0" SegmentType="Tour" Status="BK" SupplierCode="ZZ" StartDate="2021-06-11T00:00:00.000+00:00" Key="dXG5NNUYlDKAtC7YlAAAAA==" Group="0" TravelOrder="5" ProviderSegmentOrder="5" PassiveGroup="0"/>
+                    <passive:PassiveRemark PassiveSegmentRef="dXG5NNUYlDKAtC7YlAAAAA==">
+                        <passive:Text>**RETENTION LINE TO KEEP THE PNR ACTIVE**</passive:Text>
+                    </passive:PassiveRemark>
+                </passive:PassiveReservation>
+                <common_v48_0:GeneralRemark Key="v9JD1MBAAA/BqmRbUDAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" CreateDate="2020-07-15T14:36:00.000+00:00">
+                    <common_v48_0:RemarkData>MMTJOURNEY RT XX DEL-BKK YY SQ-403 ZZ SQ-972 XX BKK-DEL YY SQ-977 ZZ SQ-406</common_v48_0:RemarkData>
+                </common_v48_0:GeneralRemark>
+                <common_v48_0:GeneralRemark Key="xgOM1MdB0BKAM3H4TDAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" SupplierCode="1A" Direction="Incoming" CreateDate="2020-07-15T14:39:00.000+00:00">
+                    <common_v48_0:RemarkData>ADTK1GTOSQ BY 18JUL 2300 DEL TIME ZONE OTHERWISE WILL BE XLD</common_v48_0:RemarkData>
+                </common_v48_0:GeneralRemark>
+                <common_v48_0:GeneralRemark Key="OL+O1MQc1BKAxurWTDAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" CreateDate="2020-07-15T14:40:00.000+00:00">
+                    <common_v48_0:RemarkData>FARESOURCE MMYTMY0000</common_v48_0:RemarkData>
+                </common_v48_0:GeneralRemark>
+                <common_v48_0:AgencyInfo>
+                    <common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084232" AgencyCode="S3083002" EventTime="2020-07-15T14:35:56.610+00:00"/>
+                    <common_v48_0:AgentAction ActionType="Modified" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-08-16T14:47:41.609+00:00"/>
+                    <common_v48_0:AgentAction ActionType="Ticketed" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-07-15T14:40:17.358+00:00"/>
+                </common_v48_0:AgencyInfo>
+                <common_v48_0:SSR Key="Fp8O1MNc1BKAadj/SDAAAA==" Status="HK" Type="CTCM" FreeText="/919811213274-1HARVANSHI/AMITMR" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                <common_v48_0:SSR Key="Fp8O1MNc1BKAbdj/SDAAAA==" Status="HK" Type="CTCE" FreeText="/AMIT//AAPINFOSYSTEMS.COM-1HARVANSHI/AMITMR" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                <common_v48_0:SSR Key="X5AVpPBAAA/BWxqPSAAAAA==" Status="HK" Type="DOCS" FreeText="P/IN/K7304768/IN/26SEP77/M/22OCT22/HARVANSHI/AMIT" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                <common_v48_0:SSR Key="X5AVpPBAAA/BXxqPSAAAAA==" Status="HK" Type="FQTV" FreeText="SINDEL 0406V29APR-1HARVANSHI/AMITMR.UK110435496" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                <common_v48_0:SSR Key="X5AVpPBAAA/BYxqPSAAAAA==" Status="HK" Type="FQTV" FreeText="BKKSIN 0977V28APR-1HARVANSHI/AMITMR.UK110435496" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                <common_v48_0:SSR Key="X5AVpPBAAA/BZxqPSAAAAA==" Status="HK" Type="FQTV" FreeText="DELSIN 0403V22APR-1HARVANSHI/AMITMR.UK110435496" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                <common_v48_0:SSR Key="X5AVpPBAAA/BaxqPSAAAAA==" Status="HK" Type="FQTV" FreeText="SINBKK 0972V23APR-1HARVANSHI/AMITMR.UK110435496" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                <common_v48_0:FormOfPayment Key="v9JD1MBAAA/BCUCkUDAAAA==" Type="Credit" Reusable="true" ProfileKey="u5SBLj3uTRu7fnjqIS2baA==">
+                    <common_v48_0:CreditCard Type="CA" Number="************4004" ExpDate="2022-09"/>
+                    <common_v48_0:ProviderReservationInfoRef Key="PmOM1MlB0BKA0boxTDAAAA=="/>
+                </common_v48_0:FormOfPayment>
+            </universal:UniversalRecord>
+        </universal:UniversalRecordRetrieveRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

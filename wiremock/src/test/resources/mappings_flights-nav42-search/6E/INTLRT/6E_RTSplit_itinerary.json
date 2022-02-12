@@ -1,0 +1,17 @@
+{
+  "request":{
+	"method": "POST",
+    "url": "/bookingmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "PriceItineraryRequest"
+      },
+	  {       "contains" : "KTM"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/6E/RTSplit/6E_RTSplit_itineraryPrice.xml"
+
+  }
+}

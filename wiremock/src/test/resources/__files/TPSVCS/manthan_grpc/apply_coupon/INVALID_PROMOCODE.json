@@ -1,0 +1,88 @@
+{
+  "success": true,
+  "burnData": {
+    "success": true,
+    "skuBurnData": {
+      "itid_ApplyCoupon": {
+        "promoVals": {
+          "promoCode": "",
+          "basePromo": "",
+          "discount": 0.0,
+          "postBookingDiscount": 0.0,
+          "bankCashback": 0.0,
+          "configId": "",
+          "configPriority": "0",
+          "offerType": "UNKNOWN_OFFER_TYPE",
+          "bankCashbackExecutionDate": "",
+          "isManualCashbackProcess": false,
+          "isPostDiscounterOptimizationApplied": false,
+          "isPreApply": false,
+          "externalDiscount": 0.0
+        },
+        "priceVals": {
+          "floorPrice": 0.0,
+          "netMargin": 0.0,
+          "discountPercentage": 0.0,
+          "gcpAdjustment": 0.0,
+          "isUdcApplied": false,
+          "udc": 0.0,
+          "discounterType": "UNKNOWN_DISCOUNTER_TYPE",
+          "recurringDiscountAmount": "0",
+          "walletAdjustment": 0.0,
+          "effectiveNetMargin": 0.0,
+          "discountingShareInfo": [],
+          "isDoubleDiscountingAllowed": false
+        },
+        "walletVals": {
+          "isWalletEnabled": false
+        },
+        "paymentParams": {
+          "pbConfigId": "",
+          "entityId": "",
+          "applicablePbParams": []
+        },
+        "failureMessage": "",
+        "extraData": {
+          "debugInfo": {
+            "manthanId": "0",
+            "ruleFailedAt": ""
+          },
+          "configBreakUps": [],
+          "attribution": ""
+        },
+        "segments": {
+          "userSegmentId": "",
+          "goCashSegmentId": "",
+          "goCashPlusSegmentId": "",
+          "userSegmentIds": []
+        },
+        "extraPromos": {
+          "promos": []
+        }
+      }
+    },
+    "promoCodeExists": false,
+    "failureMessage": "Sorry !! Invalid Promo code."
+  },
+  "commonData": {
+    "skuCommonData": {
+      "itid_ApplyCoupon": {
+        "verticalResp": {
+          "flightData": {
+            "globalMetadata": "",
+            "skuMetadata": "",
+            "promoMetadata": ""
+          }
+        },
+        "lobResponse": {
+          "flightData": {
+            "globalMetadata": "",
+            "skuMetadata": "",
+            "promoMetadata": ""
+          }
+        }
+      }
+    }
+  },
+  "errorMessage": ""
+}

@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-personalization/pricePersonalizationInfo",
+        "bodyPatterns":[{	
+        "contains" : "PersonalisationNegativeTestMALFORMEDRESPONSECHUNK"
+        }]
+    },
+    "response": {
+        "fault": "MALFORMED_RESPONSE_CHUNK"
+    }
+}

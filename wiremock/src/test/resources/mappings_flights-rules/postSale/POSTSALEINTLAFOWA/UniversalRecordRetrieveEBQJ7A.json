@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/B2BGateway/connect/uAPI/UniversalRecordService",
+       "bodyPatterns":[
+{ 	"contains" : "EBQJ7A"
+
+}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights_rules/postSale/POSTSALEINTLAFOWA/UniversalRecordRetrieveEBQJ7A.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

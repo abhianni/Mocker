@@ -1,0 +1,17 @@
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MMTHotelReservationResponse>
+	<POS>
+		<CorrelationKey>$(POS.CorrelationKey.value)</CorrelationKey>
+		<Requestor channel="B2C" id="AFF0987" idContext="B2C" type="B2CAgent"/>
+		<Source iSOCurrency="INR"/>
+		<Token>^^^9072</Token>
+	</POS>
+	<ResponseCode success="false">
+		<Errors>
+			<Error code="500">
+				<Description>Unable to Connect to server</Description>
+			</Error>
+		</Errors>
+	</ResponseCode>
+	<ResponseReferenceKey>$(ResponseReferenceKey.value)</ResponseReferenceKey>
+</MMTHotelReservationResponse>

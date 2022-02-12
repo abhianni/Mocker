@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/echo/getCal",
+        "bodyPatterns":[{
+        "contains" : "FailureInjectEchoInvalidResponse"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 100,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/echo/Test8_invalid_Response.json"
+    }
+}

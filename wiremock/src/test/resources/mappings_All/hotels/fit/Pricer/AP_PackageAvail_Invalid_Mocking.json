@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/partner/aps/pkgavail*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_AP_Avail_Invalid_Response"
+        }]
+      },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/hotels/Pricer/AvailHotel_Invalid.json",
+        "transformers": ["body-transformer"]
+    }
+}

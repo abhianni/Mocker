@@ -1,0 +1,309 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "949",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.10",
+    "serviceName": "Pnr-Service",
+    "supplierName": "MP",
+    "credentialId": "MPEXININTRANOMNR",
+    "supplierLatency": "917",
+    "corporateCode": "",
+    "promoCode": ""
+  },
+  "flightLookUpList": {
+    "STN$CPH$2020-06-04 14:00$SK-520": {
+      "mrkAl": "SK",
+      "oprAl": "SK",
+      "fltNo": "520",
+      "arcrfTyp": "32N",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "STN",
+        "arpNm": "Stansted Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "CPH",
+        "arpNm": "Copenhagen Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-06-04 14:00",
+      "arrTime": "2020-06-04 16:45",
+      "durInMins": "105"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "STN$CPH$2020-06-04 14:00$SK-520",
+      "depDate": "2020-06-04 14:00",
+      "arrDate": "2020-06-04 16:45",
+      "durInMins": "105",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "STN$CPH$2020-06-04 14:00$SK-520",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "INFANT": {
+              "bs": 95.0,
+              "tx": 1267.0,
+              "noOfPax": 1,
+              "tot": 1362.0,
+              "taxBreakups": [{
+                "amnt": 1267.0,
+                "code": "UB",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "STN$CPH$2020-06-04 14:00$SK-520": {
+                  "fareClass": "O",
+                  "fareBasis": "OKEOGHTD",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    },
+                    "cabinBag": {
+                      "numOfPieces": 0,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "UnKnown"
+                }
+              }
+            },
+            "CHILD": {
+              "bs": 375.0,
+              "tx": 2507.0,
+              "noOfPax": 1,
+              "tot": 2882.0,
+              "taxBreakups": [{
+                "amnt": 1240.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 1267.0,
+                "code": "UB",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "STN$CPH$2020-06-04 14:00$SK-520": {
+                  "fareClass": "O",
+                  "fareBasis": "OKEOGHTD",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    },
+                    "cabinBag": {
+                      "numOfPieces": 0,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "UnKnown"
+                }
+              }
+            },
+            "ADULT": {
+              "bs": 560.0,
+              "tx": 3713.0,
+              "noOfPax": 2,
+              "tot": 4273.0,
+              "taxBreakups": [{
+                "amnt": 1240.0,
+                "code": "YQ",
+                "msg": ""
+              }, {
+                "amnt": 1206.0,
+                "code": "GB",
+                "msg": ""
+              }, {
+                "amnt": 1267.0,
+                "code": "UB",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "STN$CPH$2020-06-04 14:00$SK-520": {
+                  "fareClass": "O",
+                  "fareBasis": "OKEOGHTD",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    },
+                    "cabinBag": {
+                      "numOfPieces": 0,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "UnKnown"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 1590.0,
+            "tx": 11200.0,
+            "tot": 12790.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "VKQXQK",
+          "aPnr": "VKQXQK",
+          "travelerAddons": {},
+          "travelerInfos": [{
+            "id": "0",
+            "title": "",
+            "paxId": "PA5",
+            "firstName": "GURBINDER KAUR",
+            "middleName": "",
+            "lastName": "NANUAN",
+            "mealPreference": "",
+            "gender": "G_NOT_SET",
+            "emailId": "",
+            "mobileNumber": "919988889989",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "1988-05-13",
+            "nationality": "USA",
+            "passportInformation": {
+              "passportNumber": "545549510",
+              "issueDate": "",
+              "expiryDate": "2026-04-18",
+              "placeOfIssue": "",
+              "nationality": "USA",
+              "countryOfIssue": ""
+            },
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "",
+            "paxId": "PA2",
+            "firstName": "DEEPAK SINGH",
+            "middleName": "",
+            "lastName": "SAINI",
+            "mealPreference": "",
+            "gender": "G_NOT_SET",
+            "emailId": "",
+            "mobileNumber": "919988889989",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "1988-11-21",
+            "nationality": "IND",
+            "passportInformation": {
+              "passportNumber": "Z2303896",
+              "issueDate": "",
+              "expiryDate": "2024-01-28",
+              "placeOfIssue": "",
+              "nationality": "IND",
+              "countryOfIssue": ""
+            },
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "",
+            "paxId": "PI2",
+            "firstName": "SAVIR SINGH",
+            "middleName": "",
+            "lastName": "SAINI",
+            "mealPreference": "",
+            "gender": "G_NOT_SET",
+            "emailId": "",
+            "mobileNumber": "919988889989",
+            "mobileNumberCountryCode": "",
+            "paxType": "INFANT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "3",
+            "title": "",
+            "paxId": "PA4",
+            "firstName": "SAANVI",
+            "middleName": "",
+            "lastName": "SAINI",
+            "mealPreference": "",
+            "gender": "G_NOT_SET",
+            "emailId": "",
+            "mobileNumber": "919988889989",
+            "mobileNumberCountryCode": "",
+            "paxType": "CHILD",
+            "dateOfBirth": "2013-05-03",
+            "nationality": "USA",
+            "passportInformation": {
+              "passportNumber": "561446203",
+              "issueDate": "",
+              "expiryDate": "2023-02-04",
+              "placeOfIssue": "",
+              "nationality": "USA",
+              "countryOfIssue": ""
+            },
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [{
+            "travellerId": "0",
+            "issuingAirline": "SK",
+            "ticketNumber": "117-3319179212",
+            "ticketType": "P06",
+            "status": "",
+            "issuingDate": "2020-02-15",
+            "iataCode": "14339942",
+            "issuingAgent": "DELWI2202",
+            "dateChange": false
+          }, {
+            "travellerId": "1",
+            "issuingAirline": "SK",
+            "ticketNumber": "117-3319179213",
+            "ticketType": "P06",
+            "status": "",
+            "issuingDate": "2020-02-15",
+            "iataCode": "14339942",
+            "issuingAgent": "DELWI2202",
+            "dateChange": false
+          }, {
+            "travellerId": "3",
+            "issuingAirline": "SK",
+            "ticketNumber": "117-3319179214",
+            "ticketType": "P06",
+            "status": "",
+            "issuingDate": "2020-02-15",
+            "iataCode": "14339942",
+            "issuingAgent": "DELWI2202",
+            "dateChange": false
+          }, {
+            "travellerId": "2",
+            "issuingAirline": "SK",
+            "ticketNumber": "117-3319179215",
+            "ticketType": "P06",
+            "status": "",
+            "issuingDate": "2020-02-15",
+            "iataCode": "14339942",
+            "issuingAgent": "DELWI2202",
+            "dateChange": false
+          }],
+          "validatingCarrier": "SK",
+          "creationDate": "2020-02-18 13:07",
+          "fareFamily": "",
+          "accountCode": "DELI228BM"
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

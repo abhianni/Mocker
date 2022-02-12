@@ -1,0 +1,22 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "9I-AI-9843-DEL-JAI-2021-01-15 05:55-2021-01-15 07:05"
+      },
+      {       "contains" : "e32225a43bcab7289ccfe53c2496d893f739fcb7"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTLAITGMHRTACI/GETRULETP.json"
+  }
+}
+

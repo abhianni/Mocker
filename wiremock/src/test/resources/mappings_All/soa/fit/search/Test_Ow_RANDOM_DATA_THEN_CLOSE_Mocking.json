@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/search/soa?DhruvNegativeTest_RANDOM_DATA_THEN_CLOSE",
+        "bodyPatterns":[{	
+        "contains" : "DhruvNegativeTest_RANDOM_DATA_THEN_CLOSE"
+        }]
+    },
+    "response": {
+        "fault": "RANDOM_DATA_THEN_CLOSE"
+    }
+}

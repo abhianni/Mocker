@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/v1/review",
+       "bodyPatterns":[
+{       "contains" : "DOM_RT_AI_SUCCESS"
+}
+]
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/wreview/DOMRTFareSG/soa/DOM_RT_AI_SUCCESS_SOA_REVIEW.json"
+		
+    }
+}

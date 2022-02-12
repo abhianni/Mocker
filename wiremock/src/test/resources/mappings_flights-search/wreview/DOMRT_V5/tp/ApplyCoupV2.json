@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/flights-mmt-svcs/v2/apply-coupon.*DOM_RT_AI_SUCCESS_V5.*",
+		"bodyPatterns":[
+{       "contains" : "TESTFSMOCKINST"
+}
+
+]
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/wreview/DOMRT_V5/tp/ApplyCouponINTLINSTApply.json"
+		
+    }
+}

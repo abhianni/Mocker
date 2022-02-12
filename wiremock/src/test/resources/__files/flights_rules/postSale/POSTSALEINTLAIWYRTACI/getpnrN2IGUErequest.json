@@ -1,0 +1,414 @@
+{
+    "status": "SUCCESS",
+    "metaData": {
+        "currency": "INR",
+        "apiLatency": "10273",
+        "traceInfo": {},
+        "ipAddress": "172.17.0.10",
+        "serviceName": "Pnr-Service",
+        "supplierName": "MP",
+        "credentialId": "MPEXININTRANOMNR",
+        "supplierLatency": "5930",
+        "corporateCode": "",
+        "promoCode": ""
+    },
+    "flightLookUpList": {
+        "COK$MCT$2020-07-23 09:55$WY-226": {
+            "mrkAl": "WY",
+            "oprAl": "WY",
+            "fltNo": "226",
+            "arcrfTyp": "738",
+            "depInfo": {
+                "trmnl": "3",
+                "arpCd": "COK",
+                "arpNm": "Cochin International Airport Limited"
+            },
+            "arrInfo": {
+                "trmnl": "",
+                "arpCd": "MCT",
+                "arpNm": "Seeb"
+            },
+            "tchStp": [],
+            "depTime": "2020-07-23 09:55",
+            "arrTime": "2020-07-23 12:00",
+            "durInMins": "215"
+        },
+        "MCT$DOH$2020-07-23 14:10$WY-663": {
+            "mrkAl": "WY",
+            "oprAl": "WY",
+            "fltNo": "663",
+            "arcrfTyp": "788",
+            "depInfo": {
+                "trmnl": "",
+                "arpCd": "MCT",
+                "arpNm": "Seeb"
+            },
+            "arrInfo": {
+                "trmnl": "",
+                "arpCd": "DOH",
+                "arpNm": "Doha"
+            },
+            "tchStp": [],
+            "depTime": "2020-07-23 14:10",
+            "arrTime": "2020-07-23 14:45",
+            "durInMins": "95"
+        }
+    },
+    "bookingInfo": {
+        "journeys": [{
+            "jrnyKey": "COK$MCT$2020-07-23 09:55$WY-226|MCT$DOH$2020-07-23 14:10$WY-663",
+            "depDate": "2020-07-23 09:55",
+            "arrDate": "2020-07-23 14:45",
+            "durInMins": "440",
+            "flightDtlsInfo": [{
+                "fltLookUpKey": "COK$MCT$2020-07-23 09:55$WY-226",
+                "pnrGroupNum": 0
+            }, {
+                "fltLookUpKey": "MCT$DOH$2020-07-23 14:10$WY-663",
+                "pnrGroupNum": 0
+            }]
+        }],
+        "frInfo": {
+            "pnrGrpdFrInfo": {
+                "0": {
+                    "status": "SUCCESS",
+                    "paxFares": {
+                        "INFANT": {
+                            "bs": 1440.0,
+                            "tx": 72.0,
+                            "noOfPax": 1,
+                            "tot": 1512.0,
+                            "taxBreakups": [{
+                                "amnt": 72.0,
+                                "code": "K3",
+                                "msg": ""
+                            }],
+                            "segPrdctInfo": {
+                                "COK$MCT$2020-07-23 09:55$WY-226": {
+                                    "fareClass": "O",
+                                    "fareBasis": "OELOIAIN",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 10,
+                                            "weightUnit": "K"
+                                        },
+                                        "cabinBag": {
+                                            "numOfPieces": 0,
+                                            "weightPerPiece": 0,
+                                            "weightUnit": ""
+                                        }
+                                    },
+                                    "cabin": "UnKnown"
+                                },
+                                "MCT$DOH$2020-07-23 14:10$WY-663": {
+                                    "fareClass": "O",
+                                    "fareBasis": "OELOIAIN",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 10,
+                                            "weightUnit": "K"
+                                        },
+                                        "cabinBag": {
+                                            "numOfPieces": 0,
+                                            "weightPerPiece": 0,
+                                            "weightUnit": ""
+                                        }
+                                    },
+                                    "cabin": "UnKnown"
+                                }
+                            }
+                        },
+                        "CHILD": {
+                            "bs": 5400.0,
+                            "tx": 2081.0,
+                            "noOfPax": 1,
+                            "tot": 7481.0,
+                            "taxBreakups": [{
+                                "amnt": 700.0,
+                                "code": "YQ",
+                                "msg": ""
+                            }, {
+                                "amnt": 305.0,
+                                "code": "K3",
+                                "msg": ""
+                            }, {
+                                "amnt": 557.0,
+                                "code": "WO",
+                                "msg": ""
+                            }, {
+                                "amnt": 186.0,
+                                "code": "I2",
+                                "msg": ""
+                            }, {
+                                "amnt": 186.0,
+                                "code": "OM",
+                                "msg": ""
+                            }, {
+                                "amnt": 147.0,
+                                "code": "PZ",
+                                "msg": ""
+                            }],
+                            "segPrdctInfo": {
+                                "COK$MCT$2020-07-23 09:55$WY-226": {
+                                    "fareClass": "O",
+                                    "fareBasis": "OELOIACH",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 30,
+                                            "weightUnit": "K"
+                                        },
+                                        "cabinBag": {
+                                            "numOfPieces": 0,
+                                            "weightPerPiece": 0,
+                                            "weightUnit": ""
+                                        }
+                                    },
+                                    "cabin": "UnKnown"
+                                },
+                                "MCT$DOH$2020-07-23 14:10$WY-663": {
+                                    "fareClass": "O",
+                                    "fareBasis": "OELOIACH",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 30,
+                                            "weightUnit": "K"
+                                        },
+                                        "cabinBag": {
+                                            "numOfPieces": 0,
+                                            "weightPerPiece": 0,
+                                            "weightUnit": ""
+                                        }
+                                    },
+                                    "cabin": "UnKnown"
+                                }
+                            }
+                        },
+                        "ADULT": {
+                            "bs": 7200.0,
+                            "tx": 2171.0,
+                            "noOfPax": 2,
+                            "tot": 9371.0,
+                            "taxBreakups": [{
+                                "amnt": 700.0,
+                                "code": "YQ",
+                                "msg": ""
+                            }, {
+                                "amnt": 395.0,
+                                "code": "K3",
+                                "msg": ""
+                            }, {
+                                "amnt": 557.0,
+                                "code": "WO",
+                                "msg": ""
+                            }, {
+                                "amnt": 186.0,
+                                "code": "I2",
+                                "msg": ""
+                            }, {
+                                "amnt": 186.0,
+                                "code": "OM",
+                                "msg": ""
+                            }, {
+                                "amnt": 147.0,
+                                "code": "PZ",
+                                "msg": ""
+                            }],
+                            "segPrdctInfo": {
+                                "COK$MCT$2020-07-23 09:55$WY-226": {
+                                    "fareClass": "O",
+                                    "fareBasis": "OELOIA",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 30,
+                                            "weightUnit": "K"
+                                        },
+                                        "cabinBag": {
+                                            "numOfPieces": 0,
+                                            "weightPerPiece": 0,
+                                            "weightUnit": ""
+                                        }
+                                    },
+                                    "cabin": "UnKnown"
+                                },
+                                "MCT$DOH$2020-07-23 14:10$WY-663": {
+                                    "fareClass": "O",
+                                    "fareBasis": "OELOIA",
+                                    "productClass": "",
+                                    "baggageInfo": {
+                                        "checkinBag": {
+                                            "numOfPieces": 1,
+                                            "weightPerPiece": 30,
+                                            "weightUnit": "K"
+                                        },
+                                        "cabinBag": {
+                                            "numOfPieces": 0,
+                                            "weightPerPiece": 0,
+                                            "weightUnit": ""
+                                        }
+                                    },
+                                    "cabin": "UnKnown"
+                                }
+                            }
+                        }
+                    },
+                    "totFr": {
+                        "bs": 21240.0,
+                        "tx": 6495.0,
+                        "tot": 27735.0
+                    },
+                    "rfndStatus": "RS_NOT_SET",
+                    "pnrKey": "",
+                    "sPnr": "N2IGUE",
+                    "aPnr": "QLMAXU",
+                    "travelerAddons": {},
+                    "travelerInfos": [{
+                        "id": "0",
+                        "title": "",
+                        "paxId": "PA4",
+                        "firstName": "SHINU",
+                        "middleName": "",
+                        "lastName": "KINATTUKALA JOY",
+                        "mealPreference": "",
+                        "gender": "G_NOT_SET",
+                        "emailId": "shinu.christ@gmail.com",
+                        "mobileNumber": "919946284614",
+                        "mobileNumberCountryCode": "",
+                        "paxType": "ADULT",
+                        "dateOfBirth": "1985-01-24",
+                        "nationality": "IND",
+                        "passportInformation": {
+                            "passportNumber": "J5111216",
+                            "issueDate": "",
+                            "expiryDate": "2021-04-06",
+                            "placeOfIssue": "",
+                            "nationality": "IND",
+                            "countryOfIssue": ""
+                        },
+                        "freqFlierInformation": []
+                    }, {
+                        "id": "1",
+                        "title": "",
+                        "paxId": "PA2",
+                        "firstName": "NISHA",
+                        "middleName": "",
+                        "lastName": "SHINU",
+                        "mealPreference": "",
+                        "gender": "G_NOT_SET",
+                        "emailId": "shinu.christ@gmail.com",
+                        "mobileNumber": "919946284614",
+                        "mobileNumberCountryCode": "",
+                        "paxType": "ADULT",
+                        "dateOfBirth": "1986-07-12",
+                        "nationality": "IND",
+                        "passportInformation": {
+                            "passportNumber": "J5111218",
+                            "issueDate": "",
+                            "expiryDate": "2021-04-06",
+                            "placeOfIssue": "",
+                            "nationality": "IND",
+                            "countryOfIssue": ""
+                        },
+                        "freqFlierInformation": []
+                    }, {
+                        "id": "2",
+                        "title": "",
+                        "paxId": "PI2",
+                        "firstName": "TIANA",
+                        "middleName": "",
+                        "lastName": "SHINU",
+                        "mealPreference": "",
+                        "gender": "G_NOT_SET",
+                        "emailId": "shinu.christ@gmail.com",
+                        "mobileNumber": "919946284614",
+                        "mobileNumberCountryCode": "",
+                        "paxType": "INFANT",
+                        "dateOfBirth": "",
+                        "nationality": "",
+                        "freqFlierInformation": []
+                    }, {
+                        "id": "3",
+                        "title": "",
+                        "paxId": "PA5",
+                        "firstName": "TESSA",
+                        "middleName": "",
+                        "lastName": "SHINU",
+                        "mealPreference": "",
+                        "gender": "G_NOT_SET",
+                        "emailId": "shinu.christ@gmail.com",
+                        "mobileNumber": "919946284614",
+                        "mobileNumberCountryCode": "",
+                        "paxType": "CHILD",
+                        "dateOfBirth": "2013-08-12",
+                        "nationality": "IND",
+                        "passportInformation": {
+                            "passportNumber": "S2361788",
+                            "issueDate": "",
+                            "expiryDate": "2023-08-08",
+                            "placeOfIssue": "",
+                            "nationality": "IND",
+                            "countryOfIssue": ""
+                        },
+                        "freqFlierInformation": []
+                    }],
+                    "ticketInfos": [{
+                        "travellerId": "0",
+                        "issuingAirline": "WY",
+                        "ticketNumber": "910-3318041548",
+                        "ticketType": "P06",
+                        "status": "",
+                        "issuingDate": "2020-01-11",
+                        "iataCode": "14339942",
+                        "issuingAgent": "DELWI2202",
+                        "dateChange": false
+                    }, {
+                        "travellerId": "1",
+                        "issuingAirline": "WY",
+                        "ticketNumber": "910-3318041549",
+                        "ticketType": "P06",
+                        "status": "",
+                        "issuingDate": "2020-01-11",
+                        "iataCode": "14339942",
+                        "issuingAgent": "DELWI2202",
+                        "dateChange": false
+                    }, {
+                        "travellerId": "3",
+                        "issuingAirline": "WY",
+                        "ticketNumber": "910-3318041550",
+                        "ticketType": "P06",
+                        "status": "",
+                        "issuingDate": "2020-01-11",
+                        "iataCode": "14339942",
+                        "issuingAgent": "DELWI2202",
+                        "dateChange": false
+                    }, {
+                        "travellerId": "2",
+                        "issuingAirline": "WY",
+                        "ticketNumber": "910-3318041551",
+                        "ticketType": "P06",
+                        "status": "",
+                        "issuingDate": "2020-01-11",
+                        "iataCode": "14339942",
+                        "issuingAgent": "DELWI2202",
+                        "dateChange": false
+                    }],
+                    "validatingCarrier": "WY",
+                    "creationDate": "2020-01-10 23:09",
+                    "fareFamily": "",
+                    "accountCode": "DELI228BM"
+                }
+            }
+        },
+        "paxTypeAddonStatus": {}
+    },
+    "err": []
+}

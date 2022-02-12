@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/HotelsSOA/hotels/book/v2.0/.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_SOA_HTTP_200"
+        }]
+    },
+   "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 30000,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+    }
+}

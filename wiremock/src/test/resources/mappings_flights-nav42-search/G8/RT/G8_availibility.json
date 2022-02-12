@@ -1,0 +1,24 @@
+{
+ "request":{
+
+        "method": "POST",
+
+        "url": "/bookingmanager.svc",
+
+       "bodyPatterns":[
+
+{ "contains" : "LKO"
+},
+{ "contains" : "GetAvailabilityRequest"
+}
+
+
+
+]
+  },
+  "response": {
+    
+    "bodyFileName": "/connector/nav42/G8/RT/G8RT_availibity.xml"
+
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request":{
+	"method": "POST",
+    "url": "/bookingmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "PriceItineraryRequest"
+      },
+	  {       "contains" : "MAA"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/6E/RT/6E_RT_itineraryPrice.xml"
+
+  }
+}

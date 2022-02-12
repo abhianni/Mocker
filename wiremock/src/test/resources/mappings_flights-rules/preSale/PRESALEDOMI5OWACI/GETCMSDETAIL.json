@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/cms-service/credentialDetail",
+    "bodyPatterns":[
+      {       "contains" : "I5UNI2"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+
+    "bodyFileName": "/flights_rules/preSale/PRESALEDOMI5OWACI/GETCMSCREDENTIALS.json"
+  }
+}
+

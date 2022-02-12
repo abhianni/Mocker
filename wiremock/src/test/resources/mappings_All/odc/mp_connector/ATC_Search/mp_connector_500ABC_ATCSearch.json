@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[{
+        "contains" : "ATCShopperMasterPricerTravelBoardSearch"},
+{		"contains" : "589500ABC"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 500,
+        "bodyFileName":"/odc/mp_connector/ATC_Search/ATC_Search_500ABC.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

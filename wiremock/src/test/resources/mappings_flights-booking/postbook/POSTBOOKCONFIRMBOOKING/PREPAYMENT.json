@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightBooking/prePayment",
+       "bodyPatterns":[
+{       "contains" : "POSTBOOKCONFIRMBOOKING"
+}
+]
+
+    },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_booking/postbook/POSTBOOKCONFIRMBOOKING/PREPAYMENT.json"
+  }
+}
+

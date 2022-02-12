@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/cms-service/credentialID",
+        "bodyPatterns":[{
+        "contains" : "DFITDom_CONNECTION_RESET_BY_PEER"
+        }]
+    },
+    "response": {
+        "fault": "CONNECTION_RESET_BY_PEER"
+    }
+}

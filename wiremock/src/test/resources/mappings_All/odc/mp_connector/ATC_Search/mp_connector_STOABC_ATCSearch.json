@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[{
+        "contains" : "ATCShopperMasterPricerTravelBoardSearch"},
+{		"contains" : "589STOABC"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+ "fixedDelayMilliseconds": 120010,
+        "bodyFileName":"/odc/mp_connector/ATC_Search/ATC_Search_STOABC.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

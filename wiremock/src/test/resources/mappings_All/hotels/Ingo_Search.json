@@ -1,0 +1,15 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "api/multi-hotel-search.*",
+        
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/hotels/Ingo.json",
+        "transformers": ["body-transformer"]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/B2BGateway/connect/uAPI/UniversalRecordService",
+       "bodyPatterns":[
+{ 	"contains" : "51X1SA"
+
+}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights_rules/postSale/POSTSALEINTLSQRTA/UniversalRecordRetrieve51X1SA.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

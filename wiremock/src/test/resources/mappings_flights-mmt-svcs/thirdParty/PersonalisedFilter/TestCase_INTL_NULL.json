@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/v1/getCustomServices",
+        
+        "bodyPatterns":[
+         {  "contains" :"flight-filters"},
+            {"contains" :"NULL/DEL/BKK"},
+            { "contains" :"most_used_filters"}
+            ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/PersonalisedFilter/TestCase_INTL_NULL.json"
+    }
+}

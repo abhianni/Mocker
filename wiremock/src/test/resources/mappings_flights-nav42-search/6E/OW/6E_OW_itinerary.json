@@ -1,0 +1,17 @@
+{
+  "request":{
+	"method": "POST",
+    "url": "/bookingmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "PriceItineraryRequest"
+      },
+	  {       "contains" : "BLR"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/6E/OW/6E_OW_itineraryPrice.xml"
+
+  }
+}

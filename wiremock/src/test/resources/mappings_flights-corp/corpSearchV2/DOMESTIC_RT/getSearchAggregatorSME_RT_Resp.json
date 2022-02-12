@@ -1,0 +1,22 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v5/search/singleFare.*crId.*UID_orgInfoDomTestRT1.*",
+		"headers": {
+			"x-lob": {
+				"equalTo": "CORP"
+			},
+			"x-src": {
+				"equalTo": "SME"
+			}
+		}
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpSearchV2/DOMESTIC_RT/getSearchAggregatorSME_RT_Resp.json"
+	}
+}

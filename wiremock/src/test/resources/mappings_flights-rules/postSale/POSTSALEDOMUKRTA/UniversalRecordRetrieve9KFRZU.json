@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/B2BGateway/connect/uAPI/UniversalRecordService",
+       "bodyPatterns":[
+{ 	"contains" : "9KFRZU"
+
+}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights_rules/postSale/POSTSALEDOMUKRTA/UniversalRecordRetrieve9KFRZU.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

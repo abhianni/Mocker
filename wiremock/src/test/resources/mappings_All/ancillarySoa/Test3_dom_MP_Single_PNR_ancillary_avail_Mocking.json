@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/postsaleAncillary",
+        "bodyPatterns":[{
+        "contains" : "\"mmtId\":\"NF22996142380142\""
+        },
+	{	
+        "contains" : "\"postsaleAncillaryRequestType\":\"AVAILABILITY\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/ancillarySoa/Test3_dom_MP_Single_PNR_ancillary_avail_response.json"
+    }
+}

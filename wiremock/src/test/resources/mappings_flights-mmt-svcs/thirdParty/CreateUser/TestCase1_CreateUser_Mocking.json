@@ -1,0 +1,18 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/ext/flights/flightsUnification/user/create/true?guest=true",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Authorization" : {"matches" : "GHIKlYcB6X4xroc"}
+		},
+		"bodyPatterns":[{"contains" : "CreateUserOne@mygola.com"}]
+		},
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/CreateUser/TestCase1_CreateUser_Response.json"
+    }
+}

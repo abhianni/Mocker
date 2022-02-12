@@ -1,0 +1,49 @@
+{
+	"workflowId": "approvedStatus_workflowid",
+	"lob": "FLIGHT",
+	"userInfo": {
+		"name": " raman sethi",
+		"userId": "MMTNEE1835862",
+		"emailId": "ramanauto5@mygola.com",
+		"mobile": "9711626076",
+		"mmtUuid": "UQHU03GVX0L",
+		"comment": "Urgent Meeting"
+	},
+	"approverInfo": {
+		"name": "Raman",
+		"approverId": "286112",
+		"mobile": "9711626076",
+		"email": "ramanmgr1@mygola.com"
+	},
+	"approvalStatus": "approved",
+	"callbackData": {
+		"flightInfo": {
+			"totalAmount": null,
+			"totalMealsFare": null,
+			"tripType": "OW",
+			"skipApprovalAllowed": true,
+			"oFlightInfo": {
+				"date": null,
+				"multipleAirline": false,
+				"uniqueAirlineCodes": [],
+				"stops": 0
+			},
+			"rFlightInfo": null,
+			"from": "DEL",
+			"refundable": true,
+			"to": "BOM",
+			"withinPolicy": false
+		},
+		"itid": "0e1d3c2d353335b3d041245b7456a07650c60fbd"
+	},
+	"createdDate": 1578224641000,
+	"approvedDate": 0,
+	"inPolicy": false,
+	"policyIds": "30501",
+	"groupIds": "167417",
+	"idempotencyKey": "0e1d3c2d353335b3d041245b7456a07650c60fbd",
+	"status": "success",
+	"statusCode": 200,
+	"responseCode": "600",
+	"message": "Operation executed successfully."
+}

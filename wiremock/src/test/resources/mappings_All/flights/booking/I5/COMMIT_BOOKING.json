@@ -1,0 +1,21 @@
+
+{
+    "request":{
+        "method": "POST",
+        "url": "/ACE/BookingService.svc",
+	"bodyPatterns":[
+        { "contains" : "Commit"
+
+        }
+
+]
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/booking/I5/COMMIT_BOOKING.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}
+

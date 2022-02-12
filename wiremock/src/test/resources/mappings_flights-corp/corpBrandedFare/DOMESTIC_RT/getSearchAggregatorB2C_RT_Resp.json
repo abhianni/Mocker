@@ -1,0 +1,19 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v4/search.*crId=BRANDEDFAREDOMRT.*",
+		"headers": {
+			"x-lob": {
+				"equalTo": "CORPB2C"
+			}
+		}
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpBrandedFare/DOMESTIC_RT/getSearchAggregatorB2C_RT_Resp.json"
+	}
+}

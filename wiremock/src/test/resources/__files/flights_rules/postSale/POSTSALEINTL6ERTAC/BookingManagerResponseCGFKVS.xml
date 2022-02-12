@@ -1,0 +1,1853 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<GetBookingResponse xmlns="http://schemas.navitaire.com/WebServices/ServiceContracts/BookingService">
+			<Booking xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Booking" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<OtherServiceInfoList xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common"/>
+				<State>Clean</State>
+				<RecordLocator>CGFKVS</RecordLocator>
+				<CurrencyCode>INR</CurrencyCode>
+				<PaxCount>4</PaxCount>
+				<SystemCode/>
+				<BookingID>295082081</BookingID>
+				<BookingParentID>0</BookingParentID>
+				<ParentRecordLocator/>
+				<BookingChangeCode/>
+				<GroupName/>
+				<BookingInfo>
+					<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+					<BookingStatus>Confirmed</BookingStatus>
+					<BookingType/>
+					<ChannelType>API</ChannelType>
+					<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+					<ExpiredDate>2021-01-03T09:10:00Z</ExpiredDate>
+					<ModifiedDate>2020-07-29T17:13:14.133Z</ModifiedDate>
+					<PriceStatus>Valid</PriceStatus>
+					<ProfileStatus>KnownIndividual</ProfileStatus>
+					<ChangeAllowed>true</ChangeAllowed>
+					<CreatedAgentID>2643031</CreatedAgentID>
+					<ModifiedAgentID>2643031</ModifiedAgentID>
+					<BookingDate>2020-07-29T17:13:14.133Z</BookingDate>
+					<OwningCarrierCode>6E</OwningCarrierCode>
+					<PaidStatus>PaidInFull</PaidStatus>
+					<ActivityDate>2020-07-29T17:13:14.37</ActivityDate>
+				</BookingInfo>
+				<POS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+					<a:State>Clean</a:State>
+					<a:AgentCode>14339942OA</a:AgentCode>
+					<a:OrganizationCode>14339942</a:OrganizationCode>
+					<a:DomainCode>WWW</a:DomainCode>
+					<a:LocationCode>WWW</a:LocationCode>
+				</POS>
+				<SourcePOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+					<a:State>Clean</a:State>
+					<a:AgentCode>AG</a:AgentCode>
+					<a:OrganizationCode>14339942</a:OrganizationCode>
+					<a:DomainCode>www</a:DomainCode>
+					<a:LocationCode>WWW</a:LocationCode>
+				</SourcePOS>
+				<TypeOfSale>
+					<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+					<PaxResidentCountry>IN</PaxResidentCountry>
+					<PromotionCode/>
+					<FareTypes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+					<PromotionSold>false</PromotionSold>
+				</TypeOfSale>
+				<BookingHold>
+					<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+					<HoldDateTime>9999-12-31T00:00:00Z</HoldDateTime>
+				</BookingHold>
+				<BookingSum>
+					<BalanceDue>0</BalanceDue>
+					<AuthorizedBalanceDue>0</AuthorizedBalanceDue>
+					<SegmentCount>2</SegmentCount>
+					<PassiveSegmentCount>0</PassiveSegmentCount>
+					<TotalCost>125108.0000</TotalCost>
+					<PointsBalanceDue>0</PointsBalanceDue>
+					<TotalPointCost>0</TotalPointCost>
+					<AlternateCurrencyCode/>
+					<AlternateCurrencyBalanceDue>0</AlternateCurrencyBalanceDue>
+				</BookingSum>
+				<ReceivedBy>
+					<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+					<ReceivedBy/>
+					<ReceivedReference/>
+					<ReferralCode/>
+					<LatestReceivedBy/>
+					<LatestReceivedReference/>
+				</ReceivedBy>
+				<RecordLocators xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common"/>
+				<Passengers>
+					<Passenger>
+						<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+						<PassengerPrograms i:nil="true"/>
+						<CustomerNumber/>
+						<PassengerNumber>0</PassengerNumber>
+						<FamilyNumber>0</FamilyNumber>
+						<PaxDiscountCode/>
+						<Names>
+							<BookingName>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<FirstName>pranay</FirstName>
+								<MiddleName/>
+								<LastName>Kapoor</LastName>
+								<Suffix/>
+								<Title>MR</Title>
+							</BookingName>
+						</Names>
+						<Infant i:nil="true"/>
+						<PassengerInfo>
+							<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+							<BalanceDue>0</BalanceDue>
+							<Gender>Male</Gender>
+							<Nationality/>
+							<ResidentCountry/>
+							<TotalCost>31277.0000</TotalCost>
+							<WeightCategory>Male</WeightCategory>
+						</PassengerInfo>
+						<PassengerProgram>
+							<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+							<ProgramCode/>
+							<ProgramLevelCode/>
+							<ProgramNumber/>
+						</PassengerProgram>
+						<PassengerFees>
+							<PassengerFee>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<FeeCode>SEAT</FeeCode>
+								<FeeDetail/>
+								<FeeNumber>0</FeeNumber>
+								<FeeType>SeatFee</FeeType>
+								<FeeOverride>false</FeeOverride>
+								<FlightReference>20201224 6E1783 BOMMLE</FlightReference>
+								<Note/>
+								<SSRCode/>
+								<SSRNumber>0</SSRNumber>
+								<PaymentNumber>0</PaymentNumber>
+								<ServiceCharges>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>ServiceCharge</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>SEAT</ChargeCode>
+										<TicketCode>FEE</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>550.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>550.0000</ForeignAmount>
+									</BookingServiceCharge>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>IncludedTax</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>27CGST</ChargeCode>
+										<TicketCode>CGT</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>13.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>13.0000</ForeignAmount>
+									</BookingServiceCharge>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>IncludedTax</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>27SGST</ChargeCode>
+										<TicketCode>SGT</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>13.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>13.0000</ForeignAmount>
+									</BookingServiceCharge>
+								</ServiceCharges>
+								<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+								<IsProtected>false</IsProtected>
+								<FeeApplicationType>Segment</FeeApplicationType>
+							</PassengerFee>
+							<PassengerFee>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<FeeCode>SEAT</FeeCode>
+								<FeeDetail/>
+								<FeeNumber>1</FeeNumber>
+								<FeeType>SeatFee</FeeType>
+								<FeeOverride>false</FeeOverride>
+								<FlightReference>20210102 6E1784 MLEBOM</FlightReference>
+								<Note/>
+								<SSRCode/>
+								<SSRNumber>0</SSRNumber>
+								<PaymentNumber>0</PaymentNumber>
+								<ServiceCharges>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>ServiceCharge</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>SEAT</ChargeCode>
+										<TicketCode>FEE</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>550.0000</Amount>
+										<ChargeDetail>MLE-BOM</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>550.0000</ForeignAmount>
+									</BookingServiceCharge>
+								</ServiceCharges>
+								<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+								<IsProtected>false</IsProtected>
+								<FeeApplicationType>Segment</FeeApplicationType>
+							</PassengerFee>
+						</PassengerFees>
+						<PassengerAddresses/>
+						<PassengerTravelDocuments/>
+						<PassengerBags/>
+						<PassengerID>418200829</PassengerID>
+						<PassengerTypeInfos>
+							<PassengerTypeInfo>
+								<State>Clean</State>
+								<DOB>9999-12-31T00:00:00Z</DOB>
+								<PaxType>ADT</PaxType>
+							</PassengerTypeInfo>
+						</PassengerTypeInfos>
+						<PassengerInfos>
+							<PassengerInfo>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<BalanceDue>0</BalanceDue>
+								<Gender>Male</Gender>
+								<Nationality/>
+								<ResidentCountry/>
+								<TotalCost>31277.0000</TotalCost>
+								<WeightCategory>Male</WeightCategory>
+							</PassengerInfo>
+						</PassengerInfos>
+						<PassengerInfants/>
+						<PseudoPassenger>false</PseudoPassenger>
+						<PassengerTypeInfo>
+							<State>Clean</State>
+							<DOB>9999-12-31T00:00:00Z</DOB>
+							<PaxType>ADT</PaxType>
+						</PassengerTypeInfo>
+						<PassengerEMDCouponList/>
+					</Passenger>
+					<Passenger>
+						<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+						<PassengerPrograms i:nil="true"/>
+						<CustomerNumber/>
+						<PassengerNumber>1</PassengerNumber>
+						<FamilyNumber>0</FamilyNumber>
+						<PaxDiscountCode/>
+						<Names>
+							<BookingName>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<FirstName>aditi pranay</FirstName>
+								<MiddleName/>
+								<LastName>kapoor</LastName>
+								<Suffix/>
+								<Title>MS</Title>
+							</BookingName>
+						</Names>
+						<Infant i:nil="true"/>
+						<PassengerInfo>
+							<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+							<BalanceDue>0</BalanceDue>
+							<Gender>Female</Gender>
+							<Nationality/>
+							<ResidentCountry/>
+							<TotalCost>31277.0000</TotalCost>
+							<WeightCategory>Female</WeightCategory>
+						</PassengerInfo>
+						<PassengerProgram>
+							<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+							<ProgramCode/>
+							<ProgramLevelCode/>
+							<ProgramNumber/>
+						</PassengerProgram>
+						<PassengerFees>
+							<PassengerFee>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<FeeCode>SEAT</FeeCode>
+								<FeeDetail/>
+								<FeeNumber>0</FeeNumber>
+								<FeeType>SeatFee</FeeType>
+								<FeeOverride>false</FeeOverride>
+								<FlightReference>20201224 6E1783 BOMMLE</FlightReference>
+								<Note/>
+								<SSRCode/>
+								<SSRNumber>0</SSRNumber>
+								<PaymentNumber>0</PaymentNumber>
+								<ServiceCharges>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>ServiceCharge</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>SEAT</ChargeCode>
+										<TicketCode>FEE</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>550.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>550.0000</ForeignAmount>
+									</BookingServiceCharge>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>IncludedTax</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>27CGST</ChargeCode>
+										<TicketCode>CGT</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>13.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>13.0000</ForeignAmount>
+									</BookingServiceCharge>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>IncludedTax</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>27SGST</ChargeCode>
+										<TicketCode>SGT</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>13.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>13.0000</ForeignAmount>
+									</BookingServiceCharge>
+								</ServiceCharges>
+								<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+								<IsProtected>false</IsProtected>
+								<FeeApplicationType>Segment</FeeApplicationType>
+							</PassengerFee>
+							<PassengerFee>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<FeeCode>SEAT</FeeCode>
+								<FeeDetail/>
+								<FeeNumber>1</FeeNumber>
+								<FeeType>SeatFee</FeeType>
+								<FeeOverride>false</FeeOverride>
+								<FlightReference>20210102 6E1784 MLEBOM</FlightReference>
+								<Note/>
+								<SSRCode/>
+								<SSRNumber>0</SSRNumber>
+								<PaymentNumber>0</PaymentNumber>
+								<ServiceCharges>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>ServiceCharge</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>SEAT</ChargeCode>
+										<TicketCode>FEE</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>550.0000</Amount>
+										<ChargeDetail>MLE-BOM</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>550.0000</ForeignAmount>
+									</BookingServiceCharge>
+								</ServiceCharges>
+								<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+								<IsProtected>false</IsProtected>
+								<FeeApplicationType>Segment</FeeApplicationType>
+							</PassengerFee>
+						</PassengerFees>
+						<PassengerAddresses/>
+						<PassengerTravelDocuments/>
+						<PassengerBags/>
+						<PassengerID>418200830</PassengerID>
+						<PassengerTypeInfos>
+							<PassengerTypeInfo>
+								<State>Clean</State>
+								<DOB>9999-12-31T00:00:00Z</DOB>
+								<PaxType>ADT</PaxType>
+							</PassengerTypeInfo>
+						</PassengerTypeInfos>
+						<PassengerInfos>
+							<PassengerInfo>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<BalanceDue>0</BalanceDue>
+								<Gender>Female</Gender>
+								<Nationality/>
+								<ResidentCountry/>
+								<TotalCost>31277.0000</TotalCost>
+								<WeightCategory>Female</WeightCategory>
+							</PassengerInfo>
+						</PassengerInfos>
+						<PassengerInfants/>
+						<PseudoPassenger>false</PseudoPassenger>
+						<PassengerTypeInfo>
+							<State>Clean</State>
+							<DOB>9999-12-31T00:00:00Z</DOB>
+							<PaxType>ADT</PaxType>
+						</PassengerTypeInfo>
+						<PassengerEMDCouponList/>
+					</Passenger>
+					<Passenger>
+						<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+						<PassengerPrograms i:nil="true"/>
+						<CustomerNumber/>
+						<PassengerNumber>2</PassengerNumber>
+						<FamilyNumber>0</FamilyNumber>
+						<PaxDiscountCode/>
+						<Names>
+							<BookingName>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<FirstName>shaurya pranay</FirstName>
+								<MiddleName/>
+								<LastName>kapoor</LastName>
+								<Suffix/>
+								<Title>MR</Title>
+							</BookingName>
+						</Names>
+						<Infant i:nil="true"/>
+						<PassengerInfo>
+							<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+							<BalanceDue>0</BalanceDue>
+							<Gender>Male</Gender>
+							<Nationality/>
+							<ResidentCountry/>
+							<TotalCost>31277.0000</TotalCost>
+							<WeightCategory>Child</WeightCategory>
+						</PassengerInfo>
+						<PassengerProgram>
+							<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+							<ProgramCode/>
+							<ProgramLevelCode/>
+							<ProgramNumber/>
+						</PassengerProgram>
+						<PassengerFees>
+							<PassengerFee>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<FeeCode>SEAT</FeeCode>
+								<FeeDetail/>
+								<FeeNumber>0</FeeNumber>
+								<FeeType>SeatFee</FeeType>
+								<FeeOverride>false</FeeOverride>
+								<FlightReference>20201224 6E1783 BOMMLE</FlightReference>
+								<Note/>
+								<SSRCode/>
+								<SSRNumber>0</SSRNumber>
+								<PaymentNumber>0</PaymentNumber>
+								<ServiceCharges>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>ServiceCharge</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>SEAT</ChargeCode>
+										<TicketCode>FEE</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>550.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>550.0000</ForeignAmount>
+									</BookingServiceCharge>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>IncludedTax</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>27CGST</ChargeCode>
+										<TicketCode>CGT</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>13.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>13.0000</ForeignAmount>
+									</BookingServiceCharge>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>IncludedTax</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>27SGST</ChargeCode>
+										<TicketCode>SGT</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>13.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>13.0000</ForeignAmount>
+									</BookingServiceCharge>
+								</ServiceCharges>
+								<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+								<IsProtected>false</IsProtected>
+								<FeeApplicationType>Segment</FeeApplicationType>
+							</PassengerFee>
+							<PassengerFee>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<FeeCode>SEAT</FeeCode>
+								<FeeDetail/>
+								<FeeNumber>1</FeeNumber>
+								<FeeType>SeatFee</FeeType>
+								<FeeOverride>false</FeeOverride>
+								<FlightReference>20210102 6E1784 MLEBOM</FlightReference>
+								<Note/>
+								<SSRCode/>
+								<SSRNumber>0</SSRNumber>
+								<PaymentNumber>0</PaymentNumber>
+								<ServiceCharges>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>ServiceCharge</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>SEAT</ChargeCode>
+										<TicketCode>FEE</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>550.0000</Amount>
+										<ChargeDetail>MLE-BOM</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>550.0000</ForeignAmount>
+									</BookingServiceCharge>
+								</ServiceCharges>
+								<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+								<IsProtected>false</IsProtected>
+								<FeeApplicationType>Segment</FeeApplicationType>
+							</PassengerFee>
+						</PassengerFees>
+						<PassengerAddresses/>
+						<PassengerTravelDocuments/>
+						<PassengerBags/>
+						<PassengerID>418200831</PassengerID>
+						<PassengerTypeInfos>
+							<PassengerTypeInfo>
+								<State>Clean</State>
+								<DOB>9999-12-31T00:00:00Z</DOB>
+								<PaxType>CHD</PaxType>
+							</PassengerTypeInfo>
+						</PassengerTypeInfos>
+						<PassengerInfos>
+							<PassengerInfo>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<BalanceDue>0</BalanceDue>
+								<Gender>Male</Gender>
+								<Nationality/>
+								<ResidentCountry/>
+								<TotalCost>31277.0000</TotalCost>
+								<WeightCategory>Child</WeightCategory>
+							</PassengerInfo>
+						</PassengerInfos>
+						<PassengerInfants/>
+						<PseudoPassenger>false</PseudoPassenger>
+						<PassengerTypeInfo>
+							<State>Clean</State>
+							<DOB>9999-12-31T00:00:00Z</DOB>
+							<PaxType>CHD</PaxType>
+						</PassengerTypeInfo>
+						<PassengerEMDCouponList/>
+					</Passenger>
+					<Passenger>
+						<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+						<PassengerPrograms i:nil="true"/>
+						<CustomerNumber/>
+						<PassengerNumber>3</PassengerNumber>
+						<FamilyNumber>0</FamilyNumber>
+						<PaxDiscountCode/>
+						<Names>
+							<BookingName>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<FirstName>saveer pranay</FirstName>
+								<MiddleName/>
+								<LastName>kapoor</LastName>
+								<Suffix/>
+								<Title>MR</Title>
+							</BookingName>
+						</Names>
+						<Infant i:nil="true"/>
+						<PassengerInfo>
+							<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+							<BalanceDue>0</BalanceDue>
+							<Gender>Male</Gender>
+							<Nationality/>
+							<ResidentCountry/>
+							<TotalCost>31277.0000</TotalCost>
+							<WeightCategory>Child</WeightCategory>
+						</PassengerInfo>
+						<PassengerProgram>
+							<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+							<ProgramCode/>
+							<ProgramLevelCode/>
+							<ProgramNumber/>
+						</PassengerProgram>
+						<PassengerFees>
+							<PassengerFee>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<FeeCode>SEAT</FeeCode>
+								<FeeDetail/>
+								<FeeNumber>0</FeeNumber>
+								<FeeType>SeatFee</FeeType>
+								<FeeOverride>false</FeeOverride>
+								<FlightReference>20201224 6E1783 BOMMLE</FlightReference>
+								<Note/>
+								<SSRCode/>
+								<SSRNumber>0</SSRNumber>
+								<PaymentNumber>0</PaymentNumber>
+								<ServiceCharges>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>ServiceCharge</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>SEAT</ChargeCode>
+										<TicketCode>FEE</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>550.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>550.0000</ForeignAmount>
+									</BookingServiceCharge>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>IncludedTax</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>27CGST</ChargeCode>
+										<TicketCode>CGT</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>13.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>13.0000</ForeignAmount>
+									</BookingServiceCharge>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>IncludedTax</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>27SGST</ChargeCode>
+										<TicketCode>SGT</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>13.0000</Amount>
+										<ChargeDetail>BOM-MLE</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>13.0000</ForeignAmount>
+									</BookingServiceCharge>
+								</ServiceCharges>
+								<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+								<IsProtected>false</IsProtected>
+								<FeeApplicationType>Segment</FeeApplicationType>
+							</PassengerFee>
+							<PassengerFee>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<FeeCode>SEAT</FeeCode>
+								<FeeDetail/>
+								<FeeNumber>1</FeeNumber>
+								<FeeType>SeatFee</FeeType>
+								<FeeOverride>false</FeeOverride>
+								<FlightReference>20210102 6E1784 MLEBOM</FlightReference>
+								<Note/>
+								<SSRCode/>
+								<SSRNumber>0</SSRNumber>
+								<PaymentNumber>0</PaymentNumber>
+								<ServiceCharges>
+									<BookingServiceCharge>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ChargeType>ServiceCharge</ChargeType>
+										<CollectType>SellerChargeable</CollectType>
+										<ChargeCode>SEAT</ChargeCode>
+										<TicketCode>FEE</TicketCode>
+										<CurrencyCode>INR</CurrencyCode>
+										<Amount>550.0000</Amount>
+										<ChargeDetail>MLE-BOM</ChargeDetail>
+										<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+										<ForeignAmount>550.0000</ForeignAmount>
+									</BookingServiceCharge>
+								</ServiceCharges>
+								<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+								<IsProtected>false</IsProtected>
+								<FeeApplicationType>Segment</FeeApplicationType>
+							</PassengerFee>
+						</PassengerFees>
+						<PassengerAddresses/>
+						<PassengerTravelDocuments/>
+						<PassengerBags/>
+						<PassengerID>418200832</PassengerID>
+						<PassengerTypeInfos>
+							<PassengerTypeInfo>
+								<State>Clean</State>
+								<DOB>9999-12-31T00:00:00Z</DOB>
+								<PaxType>CHD</PaxType>
+							</PassengerTypeInfo>
+						</PassengerTypeInfos>
+						<PassengerInfos>
+							<PassengerInfo>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<BalanceDue>0</BalanceDue>
+								<Gender>Male</Gender>
+								<Nationality/>
+								<ResidentCountry/>
+								<TotalCost>31277.0000</TotalCost>
+								<WeightCategory>Child</WeightCategory>
+							</PassengerInfo>
+						</PassengerInfos>
+						<PassengerInfants/>
+						<PseudoPassenger>false</PseudoPassenger>
+						<PassengerTypeInfo>
+							<State>Clean</State>
+							<DOB>9999-12-31T00:00:00Z</DOB>
+							<PaxType>CHD</PaxType>
+						</PassengerTypeInfo>
+						<PassengerEMDCouponList/>
+					</Passenger>
+				</Passengers>
+				<Journeys>
+					<Journey>
+						<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+						<NotForGeneralUse>false</NotForGeneralUse>
+						<Segments>
+							<Segment>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<ArrivalStation>MLE</ArrivalStation>
+								<CabinOfService>Y</CabinOfService>
+								<ChangeReasonCode/>
+								<DepartureStation>BOM</DepartureStation>
+								<PriorityCode/>
+								<SegmentType/>
+								<STA>2020-12-24T13:05:00</STA>
+								<STD>2020-12-24T10:40:00</STD>
+								<International>true</International>
+								<FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+									<a:CarrierCode>6E</a:CarrierCode>
+									<a:FlightNumber>1783</a:FlightNumber>
+									<a:OpSuffix></a:OpSuffix>
+								</FlightDesignator>
+								<XrefFlightDesignator i:nil="true" xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common"/>
+								<Fares>
+									<Fare>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ClassOfService>V</ClassOfService>
+										<ClassType></ClassType>
+										<RuleTariff/>
+										<CarrierCode>6E</CarrierCode>
+										<RuleNumber>5001</RuleNumber>
+										<FareBasisCode>V0INTRT</FareBasisCode>
+										<FareSequence>0</FareSequence>
+										<FareClassOfService>V</FareClassOfService>
+										<FareStatus>Default</FareStatus>
+										<FareApplicationType>Route</FareApplicationType>
+										<OriginalClassOfService>V</OriginalClassOfService>
+										<XrefClassOfService/>
+										<PaxFares>
+											<PaxFare>
+												<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+												<PaxType>ADT</PaxType>
+												<PaxDiscountCode/>
+												<FareDiscountCode/>
+												<ServiceCharges>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>FarePrice</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode/>
+														<TicketCode/>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>12407.0000</Amount>
+														<ChargeDetail/>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>12407.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>PHF</ChargeCode>
+														<TicketCode>PHF</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>50.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>50.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>ASF</ChargeCode>
+														<TicketCode>ASF</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>453.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>USD</ForeignCurrencyCode>
+														<ForeignAmount>6.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>DF</ChargeCode>
+														<TicketCode>DF</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>850.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>850.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>UDF</ChargeCode>
+														<TicketCode>UDF</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>328.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>328.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>Tax</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>27CGST</ChargeCode>
+														<TicketCode>CGT</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>311.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>311.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>Tax</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>27SGST</ChargeCode>
+														<TicketCode>SGT</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>311.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>311.0000</ForeignAmount>
+													</BookingServiceCharge>
+												</ServiceCharges>
+												<TicketFareBasisCode/>
+												<ProofOfStatusRequired>false</ProofOfStatusRequired>
+											</PaxFare>
+											<PaxFare>
+												<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+												<PaxType>CHD</PaxType>
+												<PaxDiscountCode/>
+												<FareDiscountCode/>
+												<ServiceCharges>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>FarePrice</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode/>
+														<TicketCode/>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>12407.0000</Amount>
+														<ChargeDetail/>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>12407.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>PHF</ChargeCode>
+														<TicketCode>PHF</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>50.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>50.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>ASF</ChargeCode>
+														<TicketCode>ASF</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>453.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>USD</ForeignCurrencyCode>
+														<ForeignAmount>6.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>DF</ChargeCode>
+														<TicketCode>DF</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>850.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>850.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>UDF</ChargeCode>
+														<TicketCode>UDF</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>328.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>328.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>Tax</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>27CGST</ChargeCode>
+														<TicketCode>CGT</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>311.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>311.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>Tax</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>27SGST</ChargeCode>
+														<TicketCode>SGT</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>311.0000</Amount>
+														<ChargeDetail>BOM-MLE</ChargeDetail>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>311.0000</ForeignAmount>
+													</BookingServiceCharge>
+												</ServiceCharges>
+												<TicketFareBasisCode/>
+												<ProofOfStatusRequired>false</ProofOfStatusRequired>
+											</PaxFare>
+										</PaxFares>
+										<ProductClass>N</ProductClass>
+										<IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+										<TravelClassCode>Y</TravelClassCode>
+										<FareSellKey>0~V~ ~6E~V0INTRT~5001~~0~0~~X</FareSellKey>
+										<InboundOutbound>None</InboundOutbound>
+										<FareLink>0</FareLink>
+										<FareDesignator>
+											<FareTypeIndicator/>
+											<CityCode/>
+											<TravelCityCode/>
+											<RuleFareTypeCode/>
+											<BaseFareFareClassCode/>
+											<DowType/>
+											<SeasonType/>
+											<RoutingNumber>0</RoutingNumber>
+											<OneWayRoundTrip/>
+											<OpenJawAllowed>false</OpenJawAllowed>
+											<TripDirection/>
+										</FareDesignator>
+									</Fare>
+								</Fares>
+								<Legs>
+									<Leg>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ArrivalStation>MLE</ArrivalStation>
+										<DepartureStation>BOM</DepartureStation>
+										<STA>2020-12-24T13:05:00</STA>
+										<STD>2020-12-24T10:40:00</STD>
+										<FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:CarrierCode>6E</a:CarrierCode>
+											<a:FlightNumber>1783</a:FlightNumber>
+											<a:OpSuffix></a:OpSuffix>
+										</FlightDesignator>
+										<LegInfo>
+											<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+											<AdjustedCapacity>180</AdjustedCapacity>
+											<EquipmentType>320</EquipmentType>
+											<EquipmentTypeSuffix/>
+											<ArrivalTerminal/>
+											<ArrvLTV>300</ArrvLTV>
+											<Capacity>180</Capacity>
+											<CodeShareIndicator></CodeShareIndicator>
+											<DepartureTerminal>2</DepartureTerminal>
+											<DeptLTV>330</DeptLTV>
+											<ETicket>false</ETicket>
+											<FlifoUpdated>false</FlifoUpdated>
+											<IROP>false</IROP>
+											<Status>Normal</Status>
+											<Lid>180</Lid>
+											<OnTime></OnTime>
+											<PaxSTA>2020-08-14T05:37:12.0786983</PaxSTA>
+											<PaxSTD>2020-08-14T05:37:12.0786983</PaxSTD>
+											<PRBCCode>Y180</PRBCCode>
+											<ScheduleServiceType></ScheduleServiceType>
+											<Sold>4</Sold>
+											<OutMoveDays>0</OutMoveDays>
+											<BackMoveDays>0</BackMoveDays>
+											<LegNests/>
+											<LegSSRs/>
+											<OperatingFlightNumber></OperatingFlightNumber>
+											<OperatedByText/>
+											<OperatingCarrier/>
+											<OperatingOpSuffix></OperatingOpSuffix>
+											<SubjectToGovtApproval>false</SubjectToGovtApproval>
+											<MarketingCode/>
+											<ChangeOfDirection>false</ChangeOfDirection>
+											<MarketingOverride>false</MarketingOverride>
+											<AircraftOwner/>
+										</LegInfo>
+										<OperationsInfo i:nil="true"/>
+										<InventoryLegID>3626364</InventoryLegID>
+									</Leg>
+								</Legs>
+								<PaxBags/>
+								<PaxSeats>
+									<PaxSeat>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<PassengerNumber>0</PassengerNumber>
+										<ArrivalStation>MLE</ArrivalStation>
+										<DepartureStation>BOM</DepartureStation>
+										<UnitDesignator>2A</UnitDesignator>
+										<CompartmentDesignator>Y</CompartmentDesignator>
+										<SeatPreference>NoPreference</SeatPreference>
+										<Penalty>0</Penalty>
+										<SeatTogetherPreference>false</SeatTogetherPreference>
+										<PaxSeatInfo>
+											<SeatSet>3</SeatSet>
+											<Deck>1</Deck>
+											<Properties xmlns:a="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+												<a:KeyValuePairOfstringstring>
+													<a:key>WINDOW</a:key>
+													<a:value>TRUE</a:value>
+												</a:KeyValuePairOfstringstring>
+												<a:KeyValuePairOfstringstring>
+													<a:key>TCC</a:key>
+													<a:value>Y</a:value>
+												</a:KeyValuePairOfstringstring>
+											</Properties>
+										</PaxSeatInfo>
+									</PaxSeat>
+									<PaxSeat>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<PassengerNumber>1</PassengerNumber>
+										<ArrivalStation>MLE</ArrivalStation>
+										<DepartureStation>BOM</DepartureStation>
+										<UnitDesignator>2B</UnitDesignator>
+										<CompartmentDesignator>Y</CompartmentDesignator>
+										<SeatPreference>NoPreference</SeatPreference>
+										<Penalty>0</Penalty>
+										<SeatTogetherPreference>false</SeatTogetherPreference>
+										<PaxSeatInfo>
+											<SeatSet>3</SeatSet>
+											<Deck>1</Deck>
+											<Properties xmlns:a="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+												<a:KeyValuePairOfstringstring>
+													<a:key>TCC</a:key>
+													<a:value>Y</a:value>
+												</a:KeyValuePairOfstringstring>
+											</Properties>
+										</PaxSeatInfo>
+									</PaxSeat>
+									<PaxSeat>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<PassengerNumber>2</PassengerNumber>
+										<ArrivalStation>MLE</ArrivalStation>
+										<DepartureStation>BOM</DepartureStation>
+										<UnitDesignator>3A</UnitDesignator>
+										<CompartmentDesignator>Y</CompartmentDesignator>
+										<SeatPreference>NoPreference</SeatPreference>
+										<Penalty>0</Penalty>
+										<SeatTogetherPreference>false</SeatTogetherPreference>
+										<PaxSeatInfo>
+											<SeatSet>5</SeatSet>
+											<Deck>1</Deck>
+											<Properties xmlns:a="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+												<a:KeyValuePairOfstringstring>
+													<a:key>WINDOW</a:key>
+													<a:value>TRUE</a:value>
+												</a:KeyValuePairOfstringstring>
+												<a:KeyValuePairOfstringstring>
+													<a:key>TCC</a:key>
+													<a:value>Y</a:value>
+												</a:KeyValuePairOfstringstring>
+											</Properties>
+										</PaxSeatInfo>
+									</PaxSeat>
+									<PaxSeat>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<PassengerNumber>3</PassengerNumber>
+										<ArrivalStation>MLE</ArrivalStation>
+										<DepartureStation>BOM</DepartureStation>
+										<UnitDesignator>3B</UnitDesignator>
+										<CompartmentDesignator>Y</CompartmentDesignator>
+										<SeatPreference>NoPreference</SeatPreference>
+										<Penalty>0</Penalty>
+										<SeatTogetherPreference>false</SeatTogetherPreference>
+										<PaxSeatInfo>
+											<SeatSet>5</SeatSet>
+											<Deck>1</Deck>
+											<Properties xmlns:a="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+												<a:KeyValuePairOfstringstring>
+													<a:key>TCC</a:key>
+													<a:value>Y</a:value>
+												</a:KeyValuePairOfstringstring>
+											</Properties>
+										</PaxSeatInfo>
+									</PaxSeat>
+								</PaxSeats>
+								<PaxSSRs/>
+								<PaxSegments>
+									<PaxSegment>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<BoardingSequence>0</BoardingSequence>
+										<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+										<LiftStatus>Default</LiftStatus>
+										<OverBookIndicator/>
+										<PassengerNumber>0</PassengerNumber>
+										<PriorityDate>2020-07-29T17:13:14.207Z</PriorityDate>
+										<TripType>None</TripType>
+										<TimeChanged>false</TimeChanged>
+										<POS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>14339942OA</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>WWW</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</POS>
+										<SourcePOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>AG</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>www</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</SourcePOS>
+										<VerifiedTravelDocs/>
+										<ModifiedDate>2020-07-29T17:13:14.133Z</ModifiedDate>
+										<ActivityDate>2020-07-29T17:13:14.133Z</ActivityDate>
+										<BaggageAllowanceWeight>20</BaggageAllowanceWeight>
+										<BaggageAllowanceWeightType>Kilograms</BaggageAllowanceWeightType>
+										<BaggageAllowanceUsed>false</BaggageAllowanceUsed>
+										<ReferenceNumber>0</ReferenceNumber>
+										<BoardingPassDetail i:nil="true"/>
+										<ServiceBundleCode/>
+										<BaggageGroupNumber>0</BaggageGroupNumber>
+									</PaxSegment>
+									<PaxSegment>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<BoardingSequence>0</BoardingSequence>
+										<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+										<LiftStatus>Default</LiftStatus>
+										<OverBookIndicator/>
+										<PassengerNumber>1</PassengerNumber>
+										<PriorityDate>2020-07-29T17:13:14.207Z</PriorityDate>
+										<TripType>None</TripType>
+										<TimeChanged>false</TimeChanged>
+										<POS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>14339942OA</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>WWW</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</POS>
+										<SourcePOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>AG</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>www</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</SourcePOS>
+										<VerifiedTravelDocs/>
+										<ModifiedDate>2020-07-29T17:13:14.133Z</ModifiedDate>
+										<ActivityDate>2020-07-29T17:13:14.133Z</ActivityDate>
+										<BaggageAllowanceWeight>20</BaggageAllowanceWeight>
+										<BaggageAllowanceWeightType>Kilograms</BaggageAllowanceWeightType>
+										<BaggageAllowanceUsed>false</BaggageAllowanceUsed>
+										<ReferenceNumber>0</ReferenceNumber>
+										<BoardingPassDetail i:nil="true"/>
+										<ServiceBundleCode/>
+										<BaggageGroupNumber>0</BaggageGroupNumber>
+									</PaxSegment>
+									<PaxSegment>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<BoardingSequence>0</BoardingSequence>
+										<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+										<LiftStatus>Default</LiftStatus>
+										<OverBookIndicator/>
+										<PassengerNumber>2</PassengerNumber>
+										<PriorityDate>2020-07-29T17:13:14.207Z</PriorityDate>
+										<TripType>None</TripType>
+										<TimeChanged>false</TimeChanged>
+										<POS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>14339942OA</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>WWW</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</POS>
+										<SourcePOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>AG</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>www</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</SourcePOS>
+										<VerifiedTravelDocs/>
+										<ModifiedDate>2020-07-29T17:13:14.133Z</ModifiedDate>
+										<ActivityDate>2020-07-29T17:13:14.133Z</ActivityDate>
+										<BaggageAllowanceWeight>20</BaggageAllowanceWeight>
+										<BaggageAllowanceWeightType>Kilograms</BaggageAllowanceWeightType>
+										<BaggageAllowanceUsed>false</BaggageAllowanceUsed>
+										<ReferenceNumber>0</ReferenceNumber>
+										<BoardingPassDetail i:nil="true"/>
+										<ServiceBundleCode/>
+										<BaggageGroupNumber>0</BaggageGroupNumber>
+									</PaxSegment>
+									<PaxSegment>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<BoardingSequence>0</BoardingSequence>
+										<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+										<LiftStatus>Default</LiftStatus>
+										<OverBookIndicator/>
+										<PassengerNumber>3</PassengerNumber>
+										<PriorityDate>2020-07-29T17:13:14.207Z</PriorityDate>
+										<TripType>None</TripType>
+										<TimeChanged>false</TimeChanged>
+										<POS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>14339942OA</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>WWW</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</POS>
+										<SourcePOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>AG</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>www</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</SourcePOS>
+										<VerifiedTravelDocs/>
+										<ModifiedDate>2020-07-29T17:13:14.133Z</ModifiedDate>
+										<ActivityDate>2020-07-29T17:13:14.133Z</ActivityDate>
+										<BaggageAllowanceWeight>20</BaggageAllowanceWeight>
+										<BaggageAllowanceWeightType>Kilograms</BaggageAllowanceWeightType>
+										<BaggageAllowanceUsed>false</BaggageAllowanceUsed>
+										<ReferenceNumber>0</ReferenceNumber>
+										<BoardingPassDetail i:nil="true"/>
+										<ServiceBundleCode/>
+										<BaggageGroupNumber>0</BaggageGroupNumber>
+									</PaxSegment>
+								</PaxSegments>
+								<PaxTickets/>
+								<PaxSeatPreferences i:nil="true"/>
+								<SalesDate>2020-07-29T17:13:14.133Z</SalesDate>
+								<SegmentSellKey>6E~1783~ ~~BOM~12/24/2020 10:40~MLE~12/24/2020 13:05~~</SegmentSellKey>
+								<PaxScores/>
+								<ChannelType>API</ChannelType>
+								<AvailabilitySourceCode/>
+								<InventorySourceCode/>
+							</Segment>
+						</Segments>
+						<JourneySellKey>6E~1783~ ~~BOM~12/24/2020 10:40~MLE~12/24/2020 13:05~~</JourneySellKey>
+					</Journey>
+					<Journey>
+						<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+						<NotForGeneralUse>false</NotForGeneralUse>
+						<Segments>
+							<Segment>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<ActionStatusCode>HK</ActionStatusCode>
+								<ArrivalStation>BOM</ArrivalStation>
+								<CabinOfService>Y</CabinOfService>
+								<ChangeReasonCode/>
+								<DepartureStation>MLE</DepartureStation>
+								<PriorityCode/>
+								<SegmentType/>
+								<STA>2021-01-02T17:50:00</STA>
+								<STD>2021-01-02T14:10:00</STD>
+								<International>true</International>
+								<FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+									<a:CarrierCode>6E</a:CarrierCode>
+									<a:FlightNumber>1784</a:FlightNumber>
+									<a:OpSuffix></a:OpSuffix>
+								</FlightDesignator>
+								<XrefFlightDesignator i:nil="true" xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common"/>
+								<Fares>
+									<Fare>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ClassOfService>V</ClassOfService>
+										<ClassType></ClassType>
+										<RuleTariff/>
+										<CarrierCode>6E</CarrierCode>
+										<RuleNumber>5001</RuleNumber>
+										<FareBasisCode>V0INTRT</FareBasisCode>
+										<FareSequence>0</FareSequence>
+										<FareClassOfService>V</FareClassOfService>
+										<FareStatus>Default</FareStatus>
+										<FareApplicationType>Route</FareApplicationType>
+										<OriginalClassOfService>V</OriginalClassOfService>
+										<XrefClassOfService/>
+										<PaxFares>
+											<PaxFare>
+												<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+												<PaxType>ADT</PaxType>
+												<PaxDiscountCode/>
+												<FareDiscountCode/>
+												<ServiceCharges>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>FarePrice</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode/>
+														<TicketCode/>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>11689.0000</Amount>
+														<ChargeDetail/>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>11689.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>BQ</ChargeCode>
+														<TicketCode>BQ</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>1889.0000</Amount>
+														<ChargeDetail>MLE-BOM</ChargeDetail>
+														<ForeignCurrencyCode>USD</ForeignCurrencyCode>
+														<ForeignAmount>25.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>H9</ChargeCode>
+														<TicketCode>H9</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>1889.0000</Amount>
+														<ChargeDetail>MLE-BOM</ChargeDetail>
+														<ForeignCurrencyCode>USD</ForeignCurrencyCode>
+														<ForeignAmount>25.0000</ForeignAmount>
+													</BookingServiceCharge>
+												</ServiceCharges>
+												<TicketFareBasisCode/>
+												<ProofOfStatusRequired>false</ProofOfStatusRequired>
+											</PaxFare>
+											<PaxFare>
+												<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+												<PaxType>CHD</PaxType>
+												<PaxDiscountCode/>
+												<FareDiscountCode/>
+												<ServiceCharges>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>FarePrice</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode/>
+														<TicketCode/>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>11689.0000</Amount>
+														<ChargeDetail/>
+														<ForeignCurrencyCode>INR</ForeignCurrencyCode>
+														<ForeignAmount>11689.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>BQ</ChargeCode>
+														<TicketCode>BQ</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>1889.0000</Amount>
+														<ChargeDetail>MLE-BOM</ChargeDetail>
+														<ForeignCurrencyCode>USD</ForeignCurrencyCode>
+														<ForeignAmount>25.0000</ForeignAmount>
+													</BookingServiceCharge>
+													<BookingServiceCharge>
+														<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+														<ChargeType>TravelFee</ChargeType>
+														<CollectType>SellerChargeable</CollectType>
+														<ChargeCode>H9</ChargeCode>
+														<TicketCode>H9</TicketCode>
+														<CurrencyCode>INR</CurrencyCode>
+														<Amount>1889.0000</Amount>
+														<ChargeDetail>MLE-BOM</ChargeDetail>
+														<ForeignCurrencyCode>USD</ForeignCurrencyCode>
+														<ForeignAmount>25.0000</ForeignAmount>
+													</BookingServiceCharge>
+												</ServiceCharges>
+												<TicketFareBasisCode/>
+												<ProofOfStatusRequired>false</ProofOfStatusRequired>
+											</PaxFare>
+										</PaxFares>
+										<ProductClass>N</ProductClass>
+										<IsAllotmentMarketFare>false</IsAllotmentMarketFare>
+										<TravelClassCode>Y</TravelClassCode>
+										<FareSellKey>0~V~ ~6E~V0INTRT~5001~~0~0~~X</FareSellKey>
+										<InboundOutbound>None</InboundOutbound>
+										<FareLink>0</FareLink>
+										<FareDesignator>
+											<FareTypeIndicator/>
+											<CityCode/>
+											<TravelCityCode/>
+											<RuleFareTypeCode/>
+											<BaseFareFareClassCode/>
+											<DowType/>
+											<SeasonType/>
+											<RoutingNumber>0</RoutingNumber>
+											<OneWayRoundTrip/>
+											<OpenJawAllowed>false</OpenJawAllowed>
+											<TripDirection/>
+										</FareDesignator>
+									</Fare>
+								</Fares>
+								<Legs>
+									<Leg>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<ArrivalStation>BOM</ArrivalStation>
+										<DepartureStation>MLE</DepartureStation>
+										<STA>2021-01-02T17:50:00</STA>
+										<STD>2021-01-02T14:10:00</STD>
+										<FlightDesignator xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:CarrierCode>6E</a:CarrierCode>
+											<a:FlightNumber>1784</a:FlightNumber>
+											<a:OpSuffix></a:OpSuffix>
+										</FlightDesignator>
+										<LegInfo>
+											<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+											<AdjustedCapacity>180</AdjustedCapacity>
+											<EquipmentType>320</EquipmentType>
+											<EquipmentTypeSuffix/>
+											<ArrivalTerminal>2</ArrivalTerminal>
+											<ArrvLTV>330</ArrvLTV>
+											<Capacity>180</Capacity>
+											<CodeShareIndicator></CodeShareIndicator>
+											<DepartureTerminal/>
+											<DeptLTV>300</DeptLTV>
+											<ETicket>false</ETicket>
+											<FlifoUpdated>false</FlifoUpdated>
+											<IROP>false</IROP>
+											<Status>Normal</Status>
+											<Lid>180</Lid>
+											<OnTime></OnTime>
+											<PaxSTA>2020-08-14T05:37:12.0786983</PaxSTA>
+											<PaxSTD>2020-08-14T05:37:12.0786983</PaxSTD>
+											<PRBCCode>Y180</PRBCCode>
+											<ScheduleServiceType></ScheduleServiceType>
+											<Sold>12</Sold>
+											<OutMoveDays>0</OutMoveDays>
+											<BackMoveDays>0</BackMoveDays>
+											<LegNests/>
+											<LegSSRs/>
+											<OperatingFlightNumber></OperatingFlightNumber>
+											<OperatedByText/>
+											<OperatingCarrier/>
+											<OperatingOpSuffix></OperatingOpSuffix>
+											<SubjectToGovtApproval>false</SubjectToGovtApproval>
+											<MarketingCode/>
+											<ChangeOfDirection>false</ChangeOfDirection>
+											<MarketingOverride>false</MarketingOverride>
+											<AircraftOwner/>
+										</LegInfo>
+										<OperationsInfo i:nil="true"/>
+										<InventoryLegID>3640765</InventoryLegID>
+									</Leg>
+								</Legs>
+								<PaxBags/>
+								<PaxSeats>
+									<PaxSeat>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<PassengerNumber>0</PassengerNumber>
+										<ArrivalStation>BOM</ArrivalStation>
+										<DepartureStation>MLE</DepartureStation>
+										<UnitDesignator>2A</UnitDesignator>
+										<CompartmentDesignator>Y</CompartmentDesignator>
+										<SeatPreference>NoPreference</SeatPreference>
+										<Penalty>0</Penalty>
+										<SeatTogetherPreference>false</SeatTogetherPreference>
+										<PaxSeatInfo>
+											<SeatSet>3</SeatSet>
+											<Deck>1</Deck>
+											<Properties xmlns:a="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+												<a:KeyValuePairOfstringstring>
+													<a:key>WINDOW</a:key>
+													<a:value>TRUE</a:value>
+												</a:KeyValuePairOfstringstring>
+												<a:KeyValuePairOfstringstring>
+													<a:key>TCC</a:key>
+													<a:value>Y</a:value>
+												</a:KeyValuePairOfstringstring>
+											</Properties>
+										</PaxSeatInfo>
+									</PaxSeat>
+									<PaxSeat>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<PassengerNumber>1</PassengerNumber>
+										<ArrivalStation>BOM</ArrivalStation>
+										<DepartureStation>MLE</DepartureStation>
+										<UnitDesignator>3A</UnitDesignator>
+										<CompartmentDesignator>Y</CompartmentDesignator>
+										<SeatPreference>NoPreference</SeatPreference>
+										<Penalty>0</Penalty>
+										<SeatTogetherPreference>false</SeatTogetherPreference>
+										<PaxSeatInfo>
+											<SeatSet>5</SeatSet>
+											<Deck>1</Deck>
+											<Properties xmlns:a="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+												<a:KeyValuePairOfstringstring>
+													<a:key>WINDOW</a:key>
+													<a:value>TRUE</a:value>
+												</a:KeyValuePairOfstringstring>
+												<a:KeyValuePairOfstringstring>
+													<a:key>TCC</a:key>
+													<a:value>Y</a:value>
+												</a:KeyValuePairOfstringstring>
+											</Properties>
+										</PaxSeatInfo>
+									</PaxSeat>
+									<PaxSeat>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<PassengerNumber>2</PassengerNumber>
+										<ArrivalStation>BOM</ArrivalStation>
+										<DepartureStation>MLE</DepartureStation>
+										<UnitDesignator>3B</UnitDesignator>
+										<CompartmentDesignator>Y</CompartmentDesignator>
+										<SeatPreference>NoPreference</SeatPreference>
+										<Penalty>0</Penalty>
+										<SeatTogetherPreference>false</SeatTogetherPreference>
+										<PaxSeatInfo>
+											<SeatSet>5</SeatSet>
+											<Deck>1</Deck>
+											<Properties xmlns:a="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+												<a:KeyValuePairOfstringstring>
+													<a:key>TCC</a:key>
+													<a:value>Y</a:value>
+												</a:KeyValuePairOfstringstring>
+											</Properties>
+										</PaxSeatInfo>
+									</PaxSeat>
+									<PaxSeat>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<PassengerNumber>3</PassengerNumber>
+										<ArrivalStation>BOM</ArrivalStation>
+										<DepartureStation>MLE</DepartureStation>
+										<UnitDesignator>2B</UnitDesignator>
+										<CompartmentDesignator>Y</CompartmentDesignator>
+										<SeatPreference>NoPreference</SeatPreference>
+										<Penalty>0</Penalty>
+										<SeatTogetherPreference>false</SeatTogetherPreference>
+										<PaxSeatInfo>
+											<SeatSet>3</SeatSet>
+											<Deck>1</Deck>
+											<Properties xmlns:a="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+												<a:KeyValuePairOfstringstring>
+													<a:key>TCC</a:key>
+													<a:value>Y</a:value>
+												</a:KeyValuePairOfstringstring>
+											</Properties>
+										</PaxSeatInfo>
+									</PaxSeat>
+								</PaxSeats>
+								<PaxSSRs/>
+								<PaxSegments>
+									<PaxSegment>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<BoardingSequence>0</BoardingSequence>
+										<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+										<LiftStatus>Default</LiftStatus>
+										<OverBookIndicator/>
+										<PassengerNumber>0</PassengerNumber>
+										<PriorityDate>2020-07-29T17:13:14.207Z</PriorityDate>
+										<TripType>None</TripType>
+										<TimeChanged>false</TimeChanged>
+										<POS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>14339942OA</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>WWW</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</POS>
+										<SourcePOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>AG</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>www</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</SourcePOS>
+										<VerifiedTravelDocs/>
+										<ModifiedDate>2020-07-29T17:13:14.133Z</ModifiedDate>
+										<ActivityDate>2020-07-29T17:13:14.133Z</ActivityDate>
+										<BaggageAllowanceWeight>20</BaggageAllowanceWeight>
+										<BaggageAllowanceWeightType>Kilograms</BaggageAllowanceWeightType>
+										<BaggageAllowanceUsed>false</BaggageAllowanceUsed>
+										<ReferenceNumber>0</ReferenceNumber>
+										<BoardingPassDetail i:nil="true"/>
+										<ServiceBundleCode/>
+										<BaggageGroupNumber>0</BaggageGroupNumber>
+									</PaxSegment>
+									<PaxSegment>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<BoardingSequence>0</BoardingSequence>
+										<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+										<LiftStatus>Default</LiftStatus>
+										<OverBookIndicator/>
+										<PassengerNumber>1</PassengerNumber>
+										<PriorityDate>2020-07-29T17:13:14.207Z</PriorityDate>
+										<TripType>None</TripType>
+										<TimeChanged>false</TimeChanged>
+										<POS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>14339942OA</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>WWW</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</POS>
+										<SourcePOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>AG</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>www</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</SourcePOS>
+										<VerifiedTravelDocs/>
+										<ModifiedDate>2020-07-29T17:13:14.133Z</ModifiedDate>
+										<ActivityDate>2020-07-29T17:13:14.133Z</ActivityDate>
+										<BaggageAllowanceWeight>20</BaggageAllowanceWeight>
+										<BaggageAllowanceWeightType>Kilograms</BaggageAllowanceWeightType>
+										<BaggageAllowanceUsed>false</BaggageAllowanceUsed>
+										<ReferenceNumber>0</ReferenceNumber>
+										<BoardingPassDetail i:nil="true"/>
+										<ServiceBundleCode/>
+										<BaggageGroupNumber>0</BaggageGroupNumber>
+									</PaxSegment>
+									<PaxSegment>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<BoardingSequence>0</BoardingSequence>
+										<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+										<LiftStatus>Default</LiftStatus>
+										<OverBookIndicator/>
+										<PassengerNumber>2</PassengerNumber>
+										<PriorityDate>2020-07-29T17:13:14.207Z</PriorityDate>
+										<TripType>None</TripType>
+										<TimeChanged>false</TimeChanged>
+										<POS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>14339942OA</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>WWW</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</POS>
+										<SourcePOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>AG</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>www</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</SourcePOS>
+										<VerifiedTravelDocs/>
+										<ModifiedDate>2020-07-29T17:13:14.133Z</ModifiedDate>
+										<ActivityDate>2020-07-29T17:13:14.133Z</ActivityDate>
+										<BaggageAllowanceWeight>20</BaggageAllowanceWeight>
+										<BaggageAllowanceWeightType>Kilograms</BaggageAllowanceWeightType>
+										<BaggageAllowanceUsed>false</BaggageAllowanceUsed>
+										<ReferenceNumber>0</ReferenceNumber>
+										<BoardingPassDetail i:nil="true"/>
+										<ServiceBundleCode/>
+										<BaggageGroupNumber>0</BaggageGroupNumber>
+									</PaxSegment>
+									<PaxSegment>
+										<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+										<BoardingSequence>0</BoardingSequence>
+										<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+										<LiftStatus>Default</LiftStatus>
+										<OverBookIndicator/>
+										<PassengerNumber>3</PassengerNumber>
+										<PriorityDate>2020-07-29T17:13:14.207Z</PriorityDate>
+										<TripType>None</TripType>
+										<TimeChanged>false</TimeChanged>
+										<POS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>14339942OA</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>WWW</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</POS>
+										<SourcePOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+											<a:State>Clean</a:State>
+											<a:AgentCode>AG</a:AgentCode>
+											<a:OrganizationCode>14339942</a:OrganizationCode>
+											<a:DomainCode>www</a:DomainCode>
+											<a:LocationCode>WWW</a:LocationCode>
+										</SourcePOS>
+										<VerifiedTravelDocs/>
+										<ModifiedDate>2020-07-29T17:13:14.133Z</ModifiedDate>
+										<ActivityDate>2020-07-29T17:13:14.133Z</ActivityDate>
+										<BaggageAllowanceWeight>20</BaggageAllowanceWeight>
+										<BaggageAllowanceWeightType>Kilograms</BaggageAllowanceWeightType>
+										<BaggageAllowanceUsed>false</BaggageAllowanceUsed>
+										<ReferenceNumber>0</ReferenceNumber>
+										<BoardingPassDetail i:nil="true"/>
+										<ServiceBundleCode/>
+										<BaggageGroupNumber>0</BaggageGroupNumber>
+									</PaxSegment>
+								</PaxSegments>
+								<PaxTickets/>
+								<PaxSeatPreferences i:nil="true"/>
+								<SalesDate>2020-07-29T17:13:14.133Z</SalesDate>
+								<SegmentSellKey>6E~1784~ ~~MLE~01/02/2021 14:10~BOM~01/02/2021 17:50~~</SegmentSellKey>
+								<PaxScores/>
+								<ChannelType>API</ChannelType>
+								<AvailabilitySourceCode/>
+								<InventorySourceCode/>
+							</Segment>
+						</Segments>
+						<JourneySellKey>6E~1784~ ~~MLE~01/02/2021 14:10~BOM~01/02/2021 17:50~~</JourneySellKey>
+					</Journey>
+				</Journeys>
+				<BookingComments>
+					<BookingComment>
+						<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+						<CommentType>Default</CommentType>
+						<CommentText>Advised of Fare Rule</CommentText>
+						<PointOfSale xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+							<a:State>Clean</a:State>
+							<a:AgentCode>14339942OA</a:AgentCode>
+							<a:OrganizationCode>14339942</a:OrganizationCode>
+							<a:DomainCode>WWW</a:DomainCode>
+							<a:LocationCode>WWW</a:LocationCode>
+						</PointOfSale>
+						<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+						<SendToBookingSource>false</SendToBookingSource>
+					</BookingComment>
+				</BookingComments>
+				<BookingQueueInfos/>
+				<BookingContacts>
+					<BookingContact>
+						<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+						<TypeCode>P</TypeCode>
+						<Names>
+							<BookingName>
+								<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+								<FirstName>makemytrip</FirstName>
+								<MiddleName/>
+								<LastName>com</LastName>
+								<Suffix/>
+								<Title>MR</Title>
+							</BookingName>
+						</Names>
+						<EmailAddress>kapoorpranay06@gmail.com</EmailAddress>
+						<HomePhone>919819816868</HomePhone>
+						<WorkPhone>919819816868</WorkPhone>
+						<OtherPhone>919819816868</OtherPhone>
+						<Fax/>
+						<CompanyName>MAKEMYTRIP INDIA PVT LTD</CompanyName>
+						<AddressLine1>19th floor,Tower A,B&amp;C Epitome Building No.5</AddressLine1>
+						<AddressLine2>DLF Cyber City, Phase III</AddressLine2>
+						<AddressLine3/>
+						<City>Gurugram</City>
+						<ProvinceState>HR</ProvinceState>
+						<PostalCode>122002</PostalCode>
+						<CountryCode>IN</CountryCode>
+						<CultureCode>en-GB</CultureCode>
+						<DistributionOption>Email</DistributionOption>
+						<CustomerNumber/>
+						<NotificationPreference>None</NotificationPreference>
+						<SourceOrganization>14339942</SourceOrganization>
+					</BookingContact>
+				</BookingContacts>
+				<Payments>
+					<Payment>
+						<State xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
+						<ReferenceType>Booking</ReferenceType>
+						<ReferenceID>295082081</ReferenceID>
+						<PaymentMethodType>AgencyAccount</PaymentMethodType>
+						<PaymentMethodCode>AG</PaymentMethodCode>
+						<CurrencyCode>INR</CurrencyCode>
+						<PaymentAmount>125108.0000</PaymentAmount>
+						<CollectedCurrencyCode>INR</CollectedCurrencyCode>
+						<CollectedAmount>125108.0000</CollectedAmount>
+						<QuotedCurrencyCode>INR</QuotedCurrencyCode>
+						<QuotedAmount>125108.0000</QuotedAmount>
+						<Status>Approved</Status>
+						<AccountNumber>14339942</AccountNumber>
+						<AccountNumberID>0</AccountNumberID>
+						<Expiration>9999-12-31T00:00:00Z</Expiration>
+						<AuthorizationCode/>
+						<AuthorizationStatus>Approved</AuthorizationStatus>
+						<ParentPaymentID>0</ParentPaymentID>
+						<Transferred>false</Transferred>
+						<ReconcilliationID>0</ReconcilliationID>
+						<FundedDate>1800-01-01T00:00:00Z</FundedDate>
+						<Installments>1</Installments>
+						<PaymentText/>
+						<ChannelType>API</ChannelType>
+						<PaymentNumber>1</PaymentNumber>
+						<AccountName/>
+						<SourcePointOfSale xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+							<a:State>Clean</a:State>
+							<a:AgentCode>AG</a:AgentCode>
+							<a:OrganizationCode>14339942</a:OrganizationCode>
+							<a:DomainCode>www</a:DomainCode>
+							<a:LocationCode>WWW</a:LocationCode>
+						</SourcePointOfSale>
+						<PointOfSale xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+							<a:State>Clean</a:State>
+							<a:AgentCode>14339942OA</a:AgentCode>
+							<a:OrganizationCode>14339942</a:OrganizationCode>
+							<a:DomainCode>WWW</a:DomainCode>
+							<a:LocationCode>WWW</a:LocationCode>
+						</PointOfSale>
+						<PaymentID>365434588</PaymentID>
+						<Deposit>false</Deposit>
+						<AccountID>0</AccountID>
+						<Password/>
+						<AccountTransactionCode/>
+						<VoucherID>0</VoucherID>
+						<VoucherTransactionID>0</VoucherTransactionID>
+						<OverrideVoucherRestrictions>false</OverrideVoucherRestrictions>
+						<OverrideAmount>false</OverrideAmount>
+						<RecordLocator/>
+						<PaymentAddedToState>true</PaymentAddedToState>
+						<DCC>
+							<DCCRateID>00000000-0000-0000-0000-000000000000</DCCRateID>
+							<DCCStatus>DCCNotOffered</DCCStatus>
+							<ValidationDCCApplicable>false</ValidationDCCApplicable>
+							<ValidationDCCRateValue>0</ValidationDCCRateValue>
+							<ValidationDCCCurrency/>
+							<ValidationDCCAmount>0</ValidationDCCAmount>
+							<ValidationDCCPutInState/>
+						</DCC>
+						<ThreeDSecure>
+							<BrowserUserAgent/>
+							<BrowserAccept/>
+							<RemoteIpAddress/>
+							<TermUrl/>
+							<ProxyVia/>
+							<ValidationTDSApplicable>false</ValidationTDSApplicable>
+							<ValidationTDSPaReq/>
+							<ValidationTDSAcsUrl/>
+							<ValidationTDSPaRes/>
+							<ValidationTDSSuccessful>false</ValidationTDSSuccessful>
+							<ValidationTDSAuthResult/>
+							<ValidationTDSCavv/>
+							<ValidationTDSCavvAlgorithm/>
+							<ValidationTDSEci/>
+							<ValidationTDSXid/>
+						</ThreeDSecure>
+						<PaymentFields/>
+						<PaymentAddresses/>
+						<CreatedDate>2020-07-29T17:13:14.133Z</CreatedDate>
+						<CreatedAgentID>2643031</CreatedAgentID>
+						<ModifiedDate>2020-07-29T17:13:14.37Z</ModifiedDate>
+						<ModifiedAgentID>2643031</ModifiedAgentID>
+						<BinRange>0</BinRange>
+						<ApprovalDate>2020-07-29T17:13:14.37Z</ApprovalDate>
+						<BookingID>295082081</BookingID>
+					</Payment>
+				</Payments>
+				<BookingComponents/>
+				<NumericRecordLocator>051311210802</NumericRecordLocator>
+				<SourceBookingPOS xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
+					<a:State>Clean</a:State>
+					<a:AgentCode>AG</a:AgentCode>
+					<a:OrganizationCode>14339942</a:OrganizationCode>
+					<a:DomainCode>www</a:DomainCode>
+					<a:LocationCode>WWW</a:LocationCode>
+					<a:ISOCountryCode/>
+					<a:SourceSystemCode/>
+				</SourceBookingPOS>
+				<ReissueCount>0</ReissueCount>
+				<PricingReissueMode>16</PricingReissueMode>
+				<BaggagePricingSystemCode>1N</BaggagePricingSystemCode>
+			</Booking>
+		</GetBookingResponse>
+	</s:Body>
+</s:Envelope>

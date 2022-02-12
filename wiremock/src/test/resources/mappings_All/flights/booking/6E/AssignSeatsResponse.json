@@ -1,0 +1,25 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/bookingmanager.svc",
+       "bodyPatterns":[
+{ 
+	"contains" : "AssignSeatsRequest"
+
+}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/booking/6E/AssignSeatsResponse.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

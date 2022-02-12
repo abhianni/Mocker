@@ -1,0 +1,14 @@
+{
+  "request": {
+     "method": "POST",
+    "url": "/flights-grpc/searchstream",
+     "bodyPatterns":[
+      {       "contains" : "flT_TEST_WRVIEW_DOM_RT_SG_RTFARE_SUCCESS"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "flights_search/v5Stream/PostSearchDOMRTPIETHOsearchStream.json"
+  }
+}

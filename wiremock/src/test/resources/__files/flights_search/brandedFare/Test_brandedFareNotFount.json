@@ -1,0 +1,312 @@
+{
+  "reviewKey": "flt_Test_RT_FareTrue_Branded",
+  "journeys": {
+    "FromCity1_ToCity1_Depart1": {
+      "segments": {
+        "FromCity1_ToCity1_Depart1": {
+          "fltLst": [
+            {
+              "amenitySegmentKey": null,
+              "depInf": {
+                "trml": "1",
+                "ctCd": "FromCity1",
+                "airp": "Chhatrapati Shivaji International Airport",
+                "ctNm": "Mumbai",
+                "arpCd": "FromCity1",
+                "cntr": "India",
+                "tmZn": "Asia/Kolkata",
+                "lat": 19.088686,
+                "long": 72.867919,
+                "cont": "India",
+                "cur": "INR"
+              },
+              "arrInf": {
+                "trml": "2",
+                "ctCd": "ToCity1",
+                "airp": "Indira Gandhi International Airport",
+                "ctNm": "New Delhi",
+                "arpCd": "ToCity1",
+                "cntr": "India",
+                "tmZn": "Asia/Kolkata",
+                "lat": 28.5665,
+                "long": 77.103088,
+                "cont": "India",
+                "cur": "INR"
+              },
+              "depDt": "DepartDate1",
+              "arrDt": "ArrivalDate1",
+              "techStpOvrLst": [],
+              "totDur": 140,
+              "segSlKey": "G8~ 345~ ~~FromCity1~03/15/2019 22:45~ToCity1~03/16/2019 01:05~~",
+              "fareSlKey": "0~N~ ~G8~NO9RBINX~0009~~0~13~~X",
+              "mrktArln": "G8",
+              "oprArln": "G8",
+              "equipTyp": "320",
+              "equipCd": "A320CEO",
+              "equipNm": "Airbus A320 ",
+              "fltNum": "345",
+              "carierCode": "G8",
+              "bagDtls": [],
+              "avlCntxtLst": [],
+              "availCount": null,
+              "cbcls": "Y",
+              "pnRf": {},
+              "splitPnr": false,
+              "availSrc": null,
+              "suplrNm": null,
+              "ao": [
+                {
+                  "at": "MEAL",
+                  "isPaid": true
+                }
+              ]
+            }
+          ],
+          "fr": [
+            {
+              "pxTypFrMap": {
+                "ADULT": [
+                  {
+                    "frId": 0,
+                    "frBrkup": {
+                      "frBrkupMap": {
+                        "TAXCOMPONENT-PHF": 81,
+                        "TAXCOMPONENT-YQ": 400,
+                        "TAXCOMPONENT-ST27": 59,
+                        "TAXCOMPONENT-RCS": 100,
+                        "TAXCOMPONENT-ADF": 142,
+                        "TOT": 2735,
+                        "TAXCOMPONENT-PSF": 154,
+                        "TAX": 995,
+                        "TAXCOMPONENT-CT27": 59
+                      }
+                    },
+                    "segPrdctInf": [
+                      {
+                        "lgPrnfo": [
+                          {
+                            "frId": null,
+                            "rb": "N",
+                            "cbn": null,
+                            "avl": null,
+                            "fbc": "NO9RBINX",
+                            "frAmt": null,
+                            "txAmt": null,
+                            "frtyp": [],
+                            "brkPnt": null,
+                            "arrcd": "DEL",
+                            "deptcd": "BOM",
+                            "prdcls": "GS"
+                          }
+                        ]
+                      }
+                    ],
+                    "paxRef": 0
+                  }
+                ]
+              },
+              "frInfoMap": {
+                "OriginalClassOfService": null,
+                "ProductClass": "GS",
+                "FareType": "0~N~ ~G8~NO9RBINX~0009~~0~13~~X",
+                "FareClassOfService": "N",
+                "FareStatus": null,
+                "FareBasisCode": "NO9RBINX"
+              },
+              "subFares": []
+            }
+          ],
+          "minFrRl": null,
+          "lfid": null,
+          "aggFltNum": "FromCity1$ToCity1$Depart1$G8-345",
+          "cur": "INR",
+          "totDur": 140,
+          "rfndbl": false,
+          "sPNR": false,
+          "hldbl": false,
+          "cbn": null,
+          "cbnCls": null,
+          "refAir": "G8",
+          "dep": "FromCity1",
+          "arr": "ToCity1",
+          "offId": null,
+          "credId": "G8UNIMOBNS_16Dec",
+          "jrnySlKey": "G8~ 345~ ~~FromCity1~03/15/2019 22:45~ToCity1~03/16/2019 01:05~~",
+          "srvc": "G8",
+          "vc": "G8",
+          "currInfo": {
+            "costCurrency": "INR",
+            "sellCurrency": null,
+            "conversionFactor": null
+          },
+          "signature": null,
+          "rtngId": null
+        }
+      }
+    }
+  },
+  "combinedInfo": {
+    "COMBINED_DATA": {
+      "data": {
+        "splitPNR": null,
+        "REFUNDABLE": false,
+        "officeIds": null,
+        "CABIN_CLASS": null,
+        "IS_PURE": true,
+        "LAST_TKT_DATE": null,
+        "MAX_STOP": 0,
+        "HOLDABLE": null,
+        "MAX_LAYOFF_TIME": 0,
+        "refferenceAirline": "G8",
+        "IS_PURE_LCC": true,
+        "VC": "G8"
+      }
+    },
+    "COMBINED_REVIEW_FARE": {
+      "paxTypeFareBreakUp": {
+        "ADULT": {
+          "totalTax": 995,
+          "totalBaseFare": 1740,
+          "totalDiscount": 0,
+          "totalMarkup": 0,
+          "fareBreakupMap": {
+            "TAXCOMPONENT-PHF": 81,
+            "TAXCOMPONENT-YQ": 400,
+            "TAXCOMPONENT-ST27": 59,
+            "TAXCOMPONENT-RCS": 100,
+            "TAXCOMPONENT-ADF": 142,
+            "TOT": 2735,
+            "TAXCOMPONENT-PSF": 154,
+            "TAX": 995,
+            "TAXCOMPONENT-CT27": 59
+          },
+          "totalFare": 2735,
+          "paxRef": 0
+        }
+      },
+      "combinedFareBreakUp": {
+        "totalTax": 995,
+        "totalBaseFare": 1740,
+        "totalDiscount": 0,
+        "totalMarkup": 0,
+        "fareBreakupMap": {
+          "TAXCOMPONENT-PHF": 81,
+          "TAXCOMPONENT-YQ": 400,
+          "TAXCOMPONENT-ST27": 59,
+          "TAXCOMPONENT-RCS": 100,
+          "TAXCOMPONENT-ADF": 142,
+          "TOT": 2735,
+          "TAXCOMPONENT-PSF": 154,
+          "TAX": 995,
+          "TAXCOMPONENT-CT27": 59
+        },
+        "totalFare": 2735,
+        "paxRef": null
+      }
+    },
+    "FARE_CHANGE": {
+      "fareStatus": 0,
+      "oldFare": 0,
+      "newFare": 2735,
+      "totalFareChangeAmount": 2735
+    }
+  },
+  "travellerInfo": {
+    "prtPymtEnbld": false,
+    "prtPymtSeltd": false,
+    "prtPymtAmt": null,
+    "searchKey": null,
+    "email": null,
+    "userDetails": null
+  },
+  "trvlrReqdInfo": {
+    "dobReqdForAllPax": false,
+    "dobReqdForInf": true,
+    "dobReqdForChild": false,
+    "ppMandatory": false,
+    "nationalityMandatory": false
+  },
+  "fareBreakUp": {
+    "fareSummary": [
+      {
+        "paxType": "Adult",
+        "noOfPax": 1,
+        "fareDetails": {
+          "discount": 0,
+          "taxDetails": {
+            "flightTax": [
+              {
+                "taxValue": 81,
+                "taxDescription": "CF",
+                "taxDescriptionMessage": "CF_DM_Mock"
+              },
+              {
+                "taxValue": 118,
+                "taxDescription": "GOODS_SERVICE_TAX",
+                "taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+              },
+              {
+                "taxValue": 154,
+                "taxDescription": "PSF",
+                "taxDescriptionMessage": "PSF_DM"
+              },
+              {
+                "taxValue": 642,
+                "taxDescription": "YQ",
+                "taxDescriptionMessage": "YQ_DM"
+              }
+            ],
+            "totalTaxAmount": 995
+          },
+          "baseFare": 1740,
+          "totalFare": 2735
+        }
+      }
+    ],
+    "taxSummary": {
+      "flightTax": [
+        {
+          "taxValue": 81,
+          "taxDescription": "CF",
+          "taxDescriptionMessage": "CF_DM"
+        },
+        {
+          "taxValue": 118,
+          "taxDescription": "GOODS_SERVICE_TAX",
+          "taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+        },
+        {
+          "taxValue": 154,
+          "taxDescription": "PSF",
+          "taxDescriptionMessage": "PSF_DM"
+        },
+        {
+          "taxValue": 642,
+          "taxDescription": "YQ",
+          "taxDescriptionMessage": "YQ_DM"
+        }
+      ],
+      "totalTaxAmount": 995
+    },
+    "taxDescMap": {
+      "INF": "Infant Tax",
+      "KKC": "Krishi Kalyan Cess",
+      "AST": "Service Tax",
+      "PSF": "Passenger Service Fee",
+      "DF": "Development Fee",
+      "OTH": "Other",
+      "CF": "Congestion Fee",
+      "GOODS_SERVICE_TAX": "Goods and Services Tax",
+      "TTF": "Travel and Tourism Fee",
+      "GST": "Gvt. Service Fee",
+      "UDFA": "User Development Fee(Arrival)",
+      "TF": "CUTE Fee",
+      "SF": "Service Fee",
+      "RCF": "Regional Connectivity Fund",
+      "SBC": "Swachh Bharat Cess ",
+      "UDF": "User Development Fee",
+      "YQ": "Airline Fuel Charge",
+      "DC": "Discount"
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+	"status": true,
+	"segAnclryHldrList": [{
+		"anclryType": "MEALS",
+		"anclryDescr": "Food & Beverages",
+		"displayTitle": null,
+		"displaySubTitle": null,
+		"segAnclryDataMap": {
+			"DEL_BLR": {
+				"segType": "DEP",
+				"originCity": "New Delhi",
+				"destCity": "Bengaluru",
+				"selectType": "single",
+				"refundStat": 1,
+				"alCode": "6E",
+				"fltNo": "2624",
+				"anclryGrpMap": {
+					"Veg": [{
+						"grp": "Veg",
+						"name": "Corp Meal (Snack/Meal with soft beverage)",
+						"price": 0,
+						"code": "CPML",
+						"mmtPrice": 0,
+						"imagePath": "default",
+						"showSlasherFare": false,
+						"cssrDetailSOA": null
+					}]
+				}
+			}
+		}
+	}, {
+		"anclryType": "BAGGAGE",
+		"anclryDescr": "Baggage",
+		"displayTitle": null,
+		"displaySubTitle": null,
+		"segAnclryDataMap": {
+			"DEL_BLR": {
+				"segType": "DEP",
+				"originCity": "New Delhi",
+				"destCity": "Bengaluru",
+				"selectType": "single",
+				"refundStat": 1,
+				"alCode": "6E",
+				"fltNo": "2624",
+				"anclryGrpMap": {
+					"Pre-purchased Baggage": [{
+						"grp": "Pre-purchased Baggage",
+						"name": "Additional 5 KG",
+						"price": 1875,
+						"code": "XBPA",
+						"mmtPrice": 1875,
+						"imagePath": "default",
+						"showSlasherFare": false,
+						"cssrDetailSOA": null
+					}, {
+						"grp": "Pre-purchased Baggage",
+						"name": "Additional 10 KG",
+						"price": 3600,
+						"code": "XBPB",
+						"mmtPrice": 3600,
+						"imagePath": "default",
+						"showSlasherFare": false,
+						"cssrDetailSOA": null
+					}, {
+						"grp": "Pre-purchased Baggage",
+						"name": "Additional 15 KG",
+						"price": 5250,
+						"code": "XBPC",
+						"mmtPrice": 5250,
+						"imagePath": "default",
+						"showSlasherFare": false,
+						"cssrDetailSOA": null
+					}, {
+						"grp": "Pre-purchased Baggage",
+						"name": "Additional 30 KG",
+						"price": 9900,
+						"code": "XBPD",
+						"mmtPrice": 9900,
+						"imagePath": "default",
+						"showSlasherFare": false,
+						"cssrDetailSOA": null
+					}]
+				}
+			}
+		}
+	}],
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"totFare": 4463.0,
+			"it": [{
+				"from": "DEL",
+				"to": "BLR",
+				"depDate": "2020-04-01"
+			}],
+			"itBrkup": {
+				"DEL-BLR-010420": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "BLR",
+					"depDate": "010420",
+					"depTime": "02:00",
+					"depDateTime": "2020-04-01 02:00",
+					"arrDate": "010420",
+					"arrTime": "04:45",
+					"arrDateTime": "2020-04-01 04:45",
+					"flightNumber": "6E-2624",
+					"cmsId": "6ECSME",
+					"validatingAirline": "6E",
+					"marketingAirline": "6E",
+					"operatingAirline": "6E",
+					"flightServiceName": "6E",
+					"pnrGroup": 0,
+					"rtFareFlag": 0,
+					"stopType": "JOURNEY_OVER"
+				}]
+			},
+			"itBrkupAllStops": {
+				"DEL-BLR-010420": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "BLR",
+					"depDate": "010420",
+					"depTime": "02:00",
+					"depDateTime": "2020-04-01 02:00",
+					"arrDate": "010420",
+					"arrTime": "04:45",
+					"arrDateTime": "2020-04-01 04:45",
+					"flightNumber": "6E-2624",
+					"cmsId": "6ECSME",
+					"validatingAirline": "6E",
+					"marketingAirline": "6E",
+					"operatingAirline": "6E",
+					"flightServiceName": "6E",
+					"pnrGroup": 0,
+					"rtFareFlag": 0,
+					"stopType": "JOURNEY_OVER"
+				}]
+			},
+			"cc": "E"
+		}
+	},
+	"statusCode": "OK"
+}

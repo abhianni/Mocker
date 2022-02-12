@@ -1,0 +1,124 @@
+{
+    "itineraryId": "UID_orgInfoDomTest1_SG_OW_MMT",
+    "status": "SUCCESS",
+    "meta": {
+        "core": {
+            "nmAdt": 1,
+            "nmChd": 0,
+            "nmInf": 0,
+            "it": [
+                {
+                    "classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+                    "from": "DEL",
+                    "to": "BLR",
+                    "depDate": "2020-12-02"
+                }
+            ],
+            "cc": "E"
+        },
+        "isDDApld": false,
+        "srvrMtrc": {}
+    },
+    "recom": {
+        "itneraryJrnys": [
+            {
+                "isCstmComb": false,
+                "depDate": "2020-12-02 09:25",
+                "arrDate": "2020-12-03 01:05",
+                "dur": 940,
+                "flightDtlsInfo": [
+                    {
+                        "flyingDay": 0,
+                        "fltLookUpKey": "SG_SG_272_DEL_CCU_2020-12-02 09:25_2020-12-02 11:40",
+                        "pnrGroupNum": 0
+                    },
+                    {
+                        "flyingDay": 0,
+                        "fltLookUpKey": "SG_SG_742_CCU_BLR_2020-12-02 22:15_2020-12-03 01:05",
+                        "pnrGroupNum": 0,
+                        "prvFltCntDur": 635
+                    }
+                ]
+            }
+        ],
+        "frInfo": {
+            "showMoreFaresOnListing": false,
+            "pnrGrpdMultiFareInfoV5": {
+                "0": {
+                    "fareInfos": [
+                        {
+                            "fareMetaData": {
+                                "pnrCabinClass": "E"
+                            }
+                        }
+                    ]
+                }
+            },
+            "isPnrGrpdFrFmlyAvl": false
+        }
+    },
+    "alCdeMap": {
+        "SG": {
+            "nm": "Spicejet"
+        }
+    },
+    "ctyCdeMap": {
+        "CCU": {
+            "nm": "Kolkata",
+            "cntry": "India",
+            "ctc": "IN",
+            "tmz": "Asia/Kolkata",
+            "airportName": "Netaji Subhash Chandra Bose International Airport"
+        },
+        "BLR": {
+            "nm": "Bengaluru",
+            "cntry": "India",
+            "ctc": "IN",
+            "tmz": "Asia/Kolkata",
+            "airportName": "Bengaluru International Airport"
+        },
+        "DEL": {
+            "nm": "New Delhi",
+            "cntry": "India",
+            "ctc": "IN",
+            "tmz": "Asia/Kolkata",
+            "airportName": "Indira Gandhi International Airport"
+        }
+    },
+    "flightLookUpList": {
+        "SG_SG_742_CCU_BLR_2020-12-02 22:15_2020-12-03 01:05": {
+            "mrkAl": "SG",
+            "oprAl": "SG",
+            "fltNo": "742",
+            "depInfo": {
+                "trmnl": "2",
+                "cityCd": "CCU"
+            },
+            "arrInfo": {
+                "trmnl": "1",
+                "cityCd": "BLR"
+            },
+            "tchStp": [],
+            "depTime": "2020-12-02 22:15",
+            "arrTime": "2020-12-03 01:05",
+            "dur": 170
+        },
+        "SG_SG_272_DEL_CCU_2020-12-02 09:25_2020-12-02 11:40": {
+            "mrkAl": "SG",
+            "oprAl": "SG",
+            "fltNo": "272",
+            "depInfo": {
+                "trmnl": "1D",
+                "cityCd": "DEL"
+            },
+            "arrInfo": {
+                "trmnl": "2",
+                "cityCd": "CCU"
+            },
+            "tchStp": [],
+            "depTime": "2020-12-02 09:25",
+            "arrTime": "2020-12-02 11:40",
+            "dur": 135
+        }
+    }
+}

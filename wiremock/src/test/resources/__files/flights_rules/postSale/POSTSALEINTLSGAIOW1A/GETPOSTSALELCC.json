@@ -1,0 +1,270 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NN7813253854624",
+    "iteneraryId": "64adb14cb2a220880d94c6eea632accc44351369",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "\"NN7813253854624\"",
+      "BookingAggregatorResponse": "{\"mmtId\":\"NN7813253854624\",\"pnrData\":[{\"pnrNo\":\"RH75KX\",\"supplierId\":\"SGUNICOUP\",\"supplierType\":\"NAV42\",\"airlineCode\":\"SG\"},{\"pnrNo\":\"1TK3D4\",\"supplierId\":\"TPUNI_DOM\",\"supplierType\":\"TP\",\"airlineCode\":\"AI\"}],\"userData\":{\"uuid\":\"UGDMC07TJGH\",\"profileType\":\"PERSONAL\"},\"itineraryId\":\"64adb14cb2a220880d94c6eea632accc44351369\",\"cancellationAssurance\":false,\"fareType\":null,\"cabinClass\":\"E\"}",
+      "PostSaleCPReq": "{\"status\":null,\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN7813253854624\",\"iteneraryId\":\"64adb14cb2a220880d94c6eea632accc44351369\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"12\",\"aircraftType\":\"737\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"DXB\"},\"arrivalInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"techStops\":null,\"depTime\":1604252400000,\"arrTime\":1604268900000,\"duration\":16500000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"DXB-DEL : SG-12\",\"depDate\":\"2020-11-01 23:10\",\"arrDate\":\"2020-11-02 03:45\",\"duration\":16500000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":5934.0,\"singlePaxTx\":2484.0,\"singlePaxTot\":8418.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1487.0,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":99.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":105.0,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":99.0,\"taxCode\":\"API\"},{\"nation\":null,\"taxVal\":694.0,\"taxCode\":\"PFC\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\":{\"fareClass\":\"A\",\"fareBasis\":\"ASFH\",\"rbd\":\"A\",\"pclass\":\"HR\"}},\"journeyWiseFare\":{\"DXB-DEL : SG-12\":{\"singlePaxBaseFare\":5934.0,\"singlePaxTx\":2484.0,\"singlePaxTot\":8418.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":105.0,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":99.0,\"taxCode\":\"API\"},{\"nation\":null,\"taxVal\":694.0,\"taxCode\":\"PFC\"},{\"nation\":null,\"taxVal\":1487.0,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":99.0,\"taxCode\":\"UDF\"}]}}}},\"cancellationPenalty\":null,\"dateChangePenalty\":null,\"baggageList\":null,\"cancellationAssured\":false,\"supplierName\":\"NAV42\",\"supplierCredential\":\"SGUNICOUP\",\"fareFamily\":\"\"}]}}}}]}}",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-09-10 23:44:39\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NN7813253854624\\\",\\\"iteneraryId\\\":\\\"64adb14cb2a220880d94c6eea632accc44351369\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\\\":{\\\"mrkAl\\\":\\\"SG\\\",\\\"oprAl\\\":\\\"SG\\\",\\\"validatingCarrier\\\":\\\"SG\\\",\\\"fltNo\\\":\\\"12\\\",\\\"arcrfTyp\\\":\\\"737\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"1\\\",\\\"arpCd\\\":\\\"DXB\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"3\\\",\\\"arpCd\\\":\\\"DEL\\\"},\\\"depTime\\\":1604252400000,\\\"arrTime\\\":1604268900000,\\\"dur\\\":16500000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"DXB-DEL : SG-12\\\",\\\"depDate\\\":\\\"2020-11-01 23:10\\\",\\\"arrDate\\\":\\\"2020-11-02 03:45\\\",\\\"dur\\\":16500000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":5934.0,\\\"singlePaxTx\\\":2484.0,\\\"singlePaxTot\\\":8418.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":1487.0,\\\"taxCode\\\":\\\"PSF\\\"},{\\\"taxVal\\\":99.0,\\\"taxCode\\\":\\\"UDF\\\"},{\\\"taxVal\\\":105.0,\\\"taxCode\\\":\\\"TRF\\\"},{\\\"taxVal\\\":99.0,\\\"taxCode\\\":\\\"API\\\"},{\\\"taxVal\\\":694.0,\\\"taxCode\\\":\\\"PFC\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{\\\"DXB-DEL : SG-12\\\":{\\\"singlePaxBaseFare\\\":5934.0,\\\"singlePaxTx\\\":2484.0,\\\"singlePaxTot\\\":8418.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":105.0,\\\"taxCode\\\":\\\"TRF\\\"},{\\\"taxVal\\\":99.0,\\\"taxCode\\\":\\\"API\\\"},{\\\"taxVal\\\":694.0,\\\"taxCode\\\":\\\"PFC\\\"},{\\\"taxVal\\\":1487.0,\\\"taxCode\\\":\\\"PSF\\\"},{\\\"taxVal\\\":99.0,\\\"taxCode\\\":\\\"UDF\\\"}]}},\\\"segPrdctInfo\\\":{\\\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\\\":{\\\"pclass\\\":\\\"HR\\\",\\\"fareClass\\\":\\\"A\\\",\\\"fareBasis\\\":\\\"ASFH\\\",\\\"pClass\\\":\\\"HR\\\",\\\"rbd\\\":\\\"A\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"NAV42\\\",\\\"supplierCredential\\\":\\\"SGUNICOUP\\\",\\\"fareFamily\\\":\\\"\\\"}]}}}}]}}\",\"ticketData\":\"null\",\"mmtId\":\"NN7813253854624\"}",
+      "PostSaleDroolsBaggage0": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"INTL\",\"fromCityLeg\":\"DXB\",\"toCityLeg\":\"DEL\",\"fromCountryLeg\":\"United Arab Emirates\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"SG\",\"validatingAirline\":\"SG\",\"cabinClass\":\"E\",\"flightNo\":\"12\",\"fbc\":\"ASFH\",\"rbd\":\"A\",\"productClass\":\"HR\",\"bookingDate\":1599761679000,\"ptcCode\":\"\",\"travelDateStart\":1604252400000,\"travelDateEnd\":1604252400000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "MiniRuleConfig": "{\"airline\":\"SG\",\"sector\":\"INTL\",\"fbc\":null,\"rbd\":null,\"productClass\":null,\"cabinClass\":\"ECONOMY\",\"departureDate\":null,\"bookingDate\":null,\"noShowCutOff\":24,\"firedRules\":[\"22\"],\"cpadditive\":300.0,\"cpmultiplier\":1.18,\"dcpadditive\":0.0,\"dcpmultiplier\":1.05}",
+      "PostSaleBaggageResponse0": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"DXB-DEL : SG-12\",\"flightLookUpKey\":\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}]}",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"DXB-DEL : SG-12\":{\"fltGrps\":[{\"fltKeys\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"DXB-DEL : SG-12\":{\"fltGrps\":[{\"fltKeys\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":4,\"to\":24,\"fareBasis\":\"ASFH\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"ASFH\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":4,\"fareBasis\":\"ASFH\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6832.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"ASFH\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"ASFH\",\"feeCurrency\":\"INR\",\"feeAmount\":\"5000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":4,\"fareBasis\":\"ASFH\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6832.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":4,\"to\":24,\"fareBasis\":\"ASFH\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6528.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"ASFH\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"DXB-DEL : SG-12\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"DXB-DEL : SG-12\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "{\"status\":\"SUCCCES\",\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN7813253854624\",\"iteneraryId\":\"64adb14cb2a220880d94c6eea632accc44351369\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"12\",\"aircraftType\":\"737\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"DXB\"},\"arrivalInfo\":{\"trmnl\":\"3\",\"arpCd\":\"DEL\"},\"techStops\":null,\"depTime\":1604252400000,\"arrTime\":1604268900000,\"duration\":16500000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"DXB-DEL : SG-12\",\"depDate\":\"2020-11-01 23:10\",\"arrDate\":\"2020-11-02 03:45\",\"duration\":16500000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":5934.0,\"singlePaxTx\":2484.0,\"singlePaxTot\":8418.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1487.0,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":99.0,\"taxCode\":\"UDF\"},{\"nation\":null,\"taxVal\":105.0,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":99.0,\"taxCode\":\"API\"},{\"nation\":null,\"taxVal\":694.0,\"taxCode\":\"PFC\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\":{\"fareClass\":\"A\",\"fareBasis\":\"ASFH\",\"rbd\":\"A\",\"pclass\":\"HR\"}},\"journeyWiseFare\":{\"DXB-DEL : SG-12\":{\"singlePaxBaseFare\":5934.0,\"singlePaxTx\":2484.0,\"singlePaxTot\":8418.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":105.0,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":99.0,\"taxCode\":\"API\"},{\"nation\":null,\"taxVal\":694.0,\"taxCode\":\"PFC\"},{\"nation\":null,\"taxVal\":1487.0,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":99.0,\"taxCode\":\"UDF\"}]}}}},\"cancellationPenalty\":[{\"jrnyKey\":\"DXB-DEL : SG-12\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":4500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":5000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":6528.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":6832.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null}}}],\"dateChangePenalty\":[{\"jrnyKey\":\"DXB-DEL : SG-12\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":6832.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null}]}}}],\"baggageList\":[{\"jrnyKey\":\"DXB-DEL : SG-12\",\"flightLookUpKey\":\"SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}],\"cancellationAssured\":false,\"supplierName\":\"NAV42\",\"supplierCredential\":\"SGUNICOUP\",\"fareFamily\":\"\"}]}}}}]}}",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45": {
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "validatingCarrier": "SG",
+      "fltNo": "12",
+      "arcrfTyp": "737",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "DXB"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL"
+      },
+      "depTime": 1604252400000,
+      "arrTime": 1604268900000,
+      "dur": 16500000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "DXB-DEL : SG-12",
+        "depDate": "2020-11-01 23:10",
+        "arrDate": "2020-11-02 03:45",
+        "dur": 16500000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 5934.0,
+                  "singlePaxTx": 2484.0,
+                  "singlePaxTot": 8418.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 1487.0,
+                    "taxCode": "PSF"
+                  }, {
+                    "taxVal": 99.0,
+                    "taxCode": "UDF"
+                  }, {
+                    "taxVal": 105.0,
+                    "taxCode": "TRF"
+                  }, {
+                    "taxVal": 99.0,
+                    "taxCode": "API"
+                  }, {
+                    "taxVal": 694.0,
+                    "taxCode": "PFC"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {
+                    "DXB-DEL : SG-12": {
+                      "singlePaxBaseFare": 5934.0,
+                      "singlePaxTx": 2484.0,
+                      "singlePaxTot": 8418.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 105.0,
+                        "taxCode": "TRF"
+                      }, {
+                        "taxVal": 99.0,
+                        "taxCode": "API"
+                      }, {
+                        "taxVal": 694.0,
+                        "taxCode": "PFC"
+                      }, {
+                        "taxVal": 1487.0,
+                        "taxCode": "PSF"
+                      }, {
+                        "taxVal": 99.0,
+                        "taxCode": "UDF"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45": {
+                      "pclass": "HR",
+                      "fareClass": "A",
+                      "fareBasis": "ASFH",
+                      "pClass": "HR",
+                      "rbd": "A"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "DXB-DEL : SG-12",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 5000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6528.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6832.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "DXB-DEL : SG-12",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6832.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "DXB-DEL : SG-12",
+                "flightLookUpKey": "SG-12-DXB-DEL-2020-11-01 23:10-2020-11-02 03:45",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "NAV42",
+              "supplierCredential": "SGUNICOUP",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

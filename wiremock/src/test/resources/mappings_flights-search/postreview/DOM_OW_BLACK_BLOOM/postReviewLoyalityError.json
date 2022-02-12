@@ -1,0 +1,14 @@
+{
+  "request":{
+    "method": "GET",
+	"urlPattern": "/flights-mmt-svcs/v1/tp-aggregator/loyalty-benefit-data?.*flT_TEST_WRVIEW_DOM_RT_PIETHO.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+	"transformers": ["FlightSOAResponseTransformer"],
+    "bodyFileName": "/flights_search/postreview/DOM_OW_BLACK_BLOOM/LOYALTY_ErrResp.json"
+  }
+}

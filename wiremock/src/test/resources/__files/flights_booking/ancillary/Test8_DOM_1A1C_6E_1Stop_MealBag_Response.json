@@ -1,0 +1,218 @@
+{
+  "status": true,
+  "segAnclryHldrList": [{
+    "anclryType": "MEALS",
+    "anclryDescr": "Food & Beverages",
+    "displayTitle": null,
+    "displaySubTitle": null,
+    "segAnclryDataMap": {
+      "JAI_HYD": {
+        "segType": "DEP",
+        "originCity": "Jaipur",
+        "destCity": "Hyderabad",
+        "selectType": "single",
+        "refundStat": 1,
+        "alCode": "6E",
+        "fltNo": "914",
+        "anclryGrpMap": {
+          "Non Veg": [{
+            "grp": "Non Veg",
+            "name": "Non Veg Snack",
+            "price": 300,
+            "code": "NVML",
+            "mmtPrice": 300,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }],
+          "Veg": [{
+            "grp": "Veg",
+            "name": "Veg Snack",
+            "price": 250,
+            "code": "VGML",
+            "mmtPrice": 250,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }]
+        }
+      },
+      "HYD_MAA": {
+        "segType": "DEP",
+        "originCity": "Hyderabad",
+        "destCity": "Chennai",
+        "selectType": "single",
+        "refundStat": 1,
+        "alCode": "6E",
+        "fltNo": "6216",
+        "anclryGrpMap": {
+          "Non Veg": [{
+            "grp": "Non Veg",
+            "name": "Non Veg 1A1C Mocking Snack",
+            "price": 300,
+            "code": "NVML",
+            "mmtPrice": 300,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }],
+          "Veg": [{
+            "grp": "Veg",
+            "name": "Veg Snack",
+            "price": 250,
+            "code": "VGML",
+            "mmtPrice": 250,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }]
+        }
+      }
+    }
+  }, {
+    "anclryType": "BAGGAGE",
+    "anclryDescr": "Baggage",
+    "displayTitle": null,
+    "displaySubTitle": null,
+    "segAnclryDataMap": {
+      "JAI_HYD": {
+        "segType": "DEP",
+        "originCity": "Jaipur",
+        "destCity": "Hyderabad",
+        "selectType": "single",
+        "refundStat": 1,
+        "alCode": "6E",
+        "fltNo": "914",
+        "anclryGrpMap": {
+          "Pre-purchased Baggage": [{
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 5 KG",
+            "price": 1800,
+            "code": "XBPA",
+            "mmtPrice": 1800,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 10 KG",
+            "price": 3400,
+            "code": "XBPB",
+            "mmtPrice": 3400,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 15 KG",
+            "price": 5100,
+            "code": "XBPC",
+            "mmtPrice": 5100,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 30 KG",
+            "price": 11400,
+            "code": "XBPD",
+            "mmtPrice": 11400,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }]
+        }
+      },
+      "HYD_MAA": {
+        "segType": "DEP",
+        "originCity": "Hyderabad",
+        "destCity": "Chennai",
+        "selectType": "single",
+        "refundStat": 1,
+        "alCode": "6E",
+        "fltNo": "6216",
+        "anclryGrpMap": {
+          "Pre-purchased Baggage": [{
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 5 KG",
+            "price": 1800,
+            "code": "XBPA",
+            "mmtPrice": 1800,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 10 KG",
+            "price": 3400,
+            "code": "XBPB",
+            "mmtPrice": 3400,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 15 KG",
+            "price": 5100,
+            "code": "XBPC",
+            "mmtPrice": 5100,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }, {
+            "grp": "Pre-purchased Baggage",
+            "name": "Additional 30 KG",
+            "price": 11400,
+            "code": "XBPD",
+            "mmtPrice": 11400,
+            "imagePath": "default",
+            "showSlasherFare": false
+          }]
+        }
+      }
+    }
+  }],
+  "meta": {
+    "core": {
+      "nmAdt": 1,
+      "nmChd": 1,
+      "nmInf": 0,
+      "totFare": 12246.0,
+      "it": [{
+        "from": "JAI",
+        "to": "MAA",
+        "depDate": "2019-10-06"
+      }],
+      "itBrkup": {
+        "JAI-MAA-061019": [{
+          "depCityCode": "JAI",
+          "arrCityCode": "HYD",
+          "depDate": "061019",
+          "depTime": "17:55",
+          "depDateTime": "2019-10-06 17:55",
+          "arrDate": "061019",
+          "arrTime": "20:00",
+          "arrDateTime": "2019-10-06 20:00",
+          "flightNumber": "6E-914",
+          "cmsId": "6EFAMILY",
+          "validatingAirline": "6E",
+          "marketingAirline": "6E",
+          "operatingAirline": "6E",
+          "flightServiceName": "6E",
+          "pnrGroup": 0,
+          "rtFareFlag": 0,
+          "stopType": "JOURNEY_OVER"
+        }, {
+          "depCityCode": "HYD",
+          "arrCityCode": "MAA",
+          "depDate": "061019",
+          "depTime": "22:15",
+          "depDateTime": "2019-10-06 22:15",
+          "arrDate": "061019",
+          "arrTime": "23:40",
+          "arrDateTime": "2019-10-06 23:40",
+          "flightNumber": "6E-6216",
+          "cmsId": "6EFAMILY",
+          "validatingAirline": "6E",
+          "marketingAirline": "6E",
+          "operatingAirline": "6E",
+          "flightServiceName": "6E",
+          "pnrGroup": 1,
+          "rtFareFlag": 0,
+          "stopType": "JOURNEY_OVER"
+        }]
+      },
+      "cc": "E"
+    }
+  },
+  "statusCode": "OK"
+}

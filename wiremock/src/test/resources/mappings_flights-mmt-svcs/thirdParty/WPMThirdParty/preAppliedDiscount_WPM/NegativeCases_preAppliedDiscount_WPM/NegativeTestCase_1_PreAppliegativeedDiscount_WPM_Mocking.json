@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/wpm/hcs/v2/rule/recommend",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Accept" : {"matches" : "application/json"},
+		"Authorization" : {"matches" : "d3BtQXBwbGljYXRpb24="}
+		},
+        "bodyPatterns":[{
+        "contains" : "NoRulesDefinedForLob"
+        }]
+    },
+    "response": {
+        "status": 404,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/WPMThirdParty/preAppliedDiscount_WPM/NegativeCases_preAppliedDiscount_WPM/NegativeTestCase_1_PreAppliedDiscount_WPM_Response.json"
+    }
+}

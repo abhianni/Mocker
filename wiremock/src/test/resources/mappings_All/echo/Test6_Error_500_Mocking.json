@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/echo/getCal",
+        "bodyPatterns":[{
+        "contains" : "FailureInjectEcho500"
+        }]
+    },
+    "response": {
+        "status": 500
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[{
+        "contains" : "Ticket_CheckEligibility"},
+{		"contains" : "589PPFCAN"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Prepayment/failure/Check_eligibility_PPFCAN_Succesful.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

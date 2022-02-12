@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[{
+        "contains" : "PNR_Retrieve"},
+{		"contains" : "CEIFCA"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Check_Eligibility/PNR_retireve_CEIFCA.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

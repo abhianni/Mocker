@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights/flightsUnification/user/details",
+		"headers": {
+		"User-Identifier":{"contains" :	"aelogin@gmail.com"},
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Authorization" : {"matches" : "GHIKlYcB6X4xroc"}
+		},
+		"bodyPatterns":[{"contains" : "name"}]
+		},
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/GetUserDetails/GetUserDetails_Traveler_Response_UAEsite.json"
+    }
+}

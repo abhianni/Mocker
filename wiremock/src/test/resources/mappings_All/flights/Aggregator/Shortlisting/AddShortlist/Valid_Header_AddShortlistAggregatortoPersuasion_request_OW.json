@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/Flights-persuasion/addToShortlist",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json",
+        "caseInsensitive": true
+      },
+      "mmt-auth": {
+        "equalTo": "VH_A_P_TestPersuationToAggregator",
+        "caseInsensitive": true
+      }
+    },
+    "bodyPatterns": [
+      {
+        "contains": "Test_Test_DEL_BKK_Shortlist"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights/Aggregator/Shortlisting/AddShortlist/Valid_Header_AddShortlistAggregatorToPersuation_response.json"
+  }
+}

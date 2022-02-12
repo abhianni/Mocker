@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/flights-dhruv/search/soa.*",
+    "bodyPatterns":[
+      {       	"contains": "\"from\":\"YYZ\""
+
+      },
+
+      {
+        "contains": "ancillary_rt_1adult_CX646"
+
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights-ancillaries/flights-dhruv/airbus330_dhruv_requst_YYB_HYD.json"
+  }
+}

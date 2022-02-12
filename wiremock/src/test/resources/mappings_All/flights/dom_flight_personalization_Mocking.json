@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-personalization/pricePersonalizationInfo",
+        "bodyPatterns":[{
+        "contains" : "\"trip\":\"O\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "dom_flight_personalization_response.json"
+    }
+}

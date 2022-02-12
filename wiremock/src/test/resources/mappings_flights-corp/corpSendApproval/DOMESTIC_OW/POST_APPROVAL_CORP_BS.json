@@ -1,0 +1,17 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/corporate/v1/approvals",
+		"bodyPatterns":[{
+        "contains" : "orgInfoTestsendApproval_itID"
+        }]
+	},
+	"response": {
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"status": 200,
+		"bodyFileName": "/corporate/corpSendApproval/DOMESTIC_OW/POST_APPROVAL_CORP_BS.json"
+	}
+}

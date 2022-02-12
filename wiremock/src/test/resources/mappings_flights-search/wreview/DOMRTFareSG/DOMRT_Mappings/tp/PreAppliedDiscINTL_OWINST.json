@@ -1,0 +1,18 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/flights-mmt-svcs/v1/tp-aggregator/pre-applied-discount.*WRVIEW_DOM_RT_SG_RTFARE_SUCCESS.*"
+
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/wreview/DOMRTFareSG/tp/preAppliedCouponINTLINST.json"
+		
+    }
+}

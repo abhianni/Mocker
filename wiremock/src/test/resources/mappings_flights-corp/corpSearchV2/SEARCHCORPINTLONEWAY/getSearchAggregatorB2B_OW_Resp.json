@@ -1,0 +1,24 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v4/search.*crId=SEARCHCORPINTLONEWAY.*",
+		"headers": {
+			"x-lob": {
+				"equalTo": "CORPB2B"
+			}
+		}
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json",
+			"x-mmt-auth": "MAT1c8b6f679f6defc78b78ce9dda2074f14bd7644440b0e0f00b89f70b74a02f9318db7557405ed7674ec3bc04f706fa91fsC",
+			"x-device-id": "16133222596573924042590808432026049922",
+			"x-profile-type": "BUSINESS",
+			"x-lob": "CORPSME",
+			"x-org-id": "3"
+		},
+		"bodyFileName": "/corporate/corpSearchV1/SEARCHCORPINTLONEWAY/searchCorpB2BResponseOW.json"
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/postsaleAncillary",
+        "bodyPatterns":[{
+        "contains" : "\"pnr\":\"IFBBTG\""
+        },
+	{	
+        "contains" : "\"postsaleAncillaryRequestType\":\"AVAILABILITY\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/ancillarySoa/Test34_dom_6E_OW_PNR_ancillary_avail_response.json"
+    }
+}

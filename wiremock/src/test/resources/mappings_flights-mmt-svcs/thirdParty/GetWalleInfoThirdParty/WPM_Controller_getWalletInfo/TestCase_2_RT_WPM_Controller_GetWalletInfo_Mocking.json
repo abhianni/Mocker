@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/mmt_webs_mywallet/mywallet/v2/getaccountdetails",
+        "bodyPatterns":[{
+        "contains" : "WPM_RT_UUID"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/GetWalleInfoThirdParty/WPM_Controller_getWalletInfo/TestCase_2_RT_WPM_Controller_GetWalletInfo_Response.json"
+    }
+}

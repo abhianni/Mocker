@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-ancillary-api/ancillary/stateFul/v2",
+    "bodyPatterns":[
+      {       	"contains": "ancillary_rt_1adult_CX646"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights-ancillaries/flights-ancillaries-soa/Airbus330_1Stop_And_boing777_RT_AncillarySoaResponse/seats_ancillary_soa_rt.json"
+  }
+}

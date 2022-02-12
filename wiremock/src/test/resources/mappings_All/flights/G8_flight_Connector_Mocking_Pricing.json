@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/bookingmanager.svc",
+       "bodyPatterns":[{
+        "contains" : "PriceItineraryRequest"
+        }]
+ 
+
+    
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/price_iti.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

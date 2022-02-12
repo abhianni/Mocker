@@ -1,0 +1,10 @@
+{
+  "request": {
+   "method": "GET",
+   "urlPattern": "/v2/thor/rest/flight/search/.*Timeout.*"
+  },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 70000
+    }
+}

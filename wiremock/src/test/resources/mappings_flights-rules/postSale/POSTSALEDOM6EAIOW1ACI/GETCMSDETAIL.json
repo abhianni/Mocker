@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-cms/credentialDetail",
+    "bodyPatterns":[
+      {       "contains" : "SGUNICOUP"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOM6EAIOW1ACI/GETCMSCREDENTIALS.json"
+  }
+}
+

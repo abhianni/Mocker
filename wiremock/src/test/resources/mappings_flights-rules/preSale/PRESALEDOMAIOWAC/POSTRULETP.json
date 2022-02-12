@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "AI-AI-611-BOM-JAI-2020"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEDOMAIOWAC/GETRULETP.json"
+  }
+}
+

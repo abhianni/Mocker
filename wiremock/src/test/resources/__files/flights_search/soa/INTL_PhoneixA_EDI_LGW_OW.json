@@ -1,0 +1,3026 @@
+{
+	"airlineStatusMap": null,
+	"srchRespMap": {
+		"SIMPLE": {
+			"srcRes": {
+				"rcomMap": {
+					"EDI_LGW_271219": [{
+						"score": 300.000,
+						"flightKey": null,
+						"actualScore": 100.000,
+						"rhinoRank": 1,
+						"groupedOrigRank": null,
+						"recommendedFlight": {
+							"index": 0,
+							"primaryTag": "Smart Value",
+							"secondaryTags": ["Value for Money", "CHEAPEST", "FASTEST"],
+							"tagInfo": null,
+							"valueForTimeApplied": false,
+							"valueForTime": null,
+							"headerText": "Popularity based on duration and price."
+						},
+						"rhinoRecommendedFlight": true,
+						"fareHash": "7d88547d5f5e34df43e84e8fce51b268db6178df7dbe75fb9c598f3c6f4ac970",
+						"amenityItineraryKey": null,
+						"nearByFlight": false,
+						"fltUniKey": "EDI_LGW_271219_U2-802_TF_0",
+						"rKey": "v1~~null$Y$FBC$null$null$null$null$null$0$0$A,null$Y$FBC$null$null$null$null$null$0$0$C,null$Y$FBC$null$null$null$null$null$0$0$I~A-5397.0|3449.0_C-3817.0|3267.0_I-3534.0|2984.0~M$1$1$1$INTLMobile_UN$659$0~~EDI_LGW_271219_U2-802_VEZVTkk=_06:20_271219_07:50_U2_U2_U2_JO~TF_0_0_EDI-LGW-271219_null",
+						"jrnyMap": {
+							"EDI_LGW_271219": {
+								"buddyResult": false,
+								"refKey": "TF",
+								"lfid": null,
+								"minFrRl": null,
+								"fltLst": [{
+									"amenitySegmentKey": null,
+									"depInf": {
+										"ctCd": "EDI",
+										"airp": "Turnhouse",
+										"ctNm": "Edinburgh",
+										"arpCd": "EDI",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 55.95,
+										"long": -3.3725,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"arrInf": {
+										"ctCd": "LGW",
+										"airp": "Gatwick",
+										"ctNm": "London - Gatwick Apt",
+										"arpCd": "LON",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 51.148056,
+										"long": -0.190278,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"depDt": 1577407800000,
+									"arrDt": 1577413200000,
+									"techStpOvrLst": [],
+									"totDur": 90,
+									"segSlKey": null,
+									"fareSlKey": null,
+									"mrktArln": "U2",
+									"oprArln": "U2",
+									"equipTyp": "",
+									"equipCd": "",
+									"equipNm": "",
+									"fltNum": "802",
+									"carierCode": "TF",
+									"bagDtls": [],
+									"avlCntxtLst": [],
+									"availCount": null,
+									"cbcls": "Y",
+									"pnRf": {},
+									"splitPnr": false,
+									"availSrc": null,
+									"suplrNm": "ezy",
+									"ao": [{
+										"at": "MEAL",
+										"isPaid": true
+									}],
+									"si": null
+								}],
+								"aggFltNum": "EDI$LON$2712190620$U2-802",
+								"totFr": 10915.0,
+								"totBsFr": 7866.0,
+								"totTx": 3049.0,
+								"cur": "INR",
+								"totDur": 90,
+								"rfndbl": false,
+								"fr": [{
+									"frTyp": "SIMPLE",
+									"frTypFrmSrv": "9BXSDDUUOT9LLRKA",
+									"pxTypFrMap": {
+										"INFANT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 12.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 495.0,
+													"MUAPPFESTINB": 92.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 7.0,
+													"TOT": 3534.0,
+													"TAX": 550.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 48.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"CHILD": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 13.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 495.0,
+													"MUAPPFESTINB": 99.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 7.0,
+													"TOT": 3817.0,
+													"TAX": 550.0,
+													"TAXCOMPONENT-Taxes": 0.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 48.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"ADULT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 19.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+													"MUAPPFESTINB": 140.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+													"TOT": 5397.0,
+													"TAX": 1948.0,
+													"TAXCOMPONENT-Taxes": 1215.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 64.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}]
+									},
+									"frInfoMap": {
+										"FareType": "9BXSDDUUOT9LLRKA"
+									},
+									"subFares": [],
+									"rKey": null
+								}],
+								"sPNR": false,
+								"hldbl": false,
+								"lstTckDt": null,
+								"jrnySlKey": null,
+								"cbn": null,
+								"cbnCls": null,
+								"refAir": "U2",
+								"dep": "EDI",
+								"arr": "LGW",
+								"offId": null,
+								"credId": "TFUNI",
+								"isBuddyResult": false,
+								"buddyCity": null,
+								"transVisaMsg": null,
+								"xxlnAssurance": {
+									"sa": false,
+									"cw": null,
+									"fe": 0.0,
+									"ac": null,
+									"pt": null,
+									"pp": null,
+									"fpp": 0.0
+								}
+							}
+						},
+						"frLst": [{
+							"frTyp": "SIMPLE",
+							"frTypFrmSrv": "9BXSDDUUOT9LLRKA",
+							"pxTypFrMap": {
+								"INFANT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 12.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 495.0,
+											"MUAPPFESTINB": 92.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 7.0,
+											"TOT": 3534.0,
+											"TAX": 550.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 48.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"CHILD": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 13.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 495.0,
+											"MUAPPFESTINB": 99.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 7.0,
+											"TOT": 3817.0,
+											"TAX": 550.0,
+											"TAXCOMPONENT-Taxes": 0.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 48.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"ADULT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 19.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+											"MUAPPFESTINB": 140.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+											"TOT": 5397.0,
+											"TAX": 1948.0,
+											"TAXCOMPONENT-Taxes": 1215.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 64.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}]
+							},
+							"frInfoMap": {
+								"FareType": "9BXSDDUUOT9LLRKA"
+							},
+							"subFares": [],
+							"rKey": null
+						}],
+						"jrnyRtLst": [],
+						"combInfo": {
+							"data": {
+								"TT": 3049.0,
+								"REFUNDABLE": false,
+								"TOTAL_DURATION": 90,
+								"T": 10915.0,
+								"IS_PURE": true,
+								"MAX_STOP": 0,
+								"MAX_LAYOFF_TIME": 0,
+								"refferenceAirline": "U2",
+								"SINGLE_ADULT_FARE": 5397.0,
+								"IS_PURE_LCC": true,
+								"VC": "U2",
+								"KEY": "EDI$LON$2712190620$U2-802"
+							}
+						},
+						"srName": "TF",
+						"prmTxt": "Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com |Exclamation.png",
+						"rvPrmTxt": "<p style='background-color:#FDF6C5;border:1px solid #FEE3CA;padding:8px;width:716px;font-size:12px;float:left;margin-bottom: 10px;'><span style='height: 16px; margin-right: 5px;width:16px;float:left;'></span> <span style='margin-top: 3px;float:left;'>Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com</span></p>",
+						"tVisaMsgTxt": [],
+						"listingPageMsg": null,
+						"currInfo": {
+							"costCurrency": null,
+							"sellCurrency": null,
+							"conversionFactor": null
+						},
+						"signature": null
+					}, {
+						"score": 296.850,
+						"flightKey": null,
+						"actualScore": 96.850,
+						"rhinoRank": 2,
+						"groupedOrigRank": null,
+						"recommendedFlight": {
+							"index": 0,
+							"primaryTag": "Smart Value",
+							"secondaryTags": ["Value for Money", "FASTEST"],
+							"tagInfo": null,
+							"valueForTimeApplied": false,
+							"valueForTime": null,
+							"headerText": "Popularity based on duration and price."
+						},
+						"rhinoRecommendedFlight": true,
+						"fareHash": "f76f2fd1f10d38406f052e93689caa30577f9179d377776a647caa03b4e5431f",
+						"amenityItineraryKey": null,
+						"nearByFlight": false,
+						"fltUniKey": "EDI_LGW_271219_U2-814_TF_0",
+						"rKey": "v1~~null$Y$FBC$null$null$null$null$null$0$0$A,null$Y$FBC$null$null$null$null$null$0$0$C,null$Y$FBC$null$null$null$null$null$0$0$I~A-5782.0|3829.0_C-4199.0|3645.0_I-3172.0|2803.0~M$1$1$1$INTLMobile_UN$670$0~~EDI_LGW_271219_U2-814_VEZVTkk=_20:50_271219_22:20_U2_U2_U2_JO~TF_0_0_EDI-LGW-271219_null",
+						"jrnyMap": {
+							"EDI_LGW_271219": {
+								"buddyResult": false,
+								"refKey": "TF",
+								"lfid": null,
+								"minFrRl": null,
+								"fltLst": [{
+									"amenitySegmentKey": null,
+									"depInf": {
+										"ctCd": "EDI",
+										"airp": "Turnhouse",
+										"ctNm": "Edinburgh",
+										"arpCd": "EDI",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 55.95,
+										"long": -3.3725,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"arrInf": {
+										"ctCd": "LGW",
+										"airp": "Gatwick",
+										"ctNm": "London - Gatwick Apt",
+										"arpCd": "LON",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 51.148056,
+										"long": -0.190278,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"depDt": 1577460000000,
+									"arrDt": 1577465400000,
+									"techStpOvrLst": [],
+									"totDur": 90,
+									"segSlKey": null,
+									"fareSlKey": null,
+									"mrktArln": "U2",
+									"oprArln": "U2",
+									"equipTyp": "",
+									"equipCd": "",
+									"equipNm": "",
+									"fltNum": "814",
+									"carierCode": "TF",
+									"bagDtls": [],
+									"avlCntxtLst": [],
+									"availCount": null,
+									"cbcls": "Y",
+									"pnRf": {},
+									"splitPnr": false,
+									"availSrc": null,
+									"suplrNm": "ezy",
+									"ao": [{
+										"at": "MEAL",
+										"isPaid": true
+									}],
+									"si": null
+								}],
+								"aggFltNum": "EDI$LON$2712192050$U2-814",
+								"totFr": 11675.0,
+								"totBsFr": 8615.0,
+								"totTx": 3060.0,
+								"cur": "INR",
+								"totDur": 90,
+								"rfndbl": false,
+								"fr": [{
+									"frTyp": "SIMPLE",
+									"frTypFrmSrv": "PTD0GMN8IPUGDOD7",
+									"pxTypFrMap": {
+										"INFANT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 11.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 330.0,
+													"MUAPPFESTINB": 82.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 5.0,
+													"TOT": 3172.0,
+													"TAX": 369.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 34.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"CHILD": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 15.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 495.0,
+													"MUAPPFESTINB": 109.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 7.0,
+													"TOT": 4199.0,
+													"TAX": 554.0,
+													"TAXCOMPONENT-Taxes": 0.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 52.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"ADULT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 20.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+													"MUAPPFESTINB": 150.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+													"TOT": 5782.0,
+													"TAX": 1953.0,
+													"TAXCOMPONENT-Taxes": 1215.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 69.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}]
+									},
+									"frInfoMap": {
+										"FareType": "PTD0GMN8IPUGDOD7"
+									},
+									"subFares": [],
+									"rKey": null
+								}],
+								"sPNR": false,
+								"hldbl": false,
+								"lstTckDt": null,
+								"jrnySlKey": null,
+								"cbn": null,
+								"cbnCls": null,
+								"refAir": "U2",
+								"dep": "EDI",
+								"arr": "LGW",
+								"offId": null,
+								"credId": "TFUNI",
+								"isBuddyResult": false,
+								"buddyCity": null,
+								"transVisaMsg": null,
+								"xxlnAssurance": {
+									"sa": false,
+									"cw": null,
+									"fe": 0.0,
+									"ac": null,
+									"pt": null,
+									"pp": null,
+									"fpp": 0.0
+								}
+							}
+						},
+						"frLst": [{
+							"frTyp": "SIMPLE",
+							"frTypFrmSrv": "PTD0GMN8IPUGDOD7",
+							"pxTypFrMap": {
+								"INFANT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 11.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 330.0,
+											"MUAPPFESTINB": 82.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 5.0,
+											"TOT": 3172.0,
+											"TAX": 369.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 34.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"CHILD": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 15.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 495.0,
+											"MUAPPFESTINB": 109.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 7.0,
+											"TOT": 4199.0,
+											"TAX": 554.0,
+											"TAXCOMPONENT-Taxes": 0.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 52.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"ADULT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 20.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+											"MUAPPFESTINB": 150.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+											"TOT": 5782.0,
+											"TAX": 1953.0,
+											"TAXCOMPONENT-Taxes": 1215.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 69.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}]
+							},
+							"frInfoMap": {
+								"FareType": "PTD0GMN8IPUGDOD7"
+							},
+							"subFares": [],
+							"rKey": null
+						}],
+						"jrnyRtLst": [],
+						"combInfo": {
+							"data": {
+								"TT": 3060.0,
+								"REFUNDABLE": false,
+								"TOTAL_DURATION": 90,
+								"T": 11675.0,
+								"IS_PURE": true,
+								"MAX_STOP": 0,
+								"MAX_LAYOFF_TIME": 0,
+								"refferenceAirline": "U2",
+								"SINGLE_ADULT_FARE": 5782.0,
+								"IS_PURE_LCC": true,
+								"VC": "U2",
+								"KEY": "EDI$LON$2712192050$U2-814"
+							}
+						},
+						"srName": "TF",
+						"prmTxt": "Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com |Exclamation.png",
+						"rvPrmTxt": "<p style='background-color:#FDF6C5;border:1px solid #FEE3CA;padding:8px;width:716px;font-size:12px;float:left;margin-bottom: 10px;'><span style='height: 16px; margin-right: 5px;width:16px;float:left;'></span> <span style='margin-top: 3px;float:left;'>Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com</span></p>",
+						"tVisaMsgTxt": [],
+						"listingPageMsg": null,
+						"currInfo": {
+							"costCurrency": null,
+							"sellCurrency": null,
+							"conversionFactor": null
+						},
+						"signature": null
+					}, {
+						"score": 290.550,
+						"flightKey": null,
+						"actualScore": 90.550,
+						"rhinoRank": 3,
+						"groupedOrigRank": null,
+						"recommendedFlight": {
+							"index": 0,
+							"primaryTag": "Smart Value",
+							"secondaryTags": ["Value for Money", "FASTEST"],
+							"tagInfo": null,
+							"valueForTimeApplied": false,
+							"valueForTime": null,
+							"headerText": "Popularity based on duration and price."
+						},
+						"rhinoRecommendedFlight": true,
+						"fareHash": "a2e1665482d0435b6498c34a94c58861820368d0e3f80f8c8cf9fa188e6f9fec",
+						"amenityItineraryKey": null,
+						"nearByFlight": false,
+						"fltUniKey": "EDI_LGW_271219_U2-812_TF_0",
+						"rKey": "v1~~null$Y$FBC$null$null$null$null$null$0$0$A,null$Y$FBC$null$null$null$null$null$0$0$C,null$Y$FBC$null$null$null$null$null$0$0$I~A-6833.0|4868.0_C-5244.0|4681.0_I-3186.0|2810.0~M$1$1$1$INTLMobile_UN$702$0~~EDI_LGW_271219_U2-812_VEZVTkk=_18:55_271219_20:25_U2_U2_U2_JO~TF_0_0_EDI-LGW-271219_null",
+						"jrnyMap": {
+							"EDI_LGW_271219": {
+								"buddyResult": false,
+								"refKey": "TF",
+								"lfid": null,
+								"minFrRl": null,
+								"fltLst": [{
+									"amenitySegmentKey": null,
+									"depInf": {
+										"ctCd": "EDI",
+										"airp": "Turnhouse",
+										"ctNm": "Edinburgh",
+										"arpCd": "EDI",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 55.95,
+										"long": -3.3725,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"arrInf": {
+										"ctCd": "LGW",
+										"airp": "Gatwick",
+										"ctNm": "London - Gatwick Apt",
+										"arpCd": "LON",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 51.148056,
+										"long": -0.190278,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"depDt": 1577453100000,
+									"arrDt": 1577458500000,
+									"techStpOvrLst": [],
+									"totDur": 90,
+									"segSlKey": null,
+									"fareSlKey": null,
+									"mrktArln": "U2",
+									"oprArln": "U2",
+									"equipTyp": "",
+									"equipCd": "",
+									"equipNm": "",
+									"fltNum": "812",
+									"carierCode": "TF",
+									"bagDtls": [],
+									"avlCntxtLst": [],
+									"availCount": null,
+									"cbcls": "Y",
+									"pnRf": {},
+									"splitPnr": false,
+									"availSrc": null,
+									"suplrNm": "ezy",
+									"ao": [{
+										"at": "MEAL",
+										"isPaid": true
+									}],
+									"si": null
+								}],
+								"aggFltNum": "EDI$LON$2712191855$U2-812",
+								"totFr": 13761.0,
+								"totBsFr": 10670.0,
+								"totTx": 3091.0,
+								"cur": "INR",
+								"totDur": 90,
+								"rfndbl": false,
+								"fr": [{
+									"frTyp": "SIMPLE",
+									"frTypFrmSrv": "PFPGPNTRR74GX8QJ",
+									"pxTypFrMap": {
+										"INFANT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 11.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 330.0,
+													"MUAPPFESTINB": 83.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 5.0,
+													"TOT": 3186.0,
+													"TAX": 376.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 41.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"CHILD": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 18.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 495.0,
+													"MUAPPFESTINB": 136.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 7.0,
+													"TOT": 5244.0,
+													"TAX": 563.0,
+													"TAXCOMPONENT-Taxes": 0.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 61.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"ADULT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 24.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+													"MUAPPFESTINB": 178.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+													"TOT": 6833.0,
+													"TAX": 1965.0,
+													"TAXCOMPONENT-Taxes": 1215.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 81.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}]
+									},
+									"frInfoMap": {
+										"FareType": "PFPGPNTRR74GX8QJ"
+									},
+									"subFares": [],
+									"rKey": null
+								}],
+								"sPNR": false,
+								"hldbl": false,
+								"lstTckDt": null,
+								"jrnySlKey": null,
+								"cbn": null,
+								"cbnCls": null,
+								"refAir": "U2",
+								"dep": "EDI",
+								"arr": "LGW",
+								"offId": null,
+								"credId": "TFUNI",
+								"isBuddyResult": false,
+								"buddyCity": null,
+								"transVisaMsg": null,
+								"xxlnAssurance": {
+									"sa": false,
+									"cw": null,
+									"fe": 0.0,
+									"ac": null,
+									"pt": null,
+									"pp": null,
+									"fpp": 0.0
+								}
+							}
+						},
+						"frLst": [{
+							"frTyp": "SIMPLE",
+							"frTypFrmSrv": "PFPGPNTRR74GX8QJ",
+							"pxTypFrMap": {
+								"INFANT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 11.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 330.0,
+											"MUAPPFESTINB": 83.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 5.0,
+											"TOT": 3186.0,
+											"TAX": 376.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 41.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"CHILD": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 18.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 495.0,
+											"MUAPPFESTINB": 136.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 7.0,
+											"TOT": 5244.0,
+											"TAX": 563.0,
+											"TAXCOMPONENT-Taxes": 0.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 61.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"ADULT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 24.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+											"MUAPPFESTINB": 178.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+											"TOT": 6833.0,
+											"TAX": 1965.0,
+											"TAXCOMPONENT-Taxes": 1215.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 81.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}]
+							},
+							"frInfoMap": {
+								"FareType": "PFPGPNTRR74GX8QJ"
+							},
+							"subFares": [],
+							"rKey": null
+						}],
+						"jrnyRtLst": [],
+						"combInfo": {
+							"data": {
+								"TT": 3091.0,
+								"REFUNDABLE": false,
+								"TOTAL_DURATION": 90,
+								"T": 13761.0,
+								"IS_PURE": true,
+								"MAX_STOP": 0,
+								"MAX_LAYOFF_TIME": 0,
+								"refferenceAirline": "U2",
+								"SINGLE_ADULT_FARE": 6833.0,
+								"IS_PURE_LCC": true,
+								"VC": "U2",
+								"KEY": "EDI$LON$2712191855$U2-812"
+							}
+						},
+						"srName": "TF",
+						"prmTxt": "Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com |Exclamation.png",
+						"rvPrmTxt": "<p style='background-color:#FDF6C5;border:1px solid #FEE3CA;padding:8px;width:716px;font-size:12px;float:left;margin-bottom: 10px;'><span style='height: 16px; margin-right: 5px;width:16px;float:left;'></span> <span style='margin-top: 3px;float:left;'>Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com</span></p>",
+						"tVisaMsgTxt": [],
+						"listingPageMsg": null,
+						"currInfo": {
+							"costCurrency": null,
+							"sellCurrency": null,
+							"conversionFactor": null
+						},
+						"signature": null
+					}, {
+						"score": 200,
+						"flightKey": null,
+						"actualScore": 83.350,
+						"rhinoRank": 4,
+						"groupedOrigRank": null,
+						"recommendedFlight": {
+							"index": 2,
+							"primaryTag": "FASTEST",
+							"secondaryTags": [],
+							"tagInfo": null,
+							"valueForTimeApplied": false,
+							"valueForTime": null,
+							"headerText": null
+						},
+						"rhinoRecommendedFlight": false,
+						"fareHash": "786025bfd3be93f5b989f70401f038b70af08e9dd9edcd24505ebbcded88d295",
+						"amenityItineraryKey": null,
+						"nearByFlight": false,
+						"fltUniKey": "EDI_LGW_271219_BA-2507_MP_0",
+						"rKey": "v1~~null$M$MLZ0KO$null$0.0$0.0$null$null$0$0$A,null$M$MLZ0KO$null$0.0$0.0$null$null$0$0$C,null$M$MLZ0KO$null$0.0$0.0$null$null$0$0$I~A-8515.0|6055.0_C-7357.0|6055.0_I-1837.0|535.0~M$1$1$1$INTLMobile_UN$251$0~~EDI_LGW_271219_BA-2507_TVBFWElOSU5UUkFOT01OUg==_06:10_271219_07:40_BA_BA_BA_JO~MP_0_0_EDI-LGW-271219_null",
+						"jrnyMap": {
+							"EDI_LGW_271219": {
+								"buddyResult": false,
+								"refKey": "MP",
+								"lfid": null,
+								"minFrRl": null,
+								"fltLst": [{
+									"amenitySegmentKey": null,
+									"depInf": {
+										"trml": "",
+										"ctCd": "EDI",
+										"airp": "Turnhouse",
+										"ctNm": "Edinburgh",
+										"arpCd": "EDI",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 55.95,
+										"long": -3.3725,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"arrInf": {
+										"trml": "S",
+										"ctCd": "LGW",
+										"airp": "Gatwick",
+										"ctNm": "London - Gatwick Apt",
+										"arpCd": "LON",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 51.148056,
+										"long": -0.190278,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"depDt": 1577407200000,
+									"arrDt": 1577412600000,
+									"techStpOvrLst": [],
+									"totDur": 90,
+									"segSlKey": null,
+									"fareSlKey": null,
+									"mrktArln": "BA",
+									"oprArln": "BA",
+									"equipTyp": "319",
+									"equipCd": null,
+									"equipNm": "Airbus A319 ",
+									"fltNum": "2507",
+									"carierCode": "BA",
+									"bagDtls": [{
+										"bag": {
+											"qty": "0",
+											"utyp": "N",
+											"unt": null
+										},
+										"pxTyp": "ADT",
+										"pxRf": "1"
+									}],
+									"avlCntxtLst": [],
+									"availCount": null,
+									"cbcls": "M",
+									"pnRf": {},
+									"splitPnr": false,
+									"availSrc": null,
+									"suplrNm": null,
+									"ao": [{
+										"at": "MEAL",
+										"isPaid": true
+									}],
+									"si": null
+								}],
+								"aggFltNum": "EDI$LON$2712190610$BA-2507",
+								"totFr": null,
+								"totBsFr": null,
+								"totTx": null,
+								"cur": null,
+								"totDur": 90,
+								"rfndbl": null,
+								"fr": [{
+									"frTyp": "SIMPLE",
+									"frTypFrmSrv": "DEFAULT",
+									"pxTypFrMap": {
+										"INFANT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 6.0,
+													"TAXCOMPONENT-YR": 0.0,
+													"TAXCOMPONENT-YQ": 0.0,
+													"MUAPPFESTINB": 48.0,
+													"TOT": 1837.0,
+													"TAX": 1302.0,
+													"TAXCOMPONENT-Q": 0.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "M",
+													"cbn": "M",
+													"avl": "9",
+													"fbc": "MLZ0KO",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": ["RP"],
+													"brkPnt": "Y",
+													"arrcd": "",
+													"deptcd": "",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 1,
+											"frRuleList": []
+										}],
+										"CHILD": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 26.0,
+													"TAXCOMPONENT-YR": 0.0,
+													"TAXCOMPONENT-YQ": 0.0,
+													"MUAPPFESTINB": 191.0,
+													"TOT": 7357.0,
+													"TAX": 1302.0,
+													"TAXCOMPONENT-Q": 935.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "M",
+													"cbn": "M",
+													"avl": "9",
+													"fbc": "MLZ0KO",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": ["RP"],
+													"brkPnt": "Y",
+													"arrcd": "",
+													"deptcd": "",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 2,
+											"frRuleList": []
+										}],
+										"ADULT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 30.0,
+													"TAXCOMPONENT-YR": 0.0,
+													"TAXCOMPONENT-YQ": 0.0,
+													"MUAPPFESTINB": 221.0,
+													"TOT": 8515.0,
+													"TAX": 2460.0,
+													"TAXCOMPONENT-Q": 935.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "M",
+													"cbn": "M",
+													"avl": "9",
+													"fbc": "MLZ0KO",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": ["RP"],
+													"brkPnt": "Y",
+													"arrcd": "",
+													"deptcd": "",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 1,
+											"frRuleList": []
+										}]
+									},
+									"frInfoMap": {},
+									"subFares": [],
+									"rKey": null
+								}],
+								"sPNR": false,
+								"hldbl": false,
+								"lstTckDt": null,
+								"jrnySlKey": null,
+								"cbn": null,
+								"cbnCls": null,
+								"refAir": "BA",
+								"dep": null,
+								"arr": null,
+								"offId": null,
+								"credId": "MPEXININTRANOMNR",
+								"isBuddyResult": false,
+								"buddyCity": null,
+								"transVisaMsg": null,
+								"xxlnAssurance": {
+									"sa": false,
+									"cw": null,
+									"fe": 0.0,
+									"ac": null,
+									"pt": null,
+									"pp": null,
+									"fpp": 0.0
+								}
+							}
+						},
+						"frLst": [{
+							"frTyp": "SIMPLE",
+							"frTypFrmSrv": "DEFAULT",
+							"pxTypFrMap": {
+								"INFANT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 6.0,
+											"TAXCOMPONENT-YR": 0.0,
+											"TAXCOMPONENT-YQ": 0.0,
+											"MUAPPFESTINB": 48.0,
+											"TOT": 1837.0,
+											"TAX": 1302.0,
+											"TAXCOMPONENT-Q": 0.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "M",
+											"cbn": "M",
+											"avl": "9",
+											"fbc": "MLZ0KO",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": ["RP"],
+											"brkPnt": "Y",
+											"arrcd": "",
+											"deptcd": "",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 1,
+									"frRuleList": []
+								}],
+								"CHILD": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 26.0,
+											"TAXCOMPONENT-YR": 0.0,
+											"TAXCOMPONENT-YQ": 0.0,
+											"MUAPPFESTINB": 191.0,
+											"TOT": 7357.0,
+											"TAX": 1302.0,
+											"TAXCOMPONENT-Q": 935.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "M",
+											"cbn": "M",
+											"avl": "9",
+											"fbc": "MLZ0KO",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": ["RP"],
+											"brkPnt": "Y",
+											"arrcd": "",
+											"deptcd": "",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 2,
+									"frRuleList": []
+								}],
+								"ADULT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 30.0,
+											"TAXCOMPONENT-YR": 0.0,
+											"TAXCOMPONENT-YQ": 0.0,
+											"MUAPPFESTINB": 221.0,
+											"TOT": 8515.0,
+											"TAX": 2460.0,
+											"TAXCOMPONENT-Q": 935.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "M",
+											"cbn": "M",
+											"avl": "9",
+											"fbc": "MLZ0KO",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": ["RP"],
+											"brkPnt": "Y",
+											"arrcd": "",
+											"deptcd": "",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 1,
+									"frRuleList": []
+								}]
+							},
+							"frInfoMap": {},
+							"subFares": [],
+							"rKey": null
+						}],
+						"jrnyRtLst": [],
+						"combInfo": {
+							"data": {
+								"TT": 5064.0,
+								"REFUNDABLE": false,
+								"TOTAL_DURATION": 90,
+								"IS_PURE": true,
+								"BAGGAGE_INDEX": 0,
+								"MAX_STOP": 0,
+								"MAX_LAYOFF_TIME": 0,
+								"refferenceAirline": "BA",
+								"VC": "BA",
+								"splitPNR": false,
+								"officeIds": ["DELI228BM"],
+								"CABIN_CLASS": ["M"],
+								"T": 17709.0,
+								"LAST_TKT_DATE": "23SEP19",
+								"HOLDABLE": true,
+								"SINGLE_ADULT_FARE": 8515.0,
+								"IS_PURE_LCC": false,
+								"KEY": "EDI$LON$2712190610$BA-2507"
+							}
+						},
+						"srName": "MP",
+						"prmTxt": null,
+						"rvPrmTxt": null,
+						"tVisaMsgTxt": [],
+						"listingPageMsg": null,
+						"currInfo": {
+							"costCurrency": "INR",
+							"sellCurrency": null,
+							"conversionFactor": null
+						},
+						"signature": null
+					}, {
+						"score": 200,
+						"flightKey": null,
+						"actualScore": 83.350,
+						"rhinoRank": 5,
+						"groupedOrigRank": null,
+						"recommendedFlight": {
+							"index": 2,
+							"primaryTag": "FASTEST",
+							"secondaryTags": [],
+							"tagInfo": null,
+							"valueForTimeApplied": false,
+							"valueForTime": null,
+							"headerText": null
+						},
+						"rhinoRecommendedFlight": false,
+						"fareHash": "786025bfd3be93f5b989f70401f038b70af08e9dd9edcd24505ebbcded88d295",
+						"amenityItineraryKey": null,
+						"nearByFlight": false,
+						"fltUniKey": "EDI_LGW_271219_BA-2505_MP_0",
+						"rKey": "v1~~null$M$MLZ0KO$null$0.0$0.0$null$null$0$0$A,null$M$MLZ0KO$null$0.0$0.0$null$null$0$0$C,null$M$MLZ0KO$null$0.0$0.0$null$null$0$0$I~A-8515.0|6055.0_C-7357.0|6055.0_I-1837.0|535.0~M$1$1$1$INTLMobile_UN$251$0~~EDI_LGW_271219_BA-2505_TVBFWElOSU5UUkFOT01OUg==_19:50_271219_21:20_BA_BA_BA_JO~MP_0_0_EDI-LGW-271219_null",
+						"jrnyMap": {
+							"EDI_LGW_271219": {
+								"buddyResult": false,
+								"refKey": "MP",
+								"lfid": null,
+								"minFrRl": null,
+								"fltLst": [{
+									"amenitySegmentKey": null,
+									"depInf": {
+										"trml": "",
+										"ctCd": "EDI",
+										"airp": "Turnhouse",
+										"ctNm": "Edinburgh",
+										"arpCd": "EDI",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 55.95,
+										"long": -3.3725,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"arrInf": {
+										"trml": "S",
+										"ctCd": "LGW",
+										"airp": "Gatwick",
+										"ctNm": "London - Gatwick Apt",
+										"arpCd": "LON",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 51.148056,
+										"long": -0.190278,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"depDt": 1577456400000,
+									"arrDt": 1577461800000,
+									"techStpOvrLst": [],
+									"totDur": 90,
+									"segSlKey": null,
+									"fareSlKey": null,
+									"mrktArln": "BA",
+									"oprArln": "BA",
+									"equipTyp": "320",
+									"equipCd": null,
+									"equipNm": "Airbus A320 ",
+									"fltNum": "2505",
+									"carierCode": "BA",
+									"bagDtls": [{
+										"bag": {
+											"qty": "0",
+											"utyp": "N",
+											"unt": null
+										},
+										"pxTyp": "ADT",
+										"pxRf": "1"
+									}],
+									"avlCntxtLst": [],
+									"availCount": null,
+									"cbcls": "M",
+									"pnRf": {},
+									"splitPnr": false,
+									"availSrc": null,
+									"suplrNm": null,
+									"ao": [{
+										"at": "MEAL",
+										"isPaid": true
+									}],
+									"si": null
+								}],
+								"aggFltNum": "EDI$LON$2712191950$BA-2505",
+								"totFr": null,
+								"totBsFr": null,
+								"totTx": null,
+								"cur": null,
+								"totDur": 90,
+								"rfndbl": null,
+								"fr": [{
+									"frTyp": "SIMPLE",
+									"frTypFrmSrv": "DEFAULT",
+									"pxTypFrMap": {
+										"INFANT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 6.0,
+													"TAXCOMPONENT-YR": 0.0,
+													"TAXCOMPONENT-YQ": 0.0,
+													"MUAPPFESTINB": 48.0,
+													"TOT": 1837.0,
+													"TAX": 1302.0,
+													"TAXCOMPONENT-Q": 0.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "M",
+													"cbn": "M",
+													"avl": "9",
+													"fbc": "MLZ0KO",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": ["RP"],
+													"brkPnt": "Y",
+													"arrcd": "",
+													"deptcd": "",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 1,
+											"frRuleList": []
+										}],
+										"CHILD": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 26.0,
+													"TAXCOMPONENT-YR": 0.0,
+													"TAXCOMPONENT-YQ": 0.0,
+													"MUAPPFESTINB": 191.0,
+													"TOT": 7357.0,
+													"TAX": 1302.0,
+													"TAXCOMPONENT-Q": 935.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "M",
+													"cbn": "M",
+													"avl": "9",
+													"fbc": "MLZ0KO",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": ["RP"],
+													"brkPnt": "Y",
+													"arrcd": "",
+													"deptcd": "",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 2,
+											"frRuleList": []
+										}],
+										"ADULT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 30.0,
+													"TAXCOMPONENT-YR": 0.0,
+													"TAXCOMPONENT-YQ": 0.0,
+													"MUAPPFESTINB": 221.0,
+													"TOT": 8515.0,
+													"TAX": 2460.0,
+													"TAXCOMPONENT-Q": 935.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "M",
+													"cbn": "M",
+													"avl": "9",
+													"fbc": "MLZ0KO",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": ["RP"],
+													"brkPnt": "Y",
+													"arrcd": "",
+													"deptcd": "",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 1,
+											"frRuleList": []
+										}]
+									},
+									"frInfoMap": {},
+									"subFares": [],
+									"rKey": null
+								}],
+								"sPNR": false,
+								"hldbl": false,
+								"lstTckDt": null,
+								"jrnySlKey": null,
+								"cbn": null,
+								"cbnCls": null,
+								"refAir": "BA",
+								"dep": null,
+								"arr": null,
+								"offId": null,
+								"credId": "MPEXININTRANOMNR",
+								"isBuddyResult": false,
+								"buddyCity": null,
+								"transVisaMsg": null,
+								"xxlnAssurance": {
+									"sa": false,
+									"cw": null,
+									"fe": 0.0,
+									"ac": null,
+									"pt": null,
+									"pp": null,
+									"fpp": 0.0
+								}
+							}
+						},
+						"frLst": [{
+							"frTyp": "SIMPLE",
+							"frTypFrmSrv": "DEFAULT",
+							"pxTypFrMap": {
+								"INFANT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 6.0,
+											"TAXCOMPONENT-YR": 0.0,
+											"TAXCOMPONENT-YQ": 0.0,
+											"MUAPPFESTINB": 48.0,
+											"TOT": 1837.0,
+											"TAX": 1302.0,
+											"TAXCOMPONENT-Q": 0.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "M",
+											"cbn": "M",
+											"avl": "9",
+											"fbc": "MLZ0KO",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": ["RP"],
+											"brkPnt": "Y",
+											"arrcd": "",
+											"deptcd": "",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 1,
+									"frRuleList": []
+								}],
+								"CHILD": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 26.0,
+											"TAXCOMPONENT-YR": 0.0,
+											"TAXCOMPONENT-YQ": 0.0,
+											"MUAPPFESTINB": 191.0,
+											"TOT": 7357.0,
+											"TAX": 1302.0,
+											"TAXCOMPONENT-Q": 935.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "M",
+											"cbn": "M",
+											"avl": "9",
+											"fbc": "MLZ0KO",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": ["RP"],
+											"brkPnt": "Y",
+											"arrcd": "",
+											"deptcd": "",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 2,
+									"frRuleList": []
+								}],
+								"ADULT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 30.0,
+											"TAXCOMPONENT-YR": 0.0,
+											"TAXCOMPONENT-YQ": 0.0,
+											"MUAPPFESTINB": 221.0,
+											"TOT": 8515.0,
+											"TAX": 2460.0,
+											"TAXCOMPONENT-Q": 935.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "M",
+											"cbn": "M",
+											"avl": "9",
+											"fbc": "MLZ0KO",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": ["RP"],
+											"brkPnt": "Y",
+											"arrcd": "",
+											"deptcd": "",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 1,
+									"frRuleList": []
+								}]
+							},
+							"frInfoMap": {},
+							"subFares": [],
+							"rKey": null
+						}],
+						"jrnyRtLst": [],
+						"combInfo": {
+							"data": {
+								"TT": 5064.0,
+								"REFUNDABLE": false,
+								"TOTAL_DURATION": 90,
+								"IS_PURE": true,
+								"BAGGAGE_INDEX": 0,
+								"MAX_STOP": 0,
+								"MAX_LAYOFF_TIME": 0,
+								"refferenceAirline": "BA",
+								"VC": "BA",
+								"splitPNR": false,
+								"officeIds": ["DELI228BM"],
+								"CABIN_CLASS": ["M"],
+								"T": 17709.0,
+								"LAST_TKT_DATE": "23SEP19",
+								"HOLDABLE": true,
+								"SINGLE_ADULT_FARE": 8515.0,
+								"IS_PURE_LCC": false,
+								"KEY": "EDI$LON$2712191950$BA-2505"
+							}
+						},
+						"srName": "MP",
+						"prmTxt": null,
+						"rvPrmTxt": null,
+						"tVisaMsgTxt": [],
+						"listingPageMsg": null,
+						"currInfo": {
+							"costCurrency": "INR",
+							"sellCurrency": null,
+							"conversionFactor": null
+						},
+						"signature": null
+					}, {
+						"score": 200,
+						"flightKey": null,
+						"actualScore": 77.950,
+						"rhinoRank": 6,
+						"groupedOrigRank": null,
+						"recommendedFlight": {
+							"index": 2,
+							"primaryTag": "FASTEST",
+							"secondaryTags": [],
+							"tagInfo": null,
+							"valueForTimeApplied": false,
+							"valueForTime": null,
+							"headerText": null
+						},
+						"rhinoRecommendedFlight": false,
+						"fareHash": "c779f06ebdd33e0c9fccfaefd847c0c407d8420de32b72a12b234840052a957f",
+						"amenityItineraryKey": null,
+						"nearByFlight": false,
+						"fltUniKey": "EDI_LGW_271219_U2-810_TF_0",
+						"rKey": "v1~~null$Y$FBC$null$null$null$null$null$0$0$A,null$Y$FBC$null$null$null$null$null$0$0$C,null$Y$FBC$null$null$null$null$null$0$0$I~A-10577.0|8375.0_C-8968.0|8178.0_I-2828.0|2631.0~M$1$1$1$INTLMobile_UN$812$0~~EDI_LGW_271219_U2-810_VEZVTkk=_16:50_271219_18:20_U2_U2_U2_JO~TF_0_0_EDI-LGW-271219_null",
+						"jrnyMap": {
+							"EDI_LGW_271219": {
+								"buddyResult": false,
+								"refKey": "TF",
+								"lfid": null,
+								"minFrRl": null,
+								"fltLst": [{
+									"amenitySegmentKey": null,
+									"depInf": {
+										"ctCd": "EDI",
+										"airp": "Turnhouse",
+										"ctNm": "Edinburgh",
+										"arpCd": "EDI",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 55.95,
+										"long": -3.3725,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"arrInf": {
+										"ctCd": "LGW",
+										"airp": "Gatwick",
+										"ctNm": "London - Gatwick Apt",
+										"arpCd": "LON",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 51.148056,
+										"long": -0.190278,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"depDt": 1577445600000,
+									"arrDt": 1577451000000,
+									"techStpOvrLst": [],
+									"totDur": 90,
+									"segSlKey": null,
+									"fareSlKey": null,
+									"mrktArln": "U2",
+									"oprArln": "U2",
+									"equipTyp": "",
+									"equipCd": "",
+									"equipNm": "",
+									"fltNum": "810",
+									"carierCode": "TF",
+									"bagDtls": [],
+									"avlCntxtLst": [],
+									"availCount": null,
+									"cbcls": "Y",
+									"pnRf": {},
+									"splitPnr": false,
+									"availSrc": null,
+									"suplrNm": "ezy",
+									"ao": [{
+										"at": "MEAL",
+										"isPaid": true
+									}],
+									"si": null
+								}],
+								"aggFltNum": "EDI$LON$2712191650$U2-810",
+								"totFr": 20399.0,
+								"totBsFr": 17210.0,
+								"totTx": 3189.0,
+								"cur": "INR",
+								"totDur": 90,
+								"rfndbl": false,
+								"fr": [{
+									"frTyp": "SIMPLE",
+									"frTypFrmSrv": "HJV40B2PIQ3VH752",
+									"pxTypFrMap": {
+										"INFANT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 10.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 165.0,
+													"MUAPPFESTINB": 74.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 2.0,
+													"TOT": 2828.0,
+													"TAX": 197.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 30.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"CHILD": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 31.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+													"MUAPPFESTINB": 233.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+													"TOT": 8968.0,
+													"TAX": 790.0,
+													"TAXCOMPONENT-Taxes": 0.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 121.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"ADULT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 37.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 824.0,
+													"MUAPPFESTINB": 275.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 12.0,
+													"TOT": 10577.0,
+													"TAX": 2202.0,
+													"TAXCOMPONENT-Taxes": 1215.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 151.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}]
+									},
+									"frInfoMap": {
+										"FareType": "HJV40B2PIQ3VH752"
+									},
+									"subFares": [],
+									"rKey": null
+								}],
+								"sPNR": false,
+								"hldbl": false,
+								"lstTckDt": null,
+								"jrnySlKey": null,
+								"cbn": null,
+								"cbnCls": null,
+								"refAir": "U2",
+								"dep": "EDI",
+								"arr": "LGW",
+								"offId": null,
+								"credId": "TFUNI",
+								"isBuddyResult": false,
+								"buddyCity": null,
+								"transVisaMsg": null,
+								"xxlnAssurance": {
+									"sa": false,
+									"cw": null,
+									"fe": 0.0,
+									"ac": null,
+									"pt": null,
+									"pp": null,
+									"fpp": 0.0
+								}
+							}
+						},
+						"frLst": [{
+							"frTyp": "SIMPLE",
+							"frTypFrmSrv": "HJV40B2PIQ3VH752",
+							"pxTypFrMap": {
+								"INFANT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 10.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 165.0,
+											"MUAPPFESTINB": 74.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 2.0,
+											"TOT": 2828.0,
+											"TAX": 197.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 30.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"CHILD": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 31.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+											"MUAPPFESTINB": 233.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+											"TOT": 8968.0,
+											"TAX": 790.0,
+											"TAXCOMPONENT-Taxes": 0.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 121.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"ADULT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 37.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 824.0,
+											"MUAPPFESTINB": 275.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 12.0,
+											"TOT": 10577.0,
+											"TAX": 2202.0,
+											"TAXCOMPONENT-Taxes": 1215.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 151.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}]
+							},
+							"frInfoMap": {
+								"FareType": "HJV40B2PIQ3VH752"
+							},
+							"subFares": [],
+							"rKey": null
+						}],
+						"jrnyRtLst": [],
+						"combInfo": {
+							"data": {
+								"TT": 3189.0,
+								"REFUNDABLE": false,
+								"TOTAL_DURATION": 90,
+								"T": 20399.0,
+								"IS_PURE": true,
+								"MAX_STOP": 0,
+								"MAX_LAYOFF_TIME": 0,
+								"refferenceAirline": "U2",
+								"SINGLE_ADULT_FARE": 10577.0,
+								"IS_PURE_LCC": true,
+								"VC": "U2",
+								"KEY": "EDI$LON$2712191650$U2-810"
+							}
+						},
+						"srName": "TF",
+						"prmTxt": "Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com |Exclamation.png",
+						"rvPrmTxt": "<p style='background-color:#FDF6C5;border:1px solid #FEE3CA;padding:8px;width:716px;font-size:12px;float:left;margin-bottom: 10px;'><span style='height: 16px; margin-right: 5px;width:16px;float:left;'></span> <span style='margin-top: 3px;float:left;'>Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com</span></p>",
+						"tVisaMsgTxt": [],
+						"listingPageMsg": null,
+						"currInfo": {
+							"costCurrency": null,
+							"sellCurrency": null,
+							"conversionFactor": null
+						},
+						"signature": null
+					}, {
+						"score": 200,
+						"flightKey": null,
+						"actualScore": 73.900,
+						"rhinoRank": 7,
+						"groupedOrigRank": null,
+						"recommendedFlight": {
+							"index": 2,
+							"primaryTag": "FASTEST",
+							"secondaryTags": [],
+							"tagInfo": null,
+							"valueForTimeApplied": false,
+							"valueForTime": null,
+							"headerText": null
+						},
+						"rhinoRecommendedFlight": false,
+						"fareHash": "923f7d92fac2243c395f081feaf781b54a88335076f95d941b8f21e2abadfb11",
+						"amenityItineraryKey": null,
+						"nearByFlight": false,
+						"fltUniKey": "EDI_LGW_271219_U2-808_TF_0",
+						"rKey": "v1~~null$Y$FBC$null$null$null$null$null$0$0$A,null$Y$FBC$null$null$null$null$null$0$0$C,null$Y$FBC$null$null$null$null$null$0$0$I~A-12984.0|10747.0_C-11361.0|10543.0_I-2842.0|2638.0~M$1$1$1$INTLMobile_UN$883$0~~EDI_LGW_271219_U2-808_VEZVTkk=_14:55_271219_16:25_U2_U2_U2_JO~TF_0_0_EDI-LGW-271219_null",
+						"jrnyMap": {
+							"EDI_LGW_271219": {
+								"buddyResult": false,
+								"refKey": "TF",
+								"lfid": null,
+								"minFrRl": null,
+								"fltLst": [{
+									"amenitySegmentKey": null,
+									"depInf": {
+										"ctCd": "EDI",
+										"airp": "Turnhouse",
+										"ctNm": "Edinburgh",
+										"arpCd": "EDI",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 55.95,
+										"long": -3.3725,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"arrInf": {
+										"ctCd": "LGW",
+										"airp": "Gatwick",
+										"ctNm": "London - Gatwick Apt",
+										"arpCd": "LON",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 51.148056,
+										"long": -0.190278,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"depDt": 1577438700000,
+									"arrDt": 1577444100000,
+									"techStpOvrLst": [],
+									"totDur": 90,
+									"segSlKey": null,
+									"fareSlKey": null,
+									"mrktArln": "U2",
+									"oprArln": "U2",
+									"equipTyp": "",
+									"equipCd": "",
+									"equipNm": "",
+									"fltNum": "808",
+									"carierCode": "TF",
+									"bagDtls": [],
+									"avlCntxtLst": [],
+									"availCount": null,
+									"cbcls": "Y",
+									"pnRf": {},
+									"splitPnr": false,
+									"availSrc": null,
+									"suplrNm": "ezy",
+									"ao": [{
+										"at": "MEAL",
+										"isPaid": true
+									}],
+									"si": null
+								}],
+								"aggFltNum": "EDI$LON$2712191455$U2-808",
+								"totFr": 25142.0,
+								"totBsFr": 21883.0,
+								"totTx": 3259.0,
+								"cur": "INR",
+								"totDur": 90,
+								"rfndbl": false,
+								"fr": [{
+									"frTyp": "SIMPLE",
+									"frTypFrmSrv": "ZOHCPEMBR5TVJ25X",
+									"pxTypFrMap": {
+										"INFANT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 10.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 165.0,
+													"MUAPPFESTINB": 74.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 2.0,
+													"TOT": 2842.0,
+													"TAX": 204.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 37.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"CHILD": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 40.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+													"MUAPPFESTINB": 295.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+													"TOT": 11361.0,
+													"TAX": 818.0,
+													"TAXCOMPONENT-Taxes": 0.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 149.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}],
+										"ADULT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 45.0,
+													"TAXCOMPONENT- (Per Pax): Handling Fee": 824.0,
+													"MUAPPFESTINB": 338.0,
+													"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 12.0,
+													"TOT": 12984.0,
+													"TAX": 2237.0,
+													"TAXCOMPONENT-Taxes": 1215.0,
+													"MUTAXU2EX": 500.0,
+													"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 186.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "Y",
+													"avl": null,
+													"fbc": "FBC",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": [],
+													"brkPnt": null,
+													"arrcd": "LGW",
+													"deptcd": "EDI",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 0,
+											"frRuleList": []
+										}]
+									},
+									"frInfoMap": {
+										"FareType": "ZOHCPEMBR5TVJ25X"
+									},
+									"subFares": [],
+									"rKey": null
+								}],
+								"sPNR": false,
+								"hldbl": false,
+								"lstTckDt": null,
+								"jrnySlKey": null,
+								"cbn": null,
+								"cbnCls": null,
+								"refAir": "U2",
+								"dep": "EDI",
+								"arr": "LGW",
+								"offId": null,
+								"credId": "TFUNI",
+								"isBuddyResult": false,
+								"buddyCity": null,
+								"transVisaMsg": null,
+								"xxlnAssurance": {
+									"sa": false,
+									"cw": null,
+									"fe": 0.0,
+									"ac": null,
+									"pt": null,
+									"pp": null,
+									"fpp": 0.0
+								}
+							}
+						},
+						"frLst": [{
+							"frTyp": "SIMPLE",
+							"frTypFrmSrv": "ZOHCPEMBR5TVJ25X",
+							"pxTypFrMap": {
+								"INFANT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 10.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 165.0,
+											"MUAPPFESTINB": 74.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 2.0,
+											"TOT": 2842.0,
+											"TAX": 204.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 37.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"CHILD": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 40.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 660.0,
+											"MUAPPFESTINB": 295.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 9.0,
+											"TOT": 11361.0,
+											"TAX": 818.0,
+											"TAXCOMPONENT-Taxes": 0.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 149.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}],
+								"ADULT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 45.0,
+											"TAXCOMPONENT- (Per Pax): Handling Fee": 824.0,
+											"MUAPPFESTINB": 338.0,
+											"TAXCOMPONENT- (Per Pax): Bank Administration Charge": 12.0,
+											"TOT": 12984.0,
+											"TAX": 2237.0,
+											"TAXCOMPONENT-Taxes": 1215.0,
+											"MUTAXU2EX": 500.0,
+											"TAXCOMPONENT- (Per Pax): Bank Handling Charge": 186.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "Y",
+											"avl": null,
+											"fbc": "FBC",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": [],
+											"brkPnt": null,
+											"arrcd": "LGW",
+											"deptcd": "EDI",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 0,
+									"frRuleList": []
+								}]
+							},
+							"frInfoMap": {
+								"FareType": "ZOHCPEMBR5TVJ25X"
+							},
+							"subFares": [],
+							"rKey": null
+						}],
+						"jrnyRtLst": [],
+						"combInfo": {
+							"data": {
+								"TT": 3259.0,
+								"REFUNDABLE": false,
+								"TOTAL_DURATION": 90,
+								"T": 25142.0,
+								"IS_PURE": true,
+								"MAX_STOP": 0,
+								"MAX_LAYOFF_TIME": 0,
+								"refferenceAirline": "U2",
+								"SINGLE_ADULT_FARE": 12984.0,
+								"IS_PURE_LCC": true,
+								"VC": "U2",
+								"KEY": "EDI$LON$2712191455$U2-808"
+							}
+						},
+						"srName": "TF",
+						"prmTxt": "Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com |Exclamation.png",
+						"rvPrmTxt": "<p style='background-color:#FDF6C5;border:1px solid #FEE3CA;padding:8px;width:716px;font-size:12px;float:left;margin-bottom: 10px;'><span style='height: 16px; margin-right: 5px;width:16px;float:left;'></span> <span style='margin-top: 3px;float:left;'>Online check-in is mandatory for this itinerary. You can check-in up to 4 hours before flight departure on easyjet.com</span></p>",
+						"tVisaMsgTxt": [],
+						"listingPageMsg": null,
+						"currInfo": {
+							"costCurrency": null,
+							"sellCurrency": null,
+							"conversionFactor": null
+						},
+						"signature": null
+					}, {
+						"score": 200,
+						"flightKey": null,
+						"actualScore": 67.600,
+						"rhinoRank": 8,
+						"groupedOrigRank": null,
+						"recommendedFlight": {
+							"index": 2,
+							"primaryTag": "FASTEST",
+							"secondaryTags": [],
+							"tagInfo": null,
+							"valueForTimeApplied": false,
+							"valueForTime": null,
+							"headerText": null
+						},
+						"rhinoRecommendedFlight": false,
+						"fareHash": "0a86c45777176d521b61a17ab674da52ab61dbe3e04a710e394dc8fe80113c38",
+						"amenityItineraryKey": null,
+						"nearByFlight": false,
+						"fltUniKey": "EDI_LGW_271219_BA-2503_MP_0",
+						"rKey": "v1~~null$Y$YV3KO$null$0.0$0.0$null$null$0$0$A,null$Y$YV3KO$null$0.0$0.0$null$null$0$0$C,null$Y$YV3KO$null$0.0$0.0$null$null$0$0$I~A-19470.0|17010.0_C-18312.0|17010.0_I-2907.0|1605.0~M$1$1$1$INTLMobile_UN$574$0~~EDI_LGW_271219_BA-2503_TVBFWElOSU5UUkFOT01OUg==_12:15_271219_13:45_BA_BA_BA_JO~MP_0_0_EDI-LGW-271219_null",
+						"jrnyMap": {
+							"EDI_LGW_271219": {
+								"buddyResult": false,
+								"refKey": "MP",
+								"lfid": null,
+								"minFrRl": null,
+								"fltLst": [{
+									"amenitySegmentKey": null,
+									"depInf": {
+										"trml": "",
+										"ctCd": "EDI",
+										"airp": "Turnhouse",
+										"ctNm": "Edinburgh",
+										"arpCd": "EDI",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 55.95,
+										"long": -3.3725,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"arrInf": {
+										"trml": "S",
+										"ctCd": "LGW",
+										"airp": "Gatwick",
+										"ctNm": "London - Gatwick Apt",
+										"arpCd": "LON",
+										"cntr": "United Kingdom",
+										"tmZn": "Europe/London",
+										"lat": 51.148056,
+										"long": -0.190278,
+										"cont": "UK",
+										"cur": "GBP"
+									},
+									"depDt": 1577429100000,
+									"arrDt": 1577434500000,
+									"techStpOvrLst": [],
+									"totDur": 90,
+									"segSlKey": null,
+									"fareSlKey": null,
+									"mrktArln": "BA",
+									"oprArln": "BA",
+									"equipTyp": "319",
+									"equipCd": null,
+									"equipNm": "Airbus A319 ",
+									"fltNum": "2503",
+									"carierCode": "BA",
+									"bagDtls": [{
+										"bag": {
+											"qty": "23",
+											"utyp": "W",
+											"unt": "kgs (1 x 23 kgs each)"
+										},
+										"pxTyp": "ADT",
+										"pxRf": "1"
+									}],
+									"avlCntxtLst": [],
+									"availCount": null,
+									"cbcls": "M",
+									"pnRf": {},
+									"splitPnr": false,
+									"availSrc": null,
+									"suplrNm": null,
+									"ao": [{
+										"at": "MEAL",
+										"isPaid": true
+									}],
+									"si": null
+								}],
+								"aggFltNum": "EDI$LON$2712191215$BA-2503",
+								"totFr": null,
+								"totBsFr": null,
+								"totTx": null,
+								"cur": null,
+								"totDur": 90,
+								"rfndbl": null,
+								"fr": [{
+									"frTyp": "SIMPLE",
+									"frTypFrmSrv": "DEFAULT",
+									"pxTypFrMap": {
+										"INFANT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 10.0,
+													"TAXCOMPONENT-YR": 0.0,
+													"TAXCOMPONENT-YQ": 0.0,
+													"MUAPPFESTINB": 76.0,
+													"TOT": 2907.0,
+													"TAX": 1302.0,
+													"TAXCOMPONENT-Q": 0.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "M",
+													"avl": "9",
+													"fbc": "YV3KO",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": ["RP"],
+													"brkPnt": "Y",
+													"arrcd": "",
+													"deptcd": "",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 1,
+											"frRuleList": []
+										}],
+										"CHILD": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 64.0,
+													"TAXCOMPONENT-YR": 0.0,
+													"TAXCOMPONENT-YQ": 0.0,
+													"MUAPPFESTINB": 476.0,
+													"TOT": 18312.0,
+													"TAX": 1302.0,
+													"TAXCOMPONENT-Q": 935.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "M",
+													"avl": "9",
+													"fbc": "YV3KO",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": ["RP"],
+													"brkPnt": "Y",
+													"arrcd": "",
+													"deptcd": "",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 2,
+											"frRuleList": []
+										}],
+										"ADULT": [{
+											"frBrkup": {
+												"frBrkupMap": {
+													"MUCITISPCL": 68.0,
+													"TAXCOMPONENT-YR": 0.0,
+													"TAXCOMPONENT-YQ": 0.0,
+													"MUAPPFESTINB": 506.0,
+													"TOT": 19470.0,
+													"TAX": 2460.0,
+													"TAXCOMPONENT-Q": 935.0
+												}
+											},
+											"segPrdctInf": [{
+												"lgPrnfo": [{
+													"frId": null,
+													"rb": "Y",
+													"cbn": "M",
+													"avl": "9",
+													"fbc": "YV3KO",
+													"frAmt": null,
+													"txAmt": null,
+													"frtyp": ["RP"],
+													"brkPnt": "Y",
+													"arrcd": "",
+													"deptcd": "",
+													"prdcls": null,
+													"si": null
+												}]
+											}],
+											"paxRef": 1,
+											"frRuleList": []
+										}]
+									},
+									"frInfoMap": {},
+									"subFares": [],
+									"rKey": null
+								}],
+								"sPNR": false,
+								"hldbl": false,
+								"lstTckDt": null,
+								"jrnySlKey": null,
+								"cbn": null,
+								"cbnCls": null,
+								"refAir": "BA",
+								"dep": null,
+								"arr": null,
+								"offId": null,
+								"credId": "MPEXININTRANOMNR",
+								"isBuddyResult": false,
+								"buddyCity": null,
+								"transVisaMsg": null,
+								"xxlnAssurance": {
+									"sa": false,
+									"cw": null,
+									"fe": 0.0,
+									"ac": null,
+									"pt": null,
+									"pp": null,
+									"fpp": 0.0
+								}
+							}
+						},
+						"frLst": [{
+							"frTyp": "SIMPLE",
+							"frTypFrmSrv": "DEFAULT",
+							"pxTypFrMap": {
+								"INFANT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 10.0,
+											"TAXCOMPONENT-YR": 0.0,
+											"TAXCOMPONENT-YQ": 0.0,
+											"MUAPPFESTINB": 76.0,
+											"TOT": 2907.0,
+											"TAX": 1302.0,
+											"TAXCOMPONENT-Q": 0.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "M",
+											"avl": "9",
+											"fbc": "YV3KO",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": ["RP"],
+											"brkPnt": "Y",
+											"arrcd": "",
+											"deptcd": "",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 1,
+									"frRuleList": []
+								}],
+								"CHILD": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 64.0,
+											"TAXCOMPONENT-YR": 0.0,
+											"TAXCOMPONENT-YQ": 0.0,
+											"MUAPPFESTINB": 476.0,
+											"TOT": 18312.0,
+											"TAX": 1302.0,
+											"TAXCOMPONENT-Q": 935.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "M",
+											"avl": "9",
+											"fbc": "YV3KO",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": ["RP"],
+											"brkPnt": "Y",
+											"arrcd": "",
+											"deptcd": "",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 2,
+									"frRuleList": []
+								}],
+								"ADULT": [{
+									"frBrkup": {
+										"frBrkupMap": {
+											"MUCITISPCL": 68.0,
+											"TAXCOMPONENT-YR": 0.0,
+											"TAXCOMPONENT-YQ": 0.0,
+											"MUAPPFESTINB": 506.0,
+											"TOT": 19470.0,
+											"TAX": 2460.0,
+											"TAXCOMPONENT-Q": 935.0
+										}
+									},
+									"segPrdctInf": [{
+										"lgPrnfo": [{
+											"frId": null,
+											"rb": "Y",
+											"cbn": "M",
+											"avl": "9",
+											"fbc": "YV3KO",
+											"frAmt": null,
+											"txAmt": null,
+											"frtyp": ["RP"],
+											"brkPnt": "Y",
+											"arrcd": "",
+											"deptcd": "",
+											"prdcls": null,
+											"si": null
+										}]
+									}],
+									"paxRef": 1,
+									"frRuleList": []
+								}]
+							},
+							"frInfoMap": {},
+							"subFares": [],
+							"rKey": null
+						}],
+						"jrnyRtLst": [],
+						"combInfo": {
+							"data": {
+								"TT": 5064.0,
+								"REFUNDABLE": true,
+								"TOTAL_DURATION": 90,
+								"IS_PURE": true,
+								"BAGGAGE_INDEX": 1,
+								"MAX_STOP": 0,
+								"MAX_LAYOFF_TIME": 0,
+								"refferenceAirline": "BA",
+								"VC": "BA",
+								"splitPNR": false,
+								"officeIds": ["DELI228BM"],
+								"CABIN_CLASS": ["M"],
+								"T": 40689.0,
+								"LAST_TKT_DATE": "27DEC19",
+								"HOLDABLE": null,
+								"SINGLE_ADULT_FARE": 19470.0,
+								"IS_PURE_LCC": false,
+								"KEY": "EDI$LON$2712191215$BA-2503"
+							}
+						},
+						"srName": "MP",
+						"prmTxt": null,
+						"rvPrmTxt": null,
+						"tVisaMsgTxt": [],
+						"listingPageMsg": null,
+						"currInfo": {
+							"costCurrency": "INR",
+							"sellCurrency": null,
+							"conversionFactor": null
+						},
+						"signature": null
+					}]
+				},
+				"metaInfo": {
+					"customPageRules": {
+						"genericBanner": null,
+						"hbarRadioLabelDescList": null,
+						"interStitialBanner": null,
+						"isNewInterstitial": null,
+						"isFlexiTabToShow": null,
+						"defaultRadioButton": null,
+						"noOfFlexiRowsToShow": null,
+						"isSecondGroupingPattern": "false",
+						"showMinStopQuickSelectFilter": true,
+						"showMorningArrivalQuickSelectFilter": true,
+						"showEveningDepartureQuickSelectFilter": true,
+						"showRefundableFlightsQuickSelectFilter": true,
+						"showRecommendedFlightsQuickSelectFilter": true,
+						"showNearbyAirportsFlightsQuickSelectFilter": true,
+						"optionToBeShown": null,
+						"questions": [],
+						"buttonTexts": [],
+						"filterLogics": [],
+						"showVisaAssistance": false
+					},
+					"airlineInfoMap": {
+						"TF": {
+							"CRED_ID": "TFUNI",
+							"ROUTING_ID": "P1OHX417OQ0SPAHB"
+						},
+						"MP": {
+							"REVIEW_SERVICE_NAME": "",
+							"ALTERNATE_SERVICE_NAME": "",
+							"CRED_ID": "MPEXININTRANOMNR"
+						},
+						"TP": {
+							"CRED_ID": "TPUNI_INTL"
+						}
+					},
+					"listMetaData": {
+						"EDI_LGW_271219": {
+							"airlineWiseMinPrice": {
+								"U2": {
+									"minTotalFare": 6056.0,
+									"minStops": 0,
+									"numFlights": 5
+								},
+								"BA": {
+									"minTotalFare": 8766.0,
+									"minStops": 0,
+									"numFlights": 3
+								}
+							},
+							"stopWiseMinPrice": {
+								"0": {
+									"minTotalFare": 6056.0,
+									"minStops": 0,
+									"numFlights": 8
+								}
+							},
+							"layoverWisePrice": {},
+							"nearbyWisePrice": {},
+							"refundableMetaData": {
+								"minTotalFare": 20044.0,
+								"minStops": 0,
+								"numFlights": 1
+							},
+							"fastestMetaData": {
+								"minTotalFare": 6056.0,
+								"minStops": 0,
+								"numFlights": 1
+							},
+							"minFare": 6056.0,
+							"maxFare": 20044.0,
+							"timeSlotWiseInfo": null,
+							"minDeparture": 1577407200000,
+							"maxDeparture": 1577460000000,
+							"recomRhinoDataMap": null
+						}
+					},
+					"fltrDatSecCodeToNamMap": {},
+					"airlineNameMap": {
+						"TF": "Malmo Aviation",
+						"MA": "Multiple Airline",
+						"U2": "easyJet",
+						"BA": "British Airways"
+					},
+					"recommendedFlightsCount": 3
+				},
+				"err": null
+			},
+			"err": null
+		}
+	},
+	"responseStatus": "COMPLETED",
+	"responseCounter": null,
+	"latMeta": {
+		"fromCache": false,
+		"buddySearch": false,
+		"nearBySearch": false,
+		"fromCacheWithIMPOnly": false
+	}
+}

@@ -1,0 +1,512 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NF70168249786720",
+    "iteneraryId": "74fb5d5b40fa6019b7c9aa87f02f03cd610f4c16",
+    "enableDebugInfo": true
+  },
+  "flightLookUpList": {
+    "AI-9628-DEL-GWL-2020-01-29 11:20:00-2020-01-29 12:20:00": {
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "validatingCarrier": "AI",
+      "fltNo": "9628",
+      "arcrfTyp": "ATR",
+      "depInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL"
+      },
+      "arrInfo": {
+        "arpCd": "GWL"
+      },
+      "depTime": 1580277000000,
+      "arrTime": 1580280600000,
+      "dur": 3600000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "DEL-GWL : AI-9628",
+        "depDate": "2020-01-29 11:20:00",
+        "arrDate": "2020-01-29 12:20:00",
+        "dur": 3600000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "AI-9628-DEL-GWL-2020-01-29 11:20:00-2020-01-29 12:20:00",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 3800.0,
+                  "singlePaxTx": 721.0,
+                  "singlePaxTot": 4521.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 203.0,
+                    "taxCode": "GST"
+                  }, {
+                    "taxVal": 268.0,
+                    "taxCode": "Wo"
+                  }, {
+                    "taxVal": 250.0,
+                    "taxCode": "Yr"
+                  }],
+                  "noOfPax": 3,
+                  "journeyWiseFare": {
+                    "DEL-GWL : AI-9628": {
+                      "singlePaxBaseFare": 3800.0,
+                      "singlePaxTx": 721.0,
+                      "singlePaxTot": 4521.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 203.0,
+                        "taxCode": "GST"
+                      }, {
+                        "taxVal": 268.0,
+                        "taxCode": "Wo"
+                      }, {
+                        "taxVal": 250.0,
+                        "taxCode": "Yr"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "AI-9628-DEL-GWL-2020-01-29 11:20:00-2020-01-29 12:20:00": {
+                      "fareBasis": "TIP9I"
+                    }
+                  }
+                },
+                "INFANT": {
+                  "singlePaxBaseFare": 1250.0,
+                  "singlePaxTx": 325.0,
+                  "singlePaxTot": 1575.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 75.0,
+                    "taxCode": "GST"
+                  }, {
+                    "taxVal": 250.0,
+                    "taxCode": "Yr"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {
+                    "DEL-GWL : AI-9628": {
+                      "singlePaxBaseFare": 1250.0,
+                      "singlePaxTx": 325.0,
+                      "singlePaxTot": 1575.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 75.0,
+                        "taxCode": "GST"
+                      }, {
+                        "taxVal": 250.0,
+                        "taxCode": "Yr"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "AI-9628-DEL-GWL-2020-01-29 11:20:00-2020-01-29 12:20:00": {
+                      "fareBasis": "TIP9IIN"
+                    }
+                  }
+                },
+                "CHILD": {
+                  "singlePaxBaseFare": 3800.0,
+                  "singlePaxTx": 721.0,
+                  "singlePaxTot": 4521.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 203.0,
+                    "taxCode": "GST"
+                  }, {
+                    "taxVal": 268.0,
+                    "taxCode": "Wo"
+                  }, {
+                    "taxVal": 250.0,
+                    "taxCode": "Yr"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {
+                    "DEL-GWL : AI-9628": {
+                      "singlePaxBaseFare": 3800.0,
+                      "singlePaxTx": 721.0,
+                      "singlePaxTot": 4521.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 203.0,
+                        "taxCode": "GST"
+                      }, {
+                        "taxVal": 268.0,
+                        "taxCode": "Wo"
+                      }, {
+                        "taxVal": 250.0,
+                        "taxCode": "Yr"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "AI-9628-DEL-GWL-2020-01-29 11:20:00-2020-01-29 12:20:00": {
+                      "fareBasis": "TIP9I"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "DEL-GWL : AI-9628",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2625.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "errorDetails": {
+                        "em": "Refundable in before departure window, Vr3 API call not required"
+                      },
+                      "airlinePenalty": {},
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2625.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "errorDetails": {
+                        "em": "Refundable in before departure window, Vr3 API call not required"
+                      },
+                      "airlinePenalty": {},
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }],
+                    "currentATCPenalty": {
+                      "errorDetails": {
+                        "em": "Refundable in before departure window, Vr3 API call not required"
+                      },
+                      "airlinePenalty": {},
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "DEL-GWL : AI-9628",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2625.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2625.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2625.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2625.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 0.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "DEL-GWL : AI-9628",
+                "flightLookUpKey": "AI-9628-DEL-GWL-2020-01-29 11:20:00-2020-01-29 12:20:00",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "CHILD": {
+                      "allowance": "15",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "15",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "INFANT": {
+                      "allowance": "10",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "CHILD": {
+                      "allowance": "-1",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "ADULT": {
+                      "allowance": "-1",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "INFANT": {
+                      "allowance": "-1",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "1G",
+              "supplierCredential": "TPUNI_DOM"
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "6E-6E-2783-BLR-DEL-2021-01-05 18:25-2021-01-05 21:15"
+      },{       "contains" : "722250bfab7f896e1f4da234fd53bf2af5e3ad1a"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEDOM6ERTACIUAE/GETRULELCC.json"
+  }
+}
+

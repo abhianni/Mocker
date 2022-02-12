@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "DL-DL-5129-ITH-DTW-2020-06-26 16:00-2020-06-26 17:22"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTLDLOWAUAE/GETRULETP.json"
+  }
+}
+

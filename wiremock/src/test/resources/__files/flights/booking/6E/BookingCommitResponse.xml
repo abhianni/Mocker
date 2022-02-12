@@ -1,0 +1,8 @@
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	
+<s:Body xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+
+		<com.navitaire_42.booking.schemas.webservices.servicecontracts.bookingservice.BookingCommitResponse> <BookingUpdateResponseData xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Booking"> <Success> <RecordLocator>ABCDEF</RecordLocator> <PNRAmount> <BalanceDue>0</BalanceDue> <AuthorizedBalanceDue>0</AuthorizedBalanceDue> <SegmentCount>1</SegmentCount> <PassiveSegmentCount>0</PassiveSegmentCount> <TotalCost>8696.00000</TotalCost> <PointsBalanceDue>0</PointsBalanceDue> <TotalPointCost>0</TotalPointCost> <AlternateCurrencyCode></AlternateCurrencyCode> <AlternateCurrencyBalanceDue>0</AlternateCurrencyBalanceDue> </PNRAmount> </Success> <Warning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/> <Error xsi:nil="1"/> <OtherServiceInformations xsi:nil="1"/> </BookingUpdateResponseData> </com.navitaire_42.booking.schemas.webservices.servicecontracts.bookingservice.BookingCommitResponse>
+
+	</s:Body>
+</soapenv:Envelope>

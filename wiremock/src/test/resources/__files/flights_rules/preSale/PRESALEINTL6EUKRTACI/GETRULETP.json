@@ -1,0 +1,430 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "v1~~R$R$R0INT$null$null$null$328.0$null$0$0$A,R$R$R0INT$null$null$null$328.0$null$0$0$C,R$R$R0INT$null$null$null$null$null$0$0$I^null$Q$QLOAEYV$null$null$130.0$null$null$1$0$A,null$Q$QLOAEYV$null$null$130.0$null$null$1$0$C,null$Q$QLOAEYV$null$null$130.0$null$null$1$0$I~A-17892.0|13331.0_C-16327.0|11766.0_I-3265.0|3135.0~M$2$1$1$INTLFlight_UN$502$null~~BOM_DXB_290420_6E-83_NkVVTkk=_14:30_290420_16:40_6E_6E_6E_JO~6E_0_0_BOM-DXB-290420_null^DXB_BOM_260520_UK-202_VFBVTklfSU5UTA==_19:15_270520_00:15_UK_UK_UK_JO~TP_0_1_DXB-BOM-260520_null",
+    "iteneraryId": "7000de4e07aaf2e5bc6f9716d238a086d9d43d38",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "PreSaleCPReq": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><arrTime>1590518700000</arrTime><arrivalInfo><arpCd>BOM</arpCd></arrivalInfo><depTime>1590500700000</depTime><departureInfo><arpCd>DXB</arpCd></departureInfo><duration>0</duration><flightNum>202</flightNum><marketingAirline>UK</marketingAirline><operatingAirline>UK</operatingAirline><validatingCarrier>UK</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>v1~~R$R$R0INT$null$null$null$328.0$null$0$0$A,R$R$R0INT$null$null$null$328.0$null$0$0$C,R$R$R0INT$null$null$null$null$null$0$0$I^null$Q$QLOAEYV$null$null$130.0$null$null$1$0$A,null$Q$QLOAEYV$null$null$130.0$null$null$1$0$C,null$Q$QLOAEYV$null$null$130.0$null$null$1$0$I~A-17892.0|13331.0_C-16327.0|11766.0_I-3265.0|3135.0~M$2$1$1$INTLFlight_UN$502$null~~BOM_DXB_290420_6E-83_NkVVTkk=_14:30_290420_16:40_6E_6E_6E_JO~6E_0_0_BOM-DXB-290420_null^DXB_BOM_260520_UK-202_VFBVTklfSU5UTA==_19:15_270520_00:15_UK_UK_UK_JO~TP_0_1_DXB-BOM-260520_null</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>7000de4e07aaf2e5bc6f9716d238a086d9d43d38</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>1</key><value><pnrFareInfos><cancellationAssured>false</cancellationAssured><paxFares><entry><key>CHILD</key><value><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><fareBasis>QLOAEYV</fareBasis><rbd>Q</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>-1.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTot>-1.0</singlePaxTot><singlePaxTx>-1.0</singlePaxTx></value></entry><entry><key>INFANT</key><value><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><fareBasis>QLOAEYV</fareBasis><rbd>Q</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>-1.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTot>-1.0</singlePaxTot><singlePaxTx>-1.0</singlePaxTx></value></entry><entry><key>ADULT</key><value><noOfPax>2</noOfPax><segPrdctInfo><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><fareBasis>QLOAEYV</fareBasis><rbd>Q</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>-1.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTot>-1.0</singlePaxTot><singlePaxTx>-1.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_INTL</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-05-27 00:15</arrDate><depDate>2020-05-26 19:15</depDate><duration>0</duration><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</fltLookUpKey><pnrGroupNum>1</pnrGroupNum></flightPnrLookupInfo><journeyKey>DXB$BOM$2605201915$UK-202</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "PreSaleCPReqDAO": "com.mmt.flights.rules.dao.PreSaleCPReqDaoImpl@332e74b3",
+      "PreSaleTPBaggageXMLREQUEST": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:AirPriceReq CheckFlightDetails=\"true\" AuthorizedBy=\"MMTUser\" TargetBranch=\"P3084232\" xmlns=\"http://www.travelport.com/schema/common_v41_0\" xmlns:ns2=\"http://www.travelport.com/schema/air_v41_0\" xmlns:ns3=\"http://www.travelport.com/schema/rail_v41_0\"><BillingPointOfSaleInfo OriginApplication=\"UAPI\"/><ns2:AirItinerary><ns2:AirSegment Group=\"0\" Carrier=\"UK\" FlightNumber=\"202\" ClassOfService=\"Q\" ETicketability=\"Yes\" Origin=\"DXB\" Destination=\"BOM\" DepartureTime=\"2020-05-26T19:15:00.000+0400\" ArrivalTime=\"2020-05-27T00:15:00.000+0530\" ProviderCode=\"1G\" Key=\"UK-202-1590500700000\"/></ns2:AirItinerary><SearchPassenger Code=\"CNN\" BookingTravelerRef=\"CNN0\"/><SearchPassenger Code=\"INF\" BookingTravelerRef=\"INF0\"/><SearchPassenger Code=\"ADT\" BookingTravelerRef=\"ADT0\"/><ns2:AirPricingCommand><ns2:AirSegmentPricingModifiers AirSegmentRef=\"UK-202-1590500700000\" FareBasisCode=\"QLOAEYV\"/></ns2:AirPricingCommand></ns2:AirPriceReq>",
+      "PreTickedTPMiniRuleReq": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenalties xmlns:ns2=\"org.tempuri.GetPenalties\"><xmlFile>&lt;GetMiniRules&gt;&lt;FareBasis FBC=\"QLOAEYV\"&gt;&lt;Origin&gt;DXB&lt;/Origin&gt;&lt;Destination&gt;BOM&lt;/Destination&gt;&lt;DepartureDate&gt;26May20&lt;/DepartureDate&gt;&lt;Airlines&gt;&lt;Airline&gt;UK&lt;/Airline&gt;&lt;/Airlines&gt;&lt;/FareBasis&gt;&lt;PaxType&gt;&lt;PTC&gt;ADT&lt;/PTC&gt;&lt;PTC&gt;CNN&lt;/PTC&gt;&lt;PTC&gt;INF&lt;/PTC&gt;&lt;/PaxType&gt;&lt;TargetBranch&gt;P3018903&lt;/TargetBranch&gt;&lt;/GetMiniRules&gt;</xmlFile></ns2:GetPenalties>",
+      "PreTickedRawTPMiniRuleResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenaltiesResponse xmlns:ns2=\"org.tempuri.GetPenaltiesResponse\"><getPenaltiesResult>&lt;ArrayOfFareRule xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;ADULT&lt;/PaxType&gt;\n    &lt;Rule&gt;CANCELLATION&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;3695&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;ADULT&lt;/PaxType&gt;\n    &lt;Rule&gt;CANCELLATION&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;3695&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;ADULT&lt;/PaxType&gt;\n    &lt;Rule&gt;CANCELLATION&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;9600&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;ADULT&lt;/PaxType&gt;\n    &lt;Rule&gt;CHANGE&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;8490&lt;/FeeAmount&gt;\n    &lt;CATType&gt;31&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;ADULT&lt;/PaxType&gt;\n    &lt;Rule&gt;CHANGE&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;8490&lt;/FeeAmount&gt;\n    &lt;CATType&gt;31&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;ADULT&lt;/PaxType&gt;\n    &lt;Rule&gt;CHANGE&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;14400&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;CHD&lt;/PaxType&gt;\n    &lt;Rule&gt;CANCELLATION&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;3695&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;CHD&lt;/PaxType&gt;\n    &lt;Rule&gt;CANCELLATION&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;3695&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;CHD&lt;/PaxType&gt;\n    &lt;Rule&gt;CANCELLATION&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;9600&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;CHD&lt;/PaxType&gt;\n    &lt;Rule&gt;CHANGE&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;8490&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;CHD&lt;/PaxType&gt;\n    &lt;Rule&gt;CHANGE&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;8490&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;CHD&lt;/PaxType&gt;\n    &lt;Rule&gt;CHANGE&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;14400&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;INF&lt;/PaxType&gt;\n    &lt;Rule&gt;CANCELLATION&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency /&gt;\n    &lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;\n    &lt;CATType&gt;  &lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;INF&lt;/PaxType&gt;\n    &lt;Rule&gt;CANCELLATION&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency /&gt;\n    &lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;\n    &lt;CATType&gt;  &lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;INF&lt;/PaxType&gt;\n    &lt;Rule&gt;CANCELLATION&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;5910&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;INF&lt;/PaxType&gt;\n    &lt;Rule&gt;CHANGE&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency /&gt;\n    &lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;\n    &lt;CATType&gt;  &lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;INF&lt;/PaxType&gt;\n    &lt;Rule&gt;CHANGE&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency /&gt;\n    &lt;FeeAmount&gt;NR&lt;/FeeAmount&gt;\n    &lt;CATType&gt;  &lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n  &lt;FareRule&gt;\n    &lt;PaxType&gt;INF&lt;/PaxType&gt;\n    &lt;Rule&gt;CHANGE&lt;/Rule&gt;\n    &lt;AirlineCode&gt;UK&lt;/AirlineCode&gt;\n    &lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;\n    &lt;FareBasis&gt;QLOAEYV&lt;/FareBasis&gt;\n    &lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;\n    &lt;FeeAmount&gt;5910&lt;/FeeAmount&gt;\n    &lt;CATType&gt;16&lt;/CATType&gt;\n    &lt;Remarks /&gt;\n  &lt;/FareRule&gt;\n&lt;/ArrayOfFareRule&gt;</getPenaltiesResult></ns2:GetPenaltiesResponse>",
+      "MiniRuleConfig": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:MiniRulesConfig xmlns:ns2=\"com.mmt.models.MiniRulesConfig\"><airline>UK</airline><CPAdditive>0.0</CPAdditive><CPMultiplier>1.05</CPMultiplier><cabinClass>ECONOMY</cabinClass><DCPAdditive>0.0</DCPAdditive><DCPMultiplier>1.05</DCPMultiplier><noShowCutOff>24</noShowCutOff><sector>INTL</sector></ns2:MiniRulesConfig>",
+      "PreTickedTPMiniRuleResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayOfFareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3695</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3695</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>9600</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>8490</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>8490</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>14400</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3695</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>3695</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>9600</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>8490</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>8490</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>CHD</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>14400</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>  </CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>  </CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CANCELLATION</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>5910</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>  </CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency></FeeCurrency><FeeAmount>NR</FeeAmount><CATType>  </CATType></FareRule><FareRule><PaxType>INF</PaxType><Rule>CHANGE</Rule><AirlineCode>UK</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>QLOAEYV</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>5910</FeeAmount><CATType>16</CATType></FareRule></ArrayOfFareRule>",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"DXB$BOM$2605201915$UK-202\":{\"fltGrps\":[{\"fltKeys\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{\"DXB$BOM$2605201915$UK-202\":{\"fltGrps\":[{\"fltKeys\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftCancelFltPenaltyGrp\":{\"DXB$BOM$2605201915$UK-202\":{\"fltGrps\":[{\"fltKeys\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"DXB$BOM$2605201915$UK-202\":{\"fltGrps\":[{\"fltKeys\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{\"DXB$BOM$2605201915$UK-202\":{\"fltGrps\":[{\"fltKeys\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftDateChngeFltPenaltyGrp\":{\"DXB$BOM$2605201915$UK-202\":{\"fltGrps\":[{\"fltKeys\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"twFareRules\":[{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":24,\"to\":8760,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":24,\"to\":8760,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3695\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":0,\"to\":24,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"14400\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":24,\"to\":8760,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"8490\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3695\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":24,\"to\":8760,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"8490\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"8490\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":0,\"to\":24,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9600\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":24,\"to\":8760,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":0,\"to\":24,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"5910\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":24,\"to\":8760,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3695\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":0,\"to\":24,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"14400\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3695\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":0,\"to\":24,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"5910\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":0,\"to\":24,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"9600\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"INR\",\"feeAmount\":\"8490\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"UK\",\"from\":-8760,\"to\":0,\"fareBasis\":\"QLOAEYV\",\"feeCurrency\":\"\",\"feeAmount\":\"NR\",\"mmtFee\":0.0,\"supplierType\":\"TP\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"DXB$BOM$2605201915$UK-202\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"DXB$BOM$2605201915$UK-202\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PreSaleCPResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><arrTime>1590518700000</arrTime><arrivalInfo><arpCd>BOM</arpCd></arrivalInfo><depTime>1590500700000</depTime><departureInfo><arpCd>DXB</arpCd></departureInfo><duration>0</duration><flightNum>202</flightNum><marketingAirline>UK</marketingAirline><operatingAirline>UK</operatingAirline><validatingCarrier>UK</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>v1~~R$R$R0INT$null$null$null$328.0$null$0$0$A,R$R$R0INT$null$null$null$328.0$null$0$0$C,R$R$R0INT$null$null$null$null$null$0$0$I^null$Q$QLOAEYV$null$null$130.0$null$null$1$0$A,null$Q$QLOAEYV$null$null$130.0$null$null$1$0$C,null$Q$QLOAEYV$null$null$130.0$null$null$1$0$I~A-17892.0|13331.0_C-16327.0|11766.0_I-3265.0|3135.0~M$2$1$1$INTLFlight_UN$502$null~~BOM_DXB_290420_6E-83_NkVVTkk=_14:30_290420_16:40_6E_6E_6E_JO~6E_0_0_BOM-DXB-290420_null^DXB_BOM_260520_UK-202_VFBVTklfSU5UTA==_19:15_270520_00:15_UK_UK_UK_JO~TP_0_1_DXB-BOM-260520_null</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>7000de4e07aaf2e5bc6f9716d238a086d9d43d38</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>1</key><value><pnrFareInfos><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>DXB$BOM$2605201915$UK-202</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>3880.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>13960.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>3880.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry><entry><key>CHILD</key><value><paxType>CHILD</paxType><timeWindows><airlinePenalty><cancellationPenalty>3880.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>13960.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>3880.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry><entry><key>INFANT</key><value><paxType>INFANT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>DXB$BOM$2605201915$UK-202</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>8915.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>24035.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>8915.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry><entry><key>CHILD</key><value><paxType>CHILD</paxType><timeWindows><airlinePenalty><cancellationPenalty>8915.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>24035.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>8915.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry><entry><key>INFANT</key><value><paxType>INFANT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><paxFares><entry><key>CHILD</key><value><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><fareBasis>QLOAEYV</fareBasis><rbd>Q</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>-1.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTot>-1.0</singlePaxTot><singlePaxTx>-1.0</singlePaxTx></value></entry><entry><key>INFANT</key><value><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><fareBasis>QLOAEYV</fareBasis><rbd>Q</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>-1.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTot>-1.0</singlePaxTot><singlePaxTx>-1.0</singlePaxTx></value></entry><entry><key>ADULT</key><value><noOfPax>2</noOfPax><segPrdctInfo><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><fareBasis>QLOAEYV</fareBasis><rbd>Q</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>-1.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTot>-1.0</singlePaxTot><singlePaxTx>-1.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_INTL</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-05-27 00:15</arrDate><depDate>2020-05-26 19:15</depDate><duration>0</duration><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</fltLookUpKey><pnrGroupNum>1</pnrGroupNum></flightPnrLookupInfo><journeyKey>DXB$BOM$2605201915$UK-202</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "PreSaleCPResponseAfterSanity": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><arrTime>1590518700000</arrTime><arrivalInfo><arpCd>BOM</arpCd></arrivalInfo><depTime>1590500700000</depTime><departureInfo><arpCd>DXB</arpCd></departureInfo><duration>0</duration><flightNum>202</flightNum><marketingAirline>UK</marketingAirline><operatingAirline>UK</operatingAirline><validatingCarrier>UK</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>v1~~R$R$R0INT$null$null$null$328.0$null$0$0$A,R$R$R0INT$null$null$null$328.0$null$0$0$C,R$R$R0INT$null$null$null$null$null$0$0$I^null$Q$QLOAEYV$null$null$130.0$null$null$1$0$A,null$Q$QLOAEYV$null$null$130.0$null$null$1$0$C,null$Q$QLOAEYV$null$null$130.0$null$null$1$0$I~A-17892.0|13331.0_C-16327.0|11766.0_I-3265.0|3135.0~M$2$1$1$INTLFlight_UN$502$null~~BOM_DXB_290420_6E-83_NkVVTkk=_14:30_290420_16:40_6E_6E_6E_JO~6E_0_0_BOM-DXB-290420_null^DXB_BOM_260520_UK-202_VFBVTklfSU5UTA==_19:15_270520_00:15_UK_UK_UK_JO~TP_0_1_DXB-BOM-260520_null</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>7000de4e07aaf2e5bc6f9716d238a086d9d43d38</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>1</key><value><pnrFareInfos><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>DXB$BOM$2605201915$UK-202</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>3880.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>13960.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>3880.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry><entry><key>CHILD</key><value><paxType>CHILD</paxType><timeWindows><airlinePenalty><cancellationPenalty>3880.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>13960.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>3880.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry><entry><key>INFANT</key><value><paxType>INFANT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>0.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>DXB$BOM$2605201915$UK-202</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>8915.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>24035.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>8915.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry><entry><key>CHILD</key><value><paxType>CHILD</paxType><timeWindows><airlinePenalty><cancellationPenalty>8915.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>24035.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>8915.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry><entry><key>INFANT</key><value><paxType>INFANT</paxType><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>0.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><paxFares><entry><key>CHILD</key><value><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><fareBasis>QLOAEYV</fareBasis><rbd>Q</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>-1.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTot>-1.0</singlePaxTot><singlePaxTx>-1.0</singlePaxTx></value></entry><entry><key>INFANT</key><value><noOfPax>1</noOfPax><segPrdctInfo><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><fareBasis>QLOAEYV</fareBasis><rbd>Q</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>-1.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTot>-1.0</singlePaxTot><singlePaxTx>-1.0</singlePaxTx></value></entry><entry><key>ADULT</key><value><noOfPax>2</noOfPax><segPrdctInfo><entry><key>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</key><value><fareBasis>QLOAEYV</fareBasis><rbd>Q</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>-1.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTot>-1.0</singlePaxTot><singlePaxTx>-1.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_INTL</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-05-27 00:15</arrDate><depDate>2020-05-26 19:15</depDate><duration>0</duration><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15</fltLookUpKey><pnrGroupNum>1</pnrGroupNum></flightPnrLookupInfo><journeyKey>DXB$BOM$2605201915$UK-202</journeyKey></itineraryJrnyList></recoms></rcomGrps><status>SUCCCES</status></ns2:CPReqRes>",
+      "PARTIAL-FAILURES": "[\"com.mmt.exception.FlightRuleContinueExecution: com.mmt.exception.FlightRuleContinueExecution: Exception in connecting Travelport AirPrice service.\\n\\tat com.mmt.flights.rules.workflow.TPPreSaleBaggageDataExtractTask.doWork(TPPreSaleBaggageDataExtractTask.java:37)\\n\\tat com.mmt.flights.rules.workflow.WorkFlowExecutor.executeWithExceptionHandling(WorkFlowExecutor.java:70)\\n\\tat com.mmt.flights.rules.workflow.WorkFlowExecutor.lambda$null$0(WorkFlowExecutor.java:48)\\n\\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\\n\\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\\n\\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\\n\\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\\n\\tat java.lang.Thread.run(Thread.java:748)\\nCaused by: com.mmt.exception.FlightRuleContinueExecution: Exception in connecting Travelport AirPrice service.\\n\\tat com.mmt.tp.baggage.PreSaleBaggageTPManager.invokeService(PreSaleBaggageTPManager.java:100)\\n\\tat com.mmt.tp.baggage.PreSaleBaggageTPManager.populateBaggageInfo(PreSaleBaggageTPManager.java:55)\\n\\tat com.mmt.flights.rules.workflow.TPPreSaleBaggageDataExtractTask.process(TPPreSaleBaggageDataExtractTask.java:48)\\n\\tat com.mmt.flights.rules.workflow.TPPreSaleBaggageDataExtractTask.doWork(TPPreSaleBaggageDataExtractTask.java:35)\\n\\t... 7 more\\nCaused by: com.travelport.service.air_v41_0.AirFaultMessage: The air segments are not bookable.-DATE BEYOND GALILEO SYSTEM RANGE - ENTER AS OPEN IF REQUIRED\\nUK 00202Q 26MAY2020DXBBOM\\n\\tat sun.reflect.GeneratedConstructorAccessor439.newInstance(Unknown Source)\\n\\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\\n\\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\\n\\tat org.apache.cxf.interceptor.ClientFaultConverter.processFaultDetail(ClientFaultConverter.java:178)\\n\\tat org.apache.cxf.interceptor.ClientFaultConverter.handleMessage(ClientFaultConverter.java:81)\\n\\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:271)\\n\\tat org.apache.cxf.interceptor.AbstractFaultChainInitiatorObserver.onMessage(AbstractFaultChainInitiatorObserver.java:114)\\n\\tat org.apache.cxf.binding.soap.interceptor.CheckFaultInterceptor.handleMessage(CheckFaultInterceptor.java:69)\\n\\tat org.apache.cxf.binding.soap.interceptor.CheckFaultInterceptor.handleMessage(CheckFaultInterceptor.java:34)\\n\\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:271)\\n\\tat org.apache.cxf.endpoint.ClientImpl.onMessage(ClientImpl.java:800)\\n\\tat org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponseInternal(HTTPConduit.java:1592)\\n\\tat org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponse(HTTPConduit.java:1490)\\n\\tat org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1309)\\n\\tat org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)\\n\\tat org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:622)\\n\\tat org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:62)\\n\\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:271)\\n\\tat org.apache.cxf.endpoint.ClientImpl.doInvoke(ClientImpl.java:530)\\n\\tat org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:463)\\n\\tat org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:366)\\n\\tat org.apache.cxf.endpoint.ClientImpl.invoke(ClientImpl.java:319)\\n\\tat org.apache.cxf.frontend.ClientProxy.invokeSync(ClientProxy.java:96)\\n\\tat org.apache.cxf.jaxws.JaxWsClientProxy.invoke(JaxWsClientProxy.java:133)\\n\\tat com.sun.proxy.$Proxy183.service(Unknown Source)\\n\\tat com.mmt.tp.baggage.NetworkCall$1.run(NetworkCall.java:71)\\n\\tat com.mmt.tp.baggage.NetworkCall$1.run(NetworkCall.java:55)\\n\\tat com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)\\n\\tat com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)\\n\\tat rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)\\n\\tat rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)\\n\\tat rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)\\n\\tat rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)\\n\\tat rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)\\n\\tat rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)\\n\\tat rx.Observable.unsafeSubscribe(Observable.java:10327)\\n\\tat rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)\\n\\tat rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)\\n\\tat rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)\\n\\tat rx.Observable.subscribe(Observable.java:10423)\\n\\tat rx.Observable.subscribe(Observable.java:10390)\\n\\tat rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)\\n\\tat rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)\\n\\tat com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)\\n\\tat com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)\\n\\tat com.mmt.tp.baggage.NetworkCall.tpBAGNetworkCall(NetworkCall.java:80)\\n\\tat com.mmt.tp.baggage.PreSaleBaggageTPManager.invokeService(PreSaleBaggageTPManager.java:65)\\n\\t... 10 more\\n\",\"com.mmt.exception.FlightRuleContinueExecution: java.lang.NullPointerException\\n\\tat com.mmt.flights.rules.workflow.PreSaleBaggageLogicTask.doWork(PreSaleBaggageLogicTask.java:38)\\n\\tat com.mmt.flights.rules.workflow.WorkFlowExecutor.executeWithExceptionHandling(WorkFlowExecutor.java:70)\\n\\tat com.mmt.flights.rules.workflow.WorkFlowExecutor.lambda$null$0(WorkFlowExecutor.java:48)\\n\\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\\n\\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\\n\\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\\n\\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\\n\\tat java.lang.Thread.run(Thread.java:748)\\nCaused by: java.lang.NullPointerException\\n\"]"
+    }
+  },
+  "flightLookUpList": {
+    "UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15": {
+      "mrkAl": "UK",
+      "oprAl": "UK",
+      "validatingCarrier": "UK",
+      "fltNo": "202",
+      "depInfo": {
+        "arpCd": "DXB"
+      },
+      "arrInfo": {
+        "arpCd": "BOM"
+      },
+      "depTime": 1590500700000,
+      "arrTime": 1590518700000,
+      "dur": 0
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "DXB$BOM$2605201915$UK-202",
+        "depDate": "2020-05-26 19:15",
+        "arrDate": "2020-05-27 00:15",
+        "dur": 0,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15",
+          "pnrGroupNum": 1,
+          "cabin": "M"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "1": {
+            "frInfos": [{
+              "paxFares": {
+                "CHILD": {
+                  "singlePaxBaseFare": -1.0,
+                  "singlePaxTx": -1.0,
+                  "singlePaxTot": -1.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 0.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "psf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yq"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "udf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yr"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "ydf"
+                  }],
+                  "noOfPax": 1,
+                  "segPrdctInfo": {
+                    "UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15": {
+                      "fareBasis": "QLOAEYV",
+                      "rbd": "Q"
+                    }
+                  }
+                },
+                "INFANT": {
+                  "singlePaxBaseFare": -1.0,
+                  "singlePaxTx": -1.0,
+                  "singlePaxTot": -1.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 0.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "psf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yq"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "udf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yr"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "ydf"
+                  }],
+                  "noOfPax": 1,
+                  "segPrdctInfo": {
+                    "UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15": {
+                      "fareBasis": "QLOAEYV",
+                      "rbd": "Q"
+                    }
+                  }
+                },
+                "ADULT": {
+                  "singlePaxBaseFare": -1.0,
+                  "singlePaxTx": -1.0,
+                  "singlePaxTot": -1.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 0.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "psf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yq"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "udf"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "yr"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "ydf"
+                  }],
+                  "noOfPax": 2,
+                  "segPrdctInfo": {
+                    "UK-UK-202-DXB-BOM-2020-05-26 19:15-2020-05-27 00:15": {
+                      "fareBasis": "QLOAEYV",
+                      "rbd": "Q"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "DXB$BOM$2605201915$UK-202",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3880.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 0.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 13960.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 0.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3880.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 0.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3880.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 0.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 13960.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 0.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3880.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 0.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 0.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 0.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 0.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "DXB$BOM$2605201915$UK-202",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 8915.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 24035.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 8915.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 8915.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 24035.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 8915.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 0.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "TP",
+              "supplierCredential": "TPUNI_INTL"
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

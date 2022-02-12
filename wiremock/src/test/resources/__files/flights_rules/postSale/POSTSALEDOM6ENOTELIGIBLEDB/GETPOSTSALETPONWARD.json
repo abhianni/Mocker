@@ -1,0 +1,287 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": " ",
+    "src": " ",
+    "currency": "INR",
+    "correlationId": "NF20103261974540",
+    "iteneraryId": "a08ff379d07232a28c331262fa0559abb936389f",
+    "enableDebugInfo": true
+  },
+  "flightLookUpList": {
+    "6E-6644-HYD-VNS-2020-03-08 11:00:00-2020-03-08 12:55:00": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "validatingCarrier": "6E",
+      "fltNo": "6644",
+      "arcrfTyp": "",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "HYD"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "arpCd": "VNS"
+      },
+      "depTime": 1583645400000,
+      "arrTime": 1583652300000,
+      "dur": 6900000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "HYD-VNS : 6E-6644",
+        "depDate": "2020-03-08 11:00:00",
+        "arrDate": "2020-03-08 12:55:00",
+        "dur": 6900000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "6E-6644-HYD-VNS-2020-03-08 11:00:00-2020-03-08 12:55:00",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 3050.0,
+                  "singlePaxTx": 1393.0,
+                  "singlePaxTot": 4443.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 400.0,
+                    "taxCode": "Yq"
+                  }, {
+                    "taxVal": 83.0,
+                    "taxCode": "Wo"
+                  }, {
+                    "taxVal": 227.0,
+                    "taxCode": "Other"
+                  }, {
+                    "taxVal": 507.0,
+                    "taxCode": "In"
+                  }, {
+                    "taxVal": 88.0,
+                    "taxCode": "CGST"
+                  }, {
+                    "taxVal": 88.0,
+                    "taxCode": "SGST"
+                  }],
+                  "noOfPax": 3,
+                  "journeyWiseFare": {
+                    "HYD-VNS : 6E-6644": {
+                      "singlePaxBaseFare": 3050.0,
+                      "singlePaxTx": 1393.0,
+                      "singlePaxTot": 4443.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 400.0,
+                        "taxCode": "Yq"
+                      }, {
+                        "taxVal": 83.0,
+                        "taxCode": "Wo"
+                      }, {
+                        "taxVal": 227.0,
+                        "taxCode": "Other"
+                      }, {
+                        "taxVal": 507.0,
+                        "taxCode": "In"
+                      }, {
+                        "taxVal": 88.0,
+                        "taxCode": "CGST"
+                      }, {
+                        "taxVal": 88.0,
+                        "taxCode": "SGST"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "6E-6644-HYD-VNS-2020-03-08 11:00:00-2020-03-08 12:55:00": {
+                      "pclass": "R",
+                      "fareBasis": "Q015AP",
+                      "pClass": "R"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "HYD-VNS : 6E-6644",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4360.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4360.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 300.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "HYD-VNS : 6E-6644",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 2500.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4360.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4360.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 300.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "HYD-VNS : 6E-6644",
+                "flightLookUpKey": "6E-6644-HYD-VNS-2020-03-08 11:00:00-2020-03-08 12:55:00",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "15",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "6E",
+              "supplierCredential": "6EUNI_23June"
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

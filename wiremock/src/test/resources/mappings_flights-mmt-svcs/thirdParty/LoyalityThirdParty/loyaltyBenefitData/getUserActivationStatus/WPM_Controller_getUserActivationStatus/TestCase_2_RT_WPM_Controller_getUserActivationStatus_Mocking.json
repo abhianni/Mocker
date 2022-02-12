@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/loyalty-webservice/getUserActivationStatus?.*WPM_RT_UUID.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/LoyalityThirdParty/getUserActivationStatus/WPM_Controller_getUserActivationStatus/TestCase_2_RT_WPM_Controller_getUserActivationStatus_Response.json"
+    }
+}

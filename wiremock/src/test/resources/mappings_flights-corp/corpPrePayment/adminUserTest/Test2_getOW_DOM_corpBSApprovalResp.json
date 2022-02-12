@@ -1,0 +1,20 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/corporate/v1/approvals",
+		 "bodyPatterns":[
+      {       "contains" : "adminUserItineraryTest1"
+      }
+    ]
+
+  },
+
+	"response": {
+	"headers": {
+		"Content-Type": "application/json",
+		"Accept": "application/json"
+	},
+	"status": 200,
+	"bodyFileName": "/corporate/corpPrePayment/adminUserTest/corpBS_adminUser_ApprovalResp.json"
+}
+}

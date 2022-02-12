@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+        "bodyPatterns":[{
+        "contains" : "FLT_TEST_SOA_CONNECTION_RESET_BY_PEER"
+        }]
+    },
+    "response": {
+        "fault": "CONNECTION_RESET_BY_PEER"
+    }
+}

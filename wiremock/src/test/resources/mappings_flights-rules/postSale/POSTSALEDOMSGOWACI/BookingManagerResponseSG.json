@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/BookingManager.svc",
+       "bodyPatterns":[
+{ 	"contains" : "CDFI6A"
+
+}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights_rules/postSale/POSTSALEDOMSGOWACI/BookingManagerResponseSG.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

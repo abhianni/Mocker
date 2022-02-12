@@ -1,0 +1,23 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search/dom/aggr",
+        "bodyPatterns":[{
+		"contains" : "\"from\":\"BOM\""
+        },
+        {
+        "contains" : "\"to\":\"BLR\""
+        },
+		{
+        "contains" : "\"tripType\":\"RT\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+		"transformers": ["body-transformer"],
+        "bodyFileName": "/flights/Aggregator/Personalization/SOA_BOM_BLR_3A_RT.json"
+    }
+}

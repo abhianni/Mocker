@@ -1,0 +1,24 @@
+{
+	"request":{
+		"method": "POST",
+		"url": "/B2BGateway/connect/uAPI/AirService",
+		"bodyPatterns":[
+			{ 	"contains" : "0983761747776"
+
+			}
+
+
+
+		]
+
+
+
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "/flights_rules/postSale/POSTSALEINTLSGAIOW1A/AirRetrieveDocument1TK3D4.xml",
+		"headers": {
+			"Content-Type": "text/xml"
+		}
+	}
+}

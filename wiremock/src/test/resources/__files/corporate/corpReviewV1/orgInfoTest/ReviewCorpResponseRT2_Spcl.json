@@ -1,0 +1,248 @@
+{
+	"status": "SUCCESS",
+	"meta": {
+		"core": {
+			"nmAdt": 2,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "PNQ",
+				"to": "DEL",
+				"depDate": "2020-03-25"
+			}, {
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "PNQ",
+				"depDate": "2020-03-27"
+			}],
+			"cc": "E",
+			"rKey": "v1~~BC$P$PO9ZBINF$null$400.0$null$448.0$null$0$0$A^M$L$LMIP$83.0$392.0$null$null$null$1$0$A~A-3342.0|2035.0_C-0|0_I-0|0^A-3785.0|2907.0_C-0|0_I-0|0~M$2$0$0$CORPSME_UN$0$null~~PNQ_DEL_250320_G8-174_RzhVTklOU0NPUlA=_11:15_250320_13:30_G8_G8_G8_JO~G8_0_0_PNQ-DEL-250320_null_null^DEL_PNQ_270320_6E-105_NkVDU01F_14:45_270320_16:50_6E_6E_6E_JO~6E_0_1_DEL-PNQ-270320_null_null"
+		}
+	},
+	"insurance": {
+		"status": "FAILED",
+		"err": [{
+			"statusCode": 404,
+			"ec": "2001",
+			"em": "No Insurance plan found",
+			"ed": "",
+			"sn": "MMT-SVCS-INSURANCE"
+		}]
+	},
+	"review": {
+		"itineraryId": "testuser1_reviewitinerary_RTDom_special1",
+		"meta": {
+			"cur": "INR",
+			"isDDApld": false,
+			"requestId": "TestUser1_SEARCHCORP_DOM_RT",
+			"srvrMtrc": {}
+		},
+		"recom": {
+			"itneraryJrnys": [{
+				"jrnyKey": "PNQ$DEL$2503201115$G8-174",
+				"isCstmComb": false,
+				"depDate": "2020-03-25 11:15",
+				"arrDate": "2020-03-25 13:30",
+				"dur": 135,
+				"flightDtlsInfo": [{
+					"flyingDay": 0,
+					"fltLookUpKey": "G8-G8-174-PNQ-DEL-2020-03-25 11:15-2020-03-25 13:30",
+					"pnrGroupNum": 0
+				}]
+			}, {
+				"jrnyKey": "DEL$PNQ$2703201445$6E-105",
+				"isCstmComb": true,
+				"depDate": "2020-03-27 14:45",
+				"arrDate": "2020-03-27 16:50",
+				"dur": 125,
+				"flightDtlsInfo": [{
+					"flyingDay": 0,
+					"fltLookUpKey": "6E-6E-105-DEL-PNQ-2020-03-27 14:45-2020-03-27 16:50",
+					"pnrGroupNum": 1
+				}]
+			}],
+			"frInfo": {
+				"showMoreFaresOnListing": false,
+				"bookingFarePnrSelectionInfoMap": {
+					"COMBO": {
+						"paxFr": {
+							"ADULT": {
+								"addonsAmnt": 0.0,
+								"bs": 4942.0,
+								"tx": 2185.0,
+								"sFee": 0.0,
+								"convFee": 0.0,
+								"instDisc": 0.0,
+								"preApDiscntInfo": [],
+								"tot": 7127.0,
+								"txInfo": [{
+									"amnt": 1280.0,
+									"code": "YQ",
+									"msg": "YQ_DM"
+								}, {
+									"amnt": 282.0,
+									"code": "GOODS_SERVICE_TAX",
+									"msg": "GOODS_SERVICE_TAX_DM"
+								}, {
+									"amnt": 83.0,
+									"code": "PSF",
+									"msg": "PSF_DM"
+								}, {
+									"amnt": 92.0,
+									"code": "TF",
+									"msg": "TF_DM"
+								}, {
+									"amnt": 448.0,
+									"code": "UDF",
+									"msg": "UDF_DM"
+								}],
+								"sFeeInfo": {}
+							}
+						},
+						"totFr": {
+							"addonsAmnt": 0.0,
+							"bs": 9884.0,
+							"tx": 4370.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 14254.0,
+							"txInfo": [{
+								"amnt": 2560.0,
+								"code": "YQ",
+								"msg": "YQ_DM"
+							}, {
+								"amnt": 564.0,
+								"code": "GOODS_SERVICE_TAX",
+								"msg": "GOODS_SERVICE_TAX_DM"
+							}, {
+								"amnt": 166.0,
+								"code": "PSF",
+								"msg": "PSF_DM"
+							}, {
+								"amnt": 184.0,
+								"code": "TF",
+								"msg": "TF_DM"
+							}, {
+								"amnt": 896.0,
+								"code": "UDF",
+								"msg": "UDF_DM"
+							}],
+							"sFeeInfo": {},
+							"addons": [{
+								"itemType": "COUPON",
+								"itemCode": "",
+								"selected": false,
+								"disabled": false
+							}]
+						},
+						"rKey": "v1~~BC$P$PO9ZBINF$null$400.0$null$448.0$null$0$0$A^M$L$LMIP$83.0$392.0$null$null$null$1$0$A~A-3342.0|2035.0_C-0|0_I-0|0^A-3785.0|2907.0_C-0|0_I-0|0~M$2$0$0$CORPSME_UN$0$null~~PNQ_DEL_250320_G8-174_RzhVTklOU0NPUlA=_11:15_250320_13:30_G8_G8_G8_JO~G8_0_0_PNQ-DEL-250320_null_null^DEL_PNQ_270320_6E-105_NkVDU01F_14:45_270320_16:50_6E_6E_6E_JO~6E_0_1_DEL-PNQ-270320_null_null"
+					}
+				},
+				"isPnrGrpdFrFmlyAvl": false,
+				"preSlctdFarePnrSelectionInfoKey": "COMBO"
+			},
+			"fareChange": {
+				"change": true,
+				"oldFare": 14174,
+				"newFare": 14254,
+				"fareDifference": 80
+			}
+		},
+		"fareComponentLookUpMap": {
+			"INF": "Infant Tax",
+			"KKC": "Krishi Kalyan Cess",
+			"AST": "Service Tax",
+			"PSF": "Passenger Service Fee",
+			"DF": "Development Fee",
+			"OTH": "Other",
+			"CF": "Congestion Fee",
+			"GOODS_SERVICE_TAX": "Goods and Services Tax",
+			"TTF": "Travel and Tourism Fee",
+			"GST": "Gvt. Service Fee",
+			"UDFA": "User Development Fee(Arrival)",
+			"TF": "CUTE Fee",
+			"SF": "Service Fee",
+			"RCF": "Regional Connectivity Fund",
+			"SBC": "Swachh Bharat Cess ",
+			"UDF": "User Development Fee",
+			"YQ": "Airline Fuel Charge",
+			"DC": "Discount"
+		},
+		"alCdeMap": {
+			"G8": {
+				"nm": "Go Air"
+			},
+			"6E": {
+				"nm": "IndiGo"
+			}
+		},
+		"ctyCdeMap": {
+			"PNQ": {
+				"nm": "Pune",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Pune Airport"
+			},
+			"DEL": {
+				"nm": "New Delhi",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Indira Gandhi International Airport"
+			}
+		},
+		"flightLookUpList": {
+			"6E-6E-105-DEL-PNQ-2020-03-27 14:45-2020-03-27 16:50": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "6E",
+				"oprAl": "6E",
+				"fltNo": "105",
+				"arcrfTyp": "Airbus A320 ",
+				"depInfo": {
+					"trmnl": "1",
+					"cityCd": "DEL",
+					"arpNm": "Indira Gandhi International Airport"
+				},
+				"arrInfo": {
+					"trmnl": "",
+					"cityCd": "PNQ",
+					"arpNm": "Pune Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-03-27 14:45",
+				"arrTime": "2020-03-27 16:50",
+				"dur": 125
+			},
+			"G8-G8-174-PNQ-DEL-2020-03-25 11:15-2020-03-25 13:30": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "G8",
+				"oprAl": "G8",
+				"fltNo": "174",
+				"arcrfTyp": "32A",
+				"depInfo": {
+					"trmnl": "",
+					"cityCd": "PNQ",
+					"arpNm": "Pune Airport"
+				},
+				"arrInfo": {
+					"trmnl": "2",
+					"cityCd": "DEL",
+					"arpNm": "Indira Gandhi International Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-03-25 11:15",
+				"arrTime": "2020-03-25 13:30",
+				"dur": 135
+			}
+		},
+		"services": {}
+	}
+}

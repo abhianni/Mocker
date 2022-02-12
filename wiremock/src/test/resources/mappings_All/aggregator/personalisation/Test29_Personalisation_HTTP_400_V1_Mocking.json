@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-personalization/pricePersonalizationInfo",
+        "bodyPatterns":[{	
+        "contains" : "PersonalisationNegativeTestHTTP400BADREQUEST"
+        }]
+    },
+    "response": {
+        "status": 400
+	}
+}

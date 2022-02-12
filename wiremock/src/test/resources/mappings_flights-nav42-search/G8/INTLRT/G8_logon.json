@@ -1,0 +1,17 @@
+{
+  "request":{
+    "url": "/sessionmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "LogonRequest"
+      },
+		{ "contains" : "splmm9"
+		}
+	  
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/G8/OW/G8_logon.xml"
+
+  }
+}

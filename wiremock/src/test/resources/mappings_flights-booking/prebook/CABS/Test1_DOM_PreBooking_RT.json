@@ -1,0 +1,15 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightBooking/prePayment",
+    "bodyPatterns":[
+      {       "contains" : "efa70fe460a3addb5e3c09627ad810b1497ec436"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_booking/itinerary/cabs/Test1_DOM_RT_PreBook_RESPONSE.json"
+  }
+}

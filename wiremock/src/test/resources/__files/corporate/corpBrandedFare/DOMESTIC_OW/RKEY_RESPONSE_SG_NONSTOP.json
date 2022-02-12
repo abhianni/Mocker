@@ -1,0 +1,77 @@
+{
+	"RKEY:rkeyB2B1:0": {
+		"left": 1,
+		"middle": {
+			"fareKeyMap": {
+				"0": [{
+					"productClass": "SA",
+					"fareClass": "U",
+					"fareBasis": "USME",
+					"taxPsf": "91.0",
+					"taxYq": null,
+					"taxYr": null,
+					"taxYdf": null,
+					"taxK3": null,
+					"journeyIndex": 0,
+					"legIndex": 0,
+					"pax": "A"
+				}]
+			},
+			"paxFareInformation": {
+				"adultPrice": 3449.0,
+				"childPrice": 0,
+				"infantPrice": 0,
+				"adultBasePrice": 2864.0,
+				"childBasePrice": 0,
+				"infantBasePrice": 0,
+				"rtAdultPrice": null,
+				"rtChildPrice": null,
+				"rtInfantPrice": null,
+				"rtAdultBasePrice": null,
+				"rtChildBasePrice": null,
+				"rtInfantBasePrice": null
+			},
+			"flightLevelInformation": {
+				"cabinClass": "M",
+				"adultNumber": 1,
+				"childNumber": 0,
+				"infantNumber": 0,
+				"markup": 0,
+				"lob": "CORPB2B_UN",
+				"realRKey": "v1~~SA$U$USME$91.0$null$null$null$null$0$0$A~A-3449.0|2864.0_C-0|0_I-0|0~M$1$0$0$CORPB2B_UN$0$0~~DEL_BLR_030420_SG-143_U0dDU01FVEVTVA==_21:05_030420_23:50_SG_SG_SG_JO~SG_0_0_DEL-BLR-030420_null_null",
+				"discount": 0
+			}
+		},
+		"right": {
+			"0": {
+				"segments": [{
+					"depCityCode": "DEL",
+					"arrCityCode": "BLR",
+					"depDate": "030420",
+					"depTime": "21:05",
+					"depDateTime": "2020-04-03 21:05",
+					"arrDate": "030420",
+					"arrTime": "23:50",
+					"arrDateTime": "2020-04-03 23:50",
+					"flightNumber": "SG-143",
+					"cmsId": "SGCSMETEST",
+					"validatingAirline": "SG",
+					"marketingAirline": "SG",
+					"operatingAirline": "SG",
+					"flightServiceName": null,
+					"pnrGroup": null,
+					"rtFareFlag": null,
+					"stopType": "JOURNEY_OVER"
+				}],
+				"otherInfo": {
+					"flightServiceName": "SG",
+					"pnrGroup": 0,
+					"fareFamily": null,
+					"rtFareFlag": 0,
+					"intent": "DEL-BLR-030420",
+					"ptc": null
+				}
+			}
+		}
+	}
+}

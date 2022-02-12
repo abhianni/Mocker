@@ -1,0 +1,94 @@
+{
+    "itineraryId": "UID_orgInfoDomTest1_6E_OW_SME",
+    "status": "SUCCESS",
+    "meta": {
+        "core": {
+            "nmAdt": 1,
+            "nmChd": 0,
+            "nmInf": 0,
+            "it": [
+                {
+                    "classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+                    "from": "DEL",
+                    "to": "BLR",
+                    "depDate": "2020-12-02"
+                }
+            ],
+            "cc": "E"
+        },
+        "isDDApld": false,
+        "srvrMtrc": {}
+    },
+    "recom": {
+        "itneraryJrnys": [
+            {
+                "isCstmComb": false,
+                "depDate": "2020-12-02 06:55",
+                "arrDate": "2020-12-02 09:50",
+                "dur": 175,
+                "flightDtlsInfo": [
+                    {
+                        "flyingDay": 0,
+                        "fltLookUpKey": "6E_6E_2031_DEL_BLR_2020-12-02 06:55_2020-12-02 09:50",
+                        "pnrGroupNum": 0
+                    }
+                ]
+            }
+        ],
+        "frInfo": {
+            "showMoreFaresOnListing": false,
+            "pnrGrpdMultiFareInfoV5": {
+                "0": {
+                    "fareInfos": [
+                        {
+                            "fareMetaData": {
+                                "pnrCabinClass": "E"
+                            }
+                        }
+                    ]
+                }
+            },
+            "isPnrGrpdFrFmlyAvl": false
+        }
+    },
+    "alCdeMap": {
+        "6E": {
+            "nm": "IndiGo"
+        }
+    },
+    "ctyCdeMap": {
+        "BLR": {
+            "nm": "Bengaluru",
+            "cntry": "India",
+            "ctc": "IN",
+            "tmz": "Asia/Kolkata",
+            "airportName": "Bengaluru International Airport"
+        },
+        "DEL": {
+            "nm": "New Delhi",
+            "cntry": "India",
+            "ctc": "IN",
+            "tmz": "Asia/Kolkata",
+            "airportName": "Indira Gandhi International Airport"
+        }
+    },
+    "flightLookUpList": {
+        "6E_6E_2031_DEL_BLR_2020-12-02 06:55_2020-12-02 09:50": {
+            "mrkAl": "6E",
+            "oprAl": "6E",
+            "fltNo": "2031",
+            "depInfo": {
+                "trmnl": "2",
+                "cityCd": "DEL"
+            },
+            "arrInfo": {
+                "trmnl": "1",
+                "cityCd": "BLR"
+            },
+            "tchStp": [],
+            "depTime": "2020-12-02 06:55",
+            "arrTime": "2020-12-02 09:50",
+            "dur": 175
+        }
+    }
+}

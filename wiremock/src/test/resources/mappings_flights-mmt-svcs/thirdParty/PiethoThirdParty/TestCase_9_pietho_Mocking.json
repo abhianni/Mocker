@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/peitho/get",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"}
+		},
+        "bodyPatterns":[{
+        "contains" : "peithoTimeout"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 15000,
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        
+       "bodyPatterns":[{
+        "contains" : "PNR_Retrieve"},
+{		"contains" : "PPF288"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Prepayment/failure/PNR_retireve_PPF288_successful.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

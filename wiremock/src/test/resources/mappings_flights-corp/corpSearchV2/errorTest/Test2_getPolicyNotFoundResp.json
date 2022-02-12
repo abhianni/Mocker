@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/policy/2020"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+    "bodyFileName": "/corporate/corpSearchV1/errorTest/Test2_corpPolicyNotFoundResp.json"
+  }
+}

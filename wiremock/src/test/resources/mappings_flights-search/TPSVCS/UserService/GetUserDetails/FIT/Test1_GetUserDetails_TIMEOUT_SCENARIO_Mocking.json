@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-tp-svcs/v1/user-details?.*TimeoutGUD.*"
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 15000,
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

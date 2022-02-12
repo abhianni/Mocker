@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/Flights-persuasion/removeFromShortlist",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json",
+        "caseInsensitive": true
+      },
+      "mmt-auth": {
+        "equalTo": "VH_VK_A_P_RT",
+        "caseInsensitive": true
+      }
+    },
+     "bodyPatterns" : [
+      {
+        "contains" : "SG_8623_SG_57|IX_142|MultiTicketRT##MultiTicketRT$$$DEL_DXB_010818_SG-8623|SG-57_SG_0^DXB_DEL_080818_IX-142_IX_1"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights/Aggregator/Shortlisting/RemoveShortlist/Valid_Header_Key_RemoveShortlistAggregatorToPersuation_response_RT.json"
+  }
+}

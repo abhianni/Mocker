@@ -1,0 +1,96 @@
+{
+  "bestPersuasionText": "",
+  "surgeFactor": 5,
+  "expireAt": 2831394600000,
+  "description": "1X",
+  "surge": false,
+  "discountInfo": {
+    "FROMCITY1-TOCITY1-DEPTDATE1": {
+      "discountInfoMap": {
+        "RKEYINREQ1": {
+          "cd": "TESTFSMOCKHYBRID",
+          "disc": 4000,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:1000.0|CTW:3000.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ2": {
+          "cd": "TESTFSMOCKHYBRID",
+          "disc": 4000,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:1000.0|CTW:3000.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ3": {
+          "cd": "TESTFSMOCKHYBRID",
+          "disc": 4000,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:1000.0|CTW:3000.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ4": {
+          "cd": "TESTFSMOCKHYBRID",
+          "disc": 3715,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:1000.0|CTW:2715.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ5": {
+          "cd": "TESTFSMOCKHYBRID",
+          "disc": 2720,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:1000.0|CTW:1720.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ6": {
+          "cd": "TESTFSMOCKHYBRID",
+          "disc": 3659,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:1000.0|CTW:2659.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        }
+      },
+      "broadCastCoupon": [
+        {
+          "moreVerificationRequired": false,
+          "doubleDiscountingAllowed": false,
+          "blockedPaymentOptions": "",
+          "discount": 4000,
+          "hybridDiscount": [
+            {
+              "discount": 1000,
+              "discountType": "Instant",
+              "discountTypeCode": "INSTANT",
+              "timeOfCredit": "Booking",
+              "walletAmountExpiryDate": null,
+              "discountShare": null
+            },
+            {
+              "discount": 3000,
+              "discountType": "Cashback to Wallet",
+              "discountTypeCode": "CTW",
+              "timeOfCredit": "Booking",
+              "walletAmountExpiryDate": "1546195496553",
+              "discountShare": null
+            }
+          ],
+          "message": "Test Message",
+          "paymentMessage": "Test Payment Message",
+          "recommendationMessage": "Test Recommendation message",
+          "couponCode": "TESTFSMOCKHYBRID",
+          "tnc": "http://www.makemytrip.com",
+          "userMessage": "Test User Message",
+          "instant": false
+        }
+      ]
+    }
+  },
+  "statusCode": 200,
+  "status": "SUCCESS"
+}

@@ -1,0 +1,22 @@
+{
+    "request":{
+        "method": "POST",
+       
+       "bodyPatterns":[{
+        "contains" : "PNR_Retrieve",
+		"contains" : "CRPABC"
+        }]
+
+
+
+    },
+    "response": {
+        
+"fault": "CONNECTION_RESET_BY_PEER"
+         
+       
+
+
+        }
+    }
+}

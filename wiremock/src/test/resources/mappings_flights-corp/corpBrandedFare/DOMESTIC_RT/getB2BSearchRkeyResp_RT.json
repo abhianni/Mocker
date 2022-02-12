@@ -1,0 +1,17 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/flights-search/v1/rkey-info.*crId=BRANDEDFAREDOMRT",
+		 "bodyPatterns":[{
+        "contains" : "rkeyB2BRT1"
+        }]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpBrandedFare/DOMESTIC_RT/getB2BSearchRkeyResp_RT.json"
+	}
+}

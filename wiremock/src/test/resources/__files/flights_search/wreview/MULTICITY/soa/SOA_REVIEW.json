@@ -1,0 +1,933 @@
+{
+	"fareFamilyRecommendations": {
+		"error": {
+			"ec": "400",
+			"em": "Fare Family is not supported for this entire journey"
+		},
+		"warning": "Your Vistara flight(s) may not serve you free meals.--Your Jet flight(s) may not serve you free meals.",
+		"fareFamilyAvailable": false,
+		"fareFamilyResponse": [],
+		"services": {},
+		"rtFare": false
+	},
+	"reviewKey": "17010e738ef47bd843186c7bf9ae29425d7c8299",
+	"rKey": "v1~~null$Q$QH8PYS$null$null$186.0$null$319.0$0$0$A,null$Q$QH8PYS$null$null$186.0$null$319.0$0$0$C,null$Q$QH8PYS$null$null$186.0$null$72.0$0$0$I^null$V$V2LSPOIA$null$6010.0$346.0$null$458.0$1$0$A,null$V$V2LSPOIA$null$6010.0$346.0$null$458.0$1$0$C,null$V$V2LSPOIA$null$1382.0$346.0$null$101.0$1$0$I^null$U$ULSOSAE1$null$12571.0$300.0$null$null$2$0$A,null$U$ULSOSAE1CH$null$12571.0$300.0$null$null$2$0$C,null$U$ULSOSAE1IN$null$0.0$300.0$null$null$2$0$I~A-59265.0|35145.0_C-52870.0|28750.0_I-6552.0|4165.0~M$1$1$1$INTLFlight_UN$1413~~FromCity1_ToCity1_DepartDate1_UK-975_VFBVTklfRE9N_06:00_DepartDate1_08:05_UK_UK_UK_JO~TP_0_0_FromCity1-ToCity1-DepartDate1_null^ToCity1_ToCity2_DepartDate2_9W-580_VFBVTklfSU5UTA==_01:40_DepartDate2_03:35_9W_9W_9W_JO~TP_0_1_ToCity1-ToCity2-DepartDate2_null^ToCity2_ToCity3_DepartDate3_EK-85_TVBFWElOSU5UUkFOT01OUg==_15:50_DepartDate3_19:55_EK_EK_EK_JO~MP_0_2_ToCity2-ToCity3-DepartDate3_null",
+	"journeys": {
+		"FromCity1_ToCity1_DepartDate1": {
+			"segments": {
+				"FromCity1_ToCity1_DepartDate1": {
+					"fltLst": [{
+						"amenitySegmentKey": null,
+						"depInf": {
+							"trml": "3",
+							"ctCd": "FromCity1",
+							"airp": "Indira Gandhi International Airport",
+							"ctNm": "New FromCity1hi",
+							"arpCd": "FromCity1",
+							"cntr": "India",
+							"tmZn": "Asia/Kolkata",
+							"lat": 28.5665,
+							"long": 77.103088,
+							"cont": "India",
+							"cur": "INR"
+						},
+						"arrInf": {
+							"trml": "2",
+							"ctCd": "ToCity1",
+							"airp": "Chhatrapati Shivaji International Airport",
+							"ctNm": "Mumbai",
+							"arpCd": "ToCity1",
+							"cntr": "India",
+							"tmZn": "Asia/Kolkata",
+							"lat": 19.088686,
+							"long": 72.867919,
+							"cont": "India",
+							"cur": "INR"
+						},
+						"depDt": 1573432200000,
+						"arrDt": 1573439700000,
+						"techStpOvrLst": [],
+						"totDur": 125,
+						"segSlKey": "f3lqdnBAAA/BbfNhQNAAAA==",
+						"fareSlKey": null,
+						"mrktArln": "UK",
+						"oprArln": "UK",
+						"equipTyp": "320",
+						"equipCd": "320",
+						"equipNm": "Airbus A320 ",
+						"fltNum": "975",
+						"carierCode": "UK",
+						"bagDtls": [{
+							"bag": {
+								"qty": "15",
+								"utyp": "W",
+								"unt": "KILOGRAMS"
+							},
+							"pxTyp": "ADT",
+							"pxRf": "f3lqdnBAAA/BdfNhQNAAAA=="
+						}, {
+							"bag": {
+								"qty": "0",
+								"utyp": "N",
+								"unt": null
+							},
+							"pxTyp": "INF",
+							"pxRf": "f3lqdnBAAA/BqfNhQNAAAA=="
+						}, {
+							"bag": {
+								"qty": "15",
+								"utyp": "W",
+								"unt": "KILOGRAMS"
+							},
+							"pxTyp": "CHD",
+							"pxRf": "f3lqdnBAAA/BzfNhQNAAAA=="
+						}],
+						"avlCntxtLst": [],
+						"availCount": null,
+						"cbcls": "M",
+						"pnRf": {},
+						"splitPnr": false,
+						"availSrc": "A",
+						"suplrNm": null,
+						"ao": [{
+							"at": "MEAL",
+							"isPaid": true
+						}]
+					}],
+					"fr": [{
+						"pxTypFrMap": {
+							"INFANT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-YR": 186.0,
+										"TAXCOMPONENT-K3": 72.0,
+										"TOT": 1508.0,
+										"TAX": 258.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": "f3lqdnBAAA/BtfNhQNAAAA==",
+										"rb": "Q",
+										"cbn": "M",
+										"avl": "9",
+										"fbc": "QH8PYS",
+										"frAmt": "INR1250",
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity1",
+										"deptcd": "FromCity1",
+										"prdcls": null,
+										"si": null
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"ADULT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-YR": 186.0,
+										"TAXCOMPONENT-K3": 319.0,
+										"TAXCOMPONENT-WO": 245.0,
+										"TOT": 6950.0,
+										"TAX": 750.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": "f3lqdnBAAA/BhfNhQNAAAA==",
+										"rb": "Q",
+										"cbn": "M",
+										"avl": "9",
+										"fbc": "QH8PYS",
+										"frAmt": "INR6200",
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity1",
+										"deptcd": "FromCity1",
+										"prdcls": null,
+										"si": null
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"CHILD": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-YR": 186.0,
+										"TAXCOMPONENT-K3": 319.0,
+										"TAXCOMPONENT-WO": 245.0,
+										"TOT": 6950.0,
+										"TAX": 750.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": "f3lqdnBAAA/B3fNhQNAAAA==",
+										"rb": "Q",
+										"cbn": "M",
+										"avl": "9",
+										"fbc": "QH8PYS",
+										"frAmt": "INR6200",
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity1",
+										"deptcd": "FromCity1",
+										"prdcls": null,
+										"si": null
+									}]
+								}],
+								"paxRef": 0
+							}]
+						},
+						"frInfoMap": {},
+						"subFares": []
+					}],
+					"minFrRl": null,
+					"lfid": null,
+					"aggFltNum": "FromCity1$ToCity1$DepartDate10600$UK-975",
+					"cur": "INR",
+					"totDur": 125,
+					"rfndbl": true,
+					"sPNR": false,
+					"hldbl": true,
+					"cbn": null,
+					"cbnCls": ["M"],
+					"refAir": "UK",
+					"dep": "FromCity1",
+					"arr": "ToCity1",
+					"offId": null,
+					"credId": "TPUNI_DOM",
+					"jrnySlKey": null,
+					"srvc": "TP",
+					"vc": "UK",
+					"currInfo": {
+						"costCurrency": "INR",
+						"sellCurrency": null,
+						"conversionFactor": null
+					},
+					"signature": null,
+					"rtngId": null
+				}
+			}
+		},
+		"ToCity1_ToCity2_DepartDate2": {
+			"segments": {
+				"ToCity1_ToCity2_DepartDate2": {
+					"fltLst": [{
+						"amenitySegmentKey": null,
+						"depInf": {
+							"trml": "2",
+							"ctCd": "ToCity1",
+							"airp": "Chhatrapati Shivaji International Airport",
+							"ctNm": "Mumbai",
+							"arpCd": "ToCity1",
+							"cntr": "India",
+							"tmZn": "Asia/Kolkata",
+							"lat": 19.088686,
+							"long": 72.867919,
+							"cont": "India",
+							"cur": "INR"
+						},
+						"arrInf": {
+							"trml": "1",
+							"ctCd": "ToCity2",
+							"airp": "Dubai International",
+							"ctNm": "Dubai",
+							"arpCd": "ToCity2",
+							"cntr": "United Arab Emirates",
+							"tmZn": "Etc/GMT-4",
+							"lat": 25.252778,
+							"long": 55.364444,
+							"cont": "ME/Gulf",
+							"cur": "AED"
+						},
+						"depDt": 1573762200000,
+						"arrDt": 1573769100000,
+						"techStpOvrLst": [],
+						"totDur": 205,
+						"segSlKey": "Z2csdnBAAA/BVXPkONAAAA==",
+						"fareSlKey": null,
+						"mrktArln": "9W",
+						"oprArln": "9W",
+						"equipTyp": "73H",
+						"equipCd": "73H",
+						"equipNm": "73H",
+						"fltNum": "580",
+						"carierCode": "9W",
+						"bagDtls": [{
+							"bag": {
+								"qty": "30",
+								"utyp": "W",
+								"unt": "KILOGRAMS"
+							},
+							"pxTyp": "ADT",
+							"pxRf": "Z2csdnBAAA/BXXPkONAAAA=="
+						}, {
+							"bag": {
+								"qty": "10",
+								"utyp": "W",
+								"unt": "KILOGRAMS"
+							},
+							"pxTyp": "INF",
+							"pxRf": "Z2csdnBAAA/BhXPkONAAAA=="
+						}, {
+							"bag": {
+								"qty": "30",
+								"utyp": "W",
+								"unt": "KILOGRAMS"
+							},
+							"pxTyp": "CHD",
+							"pxRf": "Z2csdnBAAA/BnXPkONAAAA=="
+						}],
+						"avlCntxtLst": [],
+						"availCount": null,
+						"cbcls": "M",
+						"pnRf": {},
+						"splitPnr": false,
+						"availSrc": "S",
+						"suplrNm": null,
+						"ao": [{
+							"at": "MEAL",
+							"isPaid": true
+						}]
+					}],
+					"fr": [{
+						"pxTypFrMap": {
+							"INFANT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"MUAPPFESTJET": 31.0,
+										"TAXCOMPONENT-YR": 346.0,
+										"TAXCOMPONENT-K3": 101.0,
+										"TAXCOMPONENT-YQ": 1382.0,
+										"MUJETONLY": 42.0,
+										"TOT": 2109.0,
+										"TAX": 1829.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": "Z2csdnBAAA/BlXPkONAAAA==",
+										"rb": "V",
+										"cbn": "M",
+										"avl": "7",
+										"fbc": "V2LSPOIA",
+										"frAmt": "INR280",
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity2",
+										"deptcd": "ToCity1",
+										"prdcls": null,
+										"si": null
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"ADULT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"MUAPPFESTJET": 160.0,
+										"TAXCOMPONENT-YR": 346.0,
+										"TAXCOMPONENT-K3": 458.0,
+										"TAXCOMPONENT-WO": 154.0,
+										"TAXCOMPONENT-ZR": 94.0,
+										"TAXCOMPONENT-YQ": 6010.0,
+										"MUJETONLY": 221.0,
+										"TAXCOMPONENT-IN": 329.0,
+										"TOT": 11041.0,
+										"TAXCOMPONENT-YM": 850.0,
+										"TAX": 8241.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": "Z2csdnBAAA/BfXPkONAAAA==",
+										"rb": "V",
+										"cbn": "M",
+										"avl": "7",
+										"fbc": "V2LSPOIA",
+										"frAmt": "INR2800",
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity2",
+										"deptcd": "ToCity1",
+										"prdcls": null,
+										"si": null
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"CHILD": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"MUAPPFESTJET": 160.0,
+										"TAXCOMPONENT-YR": 346.0,
+										"TAXCOMPONENT-K3": 458.0,
+										"TAXCOMPONENT-WO": 154.0,
+										"TAXCOMPONENT-ZR": 94.0,
+										"TAXCOMPONENT-YQ": 6010.0,
+										"MUJETONLY": 221.0,
+										"TAXCOMPONENT-IN": 329.0,
+										"TOT": 11041.0,
+										"TAXCOMPONENT-YM": 850.0,
+										"TAX": 8241.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": "Z2csdnBAAA/BvXPkONAAAA==",
+										"rb": "V",
+										"cbn": "M",
+										"avl": "7",
+										"fbc": "V2LSPOIA",
+										"frAmt": "INR2800",
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity2",
+										"deptcd": "ToCity1",
+										"prdcls": null,
+										"si": null
+									}]
+								}],
+								"paxRef": 0
+							}]
+						},
+						"frInfoMap": {},
+						"subFares": []
+					}],
+					"minFrRl": null,
+					"lfid": null,
+					"aggFltNum": "ToCity1$ToCity2$DepartDate20140$9W-580",
+					"cur": "INR",
+					"totDur": 205,
+					"rfndbl": true,
+					"sPNR": false,
+					"hldbl": true,
+					"cbn": null,
+					"cbnCls": ["M"],
+					"refAir": "9W",
+					"dep": "ToCity1",
+					"arr": "ToCity2",
+					"offId": null,
+					"credId": "TPUNI_INTL",
+					"jrnySlKey": null,
+					"srvc": "TP",
+					"vc": "9W",
+					"currInfo": {
+						"costCurrency": "INR",
+						"sellCurrency": null,
+						"conversionFactor": null
+					},
+					"signature": null,
+					"rtngId": null
+				}
+			}
+		},
+		"ToCity2_ToCity3_DepartDate3": {
+			"segments": {
+				"ToCity2_ToCity3_DepartDate3": {
+					"fltLst": [{
+						"amenitySegmentKey": null,
+						"depInf": {
+							"trml": "3",
+							"ctCd": "ToCity2",
+							"airp": "Dubai International",
+							"ctNm": "Dubai",
+							"arpCd": "ToCity2",
+							"cntr": "United Arab Emirates",
+							"tmZn": "Etc/GMT-4",
+							"lat": 25.252778,
+							"long": 55.364444,
+							"cont": "ME/Gulf",
+							"cur": "AED"
+						},
+						"arrInf": {
+							"trml": "",
+							"ctCd": "ToCity3",
+							"airp": "Zurich Intl",
+							"ctNm": "Zurich",
+							"arpCd": "ToCity3",
+							"cntr": "Switzerland",
+							"tmZn": "Europe/Zurich",
+							"lat": 47.464722,
+							"long": 8.549167,
+							"cont": "Europe",
+							"cur": "CHF"
+						},
+						"depDt": 1574245200000,
+						"arrDt": 1574259900000,
+						"techStpOvrLst": [],
+						"totDur": 425,
+						"segSlKey": null,
+						"fareSlKey": null,
+						"mrktArln": "EK",
+						"oprArln": "EK",
+						"equipTyp": "388",
+						"equipCd": null,
+						"equipNm": "Airbus A380 ",
+						"fltNum": "85",
+						"carierCode": "EK",
+						"bagDtls": [{
+							"bag": {
+								"qty": "30",
+								"utyp": "W",
+								"unt": "K"
+							},
+							"pxTyp": "ADT",
+							"pxRf": "1"
+						}],
+						"avlCntxtLst": [],
+						"availCount": null,
+						"cbcls": "M",
+						"pnRf": {},
+						"splitPnr": false,
+						"availSrc": null,
+						"suplrNm": null,
+						"ao": [{
+							"at": "MEAL",
+							"isPaid": true
+						}]
+					}],
+					"fr": [{
+						"pxTypFrMap": {
+							"INFANT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-YR": 300.0,
+										"TAXCOMPONENT-YQ": 0.0,
+										"MUAPPFESTINB": 73.0,
+										"TOT": 2935.0,
+										"TAX": 300.0,
+										"TAXCOMPONENT-Q": 0.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "U",
+										"cbn": "M",
+										"avl": "9",
+										"fbc": "ULSOSAE1IN",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": ["RP"],
+										"brkPnt": "Y",
+										"arrcd": "",
+										"deptcd": "",
+										"prdcls": null,
+										"si": null
+									}]
+								}],
+								"paxRef": 1
+							}],
+							"ADULT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-YR": 300.0,
+										"TAXCOMPONENT-YQ": 12571.0,
+										"MUAPPFESTINB": 1032.0,
+										"TOT": 41274.0,
+										"TAX": 15129.0,
+										"TAXCOMPONENT-Q": 0.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "U",
+										"cbn": "M",
+										"avl": "9",
+										"fbc": "ULSOSAE1",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": ["RP"],
+										"brkPnt": "Y",
+										"arrcd": "",
+										"deptcd": "",
+										"prdcls": null,
+										"si": null
+									}]
+								}],
+								"paxRef": 1
+							}],
+							"CHILD": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-YR": 300.0,
+										"TAXCOMPONENT-YQ": 12571.0,
+										"MUAPPFESTINB": 872.0,
+										"TOT": 34879.0,
+										"TAX": 15129.0,
+										"TAXCOMPONENT-Q": 0.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "U",
+										"cbn": "M",
+										"avl": "9",
+										"fbc": "ULSOSAE1CH",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": ["RP"],
+										"brkPnt": "Y",
+										"arrcd": "",
+										"deptcd": "",
+										"prdcls": null,
+										"si": null
+									}]
+								}],
+								"paxRef": 2
+							}]
+						},
+						"frInfoMap": {},
+						"subFares": []
+					}],
+					"minFrRl": null,
+					"lfid": null,
+					"aggFltNum": "ToCity2$ToCity3$DepartDate31550$EK-85",
+					"cur": null,
+					"totDur": 425,
+					"rfndbl": true,
+					"sPNR": false,
+					"hldbl": false,
+					"cbn": null,
+					"cbnCls": ["M"],
+					"refAir": "EK",
+					"dep": null,
+					"arr": null,
+					"offId": null,
+					"credId": "MPEXININTRANOMNR",
+					"jrnySlKey": null,
+					"srvc": "MP",
+					"vc": "EK",
+					"currInfo": {
+						"costCurrency": "INR",
+						"sellCurrency": null,
+						"conversionFactor": null
+					},
+					"signature": null,
+					"rtngId": null
+				}
+			}
+		}
+	},
+	"combinedInfo": {
+		"FARE_CHANGE": {
+			"fareStatus": 0,
+			"oldFare": 0.0,
+			"newFare": 60678.0,
+			"totalFareChangeAmount": 121499.0
+		},
+		"COMBINED_REVIEW_FARE": {
+			"paxTypeFareBreakUp": {
+				"INFANT": {
+					"totalMarkup": 146.0,
+					"totalDiscount": 0.0,
+					"totalTax": 2387.0,
+					"totalBaseFare": 4165.0,
+					"fareBreakupMap": {
+						"MUAPPFESTJET": 31.0,
+						"TAXCOMPONENT-YR": 832.0,
+						"TAXCOMPONENT-K3": 173.0,
+						"TAXCOMPONENT-YQ": 1382.0,
+						"MUJETONLY": 42.0,
+						"MUAPPFESTINB": 73.0,
+						"TOT": 6552.0,
+						"TAX": 2387.0,
+						"TAXCOMPONENT-Q": 0.0
+					},
+					"totalFare": 6698.0,
+					"paxRef": 0
+				},
+				"ADULT": {
+					"totalMarkup": 1413.0,
+					"totalDiscount": 0.0,
+					"totalTax": 24120.0,
+					"totalBaseFare": 35145.0,
+					"fareBreakupMap": {
+						"TAXCOMPONENT-YR": 832.0,
+						"TAXCOMPONENT-WO": 399.0,
+						"TAXCOMPONENT-ZR": 94.0,
+						"TAXCOMPONENT-YQ": 18581.0,
+						"TAX": 24120.0,
+						"MUAPPFESTJET": 160.0,
+						"TAXCOMPONENT-K3": 777.0,
+						"MUJETONLY": 221.0,
+						"MUAPPFESTINB": 1032.0,
+						"TAXCOMPONENT-IN": 329.0,
+						"TOT": 59265.0,
+						"TAXCOMPONENT-YM": 850.0,
+						"TAXCOMPONENT-Q": 0.0
+					},
+					"totalFare": 60678.0,
+					"paxRef": 0
+				},
+				"CHILD": {
+					"totalMarkup": 1253.0,
+					"totalDiscount": 0.0,
+					"totalTax": 24120.0,
+					"totalBaseFare": 28750.0,
+					"fareBreakupMap": {
+						"TAXCOMPONENT-YR": 832.0,
+						"TAXCOMPONENT-WO": 399.0,
+						"TAXCOMPONENT-ZR": 94.0,
+						"TAXCOMPONENT-YQ": 18581.0,
+						"TAX": 24120.0,
+						"MUAPPFESTJET": 160.0,
+						"TAXCOMPONENT-K3": 777.0,
+						"MUJETONLY": 221.0,
+						"MUAPPFESTINB": 872.0,
+						"TAXCOMPONENT-IN": 329.0,
+						"TOT": 52870.0,
+						"TAXCOMPONENT-YM": 850.0,
+						"TAXCOMPONENT-Q": 0.0
+					},
+					"totalFare": 54123.0,
+					"paxRef": 0
+				}
+			},
+			"combinedFareBreakUp": {
+				"totalMarkup": 2812.0,
+				"totalDiscount": 0.0,
+				"totalTax": 50627.0,
+				"totalBaseFare": 68060.0,
+				"fareBreakupMap": {
+					"TAXCOMPONENT-YR": 2496.0,
+					"TAXCOMPONENT-YQ": 38544.0,
+					"TAXCOMPONENT-WO": 798.0,
+					"TAXCOMPONENT-ZR": 188.0,
+					"TAX": 50627.0,
+					"MUAPPFESTJET": 351.0,
+					"TAXCOMPONENT-K3": 1727.0,
+					"MUJETONLY": 484.0,
+					"MUAPPFESTINB": 1977.0,
+					"TAXCOMPONENT-IN": 658.0,
+					"TOT": 118687.0,
+					"TAXCOMPONENT-YM": 1700.0,
+					"TAXCOMPONENT-Q": 0.0
+				},
+				"totalFare": 121499.0,
+				"paxRef": null
+			}
+		},
+		"COMBINED_DATA": {
+			"data": {
+				"splitPNR": false,
+				"REFUNDABLE": true,
+				"officeIds": ["FromCity1I228BM"],
+				"CABIN_CLASS": ["M"],
+				"IS_PURE": true,
+				"LAST_TKT_DATE": "20NOV19",
+				"MAX_STOP": 0,
+				"HOLDABLE": null,
+				"MAX_LAYOFF_TIME": 0,
+				"refferenceAirline": "EK",
+				"IS_PURE_LCC": false,
+				"VC": "EK"
+			}
+		}
+	},
+	"travellerInfo": {
+		"prtPymtEnbld": false,
+		"prtPymtSeltd": false,
+		"prtPymtAmt": null,
+		"searchKey": null,
+		"email": null,
+		"userDetails": null
+	},
+	"trvlrReqdInfo": {
+		"dobReqdForAllPax": false,
+		"dobReqdForInf": true,
+		"dobReqdForChild": false,
+		"ppMandatory": false,
+		"nationalityMandatory": false
+	},
+	"frFamilyDetails": {
+		"error": {
+			"ec": "400",
+			"em": "Fare Family is not supported for this entire journey"
+		},
+		"warning": "Your Vistara flight(s) may not serve you free meals.--Your Jet flight(s) may not serve you free meals.",
+		"fareFamilyAvailable": false,
+		"fareFamilyResponse": [],
+		"services": {},
+		"rtFare": false
+	},
+	"fareBreakUp": {
+		"fareSummary": [{
+			"paxType": "Infant",
+			"noOfPax": 1,
+			"fareDetails": {
+				"discount": 0.0,
+				"taxDetails": {
+					"flightTax": [{
+						"taxValue": 832.0,
+						"taxDescription": "TF",
+						"taxDescriptionMessage": "TF_DM"
+					}, {
+						"taxValue": 173.0,
+						"taxDescription": "GOODS_SERVICE_TAX",
+						"taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+					}, {
+						"taxValue": 1382.0,
+						"taxDescription": "YQ",
+						"taxDescriptionMessage": "YQ_DM"
+					}],
+					"totalTaxAmount": 2387.0
+				},
+				"mmtServiceFee": {
+					"taxValue": 146.0,
+					"taxDescription": "SF",
+					"taxDescriptionMessage": "SF_DM",
+					"serviceName": "MMT Service Fee"
+				},
+				"baseFare": 4165.0,
+				"totalFare": 6698.0
+			}
+		}, {
+			"paxType": "Adult",
+			"noOfPax": 1,
+			"fareDetails": {
+				"discount": 0.0,
+				"taxDetails": {
+					"flightTax": [{
+						"taxValue": 832.0,
+						"taxDescription": "TF",
+						"taxDescriptionMessage": "TF_DM"
+					}, {
+						"taxValue": 399.0,
+						"taxDescription": "PSF",
+						"taxDescriptionMessage": "PSF_DM"
+					}, {
+						"taxValue": 777.0,
+						"taxDescription": "GOODS_SERVICE_TAX",
+						"taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+					}, {
+						"taxValue": 1179.0,
+						"taxDescription": "UDF",
+						"taxDescriptionMessage": "UDF_DM"
+					}, {
+						"taxValue": 20933.0,
+						"taxDescription": "YQ",
+						"taxDescriptionMessage": "YQ_DM"
+					}],
+					"totalTaxAmount": 24120.0
+				},
+				"mmtServiceFee": {
+					"taxValue": 1413.0,
+					"taxDescription": "SF",
+					"taxDescriptionMessage": "SF_DM",
+					"serviceName": "MMT Service Fee"
+				},
+				"baseFare": 35145.0,
+				"totalFare": 60678.0
+			}
+		}, {
+			"paxType": "Child",
+			"noOfPax": 1,
+			"fareDetails": {
+				"discount": 0.0,
+				"taxDetails": {
+					"flightTax": [{
+						"taxValue": 832.0,
+						"taxDescription": "TF",
+						"taxDescriptionMessage": "TF_DM"
+					}, {
+						"taxValue": 399.0,
+						"taxDescription": "PSF",
+						"taxDescriptionMessage": "PSF_DM"
+					}, {
+						"taxValue": 777.0,
+						"taxDescription": "GOODS_SERVICE_TAX",
+						"taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+					}, {
+						"taxValue": 1179.0,
+						"taxDescription": "UDF",
+						"taxDescriptionMessage": "UDF_DM"
+					}, {
+						"taxValue": 20933.0,
+						"taxDescription": "YQ",
+						"taxDescriptionMessage": "YQ_DM"
+					}],
+					"totalTaxAmount": 24120.0
+				},
+				"mmtServiceFee": {
+					"taxValue": 1253.0,
+					"taxDescription": "SF",
+					"taxDescriptionMessage": "SF_DM",
+					"serviceName": "MMT Service Fee"
+				},
+				"baseFare": 28750.0,
+				"totalFare": 54123.0
+			}
+		}],
+		"taxSummary": {
+			"flightTax": [{
+				"taxValue": 2496.0,
+				"taxDescription": "TF",
+				"taxDescriptionMessage": "TF_DM"
+			}, {
+				"taxValue": 798.0,
+				"taxDescription": "PSF",
+				"taxDescriptionMessage": "PSF_DM"
+			}, {
+				"taxValue": 1727.0,
+				"taxDescription": "GOODS_SERVICE_TAX",
+				"taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+			}, {
+				"taxValue": 2358.0,
+				"taxDescription": "UDF",
+				"taxDescriptionMessage": "UDF_DM"
+			}, {
+				"taxValue": 43248.0,
+				"taxDescription": "YQ",
+				"taxDescriptionMessage": "YQ_DM"
+			}],
+			"totalTaxAmount": 50627.0
+		},
+		"mmtServiceFee": {
+			"taxValue": 2812.0,
+			"taxDescription": "SF",
+			"taxDescriptionMessage": "SF_DM",
+			"serviceName": "MMT Service Fee"
+		},
+		"taxDescMap": {
+			"INF": "Infant Tax",
+			"KKC": "Krishi Kalyan Cess",
+			"AST": "Service Tax",
+			"PSF": "Passenger Service Fee",
+			"DF": "Development Fee",
+			"OTH": "Other",
+			"CF": "Congestion Fee",
+			"GOODS_SERVICE_TAX": "Goods and Services Tax",
+			"TTF": "Travel and Tourism Fee",
+			"GST": "Gvt. Service Fee",
+			"UDFA": "User Development Fee(Arrival)",
+			"TF": "CUTE Fee",
+			"SF": "Service Fee",
+			"RCF": "Regional Connectivity Fund",
+			"SBC": "Swachh Bharat Cess ",
+			"UDF": "User Development Fee",
+			"YQ": "Airline Fuel Charge",
+			"DC": "Discount"
+		}
+	}
+}

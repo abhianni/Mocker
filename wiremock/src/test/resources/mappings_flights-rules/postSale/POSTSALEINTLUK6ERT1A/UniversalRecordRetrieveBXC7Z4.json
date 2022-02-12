@@ -1,0 +1,24 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/B2BGateway/connect/uAPI/UniversalRecordService",
+       "bodyPatterns":[
+{ 	"contains" : "BXC7Z4"
+
+}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights_rules/postSale/POSTSALEINTLUK6ERT1A/UniversalRecordRetrieveBXC7Z4.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

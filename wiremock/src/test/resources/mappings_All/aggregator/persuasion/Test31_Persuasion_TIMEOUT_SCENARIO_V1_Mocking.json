@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-persuasion/persuasionElements",
+        "bodyPatterns":[{
+        "contains" : "PersuasionNegativeTestTIMEOUTSCENARIO"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 15000,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/aggregator/persuasion/Test31_Persuasion_TIMEOUT_SCENARIO_V1_Response.json"
+    }
+}

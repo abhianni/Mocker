@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v1/tp-aggregator/loyalty-benefit-data?.*FF_INTERNALSERVERERROR.*",
+		"headers": {
+            "x-profile-type" : {"matches" : "PERSONAL" },
+            "x-src" : {"matches" : "MMT" },
+            "x-lob" : {"matches" : "B2C" }
+        }
+        
+    },
+        "response": {
+            "status": 200,
+            "bodyFileName": "/flights_search/postreview/OW_FASTFORWARD_ERROR/BLACK_FF.json"
+        }
+}

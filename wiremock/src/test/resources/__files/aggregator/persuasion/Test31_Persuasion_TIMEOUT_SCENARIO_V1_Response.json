@@ -1,0 +1,93 @@
+{
+	"cTRResponse": {
+		"cheaperThanRailPrecentageDiff": 25.0,
+		"cheapestTatkalFareRail": {
+			"trainName": "Superfast EXP",
+			"trainNumber": 12030,
+			"ticketClass": "3A",
+			"srcCityName": "Delhi",
+			"destCityName": "Mumbai",
+			"srcCityCode": "DEL",
+			"descCityCode": "BOM",
+			"normalAmount": 490.0,
+			"tatkalAmount": 1075.0,
+			"fareType": "Tatkal",
+			"textToDisplay1": "Cheaper Than Rail",
+			"textToDisplay2": "Save Hours",
+			"percentageDiff": 15.0,
+			"persuationElement1": "Cheaper Than Rail",
+			"persuationElement2": "Save $timeDiff at just Rs $priceDiff",
+			"duration": 280
+		},
+		"cheapestNormalFareRail": {
+			"trainName": "Bandra Terminal EXP",
+			"trainNumber": 12031,
+			"ticketClass": "2A",
+			"srcCityName": "Delhi",
+			"destCityName": "Mumbai",
+			"srcCityCode": "DEL",
+			"descCityCode": "BOM",
+			"normalAmount": 700.0,
+			"tatkalAmount": 1515.0,
+			"fareType": "Normal",
+			"textToDisplay1": "Cheaper than $trainName",
+			"textToDisplay2": "Save Hours",
+			"percentageDiff": 10.0,
+			"persuationElement1": "Cheaper than $trainName",
+			"persuationElement2": "Save $timeDiff at just Rs $priceDiff",
+			"duration": 235
+		},
+		"ec": 0
+	},
+	"pPResponse": {
+		"sp": true,
+		"dp": 2,
+		"fd": 994.9157228692602,
+		"ec": 0
+	},
+	"jBResponse": {
+        "showPersuasion": true,
+        "persuasionResponseMap": {
+            "listing": {
+                "message": "Hot Sector: {{users}} users booked in {{span}}. Flights filling fast for this date. Book now!",
+                "users": "21",
+                "span": "last 24 hour(s)"
+            }
+        }
+    },
+    "pfResponse": {
+        "planeInfoMap": {
+            "DEL-BOM-AI349": {
+                "c": 75,
+                "v": 35,
+                "d": 6,
+                "h": "m7",
+                "m": "m8",
+                "s": "m9"
+            },
+            "DEL-BOM-G8544": {
+                "c": 35,
+                "v": 10,
+                "d": 2,
+                "h": "m1",
+                "m": "m2",
+                "s": "m3"
+            }
+        },
+        "persuasionMsgMap": {
+            "m1": "Filling Fast",
+            "m2": "Book Now to avoid last minute surge charges",
+            "m3": "Plane filled V percent in last Y days",
+            "m4": "Last-minute bookings cost 40 percent more",
+            "m5": "Hurry! Fares likely to increase",
+            "m6": "Flight half-full, fares likely to increase",
+            "m7": "Almost Full",
+            "m8": "Flight almost full. Book Now!",
+            "m9": "Plane filled V percent in last Y hours",
+            "m11": "Few Seats Left",
+            "m10": "Most flights in this sector are about to sell out",
+            "m13": "Flight may sell out in the next few hours",
+            "m12": "You are booking last few seats!"
+        }
+    }
+}

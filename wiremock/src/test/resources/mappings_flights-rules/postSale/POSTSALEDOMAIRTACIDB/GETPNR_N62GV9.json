@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-pnr-service/v1/pnr",
+    "bodyPatterns":[
+      {       "contains" : "N62GV9"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOMAIRTACIDB/GETPNR_N62GV9.json"
+  }
+}
+

@@ -1,0 +1,205 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "14687",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.4",
+    "serviceName": "Pnr-Service",
+    "supplierName": "TP",
+    "credentialId": "TPUNI_DOM",
+    "supplierLatency": "5502",
+    "corporateCode": "",
+    "promoCode": ""
+  },
+  "flightLookUpList": {
+    "BHO$DEL$2020-04-24 22:00$AI-438": {
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "438",
+      "arcrfTyp": "32B",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "BHO",
+        "arpNm": "Raja Bhoj Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-04-24 22:00",
+      "arrTime": "2020-04-24 23:25",
+      "durInMins": "85"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [
+      {
+        "jrnyKey": "BHO$DEL$2020-04-24 22:00$AI-438",
+        "depDate": "2020-04-24 22:00",
+        "arrDate": "2020-04-24 23:25",
+        "durInMins": "85",
+        "flightDtlsInfo": [
+          {
+            "fltLookUpKey": "BHO$DEL$2020-04-24 22:00$AI-438",
+            "pnrGroupNum": 0
+          }
+        ]
+      }
+    ],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "ADULT": {
+              "bs": 800.0,
+              "tx": 487.0,
+              "noOfPax": 2,
+              "tot": 1287.0,
+              "taxBreakups": [
+                {
+                  "amnt": 49.0,
+                  "code": "K3",
+                  "msg": ""
+                },
+                {
+                  "amnt": 268.0,
+                  "code": "WO",
+                  "msg": ""
+                },
+                {
+                  "amnt": 170.0,
+                  "code": "YR",
+                  "msg": ""
+                }
+              ],
+              "segPrdctInfo": {
+                "BHO$DEL$2020-04-24 22:00$AI-438": {
+                  "fareClass": "S",
+                  "fareBasis": "SSALE20",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 25,
+                      "weightUnit": "KILOGRAMS"
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 1600.0,
+            "tx": 974.0,
+            "tot": 2574.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "XKS8M2",
+          "aPnr": "258ISK",
+          "travelerAddons": {
+            "0": {
+              "ptcType": "ADT",
+              "flightLevelAddons": {
+                "BHO$DEL$2020-04-24 22:00$AI-438": {
+                  "addons": {
+                    "SEATS": {
+                      "addonsType": "SEATS",
+                      "amount": 0.0,
+                      "code": "16E"
+                    }
+                  }
+                }
+              }
+            },
+            "1": {
+              "ptcType": "ADT",
+              "flightLevelAddons": {
+                "BHO$DEL$2020-04-24 22:00$AI-438": {
+                  "addons": {
+                    "SEATS": {
+                      "addonsType": "SEATS",
+                      "amount": 0.0,
+                      "code": "16F"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "travelerInfos": [
+            {
+              "id": "0",
+              "title": "MR",
+              "paxId": "",
+              "firstName": "Mayank",
+              "middleName": "",
+              "lastName": "Rana",
+              "mealPreference": "",
+              "gender": "MALE",
+              "emailId": "mayankrana1984@yahoo.com",
+              "mobileNumber": "9752225000",
+              "mobileNumberCountryCode": "91",
+              "paxType": "ADULT",
+              "dateOfBirth": "",
+              "nationality": "",
+              "freqFlierInformation": []
+            },
+            {
+              "id": "1",
+              "title": "Ms",
+              "paxId": "",
+              "firstName": "Seema",
+              "middleName": "",
+              "lastName": "Rana",
+              "mealPreference": "",
+              "gender": "FEMALE",
+              "emailId": "mayankrana1984@yahoo.com",
+              "mobileNumber": "9752225000",
+              "mobileNumberCountryCode": "91",
+              "paxType": "ADULT",
+              "dateOfBirth": "",
+              "nationality": "",
+              "freqFlierInformation": []
+            }
+          ],
+          "ticketInfos": [
+            {
+              "travellerId": "0",
+              "issuingAirline": "AI",
+              "ticketNumber": "0983758951775",
+              "ticketType": "E",
+              "status": "N",
+              "issuingDate": "2020-02-16 18:52",
+              "iataCode": "",
+              "issuingAgent": "1G",
+              "dateChange": false
+            },
+            {
+              "travellerId": "1",
+              "issuingAirline": "AI",
+              "ticketNumber": "0983758951776",
+              "ticketType": "E",
+              "status": "N",
+              "issuingDate": "2020-02-16 18:52",
+              "iataCode": "",
+              "issuingAgent": "1G",
+              "dateChange": false
+            }
+          ],
+          "validatingCarrier": "AI",
+          "creationDate": "2020-02-16 18:45",
+          "fareFamily": "",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

@@ -1,0 +1,19 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/flights-search/v1/rkey-info.*crId=testCheaperFlight1.*",
+		"bodyPatterns": [
+			{
+				"contains": "RKEY:16381c6d-5c25-4b1c-9f82-8627fd24b9ca:0"
+			}
+		]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpCheapFlight/RT/Test1_rkeyInfoV1DomRTResp.json"
+	}
+}

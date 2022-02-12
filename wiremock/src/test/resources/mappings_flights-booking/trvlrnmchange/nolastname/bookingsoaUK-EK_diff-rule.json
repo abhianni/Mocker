@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightBooking/v1/traveller-name-change",
+       "bodyPatterns":[
+{       "contains" : "trvlr-nm-chng-two-diff-rules"
+}
+]
+
+    },
+  "response": {
+    "status": 200,
+    "bodyFileName": "flights_booking/trvlrnmchange/nolastname/bookingsoaUK-EK_diff-rule.json"
+  }
+}
+

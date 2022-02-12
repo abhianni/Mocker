@@ -1,0 +1,96 @@
+{
+  "bestPersuasionText": "",
+  "surgeFactor": 5,
+  "expireAt": 2831394600000,
+  "description": "1X",
+  "surge": false,
+  "discountInfo": {
+    "FROMCITY1-TOCITY1-DEPTDATE1": {
+      "discountInfoMap": {
+        "RKEYINREQ1": {
+          "cd": "TESTFSMOCKINST",
+          "disc": 150,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:150.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ2": {
+          "cd": "TESTFSMOCKINST",
+          "disc": 150,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:150.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ3": {
+          "cd": "TESTFSMOCKINST",
+          "disc": 150,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:150.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ4": {
+          "cd": "TESTFSMOCKINST",
+          "disc": 150,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:150.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ5": {
+          "cd": "TESTFSMOCKINST",
+          "disc": 150,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:150.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ6": {
+          "cd": "TESTFSMOCKINST",
+          "disc": 150,
+          "isInstant": true,
+          "dsplyTxt": "INSTANT:150.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        }
+      },
+      "broadCastCoupon": [
+        {
+          "moreVerificationRequired": false,
+          "doubleDiscountingAllowed": false,
+          "blockedPaymentOptions": "",
+          "discount": 4000,
+          "hybridDiscount": [
+            {
+              "discount": 1000,
+              "discountType": "Instant",
+              "discountTypeCode": "INSTANT",
+              "timeOfCredit": "Booking",
+              "walletAmountExpiryDate": null,
+              "discountShare": null
+            },
+            {
+              "discount": 3000,
+              "discountType": "Cashback to Wallet",
+              "discountTypeCode": "CTW",
+              "timeOfCredit": "Booking",
+              "walletAmountExpiryDate": "1546195496553",
+              "discountShare": null
+            }
+          ],
+          "message": "Test INST Message",
+          "paymentMessage": "Test Payment INST Message",
+          "recommendationMessage": "Test Recommendation INST message",
+          "couponCode": "TESTFSMOCKINST",
+          "tnc": "http://www.makemytrip.com",
+          "userMessage": "Test User INST Message",
+          "instant": false
+        }
+      ]
+    }
+  },
+  "statusCode": 200,
+  "status": "SUCCESS"
+}

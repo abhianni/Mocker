@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/cms-service/credentialID",
+        "bodyPatterns":[{	
+        "contains" : "DFITIntl_RANDOM_DATA_THEN_CLOSE"
+        }]
+    },
+    "response": {
+        "fault": "RANDOM_DATA_THEN_CLOSE"
+    }
+}

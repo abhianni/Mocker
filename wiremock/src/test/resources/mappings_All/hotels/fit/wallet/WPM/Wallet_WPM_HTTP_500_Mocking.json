@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/wpm/hcs/rule/recommend.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_WPM_HTTP_500"
+        }]
+    },
+    "response": {
+        "status": 500,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

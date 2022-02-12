@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v1/tp-aggregator/personalized-emi.*itId=DOM_RT_AI_SUCCESS.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/flights_search/wreview/DOMRTFareSG/tp/DOMRT_EMI.json"
+    }
+}

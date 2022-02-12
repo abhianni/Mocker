@@ -1,0 +1,15 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flightSOA-web/v1/review",
+    "bodyPatterns":[
+      {       "contains" : "TimeOutSOA"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 17000
+  }
+}

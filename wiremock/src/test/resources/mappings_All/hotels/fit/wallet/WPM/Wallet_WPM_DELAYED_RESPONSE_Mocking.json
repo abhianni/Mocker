@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/wpm/hcs/rule/recommend.*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_WPM_HTTP_200"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 30000,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+    }
+}

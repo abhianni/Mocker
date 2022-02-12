@@ -1,0 +1,24 @@
+{
+ "request":{
+
+        "method": "POST",
+
+        "url": "/bookingmanager.svc",
+
+       "bodyPatterns":[
+
+{ "contains" : "SIN"
+},
+{ "contains" : "GetAvailabilityRequest"
+}
+
+
+
+]
+  },
+  "response": {
+    
+    "bodyFileName": "/connector/nav42/6E/INTLOW/6E_OW_availibity.xml"
+
+  }
+}

@@ -1,0 +1,1897 @@
+{
+  "classname": ".AggregatorSearchSplitResponse",
+  "status": "SUCCESS",
+  "meta": {
+    "cur": "INR",
+    "rhnBnr": {
+      "lbl": "SMART VALUE",
+      "txt": "Flights on top !",
+      "subTxt": "Popularity based on duration and price."
+    },
+    "brdCstCpns": {},
+    "requestId": "FLT_TEST_D-jjhOM_OW_ALL_FOR_API",
+    "lgurl": "https://imgak.mmtcdn.com/air/pwa/dist/assets/img/airline-logos/sm{{airline}}.gif?v=17",
+    "srvrMtrc": {
+      "is.search.buddy.route": "false",
+      "is.search.nearby.route": "false",
+      "is.search.source.cache": "false",
+      "is.search.source.imp.cache": "false",
+      "time.search.total.ms": "2426"
+    }
+  },
+  "alCdeMap": {
+    "9I": {
+      "nm": "New Airline"
+    },
+    "G8": {
+      "nm": "Go Air"
+    },
+    "MA": {
+      "nm": "Multiple Airline"
+    },
+    "UK": {
+      "nm": "Vistara"
+    },
+    "AI": {
+      "nm": "AirIndia"
+    },
+    "6E": {
+      "nm": "IndiGo"
+    },
+    "SG": {
+      "nm": "Spicejet"
+    }
+  },
+  "ctyCdeMap": {
+    "IXJ": {
+      "nm": "Jammu",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata",
+      "dist": 0
+    },
+	
+        "IXR": {
+            "nm": "Ranchi",
+            "cntry": "India",
+            "tmz": "Asia/Kolkata",
+            "dist": 0
+        },
+    "DEL": {
+      "nm": "New Delhi",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata",
+      "dist": 0
+    },
+    "SXR": {
+      "nm": "Srinagar",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata",
+      "dist": 0
+    },
+    "BLR": {
+      "nm": "Bengaluru",
+      "cntry": "India",
+      "tmz": "Asia/Kolkata",
+      "dist": 0
+    }
+  },
+  "flightLookUpList": {
+    "AI-AI-821-DEL-IXJ-2019-08-31 10:50-2019-08-31 12:20": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "821",
+      "arcrfTyp": "Airbus A319 ",
+      "depInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "arrInfo": {
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-31 10:50",
+      "arrTime": "2019-08-31 12:20",
+      "dur": 90
+    },
+    "6E-6E-576-IXJ-SXR-2019-08-28 09:15-2019-08-28 09:55": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "576",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "1",
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-28 09:15",
+      "arrTime": "2019-08-28 09:55",
+      "dur": 40
+    },
+    "G8-G8-287-IXJ-SXR-2019-08-28 14:15-2019-08-28 14:55": {
+      "mrkAl": "G8",
+      "oprAl": "G8",
+      "fltNo": "287",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-28 14:15",
+      "arrTime": "2019-08-28 14:55",
+      "dur": 40
+    },
+    "AI-AI-821-IXJ-SXR-2019-08-28 13:00-2019-08-28 13:35": {
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "821",
+      "arcrfTyp": "Airbus A319 ",
+      "depInfo": {
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-28 13:00",
+      "arrTime": "2019-08-28 13:35",
+      "dur": 35
+    },
+    "SG-SG-424-BLR-SXR-2019-08-28 21:15-2019-08-28 22:45": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "424",
+      "arcrfTyp": "Boeing 737-700",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "BLR",
+        "arpNm": "Bengaluru International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-28 21:15",
+      "arrTime": "2019-08-28 22:45",
+      "dur": 90
+    },
+    "6E-6E-485-IXJ-BLR-2019-08-28 15:05-2019-08-28 18:40": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "485",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "BLR",
+        "arpNm": "Bengaluru International Airport"
+      },
+      "tchStp": [
+        {
+          "dur": 30,
+          "locInfo": {
+            "cityCd": "IXR",
+            "arpNm": "Birsa Munda Airport"
+          },
+          "depTime": "2019-08-28 16:20",
+          "arrTime": "2019-08-28 15:50"
+        }
+      ],
+      "depTime": "2019-08-28 15:05",
+      "arrTime": "2019-08-28 18:40",
+      "dur": 215
+    },
+    "AI-AI-825-DEL-SXR-2019-08-29 10:15-2019-08-29 11:45": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "825",
+      "arcrfTyp": "Airbus A321 ",
+      "depInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "arrInfo": {
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-29 10:15",
+      "arrTime": "2019-08-29 11:45",
+      "dur": 90
+    },
+    "AI-AI-822-SXR-IXJ-2019-08-30 14:20-2019-08-30 15:05": {
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "822",
+      "arcrfTyp": "Airbus A319 ",
+      "depInfo": {
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "arrInfo": {
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-30 14:20",
+      "arrTime": "2019-08-30 15:05",
+      "dur": 45
+    },
+    "9I-AI-9614-IXJ-DEL-2019-08-28 12:25-2019-08-28 14:25": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "AI",
+      "oprAl": "9I",
+      "fltNo": "9614",
+      "arcrfTyp": "ATR",
+      "depInfo": {
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-28 12:25",
+      "arrTime": "2019-08-28 14:25",
+      "dur": 120
+    },
+    "AI-AI-822-IXJ-DEL-2019-08-28 15:45-2019-08-28 17:10": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "822",
+      "arcrfTyp": "Airbus A319 ",
+      "depInfo": {
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-28 15:45",
+      "arrTime": "2019-08-28 17:10",
+      "dur": 85
+    },
+    "UK-UK-611-SXR-IXJ-2019-08-30 12:30-2019-08-30 13:20": {
+      "mrkAl": "UK",
+      "oprAl": "UK",
+      "fltNo": "611",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-30 12:30",
+      "arrTime": "2019-08-30 13:20",
+      "dur": 50
+    },
+    "UK-UK-612-IXJ-SXR-2019-08-28 13:55-2019-08-28 14:45": {
+      "mrkAl": "UK",
+      "oprAl": "UK",
+      "fltNo": "612",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-28 13:55",
+      "arrTime": "2019-08-28 14:45",
+      "dur": 50
+    },
+    "6E-6E-559-IXJ-SXR-2019-08-28 14:05-2019-08-28 15:00": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "559",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "1",
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-28 14:05",
+      "arrTime": "2019-08-28 15:00",
+      "dur": 55
+    },
+    "AI-AI-827-DEL-SXR-2019-08-29 07:25-2019-08-29 08:40": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "827",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "arrInfo": {
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-29 07:25",
+      "arrTime": "2019-08-29 08:40",
+      "dur": 75
+    },
+    "AI-AI-826-SXR-DEL-2019-08-30 12:25-2019-08-30 14:05": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "826",
+      "arcrfTyp": "Airbus A321 ",
+      "depInfo": {
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-30 12:25",
+      "arrTime": "2019-08-30 14:05",
+      "dur": 100
+    },
+    "6E-6E-554-IXJ-SXR-2019-08-28 09:35-2019-08-28 10:20": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "554",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "1",
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-28 09:35",
+      "arrTime": "2019-08-28 10:20",
+      "dur": 45
+    },
+    "6E-6E-653-SXR-IXJ-2019-08-30 12:10-2019-08-30 13:05": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "fltNo": "653",
+      "arcrfTyp": "Airbus A320 ",
+      "depInfo": {
+        "trmnl": "",
+        "cityCd": "SXR",
+        "arpNm": "Srinagar International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-30 12:10",
+      "arrTime": "2019-08-30 13:05",
+      "dur": 55
+    },
+    "9I-AI-9613-DEL-IXJ-2019-08-31 07:05-2019-08-31 09:20": {
+      "amen": {
+        "frMeal": false
+      },
+      "mrkAl": "AI",
+      "oprAl": "9I",
+      "fltNo": "9613",
+      "arcrfTyp": "ATR",
+      "depInfo": {
+        "trmnl": "3",
+        "cityCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "arrInfo": {
+        "cityCd": "IXJ",
+        "arpNm": "Jammu Airport"
+      },
+      "tchStp": [],
+      "depTime": "2019-08-31 07:05",
+      "arrTime": "2019-08-31 09:20",
+      "dur": 135
+    }
+  },
+  "ow": [
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$SXR$2808191415$G8-287",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 14:15",
+      "arrDate": "2019-08-28 14:55",
+      "dur": 40,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "G8-G8-287-IXJ-SXR-2019-08-28 14:15-2019-08-28 14:55",
+          "pnrGroupNum": 0
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 671,
+                "tx": 543,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1214
+              },
+              "INFANT": {
+                "bs": 1072,
+                "tx": 128,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1200
+              },
+              "CHILD": {
+                "bs": 671,
+                "tx": 543,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1214
+              }
+            },
+            "totFr": {
+              "bs": 2414,
+              "tx": 1214,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 3628
+            },
+            "rKey": "v1~~GS$M$MO9RBINF$245.0$200.0$null$null$null$0$0$A,GS$M$MO9RBINF$245.0$200.0$null$null$null$0$0$C,GS$M$MO9RBINF$null$null$null$null$null$0$0$I~A-1214.0_C-1214.0_I-1200.0~M$1$1$1~~IXJ_SXR_280819_G8-287_RzhVTklNT0JOU18xOFNlcHQ=_14:15_280819_14:55_G8_G8_G8~G8_0_0_IXJ-SXR-280819",
+            "canAssr": {
+              "sa": true,
+              "fe": 837,
+              "ac": "G8449",
+              "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+              "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+              "fpp": 279
+            },
+            "rtFrLookUpId": "b1e8fdb7-a607-4b0a-83ff-2a28a6420230"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$SXR$2808191300$AI-821",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 13:00",
+      "arrDate": "2019-08-28 13:35",
+      "dur": 35,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "AI-AI-821-IXJ-SXR-2019-08-28 13:00-2019-08-28 13:35",
+          "pnrGroupNum": 0
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 1650,
+                "tx": 328,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1978
+              },
+              "INFANT": {
+                "bs": 1000,
+                "tx": 50,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1050
+              },
+              "CHILD": {
+                "bs": 1650,
+                "tx": 328,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1978
+              }
+            },
+            "totFr": {
+              "bs": 4300,
+              "tx": 706,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 5006
+            },
+            "rKey": "v1~~null$S$SAP8$null$null$null$null$83.0$0$0$A,null$S$SAP8$null$null$null$null$83.0$0$0$C,null$S$SAP8$null$null$null$null$50.0$0$0$I~A-1978.0_C-1978.0_I-1050.0~M$1$1$1~~IXJ_SXR_280819_AI-821_VFBVTklfRE9N_13:00_280819_13:35_AI_AI_AI~TP_0_0_IXJ-SXR-280819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 25,
+                "diTxt": "25 Kgs"
+              }
+            },
+            "canAssr": {
+              "sa": true,
+              "fe": 837,
+              "ac": "AI449",
+              "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+              "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+              "fpp": 279
+            },
+            "rtFrLookUpId": "e608f2a0-64ea-4eca-9fff-8ef49c100290"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$SXR$2808191355$UK-612",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 13:55",
+      "arrDate": "2019-08-28 14:45",
+      "dur": 50,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "UK-UK-612-IXJ-SXR-2019-08-28 13:55-2019-08-28 14:45",
+          "pnrGroupNum": 0
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 1600,
+                "tx": 468,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2068
+              },
+              "INFANT": {
+                "bs": 1250,
+                "tx": 206,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1456
+              },
+              "CHILD": {
+                "bs": 1600,
+                "tx": 468,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2068
+              }
+            },
+            "totFr": {
+              "bs": 4450,
+              "tx": 1142,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 5592
+            },
+            "rKey": "v1~~null$V$VL1PYS$null$null$136.0$null$87.0$0$0$A,null$V$VL1PYS$null$null$136.0$null$87.0$0$0$C,null$V$VL1PYS$null$null$136.0$null$70.0$0$0$I~A-2068.0_C-2068.0_I-1456.0~M$1$1$1~~IXJ_SXR_280819_UK-612_TVBSVERIUlVW_13:55_280819_14:45_UK_UK_UK~MP_0_0_IXJ-SXR-280819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 15,
+                "diTxt": "15 Kgs"
+              }
+            },
+            "canAssr": {
+              "sa": true,
+              "fe": 1497,
+              "ac": "UK549",
+              "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+              "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+              "fpp": 499
+            },
+            "rtFrLookUpId": "dba2e66e-04eb-47b3-b53c-7b2a6096308a"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": true
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$IXR$BLR$2808191505$6E-485|BLR$SXR$2808192115$SG-424",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 15:05",
+      "arrDate": "2019-08-28 22:45",
+      "dur": 460,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "6E-6E-485-IXJ-BLR-2019-08-28 15:05-2019-08-28 18:40",
+          "pnrGroupNum": 0
+        },
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "SG-SG-424-BLR-SXR-2019-08-28 21:15-2019-08-28 22:45",
+          "pnrGroupNum": 1,
+          "prvFltCntTyp": "CHANGE_OF_TERMINAL",
+          "prvFltCntDur": 155
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 4682,
+                "tx": 1531,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 6213
+              },
+              "INFANT": {
+                "bs": 2390,
+                "tx": 120,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2510
+              },
+              "CHILD": {
+                "bs": 4682,
+                "tx": 1531,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 6213
+              }
+            },
+            "totFr": {
+              "bs": 11754,
+              "tx": 3182,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 14936
+            },
+            "rKey": "v1~~R$R$R015AP$397.0$400.0$null$164.0$null$0$0$A,R$R$R015AP$397.0$400.0$null$164.0$null$0$0$C,R$R$R015AP$null$null$null$null$null$0$0$I^R$A$ASAVER$397.0$400.0$null$164.0$null$1$0$A,R$A$ASAVER$397.0$400.0$null$164.0$null$1$0$C,R$A$ASAVER$null$null$null$null$null$1$0$I~A-6213.0_C-6213.0_I-2510.0~M$1$1$1~~IXJ_BLR_280819_6E-485_NkVGQU1JTFl8U0dGQU1JTFk=_15:05_280819_18:40_6E_6E_6E~6E_0_0_IXJ-SXR-280819^BLR_SXR_280819_SG-424_NkVGQU1JTFl8U0dGQU1JTFk=_21:15_280819_22:45_SG_SG_SG~SG_0_1_IXJ-SXR-280819",
+            "rtFrLookUpId": "d84d15c9-2c17-4d48-aed1-607038e084e6"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$SXR$2808191405$6E-559",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 14:05",
+      "arrDate": "2019-08-28 15:00",
+      "dur": 55,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "6E-6E-559-IXJ-SXR-2019-08-28 14:05-2019-08-28 15:00",
+          "pnrGroupNum": 0
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 1779,
+                "tx": 542,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2321
+              },
+              "INFANT": {
+                "bs": 1190,
+                "tx": 60,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1250
+              },
+              "CHILD": {
+                "bs": 1779,
+                "tx": 542,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2321
+              }
+            },
+            "totFr": {
+              "bs": 4748,
+              "tx": 1144,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 5892
+            },
+            "rKey": "v1~~R$J$J015AP$244.0$200.0$null$null$null$0$0$A,R$J$J015AP$244.0$200.0$null$null$null$0$0$C,R$J$J015AP$null$null$null$null$null$0$0$I~A-2321.0_C-2321.0_I-1250.0~M$1$1$1~~IXJ_SXR_280819_6E-559_NkVVTkkyXzIzSnVuZQ==_14:05_280819_15:00_6E_6E_6E~6E_0_0_IXJ-SXR-280819",
+            "canAssr": {
+              "sa": true,
+              "fe": 1347,
+              "ac": "6E449",
+              "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+              "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+              "fpp": 449
+            },
+            "rtFrLookUpId": "c935d0ac-8961-468c-a89c-148a01305b19"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$SXR$2808190915$6E-576",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 09:15",
+      "arrDate": "2019-08-28 09:55",
+      "dur": 40,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "6E-6E-576-IXJ-SXR-2019-08-28 09:15-2019-08-28 09:55",
+          "pnrGroupNum": 0
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 2050,
+                "tx": 556,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2606
+              },
+              "INFANT": {
+                "bs": 1190,
+                "tx": 60,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1250
+              },
+              "CHILD": {
+                "bs": 2050,
+                "tx": 556,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2606
+              }
+            },
+            "totFr": {
+              "bs": 5290,
+              "tx": 1172,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 6462
+            },
+            "rKey": "v1~~R$T$T08AP$244.0$200.0$null$null$null$0$0$A,R$T$T08AP$244.0$200.0$null$null$null$0$0$C,R$T$T08AP$null$null$null$null$null$0$0$I~A-2606.0_C-2606.0_I-1250.0~M$1$1$1~~IXJ_SXR_280819_6E-576_NkVVTkkyXzIzSnVuZQ==_09:15_280819_09:55_6E_6E_6E~6E_0_0_IXJ-SXR-280819",
+            "canAssr": {
+              "sa": true,
+              "fe": 1347,
+              "ac": "6E449",
+              "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+              "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+              "fpp": 449
+            },
+            "rtFrLookUpId": "ca0d4f02-fb04-4d31-a462-741f5228564e"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$SXR$2808190935$6E-554",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 09:35",
+      "arrDate": "2019-08-28 10:20",
+      "dur": 45,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "6E-6E-554-IXJ-SXR-2019-08-28 09:35-2019-08-28 10:20",
+          "pnrGroupNum": 0
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 2050,
+                "tx": 556,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2606
+              },
+              "INFANT": {
+                "bs": 1190,
+                "tx": 60,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1250
+              },
+              "CHILD": {
+                "bs": 2050,
+                "tx": 556,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2606
+              }
+            },
+            "totFr": {
+              "bs": 5290,
+              "tx": 1172,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 6462
+            },
+            "rKey": "v1~~R$T$T08AP$244.0$200.0$null$null$null$0$0$A,R$T$T08AP$244.0$200.0$null$null$null$0$0$C,R$T$T08AP$null$null$null$null$null$0$0$I~A-2606.0_C-2606.0_I-1250.0~M$1$1$1~~IXJ_SXR_280819_6E-554_NkVVTkkyXzIzSnVuZQ==_09:35_280819_10:20_6E_6E_6E~6E_0_0_IXJ-SXR-280819",
+            "canAssr": {
+              "sa": true,
+              "fe": 1347,
+              "ac": "6E449",
+              "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+              "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+              "fpp": 449
+            },
+            "rtFrLookUpId": "4b826058-b6a2-4cec-9c71-4f4d6ea9e829"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$DEL$2808191225$AI-9614|DEL$SXR$2908190725$AI-827",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 12:25",
+      "arrDate": "2019-08-29 08:40",
+      "dur": 1215,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "9I-AI-9614-IXJ-DEL-2019-08-28 12:25-2019-08-28 14:25",
+          "pnrGroupNum": 0
+        },
+        {
+          "flyingDay": 1,
+          "fltLookUpKey": "AI-AI-827-DEL-SXR-2019-08-29 07:25-2019-08-29 08:40",
+          "pnrGroupNum": 0,
+          "prvFltCntDur": 1020
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 3750,
+                "tx": 433,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4183
+              },
+              "INFANT": {
+                "bs": 2000,
+                "tx": 100,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2100
+              },
+              "CHILD": {
+                "bs": 3750,
+                "tx": 433,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4183
+              }
+            },
+            "totFr": {
+              "bs": 9500,
+              "tx": 966,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 10466
+            },
+            "rKey": "v1~~null$S$SAP309I$null$null$null$null$188.0$0$0$A,null$S$SAP8$null$null$null$null$188.0$0$1$A,null$S$SAP309I$null$null$null$null$188.0$0$0$C,null$S$SAP8$null$null$null$null$188.0$0$1$C,null$S$SAP309I$null$null$null$null$100.0$0$0$I,null$S$SAP8$null$null$null$null$100.0$0$1$I~A-4183.0_C-4183.0_I-2100.0~M$1$1$1~~IXJ_DEL_280819_AI-9614_VFBVTklfRE9N_12:25_280819_14:25_AI_AI_9I,DEL_SXR_290819_AI-827_VFBVTklfRE9N_07:25_290819_08:40_AI_AI_AI~TP_0_0_IXJ-SXR-280819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 25,
+                "diTxt": "25 Kgs"
+              }
+            },
+            "rtFrLookUpId": "66694d4d-29ae-447f-9b6d-9cd48a63b08f"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$DEL$2808191545$AI-822|DEL$SXR$2908190725$AI-827",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 15:45",
+      "arrDate": "2019-08-29 08:40",
+      "dur": 1015,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "AI-AI-822-IXJ-DEL-2019-08-28 15:45-2019-08-28 17:10",
+          "pnrGroupNum": 0
+        },
+        {
+          "flyingDay": 1,
+          "fltLookUpKey": "AI-AI-827-DEL-SXR-2019-08-29 07:25-2019-08-29 08:40",
+          "pnrGroupNum": 0,
+          "prvFltCntDur": 855
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 3900,
+                "tx": 440,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4340
+              },
+              "INFANT": {
+                "bs": 2000,
+                "tx": 100,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2100
+              },
+              "CHILD": {
+                "bs": 3900,
+                "tx": 440,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4340
+              }
+            },
+            "totFr": {
+              "bs": 9800,
+              "tx": 980,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 10780
+            },
+            "rKey": "v1~~null$S$SAP8$null$null$null$null$195.0$0$0$A,null$S$SAP8$null$null$null$null$195.0$0$1$A,null$S$SAP8$null$null$null$null$195.0$0$0$C,null$S$SAP8$null$null$null$null$195.0$0$1$C,null$S$SAP8$null$null$null$null$100.0$0$0$I,null$S$SAP8$null$null$null$null$100.0$0$1$I~A-4340.0_C-4340.0_I-2100.0~M$1$1$1~~IXJ_DEL_280819_AI-822_VFBVTklfRE9N_15:45_280819_17:10_AI_AI_AI,DEL_SXR_290819_AI-827_VFBVTklfRE9N_07:25_290819_08:40_AI_AI_AI~TP_0_0_IXJ-SXR-280819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 25,
+                "diTxt": "25 Kgs"
+              }
+            },
+            "rtFrLookUpId": "55e43cc3-b76a-42f3-b3f0-4cb1bf4460c9"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$DEL$2808191225$AI-9614|DEL$SXR$2908191015$AI-825",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 12:25",
+      "arrDate": "2019-08-29 11:45",
+      "dur": 1400,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "9I-AI-9614-IXJ-DEL-2019-08-28 12:25-2019-08-28 14:25",
+          "pnrGroupNum": 0
+        },
+        {
+          "flyingDay": 1,
+          "fltLookUpKey": "AI-AI-825-DEL-SXR-2019-08-29 10:15-2019-08-29 11:45",
+          "pnrGroupNum": 0,
+          "prvFltCntDur": 1190
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 4100,
+                "tx": 450,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4550
+              },
+              "INFANT": {
+                "bs": 2000,
+                "tx": 100,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2100
+              },
+              "CHILD": {
+                "bs": 4100,
+                "tx": 450,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4550
+              }
+            },
+            "totFr": {
+              "bs": 10200,
+              "tx": 1000,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 11200
+            },
+            "rKey": "v1~~null$S$SAP309I$null$null$null$null$205.0$0$0$A,null$T$TAP8$null$null$null$null$205.0$0$1$A,null$S$SAP309I$null$null$null$null$205.0$0$0$C,null$T$TAP8$null$null$null$null$205.0$0$1$C,null$S$SAP309I$null$null$null$null$100.0$0$0$I,null$T$TAP8$null$null$null$null$100.0$0$1$I~A-4550.0_C-4550.0_I-2100.0~M$1$1$1~~IXJ_DEL_280819_AI-9614_VFBVTklfRE9N_12:25_280819_14:25_AI_AI_9I,DEL_SXR_290819_AI-825_VFBVTklfRE9N_10:15_290819_11:45_AI_AI_AI~TP_0_0_IXJ-SXR-280819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 25,
+                "diTxt": "25 Kgs"
+              }
+            },
+            "rtFrLookUpId": "0d31b6da-cc72-4b95-bf74-3ce9214aaa41"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "IXJ$DEL$2808191545$AI-822|DEL$SXR$2908191015$AI-825",
+      "isCstmComb": false,
+      "depDate": "2019-08-28 15:45",
+      "arrDate": "2019-08-29 11:45",
+      "dur": 1200,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "AI-AI-822-IXJ-DEL-2019-08-28 15:45-2019-08-28 17:10",
+          "pnrGroupNum": 0
+        },
+        {
+          "flyingDay": 1,
+          "fltLookUpKey": "AI-AI-825-DEL-SXR-2019-08-29 10:15-2019-08-29 11:45",
+          "pnrGroupNum": 0,
+          "prvFltCntDur": 1025
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 4250,
+                "tx": 458,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4708
+              },
+              "INFANT": {
+                "bs": 2000,
+                "tx": 100,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2100
+              },
+              "CHILD": {
+                "bs": 4250,
+                "tx": 458,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4708
+              }
+            },
+            "totFr": {
+              "bs": 10500,
+              "tx": 1016,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 11516
+            },
+            "rKey": "v1~~null$S$SAP8$null$null$null$null$213.0$0$0$A,null$T$TAP8$null$null$null$null$213.0$0$1$A,null$S$SAP8$null$null$null$null$213.0$0$0$C,null$T$TAP8$null$null$null$null$213.0$0$1$C,null$S$SAP8$null$null$null$null$100.0$0$0$I,null$T$TAP8$null$null$null$null$100.0$0$1$I~A-4708.0_C-4708.0_I-2100.0~M$1$1$1~~IXJ_DEL_280819_AI-822_VFBVTklfRE9N_15:45_280819_17:10_AI_AI_AI,DEL_SXR_290819_AI-825_VFBVTklfRE9N_10:15_290819_11:45_AI_AI_AI~TP_0_0_IXJ-SXR-280819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 25,
+                "diTxt": "25 Kgs"
+              }
+            },
+            "rtFrLookUpId": "54b1a513-8c2d-4291-895a-c61e8d16333e"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    }
+  ],
+  "rt": [
+    {
+      "nearBy": false,
+      "jrnyKey": "SXR$IXJ$3008191210$6E-653",
+      "isCstmComb": false,
+      "depDate": "2019-08-30 12:10",
+      "arrDate": "2019-08-30 13:05",
+      "dur": 55,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "6E-6E-653-SXR-IXJ-2019-08-30 12:10-2019-08-30 13:05",
+          "pnrGroupNum": 0
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 1183,
+                "tx": 870,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2053
+              },
+              "INFANT": {
+                "bs": 1190,
+                "tx": 60,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1250
+              },
+              "CHILD": {
+                "bs": 1183,
+                "tx": 870,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2053
+              }
+            },
+            "totFr": {
+              "bs": 3556,
+              "tx": 1800,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 5356
+            },
+            "rKey": "v1~~R$Q$Q015AP$153.0$200.0$null$447.0$null$0$0$A,R$Q$Q015AP$153.0$200.0$null$447.0$null$0$0$C,R$Q$Q015AP$null$null$null$null$null$0$0$I~A-2053.0_C-2053.0_I-1250.0~M$1$1$1~~SXR_IXJ_300819_6E-653_NkVVTkkyXzIzSnVuZQ==_12:10_300819_13:05_6E_6E_6E~6E_0_0_SXR-IXJ-300819",
+            "canAssr": {
+              "sa": true,
+              "fe": 1347,
+              "ac": "6E449",
+              "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+              "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+              "fpp": 449
+            },
+            "rtFrLookUpId": "af815e3c-3aa4-45cc-b8a2-5b42ef84cfcb"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "SXR$IXJ$3008191420$AI-822",
+      "isCstmComb": false,
+      "depDate": "2019-08-30 14:20",
+      "arrDate": "2019-08-30 15:05",
+      "dur": 45,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "AI-AI-822-SXR-IXJ-2019-08-30 14:20-2019-08-30 15:05",
+          "pnrGroupNum": 0
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 1650,
+                "tx": 685,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2335
+              },
+              "INFANT": {
+                "bs": 1000,
+                "tx": 50,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1050
+              },
+              "CHILD": {
+                "bs": 1650,
+                "tx": 685,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2335
+              }
+            },
+            "totFr": {
+              "bs": 4300,
+              "tx": 1420,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 5720
+            },
+            "rKey": "v1~~null$S$SAP8$null$null$null$null$83.0$0$0$A,null$S$SAP8$null$null$null$null$83.0$0$0$C,null$S$SAP8$null$null$null$null$50.0$0$0$I~A-2335.0_C-2335.0_I-1050.0~M$1$1$1~~SXR_IXJ_300819_AI-822_VFBVTklfRE9N_14:20_300819_15:05_AI_AI_AI~TP_0_0_SXR-IXJ-300819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 25,
+                "diTxt": "25 Kgs"
+              }
+            },
+            "canAssr": {
+              "sa": true,
+              "fe": 1347,
+              "ac": "AI449",
+              "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+              "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+              "fpp": 449
+            },
+            "rtFrLookUpId": "9d618c74-6f0b-427e-b11b-27e8d57f7365"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "SXR$IXJ$3008191230$UK-611",
+      "isCstmComb": false,
+      "depDate": "2019-08-30 12:30",
+      "arrDate": "2019-08-30 13:20",
+      "dur": 50,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "UK-UK-611-SXR-IXJ-2019-08-30 12:30-2019-08-30 13:20",
+          "pnrGroupNum": 0
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 1600,
+                "tx": 825,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2425
+              },
+              "INFANT": {
+                "bs": 1250,
+                "tx": 206,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 1456
+              },
+              "CHILD": {
+                "bs": 1600,
+                "tx": 825,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2425
+              }
+            },
+            "totFr": {
+              "bs": 4450,
+              "tx": 1856,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 6306
+            },
+            "rKey": "v1~~null$V$VL1PYS$null$null$136.0$null$87.0$0$0$A,null$V$VL1PYS$null$null$136.0$null$87.0$0$0$C,null$V$VL1PYS$null$null$136.0$null$70.0$0$0$I~A-2425.0_C-2425.0_I-1456.0~M$1$1$1~~SXR_IXJ_300819_UK-611_TVBSVERIUlVW_12:30_300819_13:20_UK_UK_UK~MP_0_0_SXR-IXJ-300819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 15,
+                "diTxt": "15 Kgs"
+              }
+            },
+            "canAssr": {
+              "sa": true,
+              "fe": 1497,
+              "ac": "UK549",
+              "pt": "Cancel your ticket for Free. Buy Zero Cancellation @ only <amount> & get full refund on cancellation!",
+              "pp": "Great choice! Your cancellation is now 100% covered by us. Get full refund on cancellation of tickets 24 hours or before flight departure.",
+              "fpp": 499
+            },
+            "rtFrLookUpId": "9bac9a0b-9277-4711-a5c7-aeb9693c5797"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": true
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "SXR$DEL$3008191225$AI-826|DEL$IXJ$3108190705$AI-9613",
+      "isCstmComb": false,
+      "depDate": "2019-08-30 12:25",
+      "arrDate": "2019-08-31 09:20",
+      "dur": 1255,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "AI-AI-826-SXR-DEL-2019-08-30 12:25-2019-08-30 14:05",
+          "pnrGroupNum": 0
+        },
+        {
+          "flyingDay": 1,
+          "fltLookUpKey": "9I-AI-9613-DEL-IXJ-2019-08-31 07:05-2019-08-31 09:20",
+          "pnrGroupNum": 0,
+          "prvFltCntDur": 1020
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 3750,
+                "tx": 790,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4540
+              },
+              "INFANT": {
+                "bs": 2000,
+                "tx": 100,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2100
+              },
+              "CHILD": {
+                "bs": 3750,
+                "tx": 790,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4540
+              }
+            },
+            "totFr": {
+              "bs": 9500,
+              "tx": 1680,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 11180
+            },
+            "rKey": "v1~~null$S$SAP8$null$null$null$null$188.0$0$0$A,null$S$SAP309I$null$null$null$null$188.0$0$1$A,null$S$SAP8$null$null$null$null$188.0$0$0$C,null$S$SAP309I$null$null$null$null$188.0$0$1$C,null$S$SAP8$null$null$null$null$100.0$0$0$I,null$S$SAP309I$null$null$null$null$100.0$0$1$I~A-4540.0_C-4540.0_I-2100.0~M$1$1$1~~SXR_DEL_300819_AI-826_VFBVTklfRE9N_12:25_300819_14:05_AI_AI_AI,DEL_IXJ_310819_AI-9613_VFBVTklfRE9N_07:05_310819_09:20_AI_AI_9I~TP_0_0_SXR-IXJ-300819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 15,
+                "diTxt": "15 Kgs"
+              }
+            },
+            "rtFrLookUpId": "3a221279-b9a5-4245-baae-f1a745240886"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    },
+    {
+      "nearBy": false,
+      "jrnyKey": "SXR$DEL$3008191225$AI-826|DEL$IXJ$3108191050$AI-821",
+      "isCstmComb": false,
+      "depDate": "2019-08-30 12:25",
+      "arrDate": "2019-08-31 12:20",
+      "dur": 1435,
+      "flightDtlsInfo": [
+        {
+          "flyingDay": 0,
+          "fltLookUpKey": "AI-AI-826-SXR-DEL-2019-08-30 12:25-2019-08-30 14:05",
+          "pnrGroupNum": 0
+        },
+        {
+          "flyingDay": 1,
+          "fltLookUpKey": "AI-AI-821-DEL-IXJ-2019-08-31 10:50-2019-08-31 12:20",
+          "pnrGroupNum": 0,
+          "prvFltCntDur": 1245
+        }
+      ],
+      "isShlst": false,
+      "isTrvisaReq": false,
+      "frInfo": {
+        "cheapestBookingFarePnrSelectionInfoKey": "COMBO",
+        "bookingFarePnrSelectionInfoMap": {
+          "COMBO": {
+            "paxFr": {
+              "ADULT": {
+                "bs": 3900,
+                "tx": 797,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4697
+              },
+              "INFANT": {
+                "bs": 2000,
+                "tx": 100,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 2100
+              },
+              "CHILD": {
+                "bs": 3900,
+                "tx": 797,
+                "sFee": 0,
+                "instDisc": 0,
+                "preApDiscntInfo": [],
+                "tot": 4697
+              }
+            },
+            "totFr": {
+              "bs": 9800,
+              "tx": 1694,
+              "sFee": 0,
+              "instDisc": 0,
+              "preApDiscntInfo": [],
+              "tot": 11494
+            },
+            "rKey": "v1~~null$S$SAP8$null$null$null$null$195.0$0$0$A,null$S$SAP8$null$null$null$null$195.0$0$1$A,null$S$SAP8$null$null$null$null$195.0$0$0$C,null$S$SAP8$null$null$null$null$195.0$0$1$C,null$S$SAP8$null$null$null$null$100.0$0$0$I,null$S$SAP8$null$null$null$null$100.0$0$1$I~A-4697.0_C-4697.0_I-2100.0~M$1$1$1~~SXR_DEL_300819_AI-826_VFBVTklfRE9N_12:25_300819_14:05_AI_AI_AI,DEL_IXJ_310819_AI-821_VFBVTklfRE9N_10:50_310819_12:20_AI_AI_AI~TP_0_0_SXR-IXJ-300819",
+            "sAdltBaggageInfo": {
+              "cknBgg": {
+                "unt": "Kgs",
+                "qty": 15,
+                "diTxt": "15 Kgs"
+              }
+            },
+            "rtFrLookUpId": "55555b2d-1252-418c-8b42-7cfd9b34b902"
+          }
+        },
+        "isPnrGrpdFrFmlyAvl": false
+      }
+    }
+  ],
+  "rtFrCmb": {
+    "e608f2a0-64ea-4eca-9fff-8ef49c100290:9d618c74-6f0b-427e-b11b-27e8d57f7365": {
+      "paxFr": {
+        "ADULT": {
+          "bs": 3300,
+          "tx": 1012,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 4312
+        },
+        "INFANT": {
+          "bs": 2000,
+          "tx": 100,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 2100
+        },
+        "CHILD": {
+          "bs": 3300,
+          "tx": 1012,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 4312
+        }
+      },
+      "totFr": {
+        "bs": 8600,
+        "tx": 2124,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [
+          {
+            "disc": 2,
+            "isInstant": false,
+            "dsplyTxt": "Round Trip Discount",
+            "discSrc": "AIRLINE"
+          }
+        ],
+        "tot": 10724
+      },
+      "rKey": "v1~~null$S$SAP8$null$null$null$null$83.0$0$0$A,null$S$SAP8$null$null$null$null$83.0$0$0$C,null$S$SAP8$null$null$null$null$50.0$0$0$I^null$S$SAP8$null$null$null$null$83.0$1$0$A,null$S$SAP8$null$null$null$null$83.0$1$0$C,null$S$SAP8$null$null$null$null$50.0$1$0$I~A-4313.0_C-4313.0_I-2100.0~M$1$1$1~~IXJ_SXR_280819_AI-821_VFBVTklfRE9N_13:00_280819_13:35_AI_AI_AI~TP_1_0_IXJ-SXR-280819^SXR_IXJ_300819_AI-822_VFBVTklfRE9N_14:20_300819_15:05_AI_AI_AI~TP_1_0_SXR-IXJ-300819"
+    },
+    "e608f2a0-64ea-4eca-9fff-8ef49c100290:3a221279-b9a5-4245-baae-f1a745240886": {
+      "paxFr": {
+        "ADULT": {
+          "bs": 5400,
+          "tx": 1117,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 6517
+        },
+        "INFANT": {
+          "bs": 3000,
+          "tx": 150,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 3150
+        },
+        "CHILD": {
+          "bs": 5400,
+          "tx": 1117,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 6517
+        }
+      },
+      "totFr": {
+        "bs": 13800,
+        "tx": 2384,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [
+          {
+            "disc": 2,
+            "isInstant": false,
+            "dsplyTxt": "Round Trip Discount",
+            "discSrc": "AIRLINE"
+          }
+        ],
+        "tot": 16184
+      },
+      "rKey": "v1~~null$S$SAP8$null$null$null$null$83.0$0$0$A,null$S$SAP8$null$null$null$null$83.0$0$0$C,null$S$SAP8$null$null$null$null$50.0$0$0$I^null$S$SAP8$null$null$null$null$188.0$1$0$A,null$S$SAP309I$null$null$null$null$188.0$1$1$A,null$S$SAP8$null$null$null$null$188.0$1$0$C,null$S$SAP309I$null$null$null$null$188.0$1$1$C,null$S$SAP8$null$null$null$null$100.0$1$0$I,null$S$SAP309I$null$null$null$null$100.0$1$1$I~A-6518.0_C-6518.0_I-3150.0~M$1$1$1~~IXJ_SXR_280819_AI-821_VFBVTklfRE9N_13:00_280819_13:35_AI_AI_AI~TP_1_0_IXJ-SXR-280819^SXR_DEL_300819_AI-826_VFBVTklfRE9N_12:25_300819_14:05_AI_AI_AI,DEL_IXJ_310819_AI-9613_VFBVTklfRE9N_07:05_310819_09:20_AI_AI_9I~TP_1_0_SXR-IXJ-300819"
+    },
+    "54b1a513-8c2d-4291-895a-c61e8d16333e:9d618c74-6f0b-427e-b11b-27e8d57f7365": {
+      "paxFr": {
+        "ADULT": {
+          "bs": 5900,
+          "tx": 1142,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 7042
+        },
+        "INFANT": {
+          "bs": 3000,
+          "tx": 150,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 3150
+        },
+        "CHILD": {
+          "bs": 5900,
+          "tx": 1142,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 7042
+        }
+      },
+      "totFr": {
+        "bs": 14800,
+        "tx": 2434,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [
+          {
+            "disc": 2,
+            "isInstant": false,
+            "dsplyTxt": "Round Trip Discount",
+            "discSrc": "AIRLINE"
+          }
+        ],
+        "tot": 17234
+      },
+      "rKey": "v1~~null$S$SAP8$null$null$null$null$213.0$0$0$A,null$T$TAP8$null$null$null$null$213.0$0$1$A,null$S$SAP8$null$null$null$null$213.0$0$0$C,null$T$TAP8$null$null$null$null$213.0$0$1$C,null$S$SAP8$null$null$null$null$100.0$0$0$I,null$T$TAP8$null$null$null$null$100.0$0$1$I^null$S$SAP8$null$null$null$null$83.0$1$0$A,null$S$SAP8$null$null$null$null$83.0$1$0$C,null$S$SAP8$null$null$null$null$50.0$1$0$I~A-7043.0_C-7043.0_I-3150.0~M$1$1$1~~IXJ_DEL_280819_AI-822_VFBVTklfRE9N_15:45_280819_17:10_AI_AI_AI,DEL_SXR_290819_AI-825_VFBVTklfRE9N_10:15_290819_11:45_AI_AI_AI~TP_1_0_IXJ-SXR-280819^SXR_IXJ_300819_AI-822_VFBVTklfRE9N_14:20_300819_15:05_AI_AI_AI~TP_1_0_SXR-IXJ-300819"
+    },
+    "66694d4d-29ae-447f-9b6d-9cd48a63b08f:9d618c74-6f0b-427e-b11b-27e8d57f7365": {
+      "paxFr": {
+        "ADULT": {
+          "bs": 5400,
+          "tx": 1117,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 6517
+        },
+        "INFANT": {
+          "bs": 3000,
+          "tx": 150,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 3150
+        },
+        "CHILD": {
+          "bs": 5400,
+          "tx": 1117,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 6517
+        }
+      },
+      "totFr": {
+        "bs": 13800,
+        "tx": 2384,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [
+          {
+            "disc": 2,
+            "isInstant": false,
+            "dsplyTxt": "Round Trip Discount",
+            "discSrc": "AIRLINE"
+          }
+        ],
+        "tot": 16184
+      },
+      "rKey": "v1~~null$S$SAP309I$null$null$null$null$188.0$0$0$A,null$S$SAP8$null$null$null$null$188.0$0$1$A,null$S$SAP309I$null$null$null$null$188.0$0$0$C,null$S$SAP8$null$null$null$null$188.0$0$1$C,null$S$SAP309I$null$null$null$null$100.0$0$0$I,null$S$SAP8$null$null$null$null$100.0$0$1$I^null$S$SAP8$null$null$null$null$83.0$1$0$A,null$S$SAP8$null$null$null$null$83.0$1$0$C,null$S$SAP8$null$null$null$null$50.0$1$0$I~A-6518.0_C-6518.0_I-3150.0~M$1$1$1~~IXJ_DEL_280819_AI-9614_VFBVTklfRE9N_12:25_280819_14:25_AI_AI_9I,DEL_SXR_290819_AI-827_VFBVTklfRE9N_07:25_290819_08:40_AI_AI_AI~TP_1_0_IXJ-SXR-280819^SXR_IXJ_300819_AI-822_VFBVTklfRE9N_14:20_300819_15:05_AI_AI_AI~TP_1_0_SXR-IXJ-300819"
+    },
+    "66694d4d-29ae-447f-9b6d-9cd48a63b08f:3a221279-b9a5-4245-baae-f1a745240886": {
+      "paxFr": {
+        "ADULT": {
+          "bs": 7500,
+          "tx": 1222,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 8722
+        },
+        "INFANT": {
+          "bs": 4000,
+          "tx": 200,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 4200
+        },
+        "CHILD": {
+          "bs": 7500,
+          "tx": 1222,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 8722
+        }
+      },
+      "totFr": {
+        "bs": 19000,
+        "tx": 2644,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [
+          {
+            "disc": 2,
+            "isInstant": false,
+            "dsplyTxt": "Round Trip Discount",
+            "discSrc": "AIRLINE"
+          }
+        ],
+        "tot": 21644
+      },
+      "rKey": "v1~~null$S$SAP309I$null$null$null$null$188.0$0$0$A,null$S$SAP8$null$null$null$null$188.0$0$1$A,null$S$SAP309I$null$null$null$null$188.0$0$0$C,null$S$SAP8$null$null$null$null$188.0$0$1$C,null$S$SAP309I$null$null$null$null$100.0$0$0$I,null$S$SAP8$null$null$null$null$100.0$0$1$I^null$S$SAP8$null$null$null$null$188.0$1$0$A,null$S$SAP309I$null$null$null$null$188.0$1$1$A,null$S$SAP8$null$null$null$null$188.0$1$0$C,null$S$SAP309I$null$null$null$null$188.0$1$1$C,null$S$SAP8$null$null$null$null$100.0$1$0$I,null$S$SAP309I$null$null$null$null$100.0$1$1$I~A-8723.0_C-8723.0_I-4200.0~M$1$1$1~~IXJ_DEL_280819_AI-9614_VFBVTklfRE9N_12:25_280819_14:25_AI_AI_9I,DEL_SXR_290819_AI-827_VFBVTklfRE9N_07:25_290819_08:40_AI_AI_AI~TP_1_0_IXJ-SXR-280819^SXR_DEL_300819_AI-826_VFBVTklfRE9N_12:25_300819_14:05_AI_AI_AI,DEL_IXJ_310819_AI-9613_VFBVTklfRE9N_07:05_310819_09:20_AI_AI_9I~TP_1_0_SXR-IXJ-300819"
+    },
+    "dba2e66e-04eb-47b3-b53c-7b2a6096308a:9bac9a0b-9277-4711-a5c7-aeb9693c5797": {
+      "paxFr": {
+        "ADULT": {
+          "bs": 3200,
+          "tx": 1293,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 4493
+        },
+        "INFANT": {
+          "bs": 2500,
+          "tx": 411,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 2911
+        },
+        "CHILD": {
+          "bs": 3200,
+          "tx": 1293,
+          "sFee": 0,
+          "instDisc": 0,
+          "preApDiscntInfo": [],
+          "tot": 4493
+        }
+      },
+      "totFr": {
+        "bs": 8900,
+        "tx": 2997,
+        "sFee": 0,
+        "instDisc": 0,
+        "preApDiscntInfo": [
+          {
+            "disc": 1,
+            "isInstant": false,
+            "dsplyTxt": "Round Trip Discount",
+            "discSrc": "AIRLINE"
+          }
+        ],
+        "tot": 11897
+      },
+      "rKey": "v1~~null$V$VL1PYS$null$null$136.0$null$87.0$0$0$A,null$V$VL1PYS$null$null$136.0$null$87.0$0$0$C,null$V$VL1PYS$null$null$136.0$null$70.0$0$0$I^null$V$VL1PYS$null$null$136.0$null$87.0$1$0$A,null$V$VL1PYS$null$null$136.0$null$87.0$1$0$C,null$V$VL1PYS$null$null$136.0$null$70.0$1$0$I~A-4493.0_C-4493.0_I-2912.0~M$1$1$1~~IXJ_SXR_280819_UK-612_TVBSVERIUlVW_13:55_280819_14:45_UK_UK_UK~MP_1_0_IXJ-SXR-280819^SXR_IXJ_300819_UK-611_TVBSVERIUlVW_12:30_300819_13:20_UK_UK_UK~MP_1_0_SXR-IXJ-300819"
+    }
+  }
+}

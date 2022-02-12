@@ -1,0 +1,16 @@
+{
+  "request":{
+    "method": "POST",
+    "urlPattern": "/flights-mmt-svcs/v1/cabs/booking.*itId.*efa70fe460a3addb5e3c09627ad810b1497ec436&.*crId=wTraveller_test_000",
+    "bodyPatterns":[
+      {       "contains" : "BLR_AIR_drop_sedan_1566991308059"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_booking/cabs/cabbooking/Test1_DOM_RT_CABBooking_Response.json"
+  }
+}
+

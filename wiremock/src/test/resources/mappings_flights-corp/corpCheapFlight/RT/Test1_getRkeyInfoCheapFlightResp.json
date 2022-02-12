@@ -1,0 +1,19 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/flights-search/rkey-info.*",
+		"bodyPatterns": [
+			{
+				"contains": "RKEY:a41e8106-72ca-4674-a35c-e562db943a47:92"
+			}
+		]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpCheapFlight/RT/Test1_rkeyInfoDomRTResp.json"
+	}
+}

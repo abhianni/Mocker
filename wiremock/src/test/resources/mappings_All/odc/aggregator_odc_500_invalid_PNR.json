@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-aggregator/v3/search/*",
+       "bodyPatterns":[{
+        "contains" : "500ABC_AggregatorWiremockTest"
+		
+        }]
+
+
+
+    },
+    "response": {
+        "status": 500
+
+    }
+}

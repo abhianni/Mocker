@@ -1,0 +1,15 @@
+{
+  "request":{
+    "method": "POST",
+    "urlPattern": "/flights-mmt-svcs/v1/cabs/confirm.*itId.*c6c11a3e2b783d7eaf73e0ac263ad557d7c5e885&crId=c6c11a3e2b783d7eaf73e0ac263ad557d7c5e885",
+    "bodyPatterns":[
+      {       "contains" : "c6c11a3e2b783d7eaf73e0ac263ad557d7c5e885"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights_booking/cabs/cabconfirm/Test1_DOM_CabConfirm_Response_OW.json"
+  }
+}

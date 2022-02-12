@@ -1,0 +1,16 @@
+{
+  "request":{
+    "url": "/SessionManager.svc",
+    "bodyPatterns":[
+      {       "contains" : "LogonRequest"
+      },
+	  {       "contains" : "14339942OA"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/6E/OW/6E_OW_logon.xml"
+
+  }
+}

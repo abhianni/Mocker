@@ -1,0 +1,22 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[
+{ "matches":"optionCode.*10.*optionCode"}
+
+
+
+]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/MP_flightBooking_PNR_COMMIT_PNR.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

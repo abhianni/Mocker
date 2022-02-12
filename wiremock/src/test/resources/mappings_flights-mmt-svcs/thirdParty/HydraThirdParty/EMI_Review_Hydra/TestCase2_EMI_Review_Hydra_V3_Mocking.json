@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/v1/getHydraSegments",
+        "bodyPatterns":[{
+        "contains" : "EMI_TESTCASE_NOSEGMENT_UUID"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/HydraThirdparty/EMI_Review_Hydra/TestCase2_EMI_Review_Hydra_V3_Response.json"
+    }
+}

@@ -1,0 +1,313 @@
+{
+  "deliveryTime": {
+    "1": {
+      "minTime": 4,
+      "maxTime": 7,
+      "unit": "days"
+    },
+    "2": {
+      "minTime": 24,
+      "maxTime": 72,
+      "unit": "hours"
+    },
+    "3": {
+      "minTime": 8,
+      "maxTime": 12,
+      "unit": "hours"
+    }
+  },
+  "dimensions": {
+    "1": {
+      "length": 1,
+      "width": 1,
+      "height": 30,
+      "unit": "inches"
+    },
+    "2": {
+      "length": 2,
+      "width": 2,
+      "height": 40,
+      "unit": "inches"
+    },
+    "3": {
+      "length": 3,
+      "width": 3,
+      "height": 50,
+      "unit": "inches"
+    },
+    "4": {
+      "length": 1,
+      "width": 1,
+      "height": 60,
+      "unit": "inches"
+    }
+  },
+  "baggageType": {
+    "LARGE": {
+      "weight": 30,
+      "unit": "kgs",
+      "dimensions": 3
+    },
+    "MEDIUM": {
+      "weight": 15,
+      "unit": "kgs",
+      "dimensions": 2
+    },
+    "SMALL": {
+      "weight": 7,
+      "unit": "kgs",
+      "dimensions": 1
+    },
+    "EXTRA_LARGE": {
+      "weight": 40,
+      "unit": "kgs",
+      "dimensions": 4
+    }
+  },
+  "priceOptions": {
+    "premium_small": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_premium_small_1535",
+      "sellPrice": 1535,
+      "costPrice": 1416,
+      "vendorGst": 18,
+      "vendorBasePrice": 1300.5,
+      "vendorGstPrice": 234.09,
+      "mmtCommission": 100.5,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "premium_medium": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_premium_medium_2475",
+      "sellPrice": 2475,
+      "costPrice": 2360,
+      "vendorGst": 18,
+      "vendorBasePrice": 2097.5,
+      "vendorGstPrice": 377.55,
+      "mmtCommission": 97.5,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "surface_extra_large": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_surface_extra_large_2250",
+      "sellPrice": 2250,
+      "costPrice": 2124,
+      "vendorGst": 18,
+      "vendorBasePrice": 1907.0,
+      "vendorGstPrice": 343.26,
+      "mmtCommission": 107.0,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "surface_large": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_surface_large_1699",
+      "sellPrice": 1699,
+      "costPrice": 1593,
+      "vendorGst": 18,
+      "vendorBasePrice": 1440.0,
+      "vendorGstPrice": 259.20,
+      "mmtCommission": 90.0,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "premium_large": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_premium_large_4250",
+      "sellPrice": 4250,
+      "costPrice": 4130,
+      "vendorGst": 18,
+      "vendorBasePrice": 3602.0,
+      "vendorGstPrice": 648.36,
+      "mmtCommission": 102.0,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "premium_plus_medium": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_premium_plus_medium_4610",
+      "sellPrice": 4610,
+      "costPrice": 4484,
+      "vendorGst": 18,
+      "vendorBasePrice": 3906.8,
+      "vendorGstPrice": 703.22,
+      "mmtCommission": 106.8,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "premium_plus_extra_large": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_premium_plus_extra_large_8380",
+      "sellPrice": 8380,
+      "costPrice": 8260,
+      "vendorGst": 18,
+      "vendorBasePrice": 7101.7,
+      "vendorGstPrice": 1278.31,
+      "mmtCommission": 101.7,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "premium_plus_large": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_premium_plus_large_6610",
+      "sellPrice": 6610,
+      "costPrice": 6490,
+      "vendorGst": 18,
+      "vendorBasePrice": 5601.7,
+      "vendorGstPrice": 1008.31,
+      "mmtCommission": 101.7,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "premium_plus_small": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_premium_plus_small_3660",
+      "sellPrice": 3660,
+      "costPrice": 3540,
+      "vendorGst": 18,
+      "vendorBasePrice": 3101.7,
+      "vendorGstPrice": 558.31,
+      "mmtCommission": 101.7,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "surface_medium": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_surface_medium_920",
+      "sellPrice": 920,
+      "costPrice": 797,
+      "vendorGst": 18,
+      "vendorBasePrice": 780.0,
+      "vendorGstPrice": 140.40,
+      "mmtCommission": 105.0,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "surface_small": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_surface_small_699",
+      "sellPrice": 699,
+      "costPrice": 578,
+      "vendorGst": 18,
+      "vendorBasePrice": 592.0,
+      "vendorGstPrice": 106.56,
+      "mmtCommission": 102.0,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    },
+    "premium_extra_large": {
+      "itemType": "D2D_AVAAN",
+      "itemCode": "D2D_AVAAN_premium_extra_large_6020",
+      "sellPrice": 6020,
+      "costPrice": 5900,
+      "vendorGst": 18,
+      "vendorBasePrice": 5102.0,
+      "vendorGstPrice": 918.36,
+      "mmtCommission": 102.0,
+      "mmtCommissionInPercentage": 0,
+      "mmtMarkUp": 0,
+      "mmtMarkDown": 0,
+      "mmtGst": 18
+    }
+  },
+  "shipmentType": {
+    "PREMIUM": {
+      "deliveryTime": 2,
+      "mode": "AIR",
+      "availableBaggages": [
+        {
+          "baggageType": "SMALL",
+          "priceOptionsKey": "premium_small"
+        },
+        {
+          "baggageType": "MEDIUM",
+          "priceOptionsKey": "premium_medium"
+        },
+        {
+          "baggageType": "LARGE",
+          "priceOptionsKey": "premium_large"
+        },
+        {
+          "baggageType": "EXTRA_LARGE",
+          "priceOptionsKey": "premium_extra_large"
+        }
+      ]
+    },
+    "SURFACE": {
+      "deliveryTime": 1,
+      "mode": "ROAD",
+      "availableBaggages": [
+        {
+          "baggageType": "SMALL",
+          "priceOptionsKey": "surface_small"
+        },
+        {
+          "baggageType": "MEDIUM",
+          "priceOptionsKey": "surface_medium"
+        },
+        {
+          "baggageType": "LARGE",
+          "priceOptionsKey": "surface_large"
+        },
+        {
+          "baggageType": "EXTRA_LARGE",
+          "priceOptionsKey": "surface_extra_large"
+        }
+      ]
+    },
+    "PREMIUM_PLUS": {
+      "deliveryTime": 3,
+      "mode": "AIR",
+      "availableBaggages": [
+        {
+          "baggageType": "SMALL",
+          "priceOptionsKey": "premium_plus_small"
+        },
+        {
+          "baggageType": "MEDIUM",
+          "priceOptionsKey": "premium_plus_medium"
+        },
+        {
+          "baggageType": "LARGE",
+          "priceOptionsKey": "premium_plus_large"
+        },
+        {
+          "baggageType": "EXTRA_LARGE",
+          "priceOptionsKey": "premium_plus_extra_large"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "DEL$BLR$1311201150$AI-506": [
+      "SURFACE",
+      "PREMIUM"
+    ]
+  },
+  "statusCode": 200,
+  "status": "SUCCESS"
+}

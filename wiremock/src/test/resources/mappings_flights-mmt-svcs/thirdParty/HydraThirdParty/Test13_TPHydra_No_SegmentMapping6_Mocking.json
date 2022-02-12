@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/v1/getHydraSegments",
+        "bodyPatterns":[{
+        "contains" : "QFULKJ5CVMKI6"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/HydraThirdparty/Test_TPSVC_Hydra_V6_No_SegmentMapping_Response.json"
+    }
+}

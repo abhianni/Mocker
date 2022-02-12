@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/flights-dhruv/search/soa.*",
+    "bodyPatterns":[
+      {       	"contains": "ancillary_ow_1adult_trujet"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights-ancillaries/flights-dhruv/dhruv_ow.json"
+  }
+}

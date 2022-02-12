@@ -1,0 +1,14 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v1/forward-flow.*crId=test_fastforward_crId.*"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpFastForward/DOMESTIC_OW/getSearchFastForwardResponse.json"
+	}
+}

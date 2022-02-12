@@ -1,0 +1,14 @@
+{
+    "request":{
+        "method": "PUT",
+        "urlPattern": "/flights-itinerary/v1/itinerary/DOM_RT_AI_SUCCESS/REVIEW"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+		"transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/wreview/DOMRTFareSG/DOMRT_REVIEW.json"
+    }
+}

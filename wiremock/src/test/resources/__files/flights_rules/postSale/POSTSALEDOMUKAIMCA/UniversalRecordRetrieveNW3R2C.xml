@@ -1,0 +1,62 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<universal:UniversalRecordRetrieveRsp TraceId="TO8ctArKQkS" TransactionId="F27E74190A0742605D196E5783A1F9F7" ResponseTime="245" xmlns:universal="http://www.travelport.com/schema/universal_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:passive="http://www.travelport.com/schema/passive_v48_0">
+			<common_v48_0:ResponseMessage Code="1512" Type="Warning">Unable to process the request.</common_v48_0:ResponseMessage>
+			<universal:UniversalRecord LocatorCode="7WCTOJ" Version="109" Status="Active">
+				<common_v48_0:BookingTraveler Key="4j6KhOBAAA/BBbLGxBAAAA==" TravelerType="ADT" Gender="M">
+					<common_v48_0:BookingTravelerName Prefix="MR" First="raj" Last="Kumar"/>
+					<common_v48_0:PhoneNumber Key="4j6KhOBAAA/BCbLGxBAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9099000482">
+						<common_v48_0:ProviderReservationInfoRef Key="4ZqWhOXc1BKAgqbwuBAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="4j6KhOBAAA/BFbLGxBAAAA==" EmailID="reachraj16@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="4ZqWhOXc1BKAgqbwuBAAAA=="/>
+					</common_v48_0:Email>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:OSI Key="k6gNhOBAAA/BeHiywBAAAA==" Carrier="YY" Text="CTCM 9099000482" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA=="/>
+				<common_v48_0:ActionStatus Key="Qr2KhOBAAA/BJz2cwBAAAA==" Type="ACTIVE" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA==" ProviderCode="1G">
+					<common_v48_0:Remark>BOM 03AUG0425Z WS AG</common_v48_0:Remark>
+				</common_v48_0:ActionStatus>
+				<universal:ProviderReservationInfo Key="4ZqWhOXc1BKAgqbwuBAAAA==" ProviderCode="1G" LocatorCode="NW3R2C" CreateDate="2020-08-03T04:18:50.811+00:00" ModifiedDate="2020-08-15T14:10:57.345+00:00" HostCreateDate="2020-08-03" OwningPCC="3G5Y"/>
+				<air:AirReservation LocatorCode="7WCTOM" CreateDate="2020-08-03T04:18:51.290+00:00" ModifiedDate="2020-08-15T14:20:40.537+00:00">
+					<common_v48_0:SupplierLocator SupplierCode="UK" SupplierLocatorCode="MKXDHA" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA==" CreateDateTime="2020-08-03T04:25:00.000+00:00"/>
+					<air:DocumentInfo>
+						<air:TicketInfo Number="2283761228764" TicketIssueDate="2020-08-03T00:00:00.000+05:30" IATANumber="14339942" TicketingAgentSignOn="ZWP7GWS" CountryCode="IN" Status="R" BookingTravelerRef="4j6KhOBAAA/BBbLGxBAAAA==">
+							<common_v48_0:Name Prefix="MR" First="raj" Last="Kumar"/>
+						</air:TicketInfo>
+					</air:DocumentInfo>
+					<common_v48_0:BookingTravelerRef Key="4j6KhOBAAA/BBbLGxBAAAA=="/>
+					<common_v48_0:ProviderReservationInfoRef Key="4ZqWhOXc1BKAgqbwuBAAAA=="/>
+				</air:AirReservation>
+				<passive:PassiveReservation LocatorCode="7WG1JI" CreateDate="2020-08-03T04:25:04.154+00:00" ModifiedDate="2020-08-10T06:12:25.715+00:00" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA==">
+					<common_v48_0:BookingTravelerRef Key="4j6KhOBAAA/BBbLGxBAAAA=="/>
+					<passive:PassiveSegment NumberOfItems="0" SegmentType="Tour" Status="BK" SupplierCode="ZZ" StartDate="2021-06-30T00:00:00.000+00:00" Key="LojNhOBAAA/B5QWBwBAAAA==" Group="0" TravelOrder="1" ProviderSegmentOrder="1" PassiveGroup="0"/>
+					<passive:PassiveRemark PassiveSegmentRef="LojNhOBAAA/B5QWBwBAAAA==">
+						<passive:Text>**RETENTION LINE TO KEEP THE PNR ACTIVE**</passive:Text>
+					</passive:PassiveRemark>
+				</passive:PassiveReservation>
+				<common_v48_0:GeneralRemark Key="ldrWhObc1BKARJoHvBAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA==" CreateDate="2020-08-03T04:18:00.000+00:00">
+					<common_v48_0:RemarkData>MMTJOURNEY OW XX DEL-AMD YY UK-979</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="Jvc9VOkJ0BKA4feaEDAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA==" SupplierCode="1A" Direction="Incoming" CreateDate="2020-08-03T04:25:00.000+00:00">
+					<common_v48_0:RemarkData>ADTK1GTOUK BY 03AUG 1348 DEL TIME ZONE OTHERWISE WILL BE XLD</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="0ZcbhOtYlDKAprMAvBAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA==" CreateDate="2020-08-03T04:25:00.000+00:00">
+					<common_v48_0:RemarkData>FARESOURCE MMYTMY0000</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:GeneralRemark Key="SUPkLPpB0BKAbv3jJBAAAA==" Category="Vendor" TypeInGds="Vendor" SupplierType="Air" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA==" SupplierCode="UK" Direction="Incoming" CreateDate="2020-08-10T05:46:00.000+00:00">
+					<common_v48_0:RemarkData>KINDLY PROCESS FULL REFUND DUE TO IROP</common_v48_0:RemarkData>
+				</common_v48_0:GeneralRemark>
+				<common_v48_0:AgencyInfo>
+					<common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084230" AgencyCode="S3083002" EventTime="2020-08-03T04:18:50.811+00:00"/>
+					<common_v48_0:AgentAction ActionType="Modified" AgentCode="uAPI1667027830-ed41e340" BranchCode="CS3083007" AgencyCode="S3083002" EventTime="2020-08-15T14:20:40.542+00:00"/>
+					<common_v48_0:AgentAction ActionType="Ticketed" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-08-03T04:25:27.610+00:00"/>
+				</common_v48_0:AgencyInfo>
+				<common_v48_0:SSR Key="4j6KhOBAAA/BGbLGxBAAAA==" Status="HK" Type="CTCM" FreeText="/919099000482-1KUMAR/RAJMR" Carrier="UK" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA=="/>
+				<common_v48_0:SSR Key="4j6KhOBAAA/BHbLGxBAAAA==" Status="HK" Type="CTCE" FreeText="/REACHRAJ16//GMAIL.COM-1KUMAR/RAJMR" Carrier="UK" ProviderReservationInfoRef="4ZqWhOXc1BKAgqbwuBAAAA=="/>
+				<common_v48_0:FormOfPayment Key="0LgbhOwYlDKA+d1duBAAAA==" Type="Cash" Reusable="false" ProfileKey="emhGdlRiQEOTzJmANz9kug==">
+					<common_v48_0:ProviderReservationInfoRef Key="4ZqWhOXc1BKAgqbwuBAAAA=="/>
+				</common_v48_0:FormOfPayment>
+			</universal:UniversalRecord>
+		</universal:UniversalRecordRetrieveRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

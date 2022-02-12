@@ -1,0 +1,693 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMTUAE",
+    "currency": "AED",
+    "correlationId": "AN20116277453186",
+    "iteneraryId": "f2a2f96e03efece5465800c51ded0bde67592eae",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "\"AN20116277453186\"",
+      "BookingAggregatorResponse": "{\"mmtId\":\"AN20116277453186\",\"pnrData\":[{\"pnrNo\":\"UF9D7N\",\"supplierId\":\"SGAED\",\"supplierType\":\"NAV42\",\"airlineCode\":\"SG\"}],\"userData\":{\"uuid\":\"U5HWK5CGW2H\",\"profileType\":\"PERSONAL\"},\"itineraryId\":\"f2a2f96e03efece5465800c51ded0bde67592eae\",\"cancellationAssurance\":false,\"fareType\":null,\"cabinClass\":\"E\"}",
+      "PostSaleCPReq": "{\"status\":null,\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMTUAE\",\"currency\":\"AED\",\"correlationId\":\"AN20116277453186\",\"iteneraryId\":\"f2a2f96e03efece5465800c51ded0bde67592eae\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"106\",\"aircraftType\":\"DH8\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"IXM\"},\"arrivalInfo\":{\"trmnl\":\"1\",\"arpCd\":\"MAA\"},\"techStops\":null,\"depTime\":1594197900000,\"arrTime\":1594202100000,\"duration\":4200000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"IXM-MAA : SG-106\",\"depDate\":\"2020-07-08 14:15\",\"arrDate\":\"2020-07-08 15:25\",\"duration\":4200000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"INFANT\":{\"singlePaxBaseFare\":69.0,\"singlePaxTx\":3.4,\"singlePaxTot\":72.4,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1.7,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":1.7,\"taxCode\":\"SGST33\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\":{\"fareClass\":\"J\",\"fareBasis\":\"JSAV\",\"rbd\":\"J\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{}},\"CHILD\":{\"singlePaxBaseFare\":188.5,\"singlePaxTx\":31.4,\"singlePaxTot\":219.9,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":4.8,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":8.4,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":8.6,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":4.8,\"taxCode\":\"SGST33\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"TRF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\":{\"fareClass\":\"J\",\"fareBasis\":\"JSAV\",\"rbd\":\"J\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{\"IXM-MAA : SG-106\":{\"singlePaxBaseFare\":188.5,\"singlePaxTx\":31.4,\"singlePaxTot\":219.9,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":8.6,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":8.4,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":0.1,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":4.7,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":0.1,\"taxCode\":\"SGST33\"},{\"nation\":null,\"taxVal\":4.7,\"taxCode\":\"SGST33\"}]}}},\"ADULT\":{\"singlePaxBaseFare\":188.5,\"singlePaxTx\":31.4,\"singlePaxTot\":219.9,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":4.8,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":8.4,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":8.6,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":4.8,\"taxCode\":\"SGST33\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"TRF\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\":{\"fareClass\":\"J\",\"fareBasis\":\"JSAV\",\"rbd\":\"J\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{\"IXM-MAA : SG-106\":{\"singlePaxBaseFare\":188.5,\"singlePaxTx\":31.4,\"singlePaxTot\":219.9,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":8.6,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":8.4,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":0.1,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":4.7,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":0.1,\"taxCode\":\"SGST33\"},{\"nation\":null,\"taxVal\":4.7,\"taxCode\":\"SGST33\"}]}}}},\"cancellationPenalty\":null,\"dateChangePenalty\":null,\"baggageList\":null,\"cancellationAssured\":false,\"supplierName\":\"SG\",\"supplierCredential\":\"SGAED\",\"fareFamily\":\"\"}]}}}}]}}",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-07-06 18:42:13\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMTUAE\\\",\\\"currency\\\":\\\"AED\\\",\\\"correlationId\\\":\\\"AN20116277453186\\\",\\\"iteneraryId\\\":\\\"f2a2f96e03efece5465800c51ded0bde67592eae\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\\\":{\\\"mrkAl\\\":\\\"SG\\\",\\\"oprAl\\\":\\\"SG\\\",\\\"validatingCarrier\\\":\\\"SG\\\",\\\"fltNo\\\":\\\"106\\\",\\\"arcrfTyp\\\":\\\"DH8\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"1\\\",\\\"arpCd\\\":\\\"IXM\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"1\\\",\\\"arpCd\\\":\\\"MAA\\\"},\\\"depTime\\\":1594197900000,\\\"arrTime\\\":1594202100000,\\\"dur\\\":4200000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"IXM-MAA : SG-106\\\",\\\"depDate\\\":\\\"2020-07-08 14:15\\\",\\\"arrDate\\\":\\\"2020-07-08 15:25\\\",\\\"dur\\\":4200000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"INFANT\\\":{\\\"singlePaxBaseFare\\\":69.0,\\\"singlePaxTx\\\":3.4,\\\"singlePaxTot\\\":72.4,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":1.7,\\\"taxCode\\\":\\\"CGST33\\\"},{\\\"taxVal\\\":1.7,\\\"taxCode\\\":\\\"SGST33\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{},\\\"segPrdctInfo\\\":{\\\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\\\":{\\\"pclass\\\":\\\"RS\\\",\\\"fareClass\\\":\\\"J\\\",\\\"fareBasis\\\":\\\"JSAV\\\",\\\"pClass\\\":\\\"RS\\\",\\\"rbd\\\":\\\"J\\\"}}},\\\"CHILD\\\":{\\\"singlePaxBaseFare\\\":188.5,\\\"singlePaxTx\\\":31.4,\\\"singlePaxTot\\\":219.9,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":4.8,\\\"taxCode\\\":\\\"CGST33\\\"},{\\\"taxVal\\\":8.4,\\\"taxCode\\\":\\\"PSF\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"RCS\\\"},{\\\"taxVal\\\":8.6,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":4.8,\\\"taxCode\\\":\\\"SGST33\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"TRF\\\"}],\\\"noOfPax\\\":1,\\\"journeyWiseFare\\\":{\\\"IXM-MAA : SG-106\\\":{\\\"singlePaxBaseFare\\\":188.5,\\\"singlePaxTx\\\":31.4,\\\"singlePaxTot\\\":219.9,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"RCS\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"TRF\\\"},{\\\"taxVal\\\":8.6,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":8.4,\\\"taxCode\\\":\\\"PSF\\\"},{\\\"taxVal\\\":0.1,\\\"taxCode\\\":\\\"CGST33\\\"},{\\\"taxVal\\\":4.7,\\\"taxCode\\\":\\\"CGST33\\\"},{\\\"taxVal\\\":0.1,\\\"taxCode\\\":\\\"SGST33\\\"},{\\\"taxVal\\\":4.7,\\\"taxCode\\\":\\\"SGST33\\\"}]}},\\\"segPrdctInfo\\\":{\\\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\\\":{\\\"pclass\\\":\\\"RS\\\",\\\"fareClass\\\":\\\"J\\\",\\\"fareBasis\\\":\\\"JSAV\\\",\\\"pClass\\\":\\\"RS\\\",\\\"rbd\\\":\\\"J\\\"}}},\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":188.5,\\\"singlePaxTx\\\":31.4,\\\"singlePaxTot\\\":219.9,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":4.8,\\\"taxCode\\\":\\\"CGST33\\\"},{\\\"taxVal\\\":8.4,\\\"taxCode\\\":\\\"PSF\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"RCS\\\"},{\\\"taxVal\\\":8.6,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":4.8,\\\"taxCode\\\":\\\"SGST33\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"TRF\\\"}],\\\"noOfPax\\\":2,\\\"journeyWiseFare\\\":{\\\"IXM-MAA : SG-106\\\":{\\\"singlePaxBaseFare\\\":188.5,\\\"singlePaxTx\\\":31.4,\\\"singlePaxTot\\\":219.9,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"RCS\\\"},{\\\"taxVal\\\":2.4,\\\"taxCode\\\":\\\"TRF\\\"},{\\\"taxVal\\\":8.6,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":8.4,\\\"taxCode\\\":\\\"PSF\\\"},{\\\"taxVal\\\":0.1,\\\"taxCode\\\":\\\"CGST33\\\"},{\\\"taxVal\\\":4.7,\\\"taxCode\\\":\\\"CGST33\\\"},{\\\"taxVal\\\":0.1,\\\"taxCode\\\":\\\"SGST33\\\"},{\\\"taxVal\\\":4.7,\\\"taxCode\\\":\\\"SGST33\\\"}]}},\\\"segPrdctInfo\\\":{\\\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\\\":{\\\"pclass\\\":\\\"RS\\\",\\\"fareClass\\\":\\\"J\\\",\\\"fareBasis\\\":\\\"JSAV\\\",\\\"pClass\\\":\\\"RS\\\",\\\"rbd\\\":\\\"J\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"SG\\\",\\\"supplierCredential\\\":\\\"SGAED\\\",\\\"fareFamily\\\":\\\"\\\"}]}}}}]}}\",\"ticketData\":\"null\",\"mmtId\":\"AN20116277453186\"}",
+      "PostSaleDroolsBaggage0": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"DOM\",\"fromCityLeg\":\"IXM\",\"toCityLeg\":\"MAA\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"India\",\"operatingAirline\":\"SG\",\"validatingAirline\":\"SG\",\"cabinClass\":\"E\",\"flightNo\":\"106\",\"fbc\":\"JSAV\",\"rbd\":\"J\",\"productClass\":\"RS\",\"bookingDate\":1594041133000,\"ptcCode\":\"\",\"travelDateStart\":1594197900000,\"travelDateEnd\":1594197900000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"20\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "MiniRuleConfig": "{\"airline\":\"SG\",\"sector\":\"DOM\",\"fbc\":null,\"rbd\":null,\"productClass\":null,\"cabinClass\":\"ECONOMY\",\"departureDate\":null,\"bookingDate\":null,\"noShowCutOff\":24,\"firedRules\":[\"20\"],\"cpadditive\":0.0,\"cpmultiplier\":1.05,\"dcpadditive\":0.0,\"dcpmultiplier\":1.05}",
+      "PostSaleBaggageResponse0": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"IXM-MAA : SG-106\",\"flightLookUpKey\":\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"INFANT\":{\"allowance\":\"0\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"INFANT\":{\"allowance\":\"0\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}]}",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"IXM-MAA : SG-106\":{\"fltGrps\":[{\"fltKeys\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{\"IXM-MAA : SG-106\":{\"fltGrps\":[{\"fltKeys\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftCancelFltPenaltyGrp\":{\"IXM-MAA : SG-106\":{\"fltGrps\":[{\"fltKeys\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"IXM-MAA : SG-106\":{\"fltGrps\":[{\"fltKeys\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{\"IXM-MAA : SG-106\":{\"fltGrps\":[{\"fltKeys\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToInftDateChngeFltPenaltyGrp\":{\"IXM-MAA : SG-106\":{\"fltGrps\":[{\"fltKeys\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"twFareRules\":[{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"150.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"212.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"212.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"150.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"212.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"175.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"125.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"125.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"150.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"150.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"175.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"212.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"212.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"175.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":2,\"to\":24,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"150.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"150.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"CHILD\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"212.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"212.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":96,\"to\":8760,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":0,\"to\":2,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":24,\"to\":96,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"175.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"212.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\"],\"paxType\":\"INFANT\",\"rule\":\"CHANGE\",\"airlineCode\":\"SG\",\"from\":-8760,\"to\":0,\"fareBasis\":\"JSAV\",\"feeCurrency\":\"AED\",\"feeAmount\":\"73.0\",\"mmtFee\":15.0,\"supplierType\":\"LCC\",\"nonRefundable\":true}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"IXM-MAA : SG-106\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"IXM-MAA : SG-106\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "{\"status\":\"SUCCCES\",\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMTUAE\",\"currency\":\"AED\",\"correlationId\":\"AN20116277453186\",\"iteneraryId\":\"f2a2f96e03efece5465800c51ded0bde67592eae\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\":{\"marketingAirline\":\"SG\",\"operatingAirline\":\"SG\",\"validatingCarrier\":\"SG\",\"flightNum\":\"106\",\"aircraftType\":\"DH8\",\"departureInfo\":{\"trmnl\":\"1\",\"arpCd\":\"IXM\"},\"arrivalInfo\":{\"trmnl\":\"1\",\"arpCd\":\"MAA\"},\"techStops\":null,\"depTime\":1594197900000,\"arrTime\":1594202100000,\"duration\":4200000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"IXM-MAA : SG-106\",\"depDate\":\"2020-07-08 14:15\",\"arrDate\":\"2020-07-08 15:25\",\"duration\":4200000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"INFANT\":{\"singlePaxBaseFare\":69.0,\"singlePaxTx\":3.4,\"singlePaxTot\":72.4,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":1.7,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":1.7,\"taxCode\":\"SGST33\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\":{\"fareClass\":\"J\",\"fareBasis\":\"JSAV\",\"rbd\":\"J\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{}},\"CHILD\":{\"singlePaxBaseFare\":188.5,\"singlePaxTx\":31.4,\"singlePaxTot\":219.9,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":4.8,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":8.4,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":8.6,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":4.8,\"taxCode\":\"SGST33\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"TRF\"}],\"noOfPax\":1,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\":{\"fareClass\":\"J\",\"fareBasis\":\"JSAV\",\"rbd\":\"J\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{\"IXM-MAA : SG-106\":{\"singlePaxBaseFare\":188.5,\"singlePaxTx\":31.4,\"singlePaxTot\":219.9,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":8.6,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":8.4,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":0.1,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":4.7,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":0.1,\"taxCode\":\"SGST33\"},{\"nation\":null,\"taxVal\":4.7,\"taxCode\":\"SGST33\"}]}}},\"ADULT\":{\"singlePaxBaseFare\":188.5,\"singlePaxTx\":31.4,\"singlePaxTot\":219.9,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":4.8,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":8.4,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":8.6,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":4.8,\"taxCode\":\"SGST33\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"TRF\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\":{\"fareClass\":\"J\",\"fareBasis\":\"JSAV\",\"rbd\":\"J\",\"pclass\":\"RS\"}},\"journeyWiseFare\":{\"IXM-MAA : SG-106\":{\"singlePaxBaseFare\":188.5,\"singlePaxTx\":31.4,\"singlePaxTot\":219.9,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"RCS\"},{\"nation\":null,\"taxVal\":2.4,\"taxCode\":\"TRF\"},{\"nation\":null,\"taxVal\":8.6,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":8.4,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":0.1,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":4.7,\"taxCode\":\"CGST33\"},{\"nation\":null,\"taxVal\":0.1,\"taxCode\":\"SGST33\"},{\"nation\":null,\"taxVal\":4.7,\"taxCode\":\"SGST33\"}]}}}},\"cancellationPenalty\":[{\"jrnyKey\":\"IXM-MAA : SG-106\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":150.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":175.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":175.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":212.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":212.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null},\"CHILD\":{\"ptcCode\":null,\"paxType\":\"CHILD\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":150.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":175.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":175.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":212.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":212.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null},\"INFANT\":{\"ptcCode\":null,\"paxType\":\"INFANT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":15.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null}}}],\"dateChangePenalty\":[{\"jrnyKey\":\"IXM-MAA : SG-106\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":125.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":150.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":150.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":212.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":212.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null}]},\"CHILD\":{\"ptcCode\":null,\"paxType\":\"CHILD\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":125.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":150.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":150.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":212.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":212.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null}]},\"INFANT\":{\"ptcCode\":null,\"paxType\":\"INFANT\",\"timeWindows\":[{\"fromTimeWindow\":96,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":96,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":2,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":2,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":73.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":15.0},\"waiver\":null}]}}}],\"baggageList\":[{\"jrnyKey\":\"IXM-MAA : SG-106\",\"flightLookUpKey\":\"SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"INFANT\":{\"allowance\":\"0\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"CHILD\":{\"allowance\":\"20\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"INFANT\":{\"allowance\":\"0\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"},\"CHILD\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}],\"cancellationAssured\":false,\"supplierName\":\"SG\",\"supplierCredential\":\"SGAED\",\"fareFamily\":\"\"}]}}}}]}}",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25": {
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "validatingCarrier": "SG",
+      "fltNo": "106",
+      "arcrfTyp": "DH8",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "IXM"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "arpCd": "MAA"
+      },
+      "depTime": 1594197900000,
+      "arrTime": 1594202100000,
+      "dur": 4200000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "IXM-MAA : SG-106",
+        "depDate": "2020-07-08 14:15",
+        "arrDate": "2020-07-08 15:25",
+        "dur": 4200000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "INFANT": {
+                  "singlePaxBaseFare": 69.0,
+                  "singlePaxTx": 3.4,
+                  "singlePaxTot": 72.4,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 1.7,
+                    "taxCode": "CGST33"
+                  }, {
+                    "taxVal": 1.7,
+                    "taxCode": "SGST33"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {},
+                  "segPrdctInfo": {
+                    "SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25": {
+                      "pclass": "RS",
+                      "fareClass": "J",
+                      "fareBasis": "JSAV",
+                      "pClass": "RS",
+                      "rbd": "J"
+                    }
+                  }
+                },
+                "CHILD": {
+                  "singlePaxBaseFare": 188.5,
+                  "singlePaxTx": 31.4,
+                  "singlePaxTot": 219.9,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 4.8,
+                    "taxCode": "CGST33"
+                  }, {
+                    "taxVal": 8.4,
+                    "taxCode": "PSF"
+                  }, {
+                    "taxVal": 2.4,
+                    "taxCode": "RCS"
+                  }, {
+                    "taxVal": 8.6,
+                    "taxCode": "ASF"
+                  }, {
+                    "taxVal": 4.8,
+                    "taxCode": "SGST33"
+                  }, {
+                    "taxVal": 2.4,
+                    "taxCode": "TRF"
+                  }],
+                  "noOfPax": 1,
+                  "journeyWiseFare": {
+                    "IXM-MAA : SG-106": {
+                      "singlePaxBaseFare": 188.5,
+                      "singlePaxTx": 31.4,
+                      "singlePaxTot": 219.9,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 2.4,
+                        "taxCode": "RCS"
+                      }, {
+                        "taxVal": 2.4,
+                        "taxCode": "TRF"
+                      }, {
+                        "taxVal": 8.6,
+                        "taxCode": "ASF"
+                      }, {
+                        "taxVal": 8.4,
+                        "taxCode": "PSF"
+                      }, {
+                        "taxVal": 0.1,
+                        "taxCode": "CGST33"
+                      }, {
+                        "taxVal": 4.7,
+                        "taxCode": "CGST33"
+                      }, {
+                        "taxVal": 0.1,
+                        "taxCode": "SGST33"
+                      }, {
+                        "taxVal": 4.7,
+                        "taxCode": "SGST33"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25": {
+                      "pclass": "RS",
+                      "fareClass": "J",
+                      "fareBasis": "JSAV",
+                      "pClass": "RS",
+                      "rbd": "J"
+                    }
+                  }
+                },
+                "ADULT": {
+                  "singlePaxBaseFare": 188.5,
+                  "singlePaxTx": 31.4,
+                  "singlePaxTot": 219.9,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 4.8,
+                    "taxCode": "CGST33"
+                  }, {
+                    "taxVal": 8.4,
+                    "taxCode": "PSF"
+                  }, {
+                    "taxVal": 2.4,
+                    "taxCode": "RCS"
+                  }, {
+                    "taxVal": 8.6,
+                    "taxCode": "ASF"
+                  }, {
+                    "taxVal": 4.8,
+                    "taxCode": "SGST33"
+                  }, {
+                    "taxVal": 2.4,
+                    "taxCode": "TRF"
+                  }],
+                  "noOfPax": 2,
+                  "journeyWiseFare": {
+                    "IXM-MAA : SG-106": {
+                      "singlePaxBaseFare": 188.5,
+                      "singlePaxTx": 31.4,
+                      "singlePaxTot": 219.9,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 2.4,
+                        "taxCode": "RCS"
+                      }, {
+                        "taxVal": 2.4,
+                        "taxCode": "TRF"
+                      }, {
+                        "taxVal": 8.6,
+                        "taxCode": "ASF"
+                      }, {
+                        "taxVal": 8.4,
+                        "taxCode": "PSF"
+                      }, {
+                        "taxVal": 0.1,
+                        "taxCode": "CGST33"
+                      }, {
+                        "taxVal": 4.7,
+                        "taxCode": "CGST33"
+                      }, {
+                        "taxVal": 0.1,
+                        "taxCode": "SGST33"
+                      }, {
+                        "taxVal": 4.7,
+                        "taxCode": "SGST33"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25": {
+                      "pclass": "RS",
+                      "fareClass": "J",
+                      "fareBasis": "JSAV",
+                      "pClass": "RS",
+                      "rbd": "J"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "IXM-MAA : SG-106",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 150.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 175.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 175.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 212.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 212.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 150.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 175.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 175.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 212.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 212.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 15.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "IXM-MAA : SG-106",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 125.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 150.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 150.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 212.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 212.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }]
+                  },
+                  "CHILD": {
+                    "paxType": "CHILD",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 125.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 150.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 150.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 212.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 212.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }]
+                  },
+                  "INFANT": {
+                    "paxType": "INFANT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 96,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 96,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": 2,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 2,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 73.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 15.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "IXM-MAA : SG-106",
+                "flightLookUpKey": "SG-106-IXM-MAA-2020-07-08 14:15-2020-07-08 15:25",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "INFANT": {
+                      "allowance": "0",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "CHILD": {
+                      "allowance": "20",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "INFANT": {
+                      "allowance": "0",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    },
+                    "CHILD": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "SG",
+              "supplierCredential": "SGAED",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

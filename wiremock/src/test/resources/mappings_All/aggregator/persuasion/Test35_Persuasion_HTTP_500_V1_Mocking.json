@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-persuasion/persuasionElements",
+        "bodyPatterns":[{	
+        "contains" : "PersuasionNegativeTestHTTP500INTERNALSERVERERROR"
+        }]
+    },
+    "response": {
+        "status": 500
+	}
+}

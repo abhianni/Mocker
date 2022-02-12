@@ -1,0 +1,22 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v4/search.*crId=testCheaperFlight1.*",
+		"headers": {
+			"x-lob": {
+				"equalTo": "CORPB2C"
+			}
+		}
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json",
+			"x-profile-type": "BUSINESS",
+			"x-lob": "CORPSME",
+			"x-org-id": "3"
+		},
+		"bodyFileName": "/corporate/corpCheapFlight/RT/Test1_getSearchCheapFlightB2CDomRTResp.json"
+	}
+}

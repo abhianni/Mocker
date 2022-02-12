@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/loyalty-webservice/activateUser",
+        "bodyPatterns":[{
+        "contains" : "a@b.ccm"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/flights/persuasion/Loyalty_User_Not_Found.json"
+    }
+}

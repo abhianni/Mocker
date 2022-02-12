@@ -1,0 +1,97 @@
+{
+    "attributeList": [
+        {
+            "attributeId": "1356",
+            "attributeName": "Testing trip tag",
+            "attributeDescription": "Testing trip tag ",
+            "possibleValuesAndGST": [
+                {
+                    "value": "Test value 1"
+                },
+                {
+                    "value": "Test value 2"
+                },
+                {
+                    "value": "Test value 3"
+                },
+                {
+                    "value": "Test value 4"
+                },
+                {
+                    "value": "Test value 5"
+                },
+                {
+                    "value": "test value 6"
+                }
+            ],
+            "attributeType": "DropDown",
+            "mandatoryCheck": true,
+            "gstBasedTripTag": false
+        },
+        {
+            "attributeId": "1358",
+            "attributeName": "Testing TT2",
+            "attributeDescription": "Testing TT2",
+            "possibleValuesAndGST": [
+                {
+                    "value": "jdjqj"
+                },
+                {
+                    "value": "dkdjskdjkjd"
+                },
+                {
+                    "value": "ldlcldcekld"
+                },
+                {
+                    "value": "skcnksnkalsxca"
+                },
+                {
+                    "value": "xalmxl"
+                }
+            ],
+            "attributeType": "RadioButton",
+            "mandatoryCheck": true,
+            "gstBasedTripTag": false
+        },
+        {
+            "attributeId": "1382",
+            "attributeName": "Test Trip tag hotels",
+            "attributeDescription": "tagplace",
+            "possibleValuesAndGST": [
+                {
+                    "value": "Test1"
+                },
+                {
+                    "value": "Tes2"
+                },
+                {
+                    "value": "Test3"
+                },
+                {
+                    "value": "Test4"
+                },
+                {
+                    "value": "Test5"
+                }
+            ],
+            "attributeType": "RadioButton",
+            "mandatoryCheck": true,
+            "gstBasedTripTag": false
+        }
+    ],
+    "defaultGST": {
+        "gstDetails": {
+            "gstn": "02ASZPV3918N2Z6",
+            "orgId": 3,
+            "address1": "testaddress",
+            "address2": "",
+            "city": "Gurgaon",
+            "pinCode": "122001",
+            "organizationName": "TESTCOMPANY1"
+        }
+    },
+    "status": "success",
+    "statusCode": 200,
+    "responseCode": "600",
+    "message": "Operation executed successfully."
+}

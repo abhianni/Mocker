@@ -1,0 +1,2596 @@
+{
+	"loyalty": {
+		"status": "FAILED",
+		"err": [{
+			"statusCode": 400,
+			"ec": "40012",
+			"em": "Unsupported Profile Type",
+			"ed": "Profile type is not yet supported by downstream API",
+			"sn": "mmt-svcs-loyalty",
+			"downStreamErrors": [{
+				"statusCode": 200,
+				"ec": "UnsupportedProfileType",
+				"em": "UnsupportedProfileType",
+				"ed": null,
+				"sn": "DOWNSTREAM-LOYALTY-USER-STATUS"
+			}]
+		}]
+	},
+	"amenities": {
+		"status": "SUCCESS",
+		"amns": {
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:0": {
+				"scrId": "7.7",
+				"amnId": "3",
+				"spdId": "5",
+				"acrftId": "48",
+				"entrId": "17|10000",
+				"seatId": "80",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.7",
+					"amn": "3",
+					"spd": "5",
+					"flts": [{
+						"fkey": "DEL-BLR-SG-191-20200311-ECON",
+						"stId": "80",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "48"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:1": {
+				"scrId": "7.7",
+				"amnId": "3",
+				"spdId": "5",
+				"acrftId": "48",
+				"entrId": "17|10000",
+				"seatId": "80",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.7",
+					"amn": "3",
+					"spd": "5",
+					"flts": [{
+						"fkey": "DEL-BLR-SG-143-20200311-ECON",
+						"stId": "80",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "48"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:2": {
+				"scrId": "7.7",
+				"amnId": "3",
+				"spdId": "4",
+				"acrftId": "48",
+				"entrId": "17|10000",
+				"seatId": "445",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.7",
+					"amn": "3",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-SG-197-20200311-ECON",
+						"stId": "445",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "48"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:3": {
+				"scrId": "7.0",
+				"amnId": "2",
+				"spdId": "5",
+				"acrftId": "50",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "174|10000",
+				"jrnys": [{
+					"scr": "7.0",
+					"amn": "2",
+					"spd": "5",
+					"flts": [{
+						"fkey": "DEL-BLR-G8-124-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:4": {
+				"scrId": "7.0",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "50",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "174|10000",
+				"jrnys": [{
+					"scr": "7.0",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-G8-113-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:5": {
+				"scrId": "7.0",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "50",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "174|10000",
+				"jrnys": [{
+					"scr": "7.0",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-G8-557-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:6": {
+				"scrId": "8.2",
+				"amnId": "4",
+				"spdId": "5",
+				"acrftId": "2",
+				"entrId": "17|10000",
+				"seatId": "23",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "15|10000",
+				"foodId": "69|10000",
+				"jrnys": [{
+					"scr": "8.2",
+					"amn": "4",
+					"spd": "5",
+					"flts": [{
+						"fkey": "DEL-BLR-UK-811-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:54": {
+				"scrId": "4.3",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5714",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "4.3",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-963-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-853-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:10": {
+				"scrId": "8.2",
+				"amnId": "4",
+				"spdId": "5",
+				"acrftId": "2",
+				"entrId": "17|10000",
+				"seatId": "23",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "15|10000",
+				"foodId": "69|10000",
+				"jrnys": [{
+					"scr": "8.2",
+					"amn": "4",
+					"spd": "5",
+					"flts": [{
+						"fkey": "DEL-BLR-UK-807-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:7": {
+				"scrId": "7.0",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "50",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "174|10000",
+				"jrnys": [{
+					"scr": "7.0",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-G8-112-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:53": {
+				"scrId": "4.5",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5531",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "4.5",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-927-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-853-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:56": {
+				"scrId": "4.0",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5531",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "4.0",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-927-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-849-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:12": {
+				"scrId": "8.2",
+				"amnId": "4",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "17|10000",
+				"seatId": "23",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "15|10000",
+				"foodId": "69|10000",
+				"jrnys": [{
+					"scr": "8.2",
+					"amn": "4",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-UK-813-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:11": {
+				"scrId": "8.2",
+				"amnId": "4",
+				"spdId": "5",
+				"acrftId": "2",
+				"entrId": "17|10000",
+				"seatId": "23",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "15|10000",
+				"foodId": "69|10000",
+				"jrnys": [{
+					"scr": "8.2",
+					"amn": "4",
+					"spd": "5",
+					"flts": [{
+						"fkey": "DEL-BLR-UK-817-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:55": {
+				"scrId": "4.3",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5625",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "4.3",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-995-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-849-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:50": {
+				"scrId": "4.8",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5531",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "4.8",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-933-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-857-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:52": {
+				"scrId": "4.6",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5744",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "4.6",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-993-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-865-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:51": {
+				"scrId": "4.8",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5625",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "4.8",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-995-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-853-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:18": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2624-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:17": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2376-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:19": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2134-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:58": {
+				"scrId": "3.7",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5714",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.7",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-963-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-849-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:57": {
+				"scrId": "3.9",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5625",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.9",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-993-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-857-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:16": {
+				"scrId": "8.2",
+				"amnId": "4",
+				"spdId": "5",
+				"acrftId": "2",
+				"entrId": "17|10000",
+				"seatId": "23",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "15|10000",
+				"foodId": "69|10000",
+				"jrnys": [{
+					"scr": "8.2",
+					"amn": "4",
+					"spd": "5",
+					"flts": [{
+						"fkey": "DEL-BLR-UK-815-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:59": {
+				"scrId": "3.7",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5744",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.7",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-995-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-865-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:43": {
+				"scrId": "4.2",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5833",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "4.2",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-945-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-865-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:42": {
+				"scrId": "4.8",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5714",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "4.8",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-945-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-849-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:45": {
+				"scrId": "3.5",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5714",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.5",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-945-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-857-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:44": {
+				"scrId": "3.6",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5777",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.6",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-953-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-845-20200312-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:41": {
+				"scrId": "5.3",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5714",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "5.3",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-945-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-853-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:47": {
+				"scrId": "5.7",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5625",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "5.7",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-993-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-853-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:46": {
+				"scrId": "3.4",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5777",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.4",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-953-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-851-20200312-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:49": {
+				"scrId": "5.1",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5625",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "5.1",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-993-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-849-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:48": {
+				"scrId": "5.6",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5652",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "5.6",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-933-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-865-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:70": {
+				"scrId": "5.7",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5333",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "5.7",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-975-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-863-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:32": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-5021-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:31": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2637-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:34": {
+				"scrId": "5.0",
+				"amnId": "2",
+				"spdId": "1",
+				"acrftId": "50|50",
+				"entrId": "30|30|0",
+				"seatId": "102|102",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "2|2|0",
+				"foodId": "174|174|10000",
+				"jrnys": [{
+					"scr": "5.0",
+					"amn": "2",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-G8-2501-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}, {
+						"fkey": "BOM-BLR-G8-317-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:33": {
+				"scrId": "4.6",
+				"amnId": "2",
+				"spdId": "1",
+				"acrftId": "50|50",
+				"entrId": "30|30|0",
+				"seatId": "102|102",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "2|2|0",
+				"foodId": "174|174|10000",
+				"jrnys": [{
+					"scr": "4.6",
+					"amn": "2",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-PNQ-G8-171-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}, {
+						"fkey": "PNQ-BLR-G8-284-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:71": {
+				"scrId": "5.6",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5714",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "5.6",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-955-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-857-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:30": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2458-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:36": {
+				"scrId": "5.0",
+				"amnId": "2",
+				"spdId": "1",
+				"acrftId": "50|2",
+				"entrId": "30|30|0",
+				"seatId": "102|102",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "2|2|0",
+				"foodId": "174|174|10000",
+				"jrnys": [{
+					"scr": "5.0",
+					"amn": "2",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-HYD-G8-425-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}, {
+						"fkey": "HYD-BLR-G8-291-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:35": {
+				"scrId": "4.7",
+				"amnId": "2",
+				"spdId": "1",
+				"acrftId": "50|50",
+				"entrId": "30|30|0",
+				"seatId": "102|102",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "2|2|0",
+				"foodId": "174|174|10000",
+				"jrnys": [{
+					"scr": "4.7",
+					"amn": "2",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-G8-338-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}, {
+						"fkey": "BOM-BLR-G8-382-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:38": {
+				"scrId": "5.0",
+				"amnId": "2",
+				"spdId": "1",
+				"acrftId": "50|50",
+				"entrId": "30|30|0",
+				"seatId": "102|102",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "2|2|0",
+				"foodId": "174|174|10000",
+				"jrnys": [{
+					"scr": "5.0",
+					"amn": "2",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-LKO-G8-214-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}, {
+						"fkey": "LKO-BLR-G8-806-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "174",
+						"lyoId": "4",
+						"acrftId": "50"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:21": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2563-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:65": {
+				"scrId": "5.3",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5531",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "5.3",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-941-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-857-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:20": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-5031-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:64": {
+				"scrId": "3.4",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5714",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.4",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-963-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-857-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:67": {
+				"scrId": "3.4",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5434",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.4",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-923-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-849-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:23": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2465-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:66": {
+				"scrId": "3.5",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5434",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.5",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-923-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-853-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:22": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2297-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:61": {
+				"scrId": "3.4",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5833",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.4",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-963-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-865-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:60": {
+				"scrId": "3.4",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5652",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.4",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-927-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-865-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:63": {
+				"scrId": "3.4",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5531",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.4",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-927-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-857-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:62": {
+				"scrId": "3.4",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5625",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.4",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-995-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-857-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:29": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2977-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:28": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2273-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:69": {
+				"scrId": "3.4",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5434",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.4",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-923-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-857-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:25": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-5011-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:24": {
+				"scrId": "7.3",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "18",
+				"entrId": "30|0",
+				"seatId": "63",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.3",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2839-20200311-ECON",
+						"stId": "63",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "18"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:68": {
+				"scrId": "3.4",
+				"amnId": "4",
+				"spdId": "1",
+				"acrftId": "2|23",
+				"entrId": "17|17|10000",
+				"seatId": "23|5",
+				"lyoId": "4|4",
+				"wifiId": "135|135|0",
+				"pwrId": "15|2|5555",
+				"foodId": "69|69|10000",
+				"jrnys": [{
+					"scr": "3.4",
+					"amn": "4",
+					"spd": "1",
+					"flts": [{
+						"fkey": "DEL-BOM-UK-923-20200311-ECON",
+						"stId": "23",
+						"wfId": "135",
+						"pwrId": "15",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "2"
+					}, {
+						"fkey": "BOM-BLR-UK-865-20200311-ECON",
+						"stId": "5",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "17",
+						"foodId": "69",
+						"lyoId": "4",
+						"acrftId": "23"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:27": {
+				"scrId": "7.2",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "2",
+				"entrId": "30|0",
+				"seatId": "102",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.2",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2131-20200311-ECON",
+						"stId": "102",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "2"
+					}]
+				}]
+			},
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:26": {
+				"scrId": "7.3",
+				"amnId": "2",
+				"spdId": "4",
+				"acrftId": "18",
+				"entrId": "30|0",
+				"seatId": "63",
+				"lyoId": "4",
+				"wifiId": "135|0",
+				"pwrId": "2|0",
+				"foodId": "15|10000",
+				"jrnys": [{
+					"scr": "7.3",
+					"amn": "2",
+					"spd": "4",
+					"flts": [{
+						"fkey": "DEL-BLR-6E-2031-20200311-ECON",
+						"stId": "63",
+						"wfId": "135",
+						"pwrId": "2",
+						"entrId": "30",
+						"foodId": "15",
+						"lyoId": "4",
+						"acrftId": "18"
+					}]
+				}]
+			}
+		},
+		"amnsOrder": {
+			"AIRCRAFT": 6,
+			"MEAL": 2,
+			"SEAT": 1,
+			"LAYOUT": 3,
+			"WIFI": 7,
+			"POWER": 5,
+			"ENTERTAINMENT": 4
+		},
+		"scr": {
+			"7.7": "Very good",
+			"2.0": "Poor",
+			"4.0": "Poor",
+			"2.2": "Poor",
+			"5.0": "Fair",
+			"4.2": "Poor",
+			"5.1": "Fair",
+			"7.0": "Good",
+			"3.4": "Poor",
+			"4.3": "Poor",
+			"3.5": "Poor",
+			"5.3": "Fair",
+			"7.2": "Good",
+			"3.6": "Poor",
+			"4.5": "Poor",
+			"8.2": "Very good",
+			"1.9": "Poor",
+			"7.3": "Good",
+			"4.6": "Poor",
+			"3.7": "Poor",
+			"5.6": "Fair",
+			"3.8": "Poor",
+			"4.7": "Poor",
+			"4.8": "Poor",
+			"5.7": "Fair",
+			"3.9": "Poor"
+		},
+		"amn": {
+			"2": "Satisfactory",
+			"3": "Good",
+			"4": "Very good"
+		},
+		"spd": {
+			"1": "Longest duration",
+			"4": "Short duration",
+			"5": "Shortest duration"
+		},
+		"acrftS": {
+			"2": {
+				"dTxt": "A320 (narrowbody)"
+			},
+			"2|23": {
+				"dTxt": "A320, 737"
+			},
+			"48": {
+				"dTxt": "737 (narrowbody)"
+			},
+			"18": {
+				"dTxt": "A321 (narrowbody)"
+			},
+			"2|23|23": {
+				"dTxt": "A320, 737, 737"
+			},
+			"50|2": {
+				"dTxt": "A320, A320"
+			},
+			"50": {
+				"dTxt": "A320 (narrowbody)"
+			},
+			"50|50": {
+				"dTxt": "A320 (narrowbody)"
+			}
+		},
+		"entrS": {
+			"17|17|17|10000": {
+				"dTxt": "Personal device entertainment",
+				"exts": "yes"
+			},
+			"30|30|0": {
+				"dTxt": "Entertainment not available",
+				"exts": "no"
+			},
+			"17|17|10000": {
+				"dTxt": "Personal device entertainment",
+				"exts": "yes"
+			},
+			"30|0": {
+				"dTxt": "Entertainment not available",
+				"exts": "no"
+			},
+			"17|10000": {
+				"dTxt": "Personal device entertainment",
+				"exts": "yes"
+			}
+		},
+		"seatS": {
+			"23": {
+				"dTxt": "76 cm seat pitch"
+			},
+			"102": {
+				"dTxt": "71 cm seat pitch"
+			},
+			"445": {
+				"dTxt": "71 cm seat pitch"
+			},
+			"80": {
+				"dTxt": "71 cm seat pitch"
+			},
+			"102|102": {
+				"dTxt": "71 cm seat pitch"
+			},
+			"23|5|5": {
+				"dTxt": "Standard legroom"
+			},
+			"23|5": {
+				"dTxt": "Standard legroom"
+			},
+			"63": {
+				"dTxt": "74 cm seat pitch"
+			}
+		},
+		"lyoS": {
+			"4|4|4": {
+				"dTxt": "3-3 seat layout"
+			},
+			"4": {
+				"dTxt": "3-3 seat layout"
+			},
+			"4|4": {
+				"dTxt": "3-3 seat layout"
+			}
+		},
+		"wifiS": {
+			"135|135|135|0": {
+				"dTxt": "Wi-Fi not available",
+				"exts": "no"
+			},
+			"135|135|0": {
+				"dTxt": "Wi-Fi not available",
+				"exts": "no"
+			},
+			"135|0": {
+				"dTxt": "Wi-Fi not available",
+				"exts": "no"
+			}
+		},
+		"pwrS": {
+			"15|2|5581": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"2|2|0": {
+				"dTxt": "Power not available",
+				"exts": "no"
+			},
+			"2|0": {
+				"dTxt": "Power not available",
+				"exts": "no"
+			},
+			"15|2|2|2537": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|2|4358": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|2|3164": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|5434": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|5531": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|5333": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|5652": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|10000": {
+				"dTxt": "Chance of USB outlet",
+				"exts": "yes"
+			},
+			"15|2|5625": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|5714": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|5777": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|5744": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|5833": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			},
+			"15|2|5555": {
+				"dTxt": "Power partially available",
+				"exts": "partial"
+			}
+		},
+		"foodS": {
+			"174|174|10000": {
+				"dTxt": "Snacks (paid)",
+				"exts": "yes"
+			},
+			"69|69|10000": {
+				"dTxt": "Fresh meal available",
+				"exts": "yes"
+			},
+			"69|69|69|10000": {
+				"dTxt": "Fresh meal available",
+				"exts": "yes"
+			},
+			"15|10000": {
+				"dTxt": "Light meal (paid)",
+				"exts": "yes"
+			},
+			"174|10000": {
+				"dTxt": "Snacks (paid)",
+				"exts": "yes"
+			},
+			"69|10000": {
+				"dTxt": "Fresh meal available",
+				"exts": "yes"
+			}
+		},
+		"acrft": {
+			"23": {
+				"displayText": "737 (narrowbody)",
+				"quality": "standard",
+				"model": "737",
+				"cabinPressure": "normal",
+				"windowSize": "standard",
+				"type": "narrowbody"
+			},
+			"2": {
+				"displayText": "A320 (narrowbody)",
+				"quality": "standard",
+				"model": "A320",
+				"cabinPressure": "normal",
+				"windowSize": "standard",
+				"type": "narrowbody"
+			},
+			"48": {
+				"displayText": "737 (narrowbody)",
+				"quality": "standard",
+				"model": "737",
+				"cabinPressure": "normal",
+				"windowSize": "standard",
+				"type": "narrowbody"
+			},
+			"18": {
+				"displayText": "A321 (narrowbody)",
+				"quality": "standard",
+				"model": "A321",
+				"cabinPressure": "normal",
+				"windowSize": "standard",
+				"type": "narrowbody"
+			},
+			"50": {
+				"displayText": "A320 (narrowbody)",
+				"quality": "standard",
+				"model": "A320",
+				"cabinPressure": "normal",
+				"windowSize": "standard",
+				"type": "narrowbody"
+			}
+		},
+		"entr": {
+			"17": {
+				"displayText": "Personal device entertainment",
+				"quality": "better",
+				"cost": "free",
+				"exists": "yes",
+				"type": "streaming"
+			},
+			"30": {
+				"displayText": "No entertainment",
+				"quality": "standard",
+				"cost": "n/a",
+				"exists": "no",
+				"type": "none"
+			}
+		},
+		"st": {
+			"23": {
+				"displayText": "76 cm seat pitch",
+				"quality": "standard",
+				"legRoom": "standard",
+				"pitch": "30",
+				"width": "wider",
+				"flatness": "not flat",
+				"type": "standard legroom"
+			},
+			"102": {
+				"displayText": "71 cm seat pitch",
+				"quality": "standard",
+				"legRoom": "less",
+				"pitch": "28",
+				"width": "wider",
+				"flatness": "not flat",
+				"type": "below average legroom"
+			},
+			"5": {
+				"displayText": "76 cm seat pitch",
+				"quality": "standard",
+				"legRoom": "standard",
+				"pitch": "30",
+				"width": "standard",
+				"flatness": "not flat",
+				"type": "standard legroom"
+			},
+			"445": {
+				"displayText": "71 cm seat pitch",
+				"quality": "standard",
+				"legRoom": "less",
+				"pitch": "28",
+				"width": "n/a",
+				"flatness": "not flat",
+				"type": "below average legroom"
+			},
+			"80": {
+				"displayText": "71 cm seat pitch",
+				"quality": "standard",
+				"legRoom": "less",
+				"pitch": "28",
+				"width": "standard",
+				"flatness": "not flat",
+				"type": "below average legroom"
+			},
+			"63": {
+				"displayText": "74 cm seat pitch",
+				"quality": "standard",
+				"legRoom": "less",
+				"pitch": "29",
+				"width": "wider",
+				"flatness": "not flat",
+				"type": "below average legroom"
+			}
+		},
+		"lyo": {
+			"4": {
+				"displayText": "3-3 seat layout",
+				"quality": "standard",
+				"rowLayout": "3-3",
+				"directAisleAccess": "no",
+				"type": "forward"
+			}
+		},
+		"wf": {
+			"135": {
+				"displayText": "No Wi-Fi",
+				"quality": "n/a",
+				"performance": "n/a",
+				"cost": "n/a",
+				"exists": "no",
+				"chance": "n/a",
+				"coverage": "n/a",
+				"connectivityType": "n/a",
+				"type": "none"
+			}
+		},
+		"pwr": {
+			"2": {
+				"displayText": "No power outlet",
+				"quality": "standard",
+				"cost": "n/a",
+				"exists": "no",
+				"chance": "n/a",
+				"distribution": "n/a",
+				"multipleAtSeat": "no",
+				"usbPort": "no",
+				"powerOutlet": "no",
+				"type": "none"
+			},
+			"15": {
+				"displayText": "Chance of USB outlet",
+				"quality": "standard",
+				"cost": "free",
+				"exists": "yes",
+				"chance": "yes",
+				"distribution": "all",
+				"multipleAtSeat": "no",
+				"usbPort": "yes",
+				"powerOutlet": "no",
+				"type": "usb"
+			}
+		},
+		"food": {
+			"69": {
+				"displayText": "Fresh meal available",
+				"quality": "standard",
+				"cost": "free or paid",
+				"exists": "yes",
+				"type": "meal"
+			},
+			"15": {
+				"displayText": "Light meal (paid)",
+				"quality": "standard",
+				"cost": "paid",
+				"exists": "yes",
+				"type": "light meal"
+			},
+			"174": {
+				"displayText": "Snacks (paid)",
+				"quality": "standard",
+				"cost": "paid",
+				"exists": "yes",
+				"type": "snack"
+			}
+		}
+	},
+	"pitho": {
+		"common": {},
+		"flights": {},
+		"rkeysMapping": {
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:0": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:0",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:1": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:1",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:2": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:2",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:3": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:3",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:4": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:4",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:5": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:5",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:54": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:54",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:10": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:10",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:6": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:6",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:53": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:53",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:7": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:7",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:56": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:56",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:12": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:12",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:8": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:8",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:55": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:55",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:11": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:11",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:9": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:9",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:50": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:50",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:52": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:52",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:51": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:51",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:18": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:18",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:17": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:17",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:19": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:19",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:58": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:58",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:14": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:14",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:57": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:57",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:13": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:13",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:16": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:16",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:59": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:59",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:15": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:15",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:43": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:43",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:42": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:42",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:45": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:45",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:44": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:44",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:41": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:41",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:40": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:40",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:47": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:47",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:46": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:46",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:49": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:49",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:48": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:48",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:70": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:70",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:32": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:32",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:31": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:31",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:34": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:34",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:33": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:33",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:71": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:71",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:30": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:30",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:39": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:39",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:36": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:36",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:35": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:35",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:38": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:38",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:37": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:37",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:65": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:65",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:21": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:21",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:64": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:64",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:20": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:20",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:67": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:67",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:23": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:23",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:66": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:66",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:22": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:22",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:61": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:61",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:60": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:60",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:63": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:63",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:62": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:62",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:29": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:29",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:28": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:28",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:69": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:69",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:25": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:25",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:68": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:68",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:24": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:24",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:27": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:27",
+			"RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:26": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:26"
+		}
+	},
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "BLR",
+				"depDate": "2020-03-11"
+			}],
+			"cc": "E",
+			"rKey": "RKEY:e49e3772-3b6b-4674-b9c0-0d6c23045884:0"
+		}
+	}
+}

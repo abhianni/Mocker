@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/Flights-persuasion/getShortlist",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json",
+        "caseInsensitive": true
+      },
+      "Accept": {
+        "equalTo": "application/json",
+        "caseInsensitive": true
+      },
+      "mmt-auth": {
+        "equalTo": "VH_VSFR_A_P",
+        "caseInsensitive": true
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights/Aggregator/Shortlisting/GetShortlist/Valid_Header_getShortlistAggregatorToPersuation_response.json"
+  }
+}

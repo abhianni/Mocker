@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/hydra/v3/rest/getUserSegments",
+        "bodyPatterns":[{	
+        "contains" : "500TPHydra"
+        }]
+    },
+    "response": {
+        "status": 500
+	}
+}

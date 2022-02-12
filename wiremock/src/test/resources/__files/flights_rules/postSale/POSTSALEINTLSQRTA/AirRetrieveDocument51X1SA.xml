@@ -1,0 +1,394 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <air:AirRetrieveDocumentRsp TraceId="fwfwgwg" TransactionId="F7D54DC20A0759BCE52AC1253C8ED5CD" ResponseTime="458" UniversalRecordLocatorCode="7IGWRA" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0">
+            <air:ETR Key="zsPM1MtB0BKAdq+LTDAAAA==" TotalPrice="INR20634" BasePrice="INR16300" Taxes="INR4334" Refundable="false" Exchangeable="false" IssuedDate="2020-07-15T00:00:00.000+05:30" ProviderCode="1G" ProviderLocatorCode="51X1SA" IATANumber="14339942" PseudoCityCode="WP7" CountryCode="IN" PlatingCarrier="SQ">
+                <air:AirReservationLocatorCode>7IGWRJ</air:AirReservationLocatorCode>
+                <common_v48_0:AgencyInfo>
+                    <common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-07-14T18:30:00.000+00:00"/>
+                </common_v48_0:AgencyInfo>
+                <common_v48_0:BookingTraveler Key="Fp8O1MNc1BKAicj/SDAAAA==" TravelerType="ADT" Gender="M">
+                    <common_v48_0:BookingTravelerName Prefix="MR" First="Amit" Last="Harvanshi"/>
+                    <common_v48_0:PhoneNumber Key="Fp8O1MNc1BKAjcj/SDAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9811213274">
+                        <common_v48_0:ProviderReservationInfoRef Key="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    </common_v48_0:PhoneNumber>
+                    <common_v48_0:Email Key="Fp8O1MNc1BKAmcj/SDAAAA==" EmailID="amit@aapinfosystems.com">
+                        <common_v48_0:ProviderReservationInfoRef Key="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    </common_v48_0:Email>
+                    <common_v48_0:SSR Key="zsPM1MtB0BKAmq+LTDAAAA==" SegmentRef="PmOM1MlB0BKAQcnxTDAAAA==" Status="HK" Type="TKNE" FreeText="6183761086928C1" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    <common_v48_0:SSR Key="zsPM1MtB0BKAnq+LTDAAAA==" SegmentRef="PmOM1MlB0BKARcnxTDAAAA==" Status="HK" Type="TKNE" FreeText="6183761086928C2" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    <common_v48_0:SSR Key="zsPM1MtB0BKAoq+LTDAAAA==" SegmentRef="PmOM1MlB0BKAScnxTDAAAA==" Status="HK" Type="TKNE" FreeText="6183761086928C3" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                    <common_v48_0:SSR Key="zsPM1MtB0BKApq+LTDAAAA==" SegmentRef="PmOM1MlB0BKATcnxTDAAAA==" Status="HK" Type="TKNE" FreeText="6183761086928C4" Carrier="SQ" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA=="/>
+                </common_v48_0:BookingTraveler>
+                <common_v48_0:FormOfPayment Key="v9JD1MBAAA/BCUCkUDAAAA==" Type="Credit" Reusable="true" ProfileKey="UGBfBIuYQW6PNYv920orUg==">
+                    <common_v48_0:CreditCard Type="CA" Number="************4004" ExpDate="2022-09"/>
+                </common_v48_0:FormOfPayment>
+                <common_v48_0:Payment Key="zsPM1MtB0BKArq+LTDAAAA==" Type="Itinerary" Amount="INR20634" FormOfPaymentRef="v9JD1MBAAA/BCUCkUDAAAA=="/>
+                <common_v48_0:CreditCardAuth PaymentRef="zsPM1MtB0BKArq+LTDAAAA==" Number="************4004" Amount="INR20634" AuthCode="394175" AuthResultCode="approved" FormOfPaymentRef="v9JD1MBAAA/BCUCkUDAAAA=="/>
+                <common_v48_0:SupplierLocator SupplierCode="SQ" SupplierLocatorCode="RDI6K9"/>
+                <air:FareCalc>DEL SQ X/SIN SQ BKK 108.22SQ X/SIN SQ DEL 108.23 NUC216.45END ROE75.305179 XT 196WO324L7650SG168E772G81679TS</air:FareCalc>
+                <air:Ticket Key="zsPM1MtB0BKAhq+LTDAAAA==" TicketNumber="6183761086928" TicketStatus="N">
+                    <air:Coupon Key="zsPM1MtB0BKAiq+LTDAAAA==" CouponNumber="1" MarketingCarrier="SQ" MarketingFlightNumber="403" Origin="DEL" Destination="SIN" DepartureTime="2021-04-22T21:55:00.000+05:30" StopoverCode="true" BookingClass="V" FareBasis="V15IIRA1" NotValidAfter="2021-05-22" Status="O" SegmentGroup="0" MarriageGroup="1"/>
+                    <air:Coupon Key="zsPM1MtB0BKAjq+LTDAAAA==" CouponNumber="2" MarketingCarrier="SQ" MarketingFlightNumber="972" Origin="SIN" Destination="BKK" DepartureTime="2021-04-23T09:30:00.000+08:00" StopoverCode="false" BookingClass="V" FareBasis="V15IIRA1" NotValidAfter="2021-05-22" Status="O" SegmentGroup="0" MarriageGroup="1"/>
+                    <air:Coupon Key="zsPM1MtB0BKAkq+LTDAAAA==" CouponNumber="3" MarketingCarrier="SQ" MarketingFlightNumber="977" Origin="BKK" Destination="SIN" DepartureTime="2021-04-28T15:30:00.000+07:00" StopoverCode="true" BookingClass="V" FareBasis="V15IIRA1" NotValidBefore="2021-04-25" NotValidAfter="2021-05-22" Status="O" SegmentGroup="1" MarriageGroup="2"/>
+                    <air:Coupon Key="zsPM1MtB0BKAlq+LTDAAAA==" CouponNumber="4" MarketingCarrier="SQ" MarketingFlightNumber="406" Origin="SIN" Destination="DEL" DepartureTime="2021-04-29T16:50:00.000+08:00" StopoverCode="false" BookingClass="V" FareBasis="V15IIRA1" NotValidBefore="2021-04-25" NotValidAfter="2021-05-22" Status="O" SegmentGroup="2" MarriageGroup="2"/>
+                    <air:TicketEndorsement Value="NN2011253689054"/>
+                </air:Ticket>
+                <air:AirPricingInfo Key="Az8O1Mcc1BKAL/Z0SDAAAA==" TotalPrice="INR20634" BasePrice="INR16300" ApproximateTotalPrice="INR20634" ApproximateBasePrice="INR16300" Taxes="INR4334" TrueLastDateToTicket="2021-03-23T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderReservationInfoRef="PmOM1MlB0BKA0boxTDAAAA==" AirPricingInfoGroup="1" Ticketed="true" PricingType="StoredFare" FareCalculationInd="G">
+                    <air:FareInfo Key="Az8O1Mcc1BKAgpb0SDAAAA==" FareBasis="V15IIRA1" PassengerTypeCode="ADT" Origin="DEL" Destination="SIN" EffectiveDate="2020-07-15T00:00:00.000+05:30" NotValidAfter="2021-05-22">
+                        <common_v48_0:Endorsement Value="VALID SQ/MI.CHNG FEE APPLY"/>
+                        <common_v48_0:Endorsement Value="NON REFUND / NO SHOW FEE"/>
+                        <common_v48_0:Endorsement Value="APPLY"/>
+                        <air:BaggageAllowance>
+                            <air:MaxWeight Value="30" Unit="Kilograms"/>
+                        </air:BaggageAllowance>
+                        <air:Brand BrandID="541215" Name="ECONOMY LITE" Carrier="SQ" BrandTier="0001">
+                            <air:Title Type="External">ECONOMY LITE</air:Title>
+                            <air:Title Type="Short">YCLLITE</air:Title>
+                            <air:Text Type="ATPCO">//06B/F/50 PERCENT KF MILES EARNED//06C/N/75PERCENT KF MILES EARNED//06D/N/100 PERCENT KFMILES EARNED//06R/N/125 PERCENT KF MILESEARNED//06M/N/150 PERCENT KF MILESEARNED//06N/N/200 PERCENT KF MILESEARNED//0C5/F/UP TO 30KG BAGGAGE//0C7/N/UP TO35KG BAGGAGE//0C8/N/UP TO 40KGBAGGAGE//0I7/N/UP TO 50KG BAGGAGE//050/C/SEATSELECTION STANDARD ZONE//05Z/C/SEAT SELECTIONFORWARD ZONE//0NI/D/UPGRADE WITHMILES//056/D/CANCELLATION//059/F/BOOKINGCHANGE//0NN/C/NO SHOW//</air:Text>
+                            <air:Text Type="MarketingConsumer">ECONOMY LITE FARE includes
+
+                                - 30kg check-in baggage
+                                - Seat Selection is subjected to a fee
+                                - Earn 50% KrisFlyer miles
+                                - Upgrade with KrisFlyer miles not allowed
+                                - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                - Refunds not permitted
+
+                                Fare offering may differ on codeshare flight bookings</air:Text>
+                            <air:Text Type="MarketingAgent">ECONOMY LITE FARE includes
+
+                                - 30kg check-in baggage
+                                - Seat Selection is subjected to a fee
+                                - Earn 50% KrisFlyer miles
+                                - Upgrade with KrisFlyer miles not allowed
+                                - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                - Refunds not permitted
+
+                                Fare offering may differ on codeshare flight bookings</air:Text>
+                            <air:Text Type="Strapline">ECONOMY LITE</air:Text>
+                            <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                            <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                            <air:OptionalServices>
+                                <air:OptionalService Type="Baggage" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.735+00:00" ServiceSubCode="0C5" Key="WcgTpPBAAA/BnaNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>UP TO 30KG BAGGAGE</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                </air:OptionalService>
+                                <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.736+00:00" ServiceSubCode="06B" Key="WcgTpPBAAA/BoaNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>50 PERCENT KF MILES EARNED</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                </air:OptionalService>
+                                <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.736+00:00" ServiceSubCode="059" Key="WcgTpPBAAA/BpaNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>BOOKING CHANGE</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                </air:OptionalService>
+                            </air:OptionalServices>
+                        </air:Brand>
+                    </air:FareInfo>
+                    <air:FareInfo Key="Az8O1Mcc1BKAhpb0SDAAAA==" FareBasis="V15IIRA1" PassengerTypeCode="ADT" Origin="SIN" Destination="BKK" EffectiveDate="2020-07-15T00:00:00.000+05:30" NotValidAfter="2021-05-22">
+                        <common_v48_0:Endorsement Value="VALID SQ/MI.CHNG FEE APPLY"/>
+                        <common_v48_0:Endorsement Value="NON REFUND / NO SHOW FEE"/>
+                        <common_v48_0:Endorsement Value="APPLY"/>
+                        <air:BaggageAllowance>
+                            <air:MaxWeight Value="30" Unit="Kilograms"/>
+                        </air:BaggageAllowance>
+                        <air:Brand BrandID="541215" Name="ECONOMY LITE" Carrier="SQ" BrandTier="0001">
+                            <air:Title Type="External">ECONOMY LITE</air:Title>
+                            <air:Title Type="Short">YCLLITE</air:Title>
+                            <air:Text Type="ATPCO">//06B/F/50 PERCENT KF MILES EARNED//06C/N/75PERCENT KF MILES EARNED//06D/N/100 PERCENT KFMILES EARNED//06R/N/125 PERCENT KF MILESEARNED//06M/N/150 PERCENT KF MILESEARNED//06N/N/200 PERCENT KF MILESEARNED//0C5/F/UP TO 30KG BAGGAGE//0C7/N/UP TO35KG BAGGAGE//0C8/N/UP TO 40KGBAGGAGE//0I7/N/UP TO 50KG BAGGAGE//050/C/SEATSELECTION STANDARD ZONE//05Z/C/SEAT SELECTIONFORWARD ZONE//0NI/D/UPGRADE WITHMILES//056/D/CANCELLATION//059/F/BOOKINGCHANGE//0NN/C/NO SHOW//</air:Text>
+                            <air:Text Type="MarketingConsumer">ECONOMY LITE FARE includes
+
+                                - 30kg check-in baggage
+                                - Seat Selection is subjected to a fee
+                                - Earn 50% KrisFlyer miles
+                                - Upgrade with KrisFlyer miles not allowed
+                                - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                - Refunds not permitted
+
+                                Fare offering may differ on codeshare flight bookings</air:Text>
+                            <air:Text Type="MarketingAgent">ECONOMY LITE FARE includes
+
+                                - 30kg check-in baggage
+                                - Seat Selection is subjected to a fee
+                                - Earn 50% KrisFlyer miles
+                                - Upgrade with KrisFlyer miles not allowed
+                                - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                - Refunds not permitted
+
+                                Fare offering may differ on codeshare flight bookings</air:Text>
+                            <air:Text Type="Strapline">ECONOMY LITE</air:Text>
+                            <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                            <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                            <air:OptionalServices>
+                                <air:OptionalService Type="Baggage" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.767+00:00" ServiceSubCode="0C5" Key="WcgTpPBAAA/BuaNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>UP TO 30KG BAGGAGE</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                </air:OptionalService>
+                                <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.767+00:00" ServiceSubCode="06B" Key="WcgTpPBAAA/BvaNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>50 PERCENT KF MILES EARNED</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                </air:OptionalService>
+                                <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.767+00:00" ServiceSubCode="059" Key="WcgTpPBAAA/BwaNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>BOOKING CHANGE</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                </air:OptionalService>
+                            </air:OptionalServices>
+                        </air:Brand>
+                    </air:FareInfo>
+                    <air:FareInfo Key="Az8O1Mcc1BKAipb0SDAAAA==" FareBasis="V15IIRA1" PassengerTypeCode="ADT" Origin="BKK" Destination="SIN" EffectiveDate="2020-07-15T00:00:00.000+05:30" NotValidBefore="2021-04-25" NotValidAfter="2021-05-22">
+                        <common_v48_0:Endorsement Value="VALID SQ/MI.CHNG FEE APPLY"/>
+                        <common_v48_0:Endorsement Value="NON REFUND / NO SHOW FEE"/>
+                        <common_v48_0:Endorsement Value="APPLY"/>
+                        <air:BaggageAllowance>
+                            <air:MaxWeight Value="30" Unit="Kilograms"/>
+                        </air:BaggageAllowance>
+                        <air:Brand BrandID="541215" Name="ECONOMY LITE" Carrier="SQ" BrandTier="0001">
+                            <air:Title Type="External">ECONOMY LITE</air:Title>
+                            <air:Title Type="Short">YCLLITE</air:Title>
+                            <air:Text Type="ATPCO">//06B/F/50 PERCENT KF MILES EARNED//06C/N/75PERCENT KF MILES EARNED//06D/N/100 PERCENT KFMILES EARNED//06R/N/125 PERCENT KF MILESEARNED//06M/N/150 PERCENT KF MILESEARNED//06N/N/200 PERCENT KF MILESEARNED//0C5/F/UP TO 30KG BAGGAGE//0C7/N/UP TO35KG BAGGAGE//0C8/N/UP TO 40KGBAGGAGE//0I7/N/UP TO 50KG BAGGAGE//050/C/SEATSELECTION STANDARD ZONE//05Z/C/SEAT SELECTIONFORWARD ZONE//0NI/D/UPGRADE WITHMILES//056/D/CANCELLATION//059/F/BOOKINGCHANGE//0NN/C/NO SHOW//</air:Text>
+                            <air:Text Type="MarketingConsumer">ECONOMY LITE FARE includes
+
+                                - 30kg check-in baggage
+                                - Seat Selection is subjected to a fee
+                                - Earn 50% KrisFlyer miles
+                                - Upgrade with KrisFlyer miles not allowed
+                                - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                - Refunds not permitted
+
+                                Fare offering may differ on codeshare flight bookings</air:Text>
+                            <air:Text Type="MarketingAgent">ECONOMY LITE FARE includes
+
+                                - 30kg check-in baggage
+                                - Seat Selection is subjected to a fee
+                                - Earn 50% KrisFlyer miles
+                                - Upgrade with KrisFlyer miles not allowed
+                                - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                - Refunds not permitted
+
+                                Fare offering may differ on codeshare flight bookings</air:Text>
+                            <air:Text Type="Strapline">ECONOMY LITE</air:Text>
+                            <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                            <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                            <air:OptionalServices>
+                                <air:OptionalService Type="Baggage" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.799+00:00" ServiceSubCode="0C5" Key="WcgTpPBAAA/B1aNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>UP TO 30KG BAGGAGE</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                </air:OptionalService>
+                                <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.799+00:00" ServiceSubCode="06B" Key="WcgTpPBAAA/B2aNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>50 PERCENT KF MILES EARNED</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                </air:OptionalService>
+                                <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.799+00:00" ServiceSubCode="059" Key="WcgTpPBAAA/B3aNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>BOOKING CHANGE</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                </air:OptionalService>
+                            </air:OptionalServices>
+                        </air:Brand>
+                    </air:FareInfo>
+                    <air:FareInfo Key="Az8O1Mcc1BKAjpb0SDAAAA==" FareBasis="V15IIRA1" PassengerTypeCode="ADT" Origin="SIN" Destination="DEL" EffectiveDate="2020-07-15T00:00:00.000+05:30" NotValidBefore="2021-04-25" NotValidAfter="2021-05-22">
+                        <common_v48_0:Endorsement Value="VALID SQ/MI.CHNG FEE APPLY"/>
+                        <common_v48_0:Endorsement Value="NON REFUND / NO SHOW FEE"/>
+                        <common_v48_0:Endorsement Value="APPLY"/>
+                        <air:BaggageAllowance>
+                            <air:MaxWeight Value="30" Unit="Kilograms"/>
+                        </air:BaggageAllowance>
+                        <air:Brand BrandID="541215" Name="ECONOMY LITE" Carrier="SQ" BrandTier="0001">
+                            <air:Title Type="External">ECONOMY LITE</air:Title>
+                            <air:Title Type="Short">YCLLITE</air:Title>
+                            <air:Text Type="ATPCO">//06B/F/50 PERCENT KF MILES EARNED//06C/N/75PERCENT KF MILES EARNED//06D/N/100 PERCENT KFMILES EARNED//06R/N/125 PERCENT KF MILESEARNED//06M/N/150 PERCENT KF MILESEARNED//06N/N/200 PERCENT KF MILESEARNED//0C5/F/UP TO 30KG BAGGAGE//0C7/N/UP TO35KG BAGGAGE//0C8/N/UP TO 40KGBAGGAGE//0I7/N/UP TO 50KG BAGGAGE//050/C/SEATSELECTION STANDARD ZONE//05Z/C/SEAT SELECTIONFORWARD ZONE//0NI/D/UPGRADE WITHMILES//056/D/CANCELLATION//059/F/BOOKINGCHANGE//0NN/C/NO SHOW//</air:Text>
+                            <air:Text Type="MarketingConsumer">ECONOMY LITE FARE includes
+
+                                - 30kg check-in baggage
+                                - Seat Selection is subjected to a fee
+                                - Earn 50% KrisFlyer miles
+                                - Upgrade with KrisFlyer miles not allowed
+                                - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                - Refunds not permitted
+
+                                Fare offering may differ on codeshare flight bookings</air:Text>
+                            <air:Text Type="MarketingAgent">ECONOMY LITE FARE includes
+
+                                - 30kg check-in baggage
+                                - Seat Selection is subjected to a fee
+                                - Earn 50% KrisFlyer miles
+                                - Upgrade with KrisFlyer miles not allowed
+                                - Any changes will be subjected to a fee (terms &amp; conditions apply)
+                                - Refunds not permitted
+
+                                Fare offering may differ on codeshare flight bookings</air:Text>
+                            <air:Text Type="Strapline">ECONOMY LITE</air:Text>
+                            <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                            <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_181790.jpg</air:ImageLocation>
+                            <air:OptionalServices>
+                                <air:OptionalService Type="Baggage" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.826+00:00" ServiceSubCode="0C5" Key="WcgTpPBAAA/B8aNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>UP TO 30KG BAGGAGE</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_187200.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                    <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                </air:OptionalService>
+                                <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.826+00:00" ServiceSubCode="06B" Key="WcgTpPBAAA/B9aNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>50 PERCENT KF MILES EARNED</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192720.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                </air:OptionalService>
+                                <air:OptionalService Type="Branded Fares" SupplierCode="SQ" CreateDate="2020-07-15T14:35:59.826+00:00" ServiceSubCode="059" Key="WcgTpPBAAA/B+aNDTBAAAA==">
+                                    <common_v48_0:ServiceInfo>
+                                        <common_v48_0:Description>BOOKING CHANGE</common_v48_0:Description>
+                                        <common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                        <common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/singaporeairlinesltd/SQ_general_medium_192719.jpg"/>
+                                    </common_v48_0:ServiceInfo>
+                                </air:OptionalService>
+                            </air:OptionalServices>
+                        </air:Brand>
+                    </air:FareInfo>
+                    <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="Az8O1Mcc1BKAgpb0SDAAAA=="/>
+                    <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="Az8O1Mcc1BKAhpb0SDAAAA=="/>
+                    <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="Az8O1Mcc1BKAipb0SDAAAA=="/>
+                    <air:BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="Az8O1Mcc1BKAjpb0SDAAAA=="/>
+                    <air:TaxInfo Category="K3" Amount="INR815" Key="WcgTpPBAAA/BbaNDTBAAAA=="/>
+                    <air:TaxInfo Category="P2" Amount="INR430" Key="WcgTpPBAAA/BcaNDTBAAAA=="/>
+                    <air:TaxInfo Category="WO" Amount="INR196" Key="WcgTpPBAAA/BdaNDTBAAAA=="/>
+                    <air:TaxInfo Category="L7" Amount="INR324" Key="WcgTpPBAAA/BeaNDTBAAAA=="/>
+                    <air:TaxInfo Category="SG" Amount="INR650" Key="WcgTpPBAAA/BfaNDTBAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="INR168" Key="WcgTpPBAAA/BgaNDTBAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="INR72" Key="WcgTpPBAAA/BhaNDTBAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="INR1679" Key="WcgTpPBAAA/BiaNDTBAAAA=="/>
+                    <air:FareCalc>DEL SQ X/SIN SQ BKK 108.22V15IIRA1 SQ X/SIN SQ DEL 108.23V15IIRA1 NUC216.45END ROE75.305179</air:FareCalc>
+                    <air:PassengerType Code="ADT" BookingTravelerRef="Fp8O1MNc1BKAicj/SDAAAA==">
+                        <air:FareGuaranteeInfo GuaranteeType="Guaranteed"/>
+                    </air:PassengerType>
+                    <common_v48_0:BookingTravelerRef Key="Fp8O1MNc1BKAicj/SDAAAA=="/>
+                </air:AirPricingInfo>
+                <air:BaggageAllowances>
+                    <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DEL" Destination="BKK" Carrier="SQ">
+                        <air:URLInfo>
+                            <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/SQ</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                            <air:Text>30K</air:Text>
+                            <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked">
+                            <air:BaggageRestriction>
+                                <air:TextInfo>
+                                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                                </air:TextInfo>
+                            </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked">
+                            <air:BaggageRestriction>
+                                <air:TextInfo>
+                                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                                </air:TextInfo>
+                            </air:BaggageRestriction>
+                        </air:BagDetails>
+                    </air:BaggageAllowanceInfo>
+                    <air:BaggageAllowanceInfo TravelerType="ADT" Origin="BKK" Destination="DEL" Carrier="SQ">
+                        <air:URLInfo>
+                            <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/SQ</air:URL>
+                        </air:URLInfo>
+                        <air:TextInfo>
+                            <air:Text>30K</air:Text>
+                            <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                        </air:TextInfo>
+                        <air:BagDetails ApplicableBags="1stChecked">
+                            <air:BaggageRestriction>
+                                <air:TextInfo>
+                                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                                </air:TextInfo>
+                            </air:BaggageRestriction>
+                        </air:BagDetails>
+                        <air:BagDetails ApplicableBags="2ndChecked">
+                            <air:BaggageRestriction>
+                                <air:TextInfo>
+                                    <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                                </air:TextInfo>
+                            </air:BaggageRestriction>
+                        </air:BagDetails>
+                    </air:BaggageAllowanceInfo>
+                    <air:CarryOnAllowanceInfo Origin="DEL" Destination="SIN" Carrier="SQ">
+                        <air:TextInfo>
+                            <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                            <air:BaggageRestriction>
+                                <air:TextInfo>
+                                    <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                                </air:TextInfo>
+                            </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                    </air:CarryOnAllowanceInfo>
+                    <air:CarryOnAllowanceInfo Origin="SIN" Destination="BKK" Carrier="SQ">
+                        <air:TextInfo>
+                            <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                            <air:BaggageRestriction>
+                                <air:TextInfo>
+                                    <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                                </air:TextInfo>
+                            </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                    </air:CarryOnAllowanceInfo>
+                    <air:CarryOnAllowanceInfo Origin="BKK" Destination="SIN" Carrier="SQ">
+                        <air:TextInfo>
+                            <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                            <air:BaggageRestriction>
+                                <air:TextInfo>
+                                    <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                                </air:TextInfo>
+                            </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                    </air:CarryOnAllowanceInfo>
+                    <air:CarryOnAllowanceInfo Origin="SIN" Destination="DEL" Carrier="SQ">
+                        <air:TextInfo>
+                            <air:Text>1P</air:Text>
+                        </air:TextInfo>
+                        <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                            <air:BaggageRestriction>
+                                <air:TextInfo>
+                                    <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                                </air:TextInfo>
+                            </air:BaggageRestriction>
+                        </air:CarryOnDetails>
+                    </air:CarryOnAllowanceInfo>
+                </air:BaggageAllowances>
+            </air:ETR>
+        </air:AirRetrieveDocumentRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

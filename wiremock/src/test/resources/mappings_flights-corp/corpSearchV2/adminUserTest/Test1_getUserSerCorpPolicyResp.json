@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/internal/policy/flights/evaluate",
+     "bodyPatterns":[
+      {       "contains" : "UID_orgInfoDomTest1"
+      
+      }
+      ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+    "bodyFileName": "/corporate/corpSearchV2/orgInfoTest/corpPolicyEvalResp.json"
+  }
+}

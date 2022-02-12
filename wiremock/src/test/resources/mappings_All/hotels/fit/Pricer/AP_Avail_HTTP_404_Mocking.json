@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/partner/aps/pkgavail*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_Avail_TEST_AP_HTTP_404"
+        }]
+    },
+    "response": {
+        "status": 404,
+
+"headers": {
+        "Content-Type": "application/json"
+      }
+	}
+}

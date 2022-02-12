@@ -1,0 +1,111 @@
+{
+  "bestPersuasionText": "",
+  "surgeFactor": 5,
+  "expireAt": 2831394600000,
+  "description": "1X",
+  "surge": false,
+  "discountInfo": {
+    "FROMCITY1-TOCITY1-DEPTDATE1": {
+      "discountInfoMap": {
+        "RKEYINREQ1": {
+          "cd": null,
+          "disc": 200,
+          "isInstant": true,
+          "dsplyTxt": "1X",
+          "discSrc": "WPM",
+          "discTyp": null
+        },
+        "RKEYINREQ2": {
+          "cd": "FLTC4",
+          "disc": 3692,
+          "isInstant": false,
+          "dsplyTxt": "MANUAL:3692.0",
+          "discSrc": "CDF",
+          "discTyp": null
+        },
+        "RKEYINREQ3": {
+          "cd": null,
+          "disc": 200,
+          "isInstant": true,
+          "dsplyTxt": "1X",
+          "discSrc": "WPM",
+          "discTyp": null
+        },
+        "RKEYINREQ4": {
+          "cd": null,
+          "disc": 193,
+          "isInstant": true,
+          "dsplyTxt": "1X",
+          "discSrc": "WPM",
+          "discTyp": null
+        },
+        "RKEYINREQ5": {
+          "cd": null,
+          "disc": 200,
+          "isInstant": true,
+          "dsplyTxt": "1X",
+          "discSrc": "WPM",
+          "discTyp": null
+        },
+        "RKEYINREQ6": {
+          "cd": null,
+          "disc": 200,
+          "isInstant": true,
+          "dsplyTxt": "1X",
+          "discSrc": "WPM",
+          "discTyp": null
+        }
+      },
+      "broadCastCoupon": [
+        {
+          "moreVerificationRequired": true,
+          "doubleDiscountingAllowed": false,
+          "blockedPaymentOptions": "",
+          "discount": 3692,
+          "hybridDiscount": [
+            {
+              "discount": 3692,
+              "discountType": "Manual",
+              "discountTypeCode": "MANUAL",
+              "timeOfCredit": "Booking",
+              "walletAmountExpiryDate": null,
+              "discountShare": null
+            }
+          ],
+          "message": "Congratulations! Coupon applied successfully.",
+          "paymentMessage": "p",
+          "recommendationMessage": "",
+          "couponCode": "FLTC4",
+          "tnc": "https://www,c,c",
+          "userMessage": "",
+          "instant": false
+        },
+        {
+          "moreVerificationRequired": true,
+          "doubleDiscountingAllowed": false,
+          "blockedPaymentOptions": "",
+          "discount": 200,
+          "hybridDiscount": [
+            {
+              "discount": 200,
+              "discountType": "Cashback to Card",
+              "discountTypeCode": "CTC",
+              "timeOfCredit": "Booking",
+              "walletAmountExpiryDate": null,
+              "discountShare": null
+            }
+          ],
+          "message": "Congratulations! Coupon applied successfully.",
+          "paymentMessage": "This is a testing coupon",
+          "recommendationMessage": "Apply DFCTCTEST and get Rs. 200 off on this flight",
+          "couponCode": "DFCTCTEST",
+          "tnc": "https://www.makemytrip.com",
+          "userMessage": "",
+          "instant": false
+        }
+      ]
+    }
+  },
+  "statusCode": 200,
+  "status": "SUCCESS"
+}

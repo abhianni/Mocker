@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+        "bodyPatterns":[{
+        "contains" : "FLT_TEST_SOA_TIMEOUT_SCENARIO"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 5000
+    }
+}

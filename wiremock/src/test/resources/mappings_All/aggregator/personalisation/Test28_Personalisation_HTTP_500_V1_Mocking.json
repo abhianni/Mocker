@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-personalization/pricePersonalizationInfo",
+        "bodyPatterns":[{	
+        "contains" : "PersonalisationNegativeTestHTTP500INTERNALSERVERERROR"
+        }]
+    },
+    "response": {
+        "status": 500
+	}
+}

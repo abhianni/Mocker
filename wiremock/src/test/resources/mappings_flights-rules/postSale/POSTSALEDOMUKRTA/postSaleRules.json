@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/postSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "UK-994-BOM-DEL-2020-12-19 10:25-2020-12-19 12:40"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOMUKRTA/GETPOSTSALELCC.json"
+  }
+}
+

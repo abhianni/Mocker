@@ -1,0 +1,383 @@
+{
+    "meta": {
+        "core": {
+            "nmAdt": 1,
+            "nmChd": 0,
+            "nmInf": 0,
+            "it": [
+                {
+                    "classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+                    "from": "DEL",
+                    "to": "BLR",
+                    "depDate": "2021-02-02"
+                }
+            ],
+            "cc": "E",
+            "rKey": "v2~~F$R$R0CRP$91.0$null$null$null$null$0$0$A,F$Q$Q15CRP$91.0$null$null$null$null$0$1$A~A-4131|3410_C-0|0_I-0|0~M$1$0$0$CORP$0$null$MMT~~DEL_MAA_020221_6E-5008_NkUxNjc2N0M=_09:55_020221_12:50_6E_6E_6E_P_3_1,MAA_BLR_020221_6E-6011_NkUxNjc2N0M=_14:05_020221_15:10_6E_6E_6E_JO_1_1~NAV42_0_0_DEL-BLR-020221_U0FWRVI=_null__4131.0_E_null_null"
+        },
+        "state": null,
+        "fareRepricedOnce": false,
+        "creditShellAmount": null,
+        "flow": null,
+        "gds": null,
+        "creditShellAllowedOnlyOnce": null,
+        "createdAt": 1596718583409,
+        "isCreditShellAllowedOnlyOnce": null,
+        "oldPnrPaxFr": null,
+        "oldPnrDis": null,
+        "pAA": null,
+        "pDA": null,
+        "pNCW": null
+    },
+    "review": {
+        "itineraryId": "bf50adfd6ecbe49f975039ecb3b7648c8f7e915f",
+        "meta": {
+            "cur": "INR",
+            "isDDApld": false,
+            "requestId": "039dad00-ee14-4ddb-80fc-2c141ea8a731",
+            "srvrMtrc": {}
+        },
+        "recom": {
+            "itneraryJrnys": [
+                {
+                    "jrnyKey": "DEL$MAA$0202210955$6E-5008|MAA$BLR$0202211405$6E-6011",
+                    "isCstmComb": false,
+                    "depDate": "2021-02-02 09:55",
+                    "arrDate": "2021-02-02 15:10",
+                    "dur": 315,
+                    "flightDtlsInfo": [
+                        {
+                            "flyingDay": 0,
+                            "fltLookUpKey": "DEL$MAA$2021-02-02 09:55$6E-5008",
+                            "pnrGroupNum": 0
+                        },
+                        {
+                            "flyingDay": 0,
+                            "fltLookUpKey": "MAA$BLR$2021-02-02 14:05$6E-6011",
+                            "pnrGroupNum": 0,
+                            "prvFltCntTyp": "CHANGE_OF_PLANE",
+                            "prvFltCntDur": 75
+                        }
+                    ]
+                }
+            ],
+            "frInfo": {
+                "showMoreFaresOnListing": false,
+                "pnrGrpdMultiFareInfoV5": {
+                    "0": {
+                        "fareInfos": [
+                            {
+                                "paxWiseFare": {
+                                    "ADULT": {
+                                        "base": 3410.0,
+                                        "taxes": 721.0,
+                                        "serviceFee": 0.0,
+                                        "convenienceFee": 0.0,
+                                        "instantDiscount": 0.0,
+                                        "discountAdjustment": 0.0,
+                                        "baseAdjustment": 0.0,
+                                        "taxesAdjustment": 0.0,
+                                        "totalFare": 4131.0,
+                                        "segmentProductInfo": {
+                                            "MAA$BLR$2021-02-02 14:05$6E-6011": {
+                                                "fareClass": "Q",
+                                                "fareBasis": "Q15CRP",
+                                                "productClass": "F",
+                                                "importantInfos": []
+                                            },
+                                            "DEL$MAA$2021-02-02 09:55$6E-5008": {
+                                                "fareClass": "R",
+                                                "fareBasis": "R0CRP",
+                                                "productClass": "F",
+                                                "importantInfos": []
+                                            }
+                                        }
+                                    }
+                                },
+                                "totalFare": {
+                                    "base": 3410.0,
+                                    "taxes": 721.0,
+                                    "serviceFee": 0.0,
+                                    "convenienceFee": 0.0,
+                                    "instantDiscount": 0.0,
+                                    "discountAdjustment": 0.0,
+                                    "baseAdjustment": 0.0,
+                                    "taxesAdjustment": 0.0,
+                                    "totalFare": 4131.0
+                                },
+                                "fareServices": {
+                                    "REFUNDABLE": {
+                                        "status": "INC",
+                                        "name": "REFUNDABLE",
+                                        "value": "",
+                                        "text": "Refundable, 0 (Nil) cancellation penalty applicable",
+                                        "unit": "",
+                                        "valueType": "TEXT",
+                                        "important": false
+                                    },
+                                    "SEAT": {
+                                        "status": "INC",
+                                        "name": "SEAT",
+                                        "value": "",
+                                        "text": "Complimentary seats as per choice based on availability.",
+                                        "unit": "",
+                                        "valueType": "TEXT",
+                                        "important": true
+                                    },
+                                    "MIN_TICKETING_TIME": {
+                                        "status": "INC",
+                                        "name": "MIN_TICKETING_TIME",
+                                        "value": "1",
+                                        "text": "",
+                                        "unit": "SECS",
+                                        "valueType": "NUMERIC",
+                                        "important": false
+                                    },
+                                    "AMENDABLE": {
+                                        "status": "INC",
+                                        "name": "AMENDABLE",
+                                        "value": "",
+                                        "text": "Free date change upto to 2 hrs prior to departure (Subject to fare difference, if applicable).For change done within 2 hours, no show charges will apply",
+                                        "unit": "",
+                                        "valueType": "TEXT",
+                                        "important": false
+                                    },
+                                    "MEAL": {
+                                        "status": "NOF",
+                                        "name": "MEAL",
+                                        "value": "",
+                                        "text": "Meal not offered",
+                                        "unit": "",
+                                        "valueType": "TEXT",
+                                        "important": true
+                                    },
+                                    "CHECKIN_BAGGAGE_ALLOWANCE": {
+                                        "status": "INC",
+                                        "name": "CHECKIN_BAGGAGE_ALLOWANCE",
+                                        "value": "15",
+                                        "text": "",
+                                        "unit": "KGS",
+                                        "valueType": "NUMERIC",
+                                        "important": false
+                                    },
+                                    "MAX_TICKETING_TIME": {
+                                        "status": "INC",
+                                        "name": "MAX_TICKETING_TIME",
+                                        "value": "15",
+                                        "text": "",
+                                        "unit": "MINS",
+                                        "valueType": "NUMERIC",
+                                        "important": false
+                                    },
+                                    "CABIN_BAGGAGE_ALLOWANCE": {
+                                        "status": "INC",
+                                        "name": "CABIN_BAGGAGE_ALLOWANCE",
+                                        "value": "7",
+                                        "text": "",
+                                        "unit": "KGS",
+                                        "valueType": "NUMERIC",
+                                        "important": false
+                                    }
+                                },
+                                "fareFamilyName": "SAVER",
+                                "pnrKey": "b5216f3f-0c24-4799-85e1-e6e9dde3cf87",
+                                "validatingCarrier": "6E",
+                                "fareMetaData": {
+                                    "supplierName": "NAV42",
+                                    "credentialId": "6E16767C",
+                                    "serviceName": "flights-nav42-search",
+                                    "corporateCode": "3",
+                                    "promoCode": "",
+                                    "pnrCabinClass": "E"
+                                }
+                            }
+                        ],
+                        "combinationsCount": 1
+                    }
+                },
+                "bookingFarePnrSelectionInfoMap": {
+                    "COMBO": {
+                        "lastTicketTimeInMinsPostPayment": 15,
+                        "paxFr": {
+                            "ADULT": {
+                                "discountAdjustment": 0.0,
+                                "baseAdjustment": 0.0,
+                                "taxesAdjustment": 0.0,
+                                "addonsAmnt": 0.0,
+                                "bs": 3410.0,
+                                "tx": 721.0,
+                                "sFee": 0.0,
+                                "convFee": 0.0,
+                                "instDisc": 0.0,
+                                "preApDiscntInfo": [],
+                                "tot": 4131.0,
+                                "txInfo": [
+                                    {
+                                        "amnt": 91.0,
+                                        "code": "PSF",
+                                        "msg": "PSF_DM"
+                                    },
+                                    {
+                                        "amnt": 50.0,
+                                        "code": "TF",
+                                        "msg": "TF_DM"
+                                    },
+                                    {
+                                        "amnt": 184.0,
+                                        "code": "GOODS_SERVICE_TAX",
+                                        "msg": "GOODS_SERVICE_TAX_DM"
+                                    },
+                                    {
+                                        "amnt": 396.0,
+                                        "code": "YQ",
+                                        "msg": "YQ_DM"
+                                    }
+                                ]
+                            }
+                        },
+                        "totFr": {
+                            "discountAdjustment": 0.0,
+                            "baseAdjustment": 0.0,
+                            "taxesAdjustment": 0.0,
+                            "addonsAmnt": 0.0,
+                            "bs": 3410.0,
+                            "tx": 721.0,
+                            "sFee": 0.0,
+                            "convFee": 0.0,
+                            "instDisc": 0.0,
+                            "preApDiscntInfo": [],
+                            "tot": 4131.0,
+                            "txInfo": [
+                                {
+                                    "amnt": 91.0,
+                                    "code": "PSF",
+                                    "msg": "PSF_DM"
+                                },
+                                {
+                                    "amnt": 50.0,
+                                    "code": "TF",
+                                    "msg": "TF_DM"
+                                },
+                                {
+                                    "amnt": 184.0,
+                                    "code": "GOODS_SERVICE_TAX",
+                                    "msg": "GOODS_SERVICE_TAX_DM"
+                                },
+                                {
+                                    "amnt": 396.0,
+                                    "code": "YQ",
+                                    "msg": "YQ_DM"
+                                }
+                            ],
+                            "addons": [
+                                {
+                                    "itemType": "COUPON",
+                                    "itemCode": "",
+                                    "selected": false,
+                                    "disabled": false,
+                                    "refundAllowed": false
+                                }
+                            ]
+                        },
+                        "rKey": "v2~~F$R$R0CRP$91.0$null$null$null$null$0$0$A,F$Q$Q15CRP$91.0$null$null$null$null$0$1$A~A-4131|3410_C-0|0_I-0|0~M$1$0$0$CORP$0$null$MMT~~DEL_MAA_020221_6E-5008_NkUxNjc2N0M=_09:55_020221_12:50_6E_6E_6E_P_3_1,MAA_BLR_020221_6E-6011_NkUxNjc2N0M=_14:05_020221_15:10_6E_6E_6E_JO_1_1~NAV42_0_0_DEL-BLR-020221_U0FWRVI=_null__4131.0_E_null_null",
+                        "oldRKey": "RKEY:77647dc8-6a5e-43fb-a7cd-d7ca3ecfd89b:35_0",
+                        "isHoldBookEligible": false
+                    }
+                },
+                "isPnrGrpdFrFmlyAvl": false,
+                "preSlctdFarePnrSelectionInfoKey": "COMBO"
+            }
+        },
+        "fareComponentLookUpMap": {
+            "INF": "Infant Tax",
+            "PSF": "Passenger Service Fee",
+            "AST": "Service Tax",
+            "OTH": "Other",
+            "DF": "Development Fee",
+            "KKC": "Krishi Kalyan Cess",
+            "CF": "Congestion Fee",
+            "GOODS_SERVICE_TAX": "Goods and Services Tax",
+            "TTF": "Travel and Tourism Fee",
+            "GST": "Gvt. Service Fee",
+            "UDFA": "User Development Fee(Arrival)",
+            "TF": "CUTE Fee",
+            "SF": "Service Fee",
+            "RCF": "Regional Connectivity Fund",
+            "SBC": "Swachh Bharat Cess ",
+            "UDF": "User Development Fee",
+            "YQ": "Airline Fuel Charge",
+            "DC": "Discount"
+        },
+        "alCdeMap": {
+            "6E": {
+                "nm": "IndiGo"
+            }
+        },
+        "ctyCdeMap": {
+            "BLR": {
+                "nm": "Bengaluru",
+                "cntry": "India",
+                "ctc": "IN",
+                "tmz": "Asia/Kolkata",
+                "airportName": "Bengaluru International Airport"
+            },
+            "DEL": {
+                "nm": "New Delhi",
+                "cntry": "India",
+                "ctc": "IN",
+                "tmz": "Asia/Kolkata",
+                "airportName": "Indira Gandhi International Airport"
+            },
+            "MAA": {
+                "nm": "Chennai",
+                "cntry": "India",
+                "ctc": "IN",
+                "tmz": "Asia/Kolkata",
+                "airportName": "Chennai International Airport"
+            }
+        },
+        "flightLookUpList": {
+            "MAA$BLR$2021-02-02 14:05$6E-6011": {
+                "mrkAl": "6E",
+                "oprAl": "6E",
+                "fltNo": "6011",
+                "arcrfTyp": "320",
+                "depInfo": {
+                    "trmnl": "1",
+                    "cityCd": "MAA",
+                    "arpNm": "Chennai International Airport"
+                },
+                "arrInfo": {
+                    "trmnl": "1",
+                    "cityCd": "BLR",
+                    "arpNm": "Bengaluru International Airport"
+                },
+                "tchStp": [],
+                "depTime": "2021-02-02 14:05",
+                "arrTime": "2021-02-02 15:10",
+                "dur": 65
+            },
+            "DEL$MAA$2021-02-02 09:55$6E-5008": {
+                "mrkAl": "6E",
+                "oprAl": "6E",
+                "fltNo": "5008",
+                "arcrfTyp": "320",
+                "depInfo": {
+                    "trmnl": "3",
+                    "cityCd": "DEL",
+                    "arpNm": "Indira Gandhi International Airport"
+                },
+                "arrInfo": {
+                    "trmnl": "1",
+                    "cityCd": "MAA",
+                    "arpNm": "Chennai International Airport"
+                },
+                "tchStp": [],
+                "depTime": "2021-02-02 09:55",
+                "arrTime": "2021-02-02 12:50",
+                "dur": 175
+            }
+        },
+        "services": {}
+    }
+}

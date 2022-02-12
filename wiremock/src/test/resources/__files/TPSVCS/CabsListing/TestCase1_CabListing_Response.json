@@ -1,0 +1,30 @@
+{
+  "request": null,
+  "errors": null,
+  "status": "SUCCESS",
+  "tnc_list": ["TestDriver Indo details will be shared up to 2 hours prior to departure.", "Due to traffic or any other unavoidable reason, pickup may be delayed by 30 mins", "Please choose your pickup time keeping time for baggage collection, immigration, custom checks, etc.", "MMT reserves the right to cancel or change the booking of a vehicle at any point", "The booking will be for particular car category and we do not commit on providing any preferred car mode", "Waiting Charges: For drop to airport, post 15 mins of waiting a charge of Rs 100/30 min will be levied. For pickup from airport, post 45 mins of waiting a charge of Rs 100/30 min will be levied. In cases where the driver is made to wait indefinitely, booking can be cancelled with no refund."],
+  "persuasion_messages": ["Driver Meet & Greet", "Airport Tolls included", "No surge pricing, no queues"],
+  "pickup_drop_array": [{
+    "date": "28-02-2020",
+    "flight_number": "6E-6417",
+    "display_msg": "Book Cab Pick-up From Bangalore International Airport",
+    "cab_city_code": "BLR_AIR",
+    "addon_type": "PICKUP",
+    "key": "BLR_AIR_pickup_sedan_1562399865492",
+    "cab_list": [{
+      "trip_leg_id": "HYD_BLR_28-02-2020_13:50",
+      "cab_image": "https://imgak.mmtcdn.com/cabs_cdn/dist/static/images/new_cab_images/sedan.png",
+      "cab_category": "SEDAN",
+      "vendor_id": 4,
+      "luggage_capacity": "3 BAGS",
+      "seat_capacity": "4 SEATS",
+      "fare_options": [{
+        "inc_kms": 45.0,
+        "total_price": 849.0,
+        "extra_fare_per_km": 10.0,
+        "price_message": "Flat 849.0 up to 45.0 kms"
+      }]
+    }],
+    "pickup_time": "15:30"
+  }]
+}

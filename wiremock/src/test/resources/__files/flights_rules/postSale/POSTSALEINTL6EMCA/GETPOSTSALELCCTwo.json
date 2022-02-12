@@ -1,0 +1,302 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "NN7812453730634",
+    "iteneraryId": "29d27c0949f1367d713c0f109932522e0c229329",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "mmtId": "\"NN7812453730634\"",
+      "BookingAggregatorResponse": "{\"mmtId\":\"NN7812453730634\",\"pnrData\":[{\"pnrNo\":\"HE8YUL\",\"supplierId\":\"6EUNI\",\"supplierType\":\"NAV42\",\"airlineCode\":\"6E\"},{\"pnrNo\":\"NHMGFP\",\"supplierId\":\"6EUNI\",\"supplierType\":\"NAV42\",\"airlineCode\":\"6E\"}],\"userData\":{\"uuid\":\"UFMS4ZPIBWH\",\"profileType\":\"PERSONAL\"},\"itineraryId\":\"29d27c0949f1367d713c0f109932522e0c229329\",\"cancellationAssurance\":false,\"fareType\":null,\"cabinClass\":\"E\"}",
+      "PostSaleCPReq": "{\"status\":null,\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN7812453730634\",\"iteneraryId\":\"29d27c0949f1367d713c0f109932522e0c229329\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"47\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"\",\"arpCd\":\"ATQ\"},\"arrivalInfo\":{\"trmnl\":\"\",\"arpCd\":\"SHJ\"},\"techStops\":null,\"depTime\":1615428600000,\"arrTime\":1615437000000,\"duration\":8400000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"ATQ-SHJ : 6E-47\",\"depDate\":\"2021-03-11 07:40\",\"arrDate\":\"2021-03-11 10:00\",\"duration\":8400000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":5524.0,\"singlePaxTx\":988.0,\"singlePaxTot\":6512.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":105.0,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":453.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":139.0,\"taxCode\":\"03SGST\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":139.0,\"taxCode\":\"03CGST\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\":{\"fareClass\":\"R\",\"fareBasis\":\"R0INT\",\"rbd\":\"R\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"ATQ-SHJ : 6E-47\":{\"singlePaxBaseFare\":5524.0,\"singlePaxTx\":988.0,\"singlePaxTot\":6512.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"},{\"nation\":null,\"taxVal\":453.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":105.0,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":139.0,\"taxCode\":\"03CGST\"},{\"nation\":null,\"taxVal\":139.0,\"taxCode\":\"03SGST\"}]}}}},\"cancellationPenalty\":null,\"dateChangePenalty\":null,\"baggageList\":null,\"cancellationAssured\":false,\"supplierName\":\"6E\",\"supplierCredential\":\"6EUNI\",\"fareFamily\":\"\"}]}}}}]}}",
+      "postSaleCPReqDao": "{\"bkingTime\":\"\\\"2020-07-30 01:20:46\\\"\",\"cpReqRes\":\"{\\\"meta\\\":{\\\"lob\\\":\\\"B2C\\\",\\\"src\\\":\\\"MMT\\\",\\\"currency\\\":\\\"INR\\\",\\\"correlationId\\\":\\\"NN7812453730634\\\",\\\"iteneraryId\\\":\\\"29d27c0949f1367d713c0f109932522e0c229329\\\",\\\"enableDebugInfo\\\":true,\\\"debugInfo\\\":{}},\\\"flightLookUpList\\\":{\\\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\\\":{\\\"mrkAl\\\":\\\"6E\\\",\\\"oprAl\\\":\\\"6E\\\",\\\"validatingCarrier\\\":\\\"6E\\\",\\\"fltNo\\\":\\\"47\\\",\\\"arcrfTyp\\\":\\\"320\\\",\\\"depInfo\\\":{\\\"trmnl\\\":\\\"\\\",\\\"arpCd\\\":\\\"ATQ\\\"},\\\"arrInfo\\\":{\\\"trmnl\\\":\\\"\\\",\\\"arpCd\\\":\\\"SHJ\\\"},\\\"depTime\\\":1615428600000,\\\"arrTime\\\":1615437000000,\\\"dur\\\":8400000}},\\\"rcomGrps\\\":{\\\"recoms\\\":[{\\\"itneraryJrnys\\\":[{\\\"jrnyKey\\\":\\\"ATQ-SHJ : 6E-47\\\",\\\"depDate\\\":\\\"2021-03-11 07:40\\\",\\\"arrDate\\\":\\\"2021-03-11 10:00\\\",\\\"dur\\\":8400000,\\\"flightDtlsInfo\\\":[{\\\"fltLookUpKey\\\":\\\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\\\",\\\"pnrGroupNum\\\":0,\\\"cabin\\\":\\\"E\\\"}]}],\\\"frInfo\\\":{\\\"pnrGrpdFrInfo\\\":{\\\"0\\\":{\\\"frInfos\\\":[{\\\"paxFares\\\":{\\\"ADULT\\\":{\\\"singlePaxBaseFare\\\":5524.0,\\\"singlePaxTx\\\":988.0,\\\"singlePaxTot\\\":6512.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":105.0,\\\"taxCode\\\":\\\"PSF\\\"},{\\\"taxVal\\\":453.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":139.0,\\\"taxCode\\\":\\\"03SGST\\\"},{\\\"taxVal\\\":102.0,\\\"taxCode\\\":\\\"ZR\\\"},{\\\"taxVal\\\":139.0,\\\"taxCode\\\":\\\"03CGST\\\"},{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"PHF\\\"}],\\\"noOfPax\\\":2,\\\"journeyWiseFare\\\":{\\\"ATQ-SHJ : 6E-47\\\":{\\\"singlePaxBaseFare\\\":5524.0,\\\"singlePaxTx\\\":988.0,\\\"singlePaxTot\\\":6512.0,\\\"singlePaxTaxBreakups\\\":[{\\\"taxVal\\\":50.0,\\\"taxCode\\\":\\\"PHF\\\"},{\\\"taxVal\\\":453.0,\\\"taxCode\\\":\\\"ASF\\\"},{\\\"taxVal\\\":105.0,\\\"taxCode\\\":\\\"PSF\\\"},{\\\"taxVal\\\":102.0,\\\"taxCode\\\":\\\"ZR\\\"},{\\\"taxVal\\\":139.0,\\\"taxCode\\\":\\\"03CGST\\\"},{\\\"taxVal\\\":139.0,\\\"taxCode\\\":\\\"03SGST\\\"}]}},\\\"segPrdctInfo\\\":{\\\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\\\":{\\\"pclass\\\":\\\"R\\\",\\\"fareClass\\\":\\\"R\\\",\\\"fareBasis\\\":\\\"R0INT\\\",\\\"pClass\\\":\\\"R\\\",\\\"rbd\\\":\\\"R\\\"}}}},\\\"cancellationAssured\\\":false,\\\"supplierName\\\":\\\"6E\\\",\\\"supplierCredential\\\":\\\"6EUNI\\\",\\\"fareFamily\\\":\\\"\\\"}]}}}}]}}\",\"ticketData\":\"null\",\"mmtId\":\"NN7812453730634\"}",
+      "PostSaleDroolsBaggage0": "{\"PostSaleDroolsBaggage\":[{\"sector\":\"INTL\",\"fromCityLeg\":\"ATQ\",\"toCityLeg\":\"SHJ\",\"fromCountryLeg\":\"India\",\"toCountryLeg\":\"United Arab Emirates\",\"operatingAirline\":\"6E\",\"validatingAirline\":\"6E\",\"cabinClass\":\"E\",\"flightNo\":\"47\",\"fbc\":\"R0INT\",\"rbd\":\"R\",\"productClass\":\"R\",\"bookingDate\":1596052246000,\"ptcCode\":\"\",\"travelDateStart\":1615428600000,\"travelDateEnd\":1615428600000,\"checkedBaggage\":{\"adultBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"30\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}},\"cabinBaggage\":{\"adultBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"childBaggage\":{\"allowance\":\"7\",\"unit\":\"Kgs\"},\"infantBaggage\":{\"allowance\":\"0\",\"unit\":\"Kgs\"}}}]}",
+      "MiniRuleConfig": "{\"airline\":\"6E\",\"sector\":\"INTL\",\"fbc\":null,\"rbd\":null,\"productClass\":null,\"cabinClass\":\"ECONOMY\",\"departureDate\":null,\"bookingDate\":null,\"noShowCutOff\":24,\"firedRules\":[\"22\"],\"cpadditive\":300.0,\"cpmultiplier\":1.18,\"dcpadditive\":0.0,\"dcpmultiplier\":1.05}",
+      "PostSaleBaggageResponse0": "{\"PostSaleBaggageResponse\":[{\"jrnyKey\":\"ATQ-SHJ : 6E-47\",\"flightLookUpKey\":\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}]}",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"ATQ-SHJ : 6E-47\":{\"fltGrps\":[{\"fltKeys\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"ATQ-SHJ : 6E-47\":{\"fltGrps\":[{\"fltKeys\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":0,\"to\":4,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6077.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6077.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":4,\"to\":72,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":4,\"to\":72,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"5000.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":-8760,\"to\":0,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6077.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":0,\"to\":4,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"6077.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":true},{\"fltGrp\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"4500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false},{\"fltGrp\":[\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"6E\",\"from\":72,\"to\":8760,\"fareBasis\":\"R0INT\",\"feeCurrency\":\"INR\",\"feeAmount\":\"3500.0\",\"mmtFee\":649.0,\"supplierType\":\"LCC\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"ATQ-SHJ : 6E-47\"],\"jrnyCombinType\":\"ADDITIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"ATQ-SHJ : 6E-47\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PostSaleCPResponse": "{\"status\":\"SUCCCES\",\"errorDetails\":null,\"meta\":{\"lob\":\"B2C\",\"src\":\"MMT\",\"currency\":\"INR\",\"correlationId\":\"NN7812453730634\",\"iteneraryId\":\"29d27c0949f1367d713c0f109932522e0c229329\",\"enableDebugInfo\":true,\"debugInfo\":{}},\"flightLookUpList\":{\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\":{\"marketingAirline\":\"6E\",\"operatingAirline\":\"6E\",\"validatingCarrier\":\"6E\",\"flightNum\":\"47\",\"aircraftType\":\"320\",\"departureInfo\":{\"trmnl\":\"\",\"arpCd\":\"ATQ\"},\"arrivalInfo\":{\"trmnl\":\"\",\"arpCd\":\"SHJ\"},\"techStops\":null,\"depTime\":1615428600000,\"arrTime\":1615437000000,\"duration\":8400000}},\"rcomGrps\":{\"recoms\":[{\"itineraryJrnyList\":[{\"journeyKey\":\"ATQ-SHJ : 6E-47\",\"depDate\":\"2021-03-11 07:40\",\"arrDate\":\"2021-03-11 10:00\",\"duration\":8400000,\"flightPnrLookupInfo\":[{\"fltLookUpKey\":\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\",\"pnrGroupNum\":0,\"cabin\":\"E\"}]}],\"frInfo\":{\"pnrGrpdFrInfo\":{\"0\":{\"pnrFareInfos\":[{\"paxFares\":{\"ADULT\":{\"singlePaxBaseFare\":5524.0,\"singlePaxTx\":988.0,\"singlePaxTot\":6512.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":105.0,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":453.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":139.0,\"taxCode\":\"03SGST\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":139.0,\"taxCode\":\"03CGST\"},{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"}],\"noOfPax\":2,\"ptcCode\":null,\"segPrdctInfo\":{\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\":{\"fareClass\":\"R\",\"fareBasis\":\"R0INT\",\"rbd\":\"R\",\"pclass\":\"R\"}},\"journeyWiseFare\":{\"ATQ-SHJ : 6E-47\":{\"singlePaxBaseFare\":5524.0,\"singlePaxTx\":988.0,\"singlePaxTot\":6512.0,\"singlePaxTaxBreakups\":[{\"nation\":null,\"taxVal\":50.0,\"taxCode\":\"PHF\"},{\"nation\":null,\"taxVal\":453.0,\"taxCode\":\"ASF\"},{\"nation\":null,\"taxVal\":105.0,\"taxCode\":\"PSF\"},{\"nation\":null,\"taxVal\":102.0,\"taxCode\":\"ZR\"},{\"nation\":null,\"taxVal\":139.0,\"taxCode\":\"03CGST\"},{\"nation\":null,\"taxVal\":139.0,\"taxCode\":\"03SGST\"}]}}}},\"cancellationPenalty\":[{\"jrnyKey\":\"ATQ-SHJ : 6E-47\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":4500.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":5000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":5000.0,\"nonRefundable\":false},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":0,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":6077.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":6077.0,\"nonRefundable\":true},\"mmtFee\":{\"cancellationMarkup\":649.0},\"waiver\":{\"airlineWaiver\":[],\"mmtWaiver\":[],\"bookingWaiver\":[],\"userWaiver\":[]}}],\"currentATCPenalty\":null}}}],\"dateChangePenalty\":[{\"jrnyKey\":\"ATQ-SHJ : 6E-47\",\"paxWiseTW\":{\"ADULT\":{\"ptcCode\":null,\"paxType\":\"ADULT\",\"timeWindows\":[{\"fromTimeWindow\":72,\"toTimeWindow\":8760,\"airlinePenalty\":{\"cancellationPenalty\":3500.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":24,\"toTimeWindow\":72,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":4,\"toTimeWindow\":24,\"airlinePenalty\":{\"cancellationPenalty\":4000.0,\"nonChangable\":false},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":0,\"toTimeWindow\":4,\"airlinePenalty\":{\"cancellationPenalty\":6077.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null},{\"fromTimeWindow\":-8760,\"toTimeWindow\":0,\"airlinePenalty\":{\"cancellationPenalty\":6077.0,\"nonChangable\":true},\"mmtFee\":{\"dcMarkup\":649.0},\"waiver\":null}]}}}],\"baggageList\":[{\"jrnyKey\":\"ATQ-SHJ : 6E-47\",\"flightLookUpKey\":\"6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00\",\"checkInBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"30\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}},\"cabinBaggageInfo\":{\"paxWiseAllowance\":{\"ADULT\":{\"allowance\":\"7\",\"unit\":\"Kgs\",\"conversionRate\":\"-1\"}}}}],\"cancellationAssured\":false,\"supplierName\":\"6E\",\"supplierCredential\":\"6EUNI\",\"fareFamily\":\"\"}]}}}}]}}",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00": {
+      "mrkAl": "6E",
+      "oprAl": "6E",
+      "validatingCarrier": "6E",
+      "fltNo": "47",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "ATQ"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "arpCd": "SHJ"
+      },
+      "depTime": 1615428600000,
+      "arrTime": 1615437000000,
+      "dur": 8400000
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "ATQ-SHJ : 6E-47",
+        "depDate": "2021-03-11 07:40",
+        "arrDate": "2021-03-11 10:00",
+        "dur": 8400000,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00",
+          "pnrGroupNum": 0,
+          "cabin": "E"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 5524.0,
+                  "singlePaxTx": 988.0,
+                  "singlePaxTot": 6512.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 105.0,
+                    "taxCode": "PSF"
+                  }, {
+                    "taxVal": 453.0,
+                    "taxCode": "ASF"
+                  }, {
+                    "taxVal": 139.0,
+                    "taxCode": "03SGST"
+                  }, {
+                    "taxVal": 102.0,
+                    "taxCode": "ZR"
+                  }, {
+                    "taxVal": 139.0,
+                    "taxCode": "03CGST"
+                  }, {
+                    "taxVal": 50.0,
+                    "taxCode": "PHF"
+                  }],
+                  "noOfPax": 2,
+                  "journeyWiseFare": {
+                    "ATQ-SHJ : 6E-47": {
+                      "singlePaxBaseFare": 5524.0,
+                      "singlePaxTx": 988.0,
+                      "singlePaxTot": 6512.0,
+                      "singlePaxTaxBreakups": [{
+                        "taxVal": 50.0,
+                        "taxCode": "PHF"
+                      }, {
+                        "taxVal": 453.0,
+                        "taxCode": "ASF"
+                      }, {
+                        "taxVal": 105.0,
+                        "taxCode": "PSF"
+                      }, {
+                        "taxVal": 102.0,
+                        "taxCode": "ZR"
+                      }, {
+                        "taxVal": 139.0,
+                        "taxCode": "03CGST"
+                      }, {
+                        "taxVal": 139.0,
+                        "taxCode": "03SGST"
+                      }]
+                    }
+                  },
+                  "segPrdctInfo": {
+                    "6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00": {
+                      "pclass": "R",
+                      "fareClass": "R",
+                      "fareBasis": "R0INT",
+                      "pClass": "R",
+                      "rbd": "R"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "ATQ-SHJ : 6E-47",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4500.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 5000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 5000.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6077.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6077.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "ATQ-SHJ : 6E-47",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 72,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 3500.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 72,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 4,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 4000.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 4,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6077.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 6077.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "ATQ-SHJ : 6E-47",
+                "flightLookUpKey": "6E-47-ATQ-SHJ-2021-03-11 07:40-2021-03-11 10:00",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "7",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "6E",
+              "supplierCredential": "6EUNI",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

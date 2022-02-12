@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/postSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "AI-9873-AMD-IXY-2020-08-17 12:00-2020-08-17 13:05"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOMUKAIMCA/GETPOSTSALELCC.json"
+  }
+}
+

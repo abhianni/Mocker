@@ -1,0 +1,22 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "AI-AI-492-JAI-DEL-2021-01-06 17:00-2021-01-06 18:00"
+      },
+      {       "contains" : "e32225a43bcab7289ccfe53c2496d893f739fcb7"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTLAITGMHRTACI/GETRULETP.json"
+  }
+}
+

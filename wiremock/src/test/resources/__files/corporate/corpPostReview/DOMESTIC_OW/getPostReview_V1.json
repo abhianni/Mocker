@@ -1,0 +1,64 @@
+{
+	"status": "SUCCESS",
+	"loyalty": {
+		"status": "FAILED",
+		"err": [{
+			"statusCode": 500,
+			"ec": "8007",
+			"em": "IllegalStateException: closed",
+			"ed": "Exception type: com.netflix.hystrix.exception.HystrixRuntimeException: get-itinerary failed and fallback failed.Exception Occurred at: ClassName: com.netflix.hystrix.AbstractCommand$22, MethodName: call, LineNumber: 825",
+			"sn": "mmt-svcs-loyalty"
+		}]
+	},
+	"peitho": {
+		"common": {},
+		"flights": {},
+		"flightLookUpList": {}
+	},
+	"visa": {},
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "BOM",
+				"depDate": "2020-01-16"
+			}],
+			"cc": "E",
+			"rKey": "RKEY:911462e3-aaa4-49a4-a5a9-1b6a56c428df:8"
+		}
+	},
+	"rmeta": {
+		"core": {
+			"numAdults": 1,
+			"numChildren": 0,
+			"numInfant": 0,
+			"reviewItineraryList": [{
+				"classname": "com.mmt.flights.search.entity.review.request.AggregatorReviewItinerary",
+				"from": "DEL",
+				"to": "BOM",
+				"depDate": "2020-01-16",
+				"selectionInfoList": [{
+					"from": "DEL",
+					"to": "BOM",
+					"service": "SG",
+					"flight": "SG-8723",
+					"pnrGroupNumber": 0,
+					"depDate": 1579143600000,
+					"arrDate": 1579151100000,
+					"lob": "CORPB2C_UN",
+					"rbd": "P1",
+					"cmsId": "SGOWDHRUV",
+					"frFamNm": null,
+					"rtFareAvailable": false
+				}]
+			}],
+			"cabinClass": "ECONOMY",
+			"paxFareType": null,
+			"rKey": "RKEY:911462e3-aaa4-49a4-a5a9-1b6a56c428df:8"
+		}
+	}
+}

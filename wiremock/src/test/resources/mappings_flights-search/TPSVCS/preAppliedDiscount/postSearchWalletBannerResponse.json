@@ -1,0 +1,18 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v1/wallet-info.*DOM_RT_ALL_FOR_API.*"
+
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/TPSVCS/preAppliedDiscount/postSearchWalletErrorResponse.json"
+		
+    }
+}

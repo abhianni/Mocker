@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-ancillary-api/ancillary/stateFul/v2",
+    "bodyPatterns":[
+      {       	"contains": "ancillary_RTFare_1adult_6E303"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights-ancillaries/flights-ancillaries-soa/RTFare/RTFare_6E303_Ancillary_Soa_Stateful.json"
+  }
+}

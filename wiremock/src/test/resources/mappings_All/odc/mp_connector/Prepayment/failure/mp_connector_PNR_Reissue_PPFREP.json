@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        
+       "bodyPatterns":[{
+        "contains" : "Ticket_ReissueConfirmedPricing"},
+		{"contains" : "589PPFREP"}
+		]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Prepayment/failure/Reissue_PPFREP.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

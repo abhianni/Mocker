@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/search/soa?DhruvNegativeTest_TIMEOUT_SCENARIO",
+        "bodyPatterns":[{
+        "contains" : "DhruvNegativeTest_TIMEOUT_SCENARIO"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 30000
+    }
+}

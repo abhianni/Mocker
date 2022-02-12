@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        
+       "bodyPatterns":[{
+        "contains" : "Ticket_ReissueConfirmedPricing"},
+		{"contains" : "TVCRBO"}
+		]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Commit/Reissue_TVCRBO.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

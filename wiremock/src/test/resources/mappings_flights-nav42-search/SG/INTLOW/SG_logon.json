@@ -1,0 +1,17 @@
+{
+  "request":{
+    "url": "/SessionManager.svc",
+    "bodyPatterns":[
+      {       "contains" : "LogonRequest"
+      },
+		{ "contains" : "MMTMSTRA00"
+		}
+	  
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/SG/INTLOW/SGINTL_OW_logon.xml"
+
+  }
+}

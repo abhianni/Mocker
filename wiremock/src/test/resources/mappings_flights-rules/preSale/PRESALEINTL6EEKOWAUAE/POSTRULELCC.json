@@ -1,0 +1,22 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "6E-6E-6184-IXR-DEL-2020-12-04 20:30-2020-12-04 22:30"
+      },
+      {       "contains" : "049c929be9932c28519b7e6a9547209a6d68d239"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTL6EEKOWAUAE/GETRULELCC.json"
+  }
+}
+

@@ -1,0 +1,115 @@
+{
+    "bookingDateTime": "1528573826265",
+    "cancelAnyway": false,
+    "journeyPartialCancellation": {
+        "DEL-BOM": "Yes"
+    },
+    "lob": "LOB02510",
+    "lobName": "DOM",
+    "preTicketed": true,
+    "query": "ALL",
+    "reqChannel": "APPLIVE",
+    "requestType": "GRID",
+    "segments": [
+        {
+            "airlineCode": "9W",
+            "cancellationAssured": "1",
+            "departureDateTime": "1535677500000",
+            "fromCity": "DEL",
+            "intent": "DEL-BOM",
+            "passengers": [
+                {
+                    "baggageInfo": {
+                        "ADT": {
+                            "allowance": "1",
+                            "unit": "Pcs (Max 15 Kg)"
+                        },
+                        "CHD": {
+                            "allowance": "1",
+                            "unit": "Pcs (Max 15 Kg)"
+                        },
+                        "INF": {
+                            "allowance": null,
+                            "unit": null
+                        }
+                    },
+                    "baseFare": 1691.0,
+                    "cabinBaggageInfo": {
+                        "ADT": {
+                            "allowance": "7",
+                            "unit": "Kgs"
+                        },
+                        "CHD": {
+                            "allowance": "7",
+                            "unit": "Kgs"
+                        }
+                    },
+                    "convenienceFee": 0.0,
+                    "costAmount": 0.0,
+                    "familyFarePaxCount": 0,
+                    "fbc": "P153",
+                    "inTax": 0.0,
+                    "isTicketDirectlyCancelledWithAirline": false,
+                    "isTicketDirectlyCancelledWithAirlineRefundRecieved": false,
+                    "jn": 0.0,
+                    "partialCancellationAllowed": "Yes",
+                    "paxID": 0,
+                    "paxType": "A",
+                    "productClass": "SS",
+                    "psf": 0.0,
+                    "puf": 0.0,
+                    "rbd": "P",
+                    "svc": 0.0,
+                    "ticketValueValid": true,
+                    "timeWindows": [
+                        {
+                            "baggAllowAdt": 1,
+                            "baggAllowChd": 1,
+                            "baggAllowInft": 0,
+                            "cancellationMarkup": 300.0,
+                            "cancellationMarkupWaiver": 0.0,
+                            "cancellationPenalty": 3000.0,
+                            "convenienceFee": 0.0,
+                            "dateChangeMarkup": 300.0,
+                            "dateChangePenalty": 2250.0,
+                            "fromTimeWindow": 24,
+                            "nonChangeble": 0,
+                            "nonRefundable": 0,
+                            "partialCancellationPenalty": 0.0,
+                            "priorityFlag": 0,
+                            "toTimeWindow": 8760,
+                            "waiver": 3000.0
+                        },
+                        {
+                            "baggAllowAdt": 1,
+                            "baggAllowChd": 1,
+                            "baggAllowInft": 0,
+                            "cancellationMarkup": 300.0,
+                            "cancellationMarkupWaiver": 0.0,
+                            "cancellationPenalty": 3000.0,
+                            "convenienceFee": 0.0,
+                            "dateChangeMarkup": 300.0,
+                            "dateChangePenalty": 2250.0,
+                            "fromTimeWindow": 2,
+                            "nonChangeble": 0,
+                            "nonRefundable": 0,
+                            "partialCancellationPenalty": 0.0,
+                            "priorityFlag": 0,
+                            "toTimeWindow": 24,
+                            "waiver": 0.0
+                        }
+                    ],
+                    "udf": 0.0,
+                    "validatingAirline": "9W",
+                    "wo": 0.0,
+                    "ym": 0.0,
+                    "yq": 192.0,
+                    "yr": 0.0
+                }
+            ],
+            "segmentID": "0",
+            "toCity": "BOM",
+            "trueIntent": "DEL-BOM"
+        }
+    ]
+}

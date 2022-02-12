@@ -1,0 +1,22 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-lcc-misc-rules/v1/preSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "G8-G8-108-DEL-IXC-2020-12-01 08:40-2020-12-01 10:05"
+      },
+      {       "contains" : "88a28ff8eb55e1e5d969b2eefecec6ed52024f44"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/preSale/PRESALEINTLG8TKMCACIUAE/GETRULELCC.json"
+  }
+}
+

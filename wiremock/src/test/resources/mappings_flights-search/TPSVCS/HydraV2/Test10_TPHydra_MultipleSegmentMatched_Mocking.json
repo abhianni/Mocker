@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v2/hydra-segment?.*MultipleSegmentHV2.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/flights_search/TPSVCS/HydraV2/Test_TPSVC_Hydra_V2_3_Response.json"
+    }
+}

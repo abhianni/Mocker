@@ -1,0 +1,20 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/flight-fare-rules/v2/rules/penalty",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/json",
+                "caseInsensitive": true
+            },
+            "Accept": {
+                "equalTo": "application/json",
+                "caseInsensitive": true
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/fareRuleAggregator/panalty/Test_FareRule_Panalty_Listing_V2_Response.json"
+    }
+}

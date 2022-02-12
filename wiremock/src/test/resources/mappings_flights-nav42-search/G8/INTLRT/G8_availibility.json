@@ -1,0 +1,24 @@
+{
+ "request":{
+
+        "method": "POST",
+
+        "url": "/bookingmanager.svc",
+
+       "bodyPatterns":[
+
+{ "contains" : "CMB"
+},
+{ "contains" : "GetAvailabilityRequest"
+}
+
+
+
+]
+  },
+  "response": {
+    
+    "bodyFileName": "/connector/nav42/G8/INTLRT/G8_availibity.xml"
+
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "request":{
+    "method": "POST",
+	"urlPattern": "/flights-tp-svcs/v1/route-happy-amenities?.*DOM_RT_ALL_FOR_API.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+	"transformers": ["FlightSOAResponseTransformer"],
+    "bodyFileName": "/flights_search/TPSVCS/preAppliedDiscount/postSearchAmenitiesResponse.json"
+  }
+}

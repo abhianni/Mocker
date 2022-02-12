@@ -1,0 +1,75 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<air:AirRetrieveDocumentRsp TraceId="fwfwgwg" TransactionId="F2851B5E0A0E562D49AE2ADB8E7F2C85" ResponseTime="435" UniversalRecordLocatorCode="7WCTOJ" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0">
+			<air:ETR Key="b2/ThOlB0BKAOSbevBAAAA==" TotalPrice="INR3423" BasePrice="INR2875" Taxes="INR548" Refundable="false" Exchangeable="false" IssuedDate="2020-08-03T00:00:00.000+05:30" ProviderCode="1G" ProviderLocatorCode="NW3R2C" IATANumber="14339942" PseudoCityCode="WP7" CountryCode="IN" PlatingCarrier="UK">
+				<air:AirReservationLocatorCode>7WCTOM</air:AirReservationLocatorCode>
+				<common_v48_0:AgencyInfo>
+					<common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-08-02T18:30:00.000+00:00"/>
+				</common_v48_0:AgencyInfo>
+				<common_v48_0:BookingTraveler Key="4j6KhOBAAA/BBbLGxBAAAA==" TravelerType="ADT" Gender="M">
+					<common_v48_0:BookingTravelerName Prefix="MR" First="raj" Last="Kumar"/>
+					<common_v48_0:PhoneNumber Key="4j6KhOBAAA/BCbLGxBAAAA==" Type="None" Location="DEL" CountryCode="91" Number="9099000482">
+						<common_v48_0:ProviderReservationInfoRef Key="4ZqWhOXc1BKAgqbwuBAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="4j6KhOBAAA/BFbLGxBAAAA==" EmailID="reachraj16@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="4ZqWhOXc1BKAgqbwuBAAAA=="/>
+					</common_v48_0:Email>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:FormOfPayment Key="0LgbhOwYlDKA+d1duBAAAA==" Type="Cash" Reusable="false" ProfileKey="ieF/x8JgQmO8F60p+rXOCg=="/>
+				<common_v48_0:Payment Key="b2/ThOlB0BKAWSbevBAAAA==" Type="Itinerary" Amount="INR3423" FormOfPaymentRef="0LgbhOwYlDKA+d1duBAAAA=="/>
+				<common_v48_0:SupplierLocator SupplierCode="UK" SupplierLocatorCode="MKXDHA"/>
+				<air:FareCalc>DEL UK AMD 2875 INR2875END XT 91WO130YR</air:FareCalc>
+				<air:Ticket Key="b2/ThOlB0BKASSbevBAAAA==" TicketNumber="2283761228764" TicketStatus="R">
+					<air:Coupon Key="b2/ThOlB0BKATSbevBAAAA==" CouponNumber="1" MarketingCarrier="UK" MarketingFlightNumber="979" Origin="DEL" Destination="AMD" DepartureTime="2020-08-18T08:25:00.000+05:30" StopoverCode="true" BookingClass="O" FareBasis="OL1PYL" NotValidBefore="2020-08-17" NotValidAfter="2020-08-17" Status="R">
+						<air:TicketDesignator Value="YL"/>
+					</air:Coupon>
+					<air:TicketEndorsement Value="NF70102278750300"/>
+				</air:Ticket>
+				<air:BaggageAllowances>
+					<air:BaggageAllowanceInfo TravelerType="ADT" Origin="DEL" Destination="AMD" Carrier="UK">
+						<air:URLInfo>
+							<air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UK</air:URL>
+						</air:URLInfo>
+						<air:TextInfo>
+							<air:Text>20K</air:Text>
+							<air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+						</air:TextInfo>
+						<air:BagDetails ApplicableBags="1stChecked">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:BagDetails>
+						<air:BagDetails ApplicableBags="2ndChecked">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:BagDetails>
+					</air:BaggageAllowanceInfo>
+					<air:CarryOnAllowanceInfo Origin="DEL" Destination="AMD" Carrier="UK">
+						<air:TextInfo>
+							<air:Text>7K</air:Text>
+						</air:TextInfo>
+						<air:CarryOnDetails ApplicableCarryOnBags="1">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:CarryOnDetails>
+						<air:CarryOnDetails ApplicableCarryOnBags="2">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:CarryOnDetails>
+					</air:CarryOnAllowanceInfo>
+				</air:BaggageAllowances>
+			</air:ETR>
+		</air:AirRetrieveDocumentRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

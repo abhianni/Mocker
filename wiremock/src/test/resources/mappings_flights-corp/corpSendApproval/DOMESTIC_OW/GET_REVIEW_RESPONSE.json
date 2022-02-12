@@ -1,0 +1,14 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v1/w-review.*itId=orgInfoTestsendApproval_itID.*"
+	},
+	"response": {
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"status": 200,
+		"bodyFileName": "/corporate/corpSendApproval/DOMESTIC_OW/GET_REVIEW_RESPONSE.json"
+	}
+}

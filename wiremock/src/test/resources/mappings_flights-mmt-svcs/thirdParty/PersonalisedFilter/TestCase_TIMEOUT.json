@@ -1,0 +1,18 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/v1/getCustomServices",
+        "bodyPatterns":[
+           {"contains" :"flight-filters"},
+            {"contains" :"U8GHFTJX5WL/DEL/KTM"},
+            { "contains" :"most_used_filters"}
+            ]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 20000,
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

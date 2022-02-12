@@ -1,0 +1,21 @@
+{
+  "request":{
+    "method": "POST",
+    "urlPattern": "/cms-service/credentialDetail",
+    "bodyPatterns":[
+      {       "contains" : "6EUNI_23June"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+
+    "bodyFileName": "/flights_rules/postSale/POSTSALEDOMAIRTACIDB/GETCMSCREDENTIALS.json"
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+ "request":{
+
+        "method": "POST",
+
+        "url": "/bookingmanager.svc",
+
+       "bodyPatterns":[
+
+{ "contains" : "MAA"
+},
+{ "contains" : "GetAvailabilityRequest"
+}
+
+
+
+]
+  },
+  "response": {
+    
+    "bodyFileName": "/connector/nav42/6E/RT/6E_RT_availibity.xml"
+
+  }
+}

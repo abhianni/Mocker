@@ -1,0 +1,17 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/flights-search/rkey-info.*crId=BRANDEDFAREDOMOW.*",
+		 "bodyPatterns":[{
+        "contains" : "RKEY:rkeyB2B1:27"
+        }]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName": "/corporate/corpBrandedFare/DOMESTIC_OW/RKEY_RESPONSE_UK_NONSTOP.json"
+	}
+}

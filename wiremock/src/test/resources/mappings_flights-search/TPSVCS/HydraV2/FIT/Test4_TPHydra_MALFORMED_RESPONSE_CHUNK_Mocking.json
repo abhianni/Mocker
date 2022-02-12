@@ -1,0 +1,9 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPatterns": "/flights-mmt-svcs/v2/hydra-segment?.*MalformedResponseHV2.*"
+    },
+    "response": {
+        "fault": "MALFORMED_RESPONSE_CHUNK"
+    }
+}

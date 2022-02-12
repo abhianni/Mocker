@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[{
+        "contains" : "Fare_PricePNRWithBookingClass"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/MP_flightBooking_Fare_PricePNRWithBookingClassReply.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

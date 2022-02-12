@@ -1,0 +1,25 @@
+{
+  "moreVerificationRequired": false,
+  "doubleDiscountingAllowed": false,
+  "blockPhoneNumber": false,
+  "cdfFlag": false,
+  "couponCode": "TEST",
+  "instant": false,
+  "valid": false,
+  "statusCode": 417,
+  "status": "FAILED",
+  "errors": [{
+    "statusCode": 417,
+    "ec": "41700",
+    "em": "Error mapping is not configured for mocking invalid coupon",
+    "ed": "",
+    "sn": "mmt-svcs-cdf",
+    "downStreamErrors": [{
+      "statusCode": 200,
+      "ec": "112",
+      "em": "Coupon not found in database",
+      "ed": "Coupon not found in database",
+      "sn": "DOWNSTREAM-CDF-VALIDATE-COUPON"
+    }]
+  }]
+}

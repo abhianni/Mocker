@@ -1,0 +1,27 @@
+{
+  "request":{
+    "method": "GET",
+    "urlPattern": "/flights-mmt-svcs/v1/tp-aggregator/loyalty-benefit-data?.*LBD_DOM_B_Per_Non.*",
+    "headers": {
+      "x-uuid" : {"matches" : "UT6MOJXAK1L"},
+      "x-profile-type" : {"matches" : "PERSONAL" },
+      "x-pfm" : {"matches" : "ANDROID" },
+      "x-src" : {"matches" : "MMT" },
+      "x-os" : {"matches" : "android" },
+      "x-lob" : {"matches" : "B2C" },
+      "x-mcid" : {"matches" : "12345"},
+      "x-app-ver" : {"matches" : "7.2.6" },
+      "x-device-id" : {"matches" : "e84ffd812a289dd5" }
+
+    }
+
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights_search/TPSVCS/loyality/loyalityBenefitData/Test_LBD_DOM_B_Per_Non_Response.json"
+  }
+}

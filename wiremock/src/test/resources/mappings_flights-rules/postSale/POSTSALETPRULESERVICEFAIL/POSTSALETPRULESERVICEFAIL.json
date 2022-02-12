@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/postSaleRules",
+    "bodyPatterns": [
+      {
+        "contains": "BHO-DEL : AI-438"
+      }
+    ]
+  },
+  "response": {
+    "status": 503
+  }
+}
+

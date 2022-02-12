@@ -1,0 +1,27 @@
+{
+  "response": {
+    "originalCommission": 17.0,
+    "provisionalBookingId": "00066366533",
+    "currency": "INR",
+    "departureDate": "$(departureDate)",
+    "vendorBookingId": null,
+    "mmtBookingId": "$(mmtBookingId)",
+    "gstin": "27AAACP2492C1ZN",
+    "totalCost": $(bookingInfo.price),
+    "vendorCode": "INGO",
+    "hotelCode": "$(hotelCode)",
+    "arrivalDate": "$(arrivalDate)",
+    "hotelConfirmationId": "",
+    "roomBookingInfo": [
+      {
+        "status": "SUCCESS",
+        "legacyBookingStatus": "",
+        "vendorRoomConfirmationId": ""
+      }
+    ],
+    "cancelPolicyDescription": "",
+    "settlementMode": "CP",
+    "stateCode": "27"
+  },
+  "correlationKey": "e7fad862-5b21-4ed0-98af-cadf5d1d2b13"
+}

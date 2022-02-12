@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/flights-ancillary-api/ancillary/postsale/hold",
+    "bodyPatterns":[
+      {       	"contains": "SMNP6065"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "/flights-ancillaries/postSale/Hold/PostSaleHoldSeatMapNotFound.json"
+  }
+}

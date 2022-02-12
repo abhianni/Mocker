@@ -1,0 +1,192 @@
+{
+	"status": "SUCCESS",
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "PNQ",
+				"depDate": "2020-02-29"
+			}],
+			"cc": "E",
+			"rKey": "v1~~M$R$RMIP$85.0$394.0$null$null$null$0$0$A~A-3098.0|2241.0_C-0|0_I-0|0~M$1$0$0$CORPSME_UN$0$null~~DEL_PNQ_290220_6E-643_NkVDU01F_04:55_290220_06:55_6E_6E_6E_JO~6E_0_0_DEL-PNQ-290220_null_null"
+		}
+	},
+	"insurance": {
+		"status": "FAILED",
+		"err": [{
+			"statusCode": 500,
+			"ec": "8007",
+			"em": "IllegalStateException: closed",
+			"ed": "Exception type: com.netflix.hystrix.exception.HystrixRuntimeException: get-itinerary failed and fallback failed.Exception Occurred at: ClassName: com.netflix.hystrix.AbstractCommand$22, MethodName: call, LineNumber: 825",
+			"sn": "mmt-svcs-insurance"
+		}]
+	},
+	"review": {
+		"itineraryId": "adminUserItineraryTest1",
+		"meta": {
+			"cur": "INR",
+			"isDDApld": false,
+			"requestId": "65c3276f-2de8-4b6b-a011-349ed85f6b91",
+			"srvrMtrc": {}
+		},
+		"recom": {
+			"itneraryJrnys": [{
+				"jrnyKey": "DEL$PNQ$2902200455$6E-643",
+				"isCstmComb": false,
+				"depDate": "2020-02-29 04:55",
+				"arrDate": "2020-02-29 06:55",
+				"dur": 120,
+				"flightDtlsInfo": [{
+					"flyingDay": 0,
+					"fltLookUpKey": "6E-6E-643-DEL-PNQ-2020-02-29 04:55-2020-02-29 06:55",
+					"pnrGroupNum": 0
+				}]
+			}],
+			"frInfo": {
+				"showMoreFaresOnListing": false,
+				"bookingFarePnrSelectionInfoMap": {
+					"COMBO": {
+						"paxFr": {
+							"ADULT": {
+								"addonsAmnt": 0.0,
+								"bs": 2241.0,
+								"tx": 857.0,
+								"sFee": 0.0,
+								"convFee": 0.0,
+								"instDisc": 0.0,
+								"preApDiscntInfo": [],
+								"tot": 3098.0,
+								"txInfo": [{
+									"amnt": 41.0,
+									"code": "TF",
+									"msg": "TF_DM"
+								}, {
+									"amnt": 609.0,
+									"code": "YQ",
+									"msg": "YQ_DM"
+								}, {
+									"amnt": 122.0,
+									"code": "GOODS_SERVICE_TAX",
+									"msg": "GOODS_SERVICE_TAX_DM"
+								}, {
+									"amnt": 85.0,
+									"code": "PSF",
+									"msg": "PSF_DM"
+								}],
+								"sFeeInfo": {}
+							}
+						},
+						"totFr": {
+							"addonsAmnt": 0.0,
+							"bs": 2241.0,
+							"tx": 857.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 3098.0,
+							"txInfo": [{
+								"amnt": 41.0,
+								"code": "TF",
+								"msg": "TF_DM"
+							}, {
+								"amnt": 609.0,
+								"code": "YQ",
+								"msg": "YQ_DM"
+							}, {
+								"amnt": 122.0,
+								"code": "GOODS_SERVICE_TAX",
+								"msg": "GOODS_SERVICE_TAX_DM"
+							}, {
+								"amnt": 85.0,
+								"code": "PSF",
+								"msg": "PSF_DM"
+							}],
+							"sFeeInfo": {},
+							"addons": [{
+								"itemType": "COUPON",
+								"itemCode": "",
+								"selected": false,
+								"disabled": false
+							}]
+						},
+						"rKey": "v1~~M$R$RMIP$85.0$394.0$null$null$null$0$0$A~A-3098.0|2241.0_C-0|0_I-0|0~M$1$0$0$CORPSME_UN$0$null~~DEL_PNQ_290220_6E-643_NkVDU01F_04:55_290220_06:55_6E_6E_6E_JO~6E_0_0_DEL-PNQ-290220_null_null"
+					}
+				},
+				"isPnrGrpdFrFmlyAvl": false,
+				"preSlctdFarePnrSelectionInfoKey": "COMBO"
+			}
+		},
+		"fareComponentLookUpMap": {
+			"INF": "Infant Tax",
+			"KKC": "Krishi Kalyan Cess",
+			"AST": "Service Tax",
+			"PSF": "Passenger Service Fee",
+			"DF": "Development Fee",
+			"OTH": "Other",
+			"CF": "Congestion Fee",
+			"GOODS_SERVICE_TAX": "Goods and Services Tax",
+			"TTF": "Travel and Tourism Fee",
+			"GST": "Gvt. Service Fee",
+			"UDFA": "User Development Fee(Arrival)",
+			"TF": "CUTE Fee",
+			"SF": "Service Fee",
+			"RCF": "Regional Connectivity Fund",
+			"SBC": "Swachh Bharat Cess ",
+			"UDF": "User Development Fee",
+			"YQ": "Airline Fuel Charge",
+			"DC": "Discount"
+		},
+		"alCdeMap": {
+			"6E": {
+				"nm": "IndiGo"
+			}
+		},
+		"ctyCdeMap": {
+			"PNQ": {
+				"nm": "Pune",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Pune Airport"
+			},
+			"DEL": {
+				"nm": "New Delhi",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Indira Gandhi International Airport"
+			}
+		},
+		"flightLookUpList": {
+			"6E-6E-643-DEL-PNQ-2020-02-29 04:55-2020-02-29 06:55": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "6E",
+				"oprAl": "6E",
+				"fltNo": "643",
+				"arcrfTyp": "Airbus A320 ",
+				"depInfo": {
+					"trmnl": "1",
+					"cityCd": "DEL",
+					"arpNm": "Indira Gandhi International Airport"
+				},
+				"arrInfo": {
+					"trmnl": "",
+					"cityCd": "PNQ",
+					"arpNm": "Pune Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-02-29 04:55",
+				"arrTime": "2020-02-29 06:55",
+				"dur": 120
+			}
+		},
+		"services": {}
+	}
+}

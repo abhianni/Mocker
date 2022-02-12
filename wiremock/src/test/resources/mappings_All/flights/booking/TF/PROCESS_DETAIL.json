@@ -1,0 +1,24 @@
+
+{
+    "request":{
+        "method": "POST",
+        "url": "/tf",
+	"bodyPatterns":[
+	{ "contains" : "ProcessDetails"
+
+	}	
+
+
+]
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/booking/TF/PROCESS_DETAIL.xml",
+"headers": {
+            "Content-Type": "text/xml",
+	    "Content-Encoding": "gzip"
+        }
+    }
+}
+

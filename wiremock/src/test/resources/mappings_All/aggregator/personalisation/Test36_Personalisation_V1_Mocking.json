@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-personalization/pricePersonalizationInfo",
+        "bodyPatterns":[{
+        "contains" : "PersuasionNegativeTestHTTP400BADREQUEST"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/aggregator/personalisation/Test_Personalisation_V1_Response.json"
+    }
+}

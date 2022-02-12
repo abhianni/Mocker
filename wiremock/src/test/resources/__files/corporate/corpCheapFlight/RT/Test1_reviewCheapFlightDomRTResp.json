@@ -1,0 +1,341 @@
+{
+	"status": "SUCCESS",
+	"meta": {
+		"core": {
+			"nmAdt": 1,
+			"nmChd": 0,
+			"nmInf": 0,
+			"it": [{
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "DEL",
+				"to": "BLR",
+				"depDate": "2020-05-25"
+			}, {
+				"classname": "com.mmt.flights.search.entity.search.v4.request.AggregatorSearchItinerary",
+				"from": "BLR",
+				"to": "DEL",
+				"depDate": "2020-05-27"
+			}],
+			"cc": "E",
+			"rKey": "v1~~null$S$SAP8$null$null$510.0$null$771.0$0$0$A,null$W$WIP$null$null$510.0$null$771.0$0$1$A,null$S$SAP8$null$null$510.0$null$771.0$0$2$A^M$Q$QM15AP$null$391.0$null$155.0$null$1$0$A~A-16449.0|14900.0_C-0|0_I-0|0^A-4289.0|3276.0_C-0|0_I-0|0~M$1$0$0$CORPSME_UN$0$null~~DEL_VNS_250520_AI-406_VFBVTklfRE9N_10:15_250520_11:35_AI_AI_AI_P,VNS_BOM_250520_AI-696_VFBVTklfRE9N_13:25_250520_15:40_AI_AI_AI_P,BOM_BLR_250520_AI-607_VFBVTklfRE9N_16:40_250520_18:30_AI_AI_AI_JO~TP_0_0_DEL-BLR-250520_null_null^BLR_PNQ_270520_6E-528_NkVDU01F_17:10_270520_18:30_6E_6E_6E_T,PNQ_DEL_270520_6E-528_NkVDU01F_19:00_270520_21:15_6E_6E_6E_JO~6E_0_1_BLR-DEL-270520_null_null"
+		}
+	},
+	"insurance": {
+		"err": [{
+			"statusCode": 500,
+			"ec": "8088",
+			"em": "HYSTRIX_TECHNICAL_ERROR_INSURANCE_DETAIL_DATA_HIT",
+			"ed": "Hystrix Insurance detail data Technical Error",
+			"sn": null
+		}]
+	},
+	"review": {
+		"itineraryId": "5218f2f91bc9b0655e4386b587c785d4fc256496",
+		"meta": {
+			"cur": "INR",
+			"isDDApld": false,
+			"requestId": "test",
+			"srvrMtrc": {}
+		},
+		"recom": {
+			"itneraryJrnys": [{
+				"jrnyKey": "DEL$VNS$2505201015$AI-406|VNS$BOM$2505201325$AI-696|BOM$BLR$2505201640$AI-607",
+				"isCstmComb": false,
+				"depDate": "2020-05-25 10:15",
+				"arrDate": "2020-05-25 18:30",
+				"dur": 495,
+				"flightDtlsInfo": [{
+					"flyingDay": 0,
+					"fltLookUpKey": "AI-AI-406-DEL-VNS-2020-05-25 10:15-2020-05-25 11:35",
+					"pnrGroupNum": 0
+				}, {
+					"flyingDay": 0,
+					"fltLookUpKey": "AI-AI-696-VNS-BOM-2020-05-25 13:25-2020-05-25 15:40",
+					"pnrGroupNum": 0,
+					"prvFltCntTyp": "CHANGE_OF_PLANE",
+					"prvFltCntDur": 110
+				}, {
+					"flyingDay": 0,
+					"fltLookUpKey": "AI-AI-607-BOM-BLR-2020-05-25 16:40-2020-05-25 18:30",
+					"pnrGroupNum": 0,
+					"prvFltCntTyp": "CHANGE_OF_PLANE",
+					"prvFltCntDur": 60
+				}]
+			}, {
+				"jrnyKey": "BLR$PNQ$DEL$2705201710$6E-528",
+				"isCstmComb": true,
+				"depDate": "2020-05-27 17:10",
+				"arrDate": "2020-05-27 21:15",
+				"dur": 245,
+				"flightDtlsInfo": [{
+					"flyingDay": 0,
+					"fltLookUpKey": "6E-6E-528-BLR-DEL-2020-05-27 17:10-2020-05-27 21:15",
+					"pnrGroupNum": 1
+				}]
+			}],
+			"frInfo": {
+				"showMoreFaresOnListing": false,
+				"bookingFarePnrSelectionInfoMap": {
+					"COMBO": {
+						"paxFr": {
+							"ADULT": {
+								"addonsAmnt": 0.0,
+								"bs": 18176.0,
+								"tx": 2562.0,
+								"sFee": 0.0,
+								"convFee": 0.0,
+								"instDisc": 0.0,
+								"preApDiscntInfo": [],
+								"tot": 20738.0,
+								"txInfo": [{
+									"amnt": 941.0,
+									"code": "GOODS_SERVICE_TAX",
+									"msg": "GOODS_SERVICE_TAX_DM"
+								}, {
+									"amnt": 38.0,
+									"code": "TF",
+									"msg": "TF_DM"
+								}, {
+									"amnt": 510.0,
+									"code": "RCF",
+									"msg": "RCF_DM"
+								}, {
+									"amnt": 268.0,
+									"code": "PSF",
+									"msg": "PSF_DM"
+								}, {
+									"amnt": 650.0,
+									"code": "YQ",
+									"msg": "YQ_DM"
+								}, {
+									"amnt": 155.0,
+									"code": "UDF",
+									"msg": "UDF_DM"
+								}],
+								"sFeeInfo": {}
+							}
+						},
+						"totFr": {
+							"addonsAmnt": 0.0,
+							"bs": 18176.0,
+							"tx": 2562.0,
+							"sFee": 0.0,
+							"convFee": 0.0,
+							"instDisc": 0.0,
+							"preApDiscntInfo": [],
+							"tot": 20738.0,
+							"txInfo": [{
+								"amnt": 941.0,
+								"code": "GOODS_SERVICE_TAX",
+								"msg": "GOODS_SERVICE_TAX_DM"
+							}, {
+								"amnt": 38.0,
+								"code": "TF",
+								"msg": "TF_DM"
+							}, {
+								"amnt": 510.0,
+								"code": "RCF",
+								"msg": "RCF_DM"
+							}, {
+								"amnt": 268.0,
+								"code": "PSF",
+								"msg": "PSF_DM"
+							}, {
+								"amnt": 650.0,
+								"code": "YQ",
+								"msg": "YQ_DM"
+							}, {
+								"amnt": 155.0,
+								"code": "UDF",
+								"msg": "UDF_DM"
+							}],
+							"sFeeInfo": {},
+							"addons": [{
+								"itemType": "COUPON",
+								"itemCode": "",
+								"selected": false,
+								"disabled": false
+							}]
+						},
+						"rKey": "v1~~null$S$SAP8$null$null$510.0$null$771.0$0$0$A,null$W$WIP$null$null$510.0$null$771.0$0$1$A,null$S$SAP8$null$null$510.0$null$771.0$0$2$A^M$Q$QM15AP$null$391.0$null$155.0$null$1$0$A~A-16449.0|14900.0_C-0|0_I-0|0^A-4289.0|3276.0_C-0|0_I-0|0~M$1$0$0$CORPSME_UN$0$null~~DEL_VNS_250520_AI-406_VFBVTklfRE9N_10:15_250520_11:35_AI_AI_AI_P,VNS_BOM_250520_AI-696_VFBVTklfRE9N_13:25_250520_15:40_AI_AI_AI_P,BOM_BLR_250520_AI-607_VFBVTklfRE9N_16:40_250520_18:30_AI_AI_AI_JO~TP_0_0_DEL-BLR-250520_null_null^BLR_PNQ_270520_6E-528_NkVDU01F_17:10_270520_18:30_6E_6E_6E_T,PNQ_DEL_270520_6E-528_NkVDU01F_19:00_270520_21:15_6E_6E_6E_JO~6E_0_1_BLR-DEL-270520_null_null"
+					}
+				},
+				"isPnrGrpdFrFmlyAvl": false,
+				"preSlctdFarePnrSelectionInfoKey": "COMBO"
+			},
+			"fareChange": {
+				"change": true,
+				"oldFare": 20692,
+				"newFare": 20738,
+				"fareDifference": 46
+			}
+		},
+		"fareComponentLookUpMap": {
+			"INF": "Infant Tax",
+			"KKC": "Krishi Kalyan Cess",
+			"AST": "Service Tax",
+			"PSF": "Passenger Service Fee",
+			"DF": "Development Fee",
+			"OTH": "Other",
+			"CF": "Congestion Fee",
+			"GOODS_SERVICE_TAX": "Goods and Services Tax",
+			"TTF": "Travel and Tourism Fee",
+			"GST": "Gvt. Service Fee",
+			"UDFA": "User Development Fee(Arrival)",
+			"TF": "CUTE Fee",
+			"SF": "Service Fee",
+			"RCF": "Regional Connectivity Fund",
+			"SBC": "Swachh Bharat Cess ",
+			"UDF": "User Development Fee",
+			"YQ": "Airline Fuel Charge",
+			"DC": "Discount"
+		},
+		"alCdeMap": {
+			"AI": {
+				"nm": "Air India"
+			},
+			"6E": {
+				"nm": "IndiGo"
+			}
+		},
+		"ctyCdeMap": {
+			"BOM": {
+				"nm": "Mumbai",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Chhatrapati Shivaji International Airport"
+			},
+			"PNQ": {
+				"nm": "Pune",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Pune Airport"
+			},
+			"BLR": {
+				"nm": "Bengaluru",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Bengaluru International Airport"
+			},
+			"DEL": {
+				"nm": "New Delhi",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Indira Gandhi International Airport"
+			},
+			"VNS": {
+				"nm": "Varanasi",
+				"cntry": "India",
+				"ctc": "IN",
+				"tmz": "Asia/Kolkata",
+				"airportName": "Varanasi Airport"
+			}
+		},
+		"flightLookUpList": {
+			"AI-AI-607-BOM-BLR-2020-05-25 16:40-2020-05-25 18:30": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "AI",
+				"oprAl": "AI",
+				"fltNo": "607",
+				"arcrfTyp": "Airbus A319 ",
+				"depInfo": {
+					"trmnl": "2",
+					"cityCd": "BOM",
+					"arpNm": "Chhatrapati Shivaji International Airport"
+				},
+				"arrInfo": {
+					"cityCd": "BLR",
+					"arpNm": "Bengaluru International Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-05-25 16:40",
+				"arrTime": "2020-05-25 18:30",
+				"dur": 110
+			},
+			"AI-AI-406-DEL-VNS-2020-05-25 10:15-2020-05-25 11:35": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "AI",
+				"oprAl": "AI",
+				"fltNo": "406",
+				"arcrfTyp": "Airbus A319 ",
+				"depInfo": {
+					"trmnl": "3",
+					"cityCd": "DEL",
+					"arpNm": "Indira Gandhi International Airport"
+				},
+				"arrInfo": {
+					"cityCd": "VNS",
+					"arpNm": "Varanasi Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-05-25 10:15",
+				"arrTime": "2020-05-25 11:35",
+				"dur": 80
+			},
+			"AI-AI-696-VNS-BOM-2020-05-25 13:25-2020-05-25 15:40": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "AI",
+				"oprAl": "AI",
+				"fltNo": "696",
+				"arcrfTyp": "Airbus A319 ",
+				"depInfo": {
+					"cityCd": "VNS",
+					"arpNm": "Varanasi Airport"
+				},
+				"arrInfo": {
+					"trmnl": "2",
+					"cityCd": "BOM",
+					"arpNm": "Chhatrapati Shivaji International Airport"
+				},
+				"tchStp": [],
+				"depTime": "2020-05-25 13:25",
+				"arrTime": "2020-05-25 15:40",
+				"dur": 135
+			},
+			"6E-6E-528-BLR-DEL-2020-05-27 17:10-2020-05-27 21:15": {
+				"amen": {
+					"frMeal": false
+				},
+				"mrkAl": "6E",
+				"oprAl": "6E",
+				"fltNo": "528",
+				"arcrfTyp": "Airbus A320 ",
+				"depInfo": {
+					"trmnl": "1",
+					"cityCd": "BLR",
+					"arpNm": "Bengaluru International Airport"
+				},
+				"arrInfo": {
+					"trmnl": "1",
+					"cityCd": "DEL",
+					"arpNm": "Indira Gandhi International Airport"
+				},
+				"tchStp": [{
+					"nextFltDur": 135,
+					"prevFltDur": 80,
+					"dur": 30,
+					"locInfo": {
+						"cityCd": "PNQ",
+						"arpNm": "Pune Airport"
+					},
+					"depTime": "2020-05-27 19:00",
+					"arrTime": "2020-05-27 18:30"
+				}],
+				"depTime": "2020-05-27 17:10",
+				"arrTime": "2020-05-27 21:15",
+				"dur": 245
+			}
+		},
+		"services": {}
+	}
+}

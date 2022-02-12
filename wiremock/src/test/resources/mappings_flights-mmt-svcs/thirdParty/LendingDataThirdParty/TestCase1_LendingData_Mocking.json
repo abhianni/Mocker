@@ -1,0 +1,14 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/v1/bloom/message",
+		"bodyPatterns":[{"contains" : "BLOOM"}]
+		},
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/LendingDataThirdParty/TestCase1_LendingData_Response.json"
+    }
+}

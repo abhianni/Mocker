@@ -1,0 +1,404 @@
+{
+  "status": "SUCCCES",
+  "meta": {
+    "lob": "B2C",
+    "src": "MMT",
+    "currency": "INR",
+    "correlationId": "v2~~null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$0$0$A,null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$0$1$A^null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$1$0$A,null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$1$1$A~A-54674|24365_C-0|0_I-0|0~M$1$0$0$B2C$0$null$MMT~~LGW_DOH_041120_QR-330_VFBVTklfSU5UTA==_08:10_041120_17:50_QR_QR_QR_P,DOH_TRV_041120_QR-506_VFBVTklfSU5UTA==_19:20_051120_02:25_QR_QR_QR_JO~TP_0_0_LGW-TRV-041120__null__54674.0_E_null_null^TRV_DOH_021220_QR-507_VFBVTklfSU5UTA==_03:25_021220_06:00_QR_QR_QR_P,DOH_LHR_021220_QR-3_VFBVTklfSU5UTA==_07:45_021220_12:25_QR_QR_QR_JO~TP_0_0_TRV-LHR-021220__null__54674.0_E_null_null",
+    "iteneraryId": "164ee001ee6a98286cba4585a58764f0537d0be5",
+    "enableDebugInfo": true,
+    "debugInfo": {
+      "PreSaleCPReq": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</key><value><arrTime>1604492400000</arrTime><arrivalInfo><arpCd>DOH</arpCd></arrivalInfo><depTime>1604457600000</depTime><departureInfo><arpCd>LGW</arpCd></departureInfo><duration>0</duration><flightNum>330</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry><entry><key>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</key><value><arrTime>1606869000000</arrTime><arrivalInfo><arpCd>DOH</arpCd></arrivalInfo><depTime>1606859700000</depTime><departureInfo><arpCd>TRV</arpCd></departureInfo><duration>0</duration><flightNum>507</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry><entry><key>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</key><value><arrTime>1606892100000</arrTime><arrivalInfo><arpCd>LHR</arpCd></arrivalInfo><depTime>1606875300000</depTime><departureInfo><arpCd>DOH</arpCd></departureInfo><duration>0</duration><flightNum>3</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry><entry><key>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</key><value><arrTime>1604523300000</arrTime><arrivalInfo><arpCd>TRV</arpCd></arrivalInfo><depTime>1604497800000</depTime><departureInfo><arpCd>DOH</arpCd></departureInfo><duration>0</duration><flightNum>506</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>v2~~null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$0$0$A,null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$0$1$A^null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$1$0$A,null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$1$1$A~A-54674|24365_C-0|0_I-0|0~M$1$0$0$B2C$0$null$MMT~~LGW_DOH_041120_QR-330_VFBVTklfSU5UTA==_08:10_041120_17:50_QR_QR_QR_P,DOH_TRV_041120_QR-506_VFBVTklfSU5UTA==_19:20_051120_02:25_QR_QR_QR_JO~TP_0_0_LGW-TRV-041120__null__54674.0_E_null_null^TRV_DOH_021220_QR-507_VFBVTklfSU5UTA==_03:25_021220_06:00_QR_QR_QR_P,DOH_LHR_021220_QR-3_VFBVTklfSU5UTA==_07:45_021220_12:25_QR_QR_QR_JO~TP_0_0_TRV-LHR-021220__null__54674.0_E_null_null</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>164ee001ee6a98286cba4585a58764f0537d0be5</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><cancellationAssured>false</cancellationAssured><fareFamily></fareFamily><paxFares><entry><key>ADULT</key><value><noOfPax>1</noOfPax><segPrdctInfo><entry><key>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry><entry><key>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry><entry><key>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry><entry><key>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>24365.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>17418.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>852.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>1262.0</taxVal></singlePaxTaxBreakups><singlePaxTot>54674.0</singlePaxTot><singlePaxTx>30309.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_INTL</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-11-05 02:25</arrDate><depDate>2020-11-04 08:10</depDate><duration>0</duration><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506</journeyKey></itineraryJrnyList><itineraryJrnyList><arrDate>2020-12-02 12:25</arrDate><depDate>2020-12-02 03:25</depDate><duration>0</duration><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "PreSaleCPReqDAO": "com.mmt.flights.rules.dao.PreSaleCPReqDaoImpl@3b2c242e",
+      "PreSaleTPBaggageXMLREQUEST": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:AirPriceReq CheckFlightDetails=\"true\" AuthorizedBy=\"MMTUser\" TargetBranch=\"P3084232\" xmlns=\"http://www.travelport.com/schema/common_v41_0\" xmlns:ns2=\"http://www.travelport.com/schema/air_v41_0\" xmlns:ns3=\"http://www.travelport.com/schema/rail_v41_0\"><BillingPointOfSaleInfo OriginApplication=\"UAPI\"/><ns2:AirItinerary><ns2:AirSegment Group=\"0\" Carrier=\"QR\" FlightNumber=\"330\" ClassOfService=\"T\" ETicketability=\"Yes\" Origin=\"LGW\" Destination=\"DOH\" DepartureTime=\"2020-11-04T08:10:00.000+0000\" ArrivalTime=\"2020-11-04T17:50:00.000+0300\" ProviderCode=\"1G\" Key=\"QR-330-1604457600000\"/><ns2:AirSegment Group=\"1\" Carrier=\"QR\" FlightNumber=\"506\" ClassOfService=\"T\" ETicketability=\"Yes\" Origin=\"DOH\" Destination=\"TRV\" DepartureTime=\"2020-11-04T19:20:00.000+0300\" ArrivalTime=\"2020-11-05T02:25:00.000+0530\" ProviderCode=\"1G\" Key=\"QR-506-1604497800000\"/><ns2:AirSegment Group=\"2\" Carrier=\"QR\" FlightNumber=\"507\" ClassOfService=\"T\" ETicketability=\"Yes\" Origin=\"TRV\" Destination=\"DOH\" DepartureTime=\"2020-12-02T03:25:00.000+0530\" ArrivalTime=\"2020-12-02T06:00:00.000+0300\" ProviderCode=\"1G\" Key=\"QR-507-1606859700000\"/><ns2:AirSegment Group=\"3\" Carrier=\"QR\" FlightNumber=\"3\" ClassOfService=\"T\" ETicketability=\"Yes\" Origin=\"DOH\" Destination=\"LHR\" DepartureTime=\"2020-12-02T07:45:00.000+0300\" ArrivalTime=\"2020-12-02T12:25:00.000+0000\" ProviderCode=\"1G\" Key=\"QR-3-1606875300000\"/></ns2:AirItinerary><SearchPassenger Code=\"ADT\" BookingTravelerRef=\"ADT0\"/><ns2:AirPricingCommand><ns2:AirSegmentPricingModifiers AirSegmentRef=\"QR-330-1604457600000\" FareBasisCode=\"TLGBP1RX\"/><ns2:AirSegmentPricingModifiers AirSegmentRef=\"QR-506-1604497800000\" FareBasisCode=\"TLGBP1RX\"/><ns2:AirSegmentPricingModifiers AirSegmentRef=\"QR-507-1606859700000\" FareBasisCode=\"TLGBP1RX\"/><ns2:AirSegmentPricingModifiers AirSegmentRef=\"QR-3-1606875300000\" FareBasisCode=\"TLGBP1RX\"/></ns2:AirPricingCommand></ns2:AirPriceReq>",
+      "PreTickedTPMiniRuleReq": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenalties xmlns:ns2=\"org.tempuri.GetPenalties\"><xmlFile>&lt;GetMiniRules&gt;&lt;FareBasis FBC=\"TLGBP1RX\"&gt;&lt;Origin&gt;LGW&lt;/Origin&gt;&lt;Destination&gt;TRV&lt;/Destination&gt;&lt;DepartureDate&gt;04Nov20&lt;/DepartureDate&gt;&lt;Airlines&gt;&lt;Airline&gt;QR&lt;/Airline&gt;&lt;/Airlines&gt;&lt;/FareBasis&gt;&lt;FareBasis FBC=\"TLGBP1RX\"&gt;&lt;Origin&gt;TRV&lt;/Origin&gt;&lt;Destination&gt;LHR&lt;/Destination&gt;&lt;DepartureDate&gt;02Dec20&lt;/DepartureDate&gt;&lt;Airlines&gt;&lt;Airline&gt;QR&lt;/Airline&gt;&lt;/Airlines&gt;&lt;/FareBasis&gt;&lt;PaxType&gt;&lt;PTC&gt;ADT&lt;/PTC&gt;&lt;/PaxType&gt;&lt;TargetBranch&gt;P3018903&lt;/TargetBranch&gt;&lt;/GetMiniRules&gt;</xmlFile></ns2:GetPenalties>",
+      "PreSaleTPBaggage": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:AirPriceRsp TransactionId=\"BA50EF130A074258EF5ED5CA74BE54EE\" ResponseTime=\"1707\" xmlns=\"http://www.travelport.com/schema/common_v41_0\" xmlns:ns2=\"http://www.travelport.com/schema/air_v41_0\" xmlns:ns3=\"http://www.travelport.com/schema/rail_v41_0\"><ResponseMessage Code=\"710401\" Type=\"Warning\" ProviderCode=\"1G\">Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.</ResponseMessage><ResponseMessage Code=\"0\" Type=\"Warning\" ProviderCode=\"1G\">SERVICE DATA NOT AVAILABLE FOR FLIGHT(S) QR 33</ResponseMessage><ResponseMessage Code=\"0\" Type=\"Warning\" ProviderCode=\"1G\">SERVICE DATA NOT AVAILABLE FOR FLIGHT(S) QR 50</ResponseMessage><ResponseMessage Code=\"0\" Type=\"Warning\" ProviderCode=\"1G\">SERVICE DATA NOT AVAILABLE FOR FLIGHT(S) QR </ResponseMessage><ns2:AirItinerary><ns2:AirSegment Group=\"0\" Carrier=\"QR\" FlightNumber=\"330\" ClassOfService=\"T\" ChangeOfPlane=\"false\" OptionalServicesIndicator=\"false\" FlightTime=\"400\" TravelTime=\"400\" Distance=\"3240\" Origin=\"LGW\" Destination=\"DOH\" DepartureTime=\"2020-11-04T08:10:00.000+00:00\" ArrivalTime=\"2020-11-04T17:50:00.000+03:00\" ProviderCode=\"1G\" AvailabilityDisplayType=\"Fare Specific Fare Quote Unbooked\" Key=\"hmwU3SBAAA/B4LgTUAAAAA==\"><ns2:CodeshareInfo OperatingCarrier=\"QR\">Qatar Airways (Q.C.S.C)</ns2:CodeshareInfo><ns2:FlightDetails Key=\"hmwU3SBAAA/B5LgTUAAAAA==\" Origin=\"LGW\" Destination=\"DOH\" DepartureTime=\"2020-11-04T08:10:00.000+00:00\" ArrivalTime=\"2020-11-04T17:50:00.000+03:00\" FlightTime=\"400\" TravelTime=\"400\" Distance=\"3240\"/></ns2:AirSegment><ns2:AirSegment Group=\"1\" Carrier=\"QR\" FlightNumber=\"506\" ClassOfService=\"T\" ChangeOfPlane=\"false\" OptionalServicesIndicator=\"false\" FlightTime=\"275\" TravelTime=\"275\" Distance=\"2030\" Origin=\"DOH\" Destination=\"TRV\" DepartureTime=\"2020-11-04T19:20:00.000+03:00\" ArrivalTime=\"2020-11-05T02:25:00.000+05:30\" ProviderCode=\"1G\" AvailabilityDisplayType=\"Fare Specific Fare Quote Unbooked\" Key=\"hmwU3SBAAA/B6LgTUAAAAA==\"><ns2:CodeshareInfo OperatingCarrier=\"QR\">Qatar Airways (Q.C.S.C)</ns2:CodeshareInfo><ns2:FlightDetails Key=\"hmwU3SBAAA/B7LgTUAAAAA==\" Equipment=\"321\" DestinationTerminal=\"2\" AutomatedCheckin=\"false\" Origin=\"DOH\" Destination=\"TRV\" DepartureTime=\"2020-11-04T19:20:00.000+03:00\" ArrivalTime=\"2020-11-05T02:35:00.000+05:30\" FlightTime=\"285\" TravelTime=\"285\"><ns2:Meals>Meal</ns2:Meals><ns2:InFlightServices>Non-smoking</ns2:InFlightServices></ns2:FlightDetails></ns2:AirSegment><ns2:AirSegment Group=\"2\" Carrier=\"QR\" FlightNumber=\"507\" ClassOfService=\"T\" ChangeOfPlane=\"false\" OptionalServicesIndicator=\"false\" FlightTime=\"305\" TravelTime=\"305\" Distance=\"2030\" Origin=\"TRV\" Destination=\"DOH\" DepartureTime=\"2020-12-02T03:25:00.000+05:30\" ArrivalTime=\"2020-12-02T06:00:00.000+03:00\" ProviderCode=\"1G\" AvailabilityDisplayType=\"Fare Specific Fare Quote Unbooked\" Key=\"hmwU3SBAAA/B8LgTUAAAAA==\"><ns2:CodeshareInfo OperatingCarrier=\"QR\">Qatar Airways (Q.C.S.C)</ns2:CodeshareInfo><ns2:FlightDetails Key=\"hmwU3SBAAA/B9LgTUAAAAA==\" Equipment=\"321\" OriginTerminal=\"2\" AutomatedCheckin=\"false\" Origin=\"TRV\" Destination=\"DOH\" DepartureTime=\"2020-12-02T03:25:00.000+05:30\" ArrivalTime=\"2020-12-02T06:10:00.000+03:00\" FlightTime=\"315\" TravelTime=\"315\"><ns2:Meals>Meal</ns2:Meals><ns2:InFlightServices>Non-smoking</ns2:InFlightServices></ns2:FlightDetails></ns2:AirSegment><ns2:AirSegment Group=\"3\" Carrier=\"QR\" FlightNumber=\"3\" ClassOfService=\"T\" ChangeOfPlane=\"false\" OptionalServicesIndicator=\"false\" FlightTime=\"460\" TravelTime=\"460\" Distance=\"3240\" Origin=\"DOH\" Destination=\"LHR\" DepartureTime=\"2020-12-02T07:45:00.000+03:00\" ArrivalTime=\"2020-12-02T12:25:00.000+00:00\" ProviderCode=\"1G\" AvailabilityDisplayType=\"Fare Specific Fare Quote Unbooked\" Key=\"hmwU3SBAAA/B+LgTUAAAAA==\"><ns2:CodeshareInfo OperatingCarrier=\"QR\">Qatar Airways (Q.C.S.C)</ns2:CodeshareInfo><ns2:FlightDetails Key=\"hmwU3SBAAA/B/LgTUAAAAA==\" Equipment=\"77W\" DestinationTerminal=\"5\" AutomatedCheckin=\"false\" Origin=\"DOH\" Destination=\"LHR\" DepartureTime=\"2020-12-02T07:45:00.000+03:00\" ArrivalTime=\"2020-12-02T12:25:00.000+00:00\" FlightTime=\"460\" TravelTime=\"460\"><ns2:Meals>Meal</ns2:Meals><ns2:InFlightServices>Non-smoking</ns2:InFlightServices></ns2:FlightDetails></ns2:AirSegment></ns2:AirItinerary><ns2:AirPriceResult><ns2:AirPricingSolution Key=\"hmwU3SBAAA/BAMgTUAAAAA==\" QuoteDate=\"2020-09-23\" TotalPrice=\"INR55772\" BasePrice=\"GBP263.00\" ApproximateTotalPrice=\"INR55772\" ApproximateBasePrice=\"INR24895\" EquivalentBasePrice=\"INR24895\" Taxes=\"INR30877\" Fees=\"INR0\" ApproximateTaxes=\"INR30877\"><ns2:AirSegmentRef Key=\"hmwU3SBAAA/B4LgTUAAAAA==\"/><ns2:AirSegmentRef Key=\"hmwU3SBAAA/B6LgTUAAAAA==\"/><ns2:AirSegmentRef Key=\"hmwU3SBAAA/B8LgTUAAAAA==\"/><ns2:AirSegmentRef Key=\"hmwU3SBAAA/B+LgTUAAAAA==\"/><ns2:AirPricingInfo Key=\"hmwU3SBAAA/BDMgTUAAAAA==\" IncludesVAT=\"false\" Refundable=\"true\" LatestTicketingTime=\"2020-09-30T23:59:00.000+05:30\" PricingMethod=\"Guaranteed\" ETicketability=\"Yes\" PlatingCarrier=\"QR\" TotalPrice=\"INR55772\" BasePrice=\"GBP263.00\" ApproximateTotalPrice=\"INR55772\" ApproximateBasePrice=\"INR24895\" EquivalentBasePrice=\"INR24895\" Taxes=\"INR30877\" ApproximateTaxes=\"INR30877\" ProviderCode=\"1G\"><ns2:FareInfo Key=\"hmwU3SBAAA/BMMgTUAAAAA==\" FareBasis=\"TLGBP1RX\" PassengerTypeCode=\"ADT\" Origin=\"LGW\" Destination=\"TRV\" EffectiveDate=\"2020-09-23T15:05:00.000+05:30\" DepartureDate=\"2020-11-04\" Amount=\"INR12430\" NegotiatedFare=\"false\" NotValidBefore=\"2020-11-04\" NotValidAfter=\"2020-11-04\" TaxAmount=\"INR19086.00\"><Endorsement Value=\"NON END/CHNG PENALTIES\"/><Endorsement Value=\"AS PER RULE\"/><ns2:FareRuleKey FareInfoRef=\"hmwU3SBAAA/BMMgTUAAAAA==\" ProviderCode=\"1G\">6UUVoSldxwjXOHu0cJovrMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA1ElRsGcbS4sxWa1uaqI55k3aSkvhp2ybaihzaaTXfwbKo9TVMSjKDbAyGqh8JIaqCym1k4VnbCl0CFQZkj1ioeUsiC/WeTKEur/bRGkSYBeVvL0gTWvGVKnsahilB5/WJTT4Vkk93gsO0bQwVLa4rjMS5SfzgJgvIB1xjSbRrjKTicpvYbmY4XviQBXmhPC35h+3jATYeDNir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dc3mNX1GvOry3EdbqPPDZRsBAkLPMThzJ1nMpwT/qBqlKTeSywpC5pypChas813gGeA29QQtrTVA=</ns2:FareRuleKey><ns2:Brand Key=\"hmwU3SBAAA/BMMgTUAAAAA==\" BrandFound=\"false\" UpSellBrandFound=\"false\"/></ns2:FareInfo><ns2:FareInfo Key=\"hmwU3SBAAA/BPMgTUAAAAA==\" FareBasis=\"TLGBP1RX\" PassengerTypeCode=\"ADT\" Origin=\"TRV\" Destination=\"LHR\" EffectiveDate=\"2020-09-23T15:05:00.000+05:30\" DepartureDate=\"2020-12-02\" Amount=\"INR12465\" NegotiatedFare=\"false\" NotValidBefore=\"2020-12-02\" NotValidAfter=\"2020-12-02\" TaxAmount=\"INR11791.00\"><Endorsement Value=\"NON END/CHNG PENALTIES\"/><Endorsement Value=\"AS PER RULE\"/><ns2:FareRuleKey FareInfoRef=\"hmwU3SBAAA/BPMgTUAAAAA==\" ProviderCode=\"1G\">6UUVoSldxwjXOHu0cJovrMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA1ElRsGcbS4sxWa1uaqI55k3aSkvhp2yberXTBl9Nbz4isEQle/ZcUDAyGqh8JIaqCym1k4VnbCl0CFQZkj1iocX/PyyeCgMrur/bRGkSYBeVvL0gTWvGVKnsahilB5/WJTT4Vkk93gsO0bQwVLa4rjMS5SfzgJgvDyy/Q52QOiITicpvYbmY4WhwT1mpV0wV5h+3jATYeDNir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dc3mNX1GvOry3EdbqPPDZRsBAkLPMThzJ1nMpwT/qBqlKTeSywpC5pypChas813gGeA29QQtrTVA=</ns2:FareRuleKey><ns2:Brand Key=\"hmwU3SBAAA/BPMgTUAAAAA==\" BrandFound=\"false\" UpSellBrandFound=\"false\"/></ns2:FareInfo><ns2:BookingInfo BookingCode=\"T\" CabinClass=\"Economy\" FareInfoRef=\"hmwU3SBAAA/BMMgTUAAAAA==\" SegmentRef=\"hmwU3SBAAA/B4LgTUAAAAA==\" HostTokenRef=\"hmwU3SBAAA/BBMgTUAAAAA==\"/><ns2:BookingInfo BookingCode=\"T\" CabinClass=\"Economy\" FareInfoRef=\"hmwU3SBAAA/BMMgTUAAAAA==\" SegmentRef=\"hmwU3SBAAA/B6LgTUAAAAA==\" HostTokenRef=\"hmwU3SBAAA/BBMgTUAAAAA==\"/><ns2:BookingInfo BookingCode=\"T\" CabinClass=\"Economy\" FareInfoRef=\"hmwU3SBAAA/BPMgTUAAAAA==\" SegmentRef=\"hmwU3SBAAA/B8LgTUAAAAA==\" HostTokenRef=\"hmwU3SBAAA/BCMgTUAAAAA==\"/><ns2:BookingInfo BookingCode=\"T\" CabinClass=\"Economy\" FareInfoRef=\"hmwU3SBAAA/BPMgTUAAAAA==\" SegmentRef=\"hmwU3SBAAA/B+LgTUAAAAA==\" HostTokenRef=\"hmwU3SBAAA/BCMgTUAAAAA==\"/><ns2:TaxInfo Key=\"hmwU3SBAAA/BEMgTUAAAAA==\" Category=\"IN\" Amount=\"INR1262\"/><ns2:TaxInfo Key=\"hmwU3SBAAA/BFMgTUAAAAA==\" Category=\"P2\" Amount=\"INR452\"/><ns2:TaxInfo Key=\"hmwU3SBAAA/BGMgTUAAAAA==\" Category=\"GB\" Amount=\"INR7572\"/><ns2:TaxInfo Key=\"hmwU3SBAAA/BHMgTUAAAAA==\" Category=\"UB\" Amount=\"INR1437\"/><ns2:TaxInfo Key=\"hmwU3SBAAA/BIMgTUAAAAA==\" Category=\"G4\" Amount=\"INR1414\"/><ns2:TaxInfo Key=\"hmwU3SBAAA/BJMgTUAAAAA==\" Category=\"PZ\" Amount=\"INR74\"/><ns2:TaxInfo Key=\"hmwU3SBAAA/BKMgTUAAAAA==\" Category=\"YQ\" Amount=\"INR17794\"/><ns2:TaxInfo Key=\"hmwU3SBAAA/BLMgTUAAAAA==\" Category=\"YR\" Amount=\"INR872\"/><ns2:FareCalc>LON QR X/DOH QR TRV Q LONTRV5.00 166.84TLGBP1RX QR X/DOH QR LON Q TRVLON5.00 166.85TLGBP1RX NUC343.69END ROE0.764174</ns2:FareCalc><ns2:PassengerType Code=\"ADT\"/><ns2:ChangePenalty><ns2:Amount>INR8095.0</ns2:Amount></ns2:ChangePenalty><ns2:CancelPenalty><ns2:Amount>INR14345</ns2:Amount></ns2:CancelPenalty><ns2:BaggageAllowances><ns2:BaggageAllowanceInfo TravelerType=\"ADT\" Origin=\"LGW\" Destination=\"TRV\" Carrier=\"QR\"><ns2:URLInfo><ns2:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/QR</ns2:URL></ns2:URLInfo><ns2:TextInfo><ns2:Text>30K</ns2:Text><ns2:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</ns2:Text></ns2:TextInfo><ns2:BagDetails ApplicableBags=\"1stChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails><ns2:BagDetails ApplicableBags=\"2ndChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails></ns2:BaggageAllowanceInfo><ns2:BaggageAllowanceInfo TravelerType=\"ADT\" Origin=\"TRV\" Destination=\"LHR\" Carrier=\"QR\"><ns2:URLInfo><ns2:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/QR</ns2:URL></ns2:URLInfo><ns2:TextInfo><ns2:Text>30K</ns2:Text><ns2:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</ns2:Text></ns2:TextInfo><ns2:BagDetails ApplicableBags=\"1stChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails><ns2:BagDetails ApplicableBags=\"2ndChecked\"><ns2:BaggageRestriction><ns2:TextInfo><ns2:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</ns2:Text></ns2:TextInfo></ns2:BaggageRestriction></ns2:BagDetails></ns2:BaggageAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"LGW\" Destination=\"DOH\" Carrier=\"QR\"><ns2:TextInfo><ns2:Text>BAGGAGE ALLOWANCE DATA NOT AVAILABLE</ns2:Text></ns2:TextInfo></ns2:CarryOnAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"DOH\" Destination=\"TRV\" Carrier=\"QR\"><ns2:TextInfo><ns2:Text>BAGGAGE ALLOWANCE DATA NOT AVAILABLE</ns2:Text></ns2:TextInfo></ns2:CarryOnAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"TRV\" Destination=\"DOH\" Carrier=\"QR\"><ns2:TextInfo><ns2:Text>BAGGAGE ALLOWANCE DATA NOT AVAILABLE</ns2:Text></ns2:TextInfo></ns2:CarryOnAllowanceInfo><ns2:CarryOnAllowanceInfo Origin=\"DOH\" Destination=\"LHR\" Carrier=\"QR\"><ns2:TextInfo><ns2:Text>BAGGAGE ALLOWANCE DATA NOT AVAILABLE</ns2:Text></ns2:TextInfo></ns2:CarryOnAllowanceInfo></ns2:BaggageAllowances></ns2:AirPricingInfo><ns2:FareNote Key=\"hmwU3SBAAA/BWMgTUAAAAA==\">SUM IDENTIFIED AS UB IS A PASSENGER SERVICE CHARGE</ns2:FareNote><ns2:FareNote Key=\"hmwU3SBAAA/BXMgTUAAAAA==\">RATE USED IN EQU TOTAL IS BSR 1GBP - 94.64395INR</ns2:FareNote><ns2:FareNote Key=\"hmwU3SBAAA/BYMgTUAAAAA==\">LAST DATE TO PURCHASE TICKET: 30SEP20</ns2:FareNote><ns2:FareNote Key=\"hmwU3SBAAA/BZMgTUAAAAA==\">TICKETING AGENCY 34TZ</ns2:FareNote><ns2:FareNote Key=\"hmwU3SBAAA/BaMgTUAAAAA==\">DEFAULT PLATING CARRIER QR</ns2:FareNote><ns2:FareNote Key=\"hmwU3SBAAA/BbMgTUAAAAA==\">FARE HAS A PLATING CARRIER RESTRICTION</ns2:FareNote><ns2:FareNote Key=\"hmwU3SBAAA/BcMgTUAAAAA==\">E-TKT REQUIRED</ns2:FareNote><ns2:FareNote Key=\"hmwU3SBAAA/BdMgTUAAAAA==\">TICKETING FEES MAY APPLY</ns2:FareNote><HostToken Key=\"hmwU3SBAAA/BBMgTUAAAAA==\">GFB10101ADT00  01TLGBP1RX                              0200010002#GFB200010101NADTV3004RE08008000179921#GFMCER 004NRE08 QR ADTTLGBP1RX</HostToken><HostToken Key=\"hmwU3SBAAA/BCMgTUAAAAA==\">GFB10101ADT00  02TLGBP1RX                              0200030004#GFB200010102NADTV3004RE08008000179921#GFMCER 004NRE08 QR ADTTLGBP1RX</HostToken></ns2:AirPricingSolution></ns2:AirPriceResult></ns2:AirPriceRsp>",
+      "PreSaleTPBaggagePcTokg330": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BaggageUnitMapDrools xmlns:ns2=\"com.mmt.international.entity.baggage.BaggageUnitMapDrools\"><airlineCode>QR</airlineCode><cabinClass>E</cabinClass><fromCity>LGW</fromCity><fromCountry>United Kingdom</fromCountry><operatingAirlineCode>QR</operatingAirlineCode><pcToKgCabinAdt>7</pcToKgCabinAdt><pcToKgCabinChd>7</pcToKgCabinChd><pcToKgCabinInf>0</pcToKgCabinInf><pcToKgCheckedInAdt>23</pcToKgCheckedInAdt><pcToKgCheckedInChd>23</pcToKgCheckedInChd><pcToKgCheckedInInf>23</pcToKgCheckedInInf><toCity>DOH</toCity><toCountry>Qatar</toCountry><travelDateEnd>2020-11-04T08:10:00+05:30</travelDateEnd><travelDateStart>2020-11-04T08:10:00+05:30</travelDateStart></ns2:BaggageUnitMapDrools>",
+      "PreSaleTPBaggagePcTokg3": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BaggageUnitMapDrools xmlns:ns2=\"com.mmt.international.entity.baggage.BaggageUnitMapDrools\"><airlineCode>QR</airlineCode><cabinClass>E</cabinClass><fromCity>DOH</fromCity><fromCountry>Qatar</fromCountry><operatingAirlineCode>QR</operatingAirlineCode><pcToKgCabinAdt>7</pcToKgCabinAdt><pcToKgCabinChd>7</pcToKgCabinChd><pcToKgCabinInf>0</pcToKgCabinInf><pcToKgCheckedInAdt>23</pcToKgCheckedInAdt><pcToKgCheckedInChd>23</pcToKgCheckedInChd><pcToKgCheckedInInf>23</pcToKgCheckedInInf><toCity>LHR</toCity><toCountry>United Kingdom</toCountry><travelDateEnd>2020-12-02T07:45:00+05:30</travelDateEnd><travelDateStart>2020-12-02T07:45:00+05:30</travelDateStart></ns2:BaggageUnitMapDrools>",
+      "PreSaleTPBaggagePcTokg506": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BaggageUnitMapDrools xmlns:ns2=\"com.mmt.international.entity.baggage.BaggageUnitMapDrools\"><airlineCode>QR</airlineCode><cabinClass>E</cabinClass><fromCity>DOH</fromCity><fromCountry>Qatar</fromCountry><operatingAirlineCode>QR</operatingAirlineCode><pcToKgCabinAdt>7</pcToKgCabinAdt><pcToKgCabinChd>7</pcToKgCabinChd><pcToKgCabinInf>0</pcToKgCabinInf><pcToKgCheckedInAdt>23</pcToKgCheckedInAdt><pcToKgCheckedInChd>23</pcToKgCheckedInChd><pcToKgCheckedInInf>23</pcToKgCheckedInInf><toCity>TRV</toCity><toCountry>India</toCountry><travelDateEnd>2020-11-04T19:20:00+05:30</travelDateEnd><travelDateStart>2020-11-04T19:20:00+05:30</travelDateStart></ns2:BaggageUnitMapDrools>",
+      "PreSaleTPBaggagePcTokg507": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:BaggageUnitMapDrools xmlns:ns2=\"com.mmt.international.entity.baggage.BaggageUnitMapDrools\"><airlineCode>QR</airlineCode><cabinClass>E</cabinClass><fromCity>TRV</fromCity><fromCountry>India</fromCountry><operatingAirlineCode>QR</operatingAirlineCode><pcToKgCabinAdt>7</pcToKgCabinAdt><pcToKgCabinChd>7</pcToKgCabinChd><pcToKgCabinInf>0</pcToKgCabinInf><pcToKgCheckedInAdt>23</pcToKgCheckedInAdt><pcToKgCheckedInChd>23</pcToKgCheckedInChd><pcToKgCheckedInInf>23</pcToKgCheckedInInf><toCity>DOH</toCity><toCountry>Qatar</toCountry><travelDateEnd>2020-12-02T03:25:00+05:30</travelDateEnd><travelDateStart>2020-12-02T03:25:00+05:30</travelDateStart></ns2:BaggageUnitMapDrools>",
+      "PreTickedRawTPMiniRuleResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:GetPenaltiesResponse xmlns:ns2=\"org.tempuri.GetPenaltiesResponse\"><getPenaltiesResult>&lt;ArrayOfFareRule xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;14345&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;14345&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;14345&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;14345&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;26115&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CANCELLATION&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;26115&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;8095&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;AFTER DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;8095&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;13610&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;BEFORE DEPARTURE&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;13610&lt;/FeeAmount&gt;&lt;CATType&gt;31&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;13610&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;FareRule&gt;&lt;PaxType&gt;ADULT&lt;/PaxType&gt;&lt;Rule&gt;CHANGE&lt;/Rule&gt;&lt;AirlineCode&gt;QR&lt;/AirlineCode&gt;&lt;DepartureType&gt;NO-SHOW&lt;/DepartureType&gt;&lt;FareBasis&gt;TLGBP1RX&lt;/FareBasis&gt;&lt;FeeCurrency&gt;INR&lt;/FeeCurrency&gt;&lt;FeeAmount&gt;13610&lt;/FeeAmount&gt;&lt;CATType&gt;16&lt;/CATType&gt;&lt;Remarks /&gt;&lt;/FareRule&gt;&lt;/ArrayOfFareRule&gt;</getPenaltiesResult></ns2:GetPenaltiesResponse>",
+      "MiniRuleConfig": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:MiniRulesConfig xmlns:ns2=\"com.mmt.models.MiniRulesConfig\"><airline>QR</airline><CPAdditive>300.0</CPAdditive><CPMultiplier>1.18</CPMultiplier><cabinClass>ECONOMY</cabinClass><DCPAdditive>0.0</DCPAdditive><DCPMultiplier>1.05</DCPMultiplier><noShowCutOff>24</noShowCutOff><sector>INTL</sector></ns2:MiniRulesConfig>",
+      "PreTickedTPMiniRuleResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayOfFareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>QR</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>14345</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>QR</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>14345</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>QR</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>14345</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>QR</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>14345</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>QR</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>26115</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CANCELLATION</Rule><AirlineCode>QR</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>26115</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>QR</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>8095</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>QR</AirlineCode><DepartureType>AFTER DEPARTURE</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>8095</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>QR</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>13610</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>QR</AirlineCode><DepartureType>BEFORE DEPARTURE</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>13610</FeeAmount><CATType>31</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>QR</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>13610</FeeAmount><CATType>16</CATType></FareRule><FareRule><PaxType>ADULT</PaxType><Rule>CHANGE</Rule><AirlineCode>QR</AirlineCode><DepartureType>NO-SHOW</DepartureType><FareBasis>TLGBP1RX</FareBasis><FeeCurrency>INR</FeeCurrency><FeeAmount>13610</FeeAmount><CATType>16</CATType></FareRule></ArrayOfFareRule>",
+      "PreSaleBaggageResponse0": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PreSaleBaggageResponse1": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PreSaleBaggageResponse2": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "PreSaleBaggageResponse3": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ArrayList xmlns=\"java.util.ArrayList\"/>",
+      "CancelPenaltyData": "{\"jrnyToAdtCancelFltPenaltyGrp\":{\"LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506\":{\"fltGrps\":[{\"fltKeys\":[\"QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50\",\"QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"},\"TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3\":{\"fltGrps\":[{\"fltKeys\":[\"QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25\",\"QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdCancelFltPenaltyGrp\":{},\"jrnyToInftCancelFltPenaltyGrp\":{},\"jrnyToAdtDateChngeFltPenaltyGrp\":{\"LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506\":{\"fltGrps\":[{\"fltKeys\":[\"QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50\",\"QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25\"]}],\"connectingFltCombinType\":\"ADDITIVE\"},\"TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3\":{\"fltGrps\":[{\"fltKeys\":[\"QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25\",\"QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00\"]}],\"connectingFltCombinType\":\"ADDITIVE\"}},\"jrnyToChdDateChngeltPenaltyGrp\":{},\"jrnyToInftDateChngeFltPenaltyGrp\":{},\"twFareRules\":[{\"fltGrp\":[\"QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50\",\"QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"QR\",\"from\":24,\"to\":8760,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"14345\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50\",\"QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"QR\",\"from\":-8760,\"to\":0,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"8095\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25\",\"QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"QR\",\"from\":24,\"to\":8760,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"13610\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50\",\"QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"QR\",\"from\":24,\"to\":8760,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"13610\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50\",\"QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"QR\",\"from\":-8760,\"to\":0,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"14345\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50\",\"QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"QR\",\"from\":0,\"to\":24,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"26115\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50\",\"QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"QR\",\"from\":0,\"to\":24,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"13610\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25\",\"QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"QR\",\"from\":-8760,\"to\":0,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"14345\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25\",\"QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"QR\",\"from\":-8760,\"to\":0,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"8095\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25\",\"QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"QR\",\"from\":0,\"to\":24,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"26115\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25\",\"QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00\"],\"paxType\":\"ADULT\",\"rule\":\"CHANGE\",\"airlineCode\":\"QR\",\"from\":0,\"to\":24,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"13610\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false},{\"fltGrp\":[\"QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25\",\"QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00\"],\"paxType\":\"ADULT\",\"rule\":\"CANCELLATION\",\"airlineCode\":\"QR\",\"from\":24,\"to\":8760,\"fareBasis\":\"TLGBP1RX\",\"feeCurrency\":\"INR\",\"feeAmount\":\"14345\",\"mmtFee\":649.0,\"supplierType\":\"TP\",\"nonRefundable\":false}],\"jrnyGrpWithCancelPenalty\":[{\"jrnys\":[\"LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506\",\"TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3\"],\"jrnyCombinType\":\"MOST_RESTERICTIVE\"}],\"jrnyGrpWithDateChangePenalty\":[{\"jrnys\":[\"LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506\"],\"jrnyCombinType\":\"ADDITIVE\"},{\"jrnys\":[\"TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3\"],\"jrnyCombinType\":\"ADDITIVE\"}]}",
+      "PreSaleCPResponse": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</key><value><arrTime>1604492400000</arrTime><arrivalInfo><arpCd>DOH</arpCd></arrivalInfo><depTime>1604457600000</depTime><departureInfo><arpCd>LGW</arpCd></departureInfo><duration>0</duration><flightNum>330</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry><entry><key>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</key><value><arrTime>1606869000000</arrTime><arrivalInfo><arpCd>DOH</arpCd></arrivalInfo><depTime>1606859700000</depTime><departureInfo><arpCd>TRV</arpCd></departureInfo><duration>0</duration><flightNum>507</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry><entry><key>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</key><value><arrTime>1606892100000</arrTime><arrivalInfo><arpCd>LHR</arpCd></arrivalInfo><depTime>1606875300000</depTime><departureInfo><arpCd>DOH</arpCd></departureInfo><duration>0</duration><flightNum>3</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry><entry><key>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</key><value><arrTime>1604523300000</arrTime><arrivalInfo><arpCd>TRV</arpCd></arrivalInfo><depTime>1604497800000</depTime><departureInfo><arpCd>DOH</arpCd></departureInfo><duration>0</duration><flightNum>506</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>v2~~null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$0$0$A,null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$0$1$A^null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$1$0$A,null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$1$1$A~A-54674|24365_C-0|0_I-0|0~M$1$0$0$B2C$0$null$MMT~~LGW_DOH_041120_QR-330_VFBVTklfSU5UTA==_08:10_041120_17:50_QR_QR_QR_P,DOH_TRV_041120_QR-506_VFBVTklfSU5UTA==_19:20_051120_02:25_QR_QR_QR_JO~TP_0_0_LGW-TRV-041120__null__54674.0_E_null_null^TRV_DOH_021220_QR-507_VFBVTklfSU5UTA==_03:25_021220_06:00_QR_QR_QR_P,DOH_LHR_021220_QR-3_VFBVTklfSU5UTA==_07:45_021220_12:25_QR_QR_QR_JO~TP_0_0_TRV-LHR-021220__null__54674.0_E_null_null</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>164ee001ee6a98286cba4585a58764f0537d0be5</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</flightLookUpKey><jrnyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506</jrnyKey></baggageList><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</flightLookUpKey><jrnyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506</jrnyKey></baggageList><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</flightLookUpKey><jrnyKey>TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</jrnyKey></baggageList><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</flightLookUpKey><jrnyKey>TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506||TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>17281.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>17281.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>14291.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>8500.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><dateChangePenalty><jrnyKey>TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>14291.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>8500.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily></fareFamily><paxFares><entry><key>ADULT</key><value><noOfPax>1</noOfPax><segPrdctInfo><entry><key>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry><entry><key>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry><entry><key>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry><entry><key>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>24365.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>17418.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>852.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>1262.0</taxVal></singlePaxTaxBreakups><singlePaxTot>54674.0</singlePaxTot><singlePaxTx>30309.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_INTL</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-11-05 02:25</arrDate><depDate>2020-11-04 08:10</depDate><duration>0</duration><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506</journeyKey></itineraryJrnyList><itineraryJrnyList><arrDate>2020-12-02 12:25</arrDate><depDate>2020-12-02 03:25</depDate><duration>0</duration><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</journeyKey></itineraryJrnyList></recoms></rcomGrps></ns2:CPReqRes>",
+      "PreSaleCPResponseAfterSanity": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><ns2:CPReqRes xmlns:ns2=\"com.mmt.flights.v1.rule.pojo.cpreqres.CPReqRes\"><flightLookUpList><entry><key>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</key><value><arrTime>1604492400000</arrTime><arrivalInfo><arpCd>DOH</arpCd></arrivalInfo><depTime>1604457600000</depTime><departureInfo><arpCd>LGW</arpCd></departureInfo><duration>0</duration><flightNum>330</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry><entry><key>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</key><value><arrTime>1606869000000</arrTime><arrivalInfo><arpCd>DOH</arpCd></arrivalInfo><depTime>1606859700000</depTime><departureInfo><arpCd>TRV</arpCd></departureInfo><duration>0</duration><flightNum>507</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry><entry><key>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</key><value><arrTime>1606892100000</arrTime><arrivalInfo><arpCd>LHR</arpCd></arrivalInfo><depTime>1606875300000</depTime><departureInfo><arpCd>DOH</arpCd></departureInfo><duration>0</duration><flightNum>3</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry><entry><key>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</key><value><arrTime>1604523300000</arrTime><arrivalInfo><arpCd>TRV</arpCd></arrivalInfo><depTime>1604497800000</depTime><departureInfo><arpCd>DOH</arpCd></departureInfo><duration>0</duration><flightNum>506</flightNum><marketingAirline>QR</marketingAirline><operatingAirline>QR</operatingAirline><validatingCarrier>QR</validatingCarrier></value></entry></flightLookUpList><meta><correlationId>v2~~null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$0$0$A,null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$0$1$A^null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$1$0$A,null$T$TLGBP1RX$null$17418.0$852.0$1262.0$null$1$1$A~A-54674|24365_C-0|0_I-0|0~M$1$0$0$B2C$0$null$MMT~~LGW_DOH_041120_QR-330_VFBVTklfSU5UTA==_08:10_041120_17:50_QR_QR_QR_P,DOH_TRV_041120_QR-506_VFBVTklfSU5UTA==_19:20_051120_02:25_QR_QR_QR_JO~TP_0_0_LGW-TRV-041120__null__54674.0_E_null_null^TRV_DOH_021220_QR-507_VFBVTklfSU5UTA==_03:25_021220_06:00_QR_QR_QR_P,DOH_LHR_021220_QR-3_VFBVTklfSU5UTA==_07:45_021220_12:25_QR_QR_QR_JO~TP_0_0_TRV-LHR-021220__null__54674.0_E_null_null</correlationId><currency>INR</currency><debugInfo/><enableDebugInfo>true</enableDebugInfo><iteneraryId>164ee001ee6a98286cba4585a58764f0537d0be5</iteneraryId><lob>B2C</lob><src>MMT</src></meta><rcomGrps><recoms><frInfo><pnrGrpdFrInfo><entry><key>0</key><value><pnrFareInfos><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</flightLookUpKey><jrnyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506</jrnyKey></baggageList><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</flightLookUpKey><jrnyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506</jrnyKey></baggageList><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</flightLookUpKey><jrnyKey>TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</jrnyKey></baggageList><baggageList><cabinBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>-1</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></cabinBaggageInfo><checkInBaggageInfo><paxWiseAllowance><entry><key>ADULT</key><value><allowance>30</allowance><conversionRate>-1</conversionRate><unit>Kgs</unit></value></entry></paxWiseAllowance></checkInBaggageInfo><flightLookUpKey>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</flightLookUpKey><jrnyKey>TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</jrnyKey></baggageList><cancellationAssured>false</cancellationAssured><cancellationPenalty><jrnyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506||TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>17281.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>8760</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonRefundable>true</nonRefundable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>24</toTimeWindow><waiver/></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>17281.0</cancellationPenalty><nonRefundable>false</nonRefundable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><cancellationMarkup>649.0</cancellationMarkup></mmtFee><toTimeWindow>0</toTimeWindow><waiver/></timeWindows></value></entry></paxWiseTW></cancellationPenalty><dateChangePenalty><jrnyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>14291.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>8500.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><dateChangePenalty><jrnyKey>TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</jrnyKey><paxWiseTW><entry><key>ADULT</key><value><paxType>ADULT</paxType><timeWindows><airlinePenalty><cancellationPenalty>14291.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>24</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>8760</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>-1.0</cancellationPenalty><nonChangable>true</nonChangable></airlinePenalty><fromTimeWindow>0</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>24</toTimeWindow></timeWindows><timeWindows><airlinePenalty><cancellationPenalty>8500.0</cancellationPenalty><nonChangable>false</nonChangable></airlinePenalty><fromTimeWindow>-8760</fromTimeWindow><mmtFee><dcMarkup>649.0</dcMarkup></mmtFee><toTimeWindow>0</toTimeWindow></timeWindows></value></entry></paxWiseTW></dateChangePenalty><fareFamily></fareFamily><paxFares><entry><key>ADULT</key><value><noOfPax>1</noOfPax><segPrdctInfo><entry><key>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry><entry><key>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry><entry><key>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry><entry><key>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</key><value><fareBasis>TLGBP1RX</fareBasis><rbd>T</rbd></value></entry></segPrdctInfo><singlePaxBaseFare>24365.0</singlePaxBaseFare><singlePaxTaxBreakups><taxCode>K3</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>psf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yq</taxCode><taxVal>17418.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>udf</taxCode><taxVal>0.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>yr</taxCode><taxVal>852.0</taxVal></singlePaxTaxBreakups><singlePaxTaxBreakups><taxCode>ydf</taxCode><taxVal>1262.0</taxVal></singlePaxTaxBreakups><singlePaxTot>54674.0</singlePaxTot><singlePaxTx>30309.0</singlePaxTx></value></entry></paxFares><supplierCredential>TPUNI_INTL</supplierCredential><supplierName>TP</supplierName></pnrFareInfos></value></entry></pnrGrpdFrInfo></frInfo><itineraryJrnyList><arrDate>2020-11-05 02:25</arrDate><depDate>2020-11-04 08:10</depDate><duration>0</duration><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506</journeyKey></itineraryJrnyList><itineraryJrnyList><arrDate>2020-12-02 12:25</arrDate><depDate>2020-12-02 03:25</depDate><duration>0</duration><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><flightPnrLookupInfo><cabin>M</cabin><fltLookUpKey>QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25</fltLookUpKey><pnrGroupNum>0</pnrGroupNum></flightPnrLookupInfo><journeyKey>TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3</journeyKey></itineraryJrnyList></recoms></rcomGrps><status>SUCCCES</status></ns2:CPReqRes>",
+      "PARTIAL-FAILURES": "[]"
+    }
+  },
+  "flightLookUpList": {
+    "QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50": {
+      "mrkAl": "QR",
+      "oprAl": "QR",
+      "validatingCarrier": "QR",
+      "fltNo": "330",
+      "depInfo": {
+        "arpCd": "LGW"
+      },
+      "arrInfo": {
+        "arpCd": "DOH"
+      },
+      "depTime": 1604457600000,
+      "arrTime": 1604492400000,
+      "dur": 0
+    },
+    "QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00": {
+      "mrkAl": "QR",
+      "oprAl": "QR",
+      "validatingCarrier": "QR",
+      "fltNo": "507",
+      "depInfo": {
+        "arpCd": "TRV"
+      },
+      "arrInfo": {
+        "arpCd": "DOH"
+      },
+      "depTime": 1606859700000,
+      "arrTime": 1606869000000,
+      "dur": 0
+    },
+    "QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25": {
+      "mrkAl": "QR",
+      "oprAl": "QR",
+      "validatingCarrier": "QR",
+      "fltNo": "3",
+      "depInfo": {
+        "arpCd": "DOH"
+      },
+      "arrInfo": {
+        "arpCd": "LHR"
+      },
+      "depTime": 1606875300000,
+      "arrTime": 1606892100000,
+      "dur": 0
+    },
+    "QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25": {
+      "mrkAl": "QR",
+      "oprAl": "QR",
+      "validatingCarrier": "QR",
+      "fltNo": "506",
+      "depInfo": {
+        "arpCd": "DOH"
+      },
+      "arrInfo": {
+        "arpCd": "TRV"
+      },
+      "depTime": 1604497800000,
+      "arrTime": 1604523300000,
+      "dur": 0
+    }
+  },
+  "rcomGrps": {
+    "recoms": [{
+      "itneraryJrnys": [{
+        "jrnyKey": "LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506",
+        "depDate": "2020-11-04 08:10",
+        "arrDate": "2020-11-05 02:25",
+        "dur": 0,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50",
+          "pnrGroupNum": 0,
+          "cabin": "M"
+        }, {
+          "fltLookUpKey": "QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25",
+          "pnrGroupNum": 0,
+          "cabin": "M"
+        }]
+      }, {
+        "jrnyKey": "TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3",
+        "depDate": "2020-12-02 03:25",
+        "arrDate": "2020-12-02 12:25",
+        "dur": 0,
+        "flightDtlsInfo": [{
+          "fltLookUpKey": "QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00",
+          "pnrGroupNum": 0,
+          "cabin": "M"
+        }, {
+          "fltLookUpKey": "QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25",
+          "pnrGroupNum": 0,
+          "cabin": "M"
+        }]
+      }],
+      "frInfo": {
+        "pnrGrpdFrInfo": {
+          "0": {
+            "frInfos": [{
+              "paxFares": {
+                "ADULT": {
+                  "singlePaxBaseFare": 24365.0,
+                  "singlePaxTx": 30309.0,
+                  "singlePaxTot": 54674.0,
+                  "singlePaxTaxBreakups": [{
+                    "taxVal": 0.0,
+                    "taxCode": "K3"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "psf"
+                  }, {
+                    "taxVal": 17418.0,
+                    "taxCode": "yq"
+                  }, {
+                    "taxVal": 0.0,
+                    "taxCode": "udf"
+                  }, {
+                    "taxVal": 852.0,
+                    "taxCode": "yr"
+                  }, {
+                    "taxVal": 1262.0,
+                    "taxCode": "ydf"
+                  }],
+                  "noOfPax": 1,
+                  "segPrdctInfo": {
+                    "QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50": {
+                      "fareBasis": "TLGBP1RX",
+                      "rbd": "T"
+                    },
+                    "QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00": {
+                      "fareBasis": "TLGBP1RX",
+                      "rbd": "T"
+                    },
+                    "QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25": {
+                      "fareBasis": "TLGBP1RX",
+                      "rbd": "T"
+                    },
+                    "QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25": {
+                      "fareBasis": "TLGBP1RX",
+                      "rbd": "T"
+                    }
+                  }
+                }
+              },
+              "cancellationPenalty": [{
+                "jrnyKey": "LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506||TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 17281.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonRefundable": true
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 17281.0,
+                        "nonRefundable": false
+                      },
+                      "mmtFee": {
+                        "cancellationMarkup": 649.0
+                      },
+                      "waiver": {
+                        "airlineWaiver": [],
+                        "mmtWaiver": [],
+                        "bookingWaiver": [],
+                        "userWaiver": []
+                      }
+                    }]
+                  }
+                }
+              }],
+              "dateChangePenalty": [{
+                "jrnyKey": "LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 14291.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 8500.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  }
+                }
+              }, {
+                "jrnyKey": "TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3",
+                "paxWiseTW": {
+                  "ADULT": {
+                    "paxType": "ADULT",
+                    "timeWindows": [{
+                      "fromTimeWindow": 24,
+                      "toTimeWindow": 8760,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 14291.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": 0,
+                      "toTimeWindow": 24,
+                      "airlinePenalty": {
+                        "cancellationPenalty": -1.0,
+                        "nonChangable": true
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }, {
+                      "fromTimeWindow": -8760,
+                      "toTimeWindow": 0,
+                      "airlinePenalty": {
+                        "cancellationPenalty": 8500.0,
+                        "nonChangable": false
+                      },
+                      "mmtFee": {
+                        "dcMarkup": 649.0
+                      }
+                    }]
+                  }
+                }
+              }],
+              "baggageList": [{
+                "jrnyKey": "LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506",
+                "flightLookUpKey": "QR-QR-330-LGW-DOH-2020-11-04 08:10-2020-11-04 17:50",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "-1",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }, {
+                "jrnyKey": "LGW$DOH$0411200810$QR-330|DOH$TRV$0411201920$QR-506",
+                "flightLookUpKey": "QR-QR-506-DOH-TRV-2020-11-04 19:20-2020-11-05 02:25",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "-1",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }, {
+                "jrnyKey": "TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3",
+                "flightLookUpKey": "QR-QR-507-TRV-DOH-2020-12-02 03:25-2020-12-02 06:00",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "-1",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }, {
+                "jrnyKey": "TRV$DOH$0212200325$QR-507|DOH$LHR$0212200745$QR-3",
+                "flightLookUpKey": "QR-QR-3-DOH-LHR-2020-12-02 07:45-2020-12-02 12:25",
+                "checkInBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "30",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                },
+                "cabinBaggageInfo": {
+                  "paxWiseAllowance": {
+                    "ADULT": {
+                      "allowance": "-1",
+                      "unit": "Kgs",
+                      "conversionRate": "-1"
+                    }
+                  }
+                }
+              }],
+              "cancellationAssured": false,
+              "supplierName": "TP",
+              "supplierCredential": "TPUNI_INTL",
+              "fareFamily": ""
+            }]
+          }
+        }
+      }
+    }]
+  }
+}

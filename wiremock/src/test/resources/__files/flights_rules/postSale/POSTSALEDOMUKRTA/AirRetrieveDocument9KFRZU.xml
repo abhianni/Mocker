@@ -1,0 +1,144 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP:Body>
+		<air:AirRetrieveDocumentRsp TraceId="fwfwgwg" TransactionId="F29C154B0A0E56243499010CC0465995" ResponseTime="339" UniversalRecordLocatorCode="7BI7ZL" xmlns:air="http://www.travelport.com/schema/air_v48_0" xmlns:common_v48_0="http://www.travelport.com/schema/common_v48_0">
+			<air:ETR Key="VD7D2LTc1BKAGKcnxEAAAA==" TotalPrice="INR4078" BasePrice="INR3450" Taxes="INR628" Refundable="false" Exchangeable="false" IssuedDate="2020-07-06T00:00:00.000+05:30" ProviderCode="1G" ProviderLocatorCode="9KFRZU" IATANumber="14339942" PseudoCityCode="WP7" CountryCode="IN" PlatingCarrier="UK">
+				<air:AirReservationLocatorCode>7BI7ZX</air:AirReservationLocatorCode>
+				<common_v48_0:AgencyInfo>
+					<common_v48_0:AgentAction ActionType="Created" AgentCode="uAPI1667027830-ed41e340" BranchCode="P3084214" AgencyCode="S3083002" EventTime="2020-07-05T18:30:00.000+00:00"/>
+				</common_v48_0:AgencyInfo>
+				<common_v48_0:BookingTraveler Key="Tc5D2Lcc1BKAMzkGyEAAAA==" TravelerType="ADT" Gender="M">
+					<common_v48_0:BookingTravelerName Prefix="MR" First="Vidit" Last="Narang"/>
+					<common_v48_0:PhoneNumber Key="Tc5D2Lcc1BKANzkGyEAAAA==" Type="None" Location="DEL" CountryCode="91" Number="7042864277">
+						<common_v48_0:ProviderReservationInfoRef Key="g+Z91LBAAA/BAaIfyEAAAA=="/>
+					</common_v48_0:PhoneNumber>
+					<common_v48_0:Email Key="Tc5D2Lcc1BKAQzkGyEAAAA==" EmailID="vidit.narang@gmail.com">
+						<common_v48_0:ProviderReservationInfoRef Key="g+Z91LBAAA/BAaIfyEAAAA=="/>
+					</common_v48_0:Email>
+					<common_v48_0:LoyaltyCard Key="Tc5D2Lcc1BKARzkGyEAAAA==" SupplierCode="UK" CardNumber="131342223" SupplierType="Air" Level="B" PriorityCode="3">
+						<common_v48_0:ProviderReservationSpecificInfo ProviderReservationLevel="true">
+							<common_v48_0:ProviderReservationInfoRef Key="g+Z91LBAAA/BAaIfyEAAAA=="/>
+						</common_v48_0:ProviderReservationSpecificInfo>
+					</common_v48_0:LoyaltyCard>
+					<common_v48_0:SSR Key="VD7D2LTc1BKAMKcnxEAAAA==" SegmentRef="g+Z91LBAAA/B9VIfyEAAAA==" Status="HK" Type="TKNE" FreeText="2283761025228C1" Carrier="UK" ProviderReservationInfoRef="g+Z91LBAAA/BAaIfyEAAAA=="/>
+					<common_v48_0:AirSeatAssignment Key="ksv61LBAAA/BoDwWyEAAAA==" Status="HK" Seat="024C" SegmentRef="g+Z91LBAAA/B9VIfyEAAAA==" FlightDetailsRef="PZ931LBAAA/BfmYG0EAAAA=="/>
+				</common_v48_0:BookingTraveler>
+				<common_v48_0:FormOfPayment Key="via91LBAAA/B+ZcOzEAAAA==" Type="Cash" Reusable="false" ProfileKey="FkWkVSP+SBeuqrBwgIpQQg=="/>
+				<common_v48_0:Payment Key="VD7D2LTc1BKAOKcnxEAAAA==" Type="Itinerary" Amount="INR4078" FormOfPaymentRef="via91LBAAA/B+ZcOzEAAAA=="/>
+				<common_v48_0:SupplierLocator SupplierCode="UK" SupplierLocatorCode="MXSHKB"/>
+				<air:FareCalc>BOM UK DEL 3450 INR3450END XT 142YM130YR</air:FareCalc>
+				<air:Ticket Key="VD7D2LTc1BKAKKcnxEAAAA==" TicketNumber="2283761025228" TicketStatus="N">
+					<air:Coupon Key="VD7D2LTc1BKALKcnxEAAAA==" CouponNumber="1" MarketingCarrier="UK" MarketingFlightNumber="994" Origin="BOM" Destination="DEL" DepartureTime="2020-12-19T10:25:00.000+05:30" StopoverCode="true" BookingClass="O" FareBasis="OH8PYL" NotValidBefore="2020-12-19" NotValidAfter="2020-12-19" Status="O" SegmentGroup="0" MarriageGroup="0">
+						<air:TicketDesignator Value="YL"/>
+					</air:Coupon>
+					<air:TicketEndorsement Value="NF20115277442284"/>
+				</air:Ticket>
+				<air:AirPricingInfo Key="QHd91LBAAA/BE1XxyEAAAA==" TotalPrice="INR4078" BasePrice="INR3450" ApproximateTotalPrice="INR4078" ApproximateBasePrice="INR3450" Taxes="INR628" LatestTicketingTime="2020-07-06T23:59:00.000+05:30" TrueLastDateToTicket="2020-07-06T23:59:00.000+05:30" PricingMethod="Guaranteed" ETicketability="Yes" ProviderReservationInfoRef="g+Z91LBAAA/BAaIfyEAAAA==" AirPricingInfoGroup="1" Ticketed="true" PricingType="StoredFare" FareCalculationInd="G">
+					<air:FareInfo Key="C9d91LBAAA/B/93nxEAAAA==" FareBasis="OH8PYL/Y" PassengerTypeCode="ADT" Origin="BOM" Destination="DEL" EffectiveDate="2020-07-06T00:00:00.000+05:30" NotValidBefore="2020-12-19" NotValidAfter="2020-12-19">
+						<air:FareTicketDesignator Value="L"/>
+						<common_v48_0:Endorsement Value="NON ENDORSABLE/NO MEAL"/>
+						<common_v48_0:Endorsement Value="NON RE-ROUTABLE/1PC-15KG"/>
+						<air:BaggageAllowance>
+							<air:NumberOfPieces>1</air:NumberOfPieces>
+						</air:BaggageAllowance>
+						<air:Brand BrandID="211433" Name="ECO LITE" Carrier="UK" BrandTier="0001">
+							<air:Title Type="External">ECO LITE</air:Title>
+							<air:Title Type="Short">ECO LITE</air:Title>
+							<air:Text Type="ATPCO">//0B5/F/PRE RESERVED SEAT ASSIGNMENT//0BX/F/LOUNGEACCESS//0B3/F/MEAL SERVICES//0LF/F/PRIORITYBAGGAGE//0G6/F/PRIORITY BOARDING//0BW/F/PRIORITYCHECK IN//068/Z/CHANGE ANYTIME//06K/Z/REFUND BEFORE DEPARTURE//06L/Z/REFUNDAFTERDEPARTURE//058/Z/UPGRADE ELIGIBILITY//0M3/F/HANDBAGGAGE 7KG//0ML/F/EXCESS HAND BAGGAGE5KG//0C1/F/1 PC UPTO 15KG BAGGAGE//</air:Text>
+							<air:Text Type="MarketingConsumer">ECO LITE
+
+								• Complimentary beverage on board (tea/coffee)
+								• 15 kg (1 piece only) Check-in Baggage Allowance
+								• Hand Baggage included
+								• Complimentary advance seat selection, select seats only
+								• Buy-on-board light snacks
+								• No changes permitted
+								• No refunds permitted
+
+								• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+							<air:Text Type="MarketingAgent">ECO LITE
+
+								• Complimentary beverage on board (tea/coffee)
+								• 15 kg (1 piece only) Check-in Baggage Allowance
+								• Hand Baggage included
+								• Complimentary advance seat selection, select seats only
+								• Buy-on-board light snacks
+								• No changes permitted
+								• No refunds permitted
+
+								• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+							<air:Text Type="Strapline">ECO LITE</air:Text>
+							<air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/vistara/UK_general_large_80634.jpg</air:ImageLocation>
+							<air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/vistara/UK_general_medium_80633.jpg</air:ImageLocation>
+							<air:OptionalServices>
+								<air:OptionalService Type="Baggage" SupplierCode="UK" CreateDate="2020-07-06T09:17:18.390+00:00" ServiceSubCode="0C1" Key="NBCYpPkYlDKABdeg1AAAAA==">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Checked baggage 1x15kg</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_82178.jpg"/>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_82178.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+								<air:OptionalService Type="Baggage" SupplierCode="UK" CreateDate="2020-07-06T09:17:18.390+00:00" ServiceSubCode="0M3" Key="NBCYpPkYlDKACdeg1AAAAA==" SecondaryType="Carry On Hand Baggage">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Hand baggage 7kg</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4605.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Chargeable Baggage"/>
+								</air:OptionalService>
+								<air:OptionalService Type="PreReservedSeatAssignment" SupplierCode="UK" CreateDate="2020-07-06T09:17:18.390+00:00" ServiceSubCode="0B5" Key="NBCYpPkYlDKADdeg1AAAAA==">
+									<common_v48_0:ServiceInfo>
+										<common_v48_0:Description>Pre reserved seat assignment</common_v48_0:Description>
+										<common_v48_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+										<common_v48_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/vistara/UK_general_medium_4606.jpg"/>
+									</common_v48_0:ServiceInfo>
+									<air:EMD AssociatedItem="Flight"/>
+								</air:OptionalService>
+							</air:OptionalServices>
+						</air:Brand>
+					</air:FareInfo>
+					<air:BookingInfo BookingCode="O" CabinClass="Economy" FareInfoRef="C9d91LBAAA/B/93nxEAAAA=="/>
+					<air:TaxInfo Category="K3" Amount="INR179" Key="NBCYpPkYlDKA6ceg1AAAAA=="/>
+					<air:TaxInfo Category="P2" Amount="INR177" Key="NBCYpPkYlDKA7ceg1AAAAA=="/>
+					<air:TaxInfo Category="YM" Amount="INR142" Key="NBCYpPkYlDKA8ceg1AAAAA=="/>
+					<air:TaxInfo Category="YR" Amount="INR130" Key="NBCYpPkYlDKA9ceg1AAAAA=="/>
+					<air:FareCalc>BOM UK DEL 3450OH8PYL/YL INR3450END</air:FareCalc>
+					<air:PassengerType Code="ADT" BookingTravelerRef="Tc5D2Lcc1BKAMzkGyEAAAA==">
+						<air:FareGuaranteeInfo GuaranteeType="Guaranteed"/>
+					</air:PassengerType>
+					<common_v48_0:BookingTravelerRef Key="Tc5D2Lcc1BKAMzkGyEAAAA=="/>
+				</air:AirPricingInfo>
+				<air:BaggageAllowances>
+					<air:BaggageAllowanceInfo TravelerType="ADT" Origin="BOM" Destination="DEL" Carrier="UK">
+						<air:URLInfo>
+							<air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UK</air:URL>
+						</air:URLInfo>
+						<air:TextInfo>
+							<air:Text>1P</air:Text>
+							<air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+						</air:TextInfo>
+						<air:BagDetails ApplicableBags="1stChecked">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>BAGGAGE CHARGES DATA NOT AVAILABLE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:BagDetails>
+						<air:BagDetails ApplicableBags="2ndChecked">
+							<air:BaggageRestriction>
+								<air:TextInfo>
+									<air:Text>BAGGAGE CHARGES DATA NOT AVAILABLE</air:Text>
+								</air:TextInfo>
+							</air:BaggageRestriction>
+						</air:BagDetails>
+					</air:BaggageAllowanceInfo>
+					<air:CarryOnAllowanceInfo Origin="BOM" Destination="DEL" Carrier="UK">
+						<air:TextInfo>
+							<air:Text>BAGGAGE ALLOWANCE DATA NOT AVAILABLE</air:Text>
+						</air:TextInfo>
+					</air:CarryOnAllowanceInfo>
+				</air:BaggageAllowances>
+			</air:ETR>
+		</air:AirRetrieveDocumentRsp>
+	</SOAP:Body>
+</SOAP:Envelope>

@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+       
+       "bodyPatterns":[{
+        "contains" : "PNR_Retrieve",
+		"contains" : "PTOABC"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 30000,
+        "bodyFileName":"/odc/mp_connector/PNR_retireve_PTOABC.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

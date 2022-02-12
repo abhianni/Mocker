@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+  ta-mocker:
+    image: "harbor.mmt.com/flights/ta-mocker:${TAG}"
+    container_name: flights-wiremock-service
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9090/wiremock/setServiceName/mappings_flights_search/isHealthCheck=true"]
+      interval: 30s
+      timeout: 10s
+      retries: 8
+    volumes:
+     - /opt/logs:/opt/logs/
+    ports:
+     - "8080:80"
+     - "80:80"
+     - "9090:9090"
+     - "8081:8081"

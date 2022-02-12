@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/bookingmanager.svc"
+       
+
+    
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/G8_Avail.xml",
+        "transformers": ["body-transformer"],
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "dmc-connector/services/v2/connector/HOTEL/EPXX0021/SEARCH.*",
+        
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/hotels/Connector_EPXX0021.json",
+        "transformers": ["body-transformer"]
+    }
+}

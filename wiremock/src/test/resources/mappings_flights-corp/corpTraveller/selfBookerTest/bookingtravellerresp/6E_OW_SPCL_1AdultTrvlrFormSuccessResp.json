@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/flights-booking/v1/validate-traveller-form?.*itId=UID_orgInfoDomTest1_1Adult_6E-Special"
+  },
+  "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+    "bodyFileName": "/corporate/corpTraveller/selfBookerTest/bookingtravellerresp/6E_OW_SPCL_1AdultTrvlrFormSuccessResp.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/wpm/hcs/v2/rule/recommend",
+        "bodyPatterns":[{
+        "contains" : "WPM_RT_UUID"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/WPMThirdParty/WPM_Controller/TestCase_2_RT_WPM_Controller_Response.json"
+    }
+}

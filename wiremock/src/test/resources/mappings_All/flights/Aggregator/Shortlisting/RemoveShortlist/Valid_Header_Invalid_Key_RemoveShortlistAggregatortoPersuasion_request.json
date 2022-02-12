@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/Flights-persuasion/removeFromShortlist",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json",
+        "caseInsensitive": true
+      },
+     "mmt-auth": {
+        "equalTo": "VH_IK_A_P",
+        "caseInsensitive": true
+      }
+    },
+    "bodyPatterns":[
+      {
+        "contains":"Test:Test:Test^Test:Test|Test$$$DEL_EDI_310818_BA-256|BA-1452_MP_0"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "/flights/Aggregator/Shortlisting/RemoveShortlist/Valid_Header_Invalid_Key_RemoveShortlistAggregatorToPersuation_response.json"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/flights-search/v1/forward-flow.*crId=test_fastforward_errorresponse.*"
+	},
+	"response": {
+		"status": 503,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		}
+	}
+}

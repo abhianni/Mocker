@@ -1,0 +1,20 @@
+{
+  "request":{
+    "method": "POST",
+    "url": "/flights-tp-rules/v1/postSaleRules",
+    "bodyPatterns":[
+      {       "contains" : "AI-411-DEL-LKO-2020-11-02 07:05-2020-11-02 08:15"
+      }
+    ]
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "bodyFileName": "/flights_rules/postSale/POSTSALEINTLSGAIOW1A/GETPOSTSALETP.json"
+  }
+}
+

@@ -1,0 +1,278 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "2662",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.4",
+    "serviceName": "Pnr-Service",
+    "supplierName": "TP",
+    "credentialId": "TPUNI_DOM",
+    "supplierLatency": "1024",
+    "corporateCode": "",
+    "promoCode": ""
+  },
+  "flightLookUpList": {
+    "DEL$COK$2020-01-31 05:45$UK-883": {
+      "mrkAl": "UK",
+      "oprAl": "UK",
+      "fltNo": "883",
+      "arcrfTyp": "320",
+      "depInfo": {
+        "trmnl": "3",
+        "arpCd": "DEL",
+        "arpNm": "Indira Gandhi International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "2",
+        "arpCd": "COK",
+        "arpNm": "Cochin International Airport Limited"
+      },
+      "tchStp": [],
+      "depTime": "2020-01-31 05:45",
+      "arrTime": "2020-01-31 08:50",
+      "durInMins": "185"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "DEL$COK$2020-01-31 05:45$UK-883",
+      "depDate": "2020-01-31 05:45",
+      "arrDate": "2020-01-31 08:50",
+      "durInMins": "185",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "DEL$COK$2020-01-31 05:45$UK-883",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "INFANT": {
+              "bs": 1250.0,
+              "tx": 258.0,
+              "noOfPax": 1,
+              "tot": 1508.0,
+              "taxBreakups": [{
+                "amnt": 72.0,
+                "code": "K3",
+                "msg": ""
+              }, {
+                "amnt": 186.0,
+                "code": "YR",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "DEL$COK$2020-01-31 05:45$UK-883": {
+                  "fareClass": "O",
+                  "fareBasis": "OL15PYL/",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 0,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            },
+            "CHILD": {
+              "bs": 3700.0,
+              "tx": 648.0,
+              "noOfPax": 1,
+              "tot": 4348.0,
+              "taxBreakups": [{
+                "amnt": 194.0,
+                "code": "K3",
+                "msg": ""
+              }, {
+                "amnt": 268.0,
+                "code": "WO",
+                "msg": ""
+              }, {
+                "amnt": 186.0,
+                "code": "YR",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "DEL$COK$2020-01-31 05:45$UK-883": {
+                  "fareClass": "O",
+                  "fareBasis": "OL15PYL/",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            },
+            "ADULT": {
+              "bs": 3700.0,
+              "tx": 648.0,
+              "noOfPax": 2,
+              "tot": 4348.0,
+              "taxBreakups": [{
+                "amnt": 194.0,
+                "code": "K3",
+                "msg": ""
+              }, {
+                "amnt": 268.0,
+                "code": "WO",
+                "msg": ""
+              }, {
+                "amnt": 186.0,
+                "code": "YR",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "DEL$COK$2020-01-31 05:45$UK-883": {
+                  "fareClass": "O",
+                  "fareBasis": "OL15PYL/",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": ""
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 12350.0,
+            "tx": 2202.0,
+            "tot": 14552.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "X8SG7I",
+          "aPnr": "YKP8FD",
+          "travelerAddons": {},
+          "travelerInfos": [{
+            "id": "0",
+            "title": "MR",
+            "paxId": "",
+            "firstName": "jitesh",
+            "middleName": "",
+            "lastName": "garg",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "jitesh@swasstationery.in",
+            "mobileNumber": "9899089082",
+            "mobileNumberCountryCode": "91",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "Ms",
+            "paxId": "",
+            "firstName": "jiya",
+            "middleName": "",
+            "lastName": "garg",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "jitesh@swasstationery.in",
+            "mobileNumber": "9899089082",
+            "mobileNumberCountryCode": "91",
+            "paxType": "INFANT",
+            "dateOfBirth": "29AUG19",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "Ms",
+            "paxId": "",
+            "firstName": "sandhya",
+            "middleName": "",
+            "lastName": "garg",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "jitesh@swasstationery.in",
+            "mobileNumber": "9899089082",
+            "mobileNumberCountryCode": "91",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "3",
+            "title": "Mstr",
+            "paxId": "",
+            "firstName": "vedant",
+            "middleName": "",
+            "lastName": "garg",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "jitesh@swasstationery.in",
+            "mobileNumber": "9899089082",
+            "mobileNumberCountryCode": "91",
+            "paxType": "CHILD",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [{
+            "travellerId": "0",
+            "issuingAirline": "UK",
+            "ticketNumber": "2283756084966",
+            "ticketType": "E",
+            "status": "N",
+            "issuingDate": "2020-01-06 17:52",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "1",
+            "issuingAirline": "UK",
+            "ticketNumber": "2283756084967",
+            "ticketType": "E",
+            "status": "N",
+            "issuingDate": "2020-01-06 17:52",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "2",
+            "issuingAirline": "UK",
+            "ticketNumber": "2283756084968",
+            "ticketType": "E",
+            "status": "N",
+            "issuingDate": "2020-01-06 17:52",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "3",
+            "issuingAirline": "UK",
+            "ticketNumber": "2283756084969",
+            "ticketType": "E",
+            "status": "N",
+            "issuingDate": "2020-01-06 17:52",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }],
+          "validatingCarrier": "UK",
+          "creationDate": "2020-01-06 17:52",
+          "fareFamily": "",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

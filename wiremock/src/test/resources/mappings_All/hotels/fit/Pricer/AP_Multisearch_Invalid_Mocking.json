@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/partner/aps/multiroomsearch*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_AP_Search_Invalid_Response"
+        }]
+      },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/hotels/Pricer/MultiHotelSearch_Invalid.json",
+        "transformers": ["body-transformer"]
+    }
+}

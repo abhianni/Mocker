@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+       "bodyPatterns":[
+{       "contains" : "POSTRVIEW_DOM_OW_BLACK_BLOOM"
+}
+]
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "flights_search/postreview/DOM_OW_BLACK_BLOOM/DOM_OW_AI_TP_TECHSTOP_SUCCESS_SOA_SEARCH.json"
+		
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/postsaleAncillary",
+        "bodyPatterns":[{
+        "contains" : "\"pnr\":\"IIMMNK\""
+        },
+	{	
+        "contains" : "\"postsaleAncillaryRequestType\":\"COMMIT\""
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/ancillarySoa/Test20_PNR2_dom_6E_RT_PNR_ancillary_commit_response.json"
+    }
+}

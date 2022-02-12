@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightBooking/v1/traveller-name-change",
+       "bodyPatterns":[
+{       "contains" : "05a2ee1e-668d-4a92-b9bf-c2f60c5151fc"
+}
+]
+
+    },
+  "response": {
+    "status": 200,
+    "bodyFileName": "flights_booking/trvlrnmchange/nolastname/bookingsoa6E.json"
+  }
+}
+

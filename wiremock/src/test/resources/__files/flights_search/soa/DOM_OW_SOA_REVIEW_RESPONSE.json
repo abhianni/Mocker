@@ -1,0 +1,315 @@
+{
+	"fareFamilyRecommendations": {
+		"error": {
+			"ec": "500",
+			"em": "Error while invoking fare Family operation,Lower App version is not supported"
+		},
+		"warning": "",
+		"fareFamilyAvailable": false,
+		"fareFamilyResponse": [],
+		"services": {},
+		"rtFare": false
+	},
+	"reviewKey": "8d621daef951c1325249dbcca3ada099b04ba63e",
+	"rKey": "v1~~R$T$T08AP$91.0$400.0$null$null$null$0$0$A~A-4856.0|3870.0_C-0|0_I-0|0~M$1$0$0$Mobile_UN$0$null~~FROMCITY1_TOCITY1_DEPTDATETRIP1_6E-189_NkVVTkk=_15:00_DEPTDATETRIP1_17:10_6E_6E_6E_JO~6E_0_0_FROMCITY1-TOCITY1-DEPTDATETRIP1_null_null",
+	"journeys": {
+		"FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+			"segments": {
+				"FROMCITY1_TOCITY1_DEPTDATETRIP1": {
+					"fltLst": [{
+						"amenitySegmentKey": null,
+						"depInf": {
+							"trml": "1",
+							"ctCd": "FROMCITY1",
+							"airp": "Indira Gandhi International Airport",
+							"ctNm": "New FROMCITY1hi",
+							"arpCd": "FROMCITY1",
+							"cntr": "India",
+							"tmZn": "Asia/Kolkata",
+							"lat": 28.5665,
+							"long": 77.103088,
+							"cont": "India",
+							"cur": "INR"
+						},
+						"arrInf": {
+							"trml": "1",
+							"ctCd": "TOCITY1",
+							"airp": "Chhatrapati Shivaji International Airport",
+							"ctNm": "Mumbai",
+							"arpCd": "TOCITY1",
+							"cntr": "India",
+							"tmZn": "Asia/Kolkata",
+							"lat": 19.088686,
+							"long": 72.867919,
+							"cont": "India",
+							"cur": "INR"
+						},
+						"depDt": 1588239000000,
+						"arrDt": 1588246800000,
+						"techStpOvrLst": [],
+						"totDur": 130,
+						"segSlKey": "6E~ 189~ ~~FROMCITY1~04/30/2020 15:00~TOCITY1~04/30/2020 17:10~~",
+						"fareSlKey": "0~T~ ~6E~T08AP~1057~~0~5~~X",
+						"mrktArln": "6E",
+						"oprArln": "6E",
+						"equipTyp": "320",
+						"equipCd": "Y180",
+						"equipNm": "Airbus A320 ",
+						"fltNum": "189",
+						"carierCode": "6E",
+						"bagDtls": [],
+						"avlCntxtLst": [],
+						"availCount": null,
+						"cbcls": "Y",
+						"pnRf": {},
+						"splitPnr": false,
+						"availSrc": null,
+						"suplrNm": null,
+						"ao": [{
+							"at": "MEAL",
+							"isPaid": true
+						}],
+						"si": null
+					}],
+					"fr": [{
+						"pxTypFrMap": {
+							"ADULT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-PHF": 50.0,
+										"TAXCOMPONENT-YQ": 400.0,
+										"TAXCOMPONENT-07CGST": 109.0,
+										"TOT": 4856.0,
+										"TAXCOMPONENT-PSF": 91.0,
+										"TAXCOMPONENT-ASF": 177.0,
+										"TAX": 986.0,
+										"TAXCOMPONENT-RCF": 50.0,
+										"TAXCOMPONENT-07SGST": 109.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "T",
+										"cbn": null,
+										"avl": null,
+										"fbc": "T08AP",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "TOCITY1",
+										"deptcd": "FROMCITY1",
+										"prdcls": "R",
+										"si": null
+									}]
+								}],
+								"paxRef": 0
+							}]
+						},
+						"frInfoMap": {
+							"FareBasisCode": "T08AP",
+							"FareType": "0~T~ ~6E~T08AP~1057~~0~5~~X",
+							"ProductClass": "R",
+							"FareClassOfService": "T",
+							"OriginalClassOfService": null,
+							"FareStatus": null
+						},
+						"subFares": []
+					}],
+					"minFrRl": null,
+					"lfid": null,
+					"aggFltNum": "FROMCITY1$TOCITY1$DEPTDATETRIP11500$6E-189",
+					"cur": "INR",
+					"totDur": 130,
+					"rfndbl": true,
+					"sPNR": false,
+					"hldbl": false,
+					"cbn": null,
+					"cbnCls": null,
+					"refAir": "6E",
+					"dep": "FROMCITY1",
+					"arr": "TOCITY1",
+					"offId": null,
+					"credId": "6EUNI",
+					"jrnySlKey": "6E~ 189~ ~~FROMCITY1~04/30/2020 15:00~TOCITY1~04/30/2020 17:10~~",
+					"srvc": "6E",
+					"vc": "6E",
+					"currInfo": {
+						"costCurrency": "INR",
+						"sellCurrency": null,
+						"conversionFactor": null
+					},
+					"signature": null,
+					"rtngId": null
+				}
+			}
+		}
+	},
+	"combinedInfo": {
+		"COMBINED_DATA": {
+			"data": {
+				"REFUNDABLE": true,
+				"lastTicketTimeInMins": null,
+				"IS_PURE": true,
+				"MAX_STOP": 0,
+				"ticketImportantInfo": null,
+				"MAX_LAYOFF_TIME": 0,
+				"refferenceAirline": "6E",
+				"VC": "6E",
+				"splitPNR": null,
+				"officeIds": null,
+				"CABIN_CLASS": null,
+				"LAST_TKT_DATE": null,
+				"HOLDABLE": null,
+				"IS_PURE_LCC": true
+			}
+		},
+		"COMBINED_REVIEW_FARE": {
+			"paxTypeFareBreakUp": {
+				"ADULT": {
+					"totalMarkup": 0.0,
+					"totalDiscount": 0.0,
+					"totalBaseFare": 3870.0,
+					"totalTax": 986.0,
+					"fareBreakupMap": {
+						"TAXCOMPONENT-PHF": 50.0,
+						"TAXCOMPONENT-YQ": 400.0,
+						"TAXCOMPONENT-07CGST": 109.0,
+						"TOT": 4856.0,
+						"TAXCOMPONENT-PSF": 91.0,
+						"TAXCOMPONENT-ASF": 177.0,
+						"TAX": 986.0,
+						"TAXCOMPONENT-RCF": 50.0,
+						"TAXCOMPONENT-07SGST": 109.0
+					},
+					"totalFare": 4856.0,
+					"paxRef": 0
+				}
+			},
+			"combinedFareBreakUp": {
+				"totalMarkup": 0.0,
+				"totalDiscount": 0.0,
+				"totalBaseFare": 3870.0,
+				"totalTax": 986.0,
+				"fareBreakupMap": {
+					"TAXCOMPONENT-PHF": 50.0,
+					"TAXCOMPONENT-YQ": 400.0,
+					"TAXCOMPONENT-07CGST": 109.0,
+					"TOT": 4856.0,
+					"TAXCOMPONENT-PSF": 91.0,
+					"TAXCOMPONENT-ASF": 177.0,
+					"TAX": 986.0,
+					"TAXCOMPONENT-RCF": 50.0,
+					"TAXCOMPONENT-07SGST": 109.0
+				},
+				"totalFare": 4856.0,
+				"paxRef": null
+			}
+		},
+		"FARE_CHANGE": {
+			"fareStatus": 0,
+			"oldFare": 0.0,
+			"newFare": 4856.0,
+			"totalFareChangeAmount": 4856.0
+		}
+	},
+	"travellerInfo": {
+		"prtPymtEnbld": false,
+		"prtPymtSeltd": false,
+		"prtPymtAmt": null,
+		"searchKey": null,
+		"email": null,
+		"userDetails": null
+	},
+	"trvlrReqdInfo": {
+		"dobReqdForAllPax": false,
+		"dobReqdForInf": true,
+		"dobReqdForChild": false,
+		"ppMandatory": false,
+		"nationalityMandatory": false
+	},
+	"frFamilyDetails": {
+		"error": {
+			"ec": "500",
+			"em": "Error while invoking fare Family operation,Lower App version is not supported"
+		},
+		"warning": "",
+		"fareFamilyAvailable": false,
+		"fareFamilyResponse": [],
+		"services": {},
+		"rtFare": false
+	},
+	"fareBreakUp": {
+		"fareSummary": [{
+			"paxType": "Adult",
+			"noOfPax": 1,
+			"fareDetails": {
+				"discount": 0.0,
+				"taxDetails": {
+					"flightTax": [{
+						"taxValue": 50.0,
+						"taxDescription": "TF",
+						"taxDescriptionMessage": "TF_DM"
+					}, {
+						"taxValue": 627.0,
+						"taxDescription": "YQ",
+						"taxDescriptionMessage": "YQ_DM"
+					}, {
+						"taxValue": 218.0,
+						"taxDescription": "GOODS_SERVICE_TAX",
+						"taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+					}, {
+						"taxValue": 91.0,
+						"taxDescription": "PSF",
+						"taxDescriptionMessage": "PSF_DM"
+					}],
+					"totalTaxAmount": 986.0
+				},
+				"baseFare": 3870.0,
+				"totalFare": 4856.0
+			}
+		}],
+		"taxSummary": {
+			"flightTax": [{
+				"taxValue": 50.0,
+				"taxDescription": "TF",
+				"taxDescriptionMessage": "TF_DM"
+			}, {
+				"taxValue": 627.0,
+				"taxDescription": "YQ",
+				"taxDescriptionMessage": "YQ_DM"
+			}, {
+				"taxValue": 218.0,
+				"taxDescription": "GOODS_SERVICE_TAX",
+				"taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+			}, {
+				"taxValue": 91.0,
+				"taxDescription": "PSF",
+				"taxDescriptionMessage": "PSF_DM"
+			}],
+			"totalTaxAmount": 986.0
+		},
+		"taxDescMap": {
+			"INF": "Infant Tax",
+			"KKC": "Krishi Kalyan Cess",
+			"AST": "Service Tax",
+			"PSF": "Passenger Service Fee",
+			"DF": "Development Fee",
+			"OTH": "Other",
+			"CF": "Congestion Fee",
+			"GOODS_SERVICE_TAX": "Goods and Services Tax",
+			"TTF": "Travel and Tourism Fee",
+			"GST": "Gvt. Service Fee",
+			"UDFA": "User Development Fee(Arrival)",
+			"TF": "CUTE Fee",
+			"SF": "Service Fee",
+			"RCF": "Regional Connectivity Fund",
+			"SBC": "Swachh Bharat Cess ",
+			"UDF": "User Development Fee",
+			"YQ": "Airline Fuel Charge",
+			"DC": "Discount"
+		}
+	}
+}

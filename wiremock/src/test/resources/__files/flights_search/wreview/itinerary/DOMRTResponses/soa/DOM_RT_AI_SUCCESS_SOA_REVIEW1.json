@@ -1,0 +1,882 @@
+{
+	"reviewKey": "SEQID_REQ",
+	"rKey": "v1~~XA$C$CRTSAVER$488.0$null$null$null$null$0$0$A,XA$C$CRTSAVER$488.0$null$null$null$null$0$0$C^XA$F$FRTSAVER$488.0$null$null$null$null$1$0$A,XA$F$FRTSAVER$488.0$null$null$null$null$1$0$C~A-11932.0|10648.0_C-11932.0|10648.0_I-2520.0|2400.0~M$1$1$1$REQ_LOB$0~~FromCity1_ToCity1_DepartDate1_SG-2468_U0dGQU1JTFk=_06:35_DepartDate1_07:55_SG_SG_SG_JO~SG_1_0_FromCity1-ToCity1-DepartDate1_null^ToCity1_FromCity1_DepartDate2_SG-2469_U0dGQU1JTFk=_08:15_DepartDate2_09:35_SG_SG_SG_JO~SG_1_0_ToCity1-FromCity1-DepartDate2_null",
+	"journeys": {
+		"FromCity1_ToCity1_DepartDate1": {
+			"segments": {
+				"FromCity1_ToCity1_DepartDate1": {
+					"fltLst": [{
+						"amenitySegmentKey": null,
+						"depInf": {
+							"trml": "1D",
+							"ctCd": "FromCity1",
+							"airp": "Indira Gandhi International Airport",
+							"ctNm": "New FromCity1hi",
+							"arpCd": "FromCity1",
+							"cntr": "India",
+							"tmZn": "Asia/Kolkata",
+							"lat": 28.5665,
+							"long": 77.103088,
+							"cont": "India",
+							"cur": "INR"
+						},
+						"arrInf": {
+							"trml": "",
+							"ctCd": "ToCity1",
+							"airp": "Gaggal Airport",
+							"ctNm": "Dharamshala",
+							"arpCd": "ToCity1",
+							"cntr": "India",
+							"tmZn": "Asia/Kolkata",
+							"lat": 0.0,
+							"long": 0.0,
+							"cont": "Others",
+							"cur": "INR"
+						},
+						"depDt": 1553216700000,
+						"arrDt": 1553221500000,
+						"techStpOvrLst": [],
+						"totDur": 80,
+						"segSlKey": "SG~2468~ ~~FromCity1~03/22/2019 06:35~ToCity1~03/22/2019 07:55~~",
+						"fareSlKey": "0~C~ ~SG~CRTSAVER~1902~~0~2~~X",
+						"mrktArln": "SG",
+						"oprArln": "SG",
+						"equipTyp": "DH8",
+						"equipCd": "DH8",
+						"equipNm": "DH8",
+						"fltNum": "2468",
+						"carierCode": "SG",
+						"bagDtls": [],
+						"avlCntxtLst": [],
+						"availCount": null,
+						"cbcls": "Y",
+						"pnRf": {
+							
+						},
+						"splitPnr": false,
+						"availSrc": null,
+						"suplrNm": null,
+						"ao": [{
+							"at": "MEAL",
+							"isPaid": true
+						}]
+					}],
+					"fr": [{
+						"pxTypFrMap": {
+							"ADULT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-CGST07": 125.0,
+										"TAXCOMPONENT-SGST07": 125.0,
+										"TAXCOMPONENT-RCS": 100.0,
+										"TOT": 5493.0,
+										"TAXCOMPONENT-PSF": 244.0,
+										"TAX": 644.0,
+										"TAXCOMPONENT-TRF": 50.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "C",
+										"cbn": null,
+										"avl": null,
+										"fbc": "CSAVER",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity1",
+										"deptcd": "FromCity1",
+										"prdcls": "RS"
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"CHILD": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-CGST07": 125.0,
+										"TAXCOMPONENT-SGST07": 125.0,
+										"TAXCOMPONENT-RCS": 100.0,
+										"TOT": 5493.0,
+										"TAXCOMPONENT-PSF": 244.0,
+										"TAX": 644.0,
+										"TAXCOMPONENT-TRF": 50.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "C",
+										"cbn": null,
+										"avl": null,
+										"fbc": "CSAVER",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity1",
+										"deptcd": "FromCity1",
+										"prdcls": "RS"
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"INFANT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TOT": 1260.0,
+										"TAX": 60.0
+									}
+								},
+								"segPrdctInf": [],
+								"paxRef": 0
+							}]
+						},
+						"frInfoMap": {
+							"ProductClass": "RS",
+							"OriginalClassOfService": null,
+							"FareType": "0~C~ ~SG~CSAVER~1922~~0~4~~X",
+							"FareStatus": null,
+							"FareBasisCode": "CSAVER",
+							"FareClassOfService": "C"
+						},
+						"subFares": []
+					}],
+					"minFrRl": null,
+					"lfid": null,
+					"aggFltNum": "FromCity1$ToCity1$DepartDate10635$SG-2468",
+					"cur": "INR",
+					"totDur": 80,
+					"rfndbl": null,
+					"sPNR": false,
+					"hldbl": false,
+					"cbn": null,
+					"cbnCls": null,
+					"refAir": "SG",
+					"dep": "FromCity1",
+					"arr": "ToCity1",
+					"offId": null,
+					"credId": "REQ_CREDID1",
+					"jrnySlKey": "SG~2468~ ~~FromCity1~03/22/2019 06:35~ToCity1~03/22/2019 07:55~~",
+					"srvc": "SG",
+					"vc": "SG",
+					"currInfo": {
+						"costCurrency": "INR",
+						"sellCurrency": null,
+						"conversionFactor": null
+					},
+					"signature": null,
+					"rtngId": null
+				}
+			}
+		},
+		"ToCity1_FromCity1_DepartDate2": {
+			"segments": {
+				"ToCity1_FromCity1_DepartDate2": {
+					"fltLst": [{
+						"amenitySegmentKey": null,
+						"depInf": {
+							"trml": "",
+							"ctCd": "ToCity1",
+							"airp": "Gaggal Airport",
+							"ctNm": "Dharamshala",
+							"arpCd": "ToCity1",
+							"cntr": "India",
+							"tmZn": "Asia/Kolkata",
+							"lat": 0.0,
+							"long": 0.0,
+							"cont": "Others",
+							"cur": "INR"
+						},
+						"arrInf": {
+							"trml": "1C",
+							"ctCd": "FromCity1",
+							"airp": "Indira Gandhi International Airport",
+							"ctNm": "New FromCity1hi",
+							"arpCd": "FromCity1",
+							"cntr": "India",
+							"tmZn": "Asia/Kolkata",
+							"lat": 28.5665,
+							"long": 77.103088,
+							"cont": "India",
+							"cur": "INR"
+						},
+						"depDt": 1553827500000,
+						"arrDt": 1553832300000,
+						"techStpOvrLst": [],
+						"totDur": 80,
+						"segSlKey": "SG~2469~ ~~ToCity1~03/29/2019 08:15~FromCity1~03/29/2019 09:35~~",
+						"fareSlKey": "0~F~ ~SG~FRTSAVER~1902~~0~2~~X",
+						"mrktArln": "SG",
+						"oprArln": "SG",
+						"equipTyp": "DH8",
+						"equipCd": "DH8",
+						"equipNm": "DH8",
+						"fltNum": "2469",
+						"carierCode": "SG",
+						"bagDtls": [],
+						"avlCntxtLst": [],
+						"availCount": null,
+						"cbcls": "Y",
+						"pnRf": {
+							
+						},
+						"splitPnr": false,
+						"availSrc": null,
+						"suplrNm": null,
+						"ao": [{
+							"at": "MEAL",
+							"isPaid": true
+						}]
+					}],
+					"fr": [{
+						"pxTypFrMap": {
+							"ADULT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-CGST02": 153.0,
+										"TAXCOMPONENT-RCS": 100.0,
+										"TAXCOMPONENT-SGST02": 153.0,
+										"TOT": 6649.0,
+										"TAXCOMPONENT-PSF": 244.0,
+										"TAX": 650.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "F",
+										"cbn": null,
+										"avl": null,
+										"fbc": "FSAVER",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "FromCity1",
+										"deptcd": "ToCity1",
+										"prdcls": "RS"
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"CHILD": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-CGST02": 153.0,
+										"TAXCOMPONENT-RCS": 100.0,
+										"TAXCOMPONENT-SGST02": 153.0,
+										"TOT": 6649.0,
+										"TAXCOMPONENT-PSF": 244.0,
+										"TAX": 650.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "F",
+										"cbn": null,
+										"avl": null,
+										"fbc": "FSAVER",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "FromCity1",
+										"deptcd": "ToCity1",
+										"prdcls": "RS"
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"INFANT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TOT": 1260.0,
+										"TAX": 60.0
+									}
+								},
+								"segPrdctInf": [],
+								"paxRef": 0
+							}]
+						},
+						"frInfoMap": {
+							"ProductClass": "RS",
+							"OriginalClassOfService": null,
+							"FareType": "0~F~ ~SG~FSAVER~1922~~0~4~~X",
+							"FareStatus": null,
+							"FareBasisCode": "FSAVER",
+							"FareClassOfService": "F"
+						},
+						"subFares": []
+					}],
+					"minFrRl": null,
+					"lfid": null,
+					"aggFltNum": "ToCity1$FromCity1$DepartDate20815$SG-2469",
+					"cur": "INR",
+					"totDur": 80,
+					"rfndbl": null,
+					"sPNR": false,
+					"hldbl": false,
+					"cbn": null,
+					"cbnCls": null,
+					"refAir": "SG",
+					"dep": "ToCity1",
+					"arr": "FromCity1",
+					"offId": null,
+					"credId": "REQ_CREDID1",
+					"jrnySlKey": "SG~2469~ ~~ToCity1~03/29/2019 08:15~FromCity1~03/29/2019 09:35~~",
+					"srvc": "SG",
+					"vc": "SG",
+					"currInfo": {
+						"costCurrency": "INR",
+						"sellCurrency": null,
+						"conversionFactor": null
+					},
+					"signature": null,
+					"rtngId": null
+				}
+			}
+		}
+	},
+	"combinedInfo": {
+		"COMBINED_DATA": {
+			"data": {
+				"splitPNR": null,
+				"REFUNDABLE": null,
+				"officeIds": null,
+				"CABIN_CLASS": null,
+				"IS_PURE": null,
+				"LAST_TKT_DATE": null,
+				"MAX_STOP": null,
+				"HOLDABLE": null,
+				"MAX_LAYOFF_TIME": null,
+				"refferenceAirline": null,
+				"IS_PURE_LCC": null,
+				"VC": null
+			}
+		},
+		"FARE_CHANGE": {
+			"fareStatus": 0,
+			"oldFare": 0.0,
+			"newFare": 11932.0,
+			"totalFareChangeAmount": 26384.0
+		},
+		"RT_FARE": {
+			"rtFareMap": {
+				"FromCity1_ToCity1_DepartDate1-ToCity1_FromCity1_DepartDate2": [{
+					"pxTypFrMap": {
+						"ADULT": [{
+							"frId": 0,
+							"frBrkup": {
+								"frBrkupMap": {
+									"TAXCOMPONENT-CGST07": 123.0,
+									"TAXCOMPONENT-SGST07": 123.0,
+									"TAXCOMPONENT-CGST02": 150.0,
+									"TAXCOMPONENT-RCS": 200.0,
+									"TAXCOMPONENT-SGST02": 150.0,
+									"TOT": 11932.0,
+									"TAXCOMPONENT-PSF": 488.0,
+									"TAX": 1284.0,
+									"TAXCOMPONENT-TRF": 50.0
+								}
+							},
+							"segPrdctInf": [{
+								"lgPrnfo": [{
+									"frId": null,
+									"rb": "C",
+									"cbn": null,
+									"avl": null,
+									"fbc": "CRTSAVER",
+									"frAmt": null,
+									"txAmt": null,
+									"frtyp": [],
+									"brkPnt": null,
+									"arrcd": "ToCity1",
+									"deptcd": "FromCity1",
+									"prdcls": "XA"
+								}]
+							},
+							{
+								"lgPrnfo": [{
+									"frId": null,
+									"rb": "F",
+									"cbn": null,
+									"avl": null,
+									"fbc": "FRTSAVER",
+									"frAmt": null,
+									"txAmt": null,
+									"frtyp": [],
+									"brkPnt": null,
+									"arrcd": "FromCity1",
+									"deptcd": "ToCity1",
+									"prdcls": "XA"
+								}]
+							}],
+							"paxRef": 0
+						}],
+						"CHILD": [{
+							"frId": 0,
+							"frBrkup": {
+								"frBrkupMap": {
+									"TAXCOMPONENT-CGST07": 123.0,
+									"TAXCOMPONENT-SGST07": 123.0,
+									"TAXCOMPONENT-CGST02": 150.0,
+									"TAXCOMPONENT-RCS": 200.0,
+									"TAXCOMPONENT-SGST02": 150.0,
+									"TOT": 11932.0,
+									"TAXCOMPONENT-PSF": 488.0,
+									"TAX": 1284.0,
+									"TAXCOMPONENT-TRF": 50.0
+								}
+							},
+							"segPrdctInf": [{
+								"lgPrnfo": [{
+									"frId": null,
+									"rb": "C",
+									"cbn": null,
+									"avl": null,
+									"fbc": "CRTSAVER",
+									"frAmt": null,
+									"txAmt": null,
+									"frtyp": [],
+									"brkPnt": null,
+									"arrcd": "ToCity1",
+									"deptcd": "FromCity1",
+									"prdcls": "XA"
+								}]
+							},
+							{
+								"lgPrnfo": [{
+									"frId": null,
+									"rb": "F",
+									"cbn": null,
+									"avl": null,
+									"fbc": "FRTSAVER",
+									"frAmt": null,
+									"txAmt": null,
+									"frtyp": [],
+									"brkPnt": null,
+									"arrcd": "FromCity1",
+									"deptcd": "ToCity1",
+									"prdcls": "XA"
+								}]
+							}],
+							"paxRef": 0
+						}],
+						"INFANT": [{
+							"frId": 0,
+							"frBrkup": {
+								"frBrkupMap": {
+									"TOT": 2520.0,
+									"TAX": 120.0
+								}
+							},
+							"segPrdctInf": [],
+							"paxRef": 0
+						}]
+					},
+					"frInfoMap": {
+						"ProductClass": "XA",
+						"FareType": "0~C~ ~SG~CRTSAVER~1902~~0~2~~X",
+						"FareBasisCode": "CRTSAVER",
+						"FareClassOfService": "C"
+					},
+					"subFares": [{
+						"pxTypFrMap": {
+							"ADULT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-CGST07": 123.0,
+										"TAXCOMPONENT-SGST07": 123.0,
+										"TAXCOMPONENT-RCS": 100.0,
+										"TOT": 5389.0,
+										"TAXCOMPONENT-PSF": 244.0,
+										"TAX": 640.0,
+										"TAXCOMPONENT-TRF": 50.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "C",
+										"cbn": null,
+										"avl": null,
+										"fbc": "CRTSAVER",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity1",
+										"deptcd": "FromCity1",
+										"prdcls": "XA"
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"CHILD": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-CGST07": 123.0,
+										"TAXCOMPONENT-SGST07": 123.0,
+										"TAXCOMPONENT-RCS": 100.0,
+										"TOT": 5389.0,
+										"TAXCOMPONENT-PSF": 244.0,
+										"TAX": 640.0,
+										"TAXCOMPONENT-TRF": 50.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "C",
+										"cbn": null,
+										"avl": null,
+										"fbc": "CRTSAVER",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "ToCity1",
+										"deptcd": "FromCity1",
+										"prdcls": "XA"
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"INFANT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TOT": 1260.0,
+										"TAX": 60.0
+									}
+								},
+								"segPrdctInf": [],
+								"paxRef": 0
+							}]
+						},
+						"frInfoMap": {
+							"ProductClass": "XA",
+							"OriginalClassOfService": null,
+							"FareType": "0~C~ ~SG~CRTSAVER~1902~~0~2~~X",
+							"FareStatus": null,
+							"FareBasisCode": "CRTSAVER",
+							"FareClassOfService": "C"
+						},
+						"subFares": []
+					},
+					{
+						"pxTypFrMap": {
+							"ADULT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-CGST02": 150.0,
+										"TAXCOMPONENT-RCS": 100.0,
+										"TAXCOMPONENT-SGST02": 150.0,
+										"TOT": 6543.0,
+										"TAXCOMPONENT-PSF": 244.0,
+										"TAX": 644.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "F",
+										"cbn": null,
+										"avl": null,
+										"fbc": "FRTSAVER",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "FromCity1",
+										"deptcd": "ToCity1",
+										"prdcls": "XA"
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"CHILD": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TAXCOMPONENT-CGST02": 150.0,
+										"TAXCOMPONENT-RCS": 100.0,
+										"TAXCOMPONENT-SGST02": 150.0,
+										"TOT": 6543.0,
+										"TAXCOMPONENT-PSF": 244.0,
+										"TAX": 644.0
+									}
+								},
+								"segPrdctInf": [{
+									"lgPrnfo": [{
+										"frId": null,
+										"rb": "F",
+										"cbn": null,
+										"avl": null,
+										"fbc": "FRTSAVER",
+										"frAmt": null,
+										"txAmt": null,
+										"frtyp": [],
+										"brkPnt": null,
+										"arrcd": "FromCity1",
+										"deptcd": "ToCity1",
+										"prdcls": "XA"
+									}]
+								}],
+								"paxRef": 0
+							}],
+							"INFANT": [{
+								"frId": 0,
+								"frBrkup": {
+									"frBrkupMap": {
+										"TOT": 1260.0,
+										"TAX": 60.0
+									}
+								},
+								"segPrdctInf": [],
+								"paxRef": 0
+							}]
+						},
+						"frInfoMap": {
+							"ProductClass": "XA",
+							"OriginalClassOfService": null,
+							"FareType": "0~F~ ~SG~FRTSAVER~1902~~0~2~~X",
+							"FareStatus": null,
+							"FareBasisCode": "FRTSAVER",
+							"FareClassOfService": "F"
+						},
+						"subFares": []
+					}]
+				}]
+			}
+		},
+		"COMBINED_REVIEW_FARE": {
+			"paxTypeFareBreakUp": {
+				"ADULT": {
+					"totalMarkup": 0.0,
+					"totalDiscount": 0.0,
+					"totalBaseFare": 10648.0,
+					"totalTax": 1284.0,
+					"fareBreakupMap": {
+						"TAXCOMPONENT-CGST07": 123.0,
+						"TAXCOMPONENT-SGST07": 123.0,
+						"TAXCOMPONENT-CGST02": 150.0,
+						"TAXCOMPONENT-RCS": 200.0,
+						"TAXCOMPONENT-SGST02": 150.0,
+						"TOT": 11932.0,
+						"TAXCOMPONENT-PSF": 488.0,
+						"TAX": 1284.0,
+						"TAXCOMPONENT-TRF": 50.0
+					},
+					"totalFare": 11932.0,
+					"paxRef": 0
+				},
+				"CHILD": {
+					"totalMarkup": 0.0,
+					"totalDiscount": 0.0,
+					"totalBaseFare": 10648.0,
+					"totalTax": 1284.0,
+					"fareBreakupMap": {
+						"TAXCOMPONENT-CGST07": 123.0,
+						"TAXCOMPONENT-SGST07": 123.0,
+						"TAXCOMPONENT-CGST02": 150.0,
+						"TAXCOMPONENT-RCS": 200.0,
+						"TAXCOMPONENT-SGST02": 150.0,
+						"TOT": 11932.0,
+						"TAXCOMPONENT-PSF": 488.0,
+						"TAX": 1284.0,
+						"TAXCOMPONENT-TRF": 50.0
+					},
+					"totalFare": 11932.0,
+					"paxRef": 0
+				},
+				"INFANT": {
+					"totalMarkup": 0.0,
+					"totalDiscount": 0.0,
+					"totalBaseFare": 2400.0,
+					"totalTax": 120.0,
+					"fareBreakupMap": {
+						"TOT": 2520.0,
+						"TAX": 120.0
+					},
+					"totalFare": 2520.0,
+					"paxRef": 0
+				}
+			},
+			"combinedFareBreakUp": {
+				"totalMarkup": 0.0,
+				"totalDiscount": 0.0,
+				"totalBaseFare": 23696.0,
+				"totalTax": 2688.0,
+				"fareBreakupMap": {
+					"TAXCOMPONENT-CGST07": 246.0,
+					"TAXCOMPONENT-SGST07": 246.0,
+					"TAXCOMPONENT-CGST02": 300.0,
+					"TAXCOMPONENT-RCS": 400.0,
+					"TAXCOMPONENT-SGST02": 300.0,
+					"TOT": 26384.0,
+					"TAXCOMPONENT-PSF": 976.0,
+					"TAX": 2688.0,
+					"TAXCOMPONENT-TRF": 100.0
+				},
+				"totalFare": 26384.0,
+				"paxRef": null
+			}
+		},
+		"IS_RT": true
+	},
+	"travellerInfo": {
+		"prtPymtEnbld": false,
+		"prtPymtSeltd": false,
+		"prtPymtAmt": null,
+		"searchKey": null,
+		"email": null,
+		"userDetails": null
+	},
+	"trvlrReqdInfo": {
+		"dobReqdForAllPax": false,
+		"dobReqdForInf": true,
+		"dobReqdForChild": false,
+		"ppMandatory": false,
+		"nationalityMandatory": false
+	},
+	"fareBreakUp": {
+		"fareSummary": [{
+			"paxType": "Adult",
+			"noOfPax": 1,
+			"fareDetails": {
+				"discount": 0.0,
+				"taxDetails": {
+					"flightTax": [{
+						"taxValue": 546.0,
+						"taxDescription": "GOODS_SERVICE_TAX",
+						"taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+					},
+					{
+						"taxValue": 488.0,
+						"taxDescription": "PSF",
+						"taxDescriptionMessage": "PSF_DM"
+					},
+					{
+						"taxValue": 50.0,
+						"taxDescription": "TF",
+						"taxDescriptionMessage": "TF_DM"
+					},
+					{
+						"taxValue": 200.0,
+						"taxDescription": "YQ",
+						"taxDescriptionMessage": "YQ_DM"
+					}],
+					"totalTaxAmount": 1284.0
+				},
+				"baseFare": 10648.0,
+				"totalFare": 11932.0
+			}
+		},
+		{
+			"paxType": "Child",
+			"noOfPax": 1,
+			"fareDetails": {
+				"discount": 0.0,
+				"taxDetails": {
+					"flightTax": [{
+						"taxValue": 546.0,
+						"taxDescription": "GOODS_SERVICE_TAX",
+						"taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+					},
+					{
+						"taxValue": 488.0,
+						"taxDescription": "PSF",
+						"taxDescriptionMessage": "PSF_DM"
+					},
+					{
+						"taxValue": 50.0,
+						"taxDescription": "TF",
+						"taxDescriptionMessage": "TF_DM"
+					},
+					{
+						"taxValue": 200.0,
+						"taxDescription": "YQ",
+						"taxDescriptionMessage": "YQ_DM"
+					}],
+					"totalTaxAmount": 1284.0
+				},
+				"baseFare": 10648.0,
+				"totalFare": 11932.0
+			}
+		},
+		{
+			"paxType": "Infant",
+			"noOfPax": 1,
+			"fareDetails": {
+				"discount": 0.0,
+				"taxDetails": {
+					"flightTax": [{
+						"taxValue": 120.0,
+						"taxDescription": "YQ",
+						"taxDescriptionMessage": "YQ_DM"
+					}],
+					"totalTaxAmount": 120.0
+				},
+				"baseFare": 2400.0,
+				"totalFare": 2520.0
+			}
+		}],
+		"taxSummary": {
+			"flightTax": [{
+				"taxValue": 1092.0,
+				"taxDescription": "GOODS_SERVICE_TAX",
+				"taxDescriptionMessage": "GOODS_SERVICE_TAX_DM"
+			},
+			{
+				"taxValue": 976.0,
+				"taxDescription": "PSF",
+				"taxDescriptionMessage": "PSF_DM"
+			},
+			{
+				"taxValue": 100.0,
+				"taxDescription": "TF",
+				"taxDescriptionMessage": "TF_DM"
+			},
+			{
+				"taxValue": 520.0,
+				"taxDescription": "YQ",
+				"taxDescriptionMessage": "YQ_DM"
+			}],
+			"totalTaxAmount": 2688.0
+		},
+		"taxDescMap": {
+			"INF": "Infant Tax",
+			"KKC": "Krishi Kalyan Cess",
+			"AST": "Service Tax",
+			"PSF": "Passenger Service Fee",
+			"DF": "Development Fee",
+			"OTH": "Other",
+			"CF": "Congestion Fee",
+			"GOODS_SERVICE_TAX": "Goods and Services Tax",
+			"TTF": "Travel and Tourism Fee",
+			"GST": "Gvt. Service Fee",
+			"UDFA": "User Development Fee(Arrival)",
+			"TF": "CUTE Fee",
+			"SF": "Service Fee",
+			"RCF": "Regional Connectivity Fund",
+			"SBC": "Swachh Bharat Cess ",
+			"UDF": "User Development Fee",
+			"YQ": "Airline Fuel Charge",
+			"DC": "Discount"
+		}
+	}
+}

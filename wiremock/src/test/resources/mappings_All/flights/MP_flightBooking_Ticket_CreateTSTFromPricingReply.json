@@ -1,0 +1,19 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[{
+        "contains" : "Ticket_CreateTSTFromPricing"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "/flights/MP_flightBooking_Ticket_CreateTSTFromPricingReply.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

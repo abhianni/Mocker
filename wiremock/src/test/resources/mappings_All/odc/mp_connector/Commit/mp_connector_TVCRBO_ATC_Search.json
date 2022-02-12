@@ -1,0 +1,20 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/1ASIWIBEMMT",
+       "bodyPatterns":[{
+        "contains" : "ATCShopperMasterPricerTravelBoardSearch"},
+{		"contains" : "TVCRBO"
+        }]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Commit/ATC_Search_TVCRBO.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}

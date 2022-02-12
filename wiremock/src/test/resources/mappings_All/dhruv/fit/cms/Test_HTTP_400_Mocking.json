@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/cms-service/credentialID",
+        "bodyPatterns":[{	
+        "contains" : "DFITDom_HTTP_400_BAD_REQUEST"
+        }]
+    },
+    "response": {
+        "status": 400
+	}
+}

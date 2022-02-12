@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/search/soa?DhruvNegativeTest_CONNECTION_RESET_BY_PEER",
+        "bodyPatterns":[{
+        "contains" : "DhruvNegativeTest_CONNECTION_RESET_BY_PEER"
+        }]
+    },
+    "response": {
+        "fault": "CONNECTION_RESET_BY_PEER"
+    }
+}

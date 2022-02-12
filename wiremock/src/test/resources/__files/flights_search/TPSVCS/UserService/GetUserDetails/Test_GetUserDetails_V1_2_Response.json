@@ -1,0 +1,22 @@
+{
+    "statusCode": "NOT_FOUND",
+    "status": "FAILED",
+    "errors": [
+        {
+            "statusCode": "NOT_FOUND",
+            "ec": "404",
+            "em": "Error mapping is not configured.",
+            "ed": "",
+            "sn": "Flights-Third-Party-Services",
+            "downStreamErrors": [
+                {
+                    "statusCode": "BAD_REQUEST",
+                    "ec": "400",
+                    "em": "Bad Request",
+                    "ed": "{\"code\":400,\"message\":\"User-Identifier : header value for type : mmt-auth incorrect\"}",
+                    "sn": "userDetail"
+                }
+            ]
+        }
+    ]
+}

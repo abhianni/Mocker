@@ -1,0 +1,18 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/ext/flights/flightsUnification/appSocialLogin",
+		"headers": {
+		"Content-Type" : {"matches" : "application/json; charset=UTF-8"},
+		"Authorization" : {"matches" : "GHIKlYcB6X4xroc"}
+		},
+		"bodyPatterns":[{"contains" : "SocialLoginOne"}]
+		},
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/SocialLoginGetUserDetails/TestCase1_SocialLoginGetUserDetails_Traveler_Response.json"
+    }
+}

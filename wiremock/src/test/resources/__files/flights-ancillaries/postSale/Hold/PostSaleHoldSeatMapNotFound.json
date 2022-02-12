@@ -1,0 +1,15 @@
+{
+  "responseStatus": "Failure",
+  "pnrAmount": [
+    {
+      "pnr": "SMNP6065",
+      "authorizedBalanceDue": 0.0,
+      "totalCost": 0.0,
+      "error": {
+        "ec": "6005",
+        "em": "Seat map not found in cache",
+        "ed": "Seat map was not found in cache for this request. Please check that segment details are correct and fetch availability again to rebuild cache"
+      }
+    }
+  ]
+}

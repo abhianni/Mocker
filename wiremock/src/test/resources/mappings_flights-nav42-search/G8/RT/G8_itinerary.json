@@ -1,0 +1,17 @@
+{
+  "request":{
+	"method": "POST",
+    "url": "/bookingmanager.svc",
+    "bodyPatterns":[
+      {       "contains" : "PriceItineraryRequest"
+      },
+	  {       "contains" : "LKO"
+      }
+    ]
+
+  },
+  "response": {
+    "bodyFileName": "/connector/nav42/G8/RT/G8RT_itineraryPrice.xml"
+
+  }
+}

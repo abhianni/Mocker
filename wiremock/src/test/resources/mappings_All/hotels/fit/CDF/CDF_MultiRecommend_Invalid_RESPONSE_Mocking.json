@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "urlPattern": "/cdf/rest/services/recommendCouponsForMultipleContexts*",
+        "bodyPatterns":[{	
+        "contains" : "FIT_TEST_CDFMultiRecommend_Invalid"
+        }]
+    },
+   "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/hotels/CDF/MultiRecommend_Invalid.json",
+        "transformers": ["body-transformer"]
+    }
+}

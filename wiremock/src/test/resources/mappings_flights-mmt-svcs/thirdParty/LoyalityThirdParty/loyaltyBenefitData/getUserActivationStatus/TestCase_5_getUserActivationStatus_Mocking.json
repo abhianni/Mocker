@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/loyalty-webservice/getUserActivationStatus?.*BL_ACTIVE_moreVerificationRequired.*"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/TPSVCS/LoyalityThirdParty/getUserActivationStatus/TestCase_5_getUserActivationStatus_Response.json"
+    }
+}

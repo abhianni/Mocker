@@ -1,0 +1,16 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/loyalty-webservice/activateUser",
+        "bodyPatterns":[{
+        "contains" : "nexus4047@gmail.com"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/flights/persuasion/Loyalty_activate_api_successful.json"
+    }
+}

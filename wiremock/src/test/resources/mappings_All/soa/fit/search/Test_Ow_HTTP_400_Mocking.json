@@ -1,0 +1,12 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flights-dhruv/search/soa?DhruvNegativeTest_HTTP_400_BAD_REQUEST",
+        "bodyPatterns":[{	
+        "contains" : "DhruvNegativeTest_HTTP_400_BAD_REQUEST"
+        }]
+    },
+    "response": {
+        "status": 400
+	}
+}

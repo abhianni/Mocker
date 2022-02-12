@@ -1,0 +1,14 @@
+{
+  "request":{
+    "method": "GET",
+	"urlPattern": "/flights-mmt-svcs/v1/tp-aggregator/loyalty-benefit-data?.*DOM_RT_ALL_FOR_API.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+	"transformers": ["FlightSOAResponseTransformer"],
+    "bodyFileName": "/flights_search/TPSVCS/preAppliedDiscount/postSearchLoyalityErrorResponse.json"
+  }
+}

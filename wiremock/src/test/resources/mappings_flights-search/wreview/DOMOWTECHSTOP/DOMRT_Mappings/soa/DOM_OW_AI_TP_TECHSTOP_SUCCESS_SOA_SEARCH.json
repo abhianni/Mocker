@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/flightSOA-web/search",
+       "bodyPatterns":[
+{       "contains" : "WRVIEW_DOM_OW_AI_TP_TECHSTOP_SUCCESS"
+}
+]
+
+    },
+    "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+		 "transformers": ["FlightSOAResponseTransformer"],
+        "bodyFileName": "/flights_search/wreview/DOMOWTECHSTOP/soa/DOM_OW_AI_TP_TECHSTOP_SUCCESS_SOA_SEARCH.json"
+		
+    }
+}

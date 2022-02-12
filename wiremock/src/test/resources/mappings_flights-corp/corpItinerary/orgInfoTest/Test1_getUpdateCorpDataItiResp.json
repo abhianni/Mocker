@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/flights-itinerary/v1/itinerary/UID_orgInfoDomTest1.*./CORP_DATA"
+  },
+  "response": {
+        "status": 200,
+		"headers": {
+					"Content-Type": "application/json",
+					"Accept": "application/json"
+				},
+    "bodyFileName": "/corporate/corpItinerary/orgInfoTest/corpUpdateItinerarySuccess.json"
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "11346",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.5",
+    "serviceName": "Pnr-Service",
+    "supplierName": "NAV42",
+    "credentialId": "SGUNICOUP",
+    "supplierLatency": "1361",
+    "corporateCode": "",
+    "promoCode": ""
+  },
+  "flightLookUpList": {
+    "CCJ$DXB$2019-12-23 01:15:00$SG-  53": {
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "  53",
+      "arcrfTyp": "737",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "CCJ",
+        "arpNm": "Calicut Airport"
+      },
+      "arrInfo": {
+        "trmnl": "1",
+        "arpCd": "DXB",
+        "arpNm": "Dubai International"
+      },
+      "tchStp": [],
+      "depTime": "2019-12-23 01:15:00",
+      "arrTime": "2019-12-23 03:55:00",
+      "durInMins": "160"
+    },
+    "DXB$CCJ$2020-01-05 16:20:00$SG-  54": {
+      "mrkAl": "SG",
+      "oprAl": "SG",
+      "fltNo": "  54",
+      "arcrfTyp": "737",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "DXB",
+        "arpNm": "Dubai International"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "arpCd": "CCJ",
+        "arpNm": "Calicut Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-01-05 16:20:00",
+      "arrTime": "2020-01-05 21:30:00",
+      "durInMins": "310"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "CCJ$DXB$2019-12-23 01:15:00$SG-  53",
+      "depDate": "2019-12-23 01:15:00",
+      "arrDate": "2019-12-23 03:55:00",
+      "durInMins": "160",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "CCJ$DXB$2019-12-23 01:15:00$SG-  53",
+        "pnrGroupNum": 0
+      }]
+    }, {
+      "jrnyKey": "DXB$CCJ$2020-01-05 16:20:00$SG-  54",
+      "depDate": "2020-01-05 16:20:00",
+      "arrDate": "2020-01-05 21:30:00",
+      "durInMins": "310",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "DXB$CCJ$2020-01-05 16:20:00$SG-  54",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "ADULT": {
+              "bs": 13797.0,
+              "tx": 3964.0,
+              "noOfPax": 2,
+              "tot": 17761.0,
+              "taxBreakups": [{
+                "amnt": 209.0,
+                "code": "CGST32",
+                "msg": ""
+              }, {
+                "amnt": 1440.0,
+                "code": "PSF",
+                "msg": ""
+              }, {
+                "amnt": 96.0,
+                "code": "AAT",
+                "msg": ""
+              }, {
+                "amnt": 403.0,
+                "code": "ASF",
+                "msg": ""
+              }, {
+                "amnt": 209.0,
+                "code": "SGST32",
+                "msg": ""
+              }, {
+                "amnt": 637.0,
+                "code": "UDF",
+                "msg": ""
+              }, {
+                "amnt": 202.0,
+                "code": "TRF",
+                "msg": ""
+              }, {
+                "amnt": 96.0,
+                "code": "API",
+                "msg": ""
+              }, {
+                "amnt": 672.0,
+                "code": "PFC",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "CCJ$DXB$2019-12-23 01:15:00$SG-  53": {
+                  "fareClass": "C",
+                  "fareBasis": "CFPH",
+                  "productClass": "HR",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": "Default"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 8253.0,
+                    "tx": 1558.0,
+                    "tot": 9811.0,
+                    "taxBreakups": [{
+                      "amnt": 100.0,
+                      "code": "TRF",
+                      "msg": ""
+                    }, {
+                      "amnt": 96.0,
+                      "code": "AAT",
+                      "msg": ""
+                    }, {
+                      "amnt": 403.0,
+                      "code": "ASF",
+                      "msg": ""
+                    }, {
+                      "amnt": 541.0,
+                      "code": "UDF",
+                      "msg": ""
+                    }, {
+                      "amnt": 3.0,
+                      "code": "CGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 206.0,
+                      "code": "CGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 3.0,
+                      "code": "SGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 206.0,
+                      "code": "SGST32",
+                      "msg": ""
+                    }]
+                  }
+                },
+                "DXB$CCJ$2020-01-05 16:20:00$SG-  54": {
+                  "fareClass": "B",
+                  "fareBasis": "BFPH",
+                  "productClass": "HR",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": "Default"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 5544.0,
+                    "tx": 2406.0,
+                    "tot": 7950.0,
+                    "taxBreakups": [{
+                      "amnt": 102.0,
+                      "code": "TRF",
+                      "msg": ""
+                    }, {
+                      "amnt": 96.0,
+                      "code": "API",
+                      "msg": ""
+                    }, {
+                      "amnt": 96.0,
+                      "code": "UDF",
+                      "msg": ""
+                    }, {
+                      "amnt": 672.0,
+                      "code": "PFC",
+                      "msg": ""
+                    }, {
+                      "amnt": 1440.0,
+                      "code": "PSF",
+                      "msg": ""
+                    }]
+                  }
+                }
+              }
+            },
+            "CHILD": {
+              "bs": 13797.0,
+              "tx": 3964.0,
+              "noOfPax": 1,
+              "tot": 17761.0,
+              "taxBreakups": [{
+                "amnt": 209.0,
+                "code": "CGST32",
+                "msg": ""
+              }, {
+                "amnt": 1440.0,
+                "code": "PSF",
+                "msg": ""
+              }, {
+                "amnt": 96.0,
+                "code": "AAT",
+                "msg": ""
+              }, {
+                "amnt": 403.0,
+                "code": "ASF",
+                "msg": ""
+              }, {
+                "amnt": 209.0,
+                "code": "SGST32",
+                "msg": ""
+              }, {
+                "amnt": 637.0,
+                "code": "UDF",
+                "msg": ""
+              }, {
+                "amnt": 202.0,
+                "code": "TRF",
+                "msg": ""
+              }, {
+                "amnt": 96.0,
+                "code": "API",
+                "msg": ""
+              }, {
+                "amnt": 672.0,
+                "code": "PFC",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "CCJ$DXB$2019-12-23 01:15:00$SG-  53": {
+                  "fareClass": "C",
+                  "fareBasis": "CFPH",
+                  "productClass": "HR",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": "Default"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 8253.0,
+                    "tx": 1558.0,
+                    "tot": 9811.0,
+                    "taxBreakups": [{
+                      "amnt": 100.0,
+                      "code": "TRF",
+                      "msg": ""
+                    }, {
+                      "amnt": 96.0,
+                      "code": "AAT",
+                      "msg": ""
+                    }, {
+                      "amnt": 403.0,
+                      "code": "ASF",
+                      "msg": ""
+                    }, {
+                      "amnt": 541.0,
+                      "code": "UDF",
+                      "msg": ""
+                    }, {
+                      "amnt": 3.0,
+                      "code": "CGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 206.0,
+                      "code": "CGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 3.0,
+                      "code": "SGST32",
+                      "msg": ""
+                    }, {
+                      "amnt": 206.0,
+                      "code": "SGST32",
+                      "msg": ""
+                    }]
+                  }
+                },
+                "DXB$CCJ$2020-01-05 16:20:00$SG-  54": {
+                  "fareClass": "B",
+                  "fareBasis": "BFPH",
+                  "productClass": "HR",
+                  "baggageInfo": {
+                    "cabinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 0,
+                      "weightUnit": "Default"
+                    }
+                  },
+                  "cabin": "ECONOMY",
+                  "sgFare": {
+                    "bs": 5544.0,
+                    "tx": 2406.0,
+                    "tot": 7950.0,
+                    "taxBreakups": [{
+                      "amnt": 102.0,
+                      "code": "TRF",
+                      "msg": ""
+                    }, {
+                      "amnt": 96.0,
+                      "code": "API",
+                      "msg": ""
+                    }, {
+                      "amnt": 96.0,
+                      "code": "UDF",
+                      "msg": ""
+                    }, {
+                      "amnt": 672.0,
+                      "code": "PFC",
+                      "msg": ""
+                    }, {
+                      "amnt": 1440.0,
+                      "code": "PSF",
+                      "msg": ""
+                    }]
+                  }
+                }
+              }
+            },
+            "INFANT": {
+              "bs": 4762.0,
+              "tx": 120.0,
+              "noOfPax": 1,
+              "tot": 4882.0,
+              "taxBreakups": [{
+                "amnt": 60.0,
+                "code": "CGST32",
+                "msg": ""
+              }, {
+                "amnt": 60.0,
+                "code": "SGST32",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "CCJ$DXB$2019-12-23 01:15:00$SG-  53": {
+                  "fareClass": "C",
+                  "fareBasis": "CFPH",
+                  "productClass": "HR",
+                  "cabin": "ECONOMY"
+                },
+                "DXB$CCJ$2020-01-05 16:20:00$SG-  54": {
+                  "fareClass": "B",
+                  "fareBasis": "BFPH",
+                  "productClass": "HR",
+                  "cabin": "ECONOMY"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 46153.0,
+            "tx": 12012.0,
+            "tot": 58165.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "V54SSB",
+          "aPnr": "",
+          "travelerAddons": {
+            "0": {
+              "ptcType": "ADULT",
+              "flightLevelAddons": {
+                "CCJ$DXB$2019-12-23 01:15:00$SG-  53": {
+                  "addons": {
+                    "AD_NOT_SET": {
+                      "addonsType": "AD_NOT_SET",
+                      "amount": 50.0,
+                      "code": "BVG"
+                    }
+                  }
+                },
+                "DXB$CCJ$2020-01-05 16:20:00$SG-  54": {
+                  "addons": {
+                    "AD_NOT_SET": {
+                      "addonsType": "AD_NOT_SET",
+                      "amount": 196.0,
+                      "code": "NVSW"
+                    }
+                  }
+                }
+              }
+            },
+            "1": {
+              "ptcType": "ADULT",
+              "flightLevelAddons": {
+                "CCJ$DXB$2019-12-23 01:15:00$SG-  53": {
+                  "addons": {
+                    "AD_NOT_SET": {
+                      "addonsType": "AD_NOT_SET",
+                      "amount": 50.0,
+                      "code": "BVG"
+                    }
+                  }
+                },
+                "DXB$CCJ$2020-01-05 16:20:00$SG-  54": {
+                  "addons": {
+                    "AD_NOT_SET": {
+                      "addonsType": "AD_NOT_SET",
+                      "amount": 196.0,
+                      "code": "NVSW"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "ptcType": "CHILD",
+              "flightLevelAddons": {
+                "DXB$CCJ$2020-01-05 16:20:00$SG-  54": {
+                  "addons": {
+                    "AD_NOT_SET": {
+                      "addonsType": "AD_NOT_SET",
+                      "amount": 50.0,
+                      "code": "BVG"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "travelerInfos": [{
+            "id": "0",
+            "title": "MR",
+            "paxId": "0",
+            "firstName": "AKHIL",
+            "middleName": "",
+            "lastName": "SASIDHARAN",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "AKHILNAMBAR84@GMAIL.COM",
+            "mobileNumber": "919847700009",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "1984-04-09 00:00:00",
+            "nationality": "IN",
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "CHD",
+            "paxId": "0",
+            "firstName": "GAURA",
+            "middleName": "",
+            "lastName": "AKHIL",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "",
+            "mobileNumber": "",
+            "mobileNumberCountryCode": "",
+            "paxType": "INFANT",
+            "dateOfBirth": "2019-03-13 00:00:00",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "MS",
+            "paxId": "1",
+            "firstName": "SRUTHI",
+            "middleName": "",
+            "lastName": "AKHIL",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "AKHILNAMBAR84@GMAIL.COM",
+            "mobileNumber": "919847700009",
+            "mobileNumberCountryCode": "",
+            "paxType": "ADULT",
+            "dateOfBirth": "1992-03-21 00:00:00",
+            "nationality": "IN",
+            "freqFlierInformation": []
+          }, {
+            "id": "3",
+            "title": "MS",
+            "paxId": "2",
+            "firstName": "RUDRA",
+            "middleName": "",
+            "lastName": "AKHIL",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "AKHILNAMBAR84@GMAIL.COM",
+            "mobileNumber": "919847700009",
+            "mobileNumberCountryCode": "",
+            "paxType": "CHILD",
+            "dateOfBirth": "2015-10-30 00:00:00",
+            "nationality": "IN",
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [],
+          "validatingCarrier": "SG",
+          "creationDate": "2019-11-10 22:59:57",
+          "fareFamily": "",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

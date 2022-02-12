@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-persuasion/persuasionElements",
+        "bodyPatterns":[{
+        "contains" : "PersonalisationNegativeTestHTTP400BADREQUEST"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 1000,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/aggregator/persuasion/Test_Persuasion_V1_Response.json"
+    }
+}

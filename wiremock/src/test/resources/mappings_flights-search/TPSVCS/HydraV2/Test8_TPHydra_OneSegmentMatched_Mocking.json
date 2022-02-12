@@ -1,0 +1,23 @@
+{
+    "request":{
+        "method": "GET",
+        "urlPattern": "/flights-mmt-svcs/v2/hydra-segment?.*OneSegmentHV2.*",
+        "headers": {
+        "x-uuid" : {"matches" : "UFULKJ5CVMK" },
+        "x-profile-type" : {"matches" : "PERSONAL" },
+        "x-pfm" : {"matches" : "ANDROID" },
+        "x-src" : {"matches" : "MMT" },
+        "x-os" : {"matches" : "android" },
+        "x-lob" : {"matches" : "B2C" },
+        "x-app-ver" : {"matches" : "7.2.6" },
+        "x-device-id" : {"matches" : "e84ffd812a289dd5" }
+    }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/flights_search/TPSVCS/HydraV2/Test_TPSVC_Hydra_V2_1_Response.json"
+    }
+}

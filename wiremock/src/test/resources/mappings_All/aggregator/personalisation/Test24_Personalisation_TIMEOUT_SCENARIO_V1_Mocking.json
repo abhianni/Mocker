@@ -1,0 +1,17 @@
+{
+    "request":{
+        "method": "POST",
+        "url": "/Flights-personalization/pricePersonalizationInfo",
+        "bodyPatterns":[{
+        "contains" : "PersonalisationNegativeTestTIMEOUTSCENARIO"
+        }]
+    },
+    "response": {
+        "status": 200,
+		"fixedDelayMilliseconds": 15000,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "/aggregator/personalisation/Test24_Personalisation_TIMEOUT_SCENARIO_V1_Response.json"
+    }
+}

@@ -1,0 +1,372 @@
+{
+  "status": "SUCCESS",
+  "metaData": {
+    "currency": "INR",
+    "apiLatency": "1935",
+    "traceInfo": {},
+    "ipAddress": "172.17.0.11",
+    "serviceName": "Pnr-Service",
+    "supplierName": "TP",
+    "credentialId": "TPUNI_INTL",
+    "supplierLatency": "1880",
+    "corporateCode": "",
+    "promoCode": ""
+  },
+  "flightLookUpList": {
+    "AUH$BOM$2020-03-05 01:35$AI-946": {
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "946",
+      "arcrfTyp": "32B",
+      "depInfo": {
+        "trmnl": "1",
+        "arpCd": "AUH",
+        "arpNm": "Abu Dhabi Intl"
+      },
+      "arrInfo": {
+        "trmnl": "2",
+        "arpCd": "BOM",
+        "arpNm": "Chhatrapati Shivaji International Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-03-05 01:35",
+      "arrTime": "2020-03-05 05:50",
+      "durInMins": "165"
+    },
+    "BOM$PAT$2020-03-05 10:10$AI-673": {
+      "mrkAl": "AI",
+      "oprAl": "AI",
+      "fltNo": "673",
+      "arcrfTyp": "",
+      "depInfo": {
+        "trmnl": "",
+        "arpCd": "BOM",
+        "arpNm": "Chhatrapati Shivaji International Airport"
+      },
+      "arrInfo": {
+        "trmnl": "",
+        "arpCd": "PAT",
+        "arpNm": "Lok Nayak Jayaprakash Airport"
+      },
+      "tchStp": [],
+      "depTime": "2020-03-05 10:10",
+      "arrTime": "2020-03-05 12:10",
+      "durInMins": "120"
+    }
+  },
+  "bookingInfo": {
+    "journeys": [{
+      "jrnyKey": "AUH$BOM$2020-03-05 01:35$AI-946|BOM$PAT$2020-03-05 10:10$AI-673",
+      "depDate": "2020-03-05 01:35",
+      "arrDate": "2020-03-05 12:10",
+      "durInMins": "545",
+      "flightDtlsInfo": [{
+        "fltLookUpKey": "AUH$BOM$2020-03-05 01:35$AI-946",
+        "pnrGroupNum": 0
+      }, {
+        "fltLookUpKey": "BOM$PAT$2020-03-05 10:10$AI-673",
+        "pnrGroupNum": 0
+      }]
+    }],
+    "frInfo": {
+      "pnrGrpdFrInfo": {
+        "0": {
+          "status": "SUCCESS",
+          "paxFares": {
+            "INFANT": {
+              "bs": 1945.0,
+              "tx": 0.0,
+              "noOfPax": 1,
+              "tot": 1945.0,
+              "taxBreakups": [],
+              "segPrdctInfo": {
+                "AUH$BOM$2020-03-05 01:35$AI-946": {
+                  "fareClass": "G",
+                  "fareBasis": "GLOWAE/I",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 10,
+                      "weightUnit": "KILOGRAMS"
+                    }
+                  },
+                  "cabin": "Economy"
+                },
+                "BOM$PAT$2020-03-05 10:10$AI-673": {
+                  "fareClass": "Q",
+                  "fareBasis": "GLOWAE/I",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 10,
+                      "weightUnit": "KILOGRAMS"
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            },
+            "CHILD": {
+              "bs": 12240.0,
+              "tx": 1958.0,
+              "noOfPax": 1,
+              "tot": 14198.0,
+              "taxBreakups": [{
+                "amnt": 5.0,
+                "code": "AE",
+                "msg": ""
+              }, {
+                "amnt": 3.0,
+                "code": "F6",
+                "msg": ""
+              }, {
+                "amnt": 1950.0,
+                "code": "OD",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "AUH$BOM$2020-03-05 01:35$AI-946": {
+                  "fareClass": "G",
+                  "fareBasis": "GLOWAE/C",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 40,
+                      "weightUnit": "KILOGRAMS"
+                    }
+                  },
+                  "cabin": "Economy"
+                },
+                "BOM$PAT$2020-03-05 10:10$AI-673": {
+                  "fareClass": "Q",
+                  "fareBasis": "GLOWAE/C",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 40,
+                      "weightUnit": "KILOGRAMS"
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            },
+            "ADULT": {
+              "bs": 12240.0,
+              "tx": 1958.0,
+              "noOfPax": 2,
+              "tot": 14198.0,
+              "taxBreakups": [{
+                "amnt": 5.0,
+                "code": "AE",
+                "msg": ""
+              }, {
+                "amnt": 3.0,
+                "code": "F6",
+                "msg": ""
+              }, {
+                "amnt": 1950.0,
+                "code": "OD",
+                "msg": ""
+              }],
+              "segPrdctInfo": {
+                "AUH$BOM$2020-03-05 01:35$AI-946": {
+                  "fareClass": "G",
+                  "fareBasis": "GLOWAE",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 40,
+                      "weightUnit": "KILOGRAMS"
+                    }
+                  },
+                  "cabin": "Economy"
+                },
+                "BOM$PAT$2020-03-05 10:10$AI-673": {
+                  "fareClass": "Q",
+                  "fareBasis": "GLOWAE",
+                  "productClass": "",
+                  "baggageInfo": {
+                    "checkinBag": {
+                      "numOfPieces": 1,
+                      "weightPerPiece": 40,
+                      "weightUnit": "KILOGRAMS"
+                    }
+                  },
+                  "cabin": "Economy"
+                }
+              }
+            }
+          },
+          "totFr": {
+            "bs": 38665.0,
+            "tx": 5874.0,
+            "tot": 44539.0
+          },
+          "rfndStatus": "RS_NOT_SET",
+          "pnrKey": "",
+          "sPnr": "F81VCS",
+          "aPnr": "JJHA7T",
+          "travelerAddons": {},
+          "travelerInfos": [{
+            "id": "0",
+            "title": "MR",
+            "paxId": "",
+            "firstName": "Mohammad Haroon",
+            "middleName": "",
+            "lastName": "Shahid",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "hshahid09@gmail.com",
+            "mobileNumber": "7091663793",
+            "mobileNumberCountryCode": "91",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "1",
+            "title": "Ms",
+            "paxId": "",
+            "firstName": "Izfa",
+            "middleName": "",
+            "lastName": "Haroon",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "hshahid09@gmail.com",
+            "mobileNumber": "7091663793",
+            "mobileNumberCountryCode": "91",
+            "paxType": "INFANT",
+            "dateOfBirth": "10APR19",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "2",
+            "title": "Ms",
+            "paxId": "",
+            "firstName": "Nida",
+            "middleName": "",
+            "lastName": "Fatma",
+            "mealPreference": "",
+            "gender": "FEMALE",
+            "emailId": "hshahid09@gmail.com",
+            "mobileNumber": "7091663793",
+            "mobileNumberCountryCode": "91",
+            "paxType": "ADULT",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }, {
+            "id": "3",
+            "title": "Mstr",
+            "paxId": "",
+            "firstName": "Mohammad Ibrahim",
+            "middleName": "",
+            "lastName": "Haroon",
+            "mealPreference": "",
+            "gender": "MALE",
+            "emailId": "hshahid09@gmail.com",
+            "mobileNumber": "7091663793",
+            "mobileNumberCountryCode": "91",
+            "paxType": "CHILD",
+            "dateOfBirth": "",
+            "nationality": "",
+            "freqFlierInformation": []
+          }],
+          "ticketInfos": [{
+            "travellerId": "0",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983755995892",
+            "ticketType": "E",
+            "status": "X",
+            "issuingDate": "2020-01-04 20:08",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": true
+          }, {
+            "travellerId": "0",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983757804934",
+            "ticketType": "E",
+            "status": "S",
+            "issuingDate": "2020-01-04 20:08",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "1",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983755995893",
+            "ticketType": "E",
+            "status": "X",
+            "issuingDate": "2020-01-04 20:08",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": true
+          }, {
+            "travellerId": "1",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983757804960",
+            "ticketType": "E",
+            "status": "S",
+            "issuingDate": "2020-01-04 20:08",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "2",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983755995894",
+            "ticketType": "E",
+            "status": "X",
+            "issuingDate": "2020-01-04 20:08",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": true
+          }, {
+            "travellerId": "2",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983757804965",
+            "ticketType": "E",
+            "status": "S",
+            "issuingDate": "2020-01-04 20:08",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }, {
+            "travellerId": "3",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983755995895",
+            "ticketType": "E",
+            "status": "X",
+            "issuingDate": "2020-01-04 20:08",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": true
+          }, {
+            "travellerId": "3",
+            "issuingAirline": "AI",
+            "ticketNumber": "0983757804985",
+            "ticketType": "E",
+            "status": "S",
+            "issuingDate": "2020-01-04 20:08",
+            "iataCode": "",
+            "issuingAgent": "1G",
+            "dateChange": false
+          }],
+          "validatingCarrier": "AI",
+          "creationDate": "2020-01-04 20:00",
+          "fareFamily": "Economy Basic",
+          "accountCode": ""
+        }
+      }
+    },
+    "paxTypeAddonStatus": {}
+  },
+  "err": []
+}

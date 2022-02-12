@@ -1,0 +1,21 @@
+{
+    "request":{
+        "method": "POST",
+        
+       "bodyPatterns":[{
+        "contains" : "Air_SellFromRecommendation"},
+{"contains": "TVCRBO"
+}
+		]
+
+
+
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"/odc/mp_connector/Commit/Air_SellFromRecommendation_TVCRBO.xml",
+"headers": {
+            "Content-Type": "text/xml"
+        }
+    }
+}
